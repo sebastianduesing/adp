@@ -1,0 +1,18 @@
+This repository contains code intended to process distinct age data. The file "age_queried.tsv"
+contains that data. The scripts folder contains the following two scripts:
+
+NORMALIZE.PY
+normalize.py preprocesses the queried data and outputs age_normalized.tsv. Right now it just
+lowercases the age field and converts en- and em-dashes to hyphens, but it might do more later.
+
+AGE_PROCESS.PY
+age_process.py intakes age_normalized.tsv and sorts the free-text data into columns for specified 
+age, minimum age, maximum age, age unit, and age comment. It produces three output files:
+	- age_output.tsv, which contains all data contained in the original file;
+	- age_sorted.tsv, which contains only the data that could be processed/sorted by the script; and
+	- age_unsorted.tsv, which contains only the data that could not be processed/sorted by the script 
+	  and will need to be manually sorted.
+Each file has an index column which contains a unique identifier that is the same across all three 
+TSVs, e.g., #400 on age_output.tsv is the same line of data as #400 on age_sorted.tsv.
+
+More coming soon...
