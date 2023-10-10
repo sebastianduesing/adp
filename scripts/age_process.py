@@ -372,11 +372,14 @@ def main(
 if __name__ == "__main__":
     input_file = sys.argv[1]
     synonyms = sys.argv[2]
+    all_out = sys.argv[3]
+    sorted_out = sys.argv[4]
+    unsorted_out = sys.argv[5]
     main(
         input_file,
         regexes,
-        "age_output.tsv",
-        "age_unsorted.tsv",
-        "age_sorted.tsv",
+        all_out,
+        sorted_out,
+        unsorted_out,
         synonyms,
         )
