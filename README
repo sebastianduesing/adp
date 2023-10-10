@@ -15,4 +15,10 @@ age, minimum age, maximum age, age unit, and age comment. It produces three outp
 Each file has an index column which contains a unique identifier that is the same across all three 
 TSVs, e.g., #400 on age_output.tsv is the same line of data as #400 on age_sorted.tsv.
 
+The makefile contains two simple commands to make running these scripts easier, as each take
+several arguments.
+
+"make process" runs normalize.py and then age_process.py
+"make clean" deletes any output files.
+
 More coming soon...
