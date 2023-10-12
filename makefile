@@ -2,7 +2,7 @@
 .PHONY : process
 process :
 	python3 scripts/normalize.py age_queried.tsv outputs/age_normalized.tsv
-	python3 scripts/age_process.py outputs/age_normalized.tsv age_unit_synonyms.tsv outputs/age_output.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv
+	python3 scripts/age_process.py outputs/age_normalized.tsv outputs/age_output.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv age_unit_synonyms.tsv
 
 # Updates the curated reference TSV based on the manually-curated TSV.
 .PHONY : update-curated
