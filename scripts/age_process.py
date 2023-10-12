@@ -316,8 +316,8 @@ def main(
     queried_TSV,
     regex_list,
     output_path_alldata,
-    output_path_unsorted,
     output_path_sorted,
+    output_path_unsorted,
     synonym_TSV,
 ):
     syndict = unitSynonyms(synonym_TSV)

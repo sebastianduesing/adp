@@ -1,20 +1,9 @@
 h_age	h_organism_id	h_organism_name	age_specified	age_minimum	age_maximum	age_unit	age_comment	index
-adults (pregnant)	9606	Homo sapiens (human)						34
-adults (40 year-old average)	9606	Homo sapiens (human)						77
 11 or 18 weeks	10000025	Mus musculus Biozzi AB/H						141
 5, 11 or 18 weeks	10000632	Mus musculus NOD						152
 mean 54 years (range 19-68)	9606	Homo sapiens (human)						177
 11 or 18 weeks	10000637	Mus musculus NODasp						208
-10.5 years avg.	9606	Homo sapiens (human)						292
-18-64 years)	9606	Homo sapiens (human)						298
-at least 8 weeks old	10000000	Mus musculus BALB/c						307
-8 weeks or older	10000067	Mus musculus C57BL/6						313
-2 months or older	10000000	Mus musculus BALB/c						320
-35.4 yrs average	9606	Homo sapiens (human)						330
-6 months-1.1 year	9606	Homo sapiens (human)						334
-4 months- 4 years	9606	Homo sapiens (human)						338
 5, 8, 11 or 18 weeks	10000632	Mus musculus NOD						346
-10 years and older	9606	Homo sapiens (human)						412
 1 month-old-81 years-old	9606	Homo sapiens (human)						426
 children (mean age 7.2 years)	9606	Homo sapiens (human)						505
 5 months-3 years	9606	Homo sapiens (human)						542
