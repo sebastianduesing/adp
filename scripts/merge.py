@@ -34,9 +34,18 @@ def dictToTSV(xdict, path):
 
 
 def merge(curatedDict, sortedDict, unsortedDict):
+    newSorted = {}
+    maxRows = len(curatedDict.keys()) + len(sortedDict.keys())
     for (index, row) in curatedDict.items():
-        sortedDict[index] = row
         del unsortedDict[index]
+    i = 0
+    while i <= maxRows:
+        if i in curatedDict.keys():
+            newSorted[i] = curatedDict[i]
+        elif i in sortedDict.keys():
+            newSorted[i] = sortedDict[i]
+        i += 1
+    sortedDict = newSorted
     return curatedDict, sortedDict, unsortedDict
 
 
