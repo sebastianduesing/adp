@@ -19,6 +19,10 @@ The makefile contains two simple commands to make running these scripts easier, 
 several arguments.
 
 "make process" runs normalize.py and then age_process.py
+"make update-curated" updates the curated reference TSV (curation/curated.tsv) based on the
+manually-curated TSV (curation/manual.tsv).
+"make merge" merges manually curated rows from curated.tsv into sorted/unsorted TSVs, outputting
+outputs/merge_sorted.tsv and outputs/merge_unsorted.tsv.
 "make clean" deletes any output files.
 
 More coming soon...
