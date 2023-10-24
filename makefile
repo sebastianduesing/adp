@@ -12,7 +12,7 @@ update-curated :
 # Merges manually curated rows from curated.tsv to a sorted TSV and removes them from an unsorted TSV.
 .PHONY : merge
 merge :
-	python3 scripts/merge.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merge_sorted.tsv outputs/merge_unsorted.tsv
+	python3 scripts/curate.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merged.tsv outputs/unsortable.tsv
 
 # Removes output TSVs.
 .PHONY : clean
