@@ -35,7 +35,7 @@ adult (within 24 hours of parturition)	9606	Homo sapiens (human)					adult (with
 5 or 6 weeks	10090	Mus musculus (mouse)		5	6	week		1034
 6 weeks or older	10090	Mus musculus (mouse)		6		week		1038
 18, 35 years	9606	Homo sapiens (human)		18	35	year		1062
-7 yo 8 weeks	10000576	Mus musculus HLA-A*02:01 Tg						1074
+7 yo 8 weeks	10000576	Mus musculus HLA-A*02:01 Tg		7	8	week		1074
 5 or 8 weeks	10000632	Mus musculus NOD		5	8	week		1078
 35.4 yrs. average	9606	Homo sapiens (human)	35.4			year	average	1091
 2 months to 52 years	9606	Homo sapiens (human)		0.167	52	year		1134
@@ -148,8 +148,8 @@ mean age 35 +/- 11 years	9606	Homo sapiens (human)	35	24	46	year		3847
 neonates (3 or 7 days)	10000067	Mus musculus C57BL/6		3	7	day		4077
 neonates (3 days)	10000067	Mus musculus C57BL/6	3					4083
 29 and 53 years	9606	Homo sapiens (human)		29	53	year		4094
-6 yo 8 weeks	10000000	Mus musculus BALB/c						4107
-6 yo 8 weeks	10000067	Mus musculus C57BL/6						4108
+6 yo 8 weeks	10000000	Mus musculus BALB/c		6	8	week		4107
+6 yo 8 weeks	10000067	Mus musculus C57BL/6		6	8	week		4108
 22 to >60 years	9606	Homo sapiens (human)		22		year		4135
 12-16 weeks or 18-22 months	10000067	Mus musculus C57BL/6		12	95.6	week		4150
 18 years or older	9606	Homo sapiens (human)		18		year		4165
