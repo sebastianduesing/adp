@@ -65,7 +65,7 @@ def preprocess(queried_TSV):
         preprocessed_dict = {}
         errorlist = []
         for row in reader:
-            datum = row["h_age"]
+            datum = row["age_normalized"]
             if "errors" in row.keys():
                 print(f"Error: '{datum}'")
                 errorlist.append(index)
@@ -124,7 +124,7 @@ def sortByRegex(input_dict, regex_list):
         regex = re.compile(regex)
 
         for index, row in pdict.items():
-            age = row["h_age"]
+            age = row["age_normalized"]
             m = re.match(regex, age)
             if m:
                 dictx[index] = row
@@ -163,7 +163,7 @@ def sortAge1(dict_library):
 
     main = dict_library["Dict 1"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         line["age_specified"] = float(age)
 
 
@@ -174,7 +174,7 @@ def sortAge2(dict_library):
 
     main = dict_library["Dict 2"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         line["age_comment"] = age
 
 
@@ -185,7 +185,7 @@ def sortAge3(dict_library, syndict):
 
     main = dict_library["Dict 3"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageData = re.findall(r"(\d+\.*\d*)", age)
         unitData = re.findall(r"([A-Za-z]+)", age)
         unitData = normalizeUnit(unitData[0], syndict)
@@ -202,7 +202,7 @@ def sortAge4(dict_library, syndict):
 
     main = dict_library["Dict 4"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageData = re.findall(r"(\d+\.*\d*)", age)
         unitData = re.findall(r"([A-Za-z]+)", age)
         unitData = normalizeUnit(unitData[1], syndict)
@@ -219,7 +219,7 @@ def sortAge5(dict_library):
 
     main = dict_library["Dict 5"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageData = re.findall(r"(\d+\.*\d*)", age)
 
         line["age_minimum"] = float(ageData[0])
@@ -233,7 +233,7 @@ def sortAge6(dict_library, syndict):
 
     main = dict_library["Dict 6"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageData = re.findall(r"(\d+\.*\d*)", age)
         unitData = re.findall(r"([A-Za-z]+)", age)
         unitData = normalizeUnit(unitData[0], syndict)
@@ -250,7 +250,7 @@ def sortAge7(dict_library, syndict):
 
     main = dict_library["Dict 7"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageData = re.findall(r"(\d+\.*\d*)", age)
         unitData = re.findall(r"([A-Za-z]+)", age)
         unitData = normalizeUnit(unitData[0], syndict)
@@ -269,7 +269,7 @@ def sortAge8(dict_library, syndict):
 
     main = dict_library["Dict 8"]
     for i, line in main.items():
-        age = line["h_age"]
+        age = line["age_normalized"]
         ageUnit = re.findall(r"\d+\.?\d*[-\s]*[A-Za-z]+", age)
         ageNoUnit = re.findall(r"\d+\.?\d*", age)
         textData = re.findall(r"[A-Za-z]+", age)

@@ -10,6 +10,7 @@ def normalize(string):
     string = string.replace(r"—", r"-")
     return string
 
+
 def main(input, output):
     with open(input, "r", encoding="UTF-8") as infile:
         reader = csv.DictReader(infile, delimiter="\t", restkey="errors")
@@ -33,10 +34,10 @@ def main(input, output):
             for (index, row) in data.items():
                 datum = row["h_age"]
                 datum = normalize(datum)
-                row["h_age"] = datum
+                row["age_normalized"] = datum
         else:
             print("Malformed lines found. Process terminated.")
-        fieldnames = ("h_age", "h_organism_id", "h_organism_name")
+        fieldnames = ("h_age", "h_organism_id", "h_organism_name", "age_normalized")
         with open(output, "w", newline="\n") as outfile:
             writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter="\t")
             writer.writeheader()
