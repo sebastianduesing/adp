@@ -12,8 +12,8 @@ At least 8 weeks old	10000000	Mus musculus BALB/c	at least 8 weeks old						307
 2 months or older	10000000	Mus musculus BALB/c	2 months or older						320
 35.4 yrs average	9606	Homo sapiens (human)	35.4 yrs average						330
 6 months-1.1 year	9606	Homo sapiens (human)	6 months-1.1 year						334
-4 months- 4 years	9606	Homo sapiens (human)	4 months- 4 years						338
-5, 8, 11 or 18 weeks	10000632	Mus musculus NOD	5, 8, 11 or 18 weeks						346
+4 months- 4 years	9606	Homo sapiens (human)	4 months- 4 years						337
+5, 8, 11 or 18 weeks	10000632	Mus musculus NOD	5, 8, 11 or 18 weeks						345
 10 years and older	9606	Homo sapiens (human)	10 years and older						412
 1 month-old-81 years-old	9606	Homo sapiens (human)	1 month-old-81 years-old						426
 Children (mean age 7.2 years)	9606	Homo sapiens (human)	children (mean age 7.2 years)						505
@@ -171,191 +171,190 @@ Mean age of 32.2 years with a range from 18 to 49 years	9606	Homo sapiens (human
 58.8 ± 17.4	9606	Homo sapiens (human)	58.8 ± 17.4						4439
 3 months- 17 years	9606	Homo sapiens (human)	3 months- 17 years						4452
 1 day to 40 years	9606	Homo sapiens (human)	1 day to 40 years						4528
-over 12 weeks	10000632	Mus musculus NOD	over 12 weeks						4652
-60+ years	9606	Homo sapiens (human)	60+ years						4660
-7 months to 44 years	9606	Homo sapiens (human)	7 months to 44 years						4668
-4-18+ years	9606	Homo sapiens (human)	4-18+ years						4773
-55 years (mean)	9606	Homo sapiens (human)	55 years (mean)						4777
-14 and younger	9606	Homo sapiens (human)	14 and younger						4833
-More than 15 years	9606	Homo sapiens (human)	more than 15 years						4850
-2-day to 6-week old	10000000	Mus musculus BALB/c	2-day to 6-week old						4864
-6-24 mo of age	9606	Homo sapiens (human)	6-24 mo of age						4870
-56.3 +/- 12.8 years	9606	Homo sapiens (human)	56.3 +/- 12.8 years						4888
-2 to >20 years	9606	Homo sapiens (human)	2 to >20 years						4895
-3 months to 7 years	9606	Homo sapiens (human)	3 months to 7 years						4959
-up to 12 weeks old	10000047	Mus musculus C57BL/10	up to 12 weeks old						4965
-Younger than 35 years	9606	Homo sapiens (human)	younger than 35 years						4969
-Children <5 years old	9606	Homo sapiens (human)	children <5 years old						4988
-8 weeks or 12 months	10000000	Mus musculus BALB/c	8 weeks or 12 months						5005
-2 and 64 years	9606	Homo sapiens (human)	2 and 64 years						5027
-16 weeks-40 years	9606	Homo sapiens (human)	16 weeks-40 years						5034
-35.5 +/- 12.8 years	9606	Homo sapiens (human)	35.5 +/- 12.8 years						5085
-65 and 74 years old	9606	Homo sapiens (human)	65 and 74 years old						5105
-up to 12 weeks old	10000263	Mus musculus B10.BR	up to 12 weeks old						5120
-up to 12 weeks old	10090	Mus musculus (mouse)	up to 12 weeks old						5125
-2 months to 14 years	9606	Homo sapiens (human)	2 months to 14 years						5141
-Adult (pregnant)	9606	Homo sapiens (human)	adult (pregnant)						5200
-6 months to 3 years	9606	Homo sapiens (human)	6 months to 3 years						5214
-birth - 5 years	9606	Homo sapiens (human)	birth - 5 years						5223
-Neonates (infected mothers or PM)	9606	Homo sapiens (human)	neonates (infected mothers or pm)						5228
-Adult (18-49)	9606	Homo sapiens (human)	adult (18-49)						5260
-39 +/- 2.4 years	9606	Homo sapiens (human)	39 +/- 2.4 years						5316
-Child (5-11)	9606	Homo sapiens (human)	child (5-11)						5318
-6 months to 53 years	9606	Homo sapiens (human)	6 months to 53 years						5320
-Average age of 37 years	9606	Homo sapiens (human)	average age of 37 years						5321
-40.0±13.7 years	9606	Homo sapiens (human)	40.0±13.7 years						5365
-14.4±3.8  years	9606	Homo sapiens (human)	14.4±3.8  years						5366
-39.88 ± 10.13	9606	Homo sapiens (human)	39.88 ± 10.13						5372
-39.18 ± 6.77	9606	Homo sapiens (human)	39.18 ± 6.77						5377
-27.4 ± 16.2 years	9606	Homo sapiens (human)	27.4 ± 16.2 years						5392
-8 mo to 35 years	9606	Homo sapiens (human)	8 mo to 35 years						5421
-7 months to 14 years	9606	Homo sapiens (human)	7 months to 14 years						5425
-14 +/- 3 years	10000195	Capra hircus Saanen	14 +/- 3 years						5446
->/= 18 years	9606	Homo sapiens (human)	>/= 18 years						5448
-62.8 ± 10 years	9606	Homo sapiens (human)	62.8 ± 10 years						5452
-2 months-12 years	9606	Homo sapiens (human)	2 months-12 years						5453
-69 ± 15 years	9606	Homo sapiens (human)	69 ± 15 years						5464
-60 ± 15 years	9606	Homo sapiens (human)	60 ± 15 years						5465
-37 ± 14 years	9606	Homo sapiens (human)	37 ± 14 years						5466
-35 years mean age	9606	Homo sapiens (human)	35 years mean age						5468
-62 ± 12 years	9606	Homo sapiens (human)	62 ± 12 years						5475
-55 ± 12 years	9606	Homo sapiens (human)	55 ± 12 years						5479
-38.15 ± 6.5	9606	Homo sapiens (human)	38.15 ± 6.5						5483
-14.4±3.8 years	9606	Homo sapiens (human)	14.4±3.8 years						5485
-39 ± 15	9606	Homo sapiens (human)	39 ± 15						5499
-Mean age = 41.7 ± 15.1 years	9606	Homo sapiens (human)	mean age = 41.7 ± 15.1 years						5504
-Mean age = 39.8 ± 13.3 years	9606	Homo sapiens (human)	mean age = 39.8 ± 13.3 years						5511
-33.7±4.6 years	9606	Homo sapiens (human)	33.7±4.6 years						5513
-42.3 ± 16.4 years	9606	Homo sapiens (human)	42.3 ± 16.4 years						5519
-33.4±6 years	9606	Homo sapiens (human)	33.4±6 years						5521
-6 months - 47 years	9606	Homo sapiens (human)	6 months - 47 years						5522
-35.5±8.1 years	9606	Homo sapiens (human)	35.5±8.1 years						5527
-mean age of 39.9 years	9606	Homo sapiens (human)	mean age of 39.9 years						5543
-8.5 +/- 3.3 years	9606	Homo sapiens (human)	8.5 +/- 3.3 years						5556
-18 +/- 11 years	9606	Homo sapiens (human)	18 +/- 11 years						5563
-Mean age = 58±12 years	9606	Homo sapiens (human)	mean age = 58±12 years						5606
-BALB/c	10000000	Mus musculus BALB/c	balb/c						5624
-newborns - 29 years	9606	Homo sapiens (human)	newborns - 29 years						5630
-1 year 5 months to 15 years 8 months	9606	Homo sapiens (human)	1 year 5 months to 15 years 8 months						5632
-6 days to 7  months	10000639	Mus musculus NZB	6 days to 7  months						5647
-3 weeks - 6 months	9796	Equus caballus (domestic horse)	3 weeks - 6 months						5664
-3 months to 11 years	9606	Homo sapiens (human)	3 months to 11 years						5672
-adult, >32 years	9606	Homo sapiens (human)	adult, >32 years						5697
-48.6 +/- 13.5 years	9606	Homo sapiens (human)	48.6 +/- 13.5 years						5719
-3 weeks-15 years	9606	Homo sapiens (human)	3 weeks-15 years						5748
-Mean=8.4 ± 4.3	9606	Homo sapiens (human)	mean=8.4 ± 4.3						5751
-6 months - 9 years	9606	Homo sapiens (human)	6 months - 9 years						5766
-adults, >32 years	9606	Homo sapiens (human)	adults, >32 years						5784
-elderly > 70 years	9606	Homo sapiens (human)	elderly > 70 years						5787
-3 months to 64 years	9606	Homo sapiens (human)	3 months to 64 years						5790
-7 months - 9 years	9606	Homo sapiens (human)	7 months - 9 years						5797
-3 months to 2 years	9606	Homo sapiens (human)	3 months to 2 years						5799
-4 months-30 years	9606	Homo sapiens (human)	4 months-30 years						5829
-4 months-15 years	9606	Homo sapiens (human)	4 months-15 years						5833
-21, 27 and 36 weeks	10001405	Mus musculus NZB X NZW	21, 27 and 36 weeks						5914
-Within 1 week after birth	9606	Homo sapiens (human)	within 1 week after birth						5926
-40.6 +/- 11.4 years	9606	Homo sapiens (human)	40.6 +/- 11.4 years						5963
-under 7 years	9606	Homo sapiens (human)	under 7 years						5967
-75.9 +/- 7.5 years	9606	Homo sapiens (human)	75.9 +/- 7.5 years						6007
-31and 73 years	9606	Homo sapiens (human)	31and 73 years						6020
-Less than 20 years	9606	Homo sapiens (human)	less than 20 years						6040
-2 and 6 years	9615	Canis lupus familiaris (dogs)	2 and 6 years						6050
-21 months-45 years	9606	Homo sapiens (human)	21 months-45 years						6058
-52.7 +/- 10 years	9606	Homo sapiens (human)	52.7 +/- 10 years						6090
-48 +/- 12 years	9606	Homo sapiens (human)	48 +/- 12 years						6092
-66.6 +/- 7.4 years	9606	Homo sapiens (human)	66.6 +/- 7.4 years						6099
-31.63 +/- 1.37 years	9606	Homo sapiens (human)	31.63 +/- 1.37 years						6112
-36.1 years (mean)	9606	Homo sapiens (human)	36.1 years (mean)						6113
-55 ± 27 years	9606	Homo sapiens (human)	55 ± 27 years						6114
-24.92 +/- 0.84	9606	Homo sapiens (human)	24.92 +/- 0.84						6115
-43.62 +/- 1.07 years	9606	Homo sapiens (human)	43.62 +/- 1.07 years						6123
-100 day fetus	10001726	Sus scrofa Miniature Minnesota	100 day fetus						6125
-48 ± 8 years	9606	Homo sapiens (human)	48 ± 8 years						6146
-51.4 +/- 18 years	9606	Homo sapiens (human)	51.4 +/- 18 years						6147
-29 +/- 9 days	9913	Bos taurus (bovine)	29 +/- 9 days						6148
-Mean age of 54. 04	9606	Homo sapiens (human)	mean age of 54. 04						6154
-72.5±5.2 years	9606	Homo sapiens (human)	72.5±5.2 years						6161
-72.3±6.7 years	9606	Homo sapiens (human)	72.3±6.7 years						6162
-36.47 +/- 12.46 years	9606	Homo sapiens (human)	36.47 +/- 12.46 years						6172
-40.15 +/- 8.8 years	9606	Homo sapiens (human)	40.15 +/- 8.8 years						6173
-53 +/- 11 years	9606	Homo sapiens (human)	53 +/- 11 years						6181
-25 years mean age	9606	Homo sapiens (human)	25 years mean age						6218
-Mean age: 32.56 years	9606	Homo sapiens (human)	mean age: 32.56 years						6229
-Mean age: 34 years	9606	Homo sapiens (human)	mean age: 34 years						6230
-39.0 +/- 13.8 years	9606	Homo sapiens (human)	39.0 +/- 13.8 years						6254
-44.1 +/- 13.2 years	9606	Homo sapiens (human)	44.1 +/- 13.2 years						6264
-41.5 +/- 9.8 years	9606	Homo sapiens (human)	41.5 +/- 9.8 years						6265
-31.7+/-4.5	9606	Homo sapiens (human)	31.7+/-4.5						6266
-37.0 +/- 12.6 years	9606	Homo sapiens (human)	37.0 +/- 12.6 years						6268
-31.6+/-5.4	9606	Homo sapiens (human)	31.6+/-5.4						6269
-8 +/- 3 years	9606	Homo sapiens (human)	8 +/- 3 years						6277
-38+/- 11 years	9606	Homo sapiens (human)	38+/- 11 years						6283
-70 +/- 9 years	9606	Homo sapiens (human)	70 +/- 9 years						6290
-1 year 8 months to 68 years	9606	Homo sapiens (human)	1 year 8 months to 68 years						6295
-0.7 to 20.9 years (median = 11.0)	9606	Homo sapiens (human)	0.7 to 20.9 years (median = 11.0)						6323
-36.2 +/- 8.9 years	9606	Homo sapiens (human)	36.2 +/- 8.9 years						6327
-58.4 +/- 14.3 years	9606	Homo sapiens (human)	58.4 +/- 14.3 years						6352
-<42-79 years	9606	Homo sapiens (human)	<42-79 years						6354
-1 month - 13 years	9606	Homo sapiens (human)	1 month - 13 years						6357
-6 or 12 months	10001286	Mus musculus APPswe/PSEN1	6 or 12 months						6369
-42.18+/-13.23	9606	Homo sapiens (human)	42.18+/-13.23						6378
-44.94+/-15.65	9606	Homo sapiens (human)	44.94+/-15.65						6379
-1 day to 103 years	9606	Homo sapiens (human)	1 day to 103 years						6403
-23.2 +/- 5.7 years	9606	Homo sapiens (human)	23.2 +/- 5.7 years						6409
-60.9 +/- 11 years	9606	Homo sapiens (human)	60.9 +/- 11 years						6413
-59.4 +/- 5.4 years	9606	Homo sapiens (human)	59.4 +/- 5.4 years						6414
-43 t0 53 months	9483	Callithrix jacchus (common marmoset)	43 t0 53 months						6422
-1 to 5 years or > 15 years	9606	Homo sapiens (human)	1 to 5 years or > 15 years						6433
-mean age 3-4 years	9606	Homo sapiens (human)	mean age 3-4 years						6438
-9.42 +/- 3.84 years	9606	Homo sapiens (human)	9.42 +/- 3.84 years						6446
-6.94 +/- 3.58 years	9606	Homo sapiens (human)	6.94 +/- 3.58 years						6447
-11 +/- 7 years	9606	Homo sapiens (human)	11 +/- 7 years						6450
-12.9 +/- 7.7 years	9606	Homo sapiens (human)	12.9 +/- 7.7 years						6451
-12.8 +/- 8 years	9606	Homo sapiens (human)	12.8 +/- 8 years						6452
-13.6 +/- 6.8 years	9606	Homo sapiens (human)	13.6 +/- 6.8 years						6453
-22.7 +/- 14 years	9606	Homo sapiens (human)	22.7 +/- 14 years						6454
-14.1 +/- 12 years	9606	Homo sapiens (human)	14.1 +/- 12 years						6455
-9.6 +/- 3.1 years	9606	Homo sapiens (human)	9.6 +/- 3.1 years						6456
-14.3 +/- 5.7 years	9606	Homo sapiens (human)	14.3 +/- 5.7 years						6458
-23.8 +/- 2.3 years	9606	Homo sapiens (human)	23.8 +/- 2.3 years						6459
-50.3 years median age	9606	Homo sapiens (human)	50.3 years median age						6466
-56.5 years median age	9606	Homo sapiens (human)	56.5 years median age						6467
-55.9 +/- 19.2 years	9606	Homo sapiens (human)	55.9 +/- 19.2 years						6472
-37.9 +/- 6.5 years	9606	Homo sapiens (human)	37.9 +/- 6.5 years						6477
-37.6 +/- 11.0 years	9606	Homo sapiens (human)	37.6 +/- 11.0 years						6478
-6 weeks and 18 months	10000000	Mus musculus BALB/c	6 weeks and 18 months						6493
-53.7 +/- 11.2	9606	Homo sapiens (human)	53.7 +/- 11.2						6497
-58.8 +/- 8.7	9606	Homo sapiens (human)	58.8 +/- 8.7						6498
-55.7 +/- 5.7	9606	Homo sapiens (human)	55.7 +/- 5.7						6510
-49.5 +/- 7.5	9606	Homo sapiens (human)	49.5 +/- 7.5						6511
-43 +/- 12 years	9606	Homo sapiens (human)	43 +/- 12 years						6579
-36 +/- 10 years	9606	Homo sapiens (human)	36 +/- 10 years						6584
-median age: 7.5 years	9606	Homo sapiens (human)	median age: 7.5 years						6591
-over 18 years	10000119	Homo sapiens Caucasian	over 18 years						6611
-46.7 yeas (mean)	9606	Homo sapiens (human)	46.7 yeas (mean)						6630
-1 day to 6 months	9823	Sus scrofa (pig)	1 day to 6 months						6660
-2 months - 12 years	9606	Homo sapiens (human)	2 months - 12 years						6695
-52 years old on average	9606	Homo sapiens (human)	52 years old on average						6703
-36.8 years (mean)	9606	Homo sapiens (human)	36.8 years (mean)						6714
-8 months to 54 years	9606	Homo sapiens (human)	8 months to 54 years						6735
-11 months - 55 years	9606	Homo sapiens (human)	11 months - 55 years						6737
-42 +/- 8.1 years	9606	Homo sapiens (human)	42 +/- 8.1 years						6761
-at least 2 months	10000206	Oryctolagus cuniculus New Zealand White	at least 2 months						6768
-18-38 years, with an average of 22 years	9606	Homo sapiens (human)	18-38 years, with an average of 22 years						6770
-47 +/- 4.5 years	9606	Homo sapiens (human)	47 +/- 4.5 years						6778
-51 and 66 years	9606	Homo sapiens (human)	51 and 66 years						6823
-born before 1968	9606	Homo sapiens (human)	born before 1968						6845
-68.5 +/- 16.4 years	9606	Homo sapiens (human)	68.5 +/- 16.4 years						6875
-Over 50 years	9606	Homo sapiens (human)	over 50 years						6902
-1.5 months to 40 years	9606	Homo sapiens (human)	1.5 months to 40 years						6904
-17 months - 4 years	9606	Homo sapiens (human)	17 months - 4 years						6907
-3 months to 15 years	9606	Homo sapiens (human)	3 months to 15 years						6926
-7 months to 10 years	9606	Homo sapiens (human)	7 months to 10 years						6928
-mean 13. 8 years	9606	Homo sapiens (human)	mean 13. 8 years						6952
-1 month - 4 years	9606	Homo sapiens (human)	1 month - 4 years						6996
-3 months to 25 years	9606	Homo sapiens (human)	3 months to 25 years						7009
->/= 15 years	9606	Homo sapiens (human)	>/= 15 years						7010
-4 days - 9 months	9606	Homo sapiens (human)	4 days - 9 months						7075
-6 months to 5 years	9606	Homo sapiens (human)	6 months to 5 years						7085
-5 months to 5 years	9606	Homo sapiens (human)	5 months to 5 years						7089
-6 months to 15 years	9606	Homo sapiens (human)	6 months to 15 years						7090
+over 12 weeks	10000632	Mus musculus NOD	over 12 weeks						4651
+60+ years	9606	Homo sapiens (human)	60+ years						4659
+7 months to 44 years	9606	Homo sapiens (human)	7 months to 44 years						4667
+4-18+ years	9606	Homo sapiens (human)	4-18+ years						4772
+55 years (mean)	9606	Homo sapiens (human)	55 years (mean)						4776
+14 and younger	9606	Homo sapiens (human)	14 and younger						4839
+More than 15 years	9606	Homo sapiens (human)	more than 15 years						4856
+2-day to 6-week old	10000000	Mus musculus BALB/c	2-day to 6-week old						4870
+6-24 mo of age	9606	Homo sapiens (human)	6-24 mo of age						4876
+56.3 +/- 12.8 years	9606	Homo sapiens (human)	56.3 +/- 12.8 years						4894
+2 to >20 years	9606	Homo sapiens (human)	2 to >20 years						4901
+3 months to 7 years	9606	Homo sapiens (human)	3 months to 7 years						4965
+up to 12 weeks old	10000047	Mus musculus C57BL/10	up to 12 weeks old						4971
+Younger than 35 years	9606	Homo sapiens (human)	younger than 35 years						4975
+Children <5 years old	9606	Homo sapiens (human)	children <5 years old						4994
+8 weeks or 12 months	10000000	Mus musculus BALB/c	8 weeks or 12 months						5011
+2 and 64 years	9606	Homo sapiens (human)	2 and 64 years						5033
+16 weeks-40 years	9606	Homo sapiens (human)	16 weeks-40 years						5040
+35.5 +/- 12.8 years	9606	Homo sapiens (human)	35.5 +/- 12.8 years						5091
+65 and 74 years old	9606	Homo sapiens (human)	65 and 74 years old						5110
+up to 12 weeks old	10000263	Mus musculus B10.BR	up to 12 weeks old						5125
+up to 12 weeks old	10090	Mus musculus (mouse)	up to 12 weeks old						5130
+2 months to 14 years	9606	Homo sapiens (human)	2 months to 14 years						5146
+Adult (pregnant)	9606	Homo sapiens (human)	adult (pregnant)						5205
+6 months to 3 years	9606	Homo sapiens (human)	6 months to 3 years						5220
+birth - 5 years	9606	Homo sapiens (human)	birth - 5 years						5230
+Neonates (infected mothers or PM)	9606	Homo sapiens (human)	neonates (infected mothers or pm)						5235
+Adult (18-49)	9606	Homo sapiens (human)	adult (18-49)						5267
+39 +/- 2.4 years	9606	Homo sapiens (human)	39 +/- 2.4 years						5324
+Child (5-11)	9606	Homo sapiens (human)	child (5-11)						5326
+6 months to 53 years	9606	Homo sapiens (human)	6 months to 53 years						5328
+Average age of 37 years	9606	Homo sapiens (human)	average age of 37 years						5329
+40.0±13.7 years	9606	Homo sapiens (human)	40.0±13.7 years						5373
+14.4±3.8  years	9606	Homo sapiens (human)	14.4±3.8  years						5374
+39.88 ± 10.13	9606	Homo sapiens (human)	39.88 ± 10.13						5380
+39.18 ± 6.77	9606	Homo sapiens (human)	39.18 ± 6.77						5385
+27.4 ± 16.2 years	9606	Homo sapiens (human)	27.4 ± 16.2 years						5400
+8 mo to 35 years	9606	Homo sapiens (human)	8 mo to 35 years						5429
+7 months to 14 years	9606	Homo sapiens (human)	7 months to 14 years						5433
+14 +/- 3 years	10000195	Capra hircus Saanen	14 +/- 3 years						5454
+>/= 18 years	9606	Homo sapiens (human)	>/= 18 years						5456
+62.8 ± 10 years	9606	Homo sapiens (human)	62.8 ± 10 years						5460
+2 months-12 years	9606	Homo sapiens (human)	2 months-12 years						5461
+69 ± 15 years	9606	Homo sapiens (human)	69 ± 15 years						5472
+60 ± 15 years	9606	Homo sapiens (human)	60 ± 15 years						5473
+37 ± 14 years	9606	Homo sapiens (human)	37 ± 14 years						5474
+35 years mean age	9606	Homo sapiens (human)	35 years mean age						5476
+62 ± 12 years	9606	Homo sapiens (human)	62 ± 12 years						5483
+55 ± 12 years	9606	Homo sapiens (human)	55 ± 12 years						5487
+38.15 ± 6.5	9606	Homo sapiens (human)	38.15 ± 6.5						5491
+14.4±3.8 years	9606	Homo sapiens (human)	14.4±3.8 years						5493
+39 ± 15	9606	Homo sapiens (human)	39 ± 15						5507
+Mean age = 41.7 ± 15.1 years	9606	Homo sapiens (human)	mean age = 41.7 ± 15.1 years						5512
+Mean age = 39.8 ± 13.3 years	9606	Homo sapiens (human)	mean age = 39.8 ± 13.3 years						5519
+33.7±4.6 years	9606	Homo sapiens (human)	33.7±4.6 years						5521
+42.3 ± 16.4 years	9606	Homo sapiens (human)	42.3 ± 16.4 years						5527
+33.4±6 years	9606	Homo sapiens (human)	33.4±6 years						5529
+6 months - 47 years	9606	Homo sapiens (human)	6 months - 47 years						5530
+35.5±8.1 years	9606	Homo sapiens (human)	35.5±8.1 years						5535
+mean age of 39.9 years	9606	Homo sapiens (human)	mean age of 39.9 years						5551
+8.5 +/- 3.3 years	9606	Homo sapiens (human)	8.5 +/- 3.3 years						5564
+18 +/- 11 years	9606	Homo sapiens (human)	18 +/- 11 years						5571
+Mean age = 58±12 years	9606	Homo sapiens (human)	mean age = 58±12 years						5614
+newborns - 29 years	9606	Homo sapiens (human)	newborns - 29 years						5637
+1 year 5 months to 15 years 8 months	9606	Homo sapiens (human)	1 year 5 months to 15 years 8 months						5639
+6 days to 7  months	10000639	Mus musculus NZB	6 days to 7  months						5654
+3 weeks - 6 months	9796	Equus caballus (domestic horse)	3 weeks - 6 months						5671
+3 months to 11 years	9606	Homo sapiens (human)	3 months to 11 years						5679
+adult, >32 years	9606	Homo sapiens (human)	adult, >32 years						5704
+48.6 +/- 13.5 years	9606	Homo sapiens (human)	48.6 +/- 13.5 years						5726
+3 weeks-15 years	9606	Homo sapiens (human)	3 weeks-15 years						5755
+Mean=8.4 ± 4.3	9606	Homo sapiens (human)	mean=8.4 ± 4.3						5758
+6 months - 9 years	9606	Homo sapiens (human)	6 months - 9 years						5773
+adults, >32 years	9606	Homo sapiens (human)	adults, >32 years						5791
+elderly > 70 years	9606	Homo sapiens (human)	elderly > 70 years						5794
+3 months to 64 years	9606	Homo sapiens (human)	3 months to 64 years						5797
+7 months - 9 years	9606	Homo sapiens (human)	7 months - 9 years						5804
+3 months to 2 years	9606	Homo sapiens (human)	3 months to 2 years						5806
+4 months-30 years	9606	Homo sapiens (human)	4 months-30 years						5836
+4 months-15 years	9606	Homo sapiens (human)	4 months-15 years						5840
+21, 27 and 36 weeks	10001405	Mus musculus NZB X NZW	21, 27 and 36 weeks						5920
+Within 1 week after birth	9606	Homo sapiens (human)	within 1 week after birth						5932
+40.6 +/- 11.4 years	9606	Homo sapiens (human)	40.6 +/- 11.4 years						5969
+under 7 years	9606	Homo sapiens (human)	under 7 years						5973
+75.9 +/- 7.5 years	9606	Homo sapiens (human)	75.9 +/- 7.5 years						6013
+31and 73 years	9606	Homo sapiens (human)	31and 73 years						6026
+Less than 20 years	9606	Homo sapiens (human)	less than 20 years						6046
+2 and 6 years	9615	Canis lupus familiaris (dogs)	2 and 6 years						6056
+21 months-45 years	9606	Homo sapiens (human)	21 months-45 years						6064
+52.7 +/- 10 years	9606	Homo sapiens (human)	52.7 +/- 10 years						6096
+48 +/- 12 years	9606	Homo sapiens (human)	48 +/- 12 years						6098
+66.6 +/- 7.4 years	9606	Homo sapiens (human)	66.6 +/- 7.4 years						6105
+31.63 +/- 1.37 years	9606	Homo sapiens (human)	31.63 +/- 1.37 years						6118
+36.1 years (mean)	9606	Homo sapiens (human)	36.1 years (mean)						6119
+55 ± 27 years	9606	Homo sapiens (human)	55 ± 27 years						6120
+24.92 +/- 0.84	9606	Homo sapiens (human)	24.92 +/- 0.84						6121
+43.62 +/- 1.07 years	9606	Homo sapiens (human)	43.62 +/- 1.07 years						6129
+100 day fetus	10001726	Sus scrofa Miniature Minnesota	100 day fetus						6131
+48 ± 8 years	9606	Homo sapiens (human)	48 ± 8 years						6152
+51.4 +/- 18 years	9606	Homo sapiens (human)	51.4 +/- 18 years						6153
+29 +/- 9 days	9913	Bos taurus (bovine)	29 +/- 9 days						6154
+Mean age of 54. 04	9606	Homo sapiens (human)	mean age of 54. 04						6160
+72.5±5.2 years	9606	Homo sapiens (human)	72.5±5.2 years						6167
+72.3±6.7 years	9606	Homo sapiens (human)	72.3±6.7 years						6168
+36.47 +/- 12.46 years	9606	Homo sapiens (human)	36.47 +/- 12.46 years						6178
+40.15 +/- 8.8 years	9606	Homo sapiens (human)	40.15 +/- 8.8 years						6179
+53 +/- 11 years	9606	Homo sapiens (human)	53 +/- 11 years						6186
+25 years mean age	9606	Homo sapiens (human)	25 years mean age						6223
+Mean age: 32.56 years	9606	Homo sapiens (human)	mean age: 32.56 years						6234
+Mean age: 34 years	9606	Homo sapiens (human)	mean age: 34 years						6235
+39.0 +/- 13.8 years	9606	Homo sapiens (human)	39.0 +/- 13.8 years						6259
+44.1 +/- 13.2 years	9606	Homo sapiens (human)	44.1 +/- 13.2 years						6269
+41.5 +/- 9.8 years	9606	Homo sapiens (human)	41.5 +/- 9.8 years						6270
+31.7+/-4.5	9606	Homo sapiens (human)	31.7+/-4.5						6271
+37.0 +/- 12.6 years	9606	Homo sapiens (human)	37.0 +/- 12.6 years						6273
+31.6+/-5.4	9606	Homo sapiens (human)	31.6+/-5.4						6274
+8 +/- 3 years	9606	Homo sapiens (human)	8 +/- 3 years						6282
+38+/- 11 years	9606	Homo sapiens (human)	38+/- 11 years						6288
+70 +/- 9 years	9606	Homo sapiens (human)	70 +/- 9 years						6295
+1 year 8 months to 68 years	9606	Homo sapiens (human)	1 year 8 months to 68 years						6300
+0.7 to 20.9 years (median = 11.0)	9606	Homo sapiens (human)	0.7 to 20.9 years (median = 11.0)						6328
+36.2 +/- 8.9 years	9606	Homo sapiens (human)	36.2 +/- 8.9 years						6332
+58.4 +/- 14.3 years	9606	Homo sapiens (human)	58.4 +/- 14.3 years						6357
+<42-79 years	9606	Homo sapiens (human)	<42-79 years						6359
+1 month - 13 years	9606	Homo sapiens (human)	1 month - 13 years						6362
+6 or 12 months	10001286	Mus musculus APPswe/PSEN1	6 or 12 months						6374
+42.18+/-13.23	9606	Homo sapiens (human)	42.18+/-13.23						6383
+44.94+/-15.65	9606	Homo sapiens (human)	44.94+/-15.65						6384
+1 day to 103 years	9606	Homo sapiens (human)	1 day to 103 years						6408
+23.2 +/- 5.7 years	9606	Homo sapiens (human)	23.2 +/- 5.7 years						6414
+60.9 +/- 11 years	9606	Homo sapiens (human)	60.9 +/- 11 years						6418
+59.4 +/- 5.4 years	9606	Homo sapiens (human)	59.4 +/- 5.4 years						6419
+43 t0 53 months	9483	Callithrix jacchus (common marmoset)	43 t0 53 months						6427
+1 to 5 years or > 15 years	9606	Homo sapiens (human)	1 to 5 years or > 15 years						6438
+mean age 3-4 years	9606	Homo sapiens (human)	mean age 3-4 years						6443
+9.42 +/- 3.84 years	9606	Homo sapiens (human)	9.42 +/- 3.84 years						6451
+6.94 +/- 3.58 years	9606	Homo sapiens (human)	6.94 +/- 3.58 years						6452
+11 +/- 7 years	9606	Homo sapiens (human)	11 +/- 7 years						6455
+12.9 +/- 7.7 years	9606	Homo sapiens (human)	12.9 +/- 7.7 years						6456
+12.8 +/- 8 years	9606	Homo sapiens (human)	12.8 +/- 8 years						6457
+13.6 +/- 6.8 years	9606	Homo sapiens (human)	13.6 +/- 6.8 years						6458
+22.7 +/- 14 years	9606	Homo sapiens (human)	22.7 +/- 14 years						6459
+14.1 +/- 12 years	9606	Homo sapiens (human)	14.1 +/- 12 years						6460
+9.6 +/- 3.1 years	9606	Homo sapiens (human)	9.6 +/- 3.1 years						6461
+14.3 +/- 5.7 years	9606	Homo sapiens (human)	14.3 +/- 5.7 years						6462
+23.8 +/- 2.3 years	9606	Homo sapiens (human)	23.8 +/- 2.3 years						6463
+50.3 years median age	9606	Homo sapiens (human)	50.3 years median age						6470
+56.5 years median age	9606	Homo sapiens (human)	56.5 years median age						6471
+55.9 +/- 19.2 years	9606	Homo sapiens (human)	55.9 +/- 19.2 years						6476
+37.9 +/- 6.5 years	9606	Homo sapiens (human)	37.9 +/- 6.5 years						6481
+37.6 +/- 11.0 years	9606	Homo sapiens (human)	37.6 +/- 11.0 years						6482
+6 weeks and 18 months	10000000	Mus musculus BALB/c	6 weeks and 18 months						6497
+53.7 +/- 11.2	9606	Homo sapiens (human)	53.7 +/- 11.2						6501
+58.8 +/- 8.7	9606	Homo sapiens (human)	58.8 +/- 8.7						6502
+55.7 +/- 5.7	9606	Homo sapiens (human)	55.7 +/- 5.7						6514
+49.5 +/- 7.5	9606	Homo sapiens (human)	49.5 +/- 7.5						6515
+43 +/- 12 years	9606	Homo sapiens (human)	43 +/- 12 years						6583
+36 +/- 10 years	9606	Homo sapiens (human)	36 +/- 10 years						6588
+median age: 7.5 years	9606	Homo sapiens (human)	median age: 7.5 years						6595
+over 18 years	10000119	Homo sapiens Caucasian	over 18 years						6615
+46.7 yeas (mean)	9606	Homo sapiens (human)	46.7 yeas (mean)						6634
+1 day to 6 months	9823	Sus scrofa (pig)	1 day to 6 months						6665
+2 months - 12 years	9606	Homo sapiens (human)	2 months - 12 years						6700
+52 years old on average	9606	Homo sapiens (human)	52 years old on average						6708
+36.8 years (mean)	9606	Homo sapiens (human)	36.8 years (mean)						6719
+8 months to 54 years	9606	Homo sapiens (human)	8 months to 54 years						6739
+11 months - 55 years	9606	Homo sapiens (human)	11 months - 55 years						6741
+42 +/- 8.1 years	9606	Homo sapiens (human)	42 +/- 8.1 years						6765
+at least 2 months	10000206	Oryctolagus cuniculus New Zealand White	at least 2 months						6772
+18-38 years, with an average of 22 years	9606	Homo sapiens (human)	18-38 years, with an average of 22 years						6774
+47 +/- 4.5 years	9606	Homo sapiens (human)	47 +/- 4.5 years						6782
+51 and 66 years	9606	Homo sapiens (human)	51 and 66 years						6827
+born before 1968	9606	Homo sapiens (human)	born before 1968						6848
+68.5 +/- 16.4 years	9606	Homo sapiens (human)	68.5 +/- 16.4 years						6878
+Over 50 years	9606	Homo sapiens (human)	over 50 years						6905
+1.5 months to 40 years	9606	Homo sapiens (human)	1.5 months to 40 years						6907
+17 months - 4 years	9606	Homo sapiens (human)	17 months - 4 years						6910
+3 months to 15 years	9606	Homo sapiens (human)	3 months to 15 years						6929
+7 months to 10 years	9606	Homo sapiens (human)	7 months to 10 years						6931
+mean 13. 8 years	9606	Homo sapiens (human)	mean 13. 8 years						6956
+1 month - 4 years	9606	Homo sapiens (human)	1 month - 4 years						7002
+3 months to 25 years	9606	Homo sapiens (human)	3 months to 25 years						7015
+>/= 15 years	9606	Homo sapiens (human)	>/= 15 years						7016
+4 days - 9 months	9606	Homo sapiens (human)	4 days - 9 months						7084
+6 months to 5 years	9606	Homo sapiens (human)	6 months to 5 years						7094
+5 months to 5 years	9606	Homo sapiens (human)	5 months to 5 years						7098
+6 months to 15 years	9606	Homo sapiens (human)	6 months to 15 years						7099
