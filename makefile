@@ -14,6 +14,11 @@ update-curated :
 merge :
 	python3 scripts/curate.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merged.tsv outputs/unsortable.tsv
 
+# Makes human-readable versions of the sorted data from merge.tsv.
+.PHONY : readable
+readable :
+	python3 scripts/interpret.py outputs/merged.tsv outputs/typed.tsv
+
 # Removes output TSVs.
 .PHONY : clean
 clean :
