@@ -53,7 +53,8 @@ def typeAge(xdict):
         "range": [False, True, True, False],
         "lower_limit": [False, True, False, False],
         "upper_limit": [False, False, True, False],
-        "range_with_mean": [True, True, True, True]
+        "range_with_mean": [True, True, True, True],
+        "null": [False, False, False, False]
     }
     for index, row in xdict.items():
         row["age_type"] = "other"
@@ -91,7 +92,8 @@ def makeReadable(xdict):
             "lower_limit": f""">{age_min}{f" {unit}" if unit != "" else ""}""",
             "upper_limit": f"""<{age_max}{f" {unit}" if unit != "" else ""}""",
             "range_with_mean": f"""{age_min}-{age_max}{f" {unit}" if unit != "" else ""} ({comment}: {age_exact}{f" {unit}" if unit != "" else ""})""",
-            "other": ""
+            "other": "",
+            "null": "null"
         }
         format = formatDict[agetype]
         row["age_readable"] = format
