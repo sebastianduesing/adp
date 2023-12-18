@@ -19,6 +19,11 @@ merge :
 readable :
 	python3 scripts/interpret.py outputs/merged.tsv outputs/typed.tsv
 
+# Judges confidence in interpreted version.
+.PHONY : confidence
+confidence :
+	python3 scripts/confidence.py outputs/typed.tsv outputs/final.tsv
+
 # Removes output TSVs.
 .PHONY : clean
 clean :
