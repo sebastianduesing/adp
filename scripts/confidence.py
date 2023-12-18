@@ -40,6 +40,7 @@ confByType = {
     "lower_limit": 90,
     "upper_limit": 90,
     "range_with_mean": 85,
+    "range_with_comment": 75,
     "other": 40
 }
 

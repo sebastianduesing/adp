@@ -6442,7 +6442,7 @@ adult	10001041	Rattus norvegicus Wistar	adult					adult	6439	comment	adult	80
 NULL	10001247	Oryctolagus cuniculus Dutch Half Lop	null						6440	null	null	100
 mean age = 4.4 years	9544	Macaca mulatta (rhesus macaque)	mean age = 4.4 years	4.4			year	mean	6441	exact_comment	4.4 years (mean)	88.0
 NULL	10000641	Mus musculus OF1	null						6442	null	null	100
-mean age 3-4 years	9606	Homo sapiens (human)	mean age 3-4 years		3	4	year	mean	6443	other		44.0
+mean age 3-4 years	9606	Homo sapiens (human)	mean age 3-4 years		3	4	year	mean	6443	range_with_comment	3-4 years (mean)	82.5
 4 to 80 years	9606	Homo sapiens (human)	4 to 80 years		4.0	80.0	year		6444	range	4-80 years	93.50000000000001
 4 weeks	10000618	Mus musculus ICR	4 weeks	4.0			week		6445	exact	4 weeks	99.00000000000001
 median age 63 years	9606	Homo sapiens (human)	median age 63 years	63.0			year	median	6446	exact_comment	63 years (median)	88.0
