@@ -175,7 +175,8 @@ def sortAge2(dict_library):
     main = dict_library["Dict 2"]
     for i, line in main.items():
         age = line["age_normalized"]
-        line["age_comment"] = age
+        if age != "null":
+            line["age_comment"] = age
 
 
 def sortAge3(dict_library, syndict):
