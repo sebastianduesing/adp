@@ -24,6 +24,15 @@ readable :
 confidence :
 	python3 scripts/confidence.py outputs/typed.tsv outputs/final.tsv
 
+# Completes full process.
+.PHONY : full
+full :
+	python3 scripts/normalize.py age_queried.tsv outputs/age_normalized.tsv
+	python3 scripts/age_process.py outputs/age_normalized.tsv age_unit_synonyms.tsv outputs/age_output.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv
+	python3 scripts/curate.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merged.tsv outputs/unsortable.tsv
+	python3 scripts/interpret.py outputs/merged.tsv outputs/typed.tsv
+	python3 scripts/confidence.py outputs/typed.tsv outputs/final.tsv
+
 # Removes output TSVs.
 .PHONY : clean
 clean :
