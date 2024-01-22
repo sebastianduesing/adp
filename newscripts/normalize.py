@@ -1,10 +1,9 @@
-# This script takes an input file and normalizes whitespace/dashes in it.
-
 import csv
 import sys
 import re
 import unicodedata as ud
 from converter import TSV2dict, dict2TSV
+from formatter import format_age
 
 
 def prepare_spellcheck(spellcheckTSV):
@@ -24,7 +23,7 @@ def prepare_spellcheck(spellcheckTSV):
         for row in reader:
             correctTerm = str(row["correct_term"])
             variants = str(row["variants_to_replace"])
-            variants = variants.split(", ")
+            variants = variants.split("|")
             SCdict[correctTerm] = variants
     return SCdict
 
@@ -78,7 +77,7 @@ def standardize_string(string):
     return string
 
 
-def normalize(inputTSV, outputTSV, spellcheckTSV, target_column):
+def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
     """
     Applies normalization steps to all data items in target column or columns
     in an input TSV, creates a new column for the normalized data, and writes
@@ -90,6 +89,9 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column):
        data spellchecking.
     -- target_column: A string or list. If string, the name of the column to
        be normalized. If list, the names of the columns to be normalized.
+    -- style: A style (e.g. age) to be applied via formatter. Currently
+       anything other than "age" in this argument place will result in no
+       style being applied.
     """
     # Make spellcheck dict.
     SCdict = prepare_spellcheck(spellcheckTSV)
@@ -111,6 +113,8 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column):
             sc_data = run_spellcheck(standardized_data, SCdict)
             newcolumn = f"normalized_{target_column}"
             rowdict[newcolumn] = sc_data
+    if style == "age":
+        maindict = format_age(maindict, newcolumn)
     dict2TSV(maindict, outputTSV)
 
 
@@ -119,4 +123,5 @@ if __name__ == "__main__":
     outputTSV = sys.argv[2]
     spellcheckTSV = sys.argv[3]
     target_column = sys.argv[4]
-    normalize(inputTSV, outputTSV, spellcheckTSV, target_column)
+    style = sys.argv[5]
+    normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style)

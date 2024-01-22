@@ -21,11 +21,7 @@ correct_term	variants_to_replace
 19	nineteen
 adults	adutls
 adult	adutl
-year	"yr, yo"
-years	"yrs, yeras, yeays, yesrs"
-month	"mo"
-months	"mos, monts"
-week	"wk, wo, wekk"
-weeks	"wks, weels, weks, wekks"
-hour	"hr"
-hours	"hrs"
+year	years|yr|yrs|yo|yera|yeras|yeays|yesrs
+month	months|mo|mos|monts
+week	weeks|wk|wks|weels|weks|wo|wekk|wekks
+hour	hours|hr|hrs
