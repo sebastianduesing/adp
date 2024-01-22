@@ -23,7 +23,7 @@ def prepare_spellcheck(spellcheckTSV):
         for row in reader:
             correctTerm = str(row["correct_term"])
             variants = str(row["variants_to_replace"])
-            variants = variants.split(", ")
+            variants = variants.split("|")
             SCdict[correctTerm] = variants
     return SCdict
 
