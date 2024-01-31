@@ -21,7 +21,10 @@ correct_term	variants_to_replace
 19	nineteen
 adults	adutls
 adult	adutl
+>	more than|greater than
+<	fewer than|less than
 year	years|yr|yrs|yo|yera|yeras|yeays|yesrs
 month	months|mo|mos|monts
 week	weeks|wk|wks|weels|weks|wo|wekk|wekks
+day	days
 hour	hours|hr|hrs
