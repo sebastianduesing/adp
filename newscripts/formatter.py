@@ -24,6 +24,11 @@ def age_style(string):
         r"\g<1> \g<3>",
         string
     )
+    string = re.sub(
+        r"(\d+\.?\d*)\s*(\+\/-)\s*(\d+\.?\d*)",
+        r"\g<1> \g<2> \g<3>",
+        string
+    )
     # Normalizes "[unit]s old" to "[unit]".
     string = re.sub(
         r"(\s|-)+(year|month|week|day|hour)([\s-]+)(old)",
@@ -34,6 +39,11 @@ def age_style(string):
     string = re.sub(
         r"(<|>) (\d)",
         r"\g<1>\g<2>",
+        string
+    )
+    string = re.sub(
+        r"(\d)\s+-\s+(\d)",
+        r"\g<1>-\g<2>",
         string
     )
     # Removes punctuation at the end of a string.

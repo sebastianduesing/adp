@@ -63,17 +63,18 @@ def standardize_string(string):
     :param string: The string to be standardized.
     :return: Standardized string.
     """
+    
+    # Convert en- and em-dashes to hyphens.
+    string = string.replace(r"–", "-")
+    string = string.replace(r"—", "-")
+    # Standardize plus-minus characters.
+    string = string.replace(r"±", r"+/-")
     # Remove unnecessary whitespaces.
     string = string.strip()
     # Convert to ascii.
     string = ud.normalize('NFKD', string).encode('ascii', 'ignore').decode('ascii')
     # Convert to lowercase.
     string = string.lower()
-    # Convert en- and em-dashes to hyphens.
-    string = string.replace(r"–", r"-")
-    string = string.replace(r"—", r"-")
-    # Standardize plus-minus characters.
-    string = string.replace(r"+/-", r"±")
     return string
 
 
