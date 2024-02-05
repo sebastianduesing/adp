@@ -18,15 +18,22 @@ def age_style(string):
     -- string: The string to be processed.
     -- return: The processed version of the string.
     """
-    # Fixes hyphenization.
+    # Removes hyphenization between numbers and units.
     string = re.sub(
         r"(\d+\.?\d*)(-)(year|month|week|day|hour)",
         r"\g<1> \g<3>",
         string
     )
+    # Standardizes spacing of +/- values.
     string = re.sub(
         r"(\d+\.?\d*)\s*(\+\/-)\s*(\d+\.?\d*)",
         r"\g<1> \g<2> \g<3>",
+        string
+    )
+    # Standardizes spacing of ranges.
+    string = re.sub(
+        r"(\d+\.?\d*)\s*-\s*(\d+\.?\d*)",
+        r"\g<1>-\g<2>",
         string
     )
     # Normalizes "[unit]s old" to "[unit]".

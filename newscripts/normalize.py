@@ -25,16 +25,26 @@ def prepare_spellcheck(spellcheckTSV):
             variants = str(row["variants_to_replace"])
             variants = variants.split("|")
             SCdict[correctTerm] = variants
-    return SCdict
+    sc_data_dict = {}
+    for preferred, alternative_list in SCdict.items():
+        for alternative in alternative_list:
+            sc_data_dict[alternative] = {
+                "variant_term": alternative,
+                "preferred_term": preferred,
+                "occurrences": 0,
+            }
+    return SCdict, sc_data_dict
 
 
-def run_spellcheck(string, SCdict):
+def run_spellcheck(string, SCdict, sc_data_dict):
     """
     Spellchecks using SCdict (created via prepare_spellcheck(spellcheckTSV) and
     used to store preferred and alternative versions of certain words.
 
     -- string: The text to be spellchecked.
     -- SCdict: The spellcheck dict.
+    -- sc_data_dict: Dict that stores usage frequencies of each term in the
+       spellcheck dict.
     -- return: A corrected version of the string.
     """
     # Checks for each alternative term in each preferred-alternative term
@@ -50,6 +60,9 @@ def run_spellcheck(string, SCdict):
                     fr"\g<1>{preferred}\g<3>",
                     string
                 )
+                count = sc_data_dict[alternative]["occurrences"]
+                count += 1
+                sc_data_dict[alternative]["occurrences"] = count
     return string
 
 
@@ -71,11 +84,29 @@ def standardize_string(string):
     string = string.replace(r"±", r"+/-")
     # Remove unnecessary whitespaces.
     string = string.strip()
+    string = re.sub(r"(\s\s+)", r" ", string)
     # Convert to ascii.
     string = ud.normalize('NFKD', string).encode('ascii', 'ignore').decode('ascii')
     # Convert to lowercase.
     string = string.lower()
     return string
+
+
+def output_spellcheck_data(sc_data_dict):
+    """
+    Logs frequency data for spellcheck replacements in spellcheck_data.tsv.
+    """
+    with open("spellcheck_data.tsv", "w", newline="\n") as tsvfile:
+        fieldnames = ["variant_term", "preferred_term", "occurrences"]
+        writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter="\t")
+        writer.writeheader()
+        for term, data in sc_data_dict.items():
+            writer.writerow(
+                {
+                    "variant_term": term,
+                    "preferred_term": data["preferred_term"],
+                    "occurrences": data["occurrences"]
+                })
 
 
 def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
@@ -95,7 +126,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
        style being applied.
     """
     # Make spellcheck dict.
-    SCdict = prepare_spellcheck(spellcheckTSV)
+    SCdict, sc_data_dict = prepare_spellcheck(spellcheckTSV)
     # Make dict of TSV data.
     maindict = TSV2dict(inputTSV)
     for index, rowdict in maindict.items():
@@ -104,18 +135,19 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
             for column in target_column:
                 data = rowdict[column]
                 standardized_data = standardize_string(data)
-                sc_data = run_spellcheck(standardized_data, SCdict)
+                sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
                 newcolumn = f"normalized_{column}"
                 rowdict[newcolumn] = sc_data
         # If only one column to standardize, do one.
         else:
             data = rowdict[target_column]
             standardized_data = standardize_string(data)
-            sc_data = run_spellcheck(standardized_data, SCdict)
+            sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
             newcolumn = f"normalized_{target_column}"
             rowdict[newcolumn] = sc_data
     if style == "age":
         maindict = format_age(maindict, newcolumn)
+    output_spellcheck_data(sc_data_dict)
     dict2TSV(maindict, outputTSV)
 
 
