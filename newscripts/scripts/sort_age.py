@@ -154,7 +154,7 @@ def sort_age(inputTSV, outputTSV, target_column):
         percent = round((count/linecount)*100, 2)
         print(f"\t{count} {type} values sorted ({percent}% of all lines).")
     print(f"\nSorting complete. {unsorted_count} values unsorted ({unsorted_percent}% of all lines).\n")
-    dict2TSV(maindict, "sorted_age.tsv")
+    dict2TSV(maindict, outputTSV)
 
 
 if __name__ == "__main__":
