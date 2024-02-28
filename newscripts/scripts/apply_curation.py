@@ -14,10 +14,11 @@ def merge_curated(curated_tsv, sorted_tsv, output_path):
     sorted = TSV2dict(sorted_tsv)
     fieldnames = [
         "exact_age",
-        "minimum_age",
-        "maximum_age",
         "mean_age",
         "median_age",
+        "minimum_age",
+        "maximum_age",
+        "age_list",
         "unit",
         "age_description"
         ]
@@ -30,8 +31,6 @@ def merge_curated(curated_tsv, sorted_tsv, output_path):
             for fieldname in fieldnames:
                 sorted[index][fieldname] = curated[index][fieldname]
                 sorted[index]["age_data_type"] = "manual"
-        else:
-            sorted[index]["age_data_type"] = "error"
     dict2TSV(sorted, output_path)
 
 

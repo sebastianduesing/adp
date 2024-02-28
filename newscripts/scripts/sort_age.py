@@ -101,12 +101,12 @@ def pull_apart_age(string, counter_dict):
         increase_dict_value(counter_dict, "mean")
 
     #Finds list values, e.g., "6, 8, or 18 week".
-    m = re.fullmatch(r"(\d+\.?\d*)(,\s)?(\d+\.?\d*,?\s)*\s?or\s(\d+\.?\d*)\s*(year|month|week|day|hour)?", string)
+    m = re.fullmatch(r"(\d+\.?\d*)(,\s)?(\d+\.?\d*,?\s)*\s?(or|and)\s(\d+\.?\d*)\s*(year|month|week|day|hour)?", string)
     if m:
         numbers = re.findall(r"\d+\.?\d*", string)
         numbers = ", ".join(numbers)
         agedict["age_list"] = numbers
-        agedict["unit"] = m.group(5)
+        agedict["unit"] = m.group(6)
         agedict["age_data_type"] = "list"
         increase_dict_value(counter_dict, "list")
 
