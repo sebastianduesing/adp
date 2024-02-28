@@ -130,21 +130,11 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
     # Make dict of TSV data.
     maindict = TSV2dict(inputTSV)
     for index, rowdict in maindict.items():
-        # If multiple columns to standardize, do all in list.
-        if type(target_column) == list:
-            for column in target_column:
-                data = rowdict[column]
-                standardized_data = standardize_string(data)
-                sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
-                newcolumn = f"normalized_{column}"
-                rowdict[newcolumn] = sc_data
-        # If only one column to standardize, do one.
-        else:
-            data = rowdict[target_column]
-            standardized_data = standardize_string(data)
-            sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
-            newcolumn = f"normalized_{target_column}"
-            rowdict[newcolumn] = sc_data
+        data = rowdict[target_column]
+        standardized_data = standardize_string(data)
+        sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
+        newcolumn = f"normalized_{target_column}"
+        rowdict[newcolumn] = sc_data
     if style == "age":
         maindict = format_age(maindict, newcolumn)
     output_spellcheck_data(sc_data_dict)
