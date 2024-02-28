@@ -1,0 +1,9 @@
+ROWS AFFECTED BY NORMALIZATION/FORMATTING:
+
+6650 (92.99%) lines normalized.
+2103 (29.41%) lines formatted.
+
+397 lines (5.55%) were neither normalized nor formatted.
+1999 lines (27.95%) were normalized and formatted.
+4651 lines (65.04%) were normalized but not formatted.
+104 lines (1.45%) were not normalized but were formatted.

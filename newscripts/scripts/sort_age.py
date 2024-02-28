@@ -41,14 +41,14 @@ def pull_apart_age(string, counter_dict):
     -- return: A dict with column values to be fed into sort_age().
     """
     agedict = {}
+    agedict["age_data_type"] = ""
     agedict["exact_age"] = ""
-    agedict["minimum_age"] = ""
-    agedict["maximum_age"] = ""
     agedict["mean_age"] = ""
     agedict["median_age"] = ""
+    agedict["minimum_age"] = ""
+    agedict["maximum_age"] = ""
     agedict["unit"] = ""
     agedict["age_description"] = ""
-    agedict["age_data_type"] = ""
 
     # Finds numberless values.
     m = re.fullmatch(r"^\D*", string)

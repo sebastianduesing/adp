@@ -27,8 +27,9 @@ def merge_curated(curated_tsv, sorted_tsv, output_path):
             if sorted[index][fieldname] != "":
                 checkempty = False
         if checkempty:
-            sorted[index] = rowdict
-            sorted[index]["age_data_type"] = "manual"
+            for fieldname in fieldnames:
+                sorted[index][fieldname] = curated[index][fieldname]
+                sorted[index]["age_data_type"] = "manual"
         else:
             sorted[index]["age_data_type"] = "error"
     dict2TSV(sorted, output_path)

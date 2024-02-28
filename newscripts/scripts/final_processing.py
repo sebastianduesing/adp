@@ -123,7 +123,7 @@ def calculate_confidence(rowdict):
             confidence = confidence * 0.2
     if confidence > 100:
         confidence = 99.9
-    rowdict["confidence%"] = confidence
+    rowdict["confidence_score"] = round(confidence, 1)
     return rowdict
 
 
