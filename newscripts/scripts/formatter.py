@@ -81,4 +81,8 @@ def format_age(age_dict, target_column):
         data = rowdict[target_column]
         age_formatted_data = age_style(data)
         rowdict[new_column] = age_formatted_data
+        if rowdict[new_column] != rowdict[target_column]:
+            rowdict["formatting_altered"] = "Y"
+        else:
+            rowdict["formatting_altered"] = "N"
     return age_dict
