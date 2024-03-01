@@ -40,7 +40,7 @@ def add_readable(rowdict):
         text = f"{text} ({description})"
     elif description != "":
         text = f"{description}"
-    elif agelist != "":
+    if agelist != "":
         text = f"{agelist}{unit}"
     if text == "":
         text = "null"
