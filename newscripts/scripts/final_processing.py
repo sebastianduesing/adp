@@ -16,7 +16,6 @@ def add_readable(rowdict):
     max = rowdict["maximum_age"]
     mean = rowdict["mean_age"]
     median = rowdict["median_age"]
-    agelist = rowdict["age_list"]
     unit = rowdict["unit"]
     unit = f" {unit}" if unit != "" else ""
     description = rowdict["age_description"]
@@ -40,8 +39,6 @@ def add_readable(rowdict):
         text = f"{text} ({description})"
     elif description != "":
         text = f"{description}"
-    elif agelist != "":
-        text = f"{agelist}{unit}"
     if text == "":
         text = "null"
     rowdict["readable_age"] = text
@@ -91,7 +88,6 @@ def calculate_confidence(rowdict):
         "null": 2,
         "manual": 0.8,
         "description": 1,
-        "list": 1,
         "mean": 1.1,
         "bounded": 1,
         "range_with_mean": 0.9,
