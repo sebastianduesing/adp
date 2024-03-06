@@ -19,8 +19,8 @@ correct_term	variants_to_replace
 17	seventeen
 18	eighteen
 19	nineteen
-adults	adutls
-adult	adutl
+adult	adutl|adutls|adults
+child	children
 >	more than|greater than
 <	fewer than|less than
 year	years|yr|yrs|yera|yeras|yeays|yesrs
