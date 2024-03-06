@@ -19,8 +19,10 @@ sixteen	16	0
 seventeen	17	0
 eighteen	18	0
 nineteen	19	0
-adutls	adults	2
-adutl	adult	0
+adutl	adult	2
+adutls	adult	2
+adults	adult	21
+children	child	7
 more than	>	1
 greater than	>	0
 fewer than	<	0
