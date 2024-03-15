@@ -63,6 +63,36 @@ def numberize(numstring):
     return number
 
 
+def make_searchable(rowdict):
+    """
+    Duplicates values in the exact_age column into minimum, maximum, mean, and
+    median columns so that studies with exact age data show up in queries for
+    studies based on min/max/mean/median age, e.g., the exact value of "1 year"
+    should show up in a query for only the age values below 18 years.
+
+    Also adds values from age_list to minimum and maximum age columns.
+
+    -- rowdict: The dict of the row to which the change will be applied.
+    -- return: rowdict with searchability change made.
+    """
+    if rowdict["age_data_type"] == "exact":
+        value = rowdict["exact_age"]
+        rowdict["mean_age"] = value
+        rowdict["median_age"] = value
+        rowdict["minimum_age"] = value
+        rowdict["maximum_age"] = value
+    if rowdict["age_data_type"] == "list":
+        agelist = rowdict["age_list"]
+        agelist = agelist.split(", ")
+        newlist = []
+        for i in agelist:
+            newlist.append(numberize(i))
+        newlist.sort()
+        rowdict["minimum_age"] = newlist[0]
+        rowdict["maximum_age"] = newlist[-1]
+    return rowdict
+
+
 def calculate_confidence(rowdict):
     """
     Adds the column confidence%, a value approximating the degree to which the
@@ -138,4 +168,5 @@ if __name__ == "__main__":
     for index, rowdict in maindict.items():
         rowdict = add_readable(rowdict)
         rowdict = calculate_confidence(rowdict)
+        rowdict = make_searchable(rowdict)
     dict2TSV(maindict, output_path)
