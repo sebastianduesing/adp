@@ -6,7 +6,7 @@ normalize :
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
 sort :
-	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv normalized_h_age_style=age
+	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv phrase_normalized_h_age
 	python3 scripts/make_curation_tsv.py age_sorted.tsv manual_curation.tsv age_data_type
 
 # Merges manually curated data and autosorted data together.
