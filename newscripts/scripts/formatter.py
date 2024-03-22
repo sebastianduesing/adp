@@ -1,7 +1,7 @@
 import re
 
 
-def age_style(string):
+def age_phrase_normalizer(string):
     """
     Removes extraneous hyphens in age data, e.g.,
     1-year-old --> 1 year old
@@ -66,23 +66,3 @@ def age_style(string):
         string
     )
     return string
-
-
-def format_age(age_dict, target_column):
-    """
-    Applies age data normalization steps to data in a column of age_dict.
-
-    -- age_dict: A dict of age data created using converter.py.
-    -- target_column: The column to be processed.
-    -- return: A dict with a new column for age-formatted data.
-    """
-    new_column = f"{target_column}_style=age"
-    for index, rowdict in age_dict.items():
-        data = rowdict[target_column]
-        age_formatted_data = age_style(data)
-        rowdict[new_column] = age_formatted_data
-        if rowdict[new_column] != rowdict[target_column]:
-            rowdict["formatting_altered"] = "Y"
-        else:
-            rowdict["formatting_altered"] = "N"
-    return age_dict

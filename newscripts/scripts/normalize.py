@@ -3,7 +3,7 @@ import sys
 import re
 import unicodedata as ud
 from converter import TSV2dict, dict2TSV
-from formatter import format_age
+from formatter import age_phrase_normalizer
 
 
 def prepare_spellcheck(spellcheckTSV):
@@ -183,17 +183,28 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, target_column, style):
     for index, rowdict in maindict.items():
         data = rowdict[target_column]
         standardized_data = standardize_string(data)
-        sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
-        newcolumn = f"normalized_{target_column}"
-        rowdict[newcolumn] = sc_data
-        if rowdict[newcolumn] != rowdict[target_column]:
-            rowdict["normalization_altered"] = "Y"
+        charcolumn = f"char_normalized_{target_column}"
+        rowdict[charcolumn] = standardized_data
+        if rowdict[charcolumn] != rowdict[target_column]:
+            rowdict["char_normalized"] = "Y"
         else:
-            rowdict["normalization_altered"] = "N"
-    if style == "age":
-        maindict = format_age(maindict, newcolumn)
+            rowdict["char_normalized"] = "N"
+        sc_data = run_spellcheck(standardized_data, SCdict, sc_data_dict)
+        wordcolumn = f"word_normalized_{target_column}"
+        rowdict[wordcolumn] = sc_data
+        if rowdict[wordcolumn] != rowdict[charcolumn]:
+            rowdict["word_normalized"] = "Y"
+        else:
+            rowdict["word_normalized"] = "N"
+        if style == "age":
+            phrasecolumn = f"phrase_normalized_{target_column}"
+            rowdict[phrasecolumn] = age_phrase_normalizer(sc_data)
+            if rowdict[phrasecolumn] != rowdict[wordcolumn]:
+                rowdict["phrase_normalized"] = "Y"
+            else:
+                rowdict["phrase_normalized"] = "N"
     output_spellcheck_data(sc_data_dict)
-    output_normalization_data(maindict)
+#    output_normalization_data(maindict)
     dict2TSV(maindict, outputTSV)
 
 
