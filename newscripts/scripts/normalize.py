@@ -61,16 +61,17 @@ def run_spellcheck(string, SCdict, sc_data_dict):
         string_stripped = " ".join(string_stripped.split(delimiter))
         wordlist = string_stripped.split(" ")
     for word in wordlist:
-        for input_word, word_dict in SCdict.items():
-            if word == input_word:
-                string = re.sub(
-                    fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
-                    fr"""\g<1>{word_dict["correct_term"]}\g<3>""",
-                    string
-                )
-                count = sc_data_dict[input_word]["occurrences"]
-                count += 1
-                sc_data_dict[input_word]["occurrences"] = count
+        if word in SCdict.keys():
+            input_word = word
+            correct_term = SCdict[input_word]["correct_term"]
+            string = re.sub(
+                fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
+                fr"\g<1>{correct_term}\g<3>",
+                string
+            )
+            count = sc_data_dict[input_word]["occurrences"]
+            count += 1
+            sc_data_dict[input_word]["occurrences"] = count
     return string
 
 
