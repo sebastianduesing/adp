@@ -21,17 +21,20 @@ def prepare_spellcheck(spellcheckTSV):
         reader = csv.DictReader(infile, delimiter="\t")
         SCdict = {}
         for row in reader:
-            correctTerm = str(row["correct_term"])
-            variants = str(row["variants_to_replace"])
-            variants = variants.split("|")
-            SCdict[correctTerm] = variants
+            correct_term = str(row["correct_term"])
+            input_word = str(row["input_word"])
+            input_context = str(row["input_context"])
+            SCdict[input_word] = {
+                "input_word": input_word,
+                "correct_term": correct_term,
+                "input_context": input_context,
+            }
     sc_data_dict = {}
-    for preferred, alternative_list in SCdict.items():
-        for alternative in alternative_list:
-            sc_data_dict[alternative] = {
-                "variant_term": alternative,
-                "preferred_term": preferred,
-                "occurrences": 0,
+    for input_word, word_dict in SCdict.items():
+        sc_data_dict[input_word] = {
+            "input_word": input_word,
+            "correct_term": word_dict["correct_term"],
+            "occurrences": 0,
             }
     return SCdict, sc_data_dict
 
@@ -52,17 +55,22 @@ def run_spellcheck(string, SCdict, sc_data_dict):
     # Recognizes terms divided by whitespace, hyphens, periods, or commas,
     # but not alphanumeric characters, i.e., would catch "one" in the
     # string "three-to-one odds", but not "one" in "bone."
-    for preferred, alternatives in SCdict.items():
-        for alternative in alternatives:
-            if alternative in string:
+    delimiters = [",", ".", "-", " ", "(", ")"]
+    string_stripped = string
+    for delimiter in delimiters:
+        string_stripped = " ".join(string_stripped.split(delimiter))
+        wordlist = string_stripped.split(" ")
+    for word in wordlist:
+        for input_word, word_dict in SCdict.items():
+            if word == input_word:
                 string = re.sub(
-                    fr"(^|\s+|[-.,]+)({alternative})($|\s+|[-.,]+)",
-                    fr"\g<1>{preferred}\g<3>",
+                    fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
+                    fr"""\g<1>{word_dict["correct_term"]}\g<3>""",
                     string
                 )
-                count = sc_data_dict[alternative]["occurrences"]
+                count = sc_data_dict[input_word]["occurrences"]
                 count += 1
-                sc_data_dict[alternative]["occurrences"] = count
+                sc_data_dict[input_word]["occurrences"] = count
     return string
 
 
@@ -99,17 +107,16 @@ def output_spellcheck_data(sc_data_dict):
     -- sc_data_dict: A dict of spellcheck data.
     """
     with open("spellcheck_data.tsv", "w", newline="\n") as tsvfile:
-        fieldnames = ["variant_term", "preferred_term", "occurrences"]
+        fieldnames = ["input_word", "correct_term", "occurrences"]
         writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
         for term, data in sc_data_dict.items():
             writer.writerow(
                 {
-                    "variant_term": term,
-                    "preferred_term": data["preferred_term"],
+                    "input_word": term,
+                    "correct_term": data["correct_term"],
                     "occurrences": data["occurrences"]
                 })
-
 
 def output_normalization_data(maindict):
     """

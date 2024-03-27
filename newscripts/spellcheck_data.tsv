@@ -1,4 +1,4 @@
-variant_term	preferred_term	occurrences
+input_word	correct_term	occurrences
 zero	0	0
 one	1	1
 two	2	0
@@ -19,33 +19,29 @@ sixteen	16	0
 seventeen	17	0
 eighteen	18	0
 nineteen	19	0
-adutl	adult	2
+adutl	adult	0
 adutls	adult	2
 adults	adult	21
 children	child	7
-more than	>	1
-greater than	>	0
-fewer than	<	0
-less than	<	4
-years	year	2988
-yr	year	16
+years	year	2993
+yr	year	4
 yrs	year	12
-yera	year	3
+yera	year	0
 yeras	year	3
 yeays	year	1
 yesrs	year	1
-months	month	537
-mo	month	581
+months	month	544
+mo	month	7
 mos	month	2
 monts	month	1
 motnhs	month	1
-weeks	week	2306
-wk	week	73
+weeks	week	2304
+wk	week	57
 wks	week	15
 weels	week	4
 weks	week	1
 wo	week	5
-wekk	week	1
+wekk	week	0
 wekks	week	1
 days	day	93
 hours	hour	14
