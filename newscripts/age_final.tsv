@@ -2110,7 +2110,7 @@ NULL	10001610	Mus musculus A1 TCR Tg	2101	null	Y	null	N	null	N	null									null
 11 weeks	10001269	Mus musculus NOD HSP60 Tg	2108	11 weeks	N	11 week	Y	11 week	N	exact	11	11	11	11	11		week		11 week	72.6
 NULL	10001269	Mus musculus NOD HSP60 Tg	2109	null	Y	null	N	null	N	null									null	99.9
 8 to 10 weeks old	10000635	Mus musculus NOD/Lt	2110	8 to 10 weeks old	N	8 to 10 week old	Y	8-10 week	Y	range				8	10		week		8-10 week	79.2
-less than 30 years	9606	Homo sapiens (human)	2111	less than 30 years	N	< 30 year	Y	<30 year	Y	bounded					30		year		>30 year	66.0
+less than 30 years	9606	Homo sapiens (human)	2111	less than 30 years	N	less than 30 year	Y	<30 year	Y	bounded					30		year		>30 year	66.0
 12-24 weeks	10000632	Mus musculus NOD	2112	12-24 weeks	N	12-24 week	Y	12-24 week	N	range				12	24		week		12-24 week	79.2
 1 month	10000635	Mus musculus NOD/Lt	2113	1 month	N	1 month	N	1 month	N	exact	1	1	1	1	1		month		1 month	72.6
 7 days	10000635	Mus musculus NOD/Lt	2114	7 days	N	7 day	Y	7 day	N	exact	7	7	7	7	7		day		7 day	72.6
@@ -2595,7 +2595,7 @@ NULL	10001420	Mus musculus BXSB	2588	null	Y	null	N	null	N	null									null	99.9
 4.1-16.3 years	9606	Homo sapiens (human)	2593	4.1-16.3 years	N	4.1-16.3 year	Y	4.1-16.3 year	N	range				4.1	16.3		year		4.1-16.3 year	79.2
 30-34 years	9606	Homo sapiens (human)	2594	30-34 years	N	30-34 year	Y	30-34 year	N	range				30	34		year		30-34 year	79.2
 16-52 years	9606	Homo sapiens (human)	2595	16-52 years	N	16-52 year	Y	16-52 year	N	range				16	52		year		16-52 year	79.2
-less than 24 hours	10000282	Mus musculus B6(C)-H2-Ab1bm12	2596	less than 24 hours	N	< 24 hour	Y	<24 hour	Y	bounded					24		hour		>24 hour	66.0
+less than 24 hours	10000282	Mus musculus B6(C)-H2-Ab1bm12	2596	less than 24 hours	N	less than 24 hour	Y	<24 hour	Y	bounded					24		hour		>24 hour	66.0
 NULL	10000282	Mus musculus B6(C)-H2-Ab1bm12	2597	null	Y	null	N	null	N	null									null	99.9
 6 to 7 weeks	10000662	Rattus norvegicus Lewis	2598	6 to 7 weeks	N	6 to 7 week	Y	6-7 week	Y	range				6	7		week		6-7 week	79.2
 6 to 7 weeks	10000658	Rattus norvegicus Brown Norway	2599	6 to 7 weeks	N	6 to 7 week	Y	6-7 week	Y	range				6	7		week		6-7 week	79.2
@@ -2701,7 +2701,7 @@ mean age 39 years	9606	Homo sapiens (human)	2687	mean age 39 years	N	mean age 39
 7-8 weeks	10000225	Mus musculus C57BL/6N	2699	7-8 weeks	N	7-8 week	Y	7-8 week	N	range				7	8		week		7-8 week	79.2
 33-73 years	9606	Homo sapiens (human)	2700	33-73 years	N	33-73 year	Y	33-73 year	N	range				33	73		year		33-73 year	79.2
 6 to 8 weeks	10000275	Mus musculus B10.RIII	2701	6 to 8 weeks	N	6 to 8 week	Y	6-8 week	Y	range				6	8		week		6-8 week	79.2
-less than 24 hours	10000067	Mus musculus C57BL/6	2702	less than 24 hours	N	< 24 hour	Y	<24 hour	Y	bounded					24		hour		>24 hour	66.0
+less than 24 hours	10000067	Mus musculus C57BL/6	2702	less than 24 hours	N	less than 24 hour	Y	<24 hour	Y	bounded					24		hour		>24 hour	66.0
 19-33 years	9606	Homo sapiens (human)	2703	19-33 years	N	19-33 year	Y	19-33 year	N	range				19	33		year		19-33 year	79.2
 6-8 weeks	10000282	Mus musculus B6(C)-H2-Ab1bm12	2704	6-8 weeks	N	6-8 week	Y	6-8 week	N	range				6	8		week		6-8 week	79.2
 9-10 weeks	10000067	Mus musculus C57BL/6	2705	9-10 weeks	N	9-10 week	Y	9-10 week	N	range				9	10		week		9-10 week	79.2
@@ -4855,7 +4855,7 @@ NULL	447135	Myodes glareolus (bank vole)	4851	null	Y	null	N	null	N	null									
 2-month-old	10000201	Oryctolagus cuniculus Fauve de Bourgogne	4853	2-month-old	N	2-month-old	N	2 month	Y	exact	2	2	2	2	2		month		2 month	72.6
 4-10 weeks	10000051	Mus musculus C57BL/10 X DBA/2	4854	4-10 weeks	N	4-10 week	Y	4-10 week	N	range				4	10		week		4-10 week	79.2
 7-9 wks	10000000	Mus musculus BALB/c	4855	7-9 wks	N	7-9 week	Y	7-9 week	N	range				7	9		week		7-9 week	79.2
-More than 15 years	9606	Homo sapiens (human)	4856	more than 15 years	Y	> 15 year	Y	>15 year	Y	bounded				15			year		>15 year	66.0
+More than 15 years	9606	Homo sapiens (human)	4856	more than 15 years	Y	more than 15 year	Y	>15 year	Y	bounded				15			year		>15 year	66.0
 20-31 years	9606	Homo sapiens (human)	4857	20-31 years	N	20-31 year	Y	20-31 year	N	range				20	31		year		20-31 year	79.2
 4-10 weeks old	447135	Myodes glareolus (bank vole)	4858	4-10 weeks old	N	4-10 week old	Y	4-10 week	Y	range				4	10		week		4-10 week	79.2
 6 weeks old	10000206	Oryctolagus cuniculus New Zealand White	4859	6 weeks old	N	6 week old	Y	6 week	Y	exact	6	6	6	6	6		week		6 week	72.6
@@ -6045,7 +6045,7 @@ adult	10001211	Mus musculus (C57BL/6 X A/J)	6032	adult	N	adult	N	adult	N	descrip
 30-82 years old	9606	Homo sapiens (human)	6043	30-82 years old	N	30-82 year old	Y	30-82 year	Y	range				30	82		year		30-82 year	79.2
 15 to 78 years	9606	Homo sapiens (human)	6044	15 to 78 years	N	15 to 78 year	Y	15-78 year	Y	range				15	78		year		15-78 year	79.2
 NULL	9337	Trichosurus vulpecula (common brush-tailed possum)	6045	null	Y	null	N	null	N	null									null	99.9
-Less than 20 years	9606	Homo sapiens (human)	6046	less than 20 years	Y	< 20 year	Y	<20 year	Y	bounded					20		year		>20 year	66.0
+Less than 20 years	9606	Homo sapiens (human)	6046	less than 20 years	Y	less than 20 year	Y	<20 year	Y	bounded					20		year		>20 year	66.0
 mature	9554	Papio (baboon)	6047	mature	N	mature	N	mature	N	description								mature	mature	60
 NULL	10001354	Mus musculus SJL X BALB/c	6048	null	Y	null	N	null	N	null									null	99.9
 20-95 years old	9606	Homo sapiens (human)	6049	20-95 years old	N	20-95 year old	Y	20-95 year	Y	range				20	95		year		20-95 year	79.2

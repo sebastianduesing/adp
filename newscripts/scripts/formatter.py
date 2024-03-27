@@ -42,6 +42,18 @@ def age_phrase_normalizer(string):
         r" \g<2>",
         string
     )
+    # Changes "less than" and "fewer than" to <.
+    string = re.sub(
+        r"less than|fewer than",
+        r"<",
+        string
+    )
+    # Changes "greater than" and "more than" to >.
+    string = re.sub(
+        r"greater than|more than",
+        r">",
+        string
+    )
     # Removes spacing between > or < and digits.
     string = re.sub(
         r"(<|>) (\d)",
@@ -63,18 +75,6 @@ def age_phrase_normalizer(string):
     string = re.sub(
         r"(\d)(\s|-)+(to)(\s|-)+(\d)",
         r"\g<1>-\g<5>",
-        string
-    )
-    # Changes "less than" and "fewer than" to <.
-    string = re.sub(
-        r"less than|fewer than",
-        r"<",
-        string
-    )
-    # Changes "greater than" and "more than" to >.
-    string = re.sub(
-        r"greater than|more than",
-        r">",
         string
     )
     return string
