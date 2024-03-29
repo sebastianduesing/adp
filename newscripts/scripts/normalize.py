@@ -75,7 +75,7 @@ def run_spellcheck(string, SCdict, WCdict,  sc_data_dict):
     # Recognizes terms divided by whitespace, hyphens, periods, or commas,
     # but not alphanumeric characters, i.e., would catch "one" in the
     # string "three-to-one odds", but not "one" in "bone."
-    delimiters = [",", ".", "-", " ", "(", ")"]
+    delimiters = [",", ".", "-", " ", "(", ")", ":", ";", "+", "=", ">", "<"]
     string_stripped = string
     for delimiter in delimiters:
         string_stripped = " ".join(string_stripped.split(delimiter))

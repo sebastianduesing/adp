@@ -1,5 +1,4 @@
 input_word	correct_term	input_context
-NULLTEST	none	
 old		6-8 week old
 null		null
 		adult (pregnant)
@@ -11,8 +10,7 @@ to		6 to 8 weeks
 or		11 or 18 weeks
 mean		mean 54 years (range 19-68)
 range		mean 54 year (range 19-68)
-mean:		mean: 29 years
-avg	average	10.5 year avg.
+avg		10.5 year avg.
 at		at least 8 weeks old
 least		at least 8 weeks old
 older		8 week or older
@@ -33,7 +31,6 @@ within		adult (within 24 hours of parturition)
 parturition		adult (within 24 hour of parturition)
 median		median age 11.3 years
 neonatal		neonatal
-mean=28		mean=28.5 +/- 15.0
 than		older than 8 weeks
 after		24 hour after birth
 neonate		neonate
@@ -51,8 +48,6 @@ tp		5 tp 7 weeks
 younger		30 year or younger
 prenatal		prenatal
 embryonic		embryonic day 15
-age=36		average age=36.5 years
-age=32		average age=32 years
 infant		infant
 pediatric		pediatric
 with		mean age of 32.2 year with a range from 18 to 49 year
@@ -70,10 +65,8 @@ mothers		neonates (infected mothers or pm)
 pm		neonates (infected mothers or pm)
 g		20-25 g
 subadult		subadult
-average=		average= 34.6 years
 college		college age
 foals		foals
-mean=8		mean=8.4 +/- 4.3
 elderly		elderly > 70 years
 steer		steer
 31and		31and 73 years
@@ -81,8 +74,6 @@ mature		mature
 middle		middle aged
 aged		middle aged
 fetus		100 day fetus
-age=53		mean age=53.7 years
-age:		mean age: 32.56 years
 58		58.4 +/- 14.3 years
 14		58.4 +/- 14.3 years
 t0		43 t0 53 months
