@@ -99,6 +99,8 @@ def run_spellcheck(string, SCdict, WCdict,  sc_data_dict):
             continue
         elif word in WCdict.keys():
             continue
+        elif re.fullmatch(r"[0-9=+\-/<>:]+", word):
+            continue
         else:
             WCdict[word] = {
                 "input_word": word,

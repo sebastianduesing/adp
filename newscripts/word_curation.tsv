@@ -2,248 +2,94 @@ input_word	correct_term	input_context
 NULLTEST	none	
 old		6-8 week old
 null		null
-49		49 years old
-51		51 years old
-32		32-62 years
-62		32-62 years
-38		32-38 years
-54		2-54 years
-24		24 years
-29		29-38
-65		12-65 years old
-45		45 years
 		adult (pregnant)
 pregnant		adult (pregnant)
-26		26-72 years-old
-72		26-72 years-old
-20		20-55 years
-55		20-55 years
-69		55-69 years
-33		33-52 years-old
-52		33-52 years-old
-74		7-74 years old
-21		21-45 years old
 average		average age 29.8 years
 age		average age 29.8 years
-91		18-91 years
-58		29-58 years
-30		30-52 years-old
-53		32- 53.5 years
-44		44 years
-31		31-39
-39		31-39
-40		adult (40 year-old average)
 and		child and adults
-41		29-41 years
-48		1-48 months-old
 to		6 to 8 weeks
-59		59 years
-25		25-58 years old
-36		36-70 years-old
-70		36-70 years-old
-75		24-75 years old
-86		9-86 years
-73		73
 or		11 or 18 weeks
-79		7-79
-35		35 to 40 days
-61		61 years
->		> 18 years
-60		30-60 years
 mean		mean 54 years (range 19-68)
 range		mean 54 year (range 19-68)
-68		mean 54 year (range 19-68)
-37		37 years old
-42		42-64 years
-64		42-64 years
-46		46-53 years
-34		21-34 years
 mean:		mean: 29 years
-28		28-55 years
-22		22-52 years
-23		23-55 years old
-63		28-63 years
-57		37-57
-50		10-50 years
-66		21-66 years old
 avg		10.5 year avg.
 at		at least 8 weeks old
 least		at least 8 weeks old
 older		8 week or older
-81		17-81 years old
-85		21 - 85 yo
 yo		21 - 85 yo
->6		>6 wk
 newborn		newborn
-133		13-133 months
-27		27 to 78 years
-78		27 to 78 years
-88		17-88
-87		16-87 years
-67		20-67 years
 10wk		8-10wk
-80		2-80 years
-43		43-46
-76		18-76 years
-56		18-56 years
-=		mean age = 30.7 years
 young		young adult
 not		not available
 available		not available
-84		16-84 years
 sucking		sucking
-47		47 years
-108		22-108 months
 ages		adult and child (ages 4.5-10.5 and 15-44)
 neonates		neonates
->9		>9 years
 birth		at birth
->10		>10 years
-95		60-95 yrs
 of		average of 30.2 years
 ~		~ 33 to 55 years
-82		13-82 years
 over		10 to over 90 years
-90		10 to over 90 years
 within		adult (within 24 hours of parturition)
 parturition		adult (within 24 hour of parturition)
-<		< 11 years
 median		median age 11.3 years
 neonatal		neonatal
-92		46 to 92 years
 mean=28		mean=28.5 +/- 15.0
-+/		mean=28.5 +/- 15.0
->16		>16 weeks
-77		33-77 years
-89		89.7 years
 than		older than 8 weeks
-83		21-83 years old
-<18		<18 hours
 after		24 hour after birth
->27		>27 weeks
-71		53 to 71 years
 neonate		neonate
-<70		<70 years
 embryo		embryo
 calves		calves
 newborns		newborns
 8weeks		6-8weeks
->45		>45 years
 calf		calf
 cows		calves and cows
 less		less than 30 years
 juvenile		juvenile
-<3		<3 years
-41+/		41+/-13 years
-54+/		54+/-10 years
->65		20 - >65 years
-93		26-93 years
-100		42 to 100 days
-116		42 to 116 days
->18		adult (>18 years)
 fetal		fetal
 under		under 16 weeks
 tp		5 tp 7 weeks
-94		65-94 years
-17+/		mean = 32.17+/-13.32 years
-73+/		mean = 73+/-8.53 years
-8+/		42.8+/-11.9 years
-1+/		48.1+/-12.7 years
-<24		<24 hours
->8		>8 weeks
-96		52-96 years
-492		37-492 months
 younger		30 year or younger
-<16		<16 hours
->50		>50 years-old
-<55		<55 years
 prenatal		prenatal
 embryonic		embryonic day 15
 age=36		average age=36.5 years
-18+		18+ years
 age=32		average age=32 years
 infant		infant
 pediatric		pediatric
->60		22 to >60 years
->40		>40 years
 with		mean age of 32.2 year with a range from 18 to 49 year
 a		mean age of 32.2 year with a range from 18 to 49 year
 from		mean age of 32.2 year with a range from 18 to 49 year
-60+		60+ years
 feb		16-feb
 ponies		ponies
 more		more than 15 years
->20		2 to >20 years
-608		608 weeks
 up		up to 12 weeks old
-<5		child <5 years old
-101		91-101 years
 infants		infants
 7years		1.5-7years
 grams		25-30 grams
-<20		<20 years
->15		>15 years
 infected		neonates (infected mothers or pm)
 mothers		neonates (infected mothers or pm)
 pm		neonates (infected mothers or pm)
 g		20-25 g
->13		>13 years
-0+/		40.0+/-13.7 years
-4+/		14.4+/-3.8 years
->/=		>/= 18 years
-04		mean = 65.04 years
 subadult		subadult
-7+/		33.7+/-4.6 years
-5+/		35.5+/-8.1 years
-58+/		mean age = 58+/-12 years
->24		>24 weeks
->22		>22 weeks
 average=		average= 34.6 years
-132		17-132 days
 college		college age
-115		4-115 months
->32		adult, >32 years
 foals		foals
 mean=8		mean=8.4 +/- 4.3
->69		>69 years
 elderly		elderly > 70 years
-98		10-98 years
 steer		steer
 31and		31and 73 years
-97		32 to 97 years
 mature		mature
 middle		middle aged
 aged		middle aged
-<6		<6 months
-07		43.62 +/- 1.07 years
 fetus		100 day fetus
-3+/		72.3+/-6.7 years
->55		>55 years
 age=53		mean age=53.7 years
 age:		mean age: 32.56 years
-6+/		31.6+/-5.4
-38+/		38+/- 11 years
-801		10 to 801 days
 58		58.4 +/- 14.3 years
 14		58.4 +/- 14.3 years
-<42		<42-79 years
-18+/		42.18+/-13.23
-94+/		44.94+/-15.65
-103		1 day to 103 years
 t0		43 t0 53 months
-140		98 to 140 days
-105		27-105 years
 piglet		piglet
-268		1 to 268 days
-123		123 days
-192		12 to 192 weeks
 yeas		46.7 yeas (mean)
 on		52 year old on average
 an		18-38 year, with an average of 22 year
 born		born before 1968
 before		born before 1968
-1968		born before 1968
->56		>56 years
 9weeks		7-9weeks
-<21		<21 years
-99		99
