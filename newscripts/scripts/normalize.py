@@ -166,54 +166,6 @@ def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV):
                     "input_context": data["input_context"]
                 })
 
-def output_normalization_data(maindict):
-    """
-    Outputs data on how many rows get normalized/formatted in 
-    normalization_data.txt. Data is based on values in the columns
-    "normalization_altered" and "formatting_altered".
-
-    -- maindict: The dict from which the normalization data will be gathered.
-    """
-    linecount = len(maindict.keys())
-    normalized_count = 0
-    formatted_count = 0
-    yes_norm_yes_form = 0
-    yes_norm_no_form = 0
-    no_norm_no_form = 0
-    no_norm_yes_form = 0
-    for index, rowdict in maindict.items():
-        if rowdict["normalization_altered"] == "Y":
-            normalized = True
-        else:
-            normalized = False
-        if rowdict["formatting_altered"] == "Y":
-            formatted = True
-        else:
-            formatted = False
-        if normalized:
-            normalized_count += 1
-            if formatted:
-                formatted_count += 1
-                yes_norm_yes_form += 1
-            else:
-                yes_norm_no_form += 1
-        elif formatted:
-            no_norm_yes_form += 1
-            formatted_count += 1
-        else:
-            no_norm_no_form += 1
-    data = open("normalization_data.txt", "w")
-    data.write(f"""ROWS AFFECTED BY NORMALIZATION/FORMATTING:
-
-{normalized_count} ({round((normalized_count/linecount)*100,2)}%) lines normalized.
-{formatted_count} ({round((formatted_count/linecount)*100,2)}%) lines formatted.
-
-{no_norm_no_form} lines ({round((no_norm_no_form/linecount)*100,2)}%) were neither normalized nor formatted.
-{yes_norm_yes_form} lines ({round((yes_norm_yes_form/linecount)*100,2)}%) were normalized and formatted.
-{yes_norm_no_form} lines ({round((yes_norm_no_form/linecount)*100,2)}%) were normalized but not formatted.
-{no_norm_yes_form} lines ({round((no_norm_yes_form/linecount)*100,2)}%) were not normalized but were formatted.""")
-    print("Normalization data saved to normalization_data.txt.")
-
 
 def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style):
     """
@@ -261,7 +213,6 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
             else:
                 rowdict["phrase_normalized"] = "N"
     output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV)
-#    output_normalization_data(maindict)
     dict2TSV(maindict, outputTSV)
 
 
