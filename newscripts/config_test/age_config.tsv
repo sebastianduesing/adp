@@ -1,6 +1,0 @@
-match_pattern	replacement	comment
-"(\\d+\\.?\\d*)(-)(year|month|week|day|hour)"	"\\g<1> \\g<3>"	Fixes hyphenization.
-"(\\s|-)+(year|month|week|day|hour)([\\s-]+)(old)"	" \\g<2>"	Normalizes "[unit]s old" to "[unit]".
-"(<|>) (\\d)"	"\\g<1>\\g<2>"	Removes spacing between > or < and digits.
-"(\\.|,)+$"	""	Removes punctuation at the end of a string.
-"(\\d)(\\s|-)+(to)(\\s|-)+(\\d)"	"\\g<1>-\\g<5>"	Changes "x to y" to "x-y".

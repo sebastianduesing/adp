@@ -1,39 +1,29 @@
 # Process queried TSV.
-.PHONY : process
-process :
-	python3 scripts/normalize.py age_queried.tsv outputs/age_normalized.tsv
-	python3 scripts/age_process.py outputs/age_normalized.tsv age_unit_synonyms.tsv outputs/age_output.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv
+.PHONY: normalize
+normalize :
+	python3 scripts/normalize.py age_queried.tsv age_normalized.tsv word_replacements.tsv word_curation.tsv h_age age
 
-# Updates the curated reference TSV based on the manually-curated TSV.
-.PHONY : update-curated
-update-curated :
-	python3 scripts/initialize_curated_tsv.py curation/manual.tsv curation/curated.tsv
+# Sorts normalized data and creates or updates manual curation TSV.
+.PHONY : sort
+sort :
+	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv phrase_normalized_h_age
+	python3 scripts/make_curation_tsv.py age_sorted.tsv manual_curation.tsv age_data_type
 
-# Merges manually curated rows from curated.tsv to a sorted TSV and removes them from an unsorted TSV.
+# Merges manually curated data and autosorted data together.
 .PHONY : merge
 merge :
-	python3 scripts/curate.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merged.tsv outputs/unsortable.tsv
+	python3 scripts/apply_curation.py manual_curation.tsv age_sorted.tsv age_merged.tsv
 
-# Makes human-readable versions of the sorted data from merge.tsv.
-.PHONY : readable
-readable :
-	python3 scripts/interpret.py outputs/merged.tsv outputs/typed.tsv
+# Creates a finalized human-readable age column and calculates confidence in sorting.
+.PHONY : final
+final :
+	python3 scripts/final_processing.py age_merged.tsv age_final.tsv
 
-# Judges confidence in interpreted version.
-.PHONY : confidence
-confidence :
-	python3 scripts/confidence.py outputs/typed.tsv outputs/final.tsv
-
-# Completes full process.
+# Does all of the above.
 .PHONY : full
 full :
-	python3 scripts/normalize.py age_queried.tsv outputs/age_normalized.tsv
-	python3 scripts/age_process.py outputs/age_normalized.tsv age_unit_synonyms.tsv outputs/age_output.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv
-	python3 scripts/curate.py curation/curated.tsv outputs/age_sorted.tsv outputs/age_unsorted.tsv outputs/merged.tsv outputs/unsortable.tsv
-	python3 scripts/interpret.py outputs/merged.tsv outputs/typed.tsv
-	python3 scripts/confidence.py outputs/typed.tsv outputs/final.tsv
-
-# Removes output TSVs.
-.PHONY : clean
-clean :
-	rm -f outputs/*
+	python3 scripts/normalize.py age_queried.tsv age_normalized.tsv text_swaps.tsv h_age age
+	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv normalized_h_age_style=age
+	python3 scripts/make_curation_tsv.py age_sorted.tsv manual_curation.tsv age_data_type
+	python3 scripts/apply_curation.py manual_curation.tsv age_sorted.tsv age_merged.tsv
+	python3 scripts/final_processing.py age_merged.tsv age_final.tsv
