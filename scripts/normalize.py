@@ -3,7 +3,7 @@ import sys
 import re
 import unicodedata as ud
 from converter import TSV2dict, dict2TSV
-from formatter import age_phrase_normalizer
+from text_formatter import age_phrase_normalizer
 
 
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
