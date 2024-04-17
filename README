@@ -1,30 +1,25 @@
-THIS IS OUTDATED AND WILL BE UPDATED SOON
+This repository contains code to normalize and process free-text data. Contained here is one
+dataset from the Immune Epitope Database which contains age data and to which this version of
+the code is tailored.
 
-This repository contains code intended to process distinct age data. The file "age_queried.tsv"
-contains that data. The scripts folder contains the following two scripts:
+The normalization code follows a three-stage method that corrects variance on the levels of
+characters, words, and phrases. Character correction is most generic; phrase correction is
+most dataset-specific. Word- and phrase-based correction methods used in ADP are designed to
+be easily adapted to other datasets.
 
-NORMALIZE.PY
-normalize.py preprocesses the queried data and outputs age_normalized.tsv. Right now it just
-lowercases the age field and converts en- and em-dashes to hyphens, but it might do more later.
+Using the makefile to run ADP code is recommended, as most scripts involved take several
+arguments.
 
-AGE_PROCESS.PY
-age_process.py intakes age_normalized.tsv and sorts the free-text data into columns for specified 
-age, minimum age, maximum age, age unit, and age comment. It produces three output files:
-	- age_output.tsv, which contains all data contained in the original file;
-	- age_sorted.tsv, which contains only the data that could be processed/sorted by the script; and
-	- age_unsorted.tsv, which contains only the data that could not be processed/sorted by the script 
-	  and will need to be manually sorted.
-Each file has an index column which contains a unique identifier that is the same across all three 
-TSVs, e.g., #400 on age_output.tsv is the same line of data as #400 on age_sorted.tsv.
+- "make normalize" runs normalize.py on an initial input file.
+- "make sort" runs sort_age.py and make_curation_tsv.py. Any new data in manual_curation.tsv
+  should be curated before proceeding to the next step.
+- "make merge" merges manually curated rows from manual_curation.tsv with automatically sorted
+  rows in age_sorted.tsv.
+- "make final" runs final_processing.py, which applies some post-processing steps and
+  calculates a score representing confidence in the sorting of each data item.
+- "make full" runs all of the above.
 
-The makefile contains two simple commands to make running these scripts easier, as each take
-several arguments.
-
-"make process" runs normalize.py and then age_process.py
-"make update-curated" updates the curated reference TSV (curation/curated.tsv) based on the
-manually-curated TSV (curation/manual.tsv).
-"make merge" merges manually curated rows from curated.tsv into sorted/unsorted TSVs, outputting
-outputs/merge_sorted.tsv and outputs/merge_unsorted.tsv.
-"make clean" deletes any output files.
-
-More coming soon...
+Everything following the normalization step is tailored specifically to the age dataset and
+is likely not applicable in its current form to any other dataset. While the normalization
+code's parameters are adapted to suit the needs of the age dataset, normalize.py is designed
+to make it easy to configure it for other datasets.
