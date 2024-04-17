@@ -22,7 +22,7 @@ not		not available
 available		not available
 sucking		sucking
 ages		adult and child (ages 4.5-10.5 and 15-44)
-neonates		neonates
+neonates	neonate	neonates
 birth		at birth
 of		average of 30.2 years
 ~		~ 33 to 55 years
@@ -30,7 +30,7 @@ over	>	10 to over 90 years
 within		adult (within 24 hours of parturition)
 parturition		adult (within 24 hour of parturition)
 median		median age 11.3 years
-neonatal		neonatal
+neonatal	neonate	neonatal
 than		older than 8 weeks
 after		24 hour after birth
 neonate		neonate
@@ -57,7 +57,7 @@ feb		16-feb
 ponies	pony	ponies
 more		more than 15 years
 up		up to 12 weeks old
-infants		infants
+infants	infant	infants
 7years	7 year	1.5-7years
 grams		25-30 grams
 infected		neonates (infected mothers or pm)
