@@ -1,9 +1,10 @@
 import csv
 import sys
 import re
+import os.path
 import unicodedata as ud
 from converter import TSV2dict, dict2TSV
-from text_formatter import age_phrase_normalizer
+from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
 
 
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
@@ -207,9 +208,12 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
             rowdict["word_normalized"] = "Y"
         else:
             rowdict["word_normalized"] = "N"
+        phrasecolumn = f"phrase_normalized_{target_column}"
         if style == "age":
-            phrasecolumn = f"phrase_normalized_{target_column}"
             rowdict[phrasecolumn] = age_phrase_normalizer(sc_data)
+        elif style == "data_loc":
+            rowdict[phrasecolumn] = data_loc_phrase_normalizer(sc_data)
+        if rowdict[phrasecolumn] in rowdict:
             if rowdict[phrasecolumn] != rowdict[wordcolumn]:
                 rowdict["phrase_normalized"] = "Y"
             else:
@@ -219,10 +223,18 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
 
 
 if __name__ == "__main__":
-    inputTSV = sys.argv[1]
-    outputTSV = sys.argv[2]
-    spellcheckTSV = sys.argv[3]
-    word_curation_TSV = sys.argv[4]
-    target_column = sys.argv[5]
+    # Check style; also name of directory where TSVs are found/stored.
     style = sys.argv[6]
+    # Create the paths for the input and output TSVs.
+    inputTSV = os.path.join(style, sys.argv[1])
+    outputTSV = os.path.join(style, sys.argv[2])
+    spellcheckTSV = os.path.join(style, sys.argv[3])
+    word_curation_TSV = os.path.join(style, sys.argv[4])
+    target_column = sys.argv[5]
+    # Verify that the files exist.
+    file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
+    for path in file_paths:
+        if not os.path.isfile(path):
+            print(f"Error: {path} does not exist.")
+            sys.exit(1)
     normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style)

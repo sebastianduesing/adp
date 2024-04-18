@@ -78,3 +78,28 @@ def age_phrase_normalizer(string):
         string
     )
     return string
+
+def data_loc_phrase_normalizer(string):
+    """
+    TODO: Add all additional normalizations for data location strings.
+    
+    Normalize a "data location" string according to domain-specific guidelines.
+
+    This function takes a string representing a "data location" and performs
+    domain-specific normalization techniques to render the string standardized
+    and normalized according to the data location field guidelines.
+
+    Parameters:
+    string (str): The input string representing a "data location".
+
+    Returns:
+    str: The normalized and standardized version of the input string.
+
+    """
+    # Removes punctuation at the end of a string.
+    string = re.sub(
+        r"(\.|,)+$",
+        r"",
+        string
+    )
+    return string
