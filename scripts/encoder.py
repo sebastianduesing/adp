@@ -3,14 +3,32 @@ import os
 import chardet
 
 def detect_file_encoding(file_path):
-    """Detect the character encoding of the given file."""
+    """
+    Detects the character encoding of the given file.
+
+    Args:
+        file_path (str): The path to the file.
+
+    Returns:
+        str: The detected character encoding of the file.
+
+    """
     with open(file_path, 'rb') as f:
         result = chardet.detect(f.read())
     return result['encoding']
 
 
 def convert_file_encoding(input_file_path, original_encoding, target_encoding):
-    """Convert file from one encoding to another."""
+    """Convert file from one encoding to another.
+
+    Args:
+        input_file_path (str): The path to the input file.
+        original_encoding (str): The original encoding of the file.
+        target_encoding (str): The target encoding to convert the file to.
+
+    Returns:
+        str: The path to the newly created file with the target encoding.
+    """
     # Construct new file path
     new_file_path = f"{os.path.splitext(input_file_path)[0]}_{target_encoding}{os.path.splitext(input_file_path)[1]}"
 
