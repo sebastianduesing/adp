@@ -1,13 +1,15 @@
 input_word	correct_term	input_context
-tabel	table	
+tbl	table	
 tabe	table	
 tabl	table	
-tbl	table	
-figur	figure	
-figgure	figure	
+tabel	table	
+tables	table	
 fig	figure	
 fig.	figure	
 figs	figure	
+figur	figure	
+figgure	figure	
+figures	figure	
 dataset	data	
 datta	data	
 dat	data	
@@ -21,11 +23,20 @@ abst	abstract
 abs	abstract	
 refence	reference	
 referce	reference	
+refernce	reference	
 referece	reference	
-referecne	reference	
 referenc	reference	
+referecne	reference	
+references	reference	
 supplementary	supplemental	
 supplimentary	supplemental	
 supplimentry	supplemental	
 supplem	supplemental	
+supp.	supplemental	
 supp	supplemental	
+suppl	supplemental	
+p.	page	
+pg.	page	
+pg	page	
+pages	page	
+text p.	page	

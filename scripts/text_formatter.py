@@ -81,20 +81,14 @@ def age_phrase_normalizer(string):
 
 def data_loc_phrase_normalizer(string):
     """
-    TODO: Add all additional normalizations for data location strings.
-    
-    Normalize a "data location" string according to domain-specific guidelines.
+    Normalize localization phrases in a given text by identifying types ('figure', 'table', 'page')
+    and associating numbers to these types across segments split by commas, semicolons, or 'and'.
 
-    This function takes a string representing a "data location" and performs
-    domain-specific normalization techniques to render the string standardized
-    and normalized according to the data location field guidelines.
-
-    Parameters:
-    string (str): The input string representing a "data location".
+    Args:
+    text (str): Input text containing localization phrases that need normalization.
 
     Returns:
-    str: The normalized and standardized version of the input string.
-
+    list: A list of normalized localization phrases.
     """
     # Removes punctuation at the end of a string.
     string = re.sub(
@@ -102,4 +96,39 @@ def data_loc_phrase_normalizer(string):
         r"",
         string
     )
-    return string
+    
+    # Normalizing the text by replacing all delimiters with ';'
+    text = re.sub(r',|;| and ', ';', string)
+    # Split the text using ';'
+    segments = text.split(';')
+    
+    results = []
+    current_type = None
+
+    for segment in segments:
+        segment = segment.strip()
+        
+        # Special check for "text p.#" and replace with "page #"
+        if re.search(r'text p\.\d+', segment):
+            segment = re.sub(r'text p\.(\d+)', r'page \1', segment)
+        
+        # Special check for superfluous version tags and remove them
+        if re.search(r'\(v\d+(\.\d+)?\)', segment):
+            segment = re.sub(r'\(v\d+(\.\d+)?\)', '', segment)[:-1]
+                
+        # Detect the presence of a type and capture it with any leading words as prefix
+        type_match = re.search(r'(\b\w+\s)?(figure|table|page)\b', segment, re.IGNORECASE)
+        if type_match:
+            prefix = type_match.group(1) or ""
+            current_type = f"{prefix.strip()} {type_match.group(2)}".strip()
+       
+        # After identifying the type, extract all numbers
+        numbers = re.findall(r'\bs?\d+\b', segment)
+        for number in numbers:
+            results.append(f"{current_type} {number}")
+        
+        # If no numbers are found and no type is defined in the segment, treat as non-type element
+        if not numbers and not type_match:
+            results.append(segment)
+
+    return results

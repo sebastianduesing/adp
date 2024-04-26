@@ -211,13 +211,22 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
         phrasecolumn = f"phrase_normalized_{target_column}"
         if style == "age":
             rowdict[phrasecolumn] = age_phrase_normalizer(sc_data)
+            # Check if phrase normalization has occured.
+            if rowdict[phrasecolumn] in rowdict:
+                if rowdict[phrasecolumn] != rowdict[wordcolumn]:
+                    rowdict["phrase_normalized"] = "Y"
+                else:
+                    rowdict["phrase_normalized"] = "N"
         elif style == "data_loc":
             rowdict[phrasecolumn] = data_loc_phrase_normalizer(sc_data)
-        if rowdict[phrasecolumn] in rowdict:
-            if rowdict[phrasecolumn] != rowdict[wordcolumn]:
+            # Check if phrase normalization has occured.
+            if isinstance(rowdict[phrasecolumn], list) and len(rowdict[phrasecolumn]) > 1:
+                rowdict["phrase_normalized"] = "Y"
+            elif rowdict[phrasecolumn][0] != rowdict[wordcolumn]:
                 rowdict["phrase_normalized"] = "Y"
             else:
                 rowdict["phrase_normalized"] = "N"
+        
     output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV)
     dict2TSV(maindict, outputTSV)
 
