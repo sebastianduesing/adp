@@ -222,6 +222,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
             # Check if phrase normalization has occured.
             if isinstance(rowdict[phrasecolumn], list) and len(rowdict[phrasecolumn]) > 1:
                 rowdict["phrase_normalized"] = "Y"
+            # FIXME: Index out of range error; check to make sure null values are handled.
             elif rowdict[phrasecolumn][0] != rowdict[wordcolumn]:
                 rowdict["phrase_normalized"] = "Y"
             else:

@@ -1,7 +1,7 @@
 # Process queried TSV.
 .PHONY: normalize
 normalize :
-	python3 scripts/normalize.py data_location.tsv data_normlaized.tsv data_loc_word_replacements.tsv data_loc_word_curation.tsv location data_loc
+	python3 scripts/normalize.py data_location.tsv data_normalized.tsv data_loc_word_replacements.tsv data_loc_word_curation.tsv location data_loc
 
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort

@@ -42,7 +42,7 @@ def dict2TSV(xdict, path):
     indices = [i for i in xdict.keys()]
     first = indices[0]
     fieldnames = [i for i in xdict[first].keys()]
-    with open(path, "w", newline="\n") as tsv:
+    with open(path, "w", newline="\n", encoding='utf-8') as tsv:
         writer = csv.DictWriter(tsv, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
         for (index, row) in xdict.items():
