@@ -63,7 +63,7 @@ def calculate_metrics(data, original_col):
     def create_freq_buckets(freq):
         mean = freq.mean()
         std = freq.std()
-        unique = freq.nunique()
+        unique = len(freq)
         single_use = (freq == 1).sum()
         single_use_percentage = (single_use / total_strings) * 100
         high_frequency = (freq >= mean + 2 * std) & (freq < mean + 3 * std)
@@ -83,36 +83,61 @@ def calculate_metrics(data, original_col):
 
     metrics_original = create_freq_buckets(freq_original)
     metrics_phrase_normalized = create_freq_buckets(freq_phrase_normalized)
-
-    counts_results = {
-        'Total Strings': total_strings,
-        'Unique Strings Original': metrics_original['unique_strings'],
-        'Unique Strings Phrase Normalized': metrics_phrase_normalized['unique_strings'],
-        'Single Use Original': metrics_original['single_use'],
-        'Single Use Phrase Normalized': metrics_phrase_normalized['single_use'],
-        'High Frequency Original': metrics_original['high_frequency'],
-        'High Frequency Phrase Normalized': metrics_phrase_normalized['high_frequency'],
-        'Ultra High Frequency Original': metrics_original['ultra_high_frequency'],
-        'Ultra High Frequency Phrase Normalized': metrics_phrase_normalized['ultra_high_frequency']
-    }
-
-    percentages_results = {
-        'Total Strings Percentage': (total_strings / initial_string_count) * 100,
-        'Unique Strings Original Percentage': metrics_original['unique_percentage'],
-        'Unique Strings Phrase Normalized Percentage': metrics_phrase_normalized['unique_percentage'],
-        'Single Use Original Percentage': metrics_original['single_use_percentage'],
-        'Single Use Phrase Normalized Percentage': metrics_phrase_normalized['single_use_percentage'],
-        'High Frequency Original Percentage': metrics_original['high_frequency_percentage'],
-        'High Frequency Phrase Normalized Percentage': metrics_phrase_normalized['high_frequency_percentage'],
-        'Ultra High Frequency Original Percentage': metrics_original['ultra_high_frequency_percentage'],
-        'Ultra High Frequency Phrase Normalized Percentage': metrics_phrase_normalized['ultra_high_frequency_percentage']
+    
+    # Format results before filling in dictionary
+    # Unique Strings
+    unique_strings_change = (abs(metrics_original['unique_strings'] - metrics_phrase_normalized['unique_strings']) / metrics_original['unique_strings']) * 100
+    if metrics_original['unique_strings'] > metrics_phrase_normalized['unique_strings']:
+        unique_strings_change *= -1
+    # Ratios of unique strings before and after phrase normalization
+    ratio_value_unique_original = total_strings / metrics_original['unique_strings']
+    ratio_value_unique_phrase_normalized = total_strings / metrics_phrase_normalized['unique_strings']
+    unique_ratio_change = (abs(ratio_value_unique_original - ratio_value_unique_phrase_normalized) / ratio_value_unique_original) * 100
+    if ratio_value_unique_original > ratio_value_unique_phrase_normalized:
+        unique_ratio_change *= -1
+    # Single Use Strings
+    single_use_vs_all = (metrics_original['single_use'] / total_strings) * 100
+    single_use_vs_unique = (metrics_original['single_use'] / metrics_original['unique_strings']) * 100
+    single_use_vs_all_phrase_normalized = (metrics_phrase_normalized['single_use'] / total_strings) * 100
+    single_use_vs_unique_phrase_normalized = (metrics_phrase_normalized['single_use'] / metrics_phrase_normalized['unique_strings']) * 100
+    single_use_strings_change = (abs(metrics_original['single_use'] - metrics_phrase_normalized['single_use']) / metrics_original['single_use']) * 100
+    if metrics_original['single_use'] > metrics_phrase_normalized['single_use']:
+        single_use_strings_change *= -1
+    # Ratios of 'single use' strings before and after phrase normalization
+    single_use_ratio_change = (abs(single_use_vs_unique - single_use_vs_unique_phrase_normalized) / single_use_vs_unique) * 100
+    if single_use_vs_unique > single_use_vs_unique_phrase_normalized:
+        single_use_ratio_change *= -1
+    
+    
+    final_results = {
+        'Number of Unique Strings': metrics_original['unique_strings'],
+        'Number of Unique Strings Phrase Normalized': metrics_phrase_normalized['unique_strings'],
+        'Change in Number of Unique Strings': unique_strings_change,
+        'Ratio of Total Strings to Unique Strings': ratio_value_unique_original,
+        'Ratio of Total Strings to Unique Strings Phrase Normalized': ratio_value_unique_phrase_normalized,
+        'Change in Ratio of Unique Strings to Total Strings': unique_ratio_change,
+        'Number of Single Use Strings': metrics_original['single_use'],
+        'Single Use Strings as a Percentage of All Strings': single_use_vs_all,
+        'Single Use Strings as a Percentage of Unique Strings': single_use_vs_unique,
+        'Number of Single Use Strings Phrase Normalized': metrics_phrase_normalized['single_use'],
+        'Single Use Strings as a Percentage of All Strings After Phrase Normalization': single_use_vs_all_phrase_normalized,
+        'Single Use Strings as a Percentage of Unique Strings After Phrase Normalization': single_use_vs_unique_phrase_normalized,
+        'Change in Number of Single Use Strings': single_use_strings_change,
+        'Change in Ratio of Single Use Strings to Total Strings': single_use_ratio_change
     }
     
     # Round all numeric values in the results dictionaries for better readability
-    rounded_counts_results = round_dict_values_in_place(counts_results)
-    rounded_percentages_results = round_dict_values_in_place(percentages_results)
+    rounded_final_results = round_dict_values_in_place(final_results)
+    # Format report strings (ratios)
+    # Format report strings
+    percentage_cols_final = ['Change in Number of Unique Strings', 'Change in Ratio of Unique Strings to Total Strings', 'Change in Number of Single Use Strings', 'Change in Ratio of Single Use Strings to Total Strings']
+    for col in percentage_cols_final:
+        rounded_final_results[col] = f'{rounded_final_results[col]}%'
+    ratio_cols = ['Ratio of Total Strings to Unique Strings', 'Ratio of Total Strings to Unique Strings Phrase Normalized']
+    for col in ratio_cols:
+        rounded_final_results[col] = f'{rounded_final_results[col]} : 1'
 
-    return rounded_counts_results, rounded_percentages_results
+    return rounded_final_results
 
 def write_results_to_tsv(results, output_file):
     """
@@ -135,15 +160,11 @@ def main():
     output_dir = sys.argv[3]
 
     data = load_data(file_path)
-    counts_results, percentages_results = calculate_metrics(data, original_col)
-
-    # Write counts results
-    output_file_counts = os.path.join(output_dir, f'{original_col}_counts_results.tsv')
-    write_results_to_tsv(counts_results, output_file_counts)
-
-    # Write percentages results
-    output_file_metrics = os.path.join(output_dir, f'{original_col}_metrics_results.tsv')
-    write_results_to_tsv(percentages_results, output_file_metrics)
+    final_results = calculate_metrics(data, original_col)
+    
+    # Write final reporting result
+    output_file_metrics = os.path.join(output_dir, f'{original_col}_final_results.tsv')
+    write_results_to_tsv(final_results, output_file_metrics)
 
 if __name__ == "__main__":
     main()

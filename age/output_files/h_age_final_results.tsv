@@ -1,0 +1,15 @@
+Metric	Value
+Number of Unique Strings	4094
+Number of Unique Strings Phrase Normalized	3128
+Change in Number of Unique Strings	-23.6%
+Ratio of Total Strings to Unique Strings	1.75 : 1
+Ratio of Total Strings to Unique Strings Phrase Normalized	2.29 : 1
+Change in Ratio of Unique Strings to Total Strings	30.88%
+Number of Single Use Strings	3696
+Single Use Strings as a Percentage of All Strings	51.69
+Single Use Strings as a Percentage of Unique Strings	90.28
+Number of Single Use Strings Phrase Normalized	2408
+Single Use Strings as a Percentage of All Strings After Phrase Normalization	33.67
+Single Use Strings as a Percentage of Unique Strings After Phrase Normalization	76.98
+Change in Number of Single Use Strings	-34.85%
+Change in Ratio of Single Use Strings to Total Strings	-14.73%

@@ -99,8 +99,8 @@ def data_loc_phrase_normalizer(string):
     
     # Normalizing the text by replacing all delimiters with ';'
     text = re.sub(r',|;| and ', ';', string)
-    # Split the text using ';'
-    segments = text.split(';')
+    # Split the text using ';' and remove any empty segments or segments that contain only spaces
+    segments = [segment.strip() for segment in text.split(';') if segment.strip()]
     
     results = []
     current_type = None
@@ -108,9 +108,11 @@ def data_loc_phrase_normalizer(string):
     for segment in segments:
         segment = segment.strip()
         
-        # Special check for "text p.#" and replace with "page #"
-        if re.search(r'text p\.\d+', segment):
-            segment = re.sub(r'text p\.(\d+)', r'page \1', segment)
+        # Special check for "text p.#|text p. #|text p #" and replace with "page #"
+        pattern = r'text p\.?\s*(\d+)'
+        replacement = r'page \1'
+        if re.search(pattern, segment):
+            segment = re.sub(pattern, replacement, segment)
         
         # Special check for superfluous version tags and remove them
         if re.search(r'\(v\d+(\.\d+)?\)', segment):
@@ -122,10 +124,32 @@ def data_loc_phrase_normalizer(string):
             prefix = type_match.group(1) or ""
             current_type = f"{prefix.strip()} {type_match.group(2)}".strip()
        
-        # After identifying the type, extract all numbers
-        numbers = re.findall(r'\bs?\d+\b', segment)
+        # After identifying the type, extract all numbers from the segment
+        numbers = re.findall(r'\bs?\d+[a-zA-Z]?(?:&[a-zA-Z])*\b', segment)
         for number in numbers:
-            results.append(f"{current_type} {number}")
+            # Check if '&' is present and iterate over each component
+            if '&' in number:
+                # Extract the base number part (digits and optional 's')
+                base_number = re.match(r's?\d+', number).group(0)
+                # Split on '&' and reconstruct each part with the base number
+                parts = re.split(r'&', number)
+                for i, part in enumerate(parts):
+                    if i == 0:
+                        # First part already includes the full initial part, just append it
+                        results.append(f"{current_type} {part}")
+                    else:
+                        # Subsequent parts need the base number appended
+                        results.append(f"{current_type} {base_number}{part}")
+            else:
+                # No '&' in the string, append directly
+                results.append(f"{current_type} {number}")
+        
+        # TODO: The logic below is where text "slips through" our checks
+        
+        # If no numbers are found but a type is defined in the segment, treat as type element
+        # However "figure" without a number is not useful
+        if not numbers and type_match:
+            results.append(segment)
         
         # If no numbers are found and no type is defined in the segment, treat as non-type element
         if not numbers and not type_match:
