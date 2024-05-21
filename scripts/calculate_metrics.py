@@ -70,8 +70,8 @@ def calculate_metrics(data, original_col):
         unique = len(freq)
         single_use = (freq == 1).sum()
         single_use_percentage = (single_use / total_strings) * 100
-        high_frequency = (freq >= mean + 2 * stand_dev) & (freq < mean + 3 * stand_dev)
-        ultra_high_frequency = freq >= mean + 3 * stand_dev
+        mid_frequency = (freq > (mean + stand_dev)) & (freq < (mean + (3 * stand_dev)))
+        high_frequency = freq >= (mean + (3 * stand_dev))
         
         return {
             'total_strings': total_strings,
@@ -79,12 +79,12 @@ def calculate_metrics(data, original_col):
             'sd_string_frequency': stand_dev,
             'unique_strings': unique,
             'single_use': single_use,
+            'mid_frequency': mid_frequency.sum(),
             'high_frequency': high_frequency.sum(),
-            'ultra_high_frequency': ultra_high_frequency.sum(),
             'unique_percentage': (unique / total_strings) * 100,
             'single_use_percentage': single_use_percentage,
-            'high_frequency_percentage': (high_frequency.sum() / total_strings) * 100,
-            'ultra_high_frequency_percentage': (ultra_high_frequency.sum() / total_strings) * 100
+            'mid_frequency_percentage': (mid_frequency.sum() / total_strings) * 100,
+            'high_frequency_percentage': (high_frequency.sum() / total_strings) * 100
         }
 
     metrics_original = create_freq_buckets(freq_original)
@@ -133,7 +133,15 @@ def calculate_metrics(data, original_col):
         'Single Use Strings as a Percentage of All Strings After Phrase Normalization': single_use_vs_all_phrase_normalized,
         'Single Use Strings as a Percentage of Unique Strings After Phrase Normalization': single_use_vs_unique_phrase_normalized,
         'Change in Number of Single Use Strings': single_use_strings_change,
-        'Change in Ratio of Single Use Strings to Total Strings': single_use_ratio_change
+        'Change in Ratio of Single Use Strings to Total Strings': single_use_ratio_change,
+        'Mid Frequency Strings': metrics_original['mid_frequency'],
+        'Mid Frequency Strings as a Percentage of All Strings': metrics_original['mid_frequency_percentage'],
+        'Mid Frequency Strings After Phrase Normalization': metrics_phrase_normalized['mid_frequency'],
+        'Mid Frequency Strings as a Percentage of All Strings After Phrase Normalization': metrics_phrase_normalized['mid_frequency_percentage'],
+        'High Frequency Strings': metrics_original['high_frequency'],
+        'High Frequency Strings as a Percentage of All Strings': metrics_original['high_frequency_percentage'],
+        'High Frequency Strings After Phrase Normalization': metrics_phrase_normalized['high_frequency'],
+        'High Frequency Strings as a Percentage of All Strings After Phrase Normalization': metrics_phrase_normalized['high_frequency_percentage']
     }
     
     # Round all numeric values in the results dictionaries for better readability
