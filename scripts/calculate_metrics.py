@@ -57,20 +57,24 @@ def calculate_metrics(data, original_col):
         data = data.explode(phrase_normalized_col)  # This will duplicate rows based on list length
 
     total_strings = len(data)
+    # Fill null values with 'null' string - otherwise missed in value_counts
+    data = data.fillna('null')
     freq_original = data[original_col].value_counts()
     freq_phrase_normalized = data[phrase_normalized_col].value_counts()
 
     def create_freq_buckets(freq):
         mean = freq.mean()
-        std = freq.std()
+        stand_dev = freq.std()
         unique = len(freq)
         single_use = (freq == 1).sum()
         single_use_percentage = (single_use / total_strings) * 100
-        high_frequency = (freq >= mean + 2 * std) & (freq < mean + 3 * std)
-        ultra_high_frequency = freq >= mean + 3 * std
+        high_frequency = (freq >= mean + 2 * stand_dev) & (freq < mean + 3 * stand_dev)
+        ultra_high_frequency = freq >= mean + 3 * stand_dev
         
         return {
             'total_strings': total_strings,
+            'mean_string_frequency': mean,
+            'sd_string_frequency': stand_dev,
             'unique_strings': unique,
             'single_use': single_use,
             'high_frequency': high_frequency.sum(),
@@ -114,7 +118,11 @@ def calculate_metrics(data, original_col):
         'Number of Unique Strings Phrase Normalized': metrics_phrase_normalized['unique_strings'],
         'Change in Number of Unique Strings': unique_strings_change,
         'Ratio of Total Strings to Unique Strings': ratio_value_unique_original,
+        'Mean String Frequency': metrics_original['mean_string_frequency'],
+        'Standard Deviation of String Frequency': metrics_original['sd_string_frequency'],
         'Ratio of Total Strings to Unique Strings Phrase Normalized': ratio_value_unique_phrase_normalized,
+        'Mean String Frequency After Phrase Normalization': metrics_phrase_normalized['mean_string_frequency'],
+        'Standard Deviation of String Frequency After Phrase Normalization': metrics_phrase_normalized['sd_string_frequency'],
         'Change in Ratio of Unique Strings to Total Strings': unique_ratio_change,
         'Number of Single Use Strings': metrics_original['single_use'],
         'Single Use Strings as a Percentage of All Strings': single_use_vs_all,
