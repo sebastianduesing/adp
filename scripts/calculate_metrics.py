@@ -44,12 +44,14 @@ def parse_possible_list(s):
 def calculate_metrics(data, original_col):
     """
     Calculate various metrics including unique strings, frequency distributions,
-    and percentages as specified in the prompt.
+    and percentages as specified in the manuscript.
     """
     phrase_normalized_col = f'phrase_normalized_{original_col}'
-
-    # Find number of original strings
-    initial_string_count = len(data)
+    
+    # This only pertains to data location field - stored lists in the phrase column
+    # Check if we've used N/A to exclude known invalid locations; if not, remove rows with N/A
+    if original_col == 'location':
+        data = data[~data[phrase_normalized_col].apply(lambda x: 'N/A' in x)].copy()
 
     # Preprocess phrase_normalized column by parsing lists
     if phrase_normalized_col in data.columns:
@@ -115,7 +117,7 @@ def calculate_metrics(data, original_col):
     
     final_results = {
         'Number of Unique Strings': metrics_original['unique_strings'],
-        'Number of Unique Strings Phrase Normalized': metrics_phrase_normalized['unique_strings'],
+        'Number of Unique Strings After Phrase Normalization': metrics_phrase_normalized['unique_strings'],
         'Change in Number of Unique Strings': unique_strings_change,
         'Ratio of Total Strings to Unique Strings': ratio_value_unique_original,
         'Mean String Frequency': metrics_original['mean_string_frequency'],
@@ -137,7 +139,6 @@ def calculate_metrics(data, original_col):
     # Round all numeric values in the results dictionaries for better readability
     rounded_final_results = round_dict_values_in_place(final_results)
     # Format report strings (ratios)
-    # Format report strings
     percentage_cols_final = ['Change in Number of Unique Strings', 'Change in Ratio of Unique Strings to Total Strings', 'Change in Number of Single Use Strings', 'Change in Ratio of Single Use Strings to Total Strings']
     for col in percentage_cols_final:
         rounded_final_results[col] = f'{rounded_final_results[col]}%'
@@ -171,8 +172,8 @@ def main():
     final_results = calculate_metrics(data, original_col)
     
     # Write final reporting result
-    output_file_metrics = os.path.join(output_dir, f'{original_col}_final_results.tsv')
-    write_results_to_tsv(final_results, output_file_metrics)
+    output_file = os.path.join(output_dir, f'{original_col}_final_results.tsv')
+    write_results_to_tsv(final_results, output_file)
 
 if __name__ == "__main__":
     main()

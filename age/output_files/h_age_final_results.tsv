@@ -1,6 +1,6 @@
 Metric	Value
 Number of Unique Strings	4095
-Number of Unique Strings Phrase Normalized	3129
+Number of Unique Strings After Phrase Normalization	3129
 Change in Number of Unique Strings	-23.59%
 Ratio of Total Strings to Unique Strings	1.75 : 1
 Mean String Frequency	1.75

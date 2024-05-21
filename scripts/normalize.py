@@ -7,6 +7,26 @@ from converter import TSV2dict, dict2TSV
 from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
 
 
+def is_known_invalid_location(data):
+    # Checks if the string looks like a web URL
+    if re.match(r'https?://\S+', data):
+        return True
+    # Checks if the string is composed only of numbers
+    elif data.isdigit():
+        return True
+    # Checks if the string is an alphanumeric identifier without anything else
+    elif re.match(r'^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$', data):
+        return True
+    # Checks if the string is a PDB identifier
+    elif re.match(r'^pdb\s[a-zA-Z0-9]{4}$', data):
+        return True
+    # Checks if the string is a single letter followed by a number
+    # TODO: Check what type of ID this is
+    elif re.match(r'[a-zA-Z]\s\d+', data):
+        return True
+    return False
+
+
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
     """
     Creates SCdict, in which keys are preferred spellings or representations
@@ -188,41 +208,47 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
        anything other than "age" in this argument place will result in no
        style being applied.
     """
-    # Make spellcheck dict.
     SCdict, WCdict, sc_data_dict = prepare_spellcheck(spellcheckTSV, word_curation_TSV)
-    # Make dict of TSV data.
     maindict = TSV2dict(inputTSV)
+    
+    char_column = f"char_normalized_{target_column}"
+    word_column = f"word_normalized_{target_column}"
+    phrase_column = f"phrase_normalized_{target_column}"
+    
     for index, rowdict in maindict.items():
         data = rowdict[target_column]
-        standardized_data = standardize_string(data)
-        charcolumn = f"char_normalized_{target_column}"
-        rowdict[charcolumn] = standardized_data
-        if rowdict[charcolumn] != rowdict[target_column]:
-            rowdict["char_normalized"] = "Y"
+        data = standardize_string(data)
+
+        # Only for data location fields
+        if style == "data_loc":
+            # Convert invalid locations to "N/A"
+            if is_known_invalid_location(data):
+                rowdict[char_column] = ["N/A"]
+                rowdict["char_normalized"] = "N"
+                rowdict[word_column] = ["N/A"]
+                rowdict["word_normalized"] = "N"
+                rowdict[phrase_column] = ["N/A"]
+                rowdict["phrase_normalized"] = "N"
         else:
-            rowdict["char_normalized"] = "N"
-        sc_data = run_spellcheck(standardized_data, SCdict, WCdict, sc_data_dict)
-        wordcolumn = f"word_normalized_{target_column}"
-        rowdict[wordcolumn] = sc_data
-        if rowdict[wordcolumn] != rowdict[charcolumn]:
-            rowdict["word_normalized"] = "Y"
-        else:
-            rowdict["word_normalized"] = "N"
-        phrasecolumn = f"phrase_normalized_{target_column}"
-        if style == "age":
-            rowdict[phrasecolumn] = age_phrase_normalizer(sc_data)
-            # Check if phrase normalization has occured.
-            if rowdict[phrasecolumn] in rowdict:
-                if rowdict[phrasecolumn] != rowdict[wordcolumn]:
-                    rowdict["phrase_normalized"] = "Y"
-                else:
-                    rowdict["phrase_normalized"] = "N"
-        elif style == "data_loc":
-            rowdict[phrasecolumn] = data_loc_phrase_normalizer(sc_data)
-            # Check if phrase normalization has occured.
-            if isinstance(rowdict[phrasecolumn], list) and len(rowdict[phrasecolumn]) > 1:
-                rowdict["phrase_normalized"] = "Y"
-            elif rowdict[phrasecolumn][0] != rowdict[wordcolumn]:
+            rowdict[char_column] = data
+            if rowdict[char_column] != rowdict[target_column]:
+                rowdict["char_normalized"] = "Y"
+            else:
+                rowdict["char_normalized"] = "N"
+            
+            sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
+            rowdict[word_column] = sc_data
+            if rowdict[word_column] != rowdict[char_column]:
+                rowdict["word_normalized"] = "Y"
+            else:
+                rowdict["word_normalized"] = "N"
+            
+            if style == "age":
+                rowdict[phrase_column] = age_phrase_normalizer(sc_data)
+            elif style == "data_loc":
+                rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
+            
+            if rowdict[phrase_column] != rowdict[word_column]:
                 rowdict["phrase_normalized"] = "Y"
             else:
                 rowdict["phrase_normalized"] = "N"

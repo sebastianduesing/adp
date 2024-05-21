@@ -1,2 +1,5 @@
-
+# Ignore compiled c files
 *.pyc
+
+# Ignore alternative data files
+*_strict.tsv
