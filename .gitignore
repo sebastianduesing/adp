@@ -3,3 +3,5 @@
 
 # Ignore alternative data files
 *_strict.tsv
+*_exploded.tsv
+*_manual_review.tsv

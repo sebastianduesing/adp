@@ -219,11 +219,12 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
         data = rowdict[target_column]
         data = standardize_string(data)
 
-        # Only for data location fields with invalid locations
+        # Only for data location fields with invalid locations (AKA URLs, PDB IDs, etc.)
+        # Including all (skipping this step) would be a "strict" check.
         if style == "data_loc" and is_known_invalid_location(data):
-                rowdict[char_column] = ["N/A"]
+                rowdict[char_column] = "N/A"
                 rowdict["char_normalized"] = "N"
-                rowdict[word_column] = ["N/A"]
+                rowdict[word_column] = "N/A"
                 rowdict["word_normalized"] = "N"
                 rowdict[phrase_column] = ["N/A"]
                 rowdict["phrase_normalized"] = "N"
@@ -243,13 +244,20 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
             
             if style == "age":
                 rowdict[phrase_column] = age_phrase_normalizer(sc_data)
+                # Simple check to see if the phrase was normalized
+                if rowdict[phrase_column] != rowdict[word_column]:
+                    rowdict["phrase_normalized"] = "Y"
+                else:
+                    rowdict["phrase_normalized"] = "N"
             elif style == "data_loc":
                 rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
+                # Because this is a list, extract first element to check if it was normalized
+                if rowdict[phrase_column][0] != rowdict[word_column]:
+                    rowdict["phrase_normalized"] = "Y"
+                else:
+                    rowdict["phrase_normalized"] = "N"
             
-            if rowdict[phrase_column] != rowdict[word_column]:
-                rowdict["phrase_normalized"] = "Y"
-            else:
-                rowdict["phrase_normalized"] = "N"
+            
         
     output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV)
     dict2TSV(maindict, outputTSV)

@@ -112,11 +112,11 @@ def data_loc_phrase_normalizer(string):
     current_type = None
 
     for segment in segments:
-        segment = segment.strip()
+        original_segment = segment.strip()
         
         # Special check for superfluous version tags and remove them
-        if re.search(r'\(v\d+(\.\d+)?\)', segment):
-            segment = re.sub(r'\(v\d+(\.\d+)?\)', '', segment).strip()
+        if re.search(r'\(v\d+(\.\d+)?\)', original_segment):
+            segment = re.sub(r'\(v\d+(\.\d+)?\)', '', original_segment).strip()
             
         # Check for hanging periods leftover from abbreviations and remove them
         if re.search(r'\. ', segment):
@@ -154,6 +154,9 @@ def data_loc_phrase_normalizer(string):
         
         # If no numbers are found and no type is defined in the segment, treat as non-type element
         if not numbers and not type_match:
+            # TODO: Decide if we want to keep the "UNNORMALIZED" tag
+            #if original_segment == segment:
+            #    segment = f"UNNORMALIZED: {segment}"
             results.append(segment)
 
     return results
