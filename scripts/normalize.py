@@ -219,10 +219,8 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
         data = rowdict[target_column]
         data = standardize_string(data)
 
-        # Only for data location fields
-        if style == "data_loc":
-            # Convert invalid locations to "N/A"
-            if is_known_invalid_location(data):
+        # Only for data location fields with invalid locations
+        if style == "data_loc" and is_known_invalid_location(data):
                 rowdict[char_column] = ["N/A"]
                 rowdict["char_normalized"] = "N"
                 rowdict[word_column] = ["N/A"]
