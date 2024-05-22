@@ -113,25 +113,32 @@ def calculate_metrics(input_file, data, original_col):
         data = data[~data[phrase_normalized_col].apply(lambda x: 'N/A' in x)].copy()
 
         # Expand lists in the phrase column to separate rows
-        if phrase_normalized_col in data.columns:
-            data[phrase_normalized_col] = data[phrase_normalized_col].apply(parse_possible_list)
-            data = data.explode(phrase_normalized_col)
-            data = data.reset_index(drop=True)
+        #if phrase_normalized_col in data.columns:
+        #    data[phrase_normalized_col] = data[phrase_normalized_col].apply(parse_possible_list)
+        #    data = data.explode(phrase_normalized_col)
+        #    data = data.reset_index(drop=True)
         
         # Save the exploded data to a new TSV file
-        exploded_file = input_file.replace('.tsv', '_exploded.tsv')
-        print(f"Saving exploded data to {exploded_file}")
-        data.to_csv(exploded_file, index=False, sep='\t', encoding='utf-8')
+        #exploded_file = input_file.replace('.tsv', '_exploded.tsv')
+        #print(f"Saving exploded data to {exploded_file}")
+        #data.to_csv(exploded_file, index=False, sep='\t', encoding='utf-8')
         
-        # Find the strings that appear only once in the phrase_normalized_col column and 'N' for phrase_normalized (i.e. not normalized)
-        is_unique_in_phrase_norm_strings = data[phrase_normalized_col].map(data[phrase_normalized_col].value_counts()) == 1
-        is_N_in_phrase_norm = data['phrase_normalized'] == 'N'
-        unique_and_N = data[is_unique_in_phrase_norm_strings & is_N_in_phrase_norm]
+        # Define the normalized location column name
+        norm_loc_col = f'normalized_{original_col}'
+        
+        # Find the strings that appear only once in the norm_loc_col column...
+        is_unique_in_loc_norm_strings = data[norm_loc_col].map(data[norm_loc_col].value_counts()) == 1
+        # ...'N' for normalized...
+        is_N_in_norm = data['normalized'] == 'N'
+        # ...is not numeric...
+        not_numeric = ~(data[norm_loc_col].astype(str).str.isnumeric().fillna(False))
+        # ...and combine the conditions to get the unique strings that are unnormalized
+        unique_N_str = data[is_unique_in_loc_norm_strings & is_N_in_norm & not_numeric]
 
         # Save the unique strings for manual review        
         manual_review_file = input_file.replace('.tsv', '_manual_review.tsv')
         print(f"Saving strings for manual review to {manual_review_file}")
-        unique_and_N[phrase_normalized_col].to_csv(manual_review_file, index=False, sep='\t', encoding='utf-8')
+        unique_N_str[norm_loc_col].to_csv(manual_review_file, index=False, sep='\t', encoding='utf-8')
 
     # Fill null values with 'null' string - otherwise missed in value_counts
     data = data.fillna('null')

@@ -30,9 +30,9 @@ def is_known_invalid_location(data):
 
 def academic_location_regex():
     # Base terms for figures and tables, including common abbreviations and supplementary materials
-    fig_table_terms = r"(table|fig(?:ure)?|supplementary (?:table|fig(?:ure)?)|supporting (?:table|fig(?:ure)?)|appendix|suppl)"
+    fig_table_terms = r"\b(table|fig(?:ure)?|(supplementary|supplemental) (?:table|fig(?:ure)|data|file?)|supporting (?:table|fig(?:ure)|information?)|additional file(s)?|appendix|suppl)\b"
     # Sections of the paper
-    sections = r"(abstract|introduction|methods|materials and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)"
+    sections = r"\b(title|abstract|introduction|methods|materials and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)\b"
     # Page terms to match different ways of referencing pages
     page_terms = r"((text )?page|pg\.?|p\.?) \d+"
     # Combine them with options for numbering (e.g., Figure 1, Table S1)
@@ -45,14 +45,14 @@ def biological_db_regex():
     # Handle PDB identifiers, generic identifiers (letter followed by numbers), and accession numbers
     pdb_pattern = r"\bpdb [a-zA-Z0-9]{4}\b"
     generic_identifier_pattern = r"\b[a-zA-Z] \d+\b"
-    accession_pattern = r"\baccession [\w: ]+\b"
+    accession_pattern = r"\baccession(:)? [\w: ]+\b"
     return rf"({pdb_pattern})|({generic_identifier_pattern})|({accession_pattern})"
 
 
 def website_url_regex():
     # Simple pattern for matching specific URLs and more generic HTTP URLs
-    specific_domain = r"https://hla-ligand-atlas\.org/"
-    general_http = r"https?://[\w.-]+"
+    specific_domain = r"^https://hla-ligand-atlas\.org/[^\s]*$"
+    general_http = r"^(https?://[^\s/$.?#].[^\s]*$)"
     return rf"({specific_domain})|({general_http})"
 
 

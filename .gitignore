@@ -6,3 +6,6 @@
 *_strict.tsv
 *_exploded.tsv
 *_manual_review.tsv
+
+# Ignore personal scripts
+scripts/jb_funcs
