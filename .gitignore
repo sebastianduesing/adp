@@ -2,6 +2,7 @@
 *.pyc
 
 # Ignore alternative data files
+*_spellcheck_data.tsv
 *_strict.tsv
 *_exploded.tsv
 *_manual_review.tsv

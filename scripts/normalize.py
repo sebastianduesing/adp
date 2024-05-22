@@ -3,6 +3,7 @@ import sys
 import re
 import os.path
 import unicodedata as ud
+import pandas as pd
 from converter import TSV2dict, dict2TSV
 from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
 
@@ -25,6 +26,69 @@ def is_known_invalid_location(data):
     elif re.match(r'[a-zA-Z]\s\d+', data):
         return True
     return False
+
+
+def academic_location_regex():
+    # Base terms for figures and tables, including common abbreviations and supplementary materials
+    fig_table_terms = r"(table|fig(?:ure)?|supplementary (?:table|fig(?:ure)?)|supporting (?:table|fig(?:ure)?)|appendix|suppl)"
+    # Sections of the paper
+    sections = r"(abstract|introduction|methods|materials and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)"
+    # Page terms to match different ways of referencing pages
+    page_terms = r"((text )?page|pg\.?|p\.?) \d+"
+    # Combine them with options for numbering (e.g., Figure 1, Table S1)
+    pattern = rf"{fig_table_terms} (?:s)?\d+|{sections}|{page_terms}"
+
+    return pattern
+
+
+def biological_db_regex():
+    # Handle PDB identifiers, generic identifiers (letter followed by numbers), and accession numbers
+    pdb_pattern = r"\bpdb [a-zA-Z0-9]{4}\b"
+    generic_identifier_pattern = r"\b[a-zA-Z] \d+\b"
+    accession_pattern = r"\baccession [\w: ]+\b"
+    return rf"({pdb_pattern})|({generic_identifier_pattern})|({accession_pattern})"
+
+
+def website_url_regex():
+    # Simple pattern for matching specific URLs and more generic HTTP URLs
+    specific_domain = r"https://hla-ligand-atlas\.org/"
+    general_http = r"https?://[\w.-]+"
+    return rf"({specific_domain})|({general_http})"
+
+
+def is_normalized(string):
+    academic_pattern = academic_location_regex()
+    bio_db_pattern = biological_db_regex()
+    website_pattern = website_url_regex()
+    
+    if re.search(academic_pattern, string, re.IGNORECASE):
+        return 'Y'
+    elif re.search(bio_db_pattern, string, re.IGNORECASE):
+        return 'Y'
+    elif re.search(website_pattern, string, re.IGNORECASE):
+        return 'Y'
+    else:
+        return 'N'
+
+
+def normalize_dataframe(df, column_name):
+    # Explode the DataFrame to create a new row for each string in the list found in phrase_normalized_col
+    df['normalized_location'] = df[column_name].copy()
+    df = df.explode('normalized_location').reset_index(drop=True)
+    df['normalized'] = df['normalized_location'].apply(is_normalized)
+    return df
+
+def dict_to_dataframe(maindict, column_name):
+    # Convert dictionary to DataFrame
+    df = pd.DataFrame.from_dict(maindict, orient='index')
+    # Normalize data
+    df = normalize_dataframe(df, column_name)
+    return df
+
+def dataframe_to_dict(df):
+    # Convert DataFrame back to dictionary format suitable for dict2TSV
+    result_dict = df.to_dict(orient='index')
+    return result_dict
 
 
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
@@ -157,16 +221,16 @@ def standardize_string(string):
     return string
 
 
-def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV):
+def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style):
     """
-    Logs frequency data for spellcheck replacements in spellcheck_data.tsv.
+    Logs frequency data for spellcheck replacements in <style>_spellcheck_data.tsv.
     Also logs unknown words stored in WCdict in word_curation_TSV.
 
     -- sc_data_dict: A dict of spellcheck data.
     -- WCdict: A dict of words to be manually curated.
     -- word_curation_TSV: Path to the TSV that stores word curation data.
     """
-    with open("spellcheck_data.tsv", "w", newline="\n") as tsvfile:
+    with open(os.path.join(style, f"output_files/{target_column}_spellcheck_data.tsv"), "w", newline="\n") as tsvfile:
         fieldnames = ["input_word", "correct_term", "occurrences"]
         writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
@@ -221,46 +285,54 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
 
         # Only for data location fields with invalid locations (AKA URLs, PDB IDs, etc.)
         # Including all (skipping this step) would be a "strict" check.
-        if style == "data_loc" and is_known_invalid_location(data):
-                rowdict[char_column] = "N/A"
-                rowdict["char_normalized"] = "N"
-                rowdict[word_column] = "N/A"
-                rowdict["word_normalized"] = "N"
-                rowdict[phrase_column] = ["N/A"]
-                rowdict["phrase_normalized"] = "N"
+        # TODO: Decide on this or go with expanded data location sheet.
+        #if style == "data_loc" and is_known_invalid_location(data):
+        #        rowdict[char_column] = "N/A"
+        #        rowdict["char_normalized"] = "N"
+        #        rowdict[word_column] = "N/A"
+        #        rowdict["word_normalized"] = "N"
+        #        rowdict[phrase_column] = ["N/A"]
+        #        rowdict["phrase_normalized"] = "N"
+        #else:
+        rowdict[char_column] = data
+        if rowdict[char_column] != rowdict[target_column]:
+            rowdict["char_normalized"] = "Y"
         else:
-            rowdict[char_column] = data
-            if rowdict[char_column] != rowdict[target_column]:
-                rowdict["char_normalized"] = "Y"
-            else:
-                rowdict["char_normalized"] = "N"
-            
-            sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
-            rowdict[word_column] = sc_data
-            if rowdict[word_column] != rowdict[char_column]:
-                rowdict["word_normalized"] = "Y"
-            else:
-                rowdict["word_normalized"] = "N"
-            
-            if style == "age":
-                rowdict[phrase_column] = age_phrase_normalizer(sc_data)
-                # Simple check to see if the phrase was normalized
-                if rowdict[phrase_column] != rowdict[word_column]:
-                    rowdict["phrase_normalized"] = "Y"
-                else:
-                    rowdict["phrase_normalized"] = "N"
-            elif style == "data_loc":
-                rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
-                # Because this is a list, extract first element to check if it was normalized
-                if rowdict[phrase_column][0] != rowdict[word_column]:
-                    rowdict["phrase_normalized"] = "Y"
-                else:
-                    rowdict["phrase_normalized"] = "N"
-            
-            
+            rowdict["char_normalized"] = "N"
         
-    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV)
-    dict2TSV(maindict, outputTSV)
+        sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
+        rowdict[word_column] = sc_data
+        if rowdict[word_column] != rowdict[char_column]:
+            rowdict["word_normalized"] = "Y"
+        else:
+            rowdict["word_normalized"] = "N"
+        
+        if style == "age":
+            rowdict[phrase_column] = age_phrase_normalizer(sc_data)
+            # Simple check to see if the phrase was normalized
+            if rowdict[phrase_column] != rowdict[word_column]:
+                rowdict["phrase_normalized"] = "Y"
+            else:
+                rowdict["phrase_normalized"] = "N"
+        elif style == "data_loc":
+            rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
+            # Because this is a list, extract first element to check if it was normalized
+            if rowdict[phrase_column][0] != rowdict[word_column]:
+                rowdict["phrase_normalized"] = "Y"
+            else:
+                rowdict["phrase_normalized"] = "N"
+    
+    # Output spellcheck data and unknown words for manual curation.        
+    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
+    
+    # Add additional columns to the TSV to finalize data location normalization.
+    # TODO: Decide on this or go with inserted N/A values.
+    if style == "data_loc":
+        # Convert dict to DataFrame, normalize, and convert back
+        df = dict_to_dataframe(maindict, phrase_column)
+        final_dict = dataframe_to_dict(df)
+    
+    dict2TSV(final_dict, outputTSV)
 
 
 if __name__ == "__main__":
