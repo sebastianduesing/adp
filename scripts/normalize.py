@@ -32,7 +32,7 @@ def academic_location_regex():
     # Base terms for figures and tables, including common abbreviations and supplementary materials
     fig_table_terms = r"\b(table|fig(?:ure)?|(supplementary|supplemental) (?:table|fig(?:ure)|data|file?)|supporting (?:table|fig(?:ure)|information?)|additional file(s)?|appendix|suppl)\b"
     # Sections of the paper
-    sections = r"\b(title|abstract|introduction|methods|materials and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)\b"
+    sections = r"\b(title|abstract|introduction|methods|materials and methods|animals and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)\b"
     # Page terms to match different ways of referencing pages
     page_terms = r"((text )?page|pg\.?|p\.?) \d+"
     # Combine them with options for numbering (e.g., Figure 1, Table S1)
