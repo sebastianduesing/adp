@@ -3,6 +3,10 @@
 normalize :
 	python3 ~/Documents/GitHub/adp/scripts/normalize.py ~/Documents/GitHub/adp/age/input_files/age_queried.tsv ~/Documents/GitHub/adp/age/output_files/age_normalized.tsv ~/Documents/GitHub/adp/age/word_replacements.tsv ~/Documents/GitHub/adp/age/output_files/word_curation.tsv h_age age
 
+.PHONY: normalization_data_test
+normalization_data_test :
+	python3 ~/Documents/GitHub/adp/scripts/normalization_data_test.py ~/Documents/GitHub/adp/age/input_files/age_queried.tsv ~/Documents/GitHub/adp/age/output_files/age_normalized.tsv ~/Documents/GitHub/adp/age/word_replacements.tsv ~/Documents/GitHub/adp/age/output_files/word_curation.tsv h_age age ~/Documents/GitHub/adp/age/output_files/age_char_norm_data.tsv
+
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
 sort :
