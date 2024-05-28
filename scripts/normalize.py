@@ -323,7 +323,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
                 rowdict["phrase_normalized"] = "N"
     
     # Output spellcheck data and unknown words for manual curation.        
-    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
+#    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
     
     # Add additional columns to the TSV to finalize data location normalization.
     # TODO: Decide on this or go with inserted N/A values.
@@ -331,7 +331,8 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
         # Convert dict to DataFrame, normalize, and convert back
         df = dict_to_dataframe(maindict, phrase_column)
         final_dict = dataframe_to_dict(df)
-    
+    if style == "age":
+        final_dict = maindict
     dict2TSV(final_dict, outputTSV)
 
 
@@ -345,9 +346,9 @@ if __name__ == "__main__":
     word_curation_TSV = os.path.join(style, sys.argv[4])
     target_column = sys.argv[5]
     # Verify that the files exist.
-    file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
-    for path in file_paths:
-        if not os.path.isfile(path):
-            print(f"Error: {path} does not exist.")
-            sys.exit(1)
+#    file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
+#    for path in file_paths:
+#        if not os.path.isfile(path):
+#            print(f"Error: {path} does not exist.")
+#            sys.exit(1)
     normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style)

@@ -1,7 +1,7 @@
 # Process queried TSV.
 .PHONY: normalize
 normalize :
-	python3 scripts/normalize.py age_queried.tsv age_normalized.tsv word_replacements.tsv word_curation.tsv h_age age
+	python3 ~/Documents/GitHub/adp/scripts/normalize.py ~/Documents/GitHub/adp/age/input_files/age_queried.tsv ~/Documents/GitHub/adp/age/output_files/age_normalized.tsv ~/Documents/GitHub/adp/age/word_replacements.tsv ~/Documents/GitHub/adp/age/output_files/word_curation.tsv h_age age
 
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
