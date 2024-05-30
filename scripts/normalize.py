@@ -323,7 +323,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
                 rowdict["phrase_normalized"] = "N"
     
     # Output spellcheck data and unknown words for manual curation.        
-#    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
+    output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
     
     # Add additional columns to the TSV to finalize data location normalization.
     # TODO: Decide on this or go with inserted N/A values.
