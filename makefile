@@ -1,7 +1,7 @@
 # Process queried TSV.
-.PHONY: normalize
+.PHONY: normalize_age
 normalize :
-	python3 scripts/normalize.py age_queried.tsv age_normalized.tsv word_replacements.tsv word_curation.tsv h_age age
+	python3 scripts/normalize.py input_files/age_queried.tsv output_files/age_normalized.tsv output_files/age_char_norm_data.tsv word_replacements.tsv output_files/word_curation.tsv h_age age
 
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
