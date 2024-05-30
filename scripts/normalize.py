@@ -346,9 +346,9 @@ if __name__ == "__main__":
     word_curation_TSV = os.path.join(style, sys.argv[4])
     target_column = sys.argv[5]
     # Verify that the files exist.
-#    file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
-#    for path in file_paths:
-#        if not os.path.isfile(path):
-#            print(f"Error: {path} does not exist.")
-#            sys.exit(1)
+    file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
+    for path in file_paths:
+        if not os.path.isfile(path):
+            print(f"Error: {path} does not exist.")
+            sys.exit(1)
     normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style)
