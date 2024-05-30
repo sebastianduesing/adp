@@ -195,6 +195,13 @@ def run_spellcheck(string, SCdict, WCdict,  sc_data_dict):
     return string
 
 
+def track_changes(original_string, new_string, change_dict, tracker_item):
+    if original_string != new_string:
+        change_dict[tracker_item] = "Y"
+    else:
+        change_dict[tracker_item] = "N"
+
+
 def standardize_string(string):
     """
     Adapted from JasonPBennett/Data-Field-Standardization/.../data_loc_v2.py
@@ -206,19 +213,29 @@ def standardize_string(string):
     :return: Standardized string.
     """
     
+    change_dict = {}
+    change_dict["before_char_normalization"] = string
     # Convert en- and em-dashes to hyphens.
-    string = string.replace(r"–", "-")
-    string = string.replace(r"—", "-")
+    string1 = string.replace(r"–", "-")
+    track_changes(string, string1, change_dict, "en-dash")
+    string2 = string1.replace(r"—", "-")
+    track_changes(string1, string2, change_dict, "em-dash")
     # Standardize plus-minus characters.
-    string = string.replace(r"±", r"+/-")
+    string3 = string2.replace(r"±", r"+/-")
+    track_changes(string2, string3, change_dict, "plus-minus")
     # Remove unnecessary whitespaces.
-    string = string.strip()
-    string = re.sub(r"(\s\s+)", r" ", string)
+    string4 = string3.strip()
+    track_changes(string3, string4, change_dict, "strip_whitespace")
+    string5 = re.sub(r"(\s\s+)", r" ", string4)
+    track_changes(string4, string5, change_dict, "remove_multi_whitespace")
     # Convert to ascii.
-    string = ud.normalize('NFKD', string).encode('ascii', 'ignore').decode('ascii')
+    string6 = ud.normalize('NFKD', string5).encode('ascii', 'ignore').decode('ascii')
+    track_changes(string5, string6, change_dict, "convert_to_ascii")
     # Convert to lowercase.
-    string = string.lower()
-    return string
+    string7 = string6.lower()
+    track_changes(string6, string7, change_dict, "lowercase")
+    change_dict["after_char_normalization"] = string7
+    return string7, change_dict
 
 
 def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style):
@@ -254,7 +271,7 @@ def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_colum
                 })
 
 
-def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style):
+def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curation_TSV, target_column, style):
     """
     Applies normalization steps to all data items in target column or columns
     in an input TSV, creates a new column for the normalized data, and writes
@@ -262,6 +279,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
 
     -- inputTSV: Path of TSV to be normalized.
     -- outputTSV: Path of TSV with new normalized data.
+    -- char_norm_data_TSV: Path of TSV to store character normalization data.
     -- spellcheckTSV: Path of TSV with preferred-alternative term pairs for
        data spellchecking.
     -- word_curation_TSV: Path of TSV where unknown words will be stored for
@@ -274,6 +292,7 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
     """
     SCdict, WCdict, sc_data_dict = prepare_spellcheck(spellcheckTSV, word_curation_TSV)
     maindict = TSV2dict(inputTSV)
+    char_norm_data_dict = {}
     
     char_column = f"char_normalized_{target_column}"
     word_column = f"word_normalized_{target_column}"
@@ -281,7 +300,9 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
     
     for index, rowdict in maindict.items():
         data = rowdict[target_column]
-        data = standardize_string(data)
+        data, char_norm_data = standardize_string(data)
+        char_norm_data["index"] = index
+        char_norm_data_dict[index] = char_norm_data
 
         # Only for data location fields with invalid locations (AKA URLs, PDB IDs, etc.)
         # Including all (skipping this step) would be a "strict" check.
@@ -334,21 +355,23 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
     if style == "age":
         final_dict = maindict
     dict2TSV(final_dict, outputTSV)
+    dict2TSV(char_norm_data_dict, char_norm_data_TSV)
 
 
 if __name__ == "__main__":
     # Check style; also name of directory where TSVs are found/stored.
-    style = sys.argv[6]
+    style = sys.argv[7]
     # Create the paths for the input and output TSVs.
     inputTSV = os.path.join(style, sys.argv[1])
     outputTSV = os.path.join(style, sys.argv[2])
-    spellcheckTSV = os.path.join(style, sys.argv[3])
-    word_curation_TSV = os.path.join(style, sys.argv[4])
-    target_column = sys.argv[5]
+    char_norm_data_TSV = os.path.join(style, sys.argv[3])
+    spellcheckTSV = os.path.join(style, sys.argv[4])
+    word_curation_TSV = os.path.join(style, sys.argv[5])
+    target_column = sys.argv[6]
     # Verify that the files exist.
     file_paths = [inputTSV, spellcheckTSV, word_curation_TSV]
     for path in file_paths:
         if not os.path.isfile(path):
             print(f"Error: {path} does not exist.")
             sys.exit(1)
-    normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_column, style)
+    normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curation_TSV, target_column, style)
