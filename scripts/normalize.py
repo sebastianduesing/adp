@@ -229,7 +229,7 @@ def standardize_string(string):
     string5 = re.sub(r"(\s\s+)", r" ", string4)
     track_changes(string4, string5, change_dict, "remove_multi_whitespace")
     # Convert to ascii.
-    string6 = ud.normalize('NFKD', string5).encode('ascii', 'ignore').decode('ascii')
+    string6 = ud.normalize('NFKD', string5).encode('ascii', 'replace').decode('ascii')
     track_changes(string5, string6, change_dict, "convert_to_ascii")
     # Convert to lowercase.
     string7 = string6.lower()
