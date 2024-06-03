@@ -1,6 +1,8 @@
 from converter import TSV2dict
 import csv
 import sys
+import unicodedata as ud
+import os
 
 
 def find_changed_chars(string1, string2):
@@ -13,9 +15,12 @@ def find_changed_chars(string1, string2):
     for i in string1:
         if i not in string2:
             charlist1.append(i)
-    for i in string2:
-        if i not in string1:
-            charlist2.append(i)
+    for char in charlist1:
+        if style == "age":
+            ascii_char = ud.normalize("NFKD", char).encode("ascii", "replace").decode("ascii")
+        else:
+            ascii_char = ud.normalize("NFKD", char).encode("ascii", "ignore").decode("ascii")
+        charlist2.append(ascii_char)
     charlist1 = ", ".join(charlist1)
     charlist2 = ", ".join(charlist2)
     return charlist1, charlist2
@@ -56,9 +61,10 @@ def collect_data(tracker_dict):
 
 
 if __name__ == "__main__":
-    char_norm_data_dict = TSV2dict(sys.argv[1])  # path to character normalization data TSV
-    data_path = sys.argv[2]  # path to where collected data will be stored
-    ascii_path = sys.argv[3]  # path to where ascii tracker data will be stored
+    style = sys.argv[1]
+    char_norm_data_dict = TSV2dict(os.path.join(style, sys.argv[2]))  # path to character normalization data TSV
+    data_path = os.path.join(style, sys.argv[3])  # path to where collected data will be stored
+    ascii_path = os.path.join(style, sys.argv[4])  # path to where ascii tracker data will be stored
     data, ascii_data = collect_data(char_norm_data_dict)
     with open(data_path, "w", newline = "") as tsv:
         fieldnames = ["normalization_stage", "strings_altered", "strings_unaltered"]

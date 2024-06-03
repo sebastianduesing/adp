@@ -1,20 +1,20 @@
 index	before_char_normalization	after_char_normalization	non_ascii_characters	ascii_character_replacements
-560	Extended Data TableÂ 1 and Extended Data Figure 6	extended data tablea 1 and extended data figure 6	E, D, T, Â,  , E, D, F	f
-561	Extended Data TableÂ 1 and Extended Data Figures 3, 5, and 8	extended data tablea 1 and extended data figures 3, 5, and 8	E, D, T, Â,  , E, D, F	f
-844	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HD8	figure 1 and figure 1afigure supplement 1 and pdb 6hd8	F, F, â, €, ”, P, D, B, H, D	b, h
-845	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HD9	figure 1 and figure 1afigure supplement 1 and pdb 6hd9	F, F, â, €, ”, P, D, B, H, D	b, h
-846	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDA	figure 1 and figure 1afigure supplement 1 and pdb 6hda	F, F, â, €, ”, P, D, B, H, D, A	b, h
-847	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDB	figure 1 and figure 1afigure supplement 1 and pdb 6hdb	F, F, â, €, ”, P, D, B, H, D, B	b, h, b
-848	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDC	figure 1 and figure 1afigure supplement 1 and pdb 6hdc	F, F, â, €, ”, P, D, B, H, D, C	b, h, c
-849	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6SWR	figure 1 and figure 1afigure supplement 1 and pdb 6swr	F, F, â, €, ”, P, D, B, S, W, R	b, w
-1413	Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 3 and PDB 6W4S	figure 1, extended data tablea 1, extended data figurea 3 and pdb 6w4s	F, E, D, T, Â,  , E, D, F, Â,  , P, D, B, W, S	f, f, p, w, s
-1414	Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 4 and PDB 6WBV	figure 1, extended data tablea 1, extended data figurea 4 and pdb 6wbv	F, E, D, T, Â,  , E, D, F, Â,  , P, D, B, W, B, V	f, f, p, w, v
-3865	Figure 3 and Extended Data TableÂ 1	figure 3 and extended data tablea 1	F, E, D, T, Â,  	f
-6692	Figure 6, Figure 6â€”figure supplement 1	figure 6, figure 6afigure supplement 1	F, F, â, €, ”	a
-6858	Figure 6â€”figure supplement 1	figure 6afigure supplement 1	F, â, €, ”	a
-16774	FiguresÂ 4, 6, S3, S5, Table S2 and PDB 7M30	figuresa 4, 6, s3, s5, table s2 and pdb 7m30	F, Â,  , S, S, T, S, P, D, B, M	f, t, p, m
-16775	FiguresÂ 4, 6, S3, S6, Table S2 and PDB 7KBB	figuresa 4, 6, s3, s6, table s2 and pdb 7kbb	F, Â,  , S, S, T, S, P, D, B, K, B, B	f, t, p, k
-16776	FiguresÂ S3, S6, Table S2 and PDB 7KBB	figuresa s3, s6, table s2 and pdb 7kbb	F, Â,  , S, S, T, S, P, D, B, K, B, B	f, t, p, k
-242088	R KÃƒÂ_mmerer Clin Exp Allergy 1997	r kaa_mmerer clin exp allergy 1997	R, K, Ã, ƒ, Â, C, E, A	k, a, a, c, a
-242121	Reference cited: J. Immunol. 177: 450â€“458.	reference cited: j. immunol. 177: 450a458.	R, J, I, â, €, “	j, a
-249698	Tablesâ€…S5,â€‰S6, Figuresâ€…S8,â€‰S9 and PDB 4UQ3	tablesa...s5,as6, figuresa...s8,as9 and pdb 4uq3	T, â, €, …, S, â, €, ‰, S, F, â, €, …, S, â, €, ‰, S, P, D, B, U, Q	t, ., ., ., f, ., ., ., p, q
+560	Extended Data TableÂ 1 and Extended Data Figure 6	extended data tablea 1 and extended data figure 6	E, D, T, Â,  , E, D, F	E, D, T, A,  , E, D, F
+561	Extended Data TableÂ 1 and Extended Data Figures 3, 5, and 8	extended data tablea 1 and extended data figures 3, 5, and 8	E, D, T, Â,  , E, D, F	E, D, T, A,  , E, D, F
+844	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HD8	figure 1 and figure 1afigure supplement 1 and pdb 6hd8	F, F, â, €, ”, P, D, B, H, D	F, F, a, , , P, D, B, H, D
+845	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HD9	figure 1 and figure 1afigure supplement 1 and pdb 6hd9	F, F, â, €, ”, P, D, B, H, D	F, F, a, , , P, D, B, H, D
+846	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDA	figure 1 and figure 1afigure supplement 1 and pdb 6hda	F, F, â, €, ”, P, D, B, H, D, A	F, F, a, , , P, D, B, H, D, A
+847	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDB	figure 1 and figure 1afigure supplement 1 and pdb 6hdb	F, F, â, €, ”, P, D, B, H, D, B	F, F, a, , , P, D, B, H, D, B
+848	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6HDC	figure 1 and figure 1afigure supplement 1 and pdb 6hdc	F, F, â, €, ”, P, D, B, H, D, C	F, F, a, , , P, D, B, H, D, C
+849	Figure 1 and Figure 1â€”figure supplement 1 and PDB 6SWR	figure 1 and figure 1afigure supplement 1 and pdb 6swr	F, F, â, €, ”, P, D, B, S, W, R	F, F, a, , , P, D, B, S, W, R
+1413	Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 3 and PDB 6W4S	figure 1, extended data tablea 1, extended data figurea 3 and pdb 6w4s	F, E, D, T, Â,  , E, D, F, Â,  , P, D, B, W, S	F, E, D, T, A,  , E, D, F, A,  , P, D, B, W, S
+1414	Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 4 and PDB 6WBV	figure 1, extended data tablea 1, extended data figurea 4 and pdb 6wbv	F, E, D, T, Â,  , E, D, F, Â,  , P, D, B, W, B, V	F, E, D, T, A,  , E, D, F, A,  , P, D, B, W, B, V
+3865	Figure 3 and Extended Data TableÂ 1	figure 3 and extended data tablea 1	F, E, D, T, Â,  	F, E, D, T, A,  
+6692	Figure 6, Figure 6â€”figure supplement 1	figure 6, figure 6afigure supplement 1	F, F, â, €, ”	F, F, a, , 
+6858	Figure 6â€”figure supplement 1	figure 6afigure supplement 1	F, â, €, ”	F, a, , 
+16774	FiguresÂ 4, 6, S3, S5, Table S2 and PDB 7M30	figuresa 4, 6, s3, s5, table s2 and pdb 7m30	F, Â,  , S, S, T, S, P, D, B, M	F, A,  , S, S, T, S, P, D, B, M
+16775	FiguresÂ 4, 6, S3, S6, Table S2 and PDB 7KBB	figuresa 4, 6, s3, s6, table s2 and pdb 7kbb	F, Â,  , S, S, T, S, P, D, B, K, B, B	F, A,  , S, S, T, S, P, D, B, K, B, B
+16776	FiguresÂ S3, S6, Table S2 and PDB 7KBB	figuresa s3, s6, table s2 and pdb 7kbb	F, Â,  , S, S, T, S, P, D, B, K, B, B	F, A,  , S, S, T, S, P, D, B, K, B, B
+242088	R KÃƒÂ_mmerer Clin Exp Allergy 1997	r kaa_mmerer clin exp allergy 1997	R, K, Ã, ƒ, Â, C, E, A	R, K, A, , A, C, E, A
+242121	Reference cited: J. Immunol. 177: 450â€“458.	reference cited: j. immunol. 177: 450a458.	R, J, I, â, €, “	R, J, I, a, , 
+249698	Tablesâ€…S5,â€‰S6, Figuresâ€…S8,â€‰S9 and PDB 4UQ3	tablesa...s5,as6, figuresa...s8,as9 and pdb 4uq3	T, â, €, …, S, â, €, ‰, S, F, â, €, …, S, â, €, ‰, S, P, D, B, U, Q	T, a, , ..., S, a, , , S, F, a, , ..., S, a, , , S, P, D, B, U, Q
