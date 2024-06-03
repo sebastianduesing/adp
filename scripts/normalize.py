@@ -1,6 +1,7 @@
 import csv
 import sys
 import re
+import editdistance
 import os.path
 import unicodedata as ud
 import pandas as pd
@@ -32,11 +33,11 @@ def academic_location_regex():
     # Base terms for figures and tables, including common abbreviations and supplementary materials
     fig_table_terms = r"\b(table|fig(?:ure)?|(supplementary|supplemental) (?:table|fig(?:ure)|data|file?)|supporting (?:table|fig(?:ure)|information?)|additional file(s)?|appendix|suppl)\b"
     # Sections of the paper
-    sections = r"\b(title|abstract|introduction|methods|materials and methods|animals and methods|materials|results|discussion|conclusion|acknowledgements|references|appendices)\b"
+    sections = r"\b(title|abstract|introduction|materials and methods|animals and methods|materials|methods|results|discussion|conclusion|acknowledgements|references|appendices)\b"
     # Page terms to match different ways of referencing pages
     page_terms = r"((text )?page|pg\.?|p\.?) \d+"
-    # Combine them with options for numbering (e.g., Figure 1, Table S1)
-    pattern = rf"{fig_table_terms} (?:s)?\d+|{sections}|{page_terms}"
+    # Combine them with options for numbering (e.g., figure 1, table S1)
+    pattern = rf"{fig_table_terms} (?:s)?\d+[a-z]?|{sections}|{page_terms}"
 
     return pattern
 
@@ -60,7 +61,7 @@ def is_normalized(string):
     academic_pattern = academic_location_regex()
     bio_db_pattern = biological_db_regex()
     website_pattern = website_url_regex()
-    
+        
     if re.search(academic_pattern, string, re.IGNORECASE):
         return 'Y'
     elif re.search(bio_db_pattern, string, re.IGNORECASE):
@@ -279,48 +280,44 @@ def normalize(inputTSV, outputTSV, spellcheckTSV, word_curation_TSV, target_colu
     word_column = f"word_normalized_{target_column}"
     phrase_column = f"phrase_normalized_{target_column}"
     
+    char_score_column = f"char_normalization_score_{target_column}"
+    word_score_column = f"word_normalization_score_{target_column}"
+    phrase_score_column = f"phrase_normalization_score_{target_column}"
+    
     for index, rowdict in maindict.items():
-        data = rowdict[target_column]
-        data = standardize_string(data)
+        original_data = rowdict[target_column]
+        data = standardize_string(original_data)
 
-        # Only for data location fields with invalid locations (AKA URLs, PDB IDs, etc.)
-        # Including all (skipping this step) would be a "strict" check.
-        # TODO: Decide on this or go with expanded data location sheet.
-        #if style == "data_loc" and is_known_invalid_location(data):
-        #        rowdict[char_column] = "N/A"
-        #        rowdict["char_normalized"] = "N"
-        #        rowdict[word_column] = "N/A"
-        #        rowdict["word_normalized"] = "N"
-        #        rowdict[phrase_column] = ["N/A"]
-        #        rowdict["phrase_normalized"] = "N"
-        #else:
         rowdict[char_column] = data
-        if rowdict[char_column] != rowdict[target_column]:
-            rowdict["char_normalized"] = "Y"
-        else:
-            rowdict["char_normalized"] = "N"
+        rowdict["char_normalized"] = "Y" if rowdict[char_column] != original_data else "N"
+        rowdict[char_score_column] = editdistance.eval(original_data, data)
         
         sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
         rowdict[word_column] = sc_data
-        if rowdict[word_column] != rowdict[char_column]:
-            rowdict["word_normalized"] = "Y"
-        else:
-            rowdict["word_normalized"] = "N"
+        rowdict["word_normalized"] = "Y" if rowdict[word_column] != rowdict[char_column] else "N"
+        rowdict[word_score_column] = editdistance.eval(rowdict[char_column], rowdict[word_column])
         
         if style == "age":
             rowdict[phrase_column] = age_phrase_normalizer(sc_data)
             # Simple check to see if the phrase was normalized
-            if rowdict[phrase_column] != rowdict[word_column]:
-                rowdict["phrase_normalized"] = "Y"
-            else:
-                rowdict["phrase_normalized"] = "N"
+            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column] != rowdict[word_column] else "N"
         elif style == "data_loc":
             rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
             # Because this is a list, extract first element to check if it was normalized
-            if rowdict[phrase_column][0] != rowdict[word_column]:
-                rowdict["phrase_normalized"] = "Y"
+            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            if rowdict[phrase_column] and rowdict[word_column]:
+                rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column][0] != rowdict[word_column] else "N"
+            # TODO: Hits this 31 times... why????
+            # Some issue with specific phrases containing "and"
             else:
-                rowdict["phrase_normalized"] = "N"
+                print(f" -------- CURR INDEX: {index} -------- ")
+                print(f"FOUND AT {word_column} in rowdict: {rowdict[word_column]}")
+                print(f"FOUND AT {phrase_column} in rowdict: {rowdict[phrase_column]}")
+                rowdict["phrase_normalized"] = "WTF"       
+        else:
+            print(f"Error: {style} is not a valid style.")
+            sys.exit(1)
     
     # Output spellcheck data and unknown words for manual curation.        
     output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style)
