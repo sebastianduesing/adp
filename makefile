@@ -15,6 +15,13 @@ age_char_norm_data :
 .PHONY: data_loc_char_norm_data
 data_loc_char_norm_data :
 	python3 scripts/collect_normalization_data.py data_loc output_files/data_loc_char_norm_data.tsv output_files/data_loc_char_norm_counts.tsv output_files/data_loc_ascii_replacement_data.tsv
+
+
+# Calculate normalization metrics.
+.PHONY: calculate_metrics
+calculate_metrics:
+	python3 scripts/calculate_metrics.py output_files/age_normalized.tsv h_age output_files age
+	python3 scripts/calculate_metrics.py output_files/data_normalized.tsv location output_files data_loc
 	
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
