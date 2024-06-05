@@ -9,8 +9,6 @@ import matplotlib.pyplot as plt
 # Removing deprecation warning
 warnings.filterwarnings("ignore", category=Warning, module="pandas")
 
-import math
-
 def round_to_nearest_sig(x):
     """
     Rounds a number to the nearest significant figure.

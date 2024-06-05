@@ -1,6 +1,23 @@
 import re
 
 
+def approved_and_phrases(query_string_list):
+    # Define the lists of approved phrases
+    materials_list = ["material", "materials"]
+    methods_list = ["method", "methods"]
+    
+    # Iterate through the query list checking for consecutive matches
+    for i in range(len(query_string_list) - 1):
+        # Check if current and next elements are in different sets
+        if (query_string_list[i] in materials_list and query_string_list[i + 1] in methods_list) or \
+           (query_string_list[i] in methods_list and query_string_list[i + 1] in materials_list):
+            query_string_list[i] = "materials and methods"
+            query_string_list.pop(i + 1)
+            return query_string_list
+    
+    return query_string_list
+
+
 def age_phrase_normalizer(string):
     """
     Removes extraneous hyphens in age data, e.g.,
@@ -158,5 +175,27 @@ def data_loc_phrase_normalizer(string):
             #if original_segment == segment:
             #    segment = f"UNNORMALIZED: {segment}"
             results.append(segment)
+            
+    # Testing checks for acceptable "x and y" cases (e.g. "materials and methods")
+    results = approved_and_phrases(results)
 
     return results
+
+"""
+input_strings = [
+    "abstract and pdb 3gjf and 3hae",
+    "tables 3, 6 and figure 4",
+    "materials and methods, figure 1, table 2, and figure 3",
+    "methods and materials",
+    "table 3, 4, figure 4, and materials and methods",
+    "table 1, materials and methods and figure 2",
+    "methods, figure 1, table 2, and figure 3",
+    "materials, figure 2",
+    "methods, figure 4, materials",
+    "page 42"
+]
+
+for string in input_strings:
+    result = data_loc_phrase_normalizer(string)
+    print(result)
+"""
