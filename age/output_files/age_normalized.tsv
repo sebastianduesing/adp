@@ -774,7 +774,7 @@ NULL	10001596	Mus musculus B6.mOVA-Tg	766	null	Y	4	null	N	0	null	N	0	4
 Adults and children (ages 4.5-10.5 and 15-44)	9606	Homo sapiens (human)	772	adults and children (ages 4.5-10.5 and 15-44)	Y	1	adult and child (ages 4.5-10.5 and 15-44)	Y	4	adult and child (ages 4.5-10.5 and 15-44)	N	0	5
 8-12 wk	10000216	Mus musculus C57BL/6 X BALB/c	773	8-12 wk	N	0	8-12 week	Y	2	8-12 week	N	0	2
 6-8 weeks	10000601	Mus musculus HLA-DR1 Tg	774	6-8 weeks	N	0	6-8 week	Y	1	6-8 week	N	0	1
-Neonates	9606	Homo sapiens (human)	775	neonates	Y	1	neonates	N	0	neonates	N	0	1
+Neonates	9606	Homo sapiens (human)	775	neonates	Y	1	neonate	Y	1	neonate	N	0	2
 >9 years	9606	Homo sapiens (human)	776	>9 years	N	0	>9 year	Y	1	>9 year	N	0	1
 At least 8 weeks old	10000067	Mus musculus C57BL/6	777	at least 8 weeks old	Y	1	at least 8 week old	Y	1	at least 8 week	Y	4	6
 8-24 weeks old	10000260	Mus musculus B10.A(4R)	778	8-24 weeks old	N	0	8-24 week old	Y	1	8-24 week	Y	4	5
@@ -1127,7 +1127,7 @@ Median age 11.3 years	9606	Homo sapiens (human)	1120	median age 11.3 years	Y	1	m
 12-20 weeks	10000236	Mus musculus CBA/J	1125	12-20 weeks	N	0	12-20 week	Y	1	12-20 week	N	0	1
 8-12 weeks	10000635	Mus musculus NOD/Lt	1126	8-12 weeks	N	0	8-12 week	Y	1	8-12 week	N	0	1
 9 weeks	10001259	Mus musculus NOD.PD	1127	9 weeks	N	0	9 week	Y	1	9 week	N	0	1
-neonatal	10000632	Mus musculus NOD	1128	neonatal	N	0	neonatal	N	0	neonatal	N	0	0
+neonatal	10000632	Mus musculus NOD	1128	neonatal	N	0	neonate	Y	2	neonate	N	0	2
 2 weeks	10000632	Mus musculus NOD	1129	2 weeks	N	0	2 week	Y	1	2 week	N	0	1
 12 weeks	10000632	Mus musculus NOD	1130	12 weeks	N	0	12 week	Y	1	12 week	N	0	1
 NULL	10000635	Mus musculus NOD/Lt	1131	null	Y	4	null	N	0	null	N	0	4
@@ -1420,7 +1420,7 @@ older than 8 weeks	10000216	Mus musculus C57BL/6 X BALB/c	1413	older than 8 week
 50 days	10000067	Mus musculus C57BL/6	1418	50 days	N	0	50 day	Y	1	50 day	N	0	1
 27-79 years	9606	Homo sapiens (human)	1419	27-79 years	N	0	27-79 year	Y	1	27-79 year	N	0	1
 25-44 years	9606	Homo sapiens (human)	1420	25-44 years	N	0	25-44 year	Y	1	25-44 year	N	0	1
-Neonatal	10000054	Mus musculus DBA/1	1421	neonatal	Y	1	neonatal	N	0	neonatal	N	0	1
+Neonatal	10000054	Mus musculus DBA/1	1421	neonatal	Y	1	neonate	Y	2	neonate	N	0	3
 27 weeks	10001253	Mus musculus HLA-DRB1*04:04 Tg	1422	27 weeks	N	0	27 week	Y	1	27 week	N	0	1
 6 to 8 weeks	10000236	Mus musculus CBA/J	1423	6 to 8 weeks	N	0	6 to 8 week	Y	1	6-8 week	Y	4	5
 26 years	9606	Homo sapiens (human)	1424	26 years	N	0	26 year	Y	1	26 year	N	0	1
@@ -1591,7 +1591,7 @@ NULL	9925	Capra hircus (domestic goat)	1583	null	Y	4	null	N	0	null	N	0	4
 NULL	10001311	Mus musculus HH8 TCR Tg	1589	null	Y	4	null	N	0	null	N	0	4
 30-83 years	9606	Homo sapiens (human)	1590	30-83 years	N	0	30-83 year	Y	1	30-83 year	N	0	1
 19-95 years	9606	Homo sapiens (human)	1591	19-95 years	N	0	19-95 year	Y	1	19-95 year	N	0	1
-neonates	10000663	Rattus norvegicus LOU	1592	neonates	N	0	neonates	N	0	neonates	N	0	0
+neonates	10000663	Rattus norvegicus LOU	1592	neonates	N	0	neonate	Y	1	neonate	N	0	1
 mean age 31 years	9606	Homo sapiens (human)	1593	mean age 31 years	N	0	mean age 31 year	Y	1	mean age 31 year	N	0	1
 8 weeks or older	10000000	Mus musculus BALB/c	1594	8 weeks or older	N	0	8 week or older	Y	1	8 week or older	N	0	1
 26-34 years	9606	Homo sapiens (human)	1595	26-34 years	N	0	26-34 year	Y	1	26-34 year	N	0	1
@@ -2458,7 +2458,7 @@ NULL	10001366	Mus musculus Foxp3gfp.KI	2443	null	Y	4	null	N	0	null	N	0	4
 26 to 64 years	9606	Homo sapiens (human)	2456	26 to 64 years	N	0	26 to 64 year	Y	1	26-64 year	Y	4	5
 7-12 weeks	10000649	Mus musculus SJL	2457	7-12 weeks	N	0	7-12 week	Y	1	7-12 week	N	0	1
 6 to 12 weeks	10001410	Mus musculus 5B6 TCR Tg	2458	6 to 12 weeks	N	0	6 to 12 week	Y	1	6-12 week	Y	4	5
-Neonates	10001537	Mus musculus PL	2459	neonates	Y	1	neonates	N	0	neonates	N	0	1
+Neonates	10001537	Mus musculus PL	2459	neonates	Y	1	neonate	Y	1	neonate	N	0	2
 6 to 9 weeks	10000662	Rattus norvegicus Lewis	2460	6 to 9 weeks	N	0	6 to 9 week	Y	1	6-9 week	Y	4	5
 24-38 years	9606	Homo sapiens (human)	2461	24-38 years	N	0	24-38 year	Y	1	24-38 year	N	0	1
 37-78 years	9606	Homo sapiens (human)	2462	37-78 years	N	0	37-78 year	Y	1	37-78 year	N	0	1
@@ -2492,7 +2492,7 @@ at least 8 weeks	10000067	Mus musculus C57BL/6	2486	at least 8 weeks	N	0	at leas
 36-57 years	9606	Homo sapiens (human)	2490	36-57 years	N	0	36-57 year	Y	1	36-57 year	N	0	1
 25-47 years	9606	Homo sapiens (human)	2491	25-47 years	N	0	25-47 year	Y	1	25-47 year	N	0	1
 39 years	9606	Homo sapiens (human)	2492	39 years	N	0	39 year	Y	1	39 year	N	0	1
-neonatal	10000662	Rattus norvegicus Lewis	2493	neonatal	N	0	neonatal	N	0	neonatal	N	0	0
+neonatal	10000662	Rattus norvegicus Lewis	2493	neonatal	N	0	neonate	Y	2	neonate	N	0	2
 39-43	9606	Homo sapiens (human)	2494	39-43	N	0	39-43	N	0	39-43	N	0	0
 5-20 weeks	10000649	Mus musculus SJL	2495	5-20 weeks	N	0	5-20 week	Y	1	5-20 week	N	0	1
 7 weeks	10001405	Mus musculus NZB X NZW	2496	7 weeks	N	0	7 week	Y	1	7 week	N	0	1
@@ -4076,13 +4076,13 @@ NULL	10000105	Mus musculus TRAMP Tg	4054	null	Y	4	null	N	0	null	N	0	4
 12 to 18 weeks	10002220	Mus musculus P25 TCR Tg	4074	12 to 18 weeks	N	0	12 to 18 week	Y	1	12-18 week	Y	4	5
 49-61 years	9606	Homo sapiens (human)	4075	49-61 years	N	0	49-61 year	Y	1	49-61 year	N	0	1
 18 years	10000119	Homo sapiens Caucasian	4076	18 years	N	0	18 year	Y	1	18 year	N	0	1
-Neonates (3 or 7 days)	10000067	Mus musculus C57BL/6	4077	neonates (3 or 7 days)	Y	1	neonates (3 or 7 days)	N	0	neonates (3 or 7 days)	N	0	1
+Neonates (3 or 7 days)	10000067	Mus musculus C57BL/6	4077	neonates (3 or 7 days)	Y	1	neonate (3 or 7 days)	Y	1	neonate (3 or 7 days)	N	0	2
 16-86 years	9606	Homo sapiens (human)	4078	16-86 years	N	0	16-86 year	Y	1	16-86 year	N	0	1
 8 to 16 weeks	10000610	Mus musculus HLA-DR4 Tg	4079	8 to 16 weeks	N	0	8 to 16 week	Y	1	8-16 week	Y	4	5
 8-12 months	10002063	Ovis aries Merino	4080	8-12 months	N	0	8-12 month	Y	1	8-12 month	N	0	1
 NULL	10002277	Mus musculus MOG-specific TCR beta-chain Tg	4081	null	Y	4	null	N	0	null	N	0	4
 7 to 10 weeks	10000096	Mus musculus C57BL/6 IL-10 null	4082	7 to 10 weeks	N	0	7 to 10 week	Y	1	7-10 week	Y	4	5
-Neonates (3 days)	10000067	Mus musculus C57BL/6	4083	neonates (3 days)	Y	1	neonates (3 days)	N	0	neonates (3 days)	N	0	1
+Neonates (3 days)	10000067	Mus musculus C57BL/6	4083	neonates (3 days)	Y	1	neonate (3 days)	Y	1	neonate (3 days)	N	0	2
 adult	10000227	Mus musculus OT-1 TCR Tg	4084	adult	N	0	adult	N	0	adult	N	0	0
 6-11 weeks	10000067	Mus musculus C57BL/6	4085	6-11 weeks	N	0	6-11 week	Y	1	6-11 week	N	0	1
 6-11 weeks	10001363	Mus musculus 2D2 TCR Tg	4086	6-11 weeks	N	0	6-11 week	Y	1	6-11 week	N	0	1
@@ -5023,7 +5023,7 @@ NULL	9838	Camelus dromedarius (camel)	5012	null	Y	4	null	N	0	null	N	0	4
 8 weeks old	10000662	Rattus norvegicus Lewis	5021	8 weeks old	N	0	8 week old	Y	1	8 week	Y	4	5
 10 weeks	10000206	Oryctolagus cuniculus New Zealand White	5022	10 weeks	N	0	10 week	Y	1	10 week	N	0	1
 6-7 months	10000194	Bos taurus Holstein-Friesian	5023	6-7 months	N	0	6-7 month	Y	1	6-7 month	N	0	1
-Infants	9606	Homo sapiens (human)	5024	infants	Y	1	infants	N	0	infants	N	0	1
+Infants	9606	Homo sapiens (human)	5024	infants	Y	1	infant	Y	1	infant	N	0	2
 6-8 weeks-old	10000228	Mus musculus CBA	5025	6-8 weeks-old	N	0	6-8 week-old	Y	1	6-8 week	Y	4	5
 42 days	10000667	Rattus norvegicus Sprague-Dawley	5026	42 days	N	0	42 day	Y	1	42 day	N	0	1
 14 weeks old	9825	Sus scrofa domesticus (domestic pig)	5027	14 weeks old	N	0	14 week old	Y	1	14 week	Y	4	5
@@ -5234,7 +5234,7 @@ birth - 5 years	9606	Homo sapiens (human)	5230	birth - 5 years	N	0	birth - 5 yea
 3-4 days	10000653	Mus musculus Swiss	5232	3-4 days	N	0	3-4 day	Y	1	3-4 day	N	0	1
 23 to 89 years	9606	Homo sapiens (human)	5233	23 to 89 years	N	0	23 to 89 year	Y	1	23-89 year	Y	4	5
 4-8-week-old	10000047	Mus musculus C57BL/10	5234	4-8-week-old	N	0	4-8-week-old	N	0	4-8 week	Y	5	5
-Neonates (infected mothers or PM)	9606	Homo sapiens (human)	5235	neonates (infected mothers or pm)	Y	3	neonates (infected mother or pm)	Y	1	neonates (infected mother or pm)	N	0	4
+Neonates (infected mothers or PM)	9606	Homo sapiens (human)	5235	neonates (infected mothers or pm)	Y	3	neonate (infected mother or pm)	Y	2	neonate (infected mother or pm)	N	0	5
 1-4 years	9606	Homo sapiens (human)	5236	1-4 years	N	0	1-4 year	Y	1	1-4 year	N	0	1
 3-65 years-old	9606	Homo sapiens (human)	5237	3-65 years-old	N	0	3-65 year-old	Y	1	3-65 year	Y	4	5
 NULL	10000664	Rattus norvegicus LOU/C	5238	null	Y	4	null	N	0	null	N	0	4
@@ -6179,7 +6179,7 @@ NULL	100937	Papio papio (baboon)	6176	null	Y	4	null	N	0	null	N	0	4
 4 weeks	10000017	Mus musculus BALB/c X DBA/2	6177	4 weeks	N	0	4 week	Y	1	4 week	N	0	1
 36.47 +/- 12.46 years	9606	Homo sapiens (human)	6178	36.47 +/- 12.46 years	N	0	36.47 +/- 12.46 year	Y	1	36.47 +/- 12.46 year	N	0	1
 40.15 +/- 8.8 years	9606	Homo sapiens (human)	6179	40.15 +/- 8.8 years	N	0	40.15 +/- 8.8 year	Y	1	40.15 +/- 8.8 year	N	0	1
-Infants and adults	9606	Homo sapiens (human)	6180	infants and adults	Y	1	infants and adult	Y	1	infants and adult	N	0	2
+Infants and adults	9606	Homo sapiens (human)	6180	infants and adults	Y	1	infant and adult	Y	2	infant and adult	N	0	3
 2 weeks	9103	Meleagris gallopavo (common turkey)	6181	2 weeks	N	0	2 week	Y	1	2 week	N	0	1
 5 weeks	9103	Meleagris gallopavo (common turkey)	6182	5 weeks	N	0	5 week	Y	1	5 week	N	0	1
 4 months	9925	Capra hircus (domestic goat)	6183	4 months	N	0	4 month	Y	1	4 month	N	0	1
@@ -7100,7 +7100,7 @@ NULL	9305	Sarcophilus harrisii (Tasmanian devil)	7097	null	Y	4	null	N	0	null	N	0
 5 months to 5 years	9606	Homo sapiens (human)	7098	5 months to 5 years	N	0	5 month to 5 year	Y	2	5 month to 5 year	N	0	2
 6 months to 15 years	9606	Homo sapiens (human)	7099	6 months to 15 years	N	0	6 month to 15 year	Y	2	6 month to 15 year	N	0	2
 NULL	10002058	B6.ERAAP null	7100	null	Y	4	null	N	0	null	N	0	4
-neonatal	9606	Homo sapiens (human)	7101	neonatal	N	0	neonatal	N	0	neonatal	N	0	0
+neonatal	9606	Homo sapiens (human)	7101	neonatal	N	0	neonate	Y	2	neonate	N	0	2
 young and old	10116	Rattus norvegicus (brown rat)	7102	young and old	N	0	young and old	N	0	young and old	N	0	0
 old	10116	Rattus norvegicus (brown rat)	7103	old	N	0	old	N	0	old	N	0	0
 7-8 weeks	10090	Mus musculus (mouse)	7104	7-8 weeks	N	0	7-8 week	Y	1	7-8 week	N	0	1
