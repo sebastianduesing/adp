@@ -17,14 +17,14 @@ week		5, 8, 11 or 18 weeks	10000632	Mus musculus NOD	345	5, 8, 11 or 18 week	5, 
 year		10 years and older	9606	Homo sapiens (human)	412	10 year and older	10 year and older		10					manual
 year		1 month-old-81 years-old	9606	Homo sapiens (human)	426	1 month-old-81 year-old	1 month-81 year		0.083	81				manual
 week		8-10wk	10000000	Mus musculus BALB/c	436	8-10wk	8-10wk		8	10				manual
-year		Children (mean age 7.2 years)	9606	Homo sapiens (human)	505	children (mean age 7.2 years)	children (mean age 7.2 years)				7.2		children	manual
+year		Children (mean age 7.2 years)	9606	Homo sapiens (human)	505	children (mean age 7.2 years)	children (mean age 7.2 years)				7.2		child	manual
 year		5 months-3 years	9606	Homo sapiens (human)	542	5 month-3 year	5 month-3 year		0.417	3				manual
 year		6 months to 2 years	9606	Homo sapiens (human)	610	6 month to 2 year	6 month to 2 year		0.5	2				manual
 week		6 weeks or older	10000233	Mus musculus CBA/Ca	651	6 week or older	6 week or older		6					manual
 week		6 weeks or older	10000000	Mus musculus BALB/c	679	6 week or older	6 week or older		6					manual
 year		37 yrs average	9606	Homo sapiens (human)	686	37 year average	37 year average				37			manual
 year		37 yrs. Average	9606	Homo sapiens (human)	720	37 year. average	37 year. average				37			manual
-		Adults and children (ages 4.5-10.5 and 15-44)	9606	Homo sapiens (human)	772	adults and children (ages 4.5-10.5 and 15-44)	adults and children (ages 4.5-10.5 and 15-44)		4.5	44			adults and children	manual
+		Adults and children (ages 4.5-10.5 and 15-44)	9606	Homo sapiens (human)	772	adults and children (ages 4.5-10.5 and 15-44)	adults and children (ages 4.5-10.5 and 15-44)		4.5	44			adult and child	manual
 week		At least 8 weeks old	10000067	Mus musculus C57BL/6	777	at least 8 week old	at least 8 week		8					manual
 year		~ 33 to 55 years	9606	Homo sapiens (human)	920	~ 33 to 55 year	~ 33-55 year		33	55				manual
 year		23 and 61 years	9606	Homo sapiens (human)	937	23 and 61 year	23 and 61 year		23	61				manual
@@ -50,11 +50,11 @@ hour		within 12 hours of birth	10000038	Mus musculus C3H/He	1403	within 12 hour 
 week		older than 8 weeks	10000216	Mus musculus C57BL/6 X BALB/c	1413	older than 8 week	older than 8 week		8					manual
 year		Adult (avg. age = 30.8 years)	9606	Homo sapiens (human)	1495	adult (avg. age = 30.8 years)	adult (avg. age = 30.8 years)				30.8		adult	manual
 hour		24 hours after birth	10000274	Mus musculus B10.PL	1524	24 hour after birth	24 hour after birth	24						manual
-year		Children (avg. age = 9.5 years)	9606	Homo sapiens (human)	1543	children (avg. age = 9.5 years)	children (avg. age = 9.5 years)				9.5		children	manual
+year		Children (avg. age = 9.5 years)	9606	Homo sapiens (human)	1543	children (avg. age = 9.5 years)	children (avg. age = 9.5 years)				9.5		child	manual
 week		8 weeks or older	10000000	Mus musculus BALB/c	1594	8 week or older	8 week or older		8					manual
 year	28	median age 28 years	9606	Homo sapiens (human)	1647	median age 28 year	median age 28 year							manual
 year		~ 31 to 55 years	9606	Homo sapiens (human)	1732	~ 31 to 55 year	~ 31-55 year		31	55				manual
-		Adults (15-44)	9606	Homo sapiens (human)	1774	adults (15-44)	adults (15-44)		15	44			adults	manual
+		Adults (15-44)	9606	Homo sapiens (human)	1774	adults (15-44)	adults (15-44)		15	44			adult	manual
 month		4 wk - 3 mo	10000000	Mus musculus BALB/c	1841	4 week - 3 month	4 week - 3 month		0.93	3				manual
 month		8 weeks to 6 months	10000253	Mus musculus A/J	1868	8 week to 6 month	8 week to 6 month		1.86	6				manual
 month		8 weeks to 6 months	10000067	Mus musculus C57BL/6	1869	8 week to 6 month	8 week to 6 month		1.86	6				manual
@@ -122,8 +122,8 @@ year		18+ years	9606	Homo sapiens (human)	3910	18+ year	18+ year		18					manual
 year	41.7	median 41.7 years	9606	Homo sapiens (human)	3919	median 41.7 year	median 41.7 year							manual
 week		6 and 12 weeks	10000632	Mus musculus NOD	3969	6 and 12 week	6 and 12 week		6	12				manual
 year		≥ 18 years	9606	Homo sapiens (human)	3987	 18 year	 18 year	18						manual
-day		Neonates (3 or 7 days)	10000067	Mus musculus C57BL/6	4077	neonates (3 or 7 days)	neonates (3 or 7 days)		3	7			neonates	manual
-day		Neonates (3 days)	10000067	Mus musculus C57BL/6	4083	neonates (3 days)	neonates (3 days)	3					neonates	manual
+day		Neonates (3 or 7 days)	10000067	Mus musculus C57BL/6	4077	neonates (3 or 7 days)	neonates (3 or 7 days)		3	7			neonate	manual
+day		Neonates (3 days)	10000067	Mus musculus C57BL/6	4083	neonates (3 days)	neonates (3 days)	3					neonate	manual
 year		29 and 53 years	9606	Homo sapiens (human)	4094	29 and 53 year	29 and 53 year		29	53				manual
 week		6 yo 8 weeks	10000000	Mus musculus BALB/c	4107	6 yo 8 week	6 yo 8 week		6	8				manual
 week		6 yo 8 weeks	10000067	Mus musculus C57BL/6	4108	6 yo 8 week	6 yo 8 week		6	8				manual
@@ -161,7 +161,7 @@ year		2 to >20 years	9606	Homo sapiens (human)	4901	2 to >20 year	2 to >20 year	
 year		3 months to 7 years	9606	Homo sapiens (human)	4965	3 month to 7 year	3 month to 7 year		0.25	7				manual
 week		up to 12 weeks old	10000047	Mus musculus C57BL/10	4971	up to 12 week old	up to 12 week			12				manual
 year		Younger than 35 years	9606	Homo sapiens (human)	4975	younger than 35 year	younger than 35 year			35				manual
-year		Children <5 years old	9606	Homo sapiens (human)	4994	children <5 year old	children <5 year			5			children	manual
+year		Children <5 years old	9606	Homo sapiens (human)	4994	children <5 year old	children <5 year			5			child	manual
 month		8 weeks or 12 months	10000000	Mus musculus BALB/c	5011	8 week or 12 month	8 week or 12 month		1.841	12				manual
 year		2 and 64 years	9606	Homo sapiens (human)	5033	2 and 64 year	2 and 64 year		2	64				manual
 year		16 weeks-40 years	9606	Homo sapiens (human)	5040	16 week-40 year	16 week-40 year		0.307	40				manual
