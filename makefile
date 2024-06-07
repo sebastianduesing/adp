@@ -7,6 +7,10 @@ normalize_age :
 normalize_data_loc :
 	python3 scripts/normalize.py input_files/data_location_UTF-8.tsv output_files/data_normalized.tsv output_files/data_loc_char_norm_data.tsv data_loc_word_replacements.tsv output_files/data_loc_word_curation.tsv location data_loc
 
+.PHONY: normalize_data_loc_tab_removed
+normalize_data_loc_tab_removed :
+	python3 scripts/normalize.py input_files/data_location_tab_removed.tsv output_files/data_normalized.tsv output_files/data_loc_char_norm_data.tsv data_loc_word_replacements.tsv output_files/data_loc_word_curation.tsv location data_loc
+
 # Gather character normalization data.
 .PHONY: age_char_norm_data
 age_char_norm_data :
