@@ -22,6 +22,8 @@ data_loc_char_norm_data :
 calculate_metrics:
 	python3 scripts/calculate_metrics.py output_files/age_normalized.tsv h_age output_files age
 	python3 scripts/calculate_metrics.py output_files/data_normalized.tsv location output_files data_loc
+	python3 scripts/score_evaluator.py age output_files/age_normalized.tsv h_age output_files/score_data.tsv
+	python3 scripts/score_evaluator.py data_loc output_files/data_normalized.tsv location output_files/score_data.tsv
 	
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort

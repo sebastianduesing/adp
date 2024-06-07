@@ -1,0 +1,5 @@
+phase	minimum	maximum	median	mean	standard_deviation	variance
+character	0	35	12.0	12.44	5.29	28.01
+word	0	21	0.0	0.15	0.7	0.49
+phrase	0	100	49.0	47.73	10.26	105.28
+overall	0	100	49.0	47.81	10.24	104.88

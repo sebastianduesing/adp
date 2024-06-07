@@ -302,6 +302,7 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     char_score_column = f"char_normalization_score_{target_column}"
     word_score_column = f"word_normalization_score_{target_column}"
     phrase_score_column = f"phrase_normalization_score_{target_column}"
+    overall_score_column = f"overall_normalization_score_{target_column}"
     
     for index, rowdict in maindict.items():
         original_data = rowdict[target_column]
@@ -321,12 +322,14 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         if style == "age":
             rowdict[phrase_column] = age_phrase_normalizer(sc_data)
             # Simple check to see if the phrase was normalized
-            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
             rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column] != rowdict[word_column] else "N"
+            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         elif style == "data_loc":
             rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
             # Because this is a list, extract first element to check if it was normalized
             rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
             if rowdict[phrase_column] and rowdict[word_column]:
                 rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column][0] != rowdict[word_column] else "N"
             # TODO: Hits this 31 times... why????
