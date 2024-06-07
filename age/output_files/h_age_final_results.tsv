@@ -1,26 +1,26 @@
 Metric	Value
 Number of Unique Strings	4095
-Number of Unique Strings After Phrase Normalization	3129
-Change in Number of Unique Strings	-23.59%
+Number of Unique Strings After Phrase Normalization	3126
+Change in Number of Unique Strings	-23.66%
 Ratio of Total Strings to Unique Strings	1.75 : 1
 Mean String Frequency	1.75
 Standard Deviation of String Frequency	9.99
 Ratio of Total Strings to Unique Strings Phrase Normalized	2.29 : 1
 Mean String Frequency After Phrase Normalization	2.29
-Standard Deviation of String Frequency After Phrase Normalization	13.35
-Change in Ratio of Unique Strings to Total Strings	30.87%
+Standard Deviation of String Frequency After Phrase Normalization	13.36
+Change in Ratio of Unique Strings to Total Strings	31.0%
 Number of Single Use Strings	3696
 Single Use Strings as a Percentage of All Strings	51.69%
 Single Use Strings as a Percentage of Unique Strings	90.26%
-Number of Single Use Strings Phrase Normalized	2408
-Single Use Strings as a Percentage of All Strings After Phrase Normalization	33.67%
-Single Use Strings as a Percentage of Unique Strings After Phrase Normalization	76.96%
-Change in Number of Single Use Strings	-34.85%
-Change in Ratio of Single Use Strings to Total Strings	-14.73%
+Number of Single Use Strings Phrase Normalized	2406
+Single Use Strings as a Percentage of All Strings After Phrase Normalization	33.65%
+Single Use Strings as a Percentage of Unique Strings After Phrase Normalization	76.97%
+Change in Number of Single Use Strings	-34.9%
+Change in Ratio of Single Use Strings to Total Strings	-14.72%
 Low Frequency Strings	346
 Low Frequency Strings as a Percentage of All Strings	4.84%
-Low Frequency Strings After Phrase Normalization	675
-Low Frequency Strings as a Percentage of All Strings After Phrase Normalization	9.44%
+Low Frequency Strings After Phrase Normalization	674
+Low Frequency Strings as a Percentage of All Strings After Phrase Normalization	9.43%
 Mid Frequency Strings	37
 Mid Frequency Strings as a Percentage of All Strings	0.52%
 Mid Frequency Strings After Phrase Normalization	32
