@@ -93,6 +93,25 @@ def dataframe_to_dict(df):
     return result_dict
 
 
+def stripped_data_loc(data_loc_dict):
+    """
+    Outputs a version of the normalized data_loc file with only one line per
+    index (i.e., removing all but the first parts of split lines) so that
+    split lines don't skew data normalization metrics.  
+
+    -- data_loc_dict: The normalized dict of data-loc data.
+    -- return: Stripped version of data_loc_dict with 1 line per original line.
+    """
+    index_list = []
+    stripped = data_loc_dict.copy()
+    for index, rowdict in data_loc_dict.items():
+        if rowdict["index"] in index_list:
+            del stripped[index]
+        else:
+            index_list.append(rowdict["index"])
+    return stripped
+
+
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
     """
     Creates SCdict, in which keys are preferred spellings or representations
@@ -353,10 +372,12 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         # Convert dict to DataFrame, normalize, and convert back
         df = dict_to_dataframe(maindict, phrase_column)
         final_dict = dataframe_to_dict(df)
+        stripped = stripped_data_loc(final_dict)
     if style == "age":
         final_dict = maindict
     dict2TSV(final_dict, outputTSV)
     dict2TSV(char_norm_data_dict, char_norm_data_TSV)
+    dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
 
 
 if __name__ == "__main__":
