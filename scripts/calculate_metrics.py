@@ -352,7 +352,7 @@ def main():
     Main function to load data, calculate metrics, and write results to TSV files.
     """
     if len(sys.argv) < 4:
-        print("Usage: python calculate_metrics.py <tsv_file_path> <original_column_name> <output_directory_path>")
+        print("Usage: python calculate_metrics.py <tsv_file_path> <original_column_name> <output_directory_path> <style>")
         sys.exit(1)
 
     style = sys.argv[4]
