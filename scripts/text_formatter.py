@@ -144,6 +144,16 @@ def data_loc_phrase_normalizer(string):
         replacement = r'page \1'
         if re.search(pattern, segment):
             segment = re.sub(pattern, replacement, segment)
+            
+        # Fit PDB identifiers with the correct prefix, ensuring at least one letter in the sequence
+        pattern = r"\b(pdb[: ]\s*)?([0-9][a-zA-Z0-9]{2}[a-zA-Z]|[0-9][a-zA-Z0-9][a-zA-Z][a-zA-Z0-9]|[0-9][a-zA-Z][a-zA-Z0-9]{2})\b"
+        def replace(match):
+            # Return formatted string with 'pdb ' followed by the identifier
+            return f"pdb {match.group(2)}"
+        
+        # Replace the segment using the custom replace function
+        if re.search(pattern, segment):
+            segment = re.sub(pattern, replace, segment)
         
         # Detect the presence of a full type (prefix + type) and capture it
         type_match = re.search(full_types_pattern, segment, re.IGNORECASE)

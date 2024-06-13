@@ -1,14 +1,15 @@
 import csv
 import sys
+import os
 import re
 import editdistance
-import os.path
 import unicodedata as ud
 import pandas as pd
 from converter import TSV2dict, dict2TSV
 from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
 
 
+# TODO: Check if this is still needed and remove if not
 def is_known_invalid_location(data):
     # Checks if the string looks like a web URL
     if re.match(r'https?://\S+', data):
@@ -44,7 +45,7 @@ def academic_location_regex():
 
 def biological_db_regex():
     # Handle PDB identifiers, generic identifiers (letter followed by numbers), and accession numbers
-    pdb_pattern = r"\bpdb [a-zA-Z0-9]{4}\b"
+    pdb_pattern = r"\bpdb [0-9][a-zA-Z0-9]{2}[a-zA-Z]|[0-9][a-zA-Z0-9][a-zA-Z][a-zA-Z0-9]|[0-9][a-zA-Z][a-zA-Z0-9]{2}\b"
     generic_identifier_pattern = r"\b[a-zA-Z] \d+\b"
     accession_pattern = r"\baccession(:)? [\w: ]+\b"
     return rf"({pdb_pattern})|({generic_identifier_pattern})|({accession_pattern})"
