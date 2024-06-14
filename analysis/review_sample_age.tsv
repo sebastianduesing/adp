@@ -1,101 +1,101 @@
 h_age	h_organism_id	h_organism_name	index	char_normalized_h_age	char_normalized	char_normalization_score_h_age	word_normalized_h_age	word_normalized	word_normalization_score_h_age	phrase_normalized_h_age	phrase_normalized	phrase_normalization_score_h_age	overall_normalization_score_h_age
-7-74 years old	9606	Homo sapiens (human)	47	7-74 years old	N	0	7-74 year old	Y	1	7-74 year	Y	4	5
-Children and Adults	9606	Homo sapiens (human)	81	children and adults	Y	2	child and adult	Y	4	child and adult	N	0	6
-6-8 wk	10000067	Mus musculus C57BL/6	135	6-8 wk	N	0	6-8 week	Y	2	6-8 week	N	0	2
-30-60 years	9606	Homo sapiens (human)	172	30-60 years	N	0	30-60 year	Y	1	30-60 year	N	0	1
-8-12 weeks	10000213	Mus musculus (C57BL/6 X BALB/c) H2bm8	217	8-12 weeks	N	0	8-12 week	Y	1	8-12 week	N	0	1
-NULL	10000206	Oryctolagus cuniculus New Zealand White	222	null	Y	4	null	N	0	null	N	0	4
-NULL	9995	Marmota monax (groundhog)	251	null	Y	4	null	N	0	null	N	0	4
-mean age 30 years	9606	Homo sapiens (human)	380	mean age 30 years	N	0	mean age 30 year	Y	1	mean age 30 year	N	0	1
-6-16 wk	10000067	Mus musculus C57BL/6	446	6-16 wk	N	0	6-16 week	Y	2	6-16 week	N	0	2
-6-week-old	10000000	Mus musculus BALB/c	853	6-week-old	N	0	6-week-old	N	0	6 week	Y	5	5
-8-15 weeks	10000259	Mus musculus B10.A(3R)	928	8-15 weeks	N	0	8-15 week	Y	1	8-15 week	N	0	1
-6-8	10000067	Mus musculus C57BL/6	955	6-8	N	0	6-8	N	0	6-8	N	0	0
-13-82 years	9606	Homo sapiens (human)	977	13-82 years	N	0	13-82 year	Y	1	13-82 year	N	0	1
-6-8 weeks	10001248	Mus musculus NOD.Cg-Tg	1136	6-8 weeks	N	0	6-8 week	Y	1	6-8 week	N	0	1
-2-16 years	9606	Homo sapiens (human)	1221	2-16 years	N	0	2-16 year	Y	1	2-16 year	N	0	1
-NULL	10001221	Mus musculus C57BL/6 x SJL	1298	null	Y	4	null	N	0	null	N	0	4
-43 years	10000119	Homo sapiens Caucasian	1434	43 years	N	0	43 year	Y	1	43 year	N	0	1
-48 years old	9606	Homo sapiens (human)	1485	48 years old	N	0	48 year old	Y	1	48 year	Y	4	5
-12-23 weeks	10000632	Mus musculus NOD	1489	12-23 weeks	N	0	12-23 week	Y	1	12-23 week	N	0	1
-7-8 weeks	10000236	Mus musculus CBA/J	1788	7-8 weeks	N	0	7-8 week	Y	1	7-8 week	N	0	1
-4.1-15.2 years	9606	Homo sapiens (human)	1839	4.1-15.2 years	N	0	4.1-15.2 year	Y	1	4.1-15.2 year	N	0	1
-25-37	9606	Homo sapiens (human)	1926	25-37	N	0	25-37	N	0	25-37	N	0	0
-6-18 weeks old	10000000	Mus musculus BALB/c	2003	6-18 weeks old	N	0	6-18 week old	Y	1	6-18 week	Y	4	5
-42-61 years	9606	Homo sapiens (human)	2062	42-61 years	N	0	42-61 year	Y	1	42-61 year	N	0	1
-27- 76 years	9606	Homo sapiens (human)	2144	27- 76 years	N	0	27- 76 year	Y	1	27-76 year	Y	1	2
-3 to 8 weeks	10000063	Mus musculus B10.A	2280	3 to 8 weeks	N	0	3 to 8 week	Y	1	3-8 week	Y	4	5
-More than 15 years	9606	Homo sapiens (human)	2342	<15 years	Y	1	<15 year	Y	1	<15 year	Y	10	11
-4 weeks	10001440	Mus musculus B16:A dKO NOD	2607	4 weeks	N	0	4 week	Y	1	4 week	N	0	1
-8 to 12 weeks	10001133	Rattus norvegicus DA	2614	8 to 12 weeks	N	0	8 to 12 week	Y	1	8-12 week	Y	4	5
-27-40 years	9606	Homo sapiens (human)	2694	27-40 years	N	0	27-40 year	Y	1	27-40 year	N	0	1
-17 to 47 years	9606	Homo sapiens (human)	2735	17 to 47 years	N	0	17 to 47 year	Y	1	17-47 year	Y	4	5
-74-92 years	9606	Homo sapiens (human)	2872	74-92 years	N	0	74-92 year	Y	1	74-92 year	N	0	1
-6-67 years	9606	Homo sapiens (human)	2936	6-67 years	N	0	6-67 year	Y	1	6-67 year	N	0	1
-4-6 weeks old	10000253	Mus musculus A/J	2939	4-6 weeks old	N	0	4-6 week old	Y	1	4-6 week	Y	4	5
-25-67 years	9606	Homo sapiens (human)	3053	25-67 years	N	0	25-67 year	Y	1	25-67 year	N	0	1
-5 to 6 weeks	10000216	Mus musculus C57BL/6 X BALB/c	3074	5 to 6 weeks	N	0	5 to 6 week	Y	1	5-6 week	Y	4	5
-NULL	10002225	Mus musculus gp150 TCR	3284	null	Y	4	null	N	0	null	N	0	4
-50-62 years	9606	Homo sapiens (human)	3305	50-62 years	N	0	50-62 year	Y	1	50-62 year	N	0	1
-Six week old	10000000	Mus musculus BALB/c	3468	six week old	Y	1	week old	Y	3	week	Y	4	7
-10 weeks	10000649	Mus musculus SJL	3555	10 weeks	N	0	10 week	Y	1	10 week	N	0	1
-at least 7 weeks	10000576	Mus musculus HLA-A*02:01 Tg	3586	at least 7 weeks	N	0	at least 7 week	Y	1	at least 7 week	N	0	1
-12 weeks	10000105	Mus musculus TRAMP Tg	3602	12 weeks	N	0	12 week	Y	1	12 week	N	0	1
-8-10 weeks	10001220	Mus musculus OT-II TCR Tg	3782	8-10 weeks	N	0	8-10 week	Y	1	8-10 week	N	0	1
-19-41 years	9606	Homo sapiens (human)	3787	19-41 years	N	0	19-41 year	Y	1	19-41 year	N	0	1
-4-6 weeks	10001062	Mus musculus HLA-A*24:02 Tg	3794	4-6 weeks	N	0	4-6 week	Y	1	4-6 week	N	0	1
-18 to 56 years	10000119	Homo sapiens Caucasian	3803	18 to 56 years	N	0	18 to 56 year	Y	1	18-56 year	Y	4	5
-47-76 years	9606	Homo sapiens (human)	3832	47-76 years	N	0	47-76 year	Y	1	47-76 year	N	0	1
-41 +/- 11 years	9606	Homo sapiens (human)	3868	41 +/- 11 years	N	0	41 +/- 11 year	Y	1	41 +/- 11 year	N	0	1
-average age = 48 years	9606	Homo sapiens (human)	3895	average age = 48 years	N	0	average age = 48 year	Y	1	average age = 48 year	N	0	1
-6 weeks	10001001	Rattus norvegicus WKAH	3996	6 weeks	N	0	6 week	Y	1	6 week	N	0	1
-18-38 months	9606	Homo sapiens (human)	4025	18-38 months	N	0	18-38 month	Y	1	18-38 month	N	0	1
-63-79 days	9823	Sus scrofa (pig)	4047	63-79 days	N	0	63-79 day	Y	1	63-79 day	N	0	1
-22 to >60 years	9606	Homo sapiens (human)	4135	22 to >60 years	N	0	22 to >60 year	Y	1	22 to >60 year	N	0	1
-10-12 weeks	10001634	Mus musculus IFNR null	4158	10-12 weeks	N	0	10-12 week	Y	1	10-12 week	N	0	1
-22-46	9606	Homo sapiens (human)	4249	22-46	N	0	22-46	N	0	22-46	N	0	0
-18-69 years	9606	Homo sapiens (human)	4317	18-69 years	N	0	18-69 year	Y	1	18-69 year	N	0	1
-18-52 years	9606	Homo sapiens (human)	4324	18-52 years	N	0	18-52 year	Y	1	18-52 year	N	0	1
-7 to 48 years	9606	Homo sapiens (human)	4343	7 to 48 years	N	0	7 to 48 year	Y	1	7-48 year	Y	4	5
-6-10 weeks	10000225	Mus musculus C57BL/6N	4358	6-10 weeks	N	0	6-10 week	Y	1	6-10 week	N	0	1
-58.8 ± 17.4	9606	Homo sapiens (human)	4439	58.8 +/- 17.4	Y	3	58.8 +/- 17.4	N	0	58.8 +/- 17.4	N	0	3
-5 to 72 years	9606	Homo sapiens (human)	4516	5 to 72 years	N	0	5 to 72 year	Y	1	5-72 year	Y	4	5
-NULL	10000920	Gallus gallus Leghorn	4929	null	Y	4	null	N	0	null	N	0	4
-608 weeks	10000000	Mus musculus BALB/c	4935	608 weeks	N	0	608 week	Y	1	608 week	N	0	1
-10 weeks	9031	Gallus gallus (chicken)	4959	10 weeks	N	0	10 week	Y	1	10 week	N	0	1
-NULL	10000026	Mus musculus BP2	4967	null	Y	4	null	N	0	null	N	0	4
-35 to 66 years	9606	Homo sapiens (human)	5190	35 to 66 years	N	0	35 to 66 year	Y	1	35-66 year	Y	4	5
-6-8 weeks	10000006	Mus musculus BALB/c GalNAc Transferase null	5217	6-8 weeks	N	0	6-8 week	Y	1	6-8 week	N	0	1
-8-12 weeks	10000261	Mus musculus B10.A(5R)	5227	8-12 weeks	N	0	8-12 week	Y	1	8-12 week	N	0	1
-3-65 years-old	9606	Homo sapiens (human)	5237	3-65 years-old	N	0	3-65 year-old	Y	1	3-65 year	Y	4	5
->13 years	9606	Homo sapiens (human)	5296	>13 years	N	0	>13 year	Y	1	>13 year	N	0	1
-9-22 months old	9606	Homo sapiens (human)	5323	9-22 months old	N	0	9-22 month old	Y	1	9-22 month	Y	4	5
-4-6 weeks	10000061	Mus musculus FVB	5342	4-6 weeks	N	0	4-6 week	Y	1	4-6 week	N	0	1
-4 to 18 years	9606	Homo sapiens (human)	5408	4 to 18 years	N	0	4 to 18 year	Y	1	4-18 year	Y	4	5
-mean = 73±8.53 years	9606	Homo sapiens (human)	5487	mean = 73+/-8.53 years	Y	3	73+/-8.53 year	Y	1	73 +/- 8.53 year	Y	2	6
-15-33 years	9606	Homo sapiens (human)	5501	15-33 years	N	0	15-33 year	Y	1	15-33 year	N	0	1
-7 to 8 weeks	10000017	Mus musculus BALB/c X DBA/2	5624	7 to 8 weeks	N	0	7 to 8 week	Y	1	7-8 week	Y	4	5
-8-12 weeks	10000281	Mus musculus B10.WB	5712	8-12 weeks	N	0	8-12 week	Y	1	8-12 week	N	0	1
-26-30 weeks	10000635	Mus musculus NOD/Lt	5746	26-30 weeks	N	0	26-30 week	Y	1	26-30 week	N	0	1
-5-7 weeks	10000635	Mus musculus NOD/Lt	5757	5-7 weeks	N	0	5-7 week	Y	1	5-7 week	N	0	1
-2 months	10001241	Mus musculus APP	5766	2 months	N	0	2 month	Y	1	2 month	N	0	1
-6-8 weeks	10001406	Mus musculus MLR/lpr	5918	6-8 weeks	N	0	6-8 week	Y	1	6-8 week	N	0	1
-21 days	10001427	Mus musculus viable motheaten	5948	21 days	N	0	21 day	Y	1	21 day	N	0	1
-7 month	9940	Ovis aries (domestic sheep)	6082	7 month	N	0	7 month	N	0	7 month	N	0	0
-8- to 10-week-old	10000000	Mus musculus BALB/c	6123	8- to 10-week-old	N	0	8- to 10-week-old	N	0	8-10 week	Y	9	9
-5–10 weeks old	9606	Homo sapiens (human)	6173	510 weeks old	Y	1	510 week old	Y	1	510 week	Y	5	6
-4 to 6 weeks	10000253	Mus musculus A/J	6216	4 to 6 weeks	N	0	4 to 6 week	Y	1	4-6 week	Y	4	5
-1 year	10002168	Oryctolagus cuniculus Belgian White	6415	1 year	N	0	1 year	N	0	1 year	N	0	0
-NULL	452646	Neogale vison (mink)	6579	null	Y	4	null	N	0	null	N	0	4
+2 months	10000216	Mus musculus C57BL/6 X BALB/c	244	2 months	N	0	2 month	Y	1	2 month	N	0	1
+8-10 weeks	10000632	Mus musculus NOD	250	8-10 weeks	N	0	8-10 week	Y	1	8-10 week	N	0	1
+5-30 years-old	9606	Homo sapiens (human)	282	5-30 years-old	N	0	5-30 year-old	Y	1	5-30 year	Y	4	5
+6-8 weeks-old	10000000	Mus musculus BALB/c	422	6-8 weeks-old	N	0	6-8 week-old	Y	1	6-8 week	Y	4	5
+30 yo 60 years old	9606	Homo sapiens (human)	428	30 yo 60 years old	N	0	30 year 60 year old	Y	6	3060 year	Y	11	11
+27-60	10000119	Homo sapiens Caucasian	489	27-60	N	0	27-60	N	0	27-60	N	0	0
+NULL	10000227	Mus musculus OT-1 TCR Tg	531	null	Y	4	null	N	0	null	N	0	4
+6-9 months	10000190	Bos taurus Friesian	553	6-9 months	N	0	6-9 month	Y	1	6-9 month	N	0	1
+58 years	9606	Homo sapiens (human)	878	58 years	N	0	58 year	Y	1	58 year	N	0	1
+7 to 12 weeks	10000978	Mus musculus C57BL/6 X BALB/cByJ	892	7 to 12 weeks	N	0	7 to 12 week	Y	1	7-12 week	Y	4	5
+22-36 years	9606	Homo sapiens (human)	914	22-36 years	N	0	22-36 year	Y	1	22-36 year	N	0	1
+32-43 years	9606	Homo sapiens (human)	926	32-43 years	N	0	32-43 year	Y	1	32-43 year	N	0	1
+4-5 years	9544	Macaca mulatta (rhesus macaque)	952	4-5 years	N	0	4-5 year	Y	1	4-5 year	N	0	1
+4-8 weeks	10000019	Mus musculus BALB/cByJ	998	4-8 weeks	N	0	4-8 week	Y	1	4-8 week	N	0	1
+16-50 years	9606	Homo sapiens (human)	1135	16-50 years	N	0	16-50 year	Y	1	16-50 year	N	0	1
+NULL	10000596	Mus musculus HLA-DQ Transgenic	1156	null	Y	4	null	N	0	null	N	0	4
+4 weeks	10000632	Mus musculus NOD	1170	4 weeks	N	0	4 week	Y	1	4 week	N	0	1
+7 days	10000632	Mus musculus NOD	1179	7 days	N	0	7 day	Y	1	7 day	N	0	1
+8-10 weeks	10001237	Mus musculus HLA-B*35:01 Tg	1201	8-10 weeks	N	0	8-10 week	Y	1	8-10 week	N	0	1
+4 to 16 years	9606	Homo sapiens (human)	1243	4 to 16 years	N	0	4 to 16 year	Y	1	4-16 year	Y	4	5
+26 years	9606	Homo sapiens (human)	1424	26 years	N	0	26 year	Y	1	26 year	N	0	1
+21-83 years old	9606	Homo sapiens (human)	1440	21-83 years old	N	0	21-83 year old	Y	1	21-83 year	Y	4	5
+5 to 7 weeks	10000067	Mus musculus C57BL/6	1538	5 to 7 weeks	N	0	5 to 7 week	Y	1	5-7 week	Y	4	5
+4-12 weeks	10000067	Mus musculus C57BL/6	1578	4-12 weeks	N	0	4-12 week	Y	1	4-12 week	N	0	1
+22-45 years	9606	Homo sapiens (human)	1820	22-45 years	N	0	22-45 year	Y	1	22-45 year	N	0	1
+> 6 months	10000190	Bos taurus Friesian	1829	> 6 months	N	0	> 6 month	Y	1	>6 month	Y	1	2
+3 weeks	10000625	Mus musculus MRL	1887	3 weeks	N	0	3 week	Y	1	3 week	N	0	1
+8 to 14 weeks	10000216	Mus musculus C57BL/6 X BALB/c	1891	8 to 14 weeks	N	0	8 to 14 week	Y	1	8-14 week	Y	4	5
+50 days	10001105	Mus musculus SV11	2044	50 days	N	0	50 day	Y	1	50 day	N	0	1
+7-17 weeks	10000632	Mus musculus NOD	2129	7-17 weeks	N	0	7-17 week	Y	1	7-17 week	N	0	1
+27-29 days	10001477	Mus musculus InsHA	2190	27-29 days	N	0	27-29 day	Y	1	27-29 day	N	0	1
+41±13 years	9606	Homo sapiens (human)	2195	41-13 years	Y	3	41-13 year	Y	1	41-13 year	Y	2	6
+5-8 weeks	10001019	Mus musculus B10.D2	2197	5-8 weeks	N	0	5-8 week	Y	1	5-8 week	N	0	1
+2-12 months	10000028	Mus musculus C3H	2308	2-12 months	N	0	2-12 month	Y	1	2-12 month	N	0	1
+NULL	10001789	Mus musculus B10.BR X C3H.OL	2322	null	Y	4	null	N	0	null	N	0	4
+8-20 weeks	10000576	Mus musculus HLA-A*02:01 Tg	2360	8-20 weeks	N	0	8-20 week	Y	1	8-20 week	N	0	1
+At least 8 weeks old	10000000	Mus musculus BALB/c	2629	<8 weeks	Y	6	<8 week	Y	1	<8 week	N	0	8
+mean age 39 years	9606	Homo sapiens (human)	2687	mean age 39 years	N	0	mean age 39 year	Y	1	mean age 39 year	N	0	1
+7-10 weeks	10000662	Rattus norvegicus Lewis	2764	7-10 weeks	N	0	7-10 week	Y	1	7-10 week	N	0	1
+30-58 years old	9606	Homo sapiens (human)	2889	30-58 years old	N	0	30-58 year old	Y	1	30-58 year	Y	4	5
+8 to 12 weeks	10000605	Mus musculus HLA-DR2 Tg	2959	8 to 12 weeks	N	0	8 to 12 week	Y	1	8-12 week	Y	4	5
+NULL	10001575	Mus musculus C57BL/6 alpha1,3GT null	3043	null	Y	4	null	N	0	null	N	0	4
+47 years old	9606	Homo sapiens (human)	3171	47 years old	N	0	47 year old	Y	1	47 year	Y	4	5
+24-28 years	9606	Homo sapiens (human)	3254	24-28 years	N	0	24-28 year	Y	1	24-28 year	N	0	1
+39-50 years	9606	Homo sapiens (human)	3267	39-50 years	N	0	39-50 year	Y	1	39-50 year	N	0	1
+9 weeks	10000662	Rattus norvegicus Lewis	3331	9 weeks	N	0	9 week	Y	1	9 week	N	0	1
+NULL	10000286	Mus musculus B6.PL Thy1a/Cy	3343	null	Y	4	null	N	0	null	N	0	4
+6-20 weeks	10000067	Mus musculus C57BL/6	3368	6-20 weeks	N	0	6-20 week	Y	1	6-20 week	N	0	1
+22 to 26 months	10000067	Mus musculus C57BL/6	3508	22 to 26 months	N	0	22 to 26 month	Y	1	22-26 month	Y	4	5
+7-12 weeks	10000978	Mus musculus C57BL/6 X BALB/cByJ	3521	7-12 weeks	N	0	7-12 week	Y	1	7-12 week	N	0	1
+median age = 27 years	9606	Homo sapiens (human)	3618	median age = 27 years	N	0	median age = 27 year	Y	1	median age = 27 year	N	0	1
+6-9 weeks	10000635	Mus musculus NOD/Lt	3683	6-9 weeks	N	0	6-9 week	Y	1	6-9 week	N	0	1
+6 to 20 weeks	10000632	Mus musculus NOD	3846	6 to 20 weeks	N	0	6 to 20 week	Y	1	6-20 week	Y	4	5
+NULL	10002223	Mus musculus RSV-M187 TCR Tg	3888	null	Y	4	null	N	0	null	N	0	4
+14-18 months	9606	Homo sapiens (human)	3892	14-18 months	N	0	14-18 month	Y	1	14-18 month	N	0	1
+3 weeks	9823	Sus scrofa (pig)	3937	3 weeks	N	0	3 week	Y	1	3 week	N	0	1
+6 months or older	10000193	Bos taurus Holstein	3983	6 months or older	N	0	6 month or >	Y	4	6, > month	Y	10	11
+28 to 69 years	9606	Homo sapiens (human)	4137	28 to 69 years	N	0	28 to 69 year	Y	1	28-69 year	Y	4	5
+25 weeks	10001487	Mus musculus Apolipoprotein E null	4204	25 weeks	N	0	25 week	Y	1	25 week	N	0	1
+21-64 years	9606	Homo sapiens (human)	4430	21-64 years	N	0	21-64 year	Y	1	21-64 year	N	0	1
+23-65 years	9606	Homo sapiens (human)	4473	23-65 years	N	0	23-65 year	Y	1	23-65 year	N	0	1
+42.9 to 73.7 years	9606	Homo sapiens (human)	4523	42.9 to 73.7 years	N	0	42.9 to 73.7 year	Y	1	42.9-73.7 year	Y	4	5
+28-72 years	9606	Homo sapiens (human)	4531	28-72 years	N	0	28-72 year	Y	1	28-72 year	N	0	1
+NULL	10002352	Sus scrofa Babraham	4640	null	Y	4	null	N	0	null	N	0	4
+7-8 weeks	10000616	Mus musculus HLA-DRB1*04:01 Tg	4689	7-8 weeks	N	0	7-8 week	Y	1	7-8 week	N	0	1
+51-85 years	9606	Homo sapiens (human)	4826	51-85 years	N	0	51-85 year	Y	1	51-85 year	N	0	1
+6 week-old	10000000	Mus musculus BALB/c	4948	6 week-old	N	0	6 week-old	N	0	6 week	Y	4	4
+6 weeks	10114	Rattus (rat)	4950	6 weeks	N	0	6 week	Y	1	6 week	N	0	1
+6 - 8 wo	10000006	Mus musculus BALB/c GalNAc Transferase null	5066	6 - 8 wo	N	0	6 - 8 week	Y	3	6-8 week	Y	2	5
+3-4 months-old	10000206	Oryctolagus cuniculus New Zealand White	5084	3-4 months-old	N	0	3-4 month-old	Y	1	3-4 month	Y	4	5
+8±2 weeks	10000000	Mus musculus BALB/c	5248	82 weeks	Y	1	82 week	Y	1	82 week	N	0	1
+3 months old	10000206	Oryctolagus cuniculus New Zealand White	5253	3 months old	N	0	3 month old	Y	1	3 month	Y	4	5
+18-21 years-old	9606	Homo sapiens (human)	5262	18-21 years-old	N	0	18-21 year-old	Y	1	18-21 year	Y	4	5
+Adults	292213	Aotus griseimembra	5303	adults	Y	1	adult	Y	1	adult	N	0	2
+39 +/- 2.4 years	9606	Homo sapiens (human)	5324	39 +/- 2.4 years	N	0	39 +/- 2.4 year	Y	1	39 +/- 2.4 year	N	0	1
+17-49 years	9606	Homo sapiens (human)	5555	17-49 years	N	0	17-49 year	Y	1	17-49 year	N	0	1
+average= 34.6 years	10000119	Homo sapiens Caucasian	5656	average= 34.6 years	N	0	average= 34.6 year	Y	1	average= 34.6 year	N	0	1
+3-4 months	10000653	Mus musculus Swiss	5728	3-4 months	N	0	3-4 month	Y	1	3-4 month	N	0	1
+65 days	9606	Homo sapiens (human)	5765	65 days	N	0	65 day	Y	1	65 day	N	0	1
+3 months	10001286	Mus musculus APPswe/PSEN1	5820	3 months	N	0	3 month	Y	1	3 month	N	0	1
+3-4 months	10001019	Mus musculus B10.D2	5861	3-4 months	N	0	3-4 month	Y	1	3-4 month	N	0	1
+6 to 8 weeks	10001537	Mus musculus PL	5909	6 to 8 weeks	N	0	6 to 8 week	Y	1	6-8 week	Y	4	5
+2 months	10001268	Mus musculus 3xTg-AD	5912	2 months	N	0	2 month	Y	1	2 month	N	0	1
+40.8-69.4 years	9606	Homo sapiens (human)	5947	40.8-69.4 years	N	0	40.8-69.4 year	Y	1	40.8-69.4 year	N	0	1
+Less than 20 years	9606	Homo sapiens (human)	6046	less than 20 years	Y	1	less than 20 year	Y	1	<20 year	Y	10	11
+mean age = 38.6 years	9606	Homo sapiens (human)	6169	mean age = 38.6 years	N	0	mean age = 38.6 year	Y	1	mean age = 38.6 year	N	0	1
+37.0 +/- 12.6 years	9606	Homo sapiens (human)	6273	37.0 +/- 12.6 years	N	0	37.0 +/- 12.6 year	Y	1	37.0 +/- 12.6 year	N	0	1
+26-96 years	9606	Homo sapiens (human)	6364	26-96 years	N	0	26-96 year	Y	1	26-96 year	N	0	1
+6 mon to 3 yr	9606	Homo sapiens (human)	6386	6 mon to 3 yr	N	0	6 to 3 year	Y	3	6-3 year	Y	2	5
+9.42 +/- 3.84 years	9606	Homo sapiens (human)	6451	9.42 +/- 3.84 years	N	0	9.42 +/- 3.84 year	Y	1	9.42 +/- 3.84 year	N	0	1
+58.8 +/- 8.7	9606	Homo sapiens (human)	6502	58.8 +/- 8.7	N	0	58.8 +/- 8.7	N	0	58.8 +/- 8.7	N	0	0
 4 to 25 years	9606	Homo sapiens (human)	6589	4 to 25 years	N	0	4 to 25 year	Y	1	4-25 year	Y	4	5
-51-70 years	9606	Homo sapiens (human)	6604	51-70 years	N	0	51-70 year	Y	1	51-70 year	N	0	1
 38 to 81 years	9606	Homo sapiens (human)	6609	38 to 81 years	N	0	38 to 81 year	Y	1	38-81 year	Y	4	5
-24 weeks	9669	Mustela putorius furo (black ferret)	6680	24 weeks	N	0	24 week	Y	1	24 week	N	0	1
-3-4 years	9554	Papio (baboon)	6732	3-4 years	N	0	3-4 year	Y	1	3-4 year	N	0	1
-6 years	30538	Vicugna pacos (alpaca)	6843	6 years	N	0	6 year	Y	1	6 year	N	0	1
-62-91 years	9606	Homo sapiens (human)	6887	62-91 years	N	0	62-91 year	Y	1	62-91 year	N	0	1
-12 to 60 months	9606	Homo sapiens (human)	6908	12 to 60 months	N	0	12 to 60 month	Y	1	12-60 month	Y	4	5
-mean 30 years	9606	Homo sapiens (human)	6963	mean 30 years	N	0	mean 30 year	Y	1	mean 30 year	N	0	1
-55-70 years	9606	Homo sapiens (human)	7030	55-70 years	N	0	55-70 year	Y	1	55-70 year	N	0	1
-64 years old	9606	Homo sapiens (human)	7119	64 years old	N	0	64 year old	Y	1	64 year	Y	4	5
-98	9606	Homo sapiens (human)	7142	98	N	0	98	N	0	98	N	0	0
+40 days	10000000	Mus musculus BALB/c	6662	40 days	N	0	40 day	Y	1	40 day	N	0	1
+29 to 73 years	9606	Homo sapiens (human)	6792	29 to 73 years	N	0	29 to 73 year	Y	1	29-73 year	Y	4	5
+51.6 to 77.2 years	9606	Homo sapiens (human)	6805	51.6 to 77.2 years	N	0	51.6 to 77.2 year	Y	1	51.6-77.2 year	Y	4	5
+6-8 weeks	10000624	Mus musculus MF1	7034	6-8 weeks	N	0	6-8 week	Y	1	6-8 week	N	0	1
+5-37 years	9606	Homo sapiens (human)	7044	5-37 years	N	0	5-37 year	Y	1	5-37 year	N	0	1
+old	10116	Rattus norvegicus (brown rat)	7103	old	N	0	old	N	0	old	N	0	0
+78	9606	Homo sapiens (human)	7124	78	N	0	78	N	0	78	N	0	0

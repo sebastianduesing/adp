@@ -13,7 +13,11 @@ def sort_dict_by_index(xdict):
         newdict[index] = rowdict
     return newdict
 
-def pick_random_lines(data, phonies, line_count, phony_line_count):
+def pick_random_lines(data, phonies, line_count):
+    phony_maximum = round(0.05*len(data.keys()), 0)
+    if phony_maximum > len(phonies.keys()):
+        phony_maximum = len(phonies.keys())
+    phony_line_count = random.randint(1, phony_maximum)
     lines_to_pull = line_count - phony_line_count
     available_indices = [index for index in data.keys()]
     sample_lines = random.sample(available_indices, k=lines_to_pull)
@@ -59,14 +63,13 @@ if __name__ == "__main__":
         original_col = "location"
     data = TSV2dict(sys.argv[2])
     line_count = int(sys.argv[3])
-    phony_line_count = int(sys.argv[4])
-    phony_line_source = TSV2dict(sys.argv[5])
-    output_path = sys.argv[6]
-    phony_tracker_path = sys.argv[7]
+    phony_line_source = TSV2dict(sys.argv[4])
+    output_path = sys.argv[5]
+    phony_tracker_path = sys.argv[6]
     if len(data.keys()) < line_count:
         print("Error: Output line count longer than input.")
     else:
-        real_lines, false_indices, phonies = pick_random_lines(data, phony_line_source, line_count, phony_line_count)
+        real_lines, false_indices, phonies = pick_random_lines(data, phony_line_source, line_count)
         random_dict, phony_tracker = build_random_sheet(data, phony_line_source, real_lines, false_indices, phonies)
         dict2TSV(random_dict, output_path)
         file = open(phony_tracker_path, "w")
