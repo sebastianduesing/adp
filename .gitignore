@@ -9,3 +9,6 @@
 
 # Ignore personal scripts
 scripts/jb_funcs
+
+# Ignore random-sampling phony line keys
+analysis/phony_lines*
