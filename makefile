@@ -30,24 +30,15 @@ calculate_metrics:
 # Sorts normalized data and creates or updates manual curation TSV.
 .PHONY : sort
 sort :
-	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv phrase_normalized_h_age
-	python3 scripts/make_curation_tsv.py age_sorted.tsv manual_curation.tsv age_data_type
+	python3 scripts/age_sort.py age/output_files/age_normalized.tsv age/processing/age_sorted.tsv phrase_normalized_h_age
+	python3 scripts/age_make_curation_tsv.py age/processing/age_sorted.tsv age/processing/manual_curation.tsv age_data_type
 
 # Merges manually curated data and autosorted data together.
 .PHONY : merge
 merge :
-	python3 scripts/apply_curation.py manual_curation.tsv age_sorted.tsv age_merged.tsv
+	python3 scripts/age_apply_curation.py age/processing/manual_curation.tsv age/processing/age_sorted.tsv age/processing/age_merged.tsv
 
 # Creates a finalized human-readable age column and calculates confidence in sorting.
 .PHONY : final
 final :
-	python3 scripts/final_processing.py age_merged.tsv age_final.tsv
-
-# Does all of the above.
-.PHONY : full
-full :
-	python3 scripts/normalize.py age_queried.tsv age_normalized.tsv word_replacements.tsv word_curation.tsv h_age age
-	python3 scripts/sort_age.py age_normalized.tsv age_sorted.tsv phrase_normalized_h_age
-	python3 scripts/make_curation_tsv.py age_sorted.tsv manual_curation.tsv age_data_type
-	python3 scripts/apply_curation.py manual_curation.tsv age_sorted.tsv age_merged.tsv
-	python3 scripts/final_processing.py age_merged.tsv age_final.tsv
+	python3 scripts/age_process_final.py age/process/age_merged.tsv age/processing/age_final.tsv
