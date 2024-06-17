@@ -41,4 +41,4 @@ merge :
 # Creates a finalized human-readable age column and calculates confidence in sorting.
 .PHONY : final
 final :
-	python3 scripts/age_process_final.py age/process/age_merged.tsv age/processing/age_final.tsv
+	python3 scripts/age_process_final.py age/processing/age_merged.tsv age/processing/age_final.tsv
