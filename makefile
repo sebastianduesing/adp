@@ -23,8 +23,8 @@ data_loc_char_norm_data :
 # Generate manual-review files with phony lines.
 .PHONY: create_review_files
 create_review_files:
-	python3 scripts/pull_random_lines.py age age/output_files/age_normalized.tsv 100 analysis/phony_lines_age.tsv analysis/review_sample_age.tsv analysis/phony_tracker_age.txt
-	python3 scripts/pull_random_lines.py data_loc data_loc/output_files/data_normalized.tsv 100 analysis/phony_lines_data_loc.tsv analysis/review_sample_data_loc.tsv analysis/phony_tracker_data_loc.txt
+	python3 scripts/pull_random_lines.py age output_files/age_normalized.tsv 100 analysis/phony_lines_age.tsv analysis/review_sample_age.tsv analysis/phony_tracker_age.txt
+	python3 scripts/pull_random_lines.py data_loc output_files/data_normalized.tsv 100 analysis/phony_lines_data_loc.tsv analysis/review_sample_data_loc.tsv analysis/phony_tracker_data_loc.txt
 
 # Calculate normalization metrics.
 .PHONY: calculate_metrics

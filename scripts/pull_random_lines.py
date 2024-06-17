@@ -1,6 +1,7 @@
 import random
 import sys
 import csv
+import os
 from converter import TSV2dict, dict2TSV
 
 def sort_dict_by_index(xdict):
@@ -61,11 +62,11 @@ if __name__ == "__main__":
         original_col = "h_age"
     if style == "data_loc":
         original_col = "location"
-    data = TSV2dict(sys.argv[2])
+    data = TSV2dict(os.path.join(style, sys.argv[2]))
     line_count = int(sys.argv[3])
-    phony_line_source = TSV2dict(sys.argv[4])
-    output_path = sys.argv[5]
-    phony_tracker_path = sys.argv[6]
+    phony_line_source = TSV2dict(os.path.join(style, sys.argv[4]))
+    output_path = os.path.join(style, sys.argv[5])
+    phony_tracker_path = os.path.join(style, sys.argv[6])
     if len(data.keys()) < line_count:
         print("Error: Output line count longer than input.")
     else:
