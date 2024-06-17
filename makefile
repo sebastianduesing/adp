@@ -11,15 +11,6 @@ normalize_data_loc :
 normalize_data_loc_tab_removed :
 	python3 scripts/normalize.py input_files/data_location_tab_removed.tsv output_files/data_normalized.tsv output_files/data_loc_char_norm_data.tsv data_loc_word_replacements.tsv output_files/data_loc_word_curation.tsv location data_loc
 
-# Gather character normalization data.
-.PHONY: age_char_norm_data
-age_char_norm_data :
-	python3 scripts/collect_normalization_data.py age output_files/age_char_norm_data.tsv output_files/age_char_norm_counts.tsv output_files/age_ascii_replacement_data.tsv
-
-.PHONY: data_loc_char_norm_data
-data_loc_char_norm_data :
-	python3 scripts/collect_normalization_data.py data_loc output_files/data_loc_char_norm_data.tsv output_files/data_loc_char_norm_counts.tsv output_files/data_loc_ascii_replacement_data.tsv
-
 # Generate manual-review files with phony lines.
 .PHONY: create_review_files
 create_review_files:
@@ -29,6 +20,8 @@ create_review_files:
 # Calculate normalization metrics.
 .PHONY: calculate_metrics
 calculate_metrics:
+	python3 scripts/collect_normalization_data.py age output_files/age_char_norm_data.tsv
+	python3 scripts/collect_normalization_data.py data_loc output_files/data_loc_char_norm_data.tsv
 	python3 scripts/calculate_metrics.py output_files/age_normalized.tsv h_age analysis age
 	python3 scripts/calculate_metrics.py output_files/data_normalized.tsv location analysis data_loc
 	python3 scripts/score_evaluator.py age output_files/age_normalized.tsv h_age output_files/score_data.tsv

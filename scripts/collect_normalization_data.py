@@ -63,8 +63,8 @@ def collect_data(tracker_dict):
 if __name__ == "__main__":
     style = sys.argv[1]
     char_norm_data_dict = TSV2dict(os.path.join(style, sys.argv[2]))  # path to character normalization data TSV
-    data_path = os.path.join(style, sys.argv[3])  # path to where collected data will be stored
-    ascii_path = os.path.join(style, sys.argv[4])  # path to where ascii tracker data will be stored
+    data_path = os.path.join(style, "analysis", f"{style}_char_norm_counts.tsv")  # path to where collected data will be stored
+    ascii_path = os.path.join(style, "analysis", f"{style}_ascii_replacement_data.tsv")  # path to where ascii tracker data will be stored
     data, ascii_data = collect_data(char_norm_data_dict)
     with open(data_path, "w", newline = "") as tsv:
         fieldnames = ["normalization_stage", "strings_altered", "strings_unaltered"]
