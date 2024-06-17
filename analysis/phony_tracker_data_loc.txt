@@ -1,6 +1,0 @@
-PHONIES IN FILE analysis/review_sample_data_loc.tsv:
-Sheet index 7236 = phony index 5
-Sheet index 209690 = phony index 6
-Sheet index 169339 = phony index 8
-Sheet index 223478 = phony index 4
-Sheet index 211579 = phony index 7
