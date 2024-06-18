@@ -268,7 +268,7 @@ def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_colum
     -- WCdict: A dict of words to be manually curated.
     -- word_curation_TSV: Path to the TSV that stores word curation data.
     """
-    with open(os.path.join(style, f"output_files/{target_column}_spellcheck_data.tsv"), "w", newline="\n") as tsvfile:
+    with open(os.path.join(style, f"output_files/{style}_spellcheck_data.tsv"), "w", newline="\n") as tsvfile:
         fieldnames = ["input_word", "correct_term", "occurrences"]
         writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
@@ -373,11 +373,11 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         df = dict_to_dataframe(maindict, phrase_column)
         final_dict = dataframe_to_dict(df)
         stripped = stripped_data_loc(final_dict)
+        dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
     if style == "age":
         final_dict = maindict
     dict2TSV(final_dict, outputTSV)
     dict2TSV(char_norm_data_dict, char_norm_data_TSV)
-    dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
 
 
 if __name__ == "__main__":

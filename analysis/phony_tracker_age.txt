@@ -1,7 +1,0 @@
-PHONIES IN FILE analysis/review_sample_age.tsv:
-Sheet index 2629 = phony index 6
-Sheet index 428 = phony index 7
-Sheet index 2195 = phony index 1
-Sheet index 6386 = phony index 0
-Sheet index 5248 = phony index 9
-Sheet index 3983 = phony index 8
