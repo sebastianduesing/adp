@@ -268,7 +268,7 @@ def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_colum
     -- WCdict: A dict of words to be manually curated.
     -- word_curation_TSV: Path to the TSV that stores word curation data.
     """
-    with open(os.path.join(style, f"output_files/{target_column}_spellcheck_data.tsv"), "w", newline="\n") as tsvfile:
+    with open(os.path.join(style, f"output_files/{style}_spellcheck_data.tsv"), "w", newline="\n") as tsvfile:
         fieldnames = ["input_word", "correct_term", "occurrences"]
         writer = csv.DictWriter(tsvfile, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
