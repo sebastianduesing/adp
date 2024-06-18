@@ -373,11 +373,11 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         df = dict_to_dataframe(maindict, phrase_column)
         final_dict = dataframe_to_dict(df)
         stripped = stripped_data_loc(final_dict)
+        dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
     if style == "age":
         final_dict = maindict
     dict2TSV(final_dict, outputTSV)
     dict2TSV(char_norm_data_dict, char_norm_data_TSV)
-    dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
 
 
 if __name__ == "__main__":
