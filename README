@@ -1,25 +1,13 @@
-This repository contains code to normalize and process free-text data. Contained here is one
-dataset from the Immune Epitope Database which contains age data and to which this version of
-the code is tailored.
+This repository contains code to normalize free-text data using a three-stage method that
+applies standardization at the level of characters, words, and phrases. Character
+standardization is most generic; phrase standardization is most dataset-specific. The
+normalization rules used by ADP are designed to be easily adapted to the needs of the
+dataset to be normalized. Included in this repository are two datasets containing age and
+data-location free-text data from the Immune Epitope Database (IEDB).
 
-The normalization code follows a three-stage method that corrects variance on the levels of
-characters, words, and phrases. Character correction is most generic; phrase correction is
-most dataset-specific. Word- and phrase-based correction methods used in ADP are designed to
-be easily adapted to other datasets.
+The script normalize.py performs the core normalization functions in ADP, but the scripts/
+directory contains several other scripts that provide accessory functions and perform data
+collection and analysis on the outputs of the normalization process.
 
 Using the makefile to run ADP code is recommended, as most scripts involved take several
 arguments.
-
-- "make normalize" runs normalize.py on an initial input file.
-- "make sort" runs sort_age.py and make_curation_tsv.py. Any new data in manual_curation.tsv
-  should be curated before proceeding to the next step.
-- "make merge" merges manually curated rows from manual_curation.tsv with automatically sorted
-  rows in age_sorted.tsv.
-- "make final" runs final_processing.py, which applies some post-processing steps and
-  calculates a score representing confidence in the sorting of each data item.
-- "make full" runs all of the above.
-
-Everything following the normalization step is tailored specifically to the age dataset and
-is likely not applicable in its current form to any other dataset. While the normalization
-code's parameters are adapted to suit the needs of the age dataset, normalize.py is designed
-to make it easy to configure it for other datasets.
