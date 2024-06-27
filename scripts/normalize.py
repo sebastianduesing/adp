@@ -6,8 +6,7 @@ import editdistance
 import unicodedata as ud
 import pandas as pd
 from converter import TSV2dict, dict2TSV
-from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
-
+import text_formatter as tf
 
 # TODO: Check if this is still needed and remove if not
 def is_known_invalid_location(data):
@@ -111,7 +110,6 @@ def stripped_data_loc(data_loc_dict):
             index_list.append(rowdict["index"])
     return stripped
 
-
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
     """
     Creates SCdict, in which keys are preferred spellings or representations
@@ -162,101 +160,6 @@ def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
             "occurrences": 0,
             }
     return SCdict, WCdict, sc_data_dict
-
-
-def run_spellcheck(string, SCdict, WCdict,  sc_data_dict):
-    """
-    Spellchecks using SCdict (created via prepare_spellcheck(spellcheckTSV) and
-    used to store preferred and alternative versions of certain words.
-
-    -- string: The text to be spellchecked.
-    -- SCdict: The spellcheck dict.
-    -- WCdict: The manual word-curation dict.
-    -- sc_data_dict: Dict that stores usage frequencies of each term in the
-       spellcheck dict.
-    -- return: A corrected version of the string.
-    """
-    # Checks for each alternative term in each preferred-alternative term
-    # pair in SCdict, then replaces alternatives with preferred terms.
-    # Recognizes terms divided by whitespace, hyphens, periods, or commas,
-    # but not alphanumeric characters, i.e., would catch "one" in the
-    # string "three-to-one odds", but not "one" in "bone."
-    delimiters = [",", ".", "-", " ", "(", ")", ":", ";", "+", "=", ">", "<"]
-    string_stripped = string
-    for delimiter in delimiters:
-        string_stripped = " ".join(string_stripped.split(delimiter))
-        wordlist = string_stripped.split(" ")
-    known_words = []
-    for input_word, word_dict in SCdict.items():
-        known_words.append(word_dict["correct_term"])
-    for word in wordlist:
-        if word in SCdict.keys():
-            input_word = word
-            correct_term = SCdict[input_word]["correct_term"]
-            string = re.sub(
-                fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
-                fr"\g<1>{correct_term}\g<3>",
-                string
-            )
-            count = sc_data_dict[input_word]["occurrences"]
-            count += 1
-            sc_data_dict[input_word]["occurrences"] = count
-        elif word in known_words:
-            continue
-        elif word in WCdict.keys():
-            continue
-        elif re.fullmatch(r"[0-9=+\-/<>:]+", word):
-            continue
-        else:
-            WCdict[word] = {
-                "input_word": word,
-                "correct_term": "",
-                "input_context": string,
-            }
-    return string
-
-
-def track_changes(original_string, new_string, change_dict, tracker_item):
-    if original_string != new_string:
-        change_dict[tracker_item] = "Y"
-    else:
-        change_dict[tracker_item] = "N"
-
-
-def standardize_string(string):
-    """
-    Adapted from JasonPBennett/Data-Field-Standardization/.../data_loc_v2.py
-
-    Standardizes a string by removing unnecessary whitespaces,
-    converting to ASCII, and converting to lowercase.
-
-    :param string: The string to be standardized.
-    :return: Standardized string.
-    """
-    
-    change_dict = {}
-    change_dict["before_char_normalization"] = string
-    # Convert en- and em-dashes to hyphens.
-    string1 = string.replace(r"–", "-")
-    track_changes(string, string1, change_dict, "en-dash")
-    string2 = string1.replace(r"—", "-")
-    track_changes(string1, string2, change_dict, "em-dash")
-    # Standardize plus-minus characters.
-    string3 = string2.replace(r"±", r"+/-")
-    track_changes(string2, string3, change_dict, "plus-minus")
-    # Remove unnecessary whitespaces.
-    string4 = string3.strip()
-    track_changes(string3, string4, change_dict, "strip_whitespace")
-    string5 = re.sub(r"(\s\s+)", r" ", string4)
-    track_changes(string4, string5, change_dict, "remove_multi_whitespace")
-    # Convert to ascii.
-    string6 = ud.normalize('NFKD', string5).encode('ascii', 'replace').decode('ascii')
-    track_changes(string5, string6, change_dict, "convert_to_ascii")
-    # Convert to lowercase.
-    string7 = string6.lower()
-    track_changes(string6, string7, change_dict, "lowercase")
-    change_dict["after_char_normalization"] = string7
-    return string7, change_dict
 
 
 def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style):
@@ -326,7 +229,7 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     
     for index, rowdict in maindict.items():
         original_data = rowdict[target_column]
-        data, char_norm_data = standardize_string(original_data)
+        data, char_norm_data = tf.char_normalizer(original_data)
         char_norm_data["index"] = index
         char_norm_data_dict[index] = char_norm_data
 
@@ -334,19 +237,19 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         rowdict["char_normalized"] = "Y" if rowdict[char_column] != original_data else "N"
         rowdict[char_score_column] = editdistance.eval(original_data, data)
         
-        sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
+        sc_data = tf.word_normalizer(data, SCdict, WCdict, sc_data_dict)
         rowdict[word_column] = sc_data
         rowdict["word_normalized"] = "Y" if rowdict[word_column] != rowdict[char_column] else "N"
         rowdict[word_score_column] = editdistance.eval(rowdict[char_column], rowdict[word_column])
         
         if style == "age":
-            rowdict[phrase_column] = age_phrase_normalizer(sc_data)
+            rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Simple check to see if the phrase was normalized
             rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column] != rowdict[word_column] else "N"
             rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
             rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         elif style == "data_loc":
-            rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
+            rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Because this is a list, extract first element to check if it was normalized
             rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
             rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
