@@ -5,8 +5,9 @@ import re
 import editdistance
 import pandas as pd
 from converter import TSV2dict, dict2TSV
-import text_formatter as tf
 import data_loc_splitter as splt
+import text_formatter as tf
+import validator as vl
 
 # TODO: Check if this is still needed and remove if not
 def is_known_invalid_location(data):
@@ -158,6 +159,10 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     char_column = f"char_normalized_{target_column}"
     word_column = f"word_normalized_{target_column}"
     phrase_column = f"phrase_normalized_{target_column}"
+
+    char_valid_column = f"char_valid?_{target_column}"
+    word_valid_column = f"word_valid?_{target_column}"
+    phrase_valid_column = f"phrase_valid?_{target_column}"
     
     char_score_column = f"char_normalization_score_{target_column}"
     word_score_column = f"word_normalization_score_{target_column}"
@@ -172,24 +177,25 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
 
         rowdict[char_column] = data
         rowdict["char_normalized"] = "Y" if rowdict[char_column] != original_data else "N"
+        rowdict[char_valid_column] = vl.char_valid(data)
         rowdict[char_score_column] = editdistance.eval(original_data, data)
         
         sc_data = tf.word_normalizer(data, SCdict, WCdict, sc_data_dict)
         rowdict[word_column] = sc_data
         rowdict["word_normalized"] = "Y" if rowdict[word_column] != rowdict[char_column] else "N"
+        rowdict[word_valid_column] = vl.word_valid(sc_data, style)
         rowdict[word_score_column] = editdistance.eval(rowdict[char_column], rowdict[word_column])
         
         if style == "age":
             rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Simple check to see if the phrase was normalized
             rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column] != rowdict[word_column] else "N"
+            rowdict[phrase_valid_column] = vl.phrase_valid(rowdict[phrase_column], style)
             rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
             rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         elif style == "data_loc":
             rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Because this is a list, extract first element to check if it was normalized
-            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
-            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
             if rowdict[phrase_column] and rowdict[word_column]:
                 rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column][0] != rowdict[word_column] else "N"
             # TODO: Hits this 31 times... why????
@@ -199,6 +205,9 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
                 print(f"FOUND AT {word_column} in rowdict: {rowdict[word_column]}")
                 print(f"FOUND AT {phrase_column} in rowdict: {rowdict[phrase_column]}")
                 rowdict["phrase_normalized"] = "WTF"       
+            rowdict[phrase_valid_column] = vl.phrase_valid(rowdict[phrase_column], style)
+            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         else:
             print(f"Error: {style} is not a valid style.")
             sys.exit(1)

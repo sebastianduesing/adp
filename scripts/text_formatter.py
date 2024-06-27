@@ -42,14 +42,11 @@ def char_normalizer(string):
     track_changes(string3, string4, change_dict, "strip_whitespace")
     string5 = re.sub(r"(\s\s+)", r" ", string4)
     track_changes(string4, string5, change_dict, "remove_multi_whitespace")
-    # Convert to ascii.
-    string6 = ud.normalize('NFKD', string5).encode('ascii', 'replace').decode('ascii')
-    track_changes(string5, string6, change_dict, "convert_to_ascii")
     # Convert to lowercase.
-    string7 = string6.lower()
-    track_changes(string6, string7, change_dict, "lowercase")
-    change_dict["after_char_normalization"] = string7
-    return string7, change_dict
+    string6 = string5.lower()
+    track_changes(string5, string6, change_dict, "lowercase")
+    change_dict["after_char_normalization"] = string6
+    return string6, change_dict
 
 
 ###############################################################################
