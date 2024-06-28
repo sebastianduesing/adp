@@ -225,6 +225,8 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
         dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
     if style == "age":
         final_dict = maindict
+    invalid_lines = vl.pull_invalid(final_dict, target_column)
+    dict2TSV(invalid_lines, os.path.join(style, "output_files", f"invalid_lines_{style}.tsv"))
     dict2TSV(final_dict, outputTSV)
     dict2TSV(char_norm_data_dict, char_norm_data_TSV)
 

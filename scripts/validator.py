@@ -53,3 +53,15 @@ def phrase_valid(input, style):
                 passing = False
                 break
     return message[passing]
+
+
+def pull_invalid(data_dict, original_column):
+    char_valid_col = f"char_valid?_{original_column}"
+    word_valid_col = f"word_valid?_{original_column}"
+    phrase_valid_col = f"phrase_valid?_{original_column}"
+    invalid_dict = {}
+    for index, rowdict in data_dict.items():
+        if rowdict[char_valid_col] == "fail" or rowdict[word_valid_col] == "fail" or rowdict[phrase_valid_col] == "fail":
+            invalid_dict[index] = rowdict.copy()
+            invalid_dict[index]["curator_review"] = ""
+    return invalid_dict
