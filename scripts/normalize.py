@@ -3,11 +3,11 @@ import sys
 import os
 import re
 import editdistance
-import unicodedata as ud
 import pandas as pd
 from converter import TSV2dict, dict2TSV
-from text_formatter import age_phrase_normalizer, data_loc_phrase_normalizer
-
+import data_loc_splitter as splt
+import text_formatter as tf
+import validator as vl
 
 # TODO: Check if this is still needed and remove if not
 def is_known_invalid_location(data):
@@ -30,69 +30,6 @@ def is_known_invalid_location(data):
     return False
 
 
-def academic_location_regex():
-    # Base terms for figures and tables, including common abbreviations and supplementary materials
-    fig_table_terms = r"\b(table|fig(?:ure)?|(supplementary|supplemental) (?:table|fig(?:ure)|data|file?)|supporting (?:table|fig(?:ure)|information?)|additional file(s)?|appendix|suppl)\b"
-    # Sections of the paper
-    sections = r"\b(title|abstract|introduction|materials and methods|animals and methods|materials|methods|results|discussion|conclusion|acknowledgements|references|appendices)\b"
-    # Page terms to match different ways of referencing pages
-    page_terms = r"((text )?page|pg\.?|p\.?) \d+"
-    # Combine them with options for numbering (e.g., figure 1, table S1)
-    pattern = rf"{fig_table_terms} (?:s)?\d+[a-z]?|{sections}|{page_terms}"
-
-    return pattern
-
-
-def biological_db_regex():
-    # Handle PDB identifiers, generic identifiers (letter followed by numbers), and accession numbers
-    pdb_pattern = r"\bpdb [0-9][a-zA-Z0-9]{2}[a-zA-Z]|[0-9][a-zA-Z0-9][a-zA-Z][a-zA-Z0-9]|[0-9][a-zA-Z][a-zA-Z0-9]{2}\b"
-    generic_identifier_pattern = r"\b[a-zA-Z] \d+\b"
-    accession_pattern = r"\baccession(:)? [\w: ]+\b"
-    return rf"({pdb_pattern})|({generic_identifier_pattern})|({accession_pattern})"
-
-
-def website_url_regex():
-    # Simple pattern for matching specific URLs and more generic HTTP URLs
-    specific_domain = r"^https://hla-ligand-atlas\.org/[^\s]*$"
-    general_http = r"^(https?://[^\s/$.?#].[^\s]*$)"
-    return rf"({specific_domain})|({general_http})"
-
-
-def is_normalized(string):
-    academic_pattern = academic_location_regex()
-    bio_db_pattern = biological_db_regex()
-    website_pattern = website_url_regex()
-        
-    if re.search(academic_pattern, string, re.IGNORECASE):
-        return 'Y'
-    elif re.search(bio_db_pattern, string, re.IGNORECASE):
-        return 'Y'
-    elif re.search(website_pattern, string, re.IGNORECASE):
-        return 'Y'
-    else:
-        return 'N'
-
-
-def normalize_dataframe(df, column_name):
-    # Explode the DataFrame to create a new row for each string in the list found in phrase_normalized_col
-    df['normalized_location'] = df[column_name].copy()
-    df = df.explode('normalized_location').reset_index(drop=True)
-    df['normalized'] = df['normalized_location'].apply(is_normalized)
-    return df
-
-def dict_to_dataframe(maindict, column_name):
-    # Convert dictionary to DataFrame
-    df = pd.DataFrame.from_dict(maindict, orient='index')
-    # Normalize data
-    df = normalize_dataframe(df, column_name)
-    return df
-
-def dataframe_to_dict(df):
-    # Convert DataFrame back to dictionary format suitable for dict2TSV
-    result_dict = df.to_dict(orient='index')
-    return result_dict
-
-
 def stripped_data_loc(data_loc_dict):
     """
     Outputs a version of the normalized data_loc file with only one line per
@@ -110,7 +47,6 @@ def stripped_data_loc(data_loc_dict):
         else:
             index_list.append(rowdict["index"])
     return stripped
-
 
 def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
     """
@@ -162,101 +98,6 @@ def prepare_spellcheck(spellcheckTSV, word_curation_TSV):
             "occurrences": 0,
             }
     return SCdict, WCdict, sc_data_dict
-
-
-def run_spellcheck(string, SCdict, WCdict,  sc_data_dict):
-    """
-    Spellchecks using SCdict (created via prepare_spellcheck(spellcheckTSV) and
-    used to store preferred and alternative versions of certain words.
-
-    -- string: The text to be spellchecked.
-    -- SCdict: The spellcheck dict.
-    -- WCdict: The manual word-curation dict.
-    -- sc_data_dict: Dict that stores usage frequencies of each term in the
-       spellcheck dict.
-    -- return: A corrected version of the string.
-    """
-    # Checks for each alternative term in each preferred-alternative term
-    # pair in SCdict, then replaces alternatives with preferred terms.
-    # Recognizes terms divided by whitespace, hyphens, periods, or commas,
-    # but not alphanumeric characters, i.e., would catch "one" in the
-    # string "three-to-one odds", but not "one" in "bone."
-    delimiters = [",", ".", "-", " ", "(", ")", ":", ";", "+", "=", ">", "<"]
-    string_stripped = string
-    for delimiter in delimiters:
-        string_stripped = " ".join(string_stripped.split(delimiter))
-        wordlist = string_stripped.split(" ")
-    known_words = []
-    for input_word, word_dict in SCdict.items():
-        known_words.append(word_dict["correct_term"])
-    for word in wordlist:
-        if word in SCdict.keys():
-            input_word = word
-            correct_term = SCdict[input_word]["correct_term"]
-            string = re.sub(
-                fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
-                fr"\g<1>{correct_term}\g<3>",
-                string
-            )
-            count = sc_data_dict[input_word]["occurrences"]
-            count += 1
-            sc_data_dict[input_word]["occurrences"] = count
-        elif word in known_words:
-            continue
-        elif word in WCdict.keys():
-            continue
-        elif re.fullmatch(r"[0-9=+\-/<>:]+", word):
-            continue
-        else:
-            WCdict[word] = {
-                "input_word": word,
-                "correct_term": "",
-                "input_context": string,
-            }
-    return string
-
-
-def track_changes(original_string, new_string, change_dict, tracker_item):
-    if original_string != new_string:
-        change_dict[tracker_item] = "Y"
-    else:
-        change_dict[tracker_item] = "N"
-
-
-def standardize_string(string):
-    """
-    Adapted from JasonPBennett/Data-Field-Standardization/.../data_loc_v2.py
-
-    Standardizes a string by removing unnecessary whitespaces,
-    converting to ASCII, and converting to lowercase.
-
-    :param string: The string to be standardized.
-    :return: Standardized string.
-    """
-    
-    change_dict = {}
-    change_dict["before_char_normalization"] = string
-    # Convert en- and em-dashes to hyphens.
-    string1 = string.replace(r"–", "-")
-    track_changes(string, string1, change_dict, "en-dash")
-    string2 = string1.replace(r"—", "-")
-    track_changes(string1, string2, change_dict, "em-dash")
-    # Standardize plus-minus characters.
-    string3 = string2.replace(r"±", r"+/-")
-    track_changes(string2, string3, change_dict, "plus-minus")
-    # Remove unnecessary whitespaces.
-    string4 = string3.strip()
-    track_changes(string3, string4, change_dict, "strip_whitespace")
-    string5 = re.sub(r"(\s\s+)", r" ", string4)
-    track_changes(string4, string5, change_dict, "remove_multi_whitespace")
-    # Convert to ascii.
-    string6 = ud.normalize('NFKD', string5).encode('ascii', 'replace').decode('ascii')
-    track_changes(string5, string6, change_dict, "convert_to_ascii")
-    # Convert to lowercase.
-    string7 = string6.lower()
-    track_changes(string6, string7, change_dict, "lowercase")
-    change_dict["after_char_normalization"] = string7
-    return string7, change_dict
 
 
 def output_spellcheck_data(sc_data_dict, WCdict, word_curation_TSV, target_column, style):
@@ -318,6 +159,10 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     char_column = f"char_normalized_{target_column}"
     word_column = f"word_normalized_{target_column}"
     phrase_column = f"phrase_normalized_{target_column}"
+
+    char_valid_column = f"char_valid?_{target_column}"
+    word_valid_column = f"word_valid?_{target_column}"
+    phrase_valid_column = f"phrase_valid?_{target_column}"
     
     char_score_column = f"char_normalization_score_{target_column}"
     word_score_column = f"word_normalization_score_{target_column}"
@@ -326,30 +171,31 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     
     for index, rowdict in maindict.items():
         original_data = rowdict[target_column]
-        data, char_norm_data = standardize_string(original_data)
+        data, char_norm_data = tf.char_normalizer(original_data)
         char_norm_data["index"] = index
         char_norm_data_dict[index] = char_norm_data
 
         rowdict[char_column] = data
         rowdict["char_normalized"] = "Y" if rowdict[char_column] != original_data else "N"
+        rowdict[char_valid_column] = vl.char_valid(data)
         rowdict[char_score_column] = editdistance.eval(original_data, data)
         
-        sc_data = run_spellcheck(data, SCdict, WCdict, sc_data_dict)
+        sc_data = tf.word_normalizer(data, SCdict, WCdict, sc_data_dict)
         rowdict[word_column] = sc_data
         rowdict["word_normalized"] = "Y" if rowdict[word_column] != rowdict[char_column] else "N"
+        rowdict[word_valid_column] = vl.word_valid(sc_data, style)
         rowdict[word_score_column] = editdistance.eval(rowdict[char_column], rowdict[word_column])
         
         if style == "age":
-            rowdict[phrase_column] = age_phrase_normalizer(sc_data)
+            rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Simple check to see if the phrase was normalized
             rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column] != rowdict[word_column] else "N"
+            rowdict[phrase_valid_column] = vl.phrase_valid(rowdict[phrase_column], style)
             rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
             rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         elif style == "data_loc":
-            rowdict[phrase_column] = data_loc_phrase_normalizer(sc_data)
+            rowdict[phrase_column] = tf.phrase_normalizer(sc_data, style)
             # Because this is a list, extract first element to check if it was normalized
-            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
-            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
             if rowdict[phrase_column] and rowdict[word_column]:
                 rowdict["phrase_normalized"] = "Y" if rowdict[phrase_column][0] != rowdict[word_column] else "N"
             # TODO: Hits this 31 times... why????
@@ -359,6 +205,9 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
                 print(f"FOUND AT {word_column} in rowdict: {rowdict[word_column]}")
                 print(f"FOUND AT {phrase_column} in rowdict: {rowdict[phrase_column]}")
                 rowdict["phrase_normalized"] = "WTF"       
+            rowdict[phrase_valid_column] = vl.phrase_valid(rowdict[phrase_column], style)
+            rowdict[phrase_score_column] = editdistance.eval(sc_data, rowdict[phrase_column])
+            rowdict[overall_score_column] = editdistance.eval(original_data, rowdict[phrase_column])
         else:
             print(f"Error: {style} is not a valid style.")
             sys.exit(1)
@@ -370,12 +219,14 @@ def normalize(inputTSV, outputTSV, char_norm_data_TSV, spellcheckTSV, word_curat
     # TODO: Decide on this or go with inserted N/A values.
     if style == "data_loc":
         # Convert dict to DataFrame, normalize, and convert back
-        df = dict_to_dataframe(maindict, phrase_column)
-        final_dict = dataframe_to_dict(df)
+        df = splt.dict_to_dataframe(maindict, phrase_column)
+        final_dict = splt.dataframe_to_dict(df)
         stripped = stripped_data_loc(final_dict)
         dict2TSV(stripped, os.path.join("data_loc", "output_files", "stripped_data_loc.tsv"))
     if style == "age":
         final_dict = maindict
+    invalid_lines = vl.pull_invalid(final_dict, target_column)
+    dict2TSV(invalid_lines, os.path.join(style, "output_files", f"invalid_lines_{style}.tsv"))
     dict2TSV(final_dict, outputTSV)
     dict2TSV(char_norm_data_dict, char_norm_data_TSV)
 

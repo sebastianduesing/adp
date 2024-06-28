@@ -1,4 +1,120 @@
 import re
+import unicodedata as ud
+
+
+###############################################################################
+#                                                                             #
+#                               CHAR NORMALIZER                               #
+#                                                                             #
+###############################################################################
+
+
+def track_changes(original_string, new_string, change_dict, tracker_item):
+    if original_string != new_string:
+        change_dict[tracker_item] = "Y"
+    else:
+        change_dict[tracker_item] = "N"
+
+
+def char_normalizer(string):
+    """
+    Adapted from JasonPBennett/Data-Field-Standardization/.../data_loc_v2.py
+
+    Standardizes a string by removing unnecessary whitespaces,
+    converting to ASCII, and converting to lowercase.
+
+    :param string: The string to be standardized.
+    :return: Standardized string.
+    """
+
+    change_dict = {}
+    change_dict["before_char_normalization"] = string
+    # Convert en- and em-dashes to hyphens.
+    string1 = string.replace(r"–", "-")
+    track_changes(string, string1, change_dict, "en-dash")
+    string2 = string1.replace(r"—", "-")
+    track_changes(string1, string2, change_dict, "em-dash")
+    # Standardize plus-minus characters.
+    string3 = string2.replace(r"±", r"+/-")
+    track_changes(string2, string3, change_dict, "plus-minus")
+    # Remove unnecessary whitespaces.
+    string4 = string3.strip()
+    track_changes(string3, string4, change_dict, "strip_whitespace")
+    string5 = re.sub(r"(\s\s+)", r" ", string4)
+    track_changes(string4, string5, change_dict, "remove_multi_whitespace")
+    # Convert to lowercase.
+    string6 = string5.lower()
+    track_changes(string5, string6, change_dict, "lowercase")
+    change_dict["after_char_normalization"] = string6
+    return string6, change_dict
+
+
+###############################################################################
+#                                                                             #
+#                               WORD NORMALIZER                               #
+#                                                                             #
+###############################################################################
+
+
+def word_normalizer(string, SCdict, WCdict,  sc_data_dict):
+    """
+    Performs word normalization  using SCdict (created via prepare_spellcheck &
+    used to store preferred and alternative versions of certain words).
+
+    -- string: The text to be spellchecked.
+    -- SCdict: The spellcheck dict.
+    -- WCdict: The manual word-curation dict.
+    -- sc_data_dict: Dict that stores usage frequencies of each term in the
+       spellcheck dict.
+    -- return: A corrected version of the string.
+    """
+
+    # Checks for each alternative term in each preferred-alternative term
+    # pair in SCdict, then replaces alternatives with preferred terms.
+    # Recognizes terms divided by whitespace, hyphens, periods, or commas,
+    # but not alphanumeric characters, i.e., would catch "one" in the
+    # string "three-to-one odds", but not "one" in "bone."
+
+    delimiters = [",", ".", "-", " ", "(", ")", ":", ";", "+", "=", ">", "<"]
+    string_stripped = string
+    for delimiter in delimiters:
+        string_stripped = " ".join(string_stripped.split(delimiter))
+        wordlist = string_stripped.split(" ")
+    known_words = []
+    for input_word, word_dict in SCdict.items():
+        known_words.append(word_dict["correct_term"])
+    for word in wordlist:
+        if word in SCdict.keys():
+            input_word = word
+            correct_term = SCdict[input_word]["correct_term"]
+            string = re.sub(
+                fr"(^|\s+|[-.,]+)({input_word})($|\s+|[-.,]+)",
+                fr"\g<1>{correct_term}\g<3>",
+                string
+            )
+            count = sc_data_dict[input_word]["occurrences"]
+            count += 1
+            sc_data_dict[input_word]["occurrences"] = count
+        elif word in known_words:
+            continue
+        elif word in WCdict.keys():
+            continue
+        elif re.fullmatch(r"[0-9=+\-/<>:]+", word):
+            continue
+        else:
+            WCdict[word] = {
+                "input_word": word,
+                "correct_term": "",
+                "input_context": string,
+            }
+    return string
+
+
+###############################################################################
+#                                                                             #
+#                              PHRASE NORMALIZER                              #
+#                                                                             #
+###############################################################################
 
 
 def approved_and_phrases(query_string_list):
@@ -96,6 +212,7 @@ def age_phrase_normalizer(string):
     )
     return string
 
+
 def data_loc_phrase_normalizer(string):
     """
     Normalize localization phrases in a given text by identifying combined prefixes and types
@@ -190,6 +307,14 @@ def data_loc_phrase_normalizer(string):
     results = approved_and_phrases(results)
 
     return results
+
+
+def phrase_normalizer(string, style):
+    if style == "age":
+        string = age_phrase_normalizer(string)
+    if style == "data_loc":
+        string = data_loc_phrase_normalizer(string)
+    return string
 
 """
 input_strings = [
