@@ -3,6 +3,7 @@ import os
 import warnings
 import ast
 import math
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -347,6 +348,27 @@ def generate_normalization_phase_figure(df, style, output_file):
     # Save the plot to the output file
     plt.savefig(output_file)
 
+
+def generate_unique_string_figures(data, output_file, style):
+    pre_norm_unique = data["Number of Unique Strings"]
+    post_norm_unique = data["Number of Unique Strings After Phrase Normalization"]
+    dataset = pd.DataFrame(
+                           [
+                               {"Pre-Normalization": pre_norm_unique,
+                               "Post-Normalization": post_norm_unique}
+                           ],
+                           index=["Pre- vs Post-Normalization"])
+    if style == "age":
+        style_str = "Age"
+    elif style == "data_loc":
+        style_str = "Data-Location"
+    ax = dataset.plot(kind="bar", color=["blue", "orange"], figsize=(8,6))
+    ax.set_title(f"{style_str}: # of Unique Strings Before & After Normalization")
+    plt.grid(True, which="major", linestyle="--", linewidth="0.5", color="grey", axis="y")
+    plt.xticks(rotation=0)
+    plt.savefig(output_file)
+
+
 def main():
     """
     Main function to load data, calculate metrics, and write results to TSV files.
@@ -377,6 +399,9 @@ def main():
     # Generate normalization phase figure
     output_file = os.path.join(output_dir, f'{style}_normalization_phase.png')
     generate_normalization_phase_figure(data, style, output_file)
+
+    output_file = os.path.join(output_dir, f"{style}_unique_strings.png")
+    generate_unique_string_figures(final_results, output_file, style)
 
 if __name__ == "__main__":
     main()
