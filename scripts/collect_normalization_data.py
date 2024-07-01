@@ -37,14 +37,14 @@ def collect_data(tracker_dict):
     ascii_dict = {}
     ignored_fieldnames = ["before_char_normalization", "after_char_normalization", "index"]
     for index, rowdict in tracker_dict.items():
-        if rowdict["convert_to_ascii"] == "Y":
-            ascii_dict[index] = {}
-            ascii_dict[index]["index"] = rowdict["index"]
-            ascii_dict[index]["before_char_normalization"] = rowdict["before_char_normalization"]
-            ascii_dict[index]["after_char_normalization"] = rowdict["after_char_normalization"]
-            non_ascii, ascii = find_changed_chars(rowdict["before_char_normalization"], rowdict["after_char_normalization"])
-            ascii_dict[index]["non_ascii_characters"] = non_ascii
-            ascii_dict[index]["ascii_character_replacements"] = ascii
+#        if rowdict["convert_to_ascii"] == "Y":
+#            ascii_dict[index] = {}
+#            ascii_dict[index]["index"] = rowdict["index"]
+#            ascii_dict[index]["before_char_normalization"] = rowdict["before_char_normalization"]
+#            ascii_dict[index]["after_char_normalization"] = rowdict["after_char_normalization"]
+#            non_ascii, ascii = find_changed_chars(rowdict["before_char_normalization"], rowdict["after_char_normalization"])
+#            ascii_dict[index]["non_ascii_characters"] = non_ascii
+#            ascii_dict[index]["ascii_character_replacements"] = ascii
         for fieldname, fieldvalue in rowdict.items():
             if fieldname not in ignored_fieldnames:
                 if fieldname not in datadict.keys():
@@ -76,17 +76,17 @@ if __name__ == "__main__":
                                 "strings_altered": counts["Y"],
                                 "strings_unaltered": counts["N"]
                             })
-    with open(ascii_path, "w", newline = "") as tsv:
-        fieldnames = [
-            "index",
-            "before_char_normalization",
-            "after_char_normalization",
-            "non_ascii_characters",
-            "ascii_character_replacements"
-        ]
-        writer = csv.DictWriter(tsv, fieldnames=fieldnames, delimiter="\t")
-        writer.writeheader()
-        for index, row in ascii_data.items():
-            writer.writerow(row)
-    print(f"{ascii_path} written and saved.")
+#    with open(ascii_path, "w", newline = "") as tsv:
+#        fieldnames = [
+#            "index",
+#            "before_char_normalization",
+#            "after_char_normalization",
+#            "non_ascii_characters",
+#            "ascii_character_replacements"
+#        ]
+#        writer = csv.DictWriter(tsv, fieldnames=fieldnames, delimiter="\t")
+#        writer.writeheader()
+#        for index, row in ascii_data.items():
+#            writer.writerow(row)
+#    print(f"{ascii_path} written and saved.")
     print(f"{data_path} written and saved.")
