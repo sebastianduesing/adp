@@ -1,3 +1,2 @@
-index	invalid_character	context	replace_with	remove	invalidate	allow
-0	_	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'ama1_007', 'author designated genebank accession number: nc_045512', 'nsp3_1 1001', 'nsp3_1 1006'				x
-1	:	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'accession number: m62321', 'accession: p26664', 'additional file 4: table s4', 'argiro et al. (2000). vaccine 18:2033-8 [pmid: 10706966]'				x
+index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
+0	_	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'ama1_007', 'author designated genebank accession number: nc_045512', 'nsp3_1 1001', 'nsp3_1 1006'	7				x
