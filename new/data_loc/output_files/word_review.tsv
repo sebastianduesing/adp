@@ -1,0 +1,1220 @@
+index	invalid_word	context	occurrences	replace_with	remove	invalidate	allow
+0	1b	'figure 1b', 'fig 1b', 'figure 1a and 1b', 'figure 1a figure 1b', 'figure 1a, 1b', 'figure 1a, 1b, 2a', 'figure 1a, 1b, 2a and 3c.', 'figure 1a, 1b, and 1d', 'figure 1a, 1b, table 3.', 'figure 1a, a and c, 1b a and figure 2 a and c', 'figure 1a, figure 1b', 'figure 1b and 2a', 'figure 1b and 1c', 'figure 1b and 2a,c'	14				
+1	2b	'figure 2b', 'fig 2b', 'fig.2a, 2b', 'fig.2b', 'figure 1, 2b', 'figure 1, tables 2a, 2b, 4, supplementary figure s1 and table e2', 'figure 1a figure 2b', 'figure 1a, 2b and table 1', 'figure 1a-d, 2b', 'figure 1b and 2b,d', 'figure 1b, 2b', 'figure 1b, 2b,c', 'figure 1c, 2b, 2e and supplementary figure 1c'	13				
+2		'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', '3(i)', 'abstract (page 1306)', 'abstract (page 176)', 'abstract (page 201)', 'abstract (page 265)'	8				
+3	mzid	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)'	3				
+4	pridedb	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)'	3				
+5	2022_msresults_aut1533	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2'	2				
+6	download	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)'	3				
+7	from	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'corespondency from authors', 'deduced from amino acid locations in abstract', 'deduced from cited accession'	6				
+8	pxd035499	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'pride database id: pxd035499'	4				
+9	2022_msresults_susscrofa	'2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)'	1				
+10	i	'3(i)', 'abstract and table i', 'cited reference and table i', 'figure 1 and table i', 'figure 1 and table i, ii and iii', 'figure 1 and tables i and ii', 'figure 1 and tables i and iii', 'figure 1 and tables i, ii, iii and iv', 'figure 1 and tables i, iii, and iv', 'figure 1 and tables i-ii', 'figure 1, supplemental figures i, ii, iii, supplemental table 1 and pdb 6v4p'	11				
+11	3210figure	'3210figure 4'	1				
+12	fax	'6pdb fax'	1				
+13	text	'abbreviation text page 875', 'abstract and text p. 52', 'abstract, text page 379', 'abstract, text page 4', 'aetiology text page 925', 'cited reference and text p. 11782', 'cited reference text page 132', 'cited reference, text page 208', 'clinical studies text page 927', 'data not shown, text page 1060.'	10				
+14	abbreviation	'abbreviation text page 875'	1				
+15	abbreviations	'abbreviations', 'abbreviations and reference cited', 'abbreviations page 43', 'abbreviations used'	4				
+16	cited	'abbreviations and reference cited', 'abstract and cited reference', 'accession no. p04403 cited', 'accession no. p07130 cited', 'author cited (biozol)', 'author cited genbank id', 'author cited uniprot id', 'author provided accession no. x74735 and cited reference', 'author provided accession number in cited reference'	9				
+17	used	'abbreviations used'	1				
+18	absract	'absract'	1				
+20	!	'!'	1				
+21	materials	'abstract and materials and methods', 'author provided identifier materials and methods', 'figure 1 and materials and methods', 'figure 1, materials and methods (page 214)', 'figure 1, supplementary materials, supplemental figure 1', 'figure 2 and materials and methods', 'figure 3 and materials and methods'	7				
+22	methods	'abstract and materials and methods', 'animals and methods', 'author provided identifier materials and methods', 'case reports and methods', 'cited reference and supplemental methods', 'concise methods', 'consise methods', 'design and methods', 'experimental methods', 'figure 1 and materials and methods'	10				
+23	pg	'abstract and results (pg. 3031)', 'figure 1, pg. 2378', 'figure 5 and results (pg. 1035)', 'materials and methods (pg. 1734)', 'materials and methods (pg. 386)', 'materials and methods (pg. 704)', 'methods, pg. 12', 'pg 5961', 'pg. 1410 and j. virol. 61:1358-1367', 'pg. 2327', 'pg. 2380', 'pg. 4088'	12				
+24	results	'abstract and results (pg. 3031)', 'cited reference and results page 2760.', 'data not shown, results page 2-3', 'data not shown, results page 52', 'experimental and results p. 474', 'figure 1 and results (page 4186)', 'figure 1 and results (page 910)', 'figure 1 and results page 160', 'figure 1 and results page 183'	9				
+25	ii	'abstract and table ii', 'cited reference and table ii', 'figure 1 and table i, ii and iii', 'figure 1 and table ii', 'figure 1 and tables i and ii', 'figure 1 and tables i, ii, iii and iv', 'figure 1 and tables ii and iv', 'figure 1 and tables i-ii', 'figure 1, 2,3, table ii and pdb 1mcl', 'figure 1, 3 and table ii'	10				
+26	p	'abstract and text p. 52', 'case report p 191', 'cited reference and text p. 11782', 'discussion p 17406, figure 6', 'discussion p. 389', 'discussion text p. 228', 'experimental and results p. 474', 'figure 1 and text p. 241', 'figure 2 and text p. 2293', 'figure 3 and text p. 2296', 'figure 1 an text p. 901'	11				
+27	discussion	'abstract, discussion page 1914', 'discussion p 17406, figure 6', 'discussion p. 389', 'discussion page 357', 'discussion page 8', 'discussion text p. 228', 'discussion, page 809', 'figure 1, discussion', 'figure 1, result and discussion', 'figure 2, results and discussion', 'materials and methods, discussion'	11				
+28	scheme	'abstract, scheme 1', 'figure 1, supporting information scheme 1 and pdb 1nc2', 'figure 1, supporting information scheme 1 and pdb 1nc4', 'introduction, scheme 1', 'materials and methods and scheme 3', 'materials and methods and scheme 4', 'materials and methods and scheme 5', 'materials and methods and scheme 6'	8				
+29	accession	'accession 23508148', 'accession no. p04403 cited', 'accession no. p07130 cited', 'accession number: m62321', 'accession u17066', 'accession u17066 and table 3', 'accession u17066 and table 4', 'accession: p26664', 'author designated genebank accession number: nc_045512', 'author provided accession'	10				
+30	no	'accession no. p04403 cited', 'accession no. p07130 cited', 'author provided accession no. x74735 and cited reference'	3				
+31	p04403	'accession no. p04403 cited'	1				
+32	p07130	'accession no. p07130 cited'	1				
+33	m62321	'accession number: m62321'	1				
+34	number	'accession number: m62321', 'author designated genebank accession number: nc_045512', 'author provided accession number', 'author provided accession number in cited reference', 'cited genbank accession number', 'materials and methods (accession number)', 'materials and methods, author provided accession number'	7				
+35	u17066	'accession u17066', 'accession u17066 and table 3', 'accession u17066 and table 4'	3				
+36	p26664	'accession: p26664'	1				
+37	file	'additional file 1', 'additional file 2', 'additional file 3', 'additional file 4', 'additional file 4, tables 1 and 2', 'additional file 4, tables 1 and 2 and figure 3', 'additional file 4: table s4', 'additional file 5', 'additional file 6', 'additional file 9', 'additional file table s1', 'data file s1'	12				
+38	additional	'additional file 1', 'additional file 2', 'additional file 3', 'additional file 4', 'additional file 4, tables 1 and 2', 'additional file 4, tables 1 and 2 and figure 3', 'additional file 4: table s4', 'additional file 5', 'additional file 6', 'additional file 9', 'additional file table s1', 'additional files 2 and 9'	12				
+39	tables	'additional file 4, tables 1 and 2', 'additional file 4, tables 1 and 2 and figure 3', 'author provided, figures 2, 3, tables 1, 2, supplemental tables 5, 6', 'author provided, figures 2, 3, tables 1, 2, supplemental tables 5, 6, and 7', 'author provided, tables 1 and 2, figures 2 and 3', 'extended data fig. 5b and extended data tables 1, 2 and pdb 4y7m'	6				
+40	s4	'additional file 4: table s4', 'data s1, data s2, data s3, data s4', 'data s1, data s2, data s3, data s4, data s5', 'data s1, data s2, data s3, data s4, data s5, data s6', 'data s1, data s2, data s3, data s4, data s6', 'data s1, data s2, data s4, data s5', 'data s1, data s2, data s4, data s5, data s6'	7				
+41	s1	'additional file table s1', 'appendix table s1', 'cited reference and supplemental table s1', 'data file s1', 'data file s1 and table s3', 'data file s1, figure 3', 'data file s1, figure 4', 'data file s1, figure 5', 'data file s1, figure 6', 'data file s1, figures 4 and 6', 'data file s1, supplemental figure 2'	11				
+42	files	'additional files 2 and 9', 'figures 2, 3, 4, 5, additional files 3 and 5', 'figures 2, 3, 4, additional files 5, 6 and 7', 'figures 3, 5, supplementary files 1, 2 and pdb 5ezo', 'supplementary files 4 and 6', 'supplementary files s2, s3', 'supplementary files s2, s3, figure 3', 'table ii and figure 7 and supplementary files 4 and 7'	8				
+43	aetiology	'aetiology text page 925'	1				
+44	ama1_007	'ama1_007'	1				
+45	animals	'animals and methods'	1				
+46	another	'another 10/1/23 test'	1				
+47	10/1/23	'another 10/1/23 test'	1				
+48	test	'another 10/1/23 test', 'june30 2023 test', 'structure test', 'test 10/1/2023', 'test p e881', 'test page 121', 'test spliced bcell'	7				
+49	appendix	'appendix 1', 'appendix a', 'appendix a and figure 4, appendix a', 'appendix b', 'appendix figure s2', 'appendix figure s2, figure 5, 2, table ev1', 'appendix table s1', 'figure 1 and appendix figure s1', 'figure 2 and appendix figure s1', 'figure 2 and appendix figures s1 and s7', 'figure 2, appendix figures s1 and s7'	11				
+50	a	'appendix a', 'appendix a and figure 4, appendix a', 'fig 2 a', 'fig 2 b, fig 3 a, fig 4 a', 'fig 2 b, fig 4 a', 'fig 6 a', 'fig 6 a, fig 6 b', 'fig. 2 a, fig. 2 b', 'fig. 3, fig. 5 a, fig. 8 a', 'fig. 6 a', 'fig.1, fig.2 a', 'fig.7 a', 'figure 1 a , b, figure 2 a', 'figure 1 a b and figure 2c', 'figure 1 a, b'	15				
+51	b	'appendix b', 'cited reference and b. kim, personal communication', 'fig 1a,b', 'fig 2 b', 'fig 2 b, fig 3 a, fig 4 a', 'fig 2 b, fig 3 b, fig 4 b', 'fig 2 b, fig 4 a', 'fig 2a,b,c, fig 6.', 'fig 6 a, fig 6 b', 'fig. 1 b', 'fig. 1 b, fig. 3 b', 'fig. 1 c, fig. 2 b', 'fig. 2 a, fig. 2 b', 'fig. 5 b', 'fig. 5a,b,d'	15				
+52	s2	'appendix figure s2', 'appendix figure s2, figure 5, 2, table ev1', 'data s1, data s2', 'data s1, data s2, data s3, data s4', 'data s1, data s2, data s3, data s4, data s5', 'data s1, data s2, data s3, data s4, data s5, data s6', 'data s1, data s2, data s3, data s4, data s6', 'data s1, data s2, data s3, data s5, data s6'	8				
+53	ev1	'appendix figure s2, figure 5, 2, table ev1', 'dataset ev1', 'figure 1 and dataset ev1', 'figure 1 and ev1', 'figure 1, ev1 and dataset ev1', 'figure 1, ev1 and datsaset ev1', 'figure 4 and dataset ev1', 'figure ev1', 'figure ev5 and dataset ev1', 'figures 1 and ev1', 'figures 1, 2 and ev1, ev3', 'figures 1, 2 and ev1, ev3, ev4'	12				
+54	aqp4	'aqp4 (111-130)', 'aqp4 (121-140)', 'aqp4 (131-150)', 'aqp4 (141-160)', 'aqp4 (151-170)', 'aqp4 (161-180)', 'aqp4 (171-190)', 'aqp4 (181-200)', 'aqp4 (191-210)', 'aqp4 (201-220)'	10				
+55	author	'author provided', 'author cited (biozol)', 'author cited genbank id', 'author cited uniprot id', 'author communcation', 'author communication', 'author communication.', 'author contact', 'author corrected sequence', 'author correspondence', 'author correspondence, figure 3, 4', 'author designated genebank accession number: nc_045512'	12				
+56	provided	'author provided', 'author provided accession', 'author provided accession no. x74735 and cited reference', 'author provided accession number', 'author provided accession number in cited reference', 'author provided and figure s5', 'author provided and supplemental figures', 'author provided data', 'author provided data, figure 1a'	9				
+57	biozol	'author cited (biozol)'	1				
+58	genbank	'author cited genbank id', 'author provided genbank accession gu372973', 'author provided genbank id jx112656.1', 'author specified genbank id', 'cited genbank accession', 'cited genbank accession number', 'fig 1 and genbank record', 'figure 2, cited genbank id', 'figure 3 and genbank 1545803', 'figure 4, cited genbank accession'	10				
+59	id	'author cited genbank id', 'author cited uniprot id', 'author provided genbank id jx112656.1', 'author provided id', 'author provided uniprot id p31948', 'author specified genbank id', 'derived from protein id', 'figure 1 and pdb id 4xnm', 'figure 2, cited genbank id', 'figure 3 and pride id:pxd021755'	10				
+60	uniprot	'author cited uniprot id', 'author identifed uniprot q12955-3', 'author provided uniprot id p31948'	3				
+61	communcation	'author communcation'	1				
+62	communication	'author communication', 'author communication.', 'authors communication', 'cited reference and b. kim, personal communication', 'direct communication', 'direct communication with author', 'fig 1, authors communication', 'figure 1, author communication', 'figure 1, figure s1, author communication', 'figure 2 and author communication'	10				
+63	contact	'author contact'	1				
+64	sequence	'author corrected sequence', 'author provided sequence', 'author provided sequence, figures 4, 6', 'author published sequence', 'experimental procedures and standard referenced sequence', 'materials and methods, author confirmed sequence', 'sequence inferred from figure 7', 'standard reference sequence'	8				
+65	corrected	'author corrected sequence'	1				
+66	correspondence	'author correspondence', 'author correspondence, figure 3, 4', 'figure 1 and author correspondence', 'figure 2, 3 and author correspondence', 'figure 2, author correspondence', 'table s2, s3, and author correspondence'	6				
+67	nc_045512	'author designated genebank accession number: nc_045512'	1				
+68	genebank	'author designated genebank accession number: nc_045512', 'text, genebank accession'	2				
+69	designated	'author designated genebank accession number: nc_045512'	1				
+70	mail	'author e-mail', 'matsuda e-mail response'	2				
+71	e	'author e-mail', 'figure 1 and supplementary figure e-1', 'figure 1 and table 3 and results page 5 and supplementary tables e-1, e-3, and e-4', 'figure 1 and tables 2 and 3 and supplementary tables e-1 e-3, and e-4', 'figure 1 e,f', 'figure 1 g and figure 3 e', 'figure 1(e)', 'figure 10c and e', 'figure 1a, c, e and table 2'	9				
+72	identifed	'author identifed uniprot q12955-3'	1				
+73	q12955	'author identifed uniprot q12955-3'	1				
+74	x74735	'author provided accession no. x74735 and cited reference'	1				
+75	in	'author provided accession number in cited reference', 'deduced from amino acid locations in abstract', 'figure 4 and text in p. 5239', 'figure 4b in supplemental data', 'figure 5b in supplemental data, supplementary table 7', 'figure 6 and note added in proof', 'in both text and figures.', 'positions provided in figure 2 on author provided accession'	8				
+76	s5	'author provided and figure s5', 'data file s1, supplemental figure s5', 'data file s5', 'data s1, data s2, data s3, data s4, data s5', 'data s1, data s2, data s3, data s4, data s5, data s6', 'data s1, data s2, data s3, data s5, data s6', 'data s1, data s2, data s4, data s5', 'data s1, data s2, data s4, data s5, data s6'	8				
+77	figures	'author provided and supplemental figures', 'author provided sequence, figures 4, 6', 'author provided, figures 1, 2, 3 and table 1', 'author provided, figures 2, 3, tables 1, 2, supplemental tables 5, 6', 'author provided, figures 2, 3, tables 1, 2, supplemental tables 5, 6, and 7', 'author provided, tables 1 and 2, figures 2 and 3'	6				
+78	1a	'author provided data, figure 1a', 'extended data figure 1a, d', 'fig 1a', 'fig 1a,b', 'figure 1 and supplementary figure 1a', 'figure 1 and supplementary table 1a', 'figure 1a - cdc atlanta aotus', 'figure 1a - leticia aotus', 'figure 1a and 1b', 'figure 1a and 4b', 'figure 1a and 5', 'figure 1a and b'	12				
+79	gu372973	'author provided genbank accession gu372973'	1				
+80	jx112656	'author provided genbank id jx112656.1'	1				
+81	identfier	'author provided identfier'	1				
+82	identifier	'author provided identifier', 'author provided identifier materials and methods', 'author provided protein identifier', 'derived from author provided identifier', 'derived from author-provided identifier', 'figure 6 and author provided identifier', 'figure 7, author provided identifier', 'identifier on page 236'	8				
+83	protein	'author provided protein identifier', 'derived from protein id'	2				
+84	p31948	'author provided uniprot id p31948'	1				
+85	published	'author published sequence', 'published reference'	2				
+86	specified	'author specified genbank id'	1				
+87	submission	'author submission', 'submission and supplementary figure 1', 'submission only', 'table 1 and submission'	4				
+88	submitted	'author submitted', 'table i and author submitted'	2				
+89	authors	'authors communication', 'authors provided', 'corespondency from authors', 'fig 1, authors communication', 'other reference from study authors'	5				
+90	ay278488	'ay278488'	1				
+91	background	'background'	1				
+92	al	'behar, et al., j. immunol. 175: 3268-3272', 'booth et al (1988)', 'bundle et al (1989)', 'bundle et al (1989) figure 1', 'cao et al, j gen virol 2002, 83, 3023.', 'cassatro et al. (2005) infect immun 73:8079', 'charbit et al embo j (1986)', 'ching et al (1992)', 'chua et al 1990 pmid 2341191', 'chua-intra, et al. infect. immun. 1998.'	10				
+93	immunol	'behar, et al., j. immunol. 175: 3268-3272', 'figure 1. milich et al. 1986. j. immunol. 137:2703-2710.', 'oftung et al, j immunol 1990, 144, 1478-1483', 'rambukkana et al, 1991 fems micro immunol 76, 39', 'renggli et al., immunol. lett. 1995'	5				
+94	behar	'behar, et al., j. immunol. 175: 3268-3272'	1				
+95	j	'behar, et al., j. immunol. 175: 3268-3272', 'cao et al, j gen virol 2002, 83, 3023.', 'charbit et al embo j (1986)', 'davignon et al., j virol (1996). 70:4', 'dolan et al. (1998) j virol 72:2010, figure 3', 'dolan et al. (1998) j virol 72:2010, figure 4', 'figure 1. milich et al. 1986. j. immunol. 137:2703-2710.'	7				
+96	et	'behar, et al., j. immunol. 175: 3268-3272', 'booth et al (1988)', 'bundle et al (1989)', 'bundle et al (1989) figure 1', 'cao et al, j gen virol 2002, 83, 3023.', 'cassatro et al. (2005) infect immun 73:8079', 'charbit et al embo j (1986)', 'ching et al (1992)', 'chua et al 1990 pmid 2341191', 'chua-intra, et al. infect. immun. 1998.'	10				
+97	booth	'booth et al (1988)'	1				
+98	bundle	'bundle et al (1989)', 'bundle et al (1989) figure 1'	2				
+99	calrlong36	'calrlong36'	1				
+100	virol	'cao et al, j gen virol 2002, 83, 3023.', 'davignon et al., j virol (1996). 70:4', 'dolan et al. (1998) j virol 72:2010, figure 3', 'dolan et al. (1998) j virol 72:2010, figure 4', 'figure 6 and virol. 133:301-314', 'j gen virol. 2000, 81:2707-13', 'j. gen. virol. 82:191-199', 'mccarthy et al j virol 1993'	8				
+101	cao	'cao et al, j gen virol 2002, 83, 3023.'	1				
+102	gen	'cao et al, j gen virol 2002, 83, 3023.', 'j gen virol. 2000, 81:2707-13', 'j. gen. virol. 82:191-199'	3				
+103	case	'case report', 'case report p 191', 'case report, page 682', 'case reports', 'case reports and methods', 'clinical case presentation', 'figure 1, case report'	7				
+104	report	'case report', 'case report p 191', 'case report, page 682', 'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/', 'figure 1, case report', 'report p 213'	6				
+105	reports	'case reports', 'case reports and methods'	2				
+106	immun	'cassatro et al. (2005) infect immun 73:8079', 'chua-intra, et al. infect. immun. 1998.', 'figure 1. sun et al. 1991. infect. immun. 59(1):114-118.'	3				
+107	cassatro	'cassatro et al. (2005) infect immun 73:8079'	1				
+108	infect	'cassatro et al. (2005) infect immun 73:8079', 'chua-intra, et al. infect. immun. 1998.', 'figure 1. sun et al. 1991. infect. immun. 59(1):114-118.'	3				
+109	embo	'charbit et al embo j (1986)'	1				
+110	charbit	'charbit et al embo j (1986)'	1				
+111	chart	'chart 1', 'chart 1 and experimental procedures', 'chart 3', 'table 1, chart 2 structure 16'	4				
+112	experimental	'chart 1 and experimental procedures', 'experimental (page 92)', 'experimental and results p. 474', 'experimental methods', 'experimental part', 'experimental procedures and figure 1', 'experimental procedures and pdb 3aqi9', 'experimental procedures and pdb 4xc1 and 4xc3', 'experimental procedures and standard referenced sequence'	9				
+113	procedures	'chart 1 and experimental procedures', 'experimantal procedures', 'experimental procedures and figure 1', 'experimental procedures and pdb 3aqi9', 'experimental procedures and pdb 4xc1 and 4xc3', 'experimental procedures and standard referenced sequence', 'experimental procedures and table s1', 'experimental procedures, page 180'	8				
+114	chebi	'chebi directory'	1				
+115	directory	'chebi directory'	1				
+116	chemicals	'chemicals', 'supporting information, chemicals and materials'	2				
+117	ching	'ching et al (1992)'	1				
+118	chua	'chua et al 1990 pmid 2341191', 'chua-intra, et al. infect. immun. 1998.'	2				
+119	pmid	'chua et al 1990 pmid 2341191', 'counsell et al 1996 pmid 8939151', 'fig 1, ref 21 (pmid: 6088507)', 'nisbet at al 1981 pmid: 7016535', 'pmid: 114187465', 'pmid: 15208742', 'pmid: 15213518', 'pmid: 21899371 figure 1', 'pmid: 30349528 corrigendum', 'pmid:25581790', 'reference cited: pmid 16154240', 'reference pmid 22529294'	12				
+120	intra	'chua-intra, et al. infect. immun. 1998.'	1				
+121	citation	'citation', 'reference citation'	2				
+122	cite	'cite reference'	1				
+123	p02789	'cited accession p02789.2'	1				
+124	product	'cited commercial product', 'cited product', 'commercial product sheet', 'product data sheet', 'product information sheet'	5				
+125	commercial	'cited commercial product', 'commercial data sheet', 'commercial product sheet', 'commercial source', 'text page 6 and commercial sources'	5				
+126	refence	'cited refence'	1				
+127	referce	'cited referce'	1				
+128	referece	'cited referece'	1				
+129	referecne	'cited referecne'	1				
+130	referenc	'cited referenc'	1				
+131	kim	'cited reference and b. kim, personal communication'	1				
+132	personal	'cited reference and b. kim, personal communication', 'personal communication from author', 'reference cited and personal communication', 'text p. 9, personal communication, and cited reference'	4				
+133	ncbi	'cited reference and ncbi'	1				
+134	iii	'cited reference and table iii', 'figure 1 and supplementary table iii', 'figure 1 and table i, ii and iii', 'figure 1 and table iii', 'figure 1 and tables i and iii', 'figure 1 and tables i, ii, iii and iv', 'figure 1 and tables i, iii, and iv', 'figure 1, 4a and table iii', 'figure 1, supplemental figures i, ii, iii, supplemental table 1 and pdb 6v4p'	9				
+135	s3	'cited reference and table s3', 'data file s1 and table s3', 'data file s3', 'data file s3, figure s3', 'data s1, data s2, data s3, data s4', 'data s1, data s2, data s3, data s4, data s5', 'data s1, data s2, data s3, data s4, data s5, data s6', 'data s1, data s2, data s3, data s4, data s6', 'data s1, data s2, data s3, data s5, data s6'	9				
+136	fig	'cited reference, supplementary fig. 2', 'ems fig. 1', 'extended data fig. 3', 'extended data fig. 4', 'extended data fig. 4b', 'extended data fig. 5b and extended data tables 1, 2 and pdb 4y7m', 'fig 1', 'fig 1 and 2', 'fig 1 and genbank record', 'fig 1, authors communication', 'fig 1, fig 2', 'fig 1, received from author'	12				
+137	supplementary	'cited reference, supplementary fig. 2', 'electronic supplementary material', 'extended data figure 1 and supplementary table 1', 'extended data figure 10 and supplementary figures 3 and 4', 'extended data figure 2 and supplementary table 2', 'extended data figure 3 and supplementary figure 2', 'extended data figure 3 and supplementary table 2'	7				
+138	https	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+139	com/free	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+140	download/	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+141	//www	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+142	coronavirus	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+143	immunitrack	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+144	for	'cited reference: https://www.immunitrack.com/free-coronavirus-report-for-download/'	1				
+145	reference1	'cited reference1'	1				
+146	reference219	'cited reference219'	1				
+147	reference2201	'cited reference2201'	1				
+148	referencep	'cited referencep'	1				
+149	references	'cited references', 'figure 1 (references)', 'figure 2 and references', 'figure 4, previous references', 'references (canaday et al., 2003)', 'references and notes'	6				
+150	refernce	'cited refernce'	1				
+151	prot	'cited swiss-prot', 'fig 3, swiss prot database', 'figure 2 and swiss-prot record', 'figure 5 and swiss-prot record', 'swiss prot, ref 21 (pmid: 6088507)', 'swiss-prot accession', 'swiss-prot accession p01012', 'swiss-prot entry'	8				
+152	swiss	'cited swiss-prot', 'fig 3, swiss prot database', 'figure 2 and swiss-prot record', 'figure 5 and swiss-prot record', 'swiss prot, ref 21 (pmid: 6088507)', 'swiss-prot accession', 'swiss-prot accession p01012', 'swiss-prot entry'	8				
+153	presentation	'clinical case presentation'	1				
+154	clinical	'clinical case presentation', 'clinical studies page 927', 'clinical studies text page 927', 'diagnostics and clinical studies text page 927', 'supplemental data-clinical study protocol'	5				
+155	studies	'clinical studies page 927', 'clinical studies text page 927', 'diagnostics and clinical studies text page 927'	3				
+156	sheet	'commercial data sheet', 'commercial product sheet', 'data sheet 2', 'product data sheet', 'product information sheet', 'results page 10 and supplementary data sheet 1', 'table 1 and figure 6 and supplementary data sheet 1', 'table 1 and supplementary data sheet 1'	8				
+157	source	'commercial source', 'figure 1 and s1 source raw', 'figure 1, figure 4-supplement 2 and 5 and figure 4 source data', 'figure 1, figure 4-supplement 2, 3, and 5 and figure 4 source data', 'figure 2 , supplementary figure 1 and source data', 'figure 2 and source data', 'figure 2, supplementary figure 1 and source data'	7				
+158	concise	'concise methods'	1				
+159	consise	'consise methods'	1				
+160	corespondency	'corespondency from authors'	1				
+161	counsell	'counsell et al 1996 pmid 8939151'	1				
+162	datasheet	'dako datasheet', 'figure 3 and datasheet 2', 'figures 3, s1 and datasheet 2'	3				
+163	dako	'dako datasheet'	1				
+164	s6	'data file s6', 'data s1, data s2, data s3, data s4, data s5, data s6', 'data s1, data s2, data s3, data s4, data s6', 'data s1, data s2, data s3, data s5, data s6', 'data s1, data s2, data s3, data s6', 'data s1, data s2, data s4, data s5, data s6', 'data s1, data s2, data s4, data s6', 'data s1, data s2, data s5, data s6'	8				
+165	not	'data not shown', 'data not shown, figure 3c', 'data not shown, page 1278.', 'data not shown, page 293 and figure 6.', 'data not shown, page 293.', 'data not shown, results page 2-3', 'data not shown, results page 52', 'data not shown, text page 1060.', 'data not shown, text page 2562.', 'figure 1 and data not shown'	10				
+166	shown	'data not shown', 'data not shown, figure 3c', 'data not shown, page 1278.', 'data not shown, page 293 and figure 6.', 'data not shown, page 293.', 'data not shown, results page 2-3', 'data not shown, results page 52', 'data not shown, text page 1060.', 'data not shown, text page 2562.', 'figure 1 and data not shown'	10				
+167	3c	'data not shown, figure 3c', 'fig 1,fig 3b, fig 3c', 'fig 3c, fig 3d', 'figure 1, 2, 3c and 4c', 'figure 1, figure 2, figure 3c', 'figure 1a, 1b, 2a and 3c.', 'figure 1a,c, 2a,c, 3c,d, 4, 5', 'figure 1c figures 2c and 3c,d', 'figure 1c, 3c,d and supplementary fig. s1', 'figure 1c,d, 3c', 'figure 2, 3c'	11				
+168	s10	'data s4 and figures 5, s10, s11', 'figure 1 and s10', 'figure 1 and tables 3, s2, s3, and s10', 'figure 1, supplementary figure s1, s6, s8 and s10', 'figure 1, table s4, figs. s10, s11', 'figure 2 and s10', 'figure 2, s10 and table s4', 'figure 3 and s10', 'figure 3 and supplemental figures s6 and s10'	9				
+169	s11	'data s4 and figures 5, s10, s11', 'data set s1 and s11', 'data set s1 and s11 and figures 1 and 2', 'data set s1 and s11 and figures 1, 2, 3, and 4', 'figure 1, table s4, figs. s10, s11', 'figure 2 and supplementary figure s11', 'figure 2 and supplementary figures s2, s11', 'figure 2, 3, 4, 5, s11'	8				
+170	s8	'data s6 and figure s8', 'data s7 and figure s8', 'dataset s8', 'figure 1 and supplementary figure s8', 'figure 1 and table s8', 'figure 1, supplementary figure s1, s6, s8 and s10', 'figure 2 and s8', 'figure 2, s8 and table s2', 'figure 3 and s8', 'figure 3 and supplementary figure s8', 'figure 3 and supplementary figurse s2, s8 and s11'	11				
+171	s7	'data s7 and figure s8', 'figure s7', 'figure 1 and s7', 'figure 1 and supplementary figures s1, s7 and table 1', 'figure 1 and supplementary figures s2 and s7', 'figure 1 and table s7', 'figure 1, s2 and s7', 'figure 1, supplementary figures s1, s7 and table 1', 'figure 1, supplementary figures s2, s3, s4, s5, s6, s7, supplementary tables 1, 2 and pdb 6xy2'	9				
+172	set	'data set s1 and s11', 'data set s1 and s11 and figures 1 and 2', 'data set s1 and s11 and figures 1, 2, 3, and 4', 'figure 3, data set 3d', 'figure 5, table s7, data set s2', 'figure s4 and data set 13', 'figures 3, 5, data set 3b', 'figures 3, 6, s4, data set 3c', 'figures 6, s4, data set 6a', 'figures 6, s4, data set 6c'	10				
+173	datas3	'datas3'	1				
+174	datas6	'datas6'	1				
+175	dataset	'dataset 1', 'dataset 8', 'dataset ev1', 'dataset s01', 'dataset s02', 'dataset s03', 'dataset s1', 'dataset s1, figure 4', 'dataset s1, figures 2, s1', 'dataset s1, figures 3, 4, s2', 'dataset s1, figures s1', 'dataset s1, s2', 'dataset s1, s2 and figures 1, s1', 'dataset s3', 'dataset s3, s4', 'dataset s4'	16				
+176	s01	'dataset s01'	1				
+177	s02	'dataset s02'	1				
+178	s03	'dataset s03'	1				
+179	datasets1	'datasets1'	1				
+180	datasets2	'datasets2'	1				
+181	davignon	'davignon et al., j virol (1996). 70:4'	1				
+182	deduced	'deduced from amino acid locations in abstract', 'deduced from cited accession', 'deduced from table s2'	3				
+183	amino	'deduced from amino acid locations in abstract'	1				
+184	locations	'deduced from amino acid locations in abstract'	1				
+185	acid	'deduced from amino acid locations in abstract'	1				
+186	portillo	'del portillo et al (1987)', 'del portillo et al (1991)'	2				
+187	del	'del portillo et al (1987)', 'del portillo et al (1991)'	2				
+188	demotz	'demotz et al (1989)'	1				
+189	derived	'derived from author provided identifier', 'derived from author-provided identifier', 'derived from figure 11 information', 'derived from protein id'	4				
+190	information	'derived from figure 11 information', 'figure 1 and supplementary information figure s1', 'figure 1 and supplementary information figure s2', 'figure 1 and supporting information figure 1', 'figure 1 and supporting information figure s1', 'figure 1 and supporting information figure s2 and table s3', 'figure 1 and supporting information figure s4'	7				
+191	design	'design and methods', 'rearch design and methods', 'research design and methods', 'study design'	4				
+192	virology	'deubel et al, 1986 virology 155, 365-377', 'lambert et al., j. virology, 1990', 'pushko et al, 1994, virology 202:912', 'richardson et al. (1986) virology 155:508', 'stemler et al. 1990 journal of virology 64, 2802-2809'	5				
+193	deubel	'deubel et al, 1986 virology 155, 365-377'	1				
+194	diagnostics	'diagnostics and clinical studies text page 927'	1				
+195	direct	'direct communication', 'direct communication with author', 'provided by direct communication with author'	3				
+196	with	'direct communication with author', 'provided by direct communication with author'	2				
+197	documented	'documented reference'	1				
+198	dolan	'dolan et al. (1998) j virol 72:2010, figure 3', 'dolan et al. (1998) j virol 72:2010, figure 4'	2				
+199	dvhdgkvvstheq	'dvhdgkvvstheq'	1				
+200	material	'electronic supplementary material', 'figure 1 and supplementary material figure s2', 'figure 2 and supplemental material figure s2', 'figure 2 and supplementary material', 'figure 2 and supplementary material figure s1', 'figure 2 and supplementary material figure s2', 'figure 3 and supplemental material figures e-1 and e-2'	7				
+201	electronic	'electronic supplementary material', 'table 1 and electronic supplementary material figure s1.'	2				
+202	ems	'ems fig. 1'	1				
+203	e4	'epitope of fab r3p1-e4 on sars-cov2 rbd', 'figure 2 and e4', 'figure 5 and e4', 'figure e4', 'figure e4 and e7', 'figures 3 and e4', 'figures 3, e2, table e4', 'figures 4 and 5, tables e2, e4', 'figures 4 and e4', 'figures 4, e3, and e4', 'figures 7, e4 and e5', 'figures e2, e3, e4', 'figures e3, e4'	13				
+204	epitope	'epitope of fab r3p1-e4 on sars-cov2 rbd', 'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb', 'hpv l2 epitope', 'standard referenced epitope', 'tnf-a b cell epitope', 'well-characterized epitope'	7				
+205	on	'epitope of fab r3p1-e4 on sars-cov2 rbd', 'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb', 'footnote 3 on p 13225', 'identifier on page 236', 'on line methods', 'positions provided in figure 2 on author provided accession', 'positions provided in figure 3 on author provided accession'	8				
+206	rbd	'epitope of fab r3p1-e4 on sars-cov2 rbd'	1				
+207	r3p1	'epitope of fab r3p1-e4 on sars-cov2 rbd'	1				
+208	fab	'epitope of fab r3p1-e4 on sars-cov2 rbd'	1				
+209	sars	'epitope of fab r3p1-e4 on sars-cov2 rbd'	1				
+210	cov2	'epitope of fab r3p1-e4 on sars-cov2 rbd'	1				
+211	of	'epitope of fab r3p1-e4 on sars-cov2 rbd', 'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb', 'legand of table i', 'legend of figure 1', 'legend of table 2', 'legend of table i', 'natural ligands of b27 figure', 'results text page 3 of 12', 'stemler et al. 1990 journal of virology 64, 2802-2809'	10				
+212	scfv	'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb'	2				
+213	gb	'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb'	2				
+214	p12	'epitope of scfv p12 on hcmv gb', 'text p12'	2				
+215	hcmv	'epitope of scfv p12 on hcmv gb', 'epitope of scfv q5 on hcmv gb'	2				
+216	q5	'epitope of scfv q5 on hcmv gb'	1				
+217	esm	'esm table 1', 'figure 1, esm table 1', 'figure 2 and esm table 3', 'figure 2, 6 and esm table 3', 'figure 2, esm figure 1', 'figure 2, esm figure 2', 'figure 3 and esm figure 2', 'figure 4 and esm table 4', 'figure 4 and esm table 5', 'figures 4 and 5 and table 3, and esm table 5, and esm figure 2'	10				
+218	at	'estrada et at 1992', 'nisbet at al 1981 pmid: 7016535'	2				
+219	estrada	'estrada et at 1992'	1				
+220	etable	'etable 4', 'figure 5, etable 4'	2				
+221	experimantal	'experimantal procedures'	1				
+222	part	'experimental part', 'figure 2 and experimental part 4.2.2', 'figure 2 and experimental part 4.2.3', 'figure 2 and experimental part 4.2.4', 'figure 2 and experimental part 4.2.5', 'figure 6 and experimental part'	6				
+223	procedure	'experimental procedure'	1				
+224	3aqi9	'experimental procedures and pdb 3aqi9'	1				
+225	standard	'experimental procedures and standard referenced sequence', 'standard reference sequence', 'standard referenced epitope', 'standard referenced sequence, materials and methods', 'standard referenced sequence.', 'standard referenced structure', 'standard sequence'	7				
+226	referenced	'experimental procedures and standard referenced sequence', 'standard referenced epitope', 'standard referenced sequence, materials and methods', 'standard referenced sequence.', 'standard referenced structure'	5				
+227	section	'experimental section', 'experimental section and pdb 6mj6', 'figure 3, table 2, results section 2.2', 'figure 5, results page 41 section 3.7,', 'material and methods section 2.4', 'methods section 2.7', 'methods section 3.1', 'page 631 section 3.4', 'patients and methods section', 'results page 41 section 3.7, figure 6'	10				
+228	vi	'experimental system and table vi', 'fig.2,fig.4, table iv, table vi, table vii', 'fig.3, fig.5, fig.6,table iv, table vi, table vii', 'figure 1 and table vi', 'figure 1, tables iii-vi', 'figure 1, tables, v, vi, ix and text p. 1141', 'figure 2, tables ii, iii, and vi', 'figure 2, tables iii, iv, and vi'	8				
+229	system	'experimental system and table vi'	1				
+230	experimentals	'experimentals'	1				
+231	experrimental	'experrimental procedures'	1				
+232	extanded	'extanded table 1', 'extanded table 2', 'extanded table 3', 'extanded table 5', 'figure 1, extended data figure 1, and extanded table 1', 'figure 1, extended data figures 1, 2, and extanded table 1'	6				
+233	4b	'extended data fig. 4b', 'fig 4b', 'fig.2, fig.3b, table 2, fig.4b', 'fig.4a,4b', 'figure 1, 2, 3b and 4b', 'figure 1a and 4b', 'figure 1a, 4b and 5', 'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1d, 2, 4b, s2a, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d, s3b'	11				
+234	5b	'extended data fig. 5b and extended data tables 1, 2 and pdb 4y7m', 'fig. 4, fig. 5b', 'figure 1c figure 1e, 3 and supplementary figure 2, 3b, 5b', 'figure 1c figure 1e, 3, 4 and supplementary figure 2, 3b, 5b', 'figure 2, supplemental figure 5b', 'figure 2a, 5b', 'figure 2b, 4b, 4c, 5b, table 2, s1'	7				
+235	d	'extended data figure 1a, d', 'fig. 5a,b,d', 'figure 1 a-d, tables 1 and 2', 'figure 1 and supplementary figure d', 'figure 1 and supplementary figures d and g', 'figure 1 b, d', 'figure 1(d)', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram d and pdb 4ut9', 'figure 1.d.', 'figure 1a,c, 2a,c, 3c,d, 4, 5'	10				
+236	exteneded	'extended data figure 3, exteneded data table 1 and pdb 6x3s', 'extended data figure 3, exteneded data table 1 and pdb 6x3t', 'extended data figure 3, exteneded data table 1 and pdb 6x3v', 'extended data figure 3, exteneded data table 1 and pdb 6x3w', 'extended data figure 3, exteneded data table 2 and pdb 6x3x'	5				
+237	pbd	'extended data figure 3, supplementary figure 7, supplementary table 2 and pbd 7rrg', 'figure 1, supplementary tables 1, 2, 3 and pbd 7yxu', 'figure 3, supplementary figure 7, supplementary table 2 and pbd 7l1b', 'figure 3, supplementary figure 7, supplementary table 2 and pbd 7l1c', 'figure 4, supplementary figure 7, supplementary table 2 and pbd 7l1d'	5				
+238	5d	'extended data figure 5d', 'figure 1b, 3, 5d, 6d', 'figure 1d, suppl figure 5d', 'figure 2, 3, 5d', 'figure 4 and 5d', 'figure 4c and 5d', 'figure 5a, 5b and 5d', 'figure 5c, 5d, 5e', 'figure 5d and s1f', 'figure 5d and s4', 'figure 5d, 6d', 'figure 5d, 6d and s3 fig', 'figure 5d, 6d, 7c', 'figure 5d, e, f'	14				
+239	8c	'extended data figure 8c', 'fig 8c', 'fig 8c and 6', 'figure 1c, 2a,b,c, 3, 5, 6b, , 7, 8c,d, text 41', 'figure 1d and 8c', 'figure 2, tables s8a, 8b, 8c, 8d and pdb 3se8', 'figure 8c and table i', 'figure 8c, d', 'figures 1, 3, 5 and 8c', 'figures 2b and 8c', 'figures 2b, 8b, 8c and table i', 'figures 2c, 4, 6, 8c, 10, table 1'	12				
+240	fake	'fake'	1				
+241	4a	'fgiure 4a', 'fig 4a', 'fig. 4a', 'fig.4a,4b', 'figure 1, 2, 3a and 4a', 'figure 1, 4a and table iii', 'figure 1b and 4a', 'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1c, 4a, s2', 'figure 1b, 4a and 5', 'figure 1f and extended data figs. 2e, 4a', 'figure 2,3,4a,b and s1-s4', 'figure 2a, 2f, 3a, 4a'	13				
+242	fgiure	'fgiure 4a', 'fgiure 9'	2				
+243	3a	'fgiures 1, 2, 3a and table 2', 'fgiures 1, 2, 3a, and table 2', 'fgiures 1, 2, and 3a', 'fig 3a', 'fig. 3a-c', 'fig.3a, 3b', 'figrues 2a and 3a', 'figure 3a', 'figure 1, 2, 3a and 4a', 'figure 1, 2, 3a, 4 and 5', 'figure 1,2,3a', 'figure 1a, 3a', 'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a', 'figure 1a,b and 3a,b'	14				
+244	fgiures	'fgiures 1, 2, 3a and table 2', 'fgiures 1, 2, 3a, and table 2', 'fgiures 1, 2, and 3a'	3				
+245	fgure	'fgure 1', 'fgure 3', 'fgure 4', 'table s1 and fgure s31', 'table s1 and fgure s36', 'table s1 and fgure s39', 'table s1 and fgure s40'	7				
+246	record	'fig 1 and genbank record', 'figure 2 and swiss-prot record', 'figure 5 and genbank record', 'figure 5 and swiss-prot record', 'table 1 and genbank record', 'table 2, and cited genbank record', 'table 3 and genbank record'	7				
+247	received	'fig 1, received from author', 'received from author.'	2				
+248	ref	'fig 1, ref 21 (pmid: 6088507)', 'swiss prot, ref 21 (pmid: 6088507)', 'text, cited ref.'	3				
+249	3b	'fig 1,fig 3b, fig 3c', 'fig.2, fig.3b, table 2', 'fig.2, fig.3b, table 2, fig.4b', 'fig.3a, 3b', 'fig.3b, fig.4c, table2', 'figrue 3b', 'figrues 2a and 3b', 'figure 3b', 'figure 1, 2, 3b and 4b', 'figure 1b, 3b', 'figure 1c figure 1e, 3 and supplementary figure 2, 3b, 5b', 'figure 1c figure 1e, 3, 4 and supplementary figure 2, 3b, 5b'	12				
+250	7a	'fig 2, fig 7a', 'figure 1b figure 7a', 'figure 1c and 7a', 'figure 3a, 7a, s7', 'figure 6a and 7a', 'figure 7a and 8b.', 'figure 7a, 7c', 'figure 7a, b', 'figure 7a, supplementary table 1, supplementary fig. 1', 'figure 7a,b', 'figure 7a,c', 'figure 7a-c', 'figure 7a-e', 'figures 1 and 7a', 'figures 1, 5 and 7a'	15				
+251	2a	'fig 2a', 'fig 2a,b,c, fig 6.', 'fig. 2a, extended data fig. 6a and supplementary data 1', 'fig.2a, 2b', 'fig.2a,fig1', 'figrue 2a', 'figrues 2a and 3a', 'figrues 2a and 3b', 'figure 2a', 'figure 1 and 2a', 'figure 1, extended data figure 2a, supplementary figures 1, 2, supplementary table 1 and pdb 6xbl'	11				
+252	c	'fig 2a,b,c, fig 6.', 'fig. 1 c', 'fig. 1 c, fig. 2 b', 'fig. 3a-c', 'fig. 4, fig. 8b, c', 'fig. 6 c', 'fig. 8 c', 'figure 1 a, c', 'figure 1 c', 'figure 1(c)', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram c and pdb 4uta', 'figure 1.a.b and c', 'figure 1.c.', 'figure 1.c., figure 3'	14				
+253	2d	'fig 2d, s4 fig', 'figure 1, 2, 3, 4 and table 1 figure 2d', 'figure 1, 2d', 'figure 1c, 2d, table 3', 'figure 1d, 1e, 2d and supplementary figure 1c', 'figure 1d, 2b. 2d, 5', 'figure 1e, 2, 3 and extended data figs. 2d and 7', 'figure 2a, 2c, 2d', 'figure 2b, 2c,2d, 4a,4b, 4f and supplementary figure 3,5, 6'	9				
+254	database	'fig 3, swiss prot database', 'figures 2, s3, s4 and database s1, s2', 'figures 2, s3, s4, s8 and database s1, s2', 'pride database id: pxd035499', 'pride database: pxd020614', 'pride database: pxd023545'	6				
+255	3d	'fig 3c, fig 3d', 'fig. 3d', 'figure 2b and 3d', 'figure 2c, figure 3d, figure 6c', 'figure 3, data set 3d', 'figure 3b, 3d', 'figure 3b,3c,3d,3e, table ii, figure 4', 'figure 3c and 3d', 'figure 3c and 3d, table i', 'figure 3c, 3d', 'figure 3d and 3e', 'figure 3d and 4b', 'figure 3d and 5b', 'figure 3d and s1'	14				
+256	4d	'fig 4d', 'figure 4d', 'figure 1c, 1e,4d, s1a and table 1', 'figure 1d, 4d', 'figure 2, and 4d', 'figure 3, 4d', 'figure 3a, 3b, 4d, 6', 'figure 3b,3c,4d,4e', 'figure 3d, 4d', 'figure 4b and 4d', 'figure 4b, 4c, 4d, 5c, 6c and supplement figure 2', 'figure 4b, 4d', 'figure 4b, 4d, 5b, 6c and supplement figure 2'	13				
+257	pubmed	'fig 6, pubmed entry.'	1				
+258	entry	'fig 6, pubmed entry.', 'genbank entry', 'pdb entry', 'swiss-prot entry'	4				
+259	6c	'fig 6c', 'fig. 6c', 'figure 2c, figure 3d, figure 6c', 'figure 3a, s2, 6c', 'figure 3c, 6c and s1', 'figure 4, 6c', 'figure 4, figure 6c', 'figure 4b, 4c, 4d, 5c, 6c and supplement figure 2', 'figure 4b, 4d, 5b, 6c and supplement figure 2', 'figure 5c, 6c', 'figure 5c, 6c, 7b', 'figure 6c and s1', 'figure 6c and s5'	13				
+260	7b	'fig 7b', 'figur 7b', 'figure 1d,e, 2, 7b, 8, s1, s2, s3, s5', 'figure 2, table s6, s7a, 7b, 7c, 7d and pdb 3se9', 'figure 3, 5b, 7b', 'figure 4, 7b', 'figure 4a, f and 7b', 'figure 4d and 7b', 'figure 5 and 7b,c', 'figure 5c, 6c, 7b', 'figure 6 and 7b', 'figure 6d, 7b and 8b', 'figure 7b', 'figure 7b (i)'	14				
+261	8b	'fig 8b', 'fig. 4, fig. 8b, c', 'figure 2, tables s8a, 8b, 8c, 8d and pdb 3se8', 'figure 6d, 7b and 8b', 'figure 7a and 8b.', 'figure 8b', 'figure 8b,c', 'figure 8b-d', 'figures 1, 3, 5 and 8b', 'figures 1a, 4, 6a, 8b', 'figures 2 and 8b', 'figures 2, 4a, 8a, and 8b', 'figures 2, 8a, and 8b', 'figures 2b, 8b, 8c and table i'	14				
+262	8d	'fig 8d', 'figure 2, tables s8a, 8b, 8c, 8d and pdb 3se8', 'figure 8d', 'figure 8d and s12 fig.', 'figures 2a,g, 8d, 9a, s3', 'figures 7c and 8d', 'figures 8c, 8d, 9c and 9d', 'figures 8c, 8d, and 8e'	8				
+263	6a	'fig. 2a, extended data fig. 6a and supplementary data 1', 'figure 1a, 3, 6a', 'figure 1b, 3, 6a', 'figure 2 and 6a', 'figure 2 and 6a-c.', 'figure 2a, figure 3b, figure 6a', 'figure 3, table 2, figure 5 and figure 6a', 'figure 4a, 6a', 'figure 4a,b and 6a,b', 'figure 4b, s7, figure 6a,b', 'figure 5a, 6a'	11				
+264	5a	'fig. 5a,b,d', 'figure 2a, 3, 7 and suppplementary figure 5a', 'figure 2c, 5a, 5b, 6b', 'figure 3a, 4a, 5a and 6', 'figure 4, 5a,b and 6', 'figure 4a and figure 5a', 'figure 4c-d, 5a-c, 6', 'figure 4d, 5a and s6', 'figure 5a and d', 'figure 5a, 5b', 'figure 5a, 5b and 5d', 'figure 5a, 5c', 'figure 5a, 6, s1 table'	13				
+265	5c	'fig. 5c', 'figure 1a,d, 2, 5c, suppl figure 1a', 'figure 2b, 5c', 'figure 3a, figure 4a, figure 5c', 'figure 3c and 5c', 'figure 4, 5c and table 3', 'figure 4b, 4c, 4d, 5c, 6c and supplement figure 2', 'figure 5a, 5c', 'figure 5b, 5c', 'figure 5c and 5b', 'figure 5c and d', 'figure 5c and s3 fig', 'figure 5c and table 1'	13				
+266	6b	'fig. 6b', 'figure 1b and 6b', 'figure 1c, 2a,b,c, 3, 5, 6b, , 7, 8c,d, text 41', 'figure 1i, 6b', 'figure 2c, 5a, 5b, 6b', 'figure 3, table 2, figure 5 and figure 6b', 'figure 4, 6b and e9', 'figure 4, figure 6b', 'figure 5b, 6b', 'figure 5b, figure 6b', 'figure 6a, 6b', 'figure 6b (ii)', 'figure 6b and e9'	13				
+267	iv	'fig.2,fig.4, table iv, table vi, table vii', 'fig.3, fig.5, fig.6,table iv, table vi, table vii', 'figure 1 and table iv', 'figure 1 and tables i, ii, iii and iv', 'figure 1 and tables i, iii, and iv', 'figure 1 and tables ii and iv', 'figure 1 and tables iv and v', 'figure 1, table iv', 'figure 1, tables i, ii, iv'	9				
+268	vii	'fig.2,fig.4, table iv, table vi, table vii', 'fig.3, fig.5, fig.6,table iv, table vi, table vii', 'table i, figure 1 table v, vii', 'table iii, iv, vii table i, figure 1', 'table v and vii', 'table vi, vii, viii', 'table vii and figure 1', 'table vii and figure 2', 'table vii and figure 4', 'table vii and figure 5'	10				
+269	fig1	'fig.2a,fig1', 'pg58 fig1', 'pg58 fig1, pg59 fig2a'	3				
+270	4c	'fig.3b, fig.4c, table2', 'figure 1, 2, 3c and 4c', 'figure 1c, 1e, 4c, s1a and table 1', 'figure 2a, 2c, 4c, s2', 'figure 2b, 4b, 4c, 5b, table 2, s1', 'figure 2e, 4c, s1', 'figure 3, supplemental fig. s3 and figure 4c', 'figure 3c, 4c', 'figure 3c, 4c and 5', 'figure 4a, figure 4c', 'figure 4b and 4c'	11				
+271	table2	'fig.3b, fig.4c, table2', 'figure 3 and table2', 'figure 6 and table2', 'figures 1, 2 and 4, table2', 'figures 1, 2, 3, 4, and 5, table2', 'table2 and figure 5', 'table2, figure 3', 'table2, figure 6', 'table2, s1 table', 'table2,fig 1a', 'table2,fig3b', 'table2,figure 1', 'table2,figure3'	13				
+272	9a	'fig.9a', 'figure 8f-h, 9a-b', 'figure 9a', 'figures 1, 3, 7, 8a, and 9a', 'figures 2a,g, 8d, 9a, s3', 'figures 2b, 3b, 5, 6 and 9a', 'figures 6 and 9a', 'figures 8a and 9a', 'table 4 and figure 9a,b'	9				
+273	9b	'fig.9b', 'figure 2a and 9b', 'figure 8 and 9b', 'figure 9b', 'figure 9b and 9d', 'figure 9b and c', 'figure 9b and table 3', 'figure 9b,c', 'figures 2, 7, 9b and table 1', 'figures 6 and 9b', 'figures 6b and 9b', 'figures 7 and 9b', 'figures 8b and 9b', 'figures 8b,c and 9b', 'figures 9b and 9c', 'supplementary figure 9b'	16				
+274	figfigure	'figfigure'	1				
+275	figire	'figire 1', 'figire 1, extended data figures 2 and 5'	2				
+276	figires	'figires 1, 2, 3, s2, table 1 and pdb 5jwe'	1				
+277	figrue	'figrue 2', 'figrue 2a', 'figrue 3', 'figrue 3, tables 3 and 4', 'figrue 3b', 'figrue 4', 'figrue 7', 'table 1 and figrue 2', 'table 1 and figrue 5', 'table 1 and figrue 6'	10				
+278	figrues	'figrues 2 and 3, table 1', 'figrues 2a and 3a', 'figrues 2a and 3b', 'figrues 4 and 5, table 2'	4				
+279	figrure	'figrure 2'	1				
+280	figue	'figue 1', 'figue 2', 'figue 2, supplementary figures 1 and 2 and supplementary table 1', 'figue 3', 'figures 3, 6 and supplementary figue 3', 'supplementary figue s4'	6				
+281	figuer	'figuer 1c', 'figuer 2', 'figuer 3', 'figure 8 and supporting information figuer s3'	4				
+282	1c	'figuer 1c', 'figure 1a, 1c and 5', 'figure 1a, 1c, 2a, and table 1', 'figure 1b and 1c', 'figure 1b, 1c', 'figure 1b, 1c and table 2', 'figure 1b, 1c and table 2, 4', 'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1c, 4a, s2', 'figure 1c', 'figure 1c and 7a', 'figure 1c and d', 'figure 1c and supplementary figure 1'	13				
+283	figues	'figues 2, s1', 'figues 5 and s5', 'figues 6 and s9', 'figues s4, s5, table s2 and pdb 6n4q', 'figures 2, 4 and supplementary figues 3 and 5', 'table 1, figues 1, 2, 3 and pdb 3rl2'	6				
+284	s9	'figues 6 and s9', 'figure s9', 'figure 1 and s9', 'figure 1 and tables 3, s2, s3, and s9', 'figure 1 and tables s2, s3, and s9', 'figure 1, s9 and table s2', 'figure 1, supplementary information figures s3, s4, s5, s6, s9, table s1 and pdb 7wth', 'figure 1, supplementary information figures s3, s4, s5, s6, s9, table s1 and pdb 7wti'	8				
+285	figuire	'figuire 4'	1				
+286	figur	'figur 7b', 'figur s5', 'figures 1 and 3 and figur s4', 'supplemental table 3 and figur 6', 'supplementary figur 5'	5				
+287	supplement	'figure 4- figure supplement 1', 'figure 1 - figure supplement 1', 'figure 1 and figure 1-figure supplement 1', 'figure 1 and figure supplement 1', 'figure 1 and figure supplements 1, 2, 3, 4, figure 4-supplement 1, supplementary file 1 and pdb 7yzk', 'figure 1- supplement 2', 'figure 1 supplement 3'	7				
+288	7h	'figure 7h', 'figures 7h and 7i', 'figures 4c, 7h'	3				
+289	s1f	'figure s1f', 'figure 5d and s1f', 'figures 6, 7 and tables s1d, s1e, s1f'	3				
+290	2c	'figure 1 a b and figure 2c', 'figure 1, 2c', 'figure 1, 2c and table 1', 'figure 1a figure 2c', 'figure 1a, 2c and table 1', 'figure 1c figures 2c and 3c,d', 'figure 1c, 2a, 2c, 5', 'figure 1d, 1e, 2c and supplementary figure 1c', 'figure 2 and table 2c', 'figure 2 and tables 2a and 2c', 'figure 2a and 2c'	11				
+291	an	'figure 1 an text p. 901', 'figures 2, s2 an table ii', 'figures 3b an 6c', 'figures 5 an 6, table ii'	4				
+292	aad46493	'figure 1 and aad46493'	1				
+293	code	'figure 1 and accession code provided'	1				
+294	correspondance	'figure 1 and author correspondance'	1				
+295	corresponding	'figure 1 and author corresponding'	1				
+296	ev	'figure 1 and ev 1'	1				
+297	supplements	'figure 1 and figure 1 supplements 1 and 2', 'figure 1 and figure supplements 1, 2, 3, 4, figure 4-supplement 1, supplementary file 1 and pdb 7yzk', 'figure 1, figure 1-supplements, table 1 and pdb 6ww2', 'figure 1-figure supplement 1, figure 2 and figure supplements, table 1 and pdb 7kra', 'figure 1-figure supplement 1, figure 2 and figure supplements, table 1 and pdb 7ktx'	5				
+298	meyers	'figure 1 and meyers et al (1991) figure 5'	1				
+299	v1	'figure 1 and pdb 6e3y (v1.2)', 'figure 1 and pdb 6mzj (v1.1)', 'figure 1, table 1 and pdb 1vgk (v1.2)', 'figure 1, extended data figure 1, extended data table 1 and pdb 6hco (v1.1)', 'figure 1, extended data figure 2, extended data table 1 and pdb 6mco (v1.2)', 'figure 1, supplementary table 2 and pdb 6dez (v1.0)'	6				
+300	raw	'figure 1 and s1 source raw'	1				
+301	supllementary	'figure 1 and supllementary figure s1', 'figures 6, 8, supllementary figures 1 and 2'	2				
+302	g	'figure 1 and supplementary figures d and g', 'figure 1 g and figure 3 e', 'figure 1a, e, f, g', 'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a', 'figure 1c,g', 'figure 1c-g, 4, 5', 'figure 1e, f, g', 'figure 1e, f, g, 3a', 'figure 1e, f, g, j, k, s1, s2, 3a', 'figure 1e,f,g,h', 'figure 1f, g, h'	11				
+303	supporting	'figure 1 and supporting figure 6', 'figure 1 and supporting information figure 1', 'figure 1 and supporting information figure s1', 'figure 1 and supporting information figure s2 and table s3', 'figure 1 and supporting information figure s4', 'figure 1 and supporting information table 1', 'figure 1 and supporting information table s4'	7				
+304	suppplementary	'figure 1 and suppplementary figure 7', 'figure 1 and suppplementary table 1', 'figure 2, supplementary figure 4, suppplementary table 1 and pdb 7n5h', 'figure 2a, 3, 7 and suppplementary figure 5a', 'figure 3 and suppplementary table 1', 'figure 7 and suppplementary figure 5', 'figures 1, 2, 4, supplementary figure 1, table 1, suppplementary table 1 and pdb 8shi'	7				
+305	supplemenraty	'figure 1 and table 1 and supplemenraty figure 1', 'supplemenraty figure 3'	2				
+306	1s	'figure 1 and table 1s', 'figure 1s (supplementary data)', 'figures 1, 2, 1s and 3s', 'supplemental table 1s, figure 4 and pdb 1t1w', 'supplemental table 1s, figure 4 and pdb 1t1x', 'supplemental table 1s, figure 4 and pdb 1t1y', 'supplemental table 1s, figure 4 and pdb 1t1z', 'supplemental table 1s, figure 4 and pdb 1t20'	8				
+307	e3	'figure 1 and table e3', 'figure 1, table e1, e3', 'figure 1, table e3', 'figure 2, table e3', 'figure 2d and e3', 'figure 3, e3', 'figure 3, table i, figure e3', 'figures 1, 2, e2 and e3', 'figures 4, e3, and e4', 'figures 5 and e3', 'figures 7, e3', 'figures e1, e2 and e3', 'figures e2, e3, e4', 'figures e3, e4'	14				
+308	ix	'figure 1 and table ix', 'figure 1 and tables v, ix and text p. 1141', 'figure 1, table ix, x, xi', 'figure 1, tables, v, vi, ix and text p. 1141', 'figures 3-4, tables i, ii, iii and ix, text page 2419', 'table ii, figure 1, figure 3, table iv,table ix', 'tables ii, iii, iv, vi, vii and ix', 'tables ii, v, vi, ix and figure 1'	8				
+309	v	'figure 1 and table v', 'figure 1 and table v and text p. 1143', 'figure 1 and tables iv and v', 'figure 1 and tables v, ix and text p. 1141', 'figure 1, table v and text. p 1143', 'figure 1, tables ii, iii and v', 'figure 1, tables v and viii', 'figure 1, tables, v, vi, ix and text p. 1141', 'figure 2 and table v'	9				
+310	table1	'figure 1 and table1', 'figure 1, table1', 'figure 1, extended data figure 2, extended data table1 and pdb 5c1m', 'figure 1,figure 2,table1', 'figure 1,table1', 'figure 2, 3, 4 and table1', 'figure 2, table1', 'figure 3 and table1', 'figure 4, table1 and pdb 5usf', 'figure 5 and table1', 'figure 7 and table1'	11				
+311	tables1	'figure 1 and tables1, s2, and s3', 'figure 4, tables1', 'figures 2, 7, 8, tables1 and s2, and pdb 7kc9', 'supplementary figure s2 and tables1, s2, and s3', 'supplementary figure s4 and s9 and tables1, s2, and s3', 'tables1 and 2', 'tables1 and 2, figures 1 and 2', 'tables1, 2', 'tables1, 2, and 3', 'tables1, 2 and figure 1'	10				
+312	caption	'figure 1 caption'	1				
+313	f	'figure 1 e,f', 'figure 1a, e, f, g', 'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a', 'figure 1b, d, f and table 2', 'figure 1b,c,d,e,f', 'figure 1c, e, f', 'figure 1c-d, supplementary figure 1e-f and supplementary table 1', 'figure 1c-d, supplementary figure 1e-f, and supplementary table 1', 'figure 1d,e,f'	9				
+314	legend	'figure 1 legend', 'figure 2 legend', 'figure 2 legend and text p.832', 'figure 3 legend', 'figure 4 legend', 'figure 4, legend', 'figure 5 legend', 'figure 6 legend', 'figure 7 legend', 'figure 8 legend', 'figure s1 legend', 'legend of figure 1', 'legend of table 2', 'legend of table i', 'results page 8 and figure 2 legend'	15				
+315	structure	'figure 1 structure 1', 'figure 1 structure 10', 'figure 1 structure 8', 'figure 1a structure 1', 'figure 1a structure 2', 'figure 1b structure 2', 'figure 2 structure 1', 'figure 2 structure 2', 'figure 2a structure 1 / 1b', 'p 338 structure i', 'page 339 structure ii', 'peptide structure, page 222.'	12				
+316	to	'figure 1 to 9', 'figure 1, tables 1 to 3', 'figures 1 to 3', 'figures 1 to 4', 'figures 1 to 4, table 2', 'figures 1 to 4, table 3', 'figures 1 to 4, table i, supplementary figures 2 and 3', 'figures 1 to 4, table ii', 'figures 1 to 5', 'figures 1 to 5, supplementary figures 1 to 3, supplementary table 1.'	10				
+317	sci	'figure 1, and good et al., proc natl acad sci 1988', 'neurath, et al., proc nat acad sci. 79, 7871-7875, 1982'	2				
+318	proc	'figure 1, and good et al., proc natl acad sci 1988', 'neurath, et al., proc nat acad sci. 79, 7871-7875, 1982'	2				
+319	natl	'figure 1, and good et al., proc natl acad sci 1988'	1				
+320	acad	'figure 1, and good et al., proc natl acad sci 1988', 'neurath, et al., proc nat acad sci. 79, 7871-7875, 1982'	2				
+321	good	'figure 1, and good et al., proc natl acad sci 1988'	1				
+322	collins	'figure 1, collins et al., 1990'	1				
+323	datsaset	'figure 1, ev1 and datsaset ev1'	1				
+324	si	'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram a and pdb 4utb', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram b and pdb 4ut6', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram c and pdb 4uta', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram d and pdb 4ut9'	4				
+325	histogram	'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram a and pdb 4utb', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram b and pdb 4ut6', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram c and pdb 4uta', 'figure 1, extended data figures 1- 7, tables 1, 2, table si, histogram d and pdb 4ut9'	4				
+326	inchauspe	'figure 1, inchauspe et al., 1991', 'figure 2, inchauspe et al., 1991'	2				
+327	p123	'figure 1, p123-4', 'figures 1, 2, 3, 4, p123', 'figures 1, 3, 4, p123', 'figures 1, p123-4'	4				
+328	radford	'figure 1, radford et al., 1990'	1				
+329	result	'figure 1, result and discussion', 'result and figure 3', 'result page 2042', 'result, page 471, figure 1'	4				
+330	s1and	'figure 1, s1and table s1', 'figures 2a, s1and s2 figure 4'	2				
+331	s16	'figure 1, s3 and s16', 'figure 4 and supplementary figure s16', 'figure 4 and supplementary figures s16 and s17', 'figure 6 and s16', 'figure s4-p,table s16', 'figure s7 and s16', 'figures 1, 2, s3, s4, s6, s7, s11, s16, s19, tables s1, s2 and pdb 7uot', 'figures 1, 3, s5 and s16', 'figures 1, 4, s1, s2, s3, s8, s10, s16, s17, s18 and pdb 3j5m'	9				
+332	mlx	'figure 1, s4, table 1 and pdb mlx'	1				
+333	suppl	'figure 1, suppl data 3', 'figure 1, suppl fig 1', 'figure 1, suppl figure s2a', 'figure 1, suppl figures 1, 2, 3, 10, 13', 'figure 1, suppl file 4', 'figure 1a, suppl figure 1', 'figure 1a,b, suppl figure 2', 'figure 1a,d, 2, 5c, suppl figure 1a', 'figure 1b, suppl figure 2', 'figure 1b, suppl figure s1'	10				
+334	s2a	'figure 1, suppl figure s2a', 'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1d, 2, 4b, s2a, s2c, s2d', 'figure 3 and table s2a', 'figure 3b and s2a', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 2, 3a, 3c, s2a, and table s2', 'figures 2, 3a, s2a, and table s2', 'supplemental figure s2a'	9				
+335	note	'figure 1, supplementary figure 1, supplementary note 1, table 1 and pdb 6jmq', 'figure 4, supplementary figure 1, table 1, supplementary note 2 and pdb 6jmr', 'figure 4, table 1, supplementary note 2 and pdb 6jmr', 'figure 6 and note added in proof', 'figures 1, 2, table 1, supplementary note 1 and pdb 6mam'	5				
+336	supp	'figure 1, table 1 and supp. figure 2', 'figures 1 and 2, supp. figures 8, 12 and 16, supplementary tables 2, 3, 5, 8 and 9', 'supp. fig. 1', 'table 1, figures 2, 3, supp figures 4, 5, 6'	4				
+337	ev2	'figure 1, table 2 and figure ev2', 'figure ev2 and appendix figure s4', 'figures 1, 2, 5, 6, ev2, ev3 and appendix figure s1', 'figures 3, ev2, s1, table s2 and pdb 7p77', 'figures 3, ev2, s1, table s2 and pdb 7p78'	5				
+338	e1	'figure 1, table e1, e3', 'figure 1, tables 1, e1 and e2', 'figure 1, tables i, ii, e1 and e2', 'figure 1, tables ii, e1 and e2', 'figure 3, table e1', 'figure 4 and table e1', 'figure 4, table e1', 'figure 5, tables e1 and e2', 'figure e1', 'figure e1, table e2', 'figure e2 and table e1', 'figures 1 and e1, table e2'	12				
+339	xi	'figure 1, table ix, x, xi', 'tables i, ii, iii, vi and xi', 'tables iii, iv, vi and xi', 'tables vii, xi'	4				
+340	x	'figure 1, table ix, x, xi', 'supplemental figure x', 'table x', 'tables iv, v and x', 'tables vi, vii, viii, and x', 'tables vi, vii, viii, ix, x', 'tables vi, viii, x'	7				
+341	figs	'figure 1, table s4, figs. s10, s11', 'figure 1e, 2, 3 and extended data figs. 2d and 7', 'figure 1f and extended data figs. 2e, 4a', 'figure 5, table 1, supplementary figs. 34-38 and supplementary table 5', 'figures 1, 2, 4, 5, 6 and supplemental figs. 1, 2, 3, 4', 'figures 1a,b,c, 2, 3a,b, e, supplementary figs. 2 and 4'	6				
+342	e2	'figure 1, tables 1 and e2', 'figure 1, tables 1, e1 and e2', 'figure 1, tables 2a, 2b, 4, supplementary figure s1 and table e2', 'figure 1, tables i, ii, e1 and e2', 'figure 1, tables ii, e1 and e2', 'figure 5 and table e2', 'figure 5, tables e1 and e2', 'figure e1, table e2', 'figure e2', 'figure e2 and table e1'	10				
+343	s1a	'figure 1, tables s1a, s1b and pdb 5grj', 'figure 1c, 1e, 4c, s1a and table 1', 'figure 1c, 1e, s1a and table 1', 'figure 1c, 1e,4d, s1a and table 1', 'figure 2 and s1a', 'figure s1a', 'figures 1 and 2, suppl figures s1a, s2', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uyp', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uze'	9				
+344	s1b	'figure 1, tables s1a, s1b and pdb 5grj', 'figure 1d, s1b and table 1', 'figure 2 and supplementary figure s1b', 'figure 2, 5, s1b', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uyp', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uze', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uzq', 'figures 1, 2, 3, s1, tables 2, s1a, s1b and pdb 3uzv'	8				
+345	sii	'figure 1, tables si, sii', 'figure 3, tables si, sii', 'figure s1 and supplementary table sii', 'figures 1, 2, tables si, sii', 'figures 2, 3, s1, tables i, si, sii and pdb 3j3o', 'figures 2, 3, s1, tables i, si, sii and pdb 3j3p', 'figures 5, s1 and table sii', 'figures 6, s3, table sii and pdb 3e6f'	8				
+346	siii	'figure 1, tables si, siii', 'figure 5, tables si, siii', 'figures 1, 2, 4, tables si, siii', 'supplementary table siii', 'table si and siii and figures 3, 4, and 6', 'table sii, table siii', 'table siii and figure 4', 'tables 1, si, and siii', 'tables 1, si, and siii and figures 3 and 4', 'tables 1, si, and siii and figures 3, 4, and 6'	10				
+347	viii	'figure 1, tables v and viii', 'table vi, vii, viii', 'table viii', 'table viii and figure 2', 'tables i, iiii and viii', 'tables i, v, vi, viii', 'tables ia, ii, iii, iv, v, and viii', 'tables ii and viii', 'tables i-v, vii-viii, figures 1, 2, 4, 5, and 6', 'tables v, vii and viii', 'tables v, vii, and viii'	11				
+348	tablesi	'figure 1, tablesi, ii, iii'	1				
+349	p7403	'figure 1, text p7403'	1				
+350	pp	'figure 1, text pp. 192-193', 'figure 1, text pp. 7-8', 'figure 2, text pp. 5-6', 'figure 3, text pp. 606 and 608', 'figures 2, 3, 4, 7 and text pp. 423-424', 'figures 3, 4, 6 and text pp. 423-424', 'text pp 614-615, figure 2', 'text pp. 103-104', 'text pp. 135-136', 'text pp. 2044, 2046, and figure 5a'	10				
+351	yamaguchi	'figure 1, yamaguchi et al., 1988'	1				
+352	milich	'figure 1. milich et al. 1986. j. immunol. 137:2703-2710.', 'milich et al (1988)', 'milich et al j exp med 1986. 164: 532', 'milich et al, j exp med 1986 164:532', 'milich et al, jexp med1986, 164:532'	5				
+353	sun	'figure 1. sun et al. 1991. infect. immun. 59(1):114-118.'	1				
+354	1/results	'figure 1/results'	1				
+355	10a	'figure 10a', 'figure 10a,b', 'figures 10a, 10c and 10e', 'figures 2a, 4, 10a and table 1'	4				
+356	10b	'figure 10b', 'figure 10b,c', 'figures 10b, 10d and 10f', 'figures 2, 6, and 10b,c,d'	4				
+357	10e	'figure 10c and 10e', 'figures 10a, 10c and 10e', 'figures 10e and 10f', 'figures 3c, 6f, supplementary figures 10e, 11c, 15e, and 17b', 'figures 5 and 10e'	5				
+358	10c	'figure 10c and 10e', 'figure 10c and e', 'figures 10a, 10c and 10e'	3				
+359	10d	'figure 10d', 'figures 10b, 10d and 10f'	2				
+360	supplemantal	'figure 11 and supplemantal figure s7', 'figure 6 and supplemantal figure s3', 'figures 1, 2, 4, 5, 7, 8, 9, and 10 and supplemantal figures s2, s4, and s6', 'supplemantal table 1', 'table 2 and supplemantal table 1'	5				
+361	11a	'figure 11a', 'figure 11a and b, table 1', 'supplementary dataset 11a'	3				
+362	11b	'figure 11b', 'figure 4f,g and supplemental fig. 11b', 'supplementary dataset 11b', 'supplementary dataset 11b and extended data figure 9'	4				
+363	11c	'figure 11c, table 1', 'figures 3c, 6f, supplementary figures 10e, 11c, 15e, and 17b', 'supplementary dataset 11c'	3				
+364	11d	'figure 11d, table 1', 'supplementary dataset 11d', 'supplementary dataset 11d and extended data figure 9', 'supplementary dataset 11d, 11e'	4				
+365	12a	'figure 12a and b, table 1', 'figure 12a b, table 1'	2				
+366	12c	'figure 12c, table 1'	1				
+367	12d	'figure 12d, table 1'	1				
+368	atlanta	'figure 1a - cdc atlanta aotus'	1				
+369	aotus	'figure 1a - cdc atlanta aotus', 'figure 1a - leticia aotus'	2				
+370	cdc	'figure 1a - cdc atlanta aotus'	1				
+371	leticia	'figure 1a - leticia aotus'	1				
+372	resource	'figure 1a and online resource 1', 'figure 2, online resource 3', 'figure 2c, online resource 3', 'figure 5 and online resource 4', 'figures 1, 2, 5, and online resource 4', 'figures 1b, 2a, online resource 1', 'figures 1c, 2b, online resource 2', 'key resource table', 'online resource 19', 'table 2 and online resource 19'	10				
+373	online	'figure 1a and online resource 1', 'figure 2, online resource 3', 'figure 2c, online resource 3', 'figure 3 and supplementary online figure s3', 'figure 5 and online resource 4', 'figures 1, 2, 5, and online resource 4', 'figures 1b, 2a, online resource 1', 'figures 1c, 2b, online resource 2', 'online methods'	9				
+374	1d	'figure 1a, 1b, and 1d', 'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1d, 2, 4b, s2a, s2c, s2d', 'figure 1b,1d, 2a and table 1', 'figure 1c,1d', 'figure 1d', 'figure 1d and 1e', 'figure 1d and 2', 'figure 1d and 8c', 'figure 1d and e', 'figure 1d and supplementary table s1', 'figure 1d and table 1'	12				
+375	6d	'figure 1a, 6d', 'figure 1b, 3, 5d, 6d', 'figure 2d, figure 3e, figure 6d', 'figure 3a, 6d', 'figure 4, figure 6d', 'figure 5d, 6d', 'figure 5d, 6d and s3 fig', 'figure 5d, 6d, 7c', 'figure 5e, 5f, 6d, 6e', 'figure 6a and 6d.', 'figure 6d and supplementary figure 6e', 'figure 6d, 7b and 8b', 'figure 6d, s3'	13				
+376	2ab	'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a'	1				
+377	k	'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a', 'figure 1e, f, g, j, k, s1, s2, 3a', 'figure 2c,d, k', 'figure 2e,k', 'figure 2f,k', 'figure 5j, k', 'figure s3-k, table s2'	7				
+378	h	'figure 1a, e, f, g, h, j, k, s1, s4, s5, 2ab, 3a', 'figure 1e,f,g,h', 'figure 1f, g, h', 'figure 1g and h', 'figure 1g,h', 'figure 1g,h and supplementary table s2', 'figure 2c,d,g,h', 'figure 3d, h', 'figure 3g,h', 'figure 4d-h, s5', 'figure 4f, g, h', 'figure 4g,h', 'figure 5g,h', 'figure 6a, frame h'	14				
+379	s3a	'figure 1a,b, 2, 4, 6, supplementary figure s3a,b', 'figure 1a,b, supplementary figure s3a,b', 'figure 2, table s3a', 'figure s3, table s3a and pdb 7zfc', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 5, 6, s3, s4, table s3a and pdb 7zfd', 'figures 5, 6, s3, table s3a and pdb 7zf4'	7				
+380	s2b	'figure 1a,b,c, figure s2b', 'figure 2, suppl figure s2b', 'figure s2b, s2d', 'figures 1 and s2b', 'figures 1, 3, 5 and s2b', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 1,3, 5 and s2b', 'figures 2, 3b, 4a, s2b and table s2', 'figures 2, 4a, s2b and table s2', 'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d'	10				
+381	a1	'figure 1-a1', 'figure 5-a1', 'table a1', 'tables a1 and 2'	4				
+382	3f	'figure 1b and supplementary fig 3f', 'figure 2c, 2d, 3b, 3f, table 2', 'figure 3e, 3f', 'figure 3f', 'figure 3f and s1', 'figure 3f and table s5', 'figure 3f figure 3g', 'figure 3f, 4', 'figure 3f, and table 3', 'figure 3f, s7', 'figure 3f, table 2', 'figure 3f-g', 'figures 2a, 3a, 3b, 3e, 3f, 5', 'figures 2d, e, 3f'	14				
+383	5e	'figure 1b and supplementary figure 5e', 'figure 4b, d and 5e, f.', 'figure 4g, 5e and 6', 'figure 5c, 5d, 5e', 'figure 5c, 5e', 'figure 5e and supplemental figure 2', 'figure 5e, 5f', 'figure 5e, 5f, 6d, 6e', 'figure 5e, f', 'figure 5e,f', 'figures 1c and 5e', 'figures 3, 4d, 4e, and 5e', 'figures 3e, 4g, 5e, 6 and s1 fig'	13				
+384	s2c	'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1d, 2, 4b, s2a, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d, s3b', 'figure 2d, e and figure s2c', 'figure 2d, e and figure s2c, d', 'figure s2c, s2e', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 1h and s2c'	9				
+385	s2d	'figure 1b, 1c, 1d, 2, 4a, 4b, s2a, s2c, s2d', 'figure 1b, 1d, 2, 4b, s2a, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d', 'figure 1b, 2, 4b, s2c, s2d, s3b', 'figure s2b, s2d', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 1, s2d, tables s1, s2, s3, s4 and pdb 3lev', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d'	8				
+386	s3b	'figure 1b, 2, 4b, s2c, s2d, s3b', 'figure 5, 6, s3, s4, table s3b and pdb 7zr9', 'figure s3b', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 1c and s3b', 'figures 2b, c and s3b', 'figures 4, 5, s3b-d, s4', 'figures 5, 5, 7, s3, s4, table s3b and pdb 7zrc', 'figures 5, 6, 7, s3, table s3b and pdb 7zr8'	9				
+387	2h	'figure 1b,d and figure 2h', 'figures 1, 2h, and s1', 'figures 2h and 2i', 'figures 2h and 3'	4				
+388	1e	'figure 1c figure 1e, 3 and supplementary figure 2, 3b, 5b', 'figure 1c figure 1e, 3, 4 and supplementary figure 2, 3b, 5b', 'figure 1c, 1e, 4c, s1a and table 1', 'figure 1c, 1e, s1a and table 1', 'figure 1c, 1e,4d, s1a and table 1', 'figure 1c-d, supplementary figure 1e-f and supplementary table 1'	6				
+389	2e	'figure 1c, 2b, 2e and supplementary figure 1c', 'figure 1f and extended data fig. 2e', 'figure 1f and extended data figs. 2e, 4a', 'figure 2c, 2e, 3c, s3', 'figure 2c, 2e, 4, s4', 'figure 2d, 2e', 'figure 2e', 'figure 2e and 2f', 'figure 2e and supplementary figure 7', 'figure 2e and table 3', 'figure 2e and table s4'	11				
+390	1l	'figure 1d-f, 1l', 'figure 1l'	2				
+391	1f	'figure 1f', 'figure 1f and supplementary table 2', 'figure 1f and extended data fig. 2e', 'figure 1f and extended data figs. 2e, 4a', 'figure 1f and figure 7', 'figure 1f and table 1', 'figure 1f and table 2', 'figure 1f, 2a', 'figure 1f, 3a', 'figure 1f, 4b', 'figure 1f, g, h', 'figure 1f, s2', 'figure 1f, s2, 3a'	13				
+392	suplement	'figure 1-figure suplement 1'	1				
+393	1g	'figure 1g', 'figure 1g and h', 'figure 1g, 1h', 'figure 1g, 3a', 'figure 1g, s4, 3a', 'figure 1g,h', 'figure 1g,h and supplementary table s2', 'figures 1g,h,m, 4, and 5', 'table 1, figures 1a, 1d, and 1g', 'table 1, figures 1a, 1d,and 1g', 'table 3 and figure 1g, s1'	11				
+394	1h	'figure 1g, 1h', 'figure 1h', 'figures 1h and s2c', 'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d', 'table 1, figures 1b, 1e,and 1h'	5				
+395	1i	'figure 1i', 'figure 1i and table 4', 'figure 1i, 2 and table 4', 'figure 1i, 6b', 'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d', 'table 1, figures 1c, 1f, and 1i'	6				
+396	1j	'figure 1j', 'figures 1j and 1k', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d'	4				
+397	1k	'figure 1k', 'figure 1k, s1', 'figures 1j and 1k', 'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d'	4				
+398	1m	'figure 1m'	1				
+399	1o	'figure 1o'	1				
+400	s18	'figure 2 , supplementary figure s6, s18 and supplementarytable s1', 'figure 8 and s18', 'figure s17 and s18', 'figure s18', 'figure s18 and table s4', 'figures 1, 4, s1, s2, s3, s8, s10, s16, s17, s18 and pdb 3j5m', 'figures 2 , s7 and s18', 'figures 2, 3, 4, s8, s15, s18, s21 and table s4', 'figures 2, 3, s2, tables s16, s17, s18, s19 and pdb 5u3k'	9				
+401	supplementarytable	'figure 2 , supplementary figure s6, s18 and supplementarytable s1', 'figure 2 , supplementary figures s5, s6 and supplementarytable s1', 'figure 2, supplementary figure 3 and supplementarytable 2'	3				
+402	amd	'figure 2 amd table 1', 'figures 1 amd 2', 'figures 2 amd 4', 'figures 5 amd 6', 'figures 8 amd 9, table 5', 'pdb 7p77, 7p78 amd 7p79', 'table amd figure 1', 'tables s1 amd s3a'	8				
+403	datasets	'figure 2 and datasets s3 and s4', 'tables 1, 2, figures 1, s1, s2, datasets s2, s5, s6'	2				
+404	s13	'figure 2 and s13', 'figure 2, table s13', 'figure 3 and s13', 'figure 4, table s7, figures s13, s14 and pdb 5m63', 'figure 5 and s13', 'figure 6, supplementary figures s2, s3, s4, s5, s11, s13, s14, s15', 'figure s13', 'figure s13 and table s7', 'figure s13, table s2 and pdb 8cyj', 'figure s4-p,table s13'	10				
+405	suplemental	'figure 2 and suplemental data 7', 'figures 4, 5 and suplemental figure 3', 'suplemental table 1', 'suplemental table s2', 'suplemental table s2, figure 3'	5				
+406	supplementalary	'figure 2 and supplementalary figure 1'	1				
+407	s1c	'figure 2 and supplementary figure s1c', 'figure s1c and table 1', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c', 's1b fig, s1c fig, fig 4', 'supplementary figure s1c and figure 2', 'supplementary table s1c'	6				
+408	supplmenetary	'figure 2 and supplmenetary data figure s2'	1				
+409	taable	'figure 2 and taable s1'	1				
+410	supplental	'figure 2 and table 6 and supplental table 2', 'figure 3 and table 6 and supplental table 2', 'figure 4 and table 6 and supplental table 2', 'supplental figure 1'	4				
+411	ans	'figure 2 ans table s3', 'figure 4 ans s5', 'figures 2 ans s1', 'figures 5 ans s4', 'figures 6 ans s4', 'supplemental data s1 ans s5'	6				
+412	suuplemental	'figure 2, 3, 4 and suuplemental data 5', 'figure 5 and suuplemental figure 1', 'suuplemental figure s4'	3				
+413	s	'figure 2, 3, 4, table 1, figures s-1 and s-2', 'figure 2, 3, 4, tables 1 and 2, figures s-1 and s-2', 'figure 2r, s', 'figure 4, supplementary figure s-4', 'figure 4, tables s-6, s-7 and pdb 6bxp', 'figure 4, tables s-6, s-7 and pdb 6bxq', 'figure 5, supplementary figure s-4', 'figure 7 and tables 3 and s-2'	8				
+414	previous	'figure 2, previous reference', 'figure 4, previous references', 'previous author publication', 'previous publication, pdb 2osl', 'previous reference.', 'text, previous reference'	6				
+415	s3d	'figure 2, s1, s2, table s3d and pdb 6utk', 'figure 2, table s3d and pdb 6utk', 'figure s3d', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c'	6				
+416	s14	'figure 2, s4, s14 and table s1', 'figure 4, table s7, figures s13, s14 and pdb 5m63', 'figure 5 and s14', 'figure 6, supplementary figures s2, s3, s4, s5, s11, s13, s14, s15', 'figure s14', 'figure s14, table s2 and pdb 7si2', 'figure s4-p,table s14', 'figures 1, 3 and s14', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23'	9				
+417	sup	'figure 2, sup figures iv, v'	1				
+418	supl	'figure 2, supl fig 2', 'figure 2, supl fig 6', 'figure 3, supl fig 1', 'supl fig 3', 'supl table 1'	5				
+419	cs	'figure 2, supplementary table 1, cs supplemental table 1 and pdb 6cyf'	1				
+420	v2	'figure 2, table s1 and pdb 5vcj (v2.0)'	1				
+421	s12	'figure 2, table s12', 'figure 2,tables s2, s12', 'figure 3, s9, s10, s11, s12, table s6, s7, and pdb 4fqi', 'figure 4 and tables s7, s8, and s12', 'figure 4, table s12', 'figure 5 and s12', 'figure 6 and s12', 'figure 8d and s12 fig.', 'figure s12', 'figure s12 and pdb 7wd9, 7wdf, and 7wd8', 'figure s2 and s12'	11				
+422	s4b	'figure 2, table s4b, s5 and pdb 6mqc', 'figure 2, table s4b, s5 and pdb 6mqe', 'figure s3 and table s4b', 'figure s4a, s4b, 5 and table 1', 'figure s4b', 'figures 3b, 3d, s4b, s4d', 'table s4b and pdb 6mqm', 'table s4b and pdb 6mqr', 'table s4b and pdb 6mqs', 'table s4b and pdb 6n16'	10				
+423	7c	'figure 2, table s6, s7a, 7b, 7c, 7d and pdb 3se9', 'figure 3g, 7c', 'figure 5d, 6d, 7c', 'figure 7a, 7c', 'figure 7c', 'figure 7c,d', 'figures 1, 2, 3, 4b, 7c', 'figures 1, 7c and 8', 'figures 1e, 7c', 'figures 3 and 7c', 'figures 3, 5b and 7c', 'figures 3, 5b, 7c and 10', 'figures 4f, 5g, 6d, and 7c'	13				
+424	s7a	'figure 2, table s6, s7a, 7b, 7c, 7d and pdb 3se9', 'figures 2, 3, 4, 6b, fig. s2, s7a, tables 1 and 2', 'figures 2, 6b, s7a ,s2, tables 1 and 2', 'supplementary figure s7a'	4				
+425	7d	'figure 2, table s6, s7a, 7b, 7c, 7d and pdb 3se9', 'figure 7d', 'figure 7d,e', 'figure 7d-f', 'figures 1, 2, 3, 5, and 7d', 'figures 1, 2, 5, and 7d', 'figures 7a and 7d', 'figures 7b, 7d', 'figures 7d and 8e', 'figures 7d and s5'	10				
+426	ppdb	'figure 2, tables 1, 2 and ppdb 5xj3'	1				
+427	s8a	'figure 2, tables s8a, 8b, 8c, 8d and pdb 3se8'	1				
+428	talbe	'figure 2, talbe 2'	1				
+429	e4566	'figure 2, text p e4566'	1				
+430	2/materials	'figure 2/materials and methods'	1				
+431	14c90	'figure 2a and 2b (14c90)', 'figure 2c (14c90)', 'figure 2d (14c90)'	3				
+432	28b90	'figure 2a and 2b (28b90)', 'figure 2c (28b90)', 'figure 2d (28b90)'	3				
+433	29e90	'figure 2a and 2b (29e90)', 'figure 2d (29e90)'	2				
+434	spplemental	'figure 2a and spplemental figure 1', 'figure 2a and spplemental figure 2', 'figure 2a and spplemental figure 3', 'figure 3a and spplemental figure 5', 'figures 1, 6 and spplemental figure 2'	5				
+435	/	'figure 2a structure 1 / 1b'	1				
+436	2f	'figure 2a, 2f, 3a, 4a', 'figure 2e and 2f', 'figure 2f', 'figure 2f and supplementary figure 4', 'figure 2f and table s4', 'figure 2f, 3', 'figure 2f, table 2', 'figure 2f,k', 'figures 1a, 2f', 'figures 1d, 1f, and 2f', 'figures 2a, 2f and 3', 'figures 2d, 2f', 'figures 2d, 2f, 4, 5b and 5d', 'figures 2e and 2f'	14				
+437	4f	'figure 2b, 2c,2d, 4a,4b, 4f and supplementary figure 3,5, 6', 'figure 4f', 'figure 4f and supplementary figure 3', 'figure 4f and supplementary figure s5', 'figure 4f and supplementary figures s3 and s6', 'figure 4f, g, h', 'figure 4f,g and supplemental fig. 11b', 'figures 1e, 3, 4d and 4f', 'figures 2d, 3d, and 4f'	9				
+438	s9a	'figure 2c and s9a', 'figure 3a and s9a'	2				
+439	3e	'figure 2d, figure 3e, figure 6d', 'figure 3b and 3e', 'figure 3b, 3e', 'figure 3b, 3e, 4', 'figure 3b,3c,3d,3e, table ii, figure 4', 'figure 3d and 3e', 'figure 3d, 3e', 'figure 3e and 5', 'figure 3e and s1', 'figure 3e and table 3', 'figure 3e, 3f', 'figure 3e, and table 3', 'figure 3e, table 2', 'figure 3e,d'	14				
+440	2g	'figure 2g', 'figure 2g and s2k', 'figures 2g and 4d', 'figures 2g and s2'	4				
+441	s2k	'figure 2g and s2k', 'figure s2k', 'figure s2k,s3,', 'figures 2f and s2k', 'figures s1b, 2e, 2f, and s2k'	5				
+442	2i	'figure 2i', 'figures 2h and 2i'	2				
+443	2j	'figure 2j', 'figures 1 and 2j'	2				
+444	2m	'figure 2m-n'	1				
+445	n	'figure 2m-n', 'figure 3m-n', 'figure s4-n,table s2', 'figure s6l, m, n', 'n 1', 'n 101', 'n 106', 'n 11', 'n 111', 'n 116', 'n 121', 'n 126', 'n 131', 'n 136', 'n 141', 'n 146', 'n 151', 'n 156', 'n 16', 'n 161', 'n 166', 'n 171', 'n 176', 'n 181', 'n 186', 'n 191', 'n 196', 'n 201', 'n 206', 'n 21'	30				
+446	2p	'figure 2p, q'	1				
+447	q	'figure 2p, q', 'figure 3r-q'	2				
+448	2r	'figure 2r, s'	1				
+449	2sc	'figure 2sc'	1				
+450	dr0402	'figure 3 (dr0402)', 'figures 1 and 3 (dr0402)', 'table 2 (dr0402)'	3				
+451	dr1101	'figure 3 (dr1101)', 'figures 1 and 3 (dr1101)'	2				
+452	dr1301	'figure 3 (dr1301)', 'figures 1 and 3 (dr1301)', 'table 2 (dr1301)'	3				
+453	e6	'figure 3 and e6', 'figure e6', 'figures 3, e6'	3				
+454	ev3	'figure 3 and ev3', 'figure ev3', 'figure ev3 and appendix table s1', 'figures 1, 2 and ev1, ev3', 'figures 1, 2 and ev1, ev3, ev4', 'figures 1, 2, 5, 6, ev2, ev3 and appendix figure s1', 'figures 2, 3, 5, ev3, and ev4', 'figures 3, ev3, appendix figure s5 and table s2 and pdb 7b27', 'figures 3, ev3, appendix table s2 and pdb 7nkt'	9				
+455	pride	'figure 3 and pride id:pxd021755', 'figure 4 and pride id:pxd021755', 'figures 3, 4 and pride id:pxd021755', 'pride database id: pxd035499', 'pride database: pxd020614', 'pride database: pxd023545'	6				
+456	pxd021755	'figure 3 and pride id:pxd021755', 'figure 4 and pride id:pxd021755', 'figures 3, 4 and pride id:pxd021755'	3				
+457	supplememtal	'figure 3 and supplememtal figure 1'	1				
+458	supplementaary	'figure 3 and supplementaary table 2', 'figures 2, 3, supplementaary figures 2 and 3'	2				
+459	digital	'figure 3 and supplemental digital content 1'	1				
+460	content	'figure 3 and supplemental digital content 1'	1				
+461	3s1	'figure 3 and supplemental figure 3s1'	1				
+462	figurse	'figure 3 and supplementary figurse s2, s8 and s11', 'figurse 4 and 5', 'figurse 4 and 6'	3				
+463	video	'figure 3 and supplementary video 1', 'figure 3, figure 3 supplement 1, video 1, table 2 and pdb 5viy', 'figures 3, 5, 6, 7, figure 3 supplement 1 and 2, video 1, table 2 and pdb 5viy'	3				
+464	supplementay	'figure 3 and supplementay tables s2 and s3', 'figures 1 and 2 and supplementay table s3', 'figures 1, 2, and 4 and supplementay table s3', 'figures 3, 4, and 5 and supplementay tables s2 and s3', 'supplementay figure 3'	5				
+465	supplementray	'figure 3 and supplementray table 5', 'supplementray figure 2 and supplementray table 4', 'supplemetary figure 3 and supplementray table 6', 'table 2, figures 1 and 2 and supplementray table 3'	4				
+466	tabl1	'figure 3 and tabl1 1'	1				
+467	p328	'figure 3 and text page p328'	1				
+468	garoff	'figure 3 from garoff et al (1980)', 'garoff et al. (1980) nature 288:236'	2				
+469	nad	'figure 3 nad s3', 'figures 3 nad 6'	2				
+470	able	'figure 3, able 3'	1				
+471	also	'figure 3, also figures 2 and 4', 'figure 3, also figures 2, 4 and 5'	2				
+472	vapalahti	'figure 3, reference vapalahti et al., 1992'	1				
+473	sfigure	'figure 3, sfigure 2'	1				
+474	figures1	'figure 3, supplemental figures1, table 1 and pdb 5oqh', 'figures1 and 2', 'figures1 and 4', 'figures1 and 5', 'figures1, 2 and tables 7, 8', 'figures1, 2, 3, and s5 and table 1', 'figures1, 2, and 3, table iii', 'figures1, 4, and s1', 'figures1, table 2.', 'figures1-4, 6, table ii', 'table 1, figures1, 2, 3, 5 and 6'	11				
+475	n1a	'figure 3, supplementary figure 4, supplementary table 4 and pdb 7 n1a'	1				
+476	s4a	'figure 3, tables 1, s4a, s5, and pdb 7ued', 'figure s4a', 'figure s4a, s4b, 5 and table 1', 'figures s3a and s4a', 'figures s4a, s4c', 'suppl figure s4a'	6				
+477	e5832	'figure 3, text page e5832, and pdb 5kw9'	1				
+478	left	'figure 3a (left panel)'	1				
+479	panel	'figure 3a (left panel)'	1				
+480	group	'figure 3a group 1', 'figure 3a group ii', 'table i (group a), table ii (groups a and c), table iii (group c)', 'table i (group b), table iii (group b)', 'table i (group c)', 'table iii (group a)', 'table iv (group c)', 'table iv (group d)'	8				
+481	figure3b	'figure 3a, figure3b, supplemental figure 1'	1				
+482	4e	'figure 3b,3c,4d,4e', 'figure 4c, 4e', 'figure 4e', 'figure 4e and 5', 'figure 4e and supplementary figure s5', 'figure 4e, 5', 'figure 4e,f', 'figure 4e,f,g', 'figure 4e-f', 'figures 1c, 4e, s2, s4 and table 1', 'figures 1d, 2c, 3c, and 4e', 'figures 1d, 3, 4c and 4e', 'figures 2d and 4e', 'figures 3, 4d, 4e, and 5e'	14				
+483	3cd	'figure 3cd and 5'	1				
+484	3g	'figure 3f figure 3g', 'figure 3g figure 3e,f', 'figure 3g, 4', 'figure 3g, 7c', 'figure 3g, and table 3', 'figure 3g,h', 'figure 3g-j'	7				
+485	3h	'figure 3h', 'figure 3h, and table 3'	2				
+486	3i	'figure 3i'	1				
+487	3j	'figure 3j'	1				
+488	3k	'figure 3k', 'figure 3k-l'	2				
+489	l	'figure 3k-l', 'figure 5k, l, 9', 'figure s3-l, table s2'	3				
+490	3m	'figure 3m-n'	1				
+491	3o	'figure 3o-p'	1				
+492	3r	'figure 3r-q'	1				
+493	lane	'figure 4 (lane 3)', 'figure 4 (lane 5)'	2				
+494	s23	'figure 4 and s23', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23', 'material and methods, figure s23', 'table 1 and figures 2 and s23', 'table 1, s1 and figure s23', 'table s23'	6				
+495	supplemenary	'figure 4 and supplemenary file 3', 'supplemenary material, p 15', 'supplemenary table st1', 'supplemenary table st3', 'supplemenary table st4', 'supplemenary table st5'	6				
+496	supplemenratry	'figure 4 and supplemenratry figure 2'	1				
+497	4s2	'figure 4 and supplemental figure 4s2, table 1, and pdb 7lr3', 'figure 4 and supplemental figure 4s2, table 1, and pdb 7lr4', 'figures 1, 2, 3, 4, s1,2s2, 2s4, 4s1, 4s2'	3				
+498	s17	'figure 4 and supplementary figures s16 and s17', 'figure s17', 'figure s17 and s18', 'figure s17 and table s6', 'figure s17, table s4 and pdb 7w71', 'figures 1, 4, s1, s2, s3, s8, s10, s16, s17, s18 and pdb 3j5m', 'figures 1, s1, s17 and table s6', 'figures 1, s16 and s17', 'figures 1, s6, s8, s16 and s17'	9				
+499	supplemetary	'figure 4 and supplemetary table 5', 'figure 5 and supplemetary figure 5', 'figures 1, 2, 5 and supplemetary figure s2 and s6', 'figures 1, 2, supplementary figures 4, 5, 6, 9, 10, supplemetary table 1 and pdb 6e0p', 'supplementary figure 11, supplemetary table 1 and pdb 6e0c', 'supplemetary figure 3 and supplementray table 6'	6				
+500	supplmental	'figure 4 and supplmental table 4'	1				
+501	t	'figure 4 and t ables 1, 2, and 3'	1				
+502	ables	'figure 4 and t ables 1, 2, and 3'	1				
+503	p348	'figure 4 and text p348'	1				
+504	p351	'figure 4 and text p351'	1				
+505	page12	'figure 4 and text page12'	1				
+506	row	'figure 4 bottom row and figure 5', 'figure 4 bottom row, and figure 5', 'figure 4, bottom row'	3				
+507	bottom	'figure 4 bottom row and figure 5', 'figure 4 bottom row, and figure 5', 'figure 4, bottom row'	3				
+508	e9	'figure 4, 6b and e9', 'figure 5, table e9', 'figure 6b and e9'	3				
+509	ev4	'figure 4, ev4 and appendix table s5', 'figures 1, 2 and ev1, ev3, ev4', 'figures 2, 3, 5, ev3, and ev4', 'figures 2, 3, and ev4', 'figures 3, ev4, s3, table s2 and pdb 7p7a'	5				
+510	pdbs	'figure 4, extended data figures 7 and 9, and pdbs 7n2o, 7n2q, and 8cx4', 'figure 4, extended data figures 7 and 9, and pdbs 7n2s, 7n2n, and 7n2r'	2				
+511	s10f	'figure 4, s10f', 'figure s10f', 'figures 4, s10f'	3				
+512	s21	'figure 4, s5, s21, table s1 and pdb 6um7', 'figure s21', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23', 'figures 2, 3, 4, s8, s15, s18, s21 and table s4', 'figures 2, 3, s8, s10, s15, s18, s21 and table s4', 'figures 2, s8, s9, s10, s18, s21 and table s4', 'figures 4, s21 and s22', 'figures 6, s21'	8				
+513	s22	'figure 4, s5, s22, table s1 and pdb 6um6', 'figure 5, figure s22', 'figures 2, 5 and s22', 'figures 2, s16, s22 and table s3', 'figures 3, 4, 5, s12 and s22', 'figures 3, 5, s12 and s22', 'figures 3, s17, s18, s22 and table s2', 'figures 4, s21 and s22', 'figures s15, s19, s20, s21, s22 and table s1'	9				
+514	9d	'figure 4, si figure 9d', 'figure 9b and 9d', 'figures 8c, 8d, 9c and 9d'	3				
+515	n1f	'figure 4, supplementary figure 5, supplementary table 4 and pdb 7 n1f'	1				
+516	cug	'figure 4, supplementary figures 9, 10, 11, supplementary tables 1, 2 and pdb cug'	1				
+517	supptemental	'figure 4, table 2, supptemental figures 3, 4, 5'	1				
+518	andpdb	'figure 4, tables s4, s5 andpdb 7s5q', 'figures 2, 3, 4, supplementary figures 3, 4, supplementary tables 3, 5 andpdb 5ocx', 'figures 2, 3, supplementary figure s6, supplementary tables 2, 3 andpdb 3ns6', 'figures 2, 4, supplementary figure 4, table 2 andpdb 6wez'	4				
+519	4/materials	'figure 4/materials and methods'	1				
+520	fc	'figure 4a, figure fc'	1				
+521	s4c	'figure 4d,e and s4c', 'figure s4c', 'figures s4a, s4c', 'figures s4c and s6'	4				
+522	4g	'figure 4g', 'figure 4g, 5e and 6', 'figure 4g,h', 'figures 1, 2, 4g', 'figures 3e, 4g, 5e, 6 and s1 fig', 'figures 4e, 4f, 4g', 'figures 4e, 4g, 5a, 5b, 5c, 5d, 5f, 5h, 6, 7b and 7f', 'figures 4f and 4g'	8				
+523	4h	'figure 4h', 'figure 4h, s5', 'figure 4h,i,j', 'figures 4d, 4f, 4h, 5c, 5d, and 5e'	4				
+524	4j	'figure 4j', 'figures 2a, 3a and 4j, supplementary table 1', 'figures 2b, 3b and 4j, supplementary table 1'	3				
+525	4m	'figure 4m'	1				
+526	4n	'figure 4n'	1				
+527	4s	'figure 4s', 'figures 2, 3, 4, 5, 2s, and 4s'	2				
+528	article	'figure 5 and article text'	1				
+529	supplementaray	'figure 5 and supplementaray figure 6 and supplementaray table 4', 'figure 5 and supplementaray table 4'	2				
+530	tabls	'figure 5 and supplementary tabls s2, s3 and s4', 'figure 5 and supplementary tabls s2, s3, s4, s5 and s6', 'figures 3, s3, tabls s1 s2, s4 and pdb 7s07', 'figures 3, s3, tabls s1 s2, s4 and pdb 7s1b', 'tabls s1 and pdb 3ma9'	5				
+531	supprting	'figure 5 and supprting figure s4', 'figure 5 and supprting figures s4 and s5', 'figure 5 and supprting figures s4, s6, and s7'	3				
+532	ev5	'figure 5, ev5, appendix table s6 and pdb 8fg0', 'figure 6 and ev5', 'figure ev5 and dataset ev1', 'figures 3 and ev5'	4				
+533	supplement1	'figure 5, figure 5 figure supplement1 and pdb 4m1c'	1				
+534	s15	'figure 5, figure s15', 'figure 6, supplementary figures s2, s3, s4, s5, s11, s13, s14, s15', 'figure s15 and table s1', 'figure s15 and table s4', 'figure s4-p,table s15', 'figures 1, 2, 4, 5, s2, s6, s7, s8, s11, s15, tables s1, s2, s3, s4, s12, s13 and pdb 3ngb', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23'	7				
+535	web	'figure 5, table 2 and web table 1', 'figures 2, 3, 5, tables 1, 2, web tables 1, 2 and pdb 1fo0', 'figures 3 and 5, table 2 and web table 1'	3				
+536	pages	'figure 5, text (pages 64-5)', 'figure 8, pages 3, 4, and 6', 'figure and table, pages 137-138', 'figures 1, 2, s2, and s4, pages 6 and 8', 'figures 8 and s3, pages 5 and 6', 'figures s2 and s4, pages 3, 4, 6, and 8', 'pages 120-121', 'pages 138-139', 'pages 3, 4, and 8, figure 5', 'pages 534 and 536'	10				
+537	sample	'figure 5a, sample 1', 'figure 5a, sample 3'	2				
+538	5f	'figure 5e, 5f', 'figure 5e, 5f, 6d, 6e', 'figure 5f', 'figure 5f and supplementary figure 2d', 'figure 5f,g', 'figures 4a, 5a, 5b, 5c, and 5f', 'figures 4e, 4g, 5a, 5b, 5c, 5d, 5f, 5h, 6, 7b and 7f', 'figures 5e and 5f', 'figures 5e, 5f, 5g', 'figures 5f and 5g', 'figures 5f and 5h'	11				
+539	6e	'figure 5e, 5f, 6d, 6e', 'figure 6d and supplementary figure 6e', 'figures 1, 6c and 6e.', 'figures 1d, 6e', 'figures 2b, 6e', 'figures 4, 6e,f and 7', 'figures 6b and 6e', 'figures 6e, f and s12', 'table 2, figure 6e, figure 7, table 8'	9				
+540	5g	'figure 5g', 'figure 5g, 5i', 'figure 5g,h', 'figures 2c,d and 5g', 'figures 3a, 3d, 4a, 4d, and 5g', 'figures 4f, 5g, 6d, and 7c', 'figures 5a, 5b, 5e, 5g', 'figures 5a, 5b, 5g', 'figures 5d and 5g', 'figures 5e, 5f, 5g', 'figures 5f and 5g'	11				
+541	5i	'figure 5g, 5i', 'figure 5i', 'figures 3c, 3f, 4c, 4f, and 5i'	3				
+542	5h	'figure 5h', 'figure 5h and supplemental figure 4', 'figures 2b and 5h', 'figures 3b, 3e, 4b, 4e, and 5h', 'figures 4e, 4g, 5a, 5b, 5c, 5d, 5f, 5h, 6, 7b and 7f', 'figures 5f and 5h', 'figures 5h and 6 h,i'	7				
+543	5j	'figure 5j', 'figure 5j, k'	2				
+544	5k	'figure 5k, l, 9'	1				
+545	5s	'figure 5s'	1				
+546	proof	'figure 6 and note added in proof'	1				
+547	added	'figure 6 and note added in proof'	1				
+548	6s1	'figure 6 and supplemental figures 2s1 and 6s1'	1				
+549	2s1	'figure 6 and supplemental figures 2s1 and 6s1'	1				
+550	tabe	'figure 6, figures s3, tabe si', 'tabe s1', 'tabe s3', 'tabe s3, figure s3'	4				
+551	6g	'figure 6a, 6g', 'figure 6g', 'figure s7, 6g', 'figures 4a, 6g, 8c and 8g', 'figures 6a 6c and 6g', 'figures 6a, 6g'	6				
+552	frame	'figure 6a, frame d', 'figure 6a, frame h', 'figure 6b, frame d', 'figure 6b, frame h'	4				
+553	frames	'figure 6a, frames b and c', 'figure 6a, frames e and g', 'figure 6a, frames f and g', 'figure 6b, frames b and c', 'figure 6b, frames e and g', 'figure 6b, frames f and g'	6				
+554	6f	'figure 6f', 'figure 6f and supplementary table s5', 'figure 6f, figure 7', 'figure 6f, figure 7 and table 2', 'figures 2a,c, 4b,c, 6f', 'figures 2a,c, 4b,c, s4, 5, 6f', 'figures 3c, 6f, supplementary figures 10e, 11c, 15e, and 17b'	7				
+555	6h	'figure 6h', 'figure 6h, supplementary figure 6d', 'figure 6h, supplementary figure s6e'	3				
+556	s6e	'figure 6h, supplementary figure s6e', 'figures 1, 6, s6, tables s2, s6e and pdb 4ydi', 'pdb 4ydi and table s6e'	3				
+557	6i	'figure 6i'	1				
+558	6j	'figure 6j'	1				
+559	6k	'figure 6k'	1				
+560	6l	'figure 6l'	1				
+561	s6g	'figure 6m, s6g', 'figure s6g', 'figures 1, 6, s6, tables s2, s6g and pdb 4rwy', 'pdb 4rwy and table s6g'	4				
+562	6m	'figure 6m, s6g'	1				
+563	6n	'figure 6n'	1				
+564	6s	'figure 6s'	1				
+565	anf	'figure 7 anf table s1'	1				
+566	figure1	'figure 7, supplementary figure1, and supplementary table 2', 'figure1 and table 1', 'figure1, 2, table 1 and pdb 2dbl', 'figure1, 2a and table 1', 'figure1, table 1', 'figure1, table 1 and pdb 1dbj', 'figure1,table3', 'supplementary table 1 and figure1', 'tables 1, 2 and figure1'	9				
+567	7e	'figure 7e', 'figure 7e,f', 'figures 1b, 4b, 5, 6, 7a, 7b, 7e, 7f', 'figures 6 and 7e', 'figures 7e and 8c'	5				
+568	7f	'figure 7f', 'figure 7f and 9', 'figure 7f,g', 'figure 7f,h', 'figures 1, 6d, supplemental figure 1 and figure 7f', 'figures 1b, 4b, 5, 6, 7a, 7b, 7e, 7f', 'figures 4e, 4g, 5a, 5b, 5c, 5d, 5f, 5h, 6, 7b and 7f'	7				
+569	7g	'figure 7g', 'figure 7g,h', 'figures 4d, 7g'	3				
+570	7i	'figure 7i', 'figure 7i, s7', 'figures 7h and 7i', 'figures 4e, 7i', 'figures 7i, 8c,d,e,f, supporting information fig. 3c'	5				
+571	7j	'figure 7j, s7', 'figures 7j and 7k'	2				
+572	sypplementary	'figure 8 and sypplementary figure s6'	1				
+573	supplamental	'figure 8, supplamental figure 2', 'figures 5, 6, supplamental figure 1', 'supplamental figure 3'	3				
+574	8a	'figure 8a', 'figure 8a,b', 'figure 8a-c', 'figures 1, 2a 6a-e, 8a and 8e', 'figures 1, 3, 7, 8a, and 9a', 'figures 1a and 8a', 'figures 2, 4a, 8a, and 8b', 'figures 2, 8a, and 8b', 'figures 2a and 8a', 'figures 3a, 5a, and 8a', 'figures 4b and 8a', 'figures 5a, 5d, 6a, 7a, 8a', 'figures 5b, 8a', 'figures 7a and 8a,b, supplementary fig 1'	14				
+575	8e	'figure 8e', 'figures 1, 2a 6a-e, 8a and 8e', 'figures 4, 5, 8e and supplemental figures 3, 4', 'figures 7d and 8e', 'figures 8b and 8e', 'figures 8c, 8d, and 8e', 'table 1, figures 3 and 8e'	7				
+576	8f	'figure 8f', 'figure 8f-h, 9a-b', 'supplementary figure 8f'	3				
+577	8g	'figure 8g', 'figure 8g and s3', 'figures 4a, 6g, 8c and 8g'	3				
+578	8h	'figure 8h', 'figures 8h, 8i, 9g and 9h'	2				
+579	8i	'figure 8i', 'figures 8h, 8i, 9g and 9h', 'supplementary figure 8i'	3				
+580	8j	'figure 8j', 'figures 3, 6 and 8j', 'figures 8j and 9i'	3				
+581	8k	'figure 8k', 'figures 8k and 9j'	2				
+582	8l	'figure 8l', 'figures 8l and 9k'	2				
+583	9c	'figure 9c', 'figure 9c,d', 'figures 1b and 9c', 'figures 8c, 8d, 9c and 9d', 'figures 9b and 9c', 'table 4 and figure 9c,d'	6				
+584	9e	'figure 9e', 'figures 8a,c,d,e,f and 9e,f', 'results page 7 and figure 9e,f'	3				
+585	a4	'figure a4'	1				
+586	andtable	'figure andtable 2'	1				
+587	e7	'figure e4 and e7'	1				
+588	e5	'figure e5', 'figures 1, e1, e5', 'figures 7, e4 and e5', 'table e5', 'table e5, figure 6'	5				
+589	e8	'figure e8'	1				
+590	k1	'figure k1,s1'	1				
+591	s10d	'figure s10d', 'figures 4, s10d'	2				
+592	s10e	'figure s10e'	1				
+593	s19	'figure s19', 'figures 1, s3, s8, and s19', 'figures 3, 7, s5, s8, s19, and s20', 'figures 1, 2, s3, s4, s6, s7, s11, s16, s19, tables s1, s2 and pdb 7uot', 'figures 1, 2, s3, s4, s6, s7, s11, s19, tables s1, s2 and pdb 7uot', 'figures 1, 4, s2, s3, s5, s6, s7, s11, s16, s19, tables s1, s2 and pdb 7uov'	6				
+594	s1d	'figure s1d', 'figures 6, 7 and tables s1d, s1e, s1f', 'table i and supplementary figure s1d', 'table s1d'	4				
+595	s1e	'figure s1e', 'figure s1e, f', 'figures 6, 7 and tables s1d, s1e, s1f', 'table i and supplementary figure s1e'	4				
+596	s20	'figure s20', 'figures 3, 7, s5, s8, s19, and s20', 'figures 1, 6, tables s2, s3, s4 and s20', 'figures 3, 7, s8, and s20', 'figures 6, s20', 'figures 6, s5, table s20', 'figures s15, s19, s20, s21, s22 and table s1', 'figures s19 and s20', 'table 1 and figures 2 and s20', 'tables s2 and s20'	10				
+597	s2e	'figure s2c, s2e', 'figure s2e', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c', 'supplemental figure s2e'	6				
+598	s2f	'figure s2f', 'figures 1, 4, tables 2, s2a, s2b, s2c, s2d, s2e, s2f', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c', 'supplemental figure s2f'	5				
+599	s2r	'figure s2r'	1				
+600	s3c	'figure s3c', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'suppl figures s3c', 'supplementary figure s3c', 'supplementary figures s3c'	5				
+601	m	'figure s4-m, table s2', 'figure s6l, m, n', 'figures 1g,h,m, 4, and 5', 'm 1', 'm 101', 'm 106', 'm 11', 'm 111', 'm 116', 'm 121', 'm 126', 'm 131', 'm 136', 'm 141', 'm 146', 'm 151', 'm 156', 'm 16', 'm 161', 'm 166', 'm 171', 'm 176', 'm 181', 'm 186', 'm 191', 'm 196', 'm 201', 'm 206', 'm 21'	29				
+602	o	'figure s4-o,table s2'	1				
+603	s5a	'figure s5a', 'figure s5a, 4b, and 6b', 'figure s5a, table s2', 'figure s5a-d', 'figures 3, s5a, 4b, and 6b', 'figures 3b, 4b and s5a', 'supplementary s5a'	7				
+604	s5b	'figure s5b', 'figure s5b, table s3', 'figures 1a, 1c, 2b, s5b, 6b', 'figures 5b and s5b', 'figures 5b, s5b', 'supplementary figure s5b,c'	6				
+605	s5c	'figure s5c', 'figure s5c, table s4', 'figures 5c, s5c', 'supplementary figure s3 and s5c'	4				
+606	s5d	'figure s5d'	1				
+607	s5e	'figure s5e', 'figure s5e-g'	2				
+608	s5f	'figure s5f'	1				
+609	s5g	'figure s5g'	1				
+610	s5h	'figure s5h', 'figures s5h and s5i'	2				
+611	s3e	'figure s6, table s3e and pdb 6v6w', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f'	2				
+612	s6a	'figure s6a', 'figure s6a, s7', 'figures 1, s6, tables s2, s6a and pdb 4ye4', 'pdb 4ye4 and table s6a'	4				
+613	s6d	'figure s6d', 'figures 1, s6, tables s2, s6d and pdb 4ydl', 'pdb 4ydl and table s6d', 'supplementary figure s6d'	4				
+614	s6f	'figure s6f', 'figures 1, 6, s6, tables s2, s6f and pdb 4yfl', 'pdb 4yfl and table s6f'	3				
+615	s6l	'figure s6l, m, n'	1				
+616	s7b	'figure s7b', 'figure s7b,c', 'figures 6b, 7a, s7b, and 8', 'figures s7b, s8', 'supplementary figure s7b'	5				
+617	s7c	'figure s7c', 'figures 2 and s7c'	2				
+618	s7d	'figure s7d, figure s8'	1				
+619	table3	'figure1,table3', 'figures 2, 3, table 2 and table3', 'table3, figure 1', 'text page-152,table3'	4				
+620	figure2	'figure2', 'figure2 1b, 2', 'figure2, supplementary figures 3 and 4, and supplementary table 2', 'supplementary table 1 and figure2'	4				
+621	figure3	'figure3', 'supplementary table 1 and figure3', 'table 2 and figure3', 'table2,figure3', 'text p.1059 and figure3'	5				
+622	figure4	'figure4', 'supplementary table 1 and figure4'	2				
+623	figure5	'figure5 c', 'supplementary table 1 and figure5', 'table 2 and figure5'	3				
+624	figure6	'figure6,7,8', 'supplementary table 1 and figure6'	2				
+625	figure7	'figure7, 9 and 10', 'supplementary table 1 and figure7', 'table 3 and figure7'	3				
+626	figurea	'figurea 3 and 4', 'figurea 4, 5'	2				
+627	sc	'figurees 1, 2, 3, 4, 5, 6, sa, sb, and sc'	1				
+628	sb	'figurees 1, 2, 3, 4, 5, 6, sa, sb, and sc'	1				
+629	figurees	'figurees 1, 2, 3, 4, 5, 6, sa, sb, and sc'	1				
+630	sa	'figurees 1, 2, 3, 4, 5, 6, sa, sb, and sc'	1				
+631	ad	'figures 1 ad 3', 'figures 4 ad 6', 'figures 5 ad 6'	3				
+632	t8	'figures 1 and 2 and table t8', 'tables 1 and t8'	2				
+633	3s	'figures 1 and 3s', 'figures 1, 2 and 3s', 'figures 1, 2, 1s and 3s'	3				
+634	esm2	'figures 1 and esm2'	1				
+635	abd	'figures 1, 2 and 4, supplementary figures s2, s3, s4, and s6, abd tables s1 and s3', 'figures 1, 2, 3, 4, abd 5, table ii', 'figures 1b abd 3b', 'figures 5 and 6 abd table 2', 'supplemental figures 1 abd 2', 'table 2 abd figure 3a'	6				
+636	datas1	'figures 1, 2, 3 4, s1, s2, s3, table 1, datas1', 'supplemental datas1 and s5'	2				
+637	datas2	'figures 1, 2, 3 4, s1, s2, s3, table 1, datas2'	1				
+638	supplementry	'figures 1, 2, 3, 4, 5, table 2, supplementry figures 2 and 3, supplementary tables 1 and 2 and 2cmr'	1				
+639	2s2	'figures 1, 2, 3, 4, s1,2s2, 2s4, 4s1, 4s2'	1				
+640	2s4	'figures 1, 2, 3, 4, s1,2s2, 2s4, 4s1, 4s2'	1				
+641	4s1	'figures 1, 2, 3, 4, s1,2s2, 2s4, 4s1, 4s2', 'figures 4, 6, and supplemental figure 4s1'	2				
+642	a3	'figures 1, 2, 3, 6, a3', 'figures 1, 2, 3, a2, a3', 'figures 1, 6, a3', 'figures 1, a3', 'supplementary fig s2 a2,a3,b2,c2'	5				
+643	a2	'figures 1, 2, 3, a2, a3', 'figures 1, 4, and a2', 'supplementary fig s2 a2,a3,b2,c2'	3				
+644	suplementary	'figures 1, 2, and 3, tables 1, 2, and 3, supplementary figure 2, and suplementary tables 2 and 3', 'figures 2, 3, 4, and 5 and suplementary figures s5 and s6', 'figures 2a, 3a and suplementary figure 3', 'suplementary figure s1', 'table 1 and suplementary figure 2', 'table 1 and suplementary figure 4'	6				
+645	ngw	'figures 1, 3, 4, table 1 and pdb 1 ngw'	1				
+646	5wm	'figures 1, 3, s1, s2, s3, s6, tables s1, s2 and pdb 5wm'	1				
+647	s3f	'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f'	1				
+648	suuplementary	'figures 1, 6 and suuplementary figure 1'	1				
+649	aditional	'figures 1, 6, aditional file 1, table 1'	1				
+650	s6b	'figures 1, 6, s6, tables s2, s6b and pdb 4ydj', 'pdb 4ydj and table s6b'	2				
+651	s6c	'figures 1, 6, s6, tables s2, s6c and pdb 4ydk', 'pdb 4ydk and table s6c'	2				
+652	s6h	'figures 1, 6, s6, tables s2, s6h and pdb 4rx4', 'figures s6h and s6i', 'pdb 4rx4 and table s6h'	3				
+653	10f	'figures 10b, 10d and 10f', 'figures 10e and 10f'	2				
+654	adn	'figures 1b adn 4c', 'figures 3b adn 4a', 'table 3 adn figure 7'	3				
+655	supportin	'figures 1b, 1c, 2b, 5a, 6a and supportin information figure 2', 'figures 1d, 5b and supportin information figure 2'	2				
+656	s2g	'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c'	2				
+657	s2h	'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c'	2				
+658	s2j	'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d'	1				
+659	s2i	'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c'	2				
+660	and3	'figures 2 and3'	1				
+661	2s	'figures 2, 3, 4, 5, 2s, and 4s', 'figures 2, 5, and 2s', 'table 2s'	3				
+662	st10	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+663	sf1	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+664	sf2	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'tables 1, 2 , s1, figure 2a, 3, sf2', 'tables 1, 2 , s1, figure 3, sf2', 'tables 2 , s1, figure 3, sf2'	4				
+665	st7d	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+666	st6	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+667	sf6	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 3, sf5, sf6', 'figures 3, sf5, sf6, sf7, sf8, sf9, sf10'	3				
+668	sf5	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 3, sf5, sf6', 'figures 3, sf5, sf6, sf7, sf8, sf9, sf10'	3				
+669	st5	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'supplemenary table st5'	2				
+670	st8	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+671	sf4	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+672	sf3	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1				
+673	2tables	'figures 2, 3, 4, 5, table 2tables s1, s3, s4 and pdb 7rm4'	1				
+674	ia	'figures 2, 3, 4, table ia, ib and pdb 1a3r', 'tables ia, 1b', 'tables ia, 1b, 1c', 'tables ia, 1c', 'tables ia, ii, iii, iv, v, and viii'	5				
+675	ib	'figures 2, 3, 4, table ia, ib and pdb 1a3r'	1				
+676	image	'figures 2, 3, image 1, 3'	1				
+677	videos	'figures 2, 4, 5, and 6, supplementary figure 1, videos s1-s3'	1				
+678	supplementery	'figures 2, 4, supplementery figure s3'	1				
+679	s2and	'figures 2, 5, 6, supplementary figures s1, s2and s6'	1				
+680	snd	'figures 2a, 3, 7, supplementary figures 3 snd 6', 'figures 5, 6, s2 snd tables s5 and s7'	2				
+681	anad	'figures 2b anad 2d'	1				
+682	supplemantary	'figures 3, 4 and supplemantary figure 1', 'supplemantary table s2'	2				
+683	spporting	'figures 3, 4, and 5 and spporting information figure s3'	1				
+684	spplementary	'figures 3, 4, spplementary figures 1, 6, tables s1 and s3', 'figures 3, 4, spplementary figures 8, 9, tables s1 and s2', 'table ii, figure 6 and spplementary figure 3'	3				
+685	n7m	'figures 3, 4, table 1 and pdb 1 n7m'	1				
+686	5wf	'figures 3, 4, table 2, supplementary figure 3, supplementary table 4 and pdb 5wf'	1				
+687	si9	'figures 3, 4, table si9 and pdb 5dfv', 'figures 3, 4, table si9 and pdb 5dfw', 'figures 3, 5, table si9 and pdb 5dmg'	3				
+688	s10b	'figures 3, 5, 6 and s10b'	1				
+689	s10a	'figures 3, s3 and table s10a'	1				
+690	sf7	'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figures 3, sf7, sf8', 'supplementary figure sf7'	3				
+691	sf10	'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figures 3, sf9, sf10'	2				
+692	sf9	'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figures 3, sf9, sf10'	2				
+693	sf8	'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figures 3, sf7, sf8'	2				
+694	s4d	'figures 3b, 3d, s4b, s4d', 'suppl figure s4d', 'supplementary figure s4d'	3				
+695	17b	'figures 3c, 6f, supplementary figures 10e, 11c, 15e, and 17b'	1				
+696	15e	'figures 3c, 6f, supplementary figures 10e, 11c, 15e, and 17b'	1				
+697	s4e	'figures 3e, s4e'	1				
+698	informatin	'figures 4 and 5 and supporting informatin table s1'	1				
+699	yables	'figures 4, 5, 6, 7, 8, supplementary figures 5, 7, 8, supplementary yables 1, 2'	1				
+700	8deeu	'figures 4, 5, 6, data s1, table s3, s4, s5 and pdb 8deeu'	1				
+701	s30	'figures 4, s28, s29, s30, table s4 and pdb 5cws', 'material and methods, figure s30', 'supporting information s30', 'table 1, s1 and figures s24-s30', 'table s30'	5				
+702	s28	'figures 4, s28, s29, s30, table s4 and pdb 5cws', 'figures 5, s26, s27, s28 and table s5', 'material and methods, figure s28', 'supporting information s28', 'table s28'	5				
+703	s29	'figures 4, s28, s29, s30, table s4 and pdb 5cws', 'material and methods, figure s29', 'supporting information s29', 'table s29'	4				
+704	movie	'figures 5 and s4 and movie 1', 'figures 5, s4 and movie 1 and 2'	2				
+705	s27	'figures 5, s26, s27, s28 and table s5', 'material and methods, figure s27', 'supporting information s27', 'table s27'	4				
+706	s26	'figures 5, s26, s27, s28 and table s5', 'material and methods, figure s26', 'supporting information s26', 'table 1 and figures 2 and s26', 'table s26', 'tables 1, 2, s1, s2, s7 and figures s3, s13, s25, s26', 'tables 1, 2, s2, s7 and figures s3, s13, s25, s26'	7				
+707	supplemtary	'figures 6 and supplemtary figure 1', 'figures 6, supplemtary figures 1 and 4'	2				
+708	supplemetal	'figures 6, 7, 8 and supplemetal figures 5 and 6', 'supplemetal figure 2', 'supplemetal figure 5'	3				
+709	supple	'figures 6, 7, 9, supple figure 1'	1				
+710	a6	'figures 6, 7, and a6'	1				
+711	mpe8	'figures 6, s6, table s4 and pdb mpe8'	1				
+712	tabless1	'figures 6, s6, tabless1, s3 and pdb 7v3g', 'tabless1 and s2'	2				
+713	refinement	'figures 7, 8, supporting information-data collection and refinement statistics and pdb 6mj6', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6miv', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mja', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mjj'	4				
+714	collection	'figures 7, 8, supporting information-data collection and refinement statistics and pdb 6mj6', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6miv', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mja', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mjj'	4				
+715	statistics	'figures 7, 8, supporting information-data collection and refinement statistics and pdb 6mj6', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6miv', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mja', 'figures 8, 11, supporting information-data collection and refinement statistics and pdb 6mjj'	4				
+716	7k	'figures 7j and 7k'	1				
+717	9h	'figures 8h, 8i, 9g and 9h'	1				
+718	9g	'figures 8h, 8i, 9g and 9h'	1				
+719	9i	'figures 8j and 9i'	1				
+720	9j	'figures 8k and 9j'	1				
+721	9k	'figures 8l and 9k'	1				
+722	8m	'figures 8m, 8n, 9l, and 9m'	1				
+723	9l	'figures 8m, 8n, 9l, and 9m'	1				
+724	9m	'figures 8m, 8n, 9l, and 9m'	1				
+725	8n	'figures 8m, 8n, 9l, and 9m'	1				
+726	s1k	'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d', 'figures s1k, s1l'	2				
+727	s1h	'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d'	1				
+728	s1j	'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d'	1				
+729	s1l	'figures s1h, s1j, s1k, s1l, 1h, 1i, 1j, 1k, s2b, 3c, and 3d', 'figures s1k, s1l'	2				
+730	s5i	'figures s5h and s5i'	1				
+731	s5j	'figures s5j and s5k'	1				
+732	s5k	'figures s5j and s5k'	1				
+733	s6i	'figures s6h and s6i'	1				
+734	s6k	'figures s6j and s6k'	1				
+735	s6j	'figures s6j and s6k'	1				
+736	figures1and	'figures1and 5'	1				
+737	figures3	'figures3, 4, 5, and 6'	1				
+738	figures4	'figures4 and 5'	1				
+739	figures5	'figures5, 6, 7, and s6'	1				
+740	figuress	'figuress 3, 4, 5, tables iii, iv, v'	1				
+741	figurs	'figurs 1, 2, 3 and table 2', 'figurs 2, 4 and table 2', 'figurs 2a and 4', 'figurs s3 and s5'	4				
+742	figuure	'figuure 1a'	1				
+743	fiigure	'fiigure 6'	1				
+744	findings	'findings', 'principal findings'	2				
+745	fiugre	'fiugre 2'	1				
+746	footnote	'footnote 3 on p 13225', 'footnote page 1381', 'table 3 footnote and text'	3				
+747	footnotes	'footnotes, page 14874'	1				
+748	fugre	'fugre 4b'	1				
+749	fugure	'fugure 2', 'fugure 3'	2				
+750	fugures	'fugures 1, 2 and 5'	1				
+751	galibert	'galibert et al (1979)'	1				
+752	mtb32	'gap peptie mtb32 309-318'	1				
+753	peptie	'gap peptie mtb32 309-318'	1				
+754	gap	'gap peptie mtb32 309-318'	1				
+755	nature	'garoff et al. (1980) nature 288:236', 'neurath et al nature (1985)', 'patarroyo et al., nature, 1988'	3				
+756	af127762	'genbank accession af127762'	1				
+757	gi	'gi: 407725', 'gi:2909515', 'table 2 and gi:2905989 (accession af016316)'	3				
+758	gonzalez	'gonzalez et al., parasite immunology, 2000'	1				
+759	parasite	'gonzalez et al., parasite immunology, 2000'	1				
+760	immunology	'gonzalez et al., parasite immunology, 2000'	1				
+761	graphical	'graphical abstract'	1				
+762	imm	'harris et al int imm 1996', 'leclerc et al j. imm (1991)'	2				
+763	harris	'harris et al int imm 1996'	1				
+764	int	'harris et al int imm 1996'	1				
+765	he	'he 176'	1				
+766	l2	'hpv l2 epitope'	1				
+767	hpv	'hpv l2 epitope'	1				
+768	iedb	'iedb reference'	1				
+769	igure	'igure 5b'	1				
+770	both	'in both text and figures.'	1				
+771	by	'inferred by curator', 'provided by a. sette', 'provided by author', 'provided by author, figures 2 and 4', 'provided by author.', 'provided by direct communication with author', 'provided by r. koup', 'supplemental table 1 provided by author'	8				
+772	inferred	'inferred by curator', 'inferred from materials and methods, and genbank: ayn25353.1', 'inferred from table 2', 'sequence inferred from figure 7'	4				
+773	curator	'inferred by curator'	1				
+774	ayn25353	'inferred from materials and methods, and genbank: ayn25353.1'	1				
+775	intoduction	'intoduction', 'intoduction page 1'	2				
+776	intorduction	'intorduction (page 8127)', 'intorduction page 388'	2				
+777	introduction	'introduction', 'introduction p 220', 'introduction (page 1645)', 'introduction (page 292)', 'introduction (page 338)', 'introduction (page 3831)', 'introduction (page 441)', 'introduction and figure 1', 'introduction and figure 4', 'introduction and reference cited', 'introduction and table 3', 'introduction and table iii'	12				
+778	june	'jason 2023 june'	1				
+779	jason	'jason 2023 june'	1				
+780	jasontest	'jasontest', 'jasontest 12/16/22', 'jasontest this morning'	3				
+781	12/16/22	'jasontest 12/16/22'	1				
+782	this	'jasontest this morning'	1				
+783	morning	'jasontest this morning'	1				
+784	10/11/19	'jasontester 10/11/19'	1				
+785	jasontester	'jasontester 10/11/19'	1				
+786	jasontesterloc	'jasontesterloc'	1				
+787	june30	'june30 2023 test'	1				
+788	kar	'kar et al (2000)'	1				
+789	key	'key resource table', 'key resources table', 'star methods key resources table'	3				
+790	resources	'key resources table', 'star methods key resources table'	2				
+791	ktable	'ktable 1'	1				
+792	chem	'lal et al., j. biol. chem. 1987'	1				
+793	lal	'lal et al., j. biol. chem. 1987'	1				
+794	biol	'lal et al., j. biol. chem. 1987'	1				
+795	lambert	'lambert et al., j. virology, 1990'	1				
+796	leclerc	'leclerc et al j. imm (1991)'	1				
+797	legand	'legand of table i'	1				
+798	lghpdtlnqgefkel	'lghpdtlnqgefkel'	1				
+799	lopez	'lopez et al (1994)'	1				
+800	lvdsgaqvsvvhpnl	'lvdsgaqvsvvhpnl'	1				
+801	manufacturer	'manufacturer cited'	1				
+802	vaccine	'martin, et al., vaccine, 23: 2121-2131, 2005.', 'theisen et al., vaccine 2001'	2				
+803	martin	'martin, et al., vaccine, 23: 2121-2131, 2005.'	1				
+804	mat	'mat y meth'	1				
+805	y	'mat y meth'	1				
+806	meth	'mat y meth'	1				
+807	materails	'materails and methods'	1				
+808	method	'material and method', 'materials and method', 'method details', 'method details and table s1'	4				
+809	s100	'material and methods, figure s100'	1				
+810	s101	'material and methods, figure s101'	1				
+811	s24	'material and methods, figure s24', 'table 1 and figures 2 and s24', 'table 1, s1 and figures s24-s30', 'table s24'	4				
+812	s25	'material and methods, figure s25', 'table 1 and figures 2 and s25', 'table s25', 'tables 1, 2, s1, s2, s7 and figures s3, s13, s25, s26', 'tables 1, 2, s2, s7 and figures s3, s13, s25, s26'	5				
+813	s31	'material and methods, figure s31', 'table s1 and fgure s31', 'table s31'	3				
+814	s32	'material and methods, figure s32', 'supporing information table s32', 'supporting information s32', 'table s1 and fgures s32-s33'	4				
+815	s33	'material and methods, figure s33', 'supporting information s33', 'table s1 and fgures s32-s33', 'table s33'	4				
+816	s34	'material and methods, figure s34', 'supporting information s34', 'table s1 and fgures s34-s35', 'table s34'	4				
+817	s35	'material and methods, figure s35', 'supporting information s35', 'table s1 and fgures s34-s35', 'table s35'	4				
+818	s36	'material and methods, figure s36', 'supporting information s36', 'table s1 and fgure s36', 'table s36'	4				
+819	s37	'material and methods, figure s37', 'table s1 and fgures s37-s38', 'table s37'	3				
+820	s38	'material and methods, figure s38', 'table s1 and fgures s37-s38', 'table s38'	3				
+821	s39	'material and methods, figure s39', 'table s1 and fgure s39', 'table s39'	3				
+822	s49	'material and methods, figure s49', 'table s49', 'text p. s49'	3				
+823	s50	'material and methods, figure s50', 'p. s50', 'table s50', 'text p. s50'	4				
+824	s51	'material and methods, figure s51', 'table s51'	2				
+825	s52	'material and methods, figure s52', 'table s52'	2				
+826	s53	'material and methods, figure s53', 'table s53'	2				
+827	s54	'material and methods, figure s54', 'table s54'	2				
+828	s55	'material and methods, figure s55', 'table s55'	2				
+829	s56	'material and methods, figure s56', 'table s56'	2				
+830	s57	'material and methods, figure s57', 'table s57'	2				
+831	s58	'material and methods, figure s58', 'table s58'	2				
+832	s59	'material and methods, figure s59', 'table s59'	2				
+833	s60	'material and methods, figure s60', 'table s60'	2				
+834	s65	'material and methods, figure s65'	1				
+835	s66	'material and methods, figure s66'	1				
+836	s67	'material and methods, figure s67'	1				
+837	s68	'material and methods, figure s68'	1				
+838	s69	'material and methods, figure s69'	1				
+839	s70	'material and methods, figure s70'	1				
+840	s71	'material and methods, figure s71'	1				
+841	s72	'material and methods, figure s72'	1				
+842	s73	'material and methods, figure s73'	1				
+843	s74	'material and methods, figure s74'	1				
+844	s75	'material and methods, figure s75'	1				
+845	s76	'material and methods, figure s76'	1				
+846	s77	'material and methods, figure s77'	1				
+847	s78	'material and methods, figure s78'	1				
+848	s79	'material and methods, figure s79'	1				
+849	s80	'material and methods, figure s80'	1				
+850	s81	'material and methods, figure s81'	1				
+851	s82	'material and methods, figure s82'	1				
+852	s83	'material and methods, figure s83'	1				
+853	s84	'material and methods, figure s84'	1				
+854	s85	'material and methods, figure s85'	1				
+855	s86	'material and methods, figure s86'	1				
+856	s87	'material and methods, figure s87'	1				
+857	s88	'material and methods, figure s88'	1				
+858	s89	'material and methods, figure s89'	1				
+859	s90	'material and methods, figure s90'	1				
+860	s91	'material and methods, figure s91'	1				
+861	s92	'material and methods, figure s92'	1				
+862	s93	'material and methods, figure s93'	1				
+863	s94	'material and methods, figure s94'	1				
+864	s95	'material and methods, figure s95'	1				
+865	s96	'material and methods, figure s96'	1				
+866	s97	'material and methods, figure s97'	1				
+867	s98	'material and methods, figure s98'	1				
+868	s99	'material and methods, figure s99'	1				
+869	experiments	'materials and experiments'	1				
+870	merhods	'materials and merhods'	1				
+871	p529	'materials and methods (p529)'	1				
+872	page104	'materials and methods (page104)'	1				
+873	nih	'materials and methods and nih tetramer core'	1				
+874	core	'materials and methods and nih tetramer core'	1				
+875	tetramer	'materials and methods and nih tetramer core'	1				
+876	spira	'materials and methods spira et al (2000)'	1				
+877	confirmed	'materials and methods, author confirmed sequence'	1				
+878	cytometry	'materials and methods: antibodies and flow cytometry analysis'	1				
+879	analysis	'materials and methods: antibodies and flow cytometry analysis'	1				
+880	flow	'materials and methods: antibodies and flow cytometry analysis'	1				
+881	antibodies	'materials and methods: antibodies and flow cytometry analysis'	1				
+882	immunizations	'materials and methods: tumors and immunizations'	1				
+883	tumors	'materials and methods: tumors and immunizations'	1				
+884	matrials	'matrials and methods (page 1885)'	1				
+885	response	'matsuda e-mail response'	1				
+886	matsuda	'matsuda e-mail response', 'matsuda et al (1999)'	2				
+887	mccarthy	'mccarthy et al j virol 1993'	1				
+888	methids	'methids'	1				
+889	details	'method details', 'method details and table s1', 'methods details'	3				
+890	methodology	'methodology'	1				
+891	patients	'methods and patients', 'patients and methods', 'patients and methods and figure 1', 'patients and methods section', 'patients, materials and methods', 'patients, materials, and methods'	6				
+892	subjects	'methods and subjects', 'subjects and mehtods section', 'subjects and methods', 'subjects, materials and methods', 'subjects, materials, and methods'	5				
+893	m1	'methods supplement m1'	1				
+894	p257	'methods text p257'	1				
+895	p740	'methods text p740'	1				
+896	lines	'methods: cell lines'	1				
+897	cell	'methods: cell lines', 'tnf-a b cell epitope'	2				
+898	peptides	'methods: synthetic peptides', 'proteins and peptides'	2				
+899	synthetic	'methods: synthetic peptides'	1				
+900	methodsa	'methodsa text page 8'	1				
+901	med	'milich et al j exp med 1986. 164: 532', 'milich et al, j exp med 1986 164:532', 'weiss et. al. j. exp. med. (1990)'	3				
+902	exp	'milich et al j exp med 1986. 164: 532', 'milich et al, j exp med 1986 164:532', 'r kammerer clin exp allergy 1997', 'weiss et. al. j. exp. med. (1990)'	4				
+903	jexp	'milich et al, jexp med1986, 164:532'	1				
+904	med1986	'milich et al, jexp med1986, 164:532'	1				
+905	bbrc	'mine et al bbrc 2002'	1				
+906	mine	'mine et al bbrc 2002'	1				
+907	clin	'mitchell et al. (1992) j clin microbio 30:1843', 'r kammerer clin exp allergy 1997'	2				
+908	microbio	'mitchell et al. (1992) j clin microbio 30:1843'	1				
+909	mitchell	'mitchell et al. (1992) j clin microbio 30:1843'	1				
+910	science	'mougneau et al science 268, 563-566', 'neurath et al science (1984)'	2				
+911	mougneau	'mougneau et al science 268, 563-566'	1				
+912	mym	'mym'	1				
+913	natural	'natural ligands of b27 figure'	1				
+914	ligands	'natural ligands of b27 figure'	1				
+915	b27	'natural ligands of b27 figure'	1				
+916	neuer	'neuer assay'	1				
+917	assay	'neuer assay'	1				
+918	neurath	'neurath et al (1986)', 'neurath et al nature (1985)', 'neurath et al science (1984)', 'neurath, et al., proc nat acad sci. 79, 7871-7875, 1982'	4				
+919	nat	'neurath, et al., proc nat acad sci. 79, 7871-7875, 1982'	1				
+920	nisbet	'nisbet at al 1981 pmid: 7016535'	1				
+921	none	'none'	1				
+922	now	'now'	1				
+923	nsp12	'nsp12 4046', 'nsp12 4051', 'nsp12 4056', 'nsp12 4061', 'nsp12 4066', 'nsp12 4071', 'nsp12 4076', 'nsp12 4081', 'nsp12 4086', 'nsp12 4091', 'nsp12 4096', 'nsp12 4101', 'nsp12 4106', 'nsp12 4111', 'nsp12 4116', 'nsp12 4121', 'nsp12 4126', 'nsp12 4131', 'nsp12 4136', 'nsp12 4141', 'nsp12 4146', 'nsp12 4151'	22				
+924	nsp2	'nsp2 126', 'nsp2 251', 'nsp2 256', 'nsp2 261', 'nsp2 266', 'nsp2 271', 'nsp2 276', 'nsp2 281', 'nsp2 286', 'nsp2 291', 'nsp2 296', 'nsp2 301', 'nsp2 306', 'nsp2 311', 'nsp2 316', 'nsp2 321', 'nsp2 326', 'nsp2 331', 'nsp2 336', 'nsp2 341', 'nsp2 346', 'nsp2 351', 'nsp2 356', 'nsp2 361', 'nsp2 366', 'nsp2 371'	26				
+925	nsp3_1	'nsp3_1 1001', 'nsp3_1 1006', 'nsp3_1 1011', 'nsp3_1 1016', 'nsp3_1 1021', 'nsp3_1 1026', 'nsp3_1 1031', 'nsp3_1 1036', 'nsp3_1 1041', 'nsp3_1 1046', 'nsp3_1 1051', 'nsp3_1 1056', 'nsp3_1 1061', 'nsp3_1 1066', 'nsp3_1 1071', 'nsp3_1 1076', 'nsp3_1 1081', 'nsp3_1 1086', 'nsp3_1 1091', 'nsp3_1 1096', 'nsp3_1 1101'	21				
+926	nsp3_2	'nsp3_2 1756', 'nsp3_2 1771', 'nsp3_2 1801', 'nsp3_2 1806', 'nsp3_2 1811', 'nsp3_2 1816', 'nsp3_2 1821', 'nsp3_2 1826', 'nsp3_2 1831', 'nsp3_2 1836', 'nsp3_2 1841', 'nsp3_2 1846', 'nsp3_2 1851', 'nsp3_2 1856', 'nsp3_2 1861', 'nsp3_2 1866', 'nsp3_2 1871', 'nsp3_2 1876', 'nsp3_2 1881', 'nsp3_2 1886', 'nsp3_2 1891'	21				
+927	null	'null'	1				
+928	oftung	'oftung et al, j immunol 1990, 144, 1478-1483'	1				
+929	line	'on line methods'	1				
+930	repository	'online repository'	1				
+931	ono	'ono et al (1983)'	1				
+932	other	'other reference', 'other reference from study authors'	2				
+933	study	'other reference from study authors', 'study design', 'supplemental data-clinical study protocol'	3				
+934	p13285	'p13285'	1				
+935	p184	'p184'	1				
+936	p190	'p190, abstract, table 1'	1				
+937	p30	'p30'	1				
+938	contacted	'p31952 (contacted author)'	1				
+939	p31952	'p31952 (contacted author)'	1				
+940	p453	'p453'	1				
+941	p5	'p5 table 4'	1				
+942	p7o4y	'p7o4y'	1				
+943	farci	'page 14200, farci, et al. 1996', 'table 1, farci et al., 1996', 'table 1, table 2, farci et al., 1996'	3				
+944	epitopes	'page 2668: antigenic epitopes'	1				
+945	antigenic	'page 2668: antigenic epitopes'	1				
+946	participants	'participants, materials and methods'	1				
+947	patarroyo	'patarroyo et al., nature, 1988'	1				
+948	application	'patent application', 'reference cited and patent application'	2				
+949	patent	'patent application', 'reference cited and patent application'	2				
+950	patient	'patient and methods'	1				
+951	pbf	'pbf 5foj and supplementary figure s4'	1				
+952	ngx	'pdb 1 ngx'	1				
+953	g7l	'pdb 1g7h, g7i, g7j, g7l, and g7m'	1				
+954	g7m	'pdb 1g7h, g7i, g7j, g7l, and g7m'	1				
+955	g7i	'pdb 1g7h, g7i, g7j, g7l, and g7m'	1				
+956	g7j	'pdb 1g7h, g7i, g7j, g7l, and g7m'	1				
+957	ijtr	'pdb 1mwa (ijtr),1lek and 1leg'	1				
+958	1r3le	'pdb 1r3j, 1r3k, 1r3i, and 1r3le'	1				
+959	2h2pand	'pdb 2h2pand 2h2s'	1				
+960	supersedes	'pdb 5kqv (supersedes 3w14)', 'supplementary table 1, supplementary figure 2 and pdb 2vdk (supersedes 1ty3)'	2				
+961	supercedes	'pdb 5ugy (supercedes 3sm5)'	1				
+962	supplememntary	'pdb 6in4 and supplememntary table 2'	1				
+963	6nf5c	'pdb 6nf5c'	1				
+964	pv8	'pdb 6pv7 and pv8'	1				
+965	d00	'pdb 7czr, 7czs, 7 d00 and table s3'	1				
+966	a0q	'pdb a0q'	1				
+967	eff	'pdb eff'	1				
+968	ew6	'pdb ew6'	1				
+969	gjs	'pdb gjs, 6gk4 and 6gkd'	1				
+970	pdn	'pdn 6n48', 'table 1, figure 2 and pdn 5jq6'	2				
+971	peptide	'peptide structure, page 222.'	1				
+972	pg1094	'pg1094 fig3a'	1				
+973	fig3a	'pg1094 fig3a'	1				
+974	pg407	'pg407 table 1'	1				
+975	pg58	'pg58 fig1', 'pg58 fig1, pg59 fig2a'	2				
+976	fig2a	'pg58 fig1, pg59 fig2a'	1				
+977	pg59	'pg58 fig1, pg59 fig2a', 'pg59 fig3', 'pg59 figure 2b'	3				
+978	fig3	'pg59 fig3'	1				
+979	pg615	'pg615'	1				
+980	corrigendum	'pmid: 30349528 corrigendum'	1				
+981	pmid7686212	'pmid7686212'	1				
+982	pms1	'pms1'	1				
+983	pms16	'pms16'	1				
+984	pms17	'pms17'	1				
+985	pms18	'pms18'	1				
+986	pms19	'pms19'	1				
+987	pms21	'pms21'	1				
+988	pms22	'pms22'	1				
+989	pms5	'pms5'	1				
+990	positions	'positions provided in figure 2 on author provided accession', 'positions provided in figure 3 on author provided accession'	2				
+991	publication	'previous author publication', 'previous publication, pdb 2osl'	2				
+992	defined	'previously defined repetitive structure'	1				
+993	previously	'previously defined repetitive structure'	1				
+994	repetitive	'previously defined repetitive structure'	1				
+995	pxd020614	'pride database: pxd020614'	1				
+996	pxd023545	'pride database: pxd023545'	1				
+997	principal	'principal findings'	1				
+998	proteins	'proteins and peptides'	1				
+999	sette	'provided by a. sette'	1				
+1000	r	'provided by r. koup', 'r kammerer clin exp allergy 1997'	2				
+1001	koup	'provided by r. koup'	1				
+1002	psb	'psb 7a25, 7a29', 'table 1, figures 2, 3, supplementary figure 2, supplementary table 1 and psb 4zfz'	2				
+1003	pushko	'pushko et al, 1994, virology 202:912'	1				
+1004	pxd020818	'pxd020818', 'supplementary table s1 and pxd020818'	2				
+1005	pxd032855	'pxd032855'	1				
+1006	allergy	'r kammerer clin exp allergy 1997'	1				
+1007	kammerer	'r kammerer clin exp allergy 1997'	1				
+1008	fems	'rambukkana et al, 1991 fems micro immunol 76, 39'	1				
+1009	rambukkana	'rambukkana et al, 1991 fems micro immunol 76, 39'	1				
+1010	micro	'rambukkana et al, 1991 fems micro immunol 76, 39'	1				
+1011	reagents	'reagents'	1				
+1012	rearch	'rearch design and methods'	1				
+1013	blaney	'reference (blaney et al., 1998)'	1				
+1014	brett	'reference (brett et al., 1986)'	1				
+1015	cowman	'reference (cowman et al., 1984)'	1				
+1016	klein	'reference (klein et al., 1998)'	1				
+1017	schellekens	'reference (schellekens et al., 1994)'	1				
+1018	jones	'reference cited (jones et al., 2000)'	1				
+1019	via	'reference via author communication'	1				
+1020	canaday	'references (canaday et al., 2003)'	1				
+1021	notes	'references and notes'	1				
+1022	renggli	'renggli et al., immunol. lett. 1995'	1				
+1023	lett	'renggli et al., immunol. lett. 1995'	1				
+1024	research	'research design and methods'	1				
+1025	p51	'results p51'	1				
+1026	e1065369	'results page e1065369-3'	1				
+1027	texts	'results texts in p.1777', 'results texts in p.3094', 'results texts in p.5552', 'results texts in p.5552 and figure 3'	4				
+1028	2nd	'results, 2nd paragraph, figure 1, figure 2'	1				
+1029	paragraph	'results, 2nd paragraph, figure 1, figure 2', 'text, page 564, 1st paragraph', 'text, page 567, last paragraph'	3				
+1030	p192	'results, p192'	1				
+1031	results/text	'results/text'	1				
+1032	rhodes	'rhodes et al, 1985'	1				
+1033	rhyum	'rhyum et al (1994)'	1				
+1034	richardson	'richardson et al. (1986) virology 155:508'	1				
+1035	richman	'richman et al 1989'	1				
+1036	rsults	'rsults page 192'	1				
+1037	ruger	'ruger et al (1987)'	1				
+1038	secondary	'secondary reference'	1				
+1039	gene	'sekizaki et al. (1995). gene 155: 135-6'	1				
+1040	sekizaki	'sekizaki et al. (1995). gene 155: 135-6'	1				
+1041	skgkiypvgyy	'skgkiypvgyy'	1				
+1042	stable	'stable 1', 'stable 3', 'table 3, stable 2', 'table 3, stable 3'	4				
+1043	star	'star methods', 'star methods key resources table'	2				
+1044	journal	'stemler et al. 1990 journal of virology 64, 2802-2809'	1				
+1045	stemler	'stemler et al. 1990 journal of virology 64, 2802-2809'	1				
+1046	subject	'subject and methods (cited genbank accession number)'	1				
+1047	mehtods	'subjects and mehtods section'	1				
+1048	only	'submission only'	1				
+1049	summary	'summary'	1				
+1050	supplament	'supplament figure 1'	1				
+1051	supplememtary	'supplememtary table 1'	1				
+1052	st1	'supplemenary table st1'	1				
+1053	st3	'supplemenary table st3'	1				
+1054	st4	'supplemenary table st4'	1				
+1055	supplemenatal	'supplemenatal figure 2 and figure 4'	1				
+1056	supplemenatry	'supplemenatry figure 4', 'supplemenatry figures 1, 2, supplementary tables i and ii', 'table 2, supplemenatry figure 2'	3				
+1057	supplemenntary	'supplemenntary figure 3', 'supplemenntary figure 4'	2				
+1058	supplementaery	'supplementaery figure 1'	1				
+1059	protocol	'supplemental data-clinical study protocol'	1				
+1060	procedues	'supplemental experimental procedues'	1				
+1061	s8b	'supplemental fig. s8b'	1				
+1062	supplementarty	'supplementarty figure 3'	1				
+1063	appedix	'supplementary appedix'	1				
+1064	11e	'supplementary dataset 11d, 11e', 'supplementary dataset 11e'	2				
+1065	c2	'supplementary fig s2 a2,a3,b2,c2'	1				
+1066	b2	'supplementary fig s2 a2,a3,b2,c2'	1				
+1067	figures1a	'supplementary figures1a, 2, figure 1a,b,d, 2a-e, 3'	1				
+1068	sdata	'supplementary file sdata'	1				
+1069	histograms	'supplementary information histograms and pdb 4utb', 'supplementary information table and histograms and pdb 4ut6', 'supplementary information table and histograms and pdb 4ut9', 'supplementary information table and histograms and pdb 4uta'	4				
+1070	list	'supplementary list 3', 'supplementary list 3, figure 8', 'supplementary list 3, figure 9', 'supplementary list 3, supplementary figure 2'	4				
+1071	figure0	'supplementary table 1 and figure0'	1				
+1072	figure8	'supplementary table 1 and figure8'	1				
+1073	figure9	'supplementary table 1 and figure9'	1				
+1074	e5473	'supplementary table s1 and text page e5473'	1				
+1075	supplementory	'supplementory tables 1, 3, figure 2, supplementary figure 4, and pdb 1z3g'	1				
+1076	supplementrary	'supplementrary table 7'	1				
+1077	supplemetnary	'supplemetnary figure 4'	1				
+1078	supplemtal	'supplemtal data'	1				
+1079	supplimentary	'supplimentary table 1'	1				
+1080	supporing	'supporing information table s16', 'supporing information table s2', 'supporing information table s3', 'supporing information table s32', 'supporing information table s4'	5				
+1081	suppoting	'suppoting information'	1				
+1082	p01012	'swiss-prot accession p01012'	1				
+1083	tab	'tab 2'	1				
+1084	tabble	'tabble 3'	1				
+1085	tabel	'tabel 1', 'tabel 1 and table s1', 'tabel 2', 'tabel ii', 'tabel ii and figure 4', 'tabel s3'	6				
+1086	additionla	'table 1 and additionla file 3'	1				
+1087	r3i	'table 1 and pdb 1 r3i'	1				
+1088	r3k	'table 1 and pdb 1 r3k'	1				
+1089	p545	'table 1 and text p545'	1				
+1090	webfigure	'table 1 and webfigure 1', 'webfigure 2'	2				
+1091	mathews	'table 1 in mathews et al (1991) j virol 65:5141-5148'	1				
+1092	p1z	'table 1, figures 2 and pdb 1 p1z'	1				
+1093	iyef	'table 1, figure 2 and pdb iyef'	1				
+1094	iyeg	'table 1, figure 2 and pdb iyeg'	1				
+1095	supplemenyary	'table 1, figure 4, supplemenyary figure 3 and pdb 5dmj'	1				
+1096	p9w	'table 1, figures 7, 8 and pdb p9w'	1				
+1097	manjula	'table 1, manjula et. al, 1984'	1				
+1098	isola	'table 1. isola et al. 1989. j. virol. 63(5): 2325-2334.'	1				
+1099	1/materials	'table 1/materials and methods'	1				
+1100	1/reference	'table 1/reference'	1				
+1101	1/text	'table 1/text'	1				
+1102	supplemntal	'table 2 and figure 5 and supplemntal table s6'	1				
+1103	af016316	'table 2 and gi:2905989 (accession af016316)'	1				
+1104	a2y	'table 2 and pdb 1 a2y'	1				
+1105	supplemnetary	'table 2 and supplemnetary figure 1', 'table 2, figure 2 and supplemnetary figure 1'	2				
+1106	3bn	'table 2, figure 3bn'	1				
+1107	molecule	'table 2, figures 1, 2, 3, s1, s2, s5 and 2guo (molecule 1)', 'table 2, figures 1, 2, 3, s1, s2, s5 and 2guo (molecule 2)', 'table 2, figures 1, 2, 3, s1, s4, s5 and 2gtz (molecule 1)', 'table 2, figures 1, 2, 3, s1, s4, s5 and 2gtz (molecule 2)', 'table ii, figures 2, 3 and pdb 1eez (molecule 1)', 'table ii, figures 2, 3 and pdb 1eez (molecule 2)'	6				
+1108	tex	'table 2, tex p 217'	1				
+1109	p98	'table 2, text p98'	1				
+1110	strynadka	'table 2. strynadka et al. 1988. j. virol. 62:3474-3483.'	1				
+1111	2/author	'table 2/author provided identifier'	1				
+1112	2/reference	'table 2/reference'	1				
+1113	and/or	'table 3 and/or supplementary data 1'	1				
+1114	3ab	'table 3ab'	1				
+1115	groups	'table i (group a), table ii (groups a and c), table iii (group c)'	1				
+1116	eiii	'table i figure 3, tables eiii, eiv'	1				
+1117	eiv	'table i figure 3, tables eiii, eiv'	1				
+1118	column	'table i, column 4', 'table i, column 5'	2				
+1119	2bn	'table i, figure 1, 2, 3 and pdb 2bn'	1				
+1120	figuere	'table ii and figuere 2'	1				
+1121	accessions	'table ii, accessions provided', 'text, accessions provided'	2				
+1122	eey	'table ii, figures 2, 3 and pdb eey'	1				
+1123	iiii	'table iiii', 'tables i, iiii and viii'	2				
+1124	iil	'table iil'	1				
+1125	im	'table im'	1				
+1126	s40	'table s1 and fgure s40', 'table s40'	2				
+1127	fgures	'table s1 and fgures s32-s33', 'table s1 and fgures s34-s35', 'table s1 and fgures s37-s38'	3				
+1128	s41	'table s1 and figure s41', 'table s41'	2				
+1129	s42	'table s1 and figure s42', 'table s42'	2				
+1130	s43	'table s1 and figure s43', 'table s43'	2				
+1131	s44	'table s1 and figures s44-s46', 'table s44'	2				
+1132	s46	'table s1 and figures s44-s46', 'table s46'	2				
+1133	s48	'table s1 and figures s47-s48', 'table s48'	2				
+1134	s47	'table s1 and figures s47-s48', 'table s47'	2				
+1135	fiigures	'table s2, fiigures 6, s1, pdb 6pzy'	1				
+1136	s45	'table s45'	1				
+1137	siv	'table siv', 'table siv and figure 8', 'table siv and sv', 'tables 2 and siv and figure 8', 'tables 2, siv, and sv and figure 8', 'tables siv and sv and figure 8'	6				
+1138	sv	'table siv and sv', 'table sv', 'table sv and figure 8', 'table sv and figures 8 and 10', 'table sv and figures 8 and 9', 'table sv and figures 8, 9, and 10', 'tables 2 and sv', 'tables 2 and sv and figures 7 and 8', 'tables 2 and sv and figures 7, 8 and 9', 'tables 2 and sv and figures 7, 8, 9, and 10'	10				
+1139	t1	'table t1'	1				
+1140	t2	'table t2'	1				
+1141	t3	'table t3'	1				
+1142	t4	'table t4'	1				
+1143	t5	'table t5', 'tables 1 and t5'	2				
+1144	t6	'table t6'	1				
+1145	t7	'table t7'	1				
+1146	fig3b	'table2,fig3b'	1				
+1147	table4	'table4 4 and 5', 'table4, table5, table6, table7', 'table4, table5, table6,table7'	3				
+1148	table6	'table4, table5, table6, table7', 'table4, table5, table6,table7'	2				
+1149	table5	'table4, table5, table6, table7', 'table4, table5, table6,table7'	2				
+1150	table7	'table4, table5, table6, table7', 'table4, table5, table6,table7'	2				
+1151	through	'tables 1 through 4'	1				
+1152	the	'tables 1, 2, 3, 4 and the figure', 'tables 1,2, 3, 4 and the figure', 'the table'	3				
+1153	nby	'tables 1, 2, figures 2, 3, 4, 5 and pdb 1 nby'	1				
+1154	fo4	'tables 1, 4, figures 3, 4, 5 and pdb fo4'	1				
+1155	jrh	'tables 2, 3, 4 and figures 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh'	1				
+1156	pag	'tables i and ii, text pag 1373'	1				
+1157	jpk	'tables s4, s5, s6, figures s7, s8, s9, s10, s11, s12 and pdb 4 jpk'	1				
+1158	tablse	'tablse i, ii, figures 1, 2, 3, 4 and pdb 1mwa'	1				
+1159	tanle	'tanle i'	1				
+1160	tbls	'tbls 1-2, text p. 17, figs 2-3', 'tbls 1-3, text p. 17, figs 1-3'	2				
+1161	10/1/2023	'test 10/1/2023'	1				
+1162	e881	'test p e881'	1				
+1163	spliced	'test spliced bcell'	1				
+1164	bcell	'test spliced bcell'	1				
+1165	texat	'texat page 161, figures 4 and 5'	1				
+1166	m194	'text p m194'	1				
+1167	info	'text p. 1057, supplemental info., fig. 1'	1				
+1168	5809fgb	'text p. 5809fgb'	1				
+1169	doel	'text p. 99 and doel et al. (1990) j virol 64:2260'	1				
+1170	e2006	'text p. e2006 figure 1'	1				
+1171	r525	'text p. r525', 'text p. r525, figure 6'	2				
+1172	s506	'text p. s506'	1				
+1173	p10	'text p10'	1				
+1174	p1390	'text p1390'	1				
+1175	p146	'text p146'	1				
+1176	p150	'text p150'	1				
+1177	p1674	'text p1674'	1				
+1178	p36	'text p36'	1				
+1179	p548	'text p548'	1				
+1180	p549	'text p549, figure 4d'	1				
+1181	p622	'text p622'	1				
+1182	p623	'text p623'	1				
+1183	p985	'text p985'	1				
+1184	sources	'text page 6 and commercial sources'	1				
+1185	r42	'text page r42'	1				
+1186	page100	'text page100'	1				
+1187	page1233	'text page1233-1234'	1				
+1188	page133	'text page133.'	1				
+1189	page263	'text page263, figure 1 legend'	1				
+1190	page3853	'text page3853'	1				
+1191	pn	'text pn p.425'	1				
+1192	p503	'text, p503'	1				
+1193	1st	'text, page 564, 1st paragraph'	1				
+1194	last	'text, page 567, last paragraph'	1				
+1195	page7241	'text, page7241.'	1				
+1196	text/abstract	'text/abstract'	1				
+1197	text/p	'text/p. 388'	1				
+1198	text/reference	'text/reference'	1				
+1199	tfigure	'tfigure 2 and supplementary table 2'	1				
+1200	theisen	'theisen et al (2000)', 'theisen et al., vaccine 2001'	2				
+1201	thompson	'thompson et al 1990 figure 3'	1				
+1202	tiollais	'tiollais et al 1981'	1				
+1203	tnf	'tnf-a b cell epitope'	1				
+1204	transparent	'transparent methods'	1				
+1205	txt	'txt p 17'	1				
+1206	vendor	'vendor provided'	1				
+1207	vmaprtlfl	'vmaprtlfl'	1				
+1208	wang	'wang et al. 2004. j. virol. 78:5612-5618.'	1				
+1209	weiss	'weiss et. al. j. exp. med. (1990)'	1				
+1210	welkos	'welkos et al (1988) fig 2'	1				
+1211	characterized	'well-characterized epitope'	1				
+1212	well	'well-characterized epitope'	1				
+1213	whitbeck	'whitbeck et al 1988'	1				
+1214	scan	'wnv proteome scan negatives'	1				
+1215	wnv	'wnv proteome scan negatives'	1				
+1216	proteome	'wnv proteome scan negatives'	1				
+1217	negatives	'wnv proteome scan negatives'	1				
+1218	xxxxxxxxxxxxxxxxxxxxxxxx	'xxxxxxxxxxxxxxxxxxxxxxxx'	1				
+1219	xxxxxxxxxxxxxxxxxxxxxxxxx	'xxxxxxxxxxxxxxxxxxxxxxxxx'	1				

@@ -107,7 +107,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                         if len(review_dict[location]["context"]) < 300:
                             context_string = review_dict[location]["context"]
                             context_string += f""", '{data_item}'"""
-                            occurrences = review_dict[location]["occurrences"]
+                            occurrences = int(review_dict[location]["occurrences"])
                             occurrences += 1
                             review_dict[location]["occurrences"] = occurrences
                             review_dict[location]["context"] = context_string
