@@ -30,15 +30,18 @@ def check_action(rowdict):
         return None
 
 
-def highest_index(dict_with_index):
+def next_index(dict_with_index):
     """
-    Finds highest index in a dict and returns it.
+    Find next available index in a dict and returns it.
     """
     if len(dict_with_index.keys()) == 0:
-        return -1
+        return 0
     else:
         indices = [int(i) for i in dict_with_index.keys()]
-        return max(indices)
+        test_index = 0
+        while test_index in indices:
+            test_index += 1
+        return test_index
 
 
 def lookup(invalid_item, review_dict, reference_dict, mode):
@@ -70,7 +73,7 @@ def update_reference(review_dict, reference_dict):
             if check_action(rowdict) is not None:
                 indices_to_transfer.append(index)
         for index in indices_to_transfer:
-            new_index = highest_index(reference_dict) + 1
+            new_index = next_index(reference_dict)
             row = review_dict[index].copy()
             row["index"] = new_index
             reference_dict[new_index] = row

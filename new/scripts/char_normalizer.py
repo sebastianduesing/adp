@@ -112,7 +112,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                             review_dict[location]["occurrences"] = occurrences
                             review_dict[location]["context"] = context_string
                 else:
-                    id = tk.highest_index(review_dict) + 1
+                    id = tk.next_index(review_dict)
                     review_dict[id] = {}
                     review_dict[id]["index"] = id
                     review_dict[id]["invalid_character"] = char
