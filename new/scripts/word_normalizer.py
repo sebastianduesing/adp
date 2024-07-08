@@ -80,6 +80,10 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
     review_dict, reference_dict = tk.update_reference(review_dict, reference_dict)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
+        char_invalid = re.fullmatch(r"!\s.+\s!")
+        if char_invalid:
+            rowdict["word_validation"] = "stopped"
+            rowdict[f"word_normalized_{target_column}"] = data_item
         if style == "data_loc":
             m = re.fullmatch(r"https:\/\/hla-ligand-atlas.org\/peptide\/[a-zA-Z]+", data_item)
             if m:
@@ -130,7 +134,7 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
             if tk.validate(invalid_words, "boolean"):
                 rowdict[f"word_normalized_{target_column}"] = data_item
             else:
-                rowdict[f"word_normalized_{target_column}"] = f"! {invalid_words} !"
+                rowdict[f"word_normalized_{target_column}"] = f"! Invalid words: {invalid_words} !"
     output_path = os.path.join(style, "output_files", f"w_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
     if len(review_dict.keys()) != 0:
