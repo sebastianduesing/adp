@@ -39,6 +39,8 @@ def make_word_set(string):
         string_stripped = " ".join(string_stripped.split(delimiter))
     word_list = string_stripped.split(" ")
     word_set = set(word_list)
+    if "" in word_set:
+        word_set.remove("")
     return word_set
 
 
@@ -104,8 +106,7 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
                                             word,
                                             data_item,
                                             location)
-                    data_stripped = data_item.strip()
-                    data_item = re.sub(r"(\s\s+)", r" ", data_stripped)
+                    data_item = tk.normalize_whitespace(data_item)
                     if reference_dict[location]["allow"] != "":
                         allowed_words.add(word)
                 elif source == "review":
@@ -122,6 +123,12 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
                     review_dict[id] = {}
                     review_dict[id]["index"] = id
                     review_dict[id]["invalid_word"] = word
+                    if style == "data_loc":
+                        pdb = re.fullmatch(r"[0-9][0-9a-z]{3}", word)
+                        if pdb:
+                            review_dict[id]["pdb_plausible?"] = "Y"
+                        else:
+                            review_dict[id]["pdb_plausible?"] = "N"
                     review_dict[id]["context"] = f"""'{data_item}'"""
                     review_dict[id]["occurrences"] = 1
                     review_dict[id]["replace_with"] = ""
@@ -148,7 +155,7 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
 if __name__ == "__main__":
     style = sys.argv[1]
     input_file = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
-    target_column = f"char_normalized_{sys.argv[3]}"
+    target_column = f"char_normalized_{sys.argv[2]}"
     review = os.path.join(style, "output_files", "word_review.tsv")
     reference = os.path.join(style, "output_files", "word_reference.tsv")
 
@@ -177,7 +184,6 @@ if __name__ == "__main__":
             "page",
             "pdb",
             "extended",
-            r"[0-9][a-z0-9]{3}",  # PDB identifier format
         ]
     general_words = [
         "and",

@@ -1,6 +1,15 @@
 import re
 
 
+def normalize_whitespace(string):
+    """
+    Apply basic whitespace normalization to a string.
+    """
+    string = string.strip()
+    string = re.sub(r"(\s\s+)", r" ", string)
+    return string
+
+
 def check_action(rowdict):
     """
     Check whether the user has specified an action to be taken in review file.

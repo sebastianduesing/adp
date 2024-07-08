@@ -47,15 +47,14 @@ def track_changes(original_string, new_string, change_dict, tracker_item):
         change_dict[tracker_item] = "N"
 
 
-def basic_normalize(data_item, index):
+def track_basic_normalization(data_item, index):
     """
     Applies basic char normalization to a string and returns change tracker.
     """
     item_change_dict = {}
     item_change_dict["index"] = index
     item_change_dict["before_char_normalization"] = data_item
-    data_stripped = data_item.strip()
-    data_stripped = re.sub(r"(\s\s+)", r" ", data_stripped)
+    data_stripped = tk.normalize_whitespace(data_item)
     track_changes(data_item, data_stripped, item_change_dict, "whitespace")
     data_item = data_stripped.lower()
     track_changes(data_stripped, data_item, item_change_dict, "lowercase")
@@ -87,7 +86,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
     review_dict = tk.clean_occurrences(review_dict)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
-        data_item, changes = basic_normalize(data_item, index)
+        data_item, changes = track_basic_normalization(data_item, index)
         char_change_dict[index] = changes
         invalid_chars = identify_invalid_chars(data_item)
         rowdict["char_validation"] = tk.validate(invalid_chars, "string")
@@ -101,6 +100,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                                             char,
                                             data_item,
                                             location)
+                    data_item = tk.normalize_whitespace(data_item)
                     if reference_dict[location]["allow"] != "":
                         allowed_chars.add(char)
                 elif source == "review":
