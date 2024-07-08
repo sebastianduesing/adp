@@ -104,25 +104,11 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                     if reference_dict[location]["allow"] != "":
                         allowed_chars.add(char)
                 elif source == "review":
-                    if data_item not in review_dict[location]["context"]:
-                        if len(review_dict[location]["context"]) < 300:
-                            context_string = review_dict[location]["context"]
-                            context_string += f""", '{data_item}'"""
-                            review_dict[location]["context"] = context_string
-                    occurrences = int(review_dict[location]["occurrences"])
-                    occurrences += 1
-                    review_dict[location]["occurrences"] = occurrences
+                    review_dict = tk.add_to_review_entry(review_dict, location, data_item)
                 else:
                     id = tk.next_index(review_dict)
-                    review_dict[id] = {}
-                    review_dict[id]["index"] = id
-                    review_dict[id]["invalid_character"] = char
-                    review_dict[id]["context"] = f"""'{data_item}'"""
-                    review_dict[id]["occurrences"] = 1
-                    review_dict[id]["replace_with"] = ""
-                    review_dict[id]["remove"] = ""
-                    review_dict[id]["invalidate"] = ""
-                    review_dict[id]["allow"] = ""
+                    review_line = tk.create_new_review_entry(review_dict, style, "char", id, char, data_item)
+                    review_dict[id] = review_line
             invalid_chars = identify_invalid_chars(data_item)
             for char in invalid_chars.copy():
                 if char in allowed_chars:

@@ -110,31 +110,12 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
                     if reference_dict[location]["allow"] != "":
                         allowed_words.add(word)
                 elif source == "review":
-                    if data_item not in review_dict[location]["context"]:
-                        if len(review_dict[location]["context"]) < 300:
-                            context_string = review_dict[location]["context"]
-                            context_string += f""", '{data_item}'"""
-                            review_dict[location]["context"] = context_string
-                    occurrences = int(review_dict[location]["occurrences"])
-                    occurrences += 1
-                    review_dict[location]["occurrences"] = occurrences
+                    review_dict = tk.add_to_review_entry(review_dict, location, data_item)
+
                 else:
                     id = tk.next_index(review_dict)
-                    review_dict[id] = {}
-                    review_dict[id]["index"] = id
-                    review_dict[id]["invalid_word"] = word
-                    if style == "data_loc":
-                        pdb = re.fullmatch(r"[0-9][0-9a-z]{3}", word)
-                        if pdb:
-                            review_dict[id]["pdb_plausible?"] = "Y"
-                        else:
-                            review_dict[id]["pdb_plausible?"] = "N"
-                    review_dict[id]["context"] = f"""'{data_item}'"""
-                    review_dict[id]["occurrences"] = 1
-                    review_dict[id]["replace_with"] = ""
-                    review_dict[id]["remove"] = ""
-                    review_dict[id]["invalidate"] = ""
-                    review_dict[id]["allow"] = ""
+                    review_line = tk.create_new_review_entry(review_dict, style, "word", id, word, data_item)
+                    review_dict[id] = review_line
             invalid_words = identify_invalid_words(data_item)
             for word in invalid_words.copy():
                 if word in allowed_words:

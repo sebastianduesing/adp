@@ -49,6 +49,46 @@ def clean_occurrences(review_dict):
     return review_dict
 
 
+def create_new_review_entry(review_dict, style, stage, id, invalid_item, data_item):
+    """
+    Create a new line item in the review sheet.
+    """
+    entry_dict = {}
+    if stage == "char":
+        stage = "character"
+    entry_dict["index"] = id
+    entry_dict[f"invalid_{stage}"] = invalid_item
+    if style == "data_loc" and stage == "word":
+        pdb = re.fullmatch(r"[0-9][0-9a-z]{3}", invalid_item)
+        if pdb:
+            entry_dict["pdb_plausible?"] = "Y"
+        else:
+            entry_dict["pdb_plausible?"] = "N"
+    entry_dict["context"] = f"""'{data_item}'"""
+    entry_dict["occurrences"] = 1
+    entry_dict["replace_with"] = ""
+    entry_dict["remove"] = ""
+    entry_dict["invalidate"] = ""
+    entry_dict["allow"] = ""
+    return entry_dict
+
+
+def add_to_review_entry(review_dict, location, data_item):
+    """
+    Update review dict line item with additional occurrences/context.
+    """
+    if data_item not in review_dict[location]["context"]:
+        if len(review_dict[location]["context"]) < 300:
+            context_string = review_dict[location]["context"]
+            context_string += f""", '{data_item}'"""
+            review_dict[location]["context"] = context_string
+    occurrences = int(review_dict[location]["occurrences"])
+    occurrences += 1
+    review_dict[location]["occurrences"] = occurrences
+    return review_dict
+
+
+
 def next_index(dict_with_index):
     """
     Find next available index in a dict and returns it.
