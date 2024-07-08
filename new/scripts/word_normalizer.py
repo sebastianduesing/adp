@@ -78,12 +78,14 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
     else:
         reference_dict = {}
     review_dict, reference_dict = tk.update_reference(review_dict, reference_dict)
+    review_dict = tk.clean_occurrences(review_dict)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
-        char_invalid = re.fullmatch(r"!\s.+\s!")
-        if char_invalid:
+        m = re.match(r"!\s.+\s!", data_item)
+        if m:
             rowdict["word_validation"] = "stopped"
             rowdict[f"word_normalized_{target_column}"] = data_item
+            continue
         if style == "data_loc":
             m = re.fullmatch(r"https:\/\/hla-ligand-atlas.org\/peptide\/[a-zA-Z]+", data_item)
             if m:
@@ -111,10 +113,10 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
                         if len(review_dict[location]["context"]) < 300:
                             context_string = review_dict[location]["context"]
                             context_string += f""", '{data_item}'"""
-                            occurrences = int(review_dict[location]["occurrences"])
-                            occurrences += 1
-                            review_dict[location]["occurrences"] = occurrences
                             review_dict[location]["context"] = context_string
+                    occurrences = int(review_dict[location]["occurrences"])
+                    occurrences += 1
+                    review_dict[location]["occurrences"] = occurrences
                 else:
                     id = tk.next_index(review_dict)
                     review_dict[id] = {}
@@ -145,7 +147,7 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
 
 if __name__ == "__main__":
     style = sys.argv[1]
-    input_file = os.path.join(style, sys.argv[2])
+    input_file = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
     target_column = f"char_normalized_{sys.argv[3]}"
     review = os.path.join(style, "output_files", "word_review.tsv")
     reference = os.path.join(style, "output_files", "word_reference.tsv")

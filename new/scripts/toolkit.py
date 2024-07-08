@@ -30,6 +30,16 @@ def check_action(rowdict):
         return None
 
 
+def clean_occurrences(review_dict):
+    """
+    Reset occurrences in review_dict to 1 to recoun each time script is rerun.
+    """
+    if len(review_dict.keys()) != 0:
+        for index, rowdict in review_dict.items():
+            rowdict["occurrences"] = 0
+    return review_dict
+
+
 def next_index(dict_with_index):
     """
     Find next available index in a dict and returns it.
