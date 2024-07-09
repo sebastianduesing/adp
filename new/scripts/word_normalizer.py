@@ -114,38 +114,14 @@ if __name__ == "__main__":
     target_column = f"char_normalized_{sys.argv[2]}"
     review = os.path.join(style, "output_files", "word_review.tsv")
     reference = os.path.join(style, "output_files", "word_reference.tsv")
-
-    if style == "age":
-        style_words = [
-            "year",
-            "month",
-            "week",
-            "day",
-            "hour",
-            "adult",
-            "child",
-            "mean",
-            "median",
-            "average"
-        ]
-    if style == "data_loc":
-        style_words = [
-            "table",
-            "figure",
-            "supplemental",
-            "reference",
-            "data",
-            "abstract",
-            "title",
-            "page",
-            "pdb",
-            "extended",
-        ]
-    general_words = [
+    approved_words = [
         "and",
+        "are",
+        "is",
         "or",
+        "than",
+        "to",
         r"\d+"
     ]
-    approved_words = general_words + style_words
     word_regex = build_regex_from_list(approved_words)
     normalize_words(style, input_file, target_column, review, reference)
