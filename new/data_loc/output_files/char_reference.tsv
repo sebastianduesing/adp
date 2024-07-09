@@ -1,2 +1,2 @@
 index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
-0	_	'2022_msresults_aut1533.mzid (download from pridedb: pxd035499)', '2022_msresults_aut1533.mzid (download from pridedb: pxd035499), table 2', '2022_msresults_susscrofa.mzid (download from pridedb: pxd035499)', 'ama1_007', 'author designated genebank accession number: nc_045512', 'nsp3_1 1001', 'nsp3_1 1006'	7				x
+0	&	'abstract & p. 664', 'fig 1, m&m', 'figure 1a&c', 'figure 1b&c', 'figure 1b&c, figure 2', 'figure 1b&c, figure 4', 'figure 1b&d', 'figure 2a&c', 'figure 2c&d', 'figure 3a&b', 'figure 3b&c and table 3', 'figure 3e&f', 'figure 4a & b', 'figure 4a&b, 5b&c', 'figure 4b&c', 'figure 8a&b', 'figure 8c&d', 'figures 1, 2, 4a&b, 5a&b, and 6'	53	 and 			
