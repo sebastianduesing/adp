@@ -88,6 +88,27 @@ def add_to_review_entry(review_dict, location, data_item):
     return review_dict
 
 
+def handle_invalid_items(style, invalid_items, review_dict, reference_dict, stage, data_item, allowed_items):
+    for item in invalid_items:
+        source, location = lookup(item, review_dict, reference_dict, stage)
+        if source == "reference":
+            data_item = take_action(
+                reference_dict,
+                item,
+                data_item,
+                location
+            )
+            data_item = normalize_whitespace(data_item)
+            if reference_dict[location]["allow"] != "":
+                allowed_items.add(item)
+        elif source == "review":
+            review_dict = add_to_review_entry(review_dict, location, data_item)
+        else:
+            id = next_index(review_dict)
+            review_line = create_new_review_entry(review_dict, style, stage, id, item, data_item)
+            review_dict[id] = review_line
+    return review_dict, reference_dict, data_item, allowed_items
+
 
 def next_index(dict_with_index):
     """
@@ -121,6 +142,17 @@ def lookup(invalid_item, review_dict, reference_dict, mode):
                 break
     return source, location
 
+
+def take_action(reference_dict, invalid_item, data_item, index):
+    """
+    Alteres data_item as specified in reference_dict.
+    """
+    if reference_dict[index]["replace_with"] != "":
+        replacement = reference_dict[index]["replace_with"]
+        data_item = re.sub(invalid_item, replacement, data_item)
+    elif reference_dict[index]["remove"] != "":
+        data_item = re.sub(invalid_item, "", data_item)
+    return data_item
 
 def update_reference(review_dict, reference_dict):
     """
@@ -158,6 +190,3 @@ def validate(invalid_set, mode):
             return False
         else:
             return "fail"
-
-
-

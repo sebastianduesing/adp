@@ -20,23 +20,6 @@ def identify_invalid_chars(string):
     return invalid_chars
 
 
-def take_action(reference_dict, invalid_char, data_item, index):
-    """
-    Alters data_item as specified in reference_dict.
-
-    This may be moved to toolkit later; I have suspicions that word
-    substitution will require more finesse (dealing with punctuation and
-    delimiters, etc.), so it will probably be preferable to just build out a
-    word-specific version of this function. To be determined.
-    """
-    if reference_dict[index]["replace_with"] != "":
-        replacement = reference_dict[index]["replace_with"]
-        data_item = re.sub(invalid_char, replacement, data_item)
-    elif reference_dict[index]["remove"] != "":
-        data_item = re.sub(invalid_char, "", data_item)
-    return data_item
-
-
 def track_changes(original_string, new_string, change_dict, tracker_item):
     """
     Logs whether a string was changed at a particular normalization step.
@@ -93,22 +76,15 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
         if tk.validate(invalid_chars, "boolean"):
             rowdict[f"char_normalized_{target_column}"] = data_item
         else:
-            for char in invalid_chars:
-                source, location = tk.lookup(char, review_dict, reference_dict, "char")
-                if source == "reference":
-                    data_item = take_action(reference_dict,
-                                            char,
-                                            data_item,
-                                            location)
-                    data_item = tk.normalize_whitespace(data_item)
-                    if reference_dict[location]["allow"] != "":
-                        allowed_chars.add(char)
-                elif source == "review":
-                    review_dict = tk.add_to_review_entry(review_dict, location, data_item)
-                else:
-                    id = tk.next_index(review_dict)
-                    review_line = tk.create_new_review_entry(review_dict, style, "char", id, char, data_item)
-                    review_dict[id] = review_line
+            review_dict, reference_dict, data_item, allowed_chars = tk.handle_invalid_items(
+                style,
+                invalid_chars,
+                review_dict,
+                reference_dict,
+                "char",
+                data_item,
+                allowed_chars
+            )
             invalid_chars = identify_invalid_chars(data_item)
             for char in invalid_chars.copy():
                 if char in allowed_chars:

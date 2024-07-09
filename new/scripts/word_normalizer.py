@@ -44,23 +44,6 @@ def make_word_set(string):
     return word_set
 
 
-def take_action(reference_dict, invalid_word, data_item, index):
-    """
-    Alters data_item as specified in reference_dict.
-
-    This may be moved to toolkit later; I have suspicions that word
-    substitution will require more finesse (dealing with punctuation and
-    delimiters, etc.), so it will probably be preferable to just build out a
-    word-specific version of this function. To be determined.
-    """
-    if reference_dict[index]["replace_with"] != "":
-        replacement = reference_dict[index]["replace_with"]
-        data_item = re.sub(invalid_word, replacement, data_item)
-    elif reference_dict[index]["remove"] != "":
-        data_item = re.sub(invalid_word, "", data_item)
-    return data_item
-
-
 def normalize_words(style, data_file, target_column, review_file, reference_file):
     """
     Performs word normalization on target_column in data_file.
@@ -99,23 +82,15 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
         if tk.validate(invalid_words, "boolean"):
             rowdict[f"word_normalized_{target_column}"] = data_item
         else:
-            for word in invalid_words:
-                source, location = tk.lookup(word, review_dict, reference_dict, "word")
-                if source == "reference":
-                    data_item = take_action(reference_dict,
-                                            word,
-                                            data_item,
-                                            location)
-                    data_item = tk.normalize_whitespace(data_item)
-                    if reference_dict[location]["allow"] != "":
-                        allowed_words.add(word)
-                elif source == "review":
-                    review_dict = tk.add_to_review_entry(review_dict, location, data_item)
-
-                else:
-                    id = tk.next_index(review_dict)
-                    review_line = tk.create_new_review_entry(review_dict, style, "word", id, word, data_item)
-                    review_dict[id] = review_line
+            review_dict, reference_dict, data_item, allowed_words = tk.handle_invalid_items(
+                style,
+                invalid_words,
+                review_dict,
+                reference_dict,
+                "word",
+                data_item,
+                allowed_words
+            )
             invalid_words = identify_invalid_words(data_item)
             for word in invalid_words.copy():
                 if word in allowed_words:
