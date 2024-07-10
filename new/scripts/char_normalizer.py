@@ -5,7 +5,7 @@ import toolkit as tk
 from converter import TSV2dict, dict2TSV
 
 
-approved_chars = r"[a-zA-Z\d ,.+/<>()-:]"
+approved_chars = r"[a-z\d ,.+/<>()-:]"
 
 
 def identify_invalid_chars(string):
