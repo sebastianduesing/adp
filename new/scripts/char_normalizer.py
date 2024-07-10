@@ -39,10 +39,8 @@ def track_basic_normalization(data_item, index):
     item_change_dict["before_char_normalization"] = data_item
     data_stripped = tk.normalize_whitespace(data_item)
     track_changes(data_item, data_stripped, item_change_dict, "whitespace")
-    data_item = data_stripped.lower()
-    track_changes(data_stripped, data_item, item_change_dict, "lowercase")
-    item_change_dict["after_char_normalization"] = data_item
-    return data_item, item_change_dict
+    item_change_dict["after_char_normalization"] = data_stripped
+    return data_stripped, item_change_dict
 
 
 def normalize_chars(style, data_file, target_column, review_file, reference_file):
