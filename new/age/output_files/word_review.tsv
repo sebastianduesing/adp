@@ -1,18 +1,18 @@
 index	invalid_word	context	occurrences	replace_with	remove	invalidate	allow
 0	pregnant	'adult (pregnant)', 'adults (pregnant)'	2				
-1	range	'mean 54 year (range 19-68)', 'mean age of 32.2 years with a range from 18 to 49 years', 'mean 54 years (range 19-68)', 'mean of 32.2 year with a range from 18 to 49 year'	2				
+1	range	'mean 54 year (range 19-68)', 'mean age of 32.2 years with a range from 18 to 49 years', 'mean 54 years (range 19-68)', 'mean of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years'	2				
 2	at	'at least 8 week', 'at birth', 'at least 8 weeks', 'at least 7 weeks', 'at least 2 months', 'at least 8 week old'	7				
-3	least	'at least 8 week', 'at least 7 week', 'at least 2 month', 'at least 8 week old', 'at least 2 months'	6				
-4	older	'8 week or older', '2 month or older', '10 year and older', '6 week or older', 'older than 8 week', '40 year or older', '18 year or older', '10 week or older'	11				
+3	least	'at least 8 week', 'at least 7 week', 'at least 2 month', 'at least 8 week old', 'at least 2 months', 'at least 8 weeks', 'at least 7 weeks'	6				
+4	older	'8 week or older', '2 month or older', '10 year and older', '6 week or older', 'older than 8 week', '40 year or older', '18 year or older', '10 week or older', '2 months or older', '10 years and older', '40 years or older', '18 years or older'	11				
 5	yo	'21 - 85 yo', '7 yo 8 weeks', '6 yo 8 weeks'	4				
 6	not	'not available'	1				
 7	available	'not available'	1				
 8	sucking	'sucking'	1				
-9	ages	'adults and children (ages 4.5-10.5 and 15-44)', 'adult and child (ages 4.5-10.5 and 15-44)'	1				
-10	birth	'at birth', 'within 12 hour of birth', '24 hour after birth', 'birth - 5 year', 'within 1 week after birth'	5				
+9	ages	'adults and children (ages 4.5-10.5 and 15-44)', 'adult and child (ages 4.5-10.5 and 15-44)', 'adult and children (ages 4.5-10.5 and 15-44)'	1				
+10	birth	'at birth', 'within 12 hour of birth', '24 hour after birth', 'birth - 5 year', 'within 1 week after birth', 'within 12 hours of birth', '24 hours after birth', 'birth - 5 years'	5				
 11	of	'mean of 30.2 year', 'adult (within 24 hour of parturition)', 'within 12 hour of birth', 'mean of 12.2 year', 'mean of 37.0 year', 'mean of 49 year', 'mean of 57 year', 'mean of 32.2 year with a range from 18 to 49 year', '6-24 month of', 'mean of 37 year', 'mean of 39.9 year', 'mean of 54. 04', '18-38 year, with an mean of 22 year'	13				
 12	within	'adult (within 24 hour of parturition)', 'within 12 hour of birth', 'within 1 week after birth', 'adult (within 24 hours of parturition)', 'within 12 hours of birth'	3				
-13	parturition	'adult (within 24 hour of parturition)'	1				
+13	parturition	'adult (within 24 hour of parturition)', 'adult (within 24 hours of parturition)'	1				
 14	after	'24 hour after birth', 'within 1 week after birth', '24 hours after birth'	2				
 15	embryo	'embryo'	1				
 16	cows	'calf and cows', 'calves and cows'	1				
@@ -24,19 +24,19 @@ index	invalid_word	context	occurrences	replace_with	remove	invalidate	allow
 22	embryonic	'embryonic day 15'	1				
 23	infant	'infant'	1				
 24	pediatric	'pediatric'	1				
-25	with	'mean of 32.2 year with a range from 18 to 49 year', '18-38 year, with an average of 22 year', '18-38 year, with an mean of 22 year'	2				
-26	from	'mean of 32.2 year with a range from 18 to 49 year'	1				
+25	with	'mean of 32.2 year with a range from 18 to 49 year', '18-38 year, with an average of 22 year', '18-38 year, with an mean of 22 year', 'mean age of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year'	2				
+26	from	'mean of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year'	1				
 27	a	'mean of 32.2 year with a range from 18 to 49 year'	1				
 28	ponies	'ponies'	1				
 29	more	'more than 15 years'	1				
 30	adutls	'adutls'	2				
 31	up	'up to 12 weeks', 'up to 12 weeks old'	3				
 32	infants	'infants', 'infants and adult', 'infants and adults'	2				
-33	mothers	'neonates (infected mothers or pm)'	1				
+33	mothers	'neonates (infected mothers or pm)', 'neonate (infected mothers or pm)'	1				
 34	pm	'neonates (infected mothers or pm)'	1				
-35	infected	'neonates (infected mothers or pm)'	1				
+35	infected	'neonates (infected mothers or pm)', 'neonate (infected mothers or pm)'	1				
 36	subadult	'subadult'	1				
-37	college	'college'	1				
+37	college	'college', 'college age'	1				
 38	foals	'foals'	1				
 39	elderly	'elderly > 70 years'	2				
 40	steer	'steer'	1				
@@ -44,7 +44,7 @@ index	invalid_word	context	occurrences	replace_with	remove	invalidate	allow
 42	middle	'middle aged', 'middle-aged'	2				
 43	fetus	'100 day fetus'	2				
 44	piglet	'piglet'	1				
-45	on	'52 years on average', '52 year on mean'	1				
-46	an	'18-38 year, with an mean of 22 year', '18-38 year, with an average of 22 year'	1				
+45	on	'52 years on average', '52 year on mean', '52 year on average', '52 year old on mean'	1				
+46	an	'18-38 year, with an mean of 22 year', '18-38 year, with an average of 22 year', '18-38 years, with an average of 22 years'	1				
 47	before	'born before 1968'	1				
 48	born	'born before 1968'	1				

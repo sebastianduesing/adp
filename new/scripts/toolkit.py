@@ -3,10 +3,11 @@ import re
 
 def normalize_whitespace(string):
     """
-    Apply basic whitespace normalization to a string.
+    Apply basic whitespace normalization to a string and strip punctuation at end.
     """
     string = string.strip()
     string = re.sub(r"(\s\s+)", r" ", string)
+    string = string.rstrip("-,.")
     return string
 
 
