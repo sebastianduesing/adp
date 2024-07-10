@@ -154,7 +154,7 @@ def take_action(reference_dict, invalid_item, data_item, index):
         data_item = re.sub(invalid_item, "", data_item)
     return data_item
 
-def update_reference(review_dict, reference_dict):
+def update_reference(review_dict, reference_dict, allowed_items):
     """
     Moves review_dict rows in which an action has been taken to reference_dict.
     """
@@ -169,7 +169,14 @@ def update_reference(review_dict, reference_dict):
             row["index"] = new_index
             reference_dict[new_index] = row
             del review_dict[index]
-    return review_dict, reference_dict
+    if len(reference_dict.keys()) != 0:
+        for index, rowdict in reference_dict.items():
+            if rowdict["allow"] != "":
+                if "invalid_char" in rowdict.keys():
+                    allowed_items.add(rowdict["invalid_char"])
+                elif "invalid_word" in rowdict.keys():
+                    allowed_items.add(rowdict["invalid_word"])
+    return review_dict, reference_dict, allowed_items
 
 
 def validate(invalid_set, mode):

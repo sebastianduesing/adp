@@ -63,7 +63,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
         reference_dict = TSV2dict(reference_file)
     else:
         reference_dict = {}
-    review_dict, reference_dict = tk.update_reference(review_dict, reference_dict)
+    review_dict, reference_dict, allowed_chars = tk.update_reference(review_dict, reference_dict, allowed_chars)
     review_dict = tk.clean_occurrences(review_dict)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
