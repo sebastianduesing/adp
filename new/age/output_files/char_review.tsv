@@ -1,5 +1,2 @@
 index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
-1	=	'mean age = 30.7 years', 'mean=28.5 ± 15.0', 'average age = 19.2 years', 'adult (avg. age = 30.8 years)', 'children (avg. age = 9.5 years)', 'mean age = 30 years', 'mean age = 27 years', 'mean age = 49.2 years', 'average age = 60.5 years', 'average age = 36.9 years', 'average age = 54.7 years', 'average age = 59.4'	65				
-2	~	'~ 33 to 55 years', '~ 31 to 55 years'	2				
-3	±	'mean=28.5 ± 15.0', '10.1 ± 3.6 yr', '50 ± 15 years', '40 ± 12 years', '16 ± 11 days', '41±13 years', '54±10 years', '56.6 ± 19.3 years', '37 ± 12 years', '36 ± 13 years', 'mean = 32.17±13.32 years', 'mean = 73±8.53 years', '38.1 ± 14.8 years', '42.8±11.9 years', '48.1±12.7 years', '29 years ± 6.5', '6 ± 2 weeks'	44				
-4	≥	'≥ 18 years'	1				
+9	~	'~ 33 to 55 years', '~ 31 to 55 years'	2				
