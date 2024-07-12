@@ -8,28 +8,36 @@ def build_regex_library(phrase_kit):
     phrase_kit = TSV2dict(phrase_kit)
     builder_dict = {}
     format_dict = {}
+    part_dict = {}
     for index, rowdict in phrase_kit.items():
         name = rowdict["name"]
         builder_dict[name] = {}
         builder_dict[name]["type"] = rowdict["type"]
         regex_text = rowdict["regex"]
-        regex_string = fr"{regex_text}"
-        regex_string = fr"{regex_string}"
-        m = re.match(r"{{[a-z_]+}}", regex_string)
+        regex = fr"{regex_text}"
+        m = re.match(r"{{[a-z_]+}}", regex)
         if m:
-            matchset = set(re.findall(r"{{[a-z_]+}}", regex_string))
+            matchset = set(re.findall(r"{{[a-z_]+}}", regex))
             for match in matchset:
                 text = re.findall(r"[^{}]+", match)
                 text = text[0]
                 referenced_part = builder_dict[text]["regex"]
                 referenced_part = fr"({referenced_part})"
-                regex_string = re.sub(match, referenced_part, regex_string)
-        builder_dict[name]["regex"] = regex_string
+                regex = re.sub(match, referenced_part, regex)
+        if r"&&" in regex:
+            regex = regex.split(r"&&")
+            standard_form = rowdict["standard_form"].split(r"&&")
+            rowdict["standard_form"] = standard_form
+        builder_dict[name]["regex"] = regex
         builder_dict[name]["valid?"] = rowdict["valid?"]
+        standard_form = rowdict["standard_form"]
+        builder_dict[name]["standard_form"] = standard_form
     for regex_name, infodict in builder_dict.items():
         if infodict["type"] == "format":
             format_dict[regex_name] = infodict.copy()
-    return format_dict
+        if infodict["type"] == "part":
+            part_dict[regex_name] = infodict.copy()
+    return format_dict, part_dict
 
 
 def validate_format(format_dict, mode):
@@ -46,9 +54,12 @@ def normalize_phrases(style, data_file, target_column):
     Perform phrase normalization on target_column in data_file.
     """
     data_dict = TSV2dict(data_file)
-    formats = build_regex_library(phrase_kit)
+    formats, parts = build_regex_library(phrase_kit)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
+        rowdict["format"] = ""
+        rowdict["phrase_validation"] = "fail"
+        rowdict[f"phrase_normalized_{target_column}"] = ""
         stopped = re.fullmatch(r"! .* !", data_item)
         if stopped:
             rowdict["format"] = "stopped"
@@ -57,15 +68,27 @@ def normalize_phrases(style, data_file, target_column):
         matched = False
         for format, format_info in formats.items():
             regex = format_info["regex"]
-            m = re.fullmatch(regex, data_item)
+            standard = format_info["standard_form"]
+            if type(regex) is list:
+                for i in range(len(regex)):
+                    r = regex[i]
+                    m = re.fullmatch(r, data_item)
+                    if m:
+                        matched = True
+                        regex = r
+                        standard = format_info["standard_form"][i]
+                        break
+            else:
+                m = re.fullmatch(regex, data_item)
             if m:
                 rowdict["format"] = format
                 rowdict["phrase_validation"] = validate_format(format_info, "string")
+                if validate_format(format_info, "boolean"):
+                    rowdict[f"phrase_normalized_{target_column}"] = re.sub(regex, standard, data_item)
                 matched = True
                 break
         if not matched:
             rowdict["format"] = "unknown"
-            rowdict["phrase_validation"] = "fail"
     output_path = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
 
