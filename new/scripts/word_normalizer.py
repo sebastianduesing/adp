@@ -33,7 +33,7 @@ def make_word_set(string):
     """
     Return a set of all words in a string.
     """
-    delimiters = [",", ".", "-", " ", "(", ")", ":", ";", "+", "=", ">", "<"]
+    delimiters = [",", ".", "-", " ", "(", ")", ":", ";"]
     string_stripped = string
     for delimiter in delimiters:
         string_stripped = " ".join(string_stripped.split(delimiter))
