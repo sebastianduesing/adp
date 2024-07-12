@@ -67,6 +67,8 @@ def create_new_review_entry(review_dict, style, stage, id, invalid_item, data_it
             entry_dict["pdb_plausible?"] = "N"
     entry_dict["context"] = f"""'{data_item}'"""
     entry_dict["occurrences"] = 1
+    if stage == "word":
+        entry_dict["category"] = ""
     entry_dict["replace_with"] = ""
     entry_dict["remove"] = ""
     entry_dict["invalidate"] = ""
