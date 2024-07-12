@@ -44,7 +44,7 @@ def make_word_set(string):
     return word_set
 
 
-def normalize_words(style, data_file, target_column, review_file, reference_file):
+def normalize_words(style, data_file, original_column, review_file, reference_file):
     """
     Performs word normalization on target_column in data_file.
 
@@ -53,6 +53,8 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
     been specified, adds them to review file for manual review.
     """
     data_dict = TSV2dict(data_file)
+    target_column = f"char_normalized_{original_column}"
+    new_column = f"word_normalized_{original_column}"
     allowed_words = set()
     if os.path.isfile(review_file):
         review_dict = TSV2dict(review_file)
@@ -69,18 +71,18 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
         m = re.match(r"!\s.+\s!", data_item)
         if m:
             rowdict["word_validation"] = "stopped"
-            rowdict[f"word_normalized_{target_column}"] = data_item
+            rowdict[new_column] = data_item
             continue
         if style == "data_loc":
             m = re.fullmatch(r"https:\/\/hla-ligand-atlas.org\/peptide\/[a-zA-Z]+", data_item)
             if m:
                 rowdict["word_validation"] = "pass"
-                rowdict[f"word_normalized_{target_column}"] = data_item
+                rowdict[new_column] = data_item
                 continue
         invalid_words = identify_invalid_words(data_item)
         rowdict["word_validation"] = tk.validate(invalid_words, "string")
         if tk.validate(invalid_words, "boolean"):
-            rowdict[f"word_normalized_{target_column}"] = data_item
+            rowdict[new_column] = data_item
         else:
             review_dict, reference_dict, data_item, allowed_words = tk.handle_invalid_items(
                 style,
@@ -97,9 +99,9 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
                     invalid_words.remove(word)
             rowdict["word_validation"] = tk.validate(invalid_words, "string")
             if tk.validate(invalid_words, "boolean"):
-                rowdict[f"word_normalized_{target_column}"] = data_item
+                rowdict[new_column] = data_item
             else:
-                rowdict[f"word_normalized_{target_column}"] = f"! Invalid words: {invalid_words} !"
+                rowdict[new_column] = f"! Invalid words: {invalid_words} !"
     output_path = os.path.join(style, "output_files", f"w_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
     if len(review_dict.keys()) != 0:
@@ -111,7 +113,7 @@ def normalize_words(style, data_file, target_column, review_file, reference_file
 if __name__ == "__main__":
     style = sys.argv[1]
     input_file = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
-    target_column = f"char_normalized_{sys.argv[2]}"
+    original_column = sys.argv[2]
     review = os.path.join(style, "output_files", "word_review.tsv")
     reference = os.path.join(style, "output_files", "word_reference.tsv")
     approved_words = [
@@ -124,4 +126,4 @@ if __name__ == "__main__":
         r"\d+"
     ]
     word_regex = build_regex_from_list(approved_words)
-    normalize_words(style, input_file, target_column, review, reference)
+    normalize_words(style, input_file, original_column, review, reference)

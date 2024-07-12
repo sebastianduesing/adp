@@ -1,4 +1,4 @@
-h_age	h_organism_id	h_organism_name	index	char_validation	char_normalized_h_age	word_validation	word_normalized_char_normalized_h_age
+h_age	h_organism_id	h_organism_name	index	char_validation	char_normalized_h_age	word_validation	word_normalized_h_age
 6-8 weeks old	10000067	Mus musculus C57BL/6	0	pass	6-8 weeks old	pass	6-8 week
 NULL	9606	Homo sapiens (human)	1	pass	null	pass	null
 6-8 weeks old	10000000	Mus musculus BALB/c	2	pass	6-8 weeks old	pass	6-8 week
@@ -53,7 +53,7 @@ NULL	10000598	Mus musculus HLA-DQ8 Tg	44	pass	null	pass	null
 NULL	10000047	Mus musculus C57BL/10	51	pass	null	pass	null
 NULL	10000094	Mus musculus C57BL/6 IAbeta null	52	pass	null	pass	null
 NULL	10000188	Sus scrofa NIH miniature pig	53	pass	null	pass	null
-average age 29.8 years	9606	Homo sapiens (human)	54	pass	average age 29.8 years	pass	mean 29.8 year
+average age 29.8 years	9606	Homo sapiens (human)	54	pass	average age 29.8 years	fail	! Invalid words: {'aver'} !
 18-91 years	9606	Homo sapiens (human)	55	pass	18-91 years	pass	18-91 year
 NULL	10000645	Mus musculus PrP null	56	pass	null	pass	null
 6-10 weeks	10000263	Mus musculus B10.BR	57	pass	6-10 weeks	pass	6-10 week
@@ -202,7 +202,7 @@ NULL	10000576	Mus musculus HLA-A*02:01 Tg	196	pass	null	pass	null
 42-64 years	9606	Homo sapiens (human)	200	pass	42-64 years	pass	42-64 year
 46-53 years	9606	Homo sapiens (human)	201	pass	46-53 years	pass	46-53 year
 6-12 weeks	10000000	Mus musculus BALB/c	202	pass	6-12 weeks	pass	6-12 week
-average age 29.8	9606	Homo sapiens (human)	203	pass	average age 29.8	pass	mean 29.8
+average age 29.8	9606	Homo sapiens (human)	203	pass	average age 29.8	fail	! Invalid words: {'aver'} !
 6-8 weeks old	10000601	Mus musculus HLA-DR1 Tg	204	pass	6-8 weeks old	pass	6-8 week
 6-8 weeks	10000027	Mus musculus C.AL-Igho/SmnJ	205	pass	6-8 weeks	pass	6-8 week
 1.5 - 10 years	9606	Homo sapiens (human)	206	pass	1.5 - 10 years	pass	1.5 - 10 year
@@ -523,8 +523,8 @@ NULL	10000594	Mus musculus HLA-B27 Tg	511	pass	null	pass	null
 NULL	10000260	Mus musculus B10.A(4R)	521	pass	null	pass	null
 17 years	9606	Homo sapiens (human)	522	pass	17 years	pass	17 year
 18-76 years	9606	Homo sapiens (human)	523	pass	18-76 years	pass	18-76 year
-5- to 8- weeks -old	10000000	Mus musculus BALB/c	524	pass	5- to 8- weeks -old	pass	5- to 8- week 
-average age 35.1	9606	Homo sapiens (human)	525	pass	average age 35.1	pass	mean 35.1
+5- to 8- weeks -old	10000000	Mus musculus BALB/c	524	pass	5- to 8- weeks -old	pass	5- to 8- week
+average age 35.1	9606	Homo sapiens (human)	525	pass	average age 35.1	fail	! Invalid words: {'aver'} !
 NULL	10000632	Mus musculus NOD	526	pass	null	pass	null
 29-51 years	9606	Homo sapiens (human)	527	pass	29-51 years	pass	29-51 year
 18-56 years	9606	Homo sapiens (human)	528	pass	18-56 years	pass	18-56 year
@@ -599,7 +599,7 @@ NULL	10000011	Mus musculus ABLE Tg TCR	586	pass	null	pass	null
 20-65	9606	Homo sapiens (human)	597	pass	20-65	pass	20-65
 29-55 years	9606	Homo sapiens (human)	598	pass	29-55 years	pass	29-55 year
 6-8 weeks old	10090	Mus musculus (mouse)	599	pass	6-8 weeks old	pass	6-8 week
-Not available	10000067	Mus musculus C57BL/6	600	pass	not available	fail	! Invalid words: {'not', 'available'} !
+Not available	10000067	Mus musculus C57BL/6	600	pass	not available	fail	! Invalid words: {'available', 'not'} !
 6-10 weeks	10000103	Mus musculus C57BL/6 RIP-LCMV-NP Tg	601	pass	6-10 weeks	pass	6-10 week
 NULL	10000269	Mus musculus B10.G	602	pass	null	pass	null
 16-84 years	9606	Homo sapiens (human)	603	pass	16-84 years	pass	16-84 year
@@ -987,7 +987,7 @@ NULL	10001071	Mus musculus (A.CA x C57BL/6)F1	973	pass	null	pass	null
 4 to 8 weeks	10090	Mus musculus (mouse)	985	pass	4 to 8 weeks	pass	4 to 8 week
 6-8 weeks old	10000279	Mus musculus B10.SM	986	pass	6-8 weeks old	pass	6-8 week
 6-8 weeks	10000053	Mus musculus DBA	987	pass	6-8 weeks	pass	6-8 week
-Adult (within 24 hours of parturition)	9606	Homo sapiens (human)	988	pass	adult (within 24 hours of parturition)	fail	! Invalid words: {'within', 'hour', 'parturition', 'of'} !
+Adult (within 24 hours of parturition)	9606	Homo sapiens (human)	988	pass	adult (within 24 hours of parturition)	fail	! Invalid words: {'hour', 'within', 'of', 'parturition'} !
 6 to 8-week old	10000000	Mus musculus BALB/c	989	pass	6 to 8-week old	pass	6 to 8-week
 6-8 weeks old	10000253	Mus musculus A/J	990	pass	6-8 weeks old	pass	6-8 week
 0.5-15 years-old	9606	Homo sapiens (human)	991	pass	0.5-15 years-old	pass	0.5-15 year
@@ -1373,7 +1373,7 @@ NULL	10001365	Mus musculus Clone 19 TCR Tg	1351	pass	null	pass	null
 7-9 weeks old	10000038	Mus musculus C3H/He	1371	pass	7-9 weeks old	pass	7-9 week
 7-9 weeks old	10000067	Mus musculus C57BL/6	1372	pass	7-9 weeks old	pass	7-9 week
 7 weeks	10000649	Mus musculus SJL	1373	pass	7 weeks	pass	7 week
-average age = 19.2 years	9606	Homo sapiens (human)	1374	pass	average age = 19.2 years	pass	mean = 19.2 year
+average age = 19.2 years	9606	Homo sapiens (human)	1374	pass	average age = 19.2 years	fail	! Invalid words: {'aver'} !
 51	9606	Homo sapiens (human)	1375	pass	51	pass	51
 8 to 10 weeks old	10000216	Mus musculus C57BL/6 X BALB/c	1376	pass	8 to 10 weeks old	pass	8 to 10 week
 50-58	9606	Homo sapiens (human)	1377	pass	50-58	pass	50-58
@@ -1402,7 +1402,7 @@ average age = 19.2 years	9606	Homo sapiens (human)	1374	pass	average age = 19.2 
 3-45 years	9606	Homo sapiens (human)	1400	pass	3-45 years	pass	3-45 year
 13-46 years	9606	Homo sapiens (human)	1401	pass	13-46 years	pass	13-46 year
 6 to 8 week	10090	Mus musculus (mouse)	1402	pass	6 to 8 week	pass	6 to 8 week
-within 12 hours of birth	10000038	Mus musculus C3H/He	1403	pass	within 12 hours of birth	fail	! Invalid words: {'within', 'hour', 'of', 'birth'} !
+within 12 hours of birth	10000038	Mus musculus C3H/He	1403	pass	within 12 hours of birth	fail	! Invalid words: {'of', 'hour', 'birth', 'within'} !
 13 days	10000038	Mus musculus C3H/He	1404	pass	13 days	pass	13 day
 10 to 12 weeks	10000595	Mus musculus HLA-B7 Tg	1405	pass	10 to 12 weeks	pass	10 to 12 week
 2-6 months	10000067	Mus musculus C57BL/6	1406	pass	2-6 months	pass	2-6 month
@@ -1523,7 +1523,7 @@ NULL	10001291	Mus musculus CBA/Igb	1517	pass	null	pass	null
 37-74 years	9606	Homo sapiens (human)	1521	pass	37-74 years	pass	37-74 year
 7-10 weeks	10000258	Mus musculus B10.A(2R)	1522	pass	7-10 weeks	pass	7-10 week
 5-8 weeks old	10000582	Mus musculus HLA-A2 Tg	1523	pass	5-8 weeks old	pass	5-8 week
-24 hours after birth	10000274	Mus musculus B10.PL	1524	pass	24 hours after birth	fail	! Invalid words: {'after', 'hour', 'birth'} !
+24 hours after birth	10000274	Mus musculus B10.PL	1524	pass	24 hours after birth	fail	! Invalid words: {'hour', 'birth', 'after'} !
 38-57 years	9606	Homo sapiens (human)	1525	pass	38-57 years	pass	38-57 year
 27-44 years	9606	Homo sapiens (human)	1526	pass	27-44 years	pass	27-44 year
 6-12 weeks	10000649	Mus musculus SJL	1527	pass	6-12 weeks	pass	6-12 week
@@ -2735,7 +2735,7 @@ NULL	10001452	Mus musculus C57/BL6J IRBP null	2731	pass	null	pass	null
 34 to 50 years	9606	Homo sapiens (human)	2733	pass	34 to 50 years	pass	34 to 50 year
 4 months	10001407	Mus musculus SNF1	2734	pass	4 months	pass	4 month
 17 to 47 years	9606	Homo sapiens (human)	2735	pass	17 to 47 years	pass	17 to 47 year
-Average age = 60.5 years	9606	Homo sapiens (human)	2736	pass	average age = 60.5 years	pass	mean = 60.5 year
+Average age = 60.5 years	9606	Homo sapiens (human)	2736	pass	average age = 60.5 years	fail	! Invalid words: {'aver'} !
 6 to 7 weeks	10000607	Mus musculus HLA-DR3 Tg	2737	pass	6 to 7 weeks	pass	6 to 7 week
 24 to 51 years	9606	Homo sapiens (human)	2738	pass	24 to 51 years	pass	24 to 51 year
 6-9 weeks	10001211	Mus musculus (C57BL/6 X A/J)	2739	pass	6-9 weeks	pass	6-9 week
@@ -2743,7 +2743,7 @@ Average age = 60.5 years	9606	Homo sapiens (human)	2736	pass	average age = 60.5 
 5 to 8 weeks	10000263	Mus musculus B10.BR	2741	pass	5 to 8 weeks	pass	5 to 8 week
 6-8 weeks	10001349	Mus musculus SJL X SWR	2742	pass	6-8 weeks	pass	6-8 week
 6 to 7 weeks	10000000	Mus musculus BALB/c	2743	pass	6 to 7 weeks	pass	6 to 7 week
-Average age = 36.9 years	9606	Homo sapiens (human)	2744	pass	average age = 36.9 years	pass	mean = 36.9 year
+Average age = 36.9 years	9606	Homo sapiens (human)	2744	pass	average age = 36.9 years	fail	! Invalid words: {'aver'} !
 38 to 75 years	9606	Homo sapiens (human)	2745	pass	38 to 75 years	pass	38 to 75 year
 34-64 years	9606	Homo sapiens (human)	2746	pass	34-64 years	pass	34-64 year
 5-7 weeks	10000662	Rattus norvegicus Lewis	2747	pass	5-7 weeks	pass	5-7 week
@@ -2788,7 +2788,7 @@ NULL	10002209	Mus musculus qCII24 TCR Tg	2784	pass	null	pass	null
 19-38 years	9606	Homo sapiens (human)	2786	pass	19-38 years	pass	19-38 year
 28.7 years	9606	Homo sapiens (human)	2787	pass	28.7 years	pass	28.7 year
 5 tp 7 weeks	10000262	Mus musculus B10.A-H2a H2-T18a/SgSnJ	2788	pass	5 tp 7 weeks	pass	5 to 7 week
-average age = 54.7 years	9606	Homo sapiens (human)	2789	pass	average age = 54.7 years	pass	mean = 54.7 year
+average age = 54.7 years	9606	Homo sapiens (human)	2789	pass	average age = 54.7 years	fail	! Invalid words: {'aver'} !
 9 to 71 years	9606	Homo sapiens (human)	2790	pass	9 to 71 years	pass	9 to 71 year
 22-83 years	9606	Homo sapiens (human)	2791	pass	22-83 years	pass	22-83 year
 8-10 weeks	10001350	Mus musculus B7-2 null	2792	pass	8-10 weeks	pass	8-10 week
@@ -2815,7 +2815,7 @@ NULL	10001468	Oryctolagus cuniculus New Zealand White HLA-A*0201 Tg	2810	pass	nu
 28 to 87 years	9606	Homo sapiens (human)	2813	pass	28 to 87 years	pass	28 to 87 year
 NULL	10001090	Mus musculus YA26 TCR Tg	2814	pass	null	pass	null
 31 to 62 years	9606	Homo sapiens (human)	2815	pass	31 to 62 years	pass	31 to 62 year
-Average age = 59.4	9606	Homo sapiens (human)	2816	pass	average age = 59.4	pass	mean = 59.4
+Average age = 59.4	9606	Homo sapiens (human)	2816	pass	average age = 59.4	fail	! Invalid words: {'aver'} !
 7-15 weeks	10000000	Mus musculus BALB/c	2817	pass	7-15 weeks	pass	7-15 week
 65-94 years	9606	Homo sapiens (human)	2818	pass	65-94 years	pass	65-94 year
 6 to 8 weeks	10090	Mus musculus (mouse)	2819	pass	6 to 8 weeks	pass	6 to 8 week
@@ -3859,7 +3859,7 @@ mean age 35 +/- 11 years	9606	Homo sapiens (human)	3847	pass	mean age 35 +/- 11 
 20 to 25 years	9606	Homo sapiens (human)	3857	pass	20 to 25 years	pass	20 to 25 year
 6-10 weeks	10002237	Mus musculus TCR3 Rg	3858	pass	6-10 weeks	pass	6-10 week
 53-63 yeras	9606	Homo sapiens (human)	3859	pass	53-63 yeras	pass	53-63 year
-average age = 4.38 years	9606	Homo sapiens (human)	3860	pass	average age = 4.38 years	pass	mean = 4.38 year
+average age = 4.38 years	9606	Homo sapiens (human)	3860	pass	average age = 4.38 years	fail	! Invalid words: {'aver'} !
 6 to 8 weeks	10002763	Mus musculus HLA-A*11:01 Tg	3861	pass	6 to 8 weeks	pass	6 to 8 week
 6 to 8 weeks	10001062	Mus musculus HLA-A*24:02 Tg	3862	pass	6 to 8 weeks	pass	6 to 8 week
 NULL	10001487	Mus musculus Apolipoprotein E null	3863	pass	null	pass	null
@@ -3884,7 +3884,7 @@ NULL	10001487	Mus musculus Apolipoprotein E null	3863	pass	null	pass	null
 39-65 years	9606	Homo sapiens (human)	3882	pass	39-65 years	pass	39-65 year
 > 14 weeks	10000047	Mus musculus C57BL/10	3883	pass	> 14 weeks	pass	> 14 week
 64 yeras	9606	Homo sapiens (human)	3884	pass	64 yeras	pass	64 year
-average age=36.5 years	9606	Homo sapiens (human)	3885	pass	average age=36.5 years	pass	mean =36.5 year
+average age=36.5 years	9606	Homo sapiens (human)	3885	pass	average age=36.5 years	fail	! Invalid words: {'aver'} !
 6-27 weeks	10000028	Mus musculus C3H	3886	pass	6-27 weeks	pass	6-27 week
 22 to 76 years	9606	Homo sapiens (human)	3887	pass	22 to 76 years	pass	22 to 76 year
 NULL	10002223	Mus musculus RSV-M187 TCR Tg	3888	pass	null	pass	null
@@ -3894,7 +3894,7 @@ NULL	10002223	Mus musculus RSV-M187 TCR Tg	3888	pass	null	pass	null
 14-18 months	9606	Homo sapiens (human)	3892	pass	14-18 months	pass	14-18 month
 5-6 weeks	10000635	Mus musculus NOD/Lt	3893	pass	5-6 weeks	pass	5-6 week
 9 months to 81 years	9606	Homo sapiens (human)	3894	pass	9 months to 81 years	pass	9 month to 81 year
-average age = 48 years	9606	Homo sapiens (human)	3895	pass	average age = 48 years	pass	mean = 48 year
+average age = 48 years	9606	Homo sapiens (human)	3895	pass	average age = 48 years	fail	! Invalid words: {'aver'} !
 42 to 61 years	9606	Homo sapiens (human)	3896	pass	42 to 61 years	pass	42 to 61 year
 7 -11 years	9606	Homo sapiens (human)	3897	pass	7 -11 years	pass	7 -11 year
 7 - 11 years	9606	Homo sapiens (human)	3898	pass	7 - 11 years	pass	7 - 11 year
@@ -3926,7 +3926,7 @@ median 41.7 years	9606	Homo sapiens (human)	3919	pass	median 41.7 years	pass	med
 21 to 60 years	9606	Homo sapiens (human)	3924	pass	21 to 60 years	pass	21 to 60 year
 21 to 44 years	9606	Homo sapiens (human)	3925	pass	21 to 44 years	pass	21 to 44 year
 6 to 8 months	10002166	Bos taurus Japanese Black	3926	pass	6 to 8 months	pass	6 to 8 month
-average age=32 years	9606	Homo sapiens (human)	3927	pass	average age=32 years	pass	mean =32 year
+average age=32 years	9606	Homo sapiens (human)	3927	pass	average age=32 years	fail	! Invalid words: {'aver'} !
 2 months	10000200	Oryctolagus cuniculus Chinchilla	3928	pass	2 months	pass	2 month
 19 weeks	10000632	Mus musculus NOD	3929	pass	19 weeks	pass	19 week
 8 weeks	10000227	Mus musculus OT-1 TCR Tg	3930	pass	8 weeks	pass	8 week
@@ -4407,7 +4407,7 @@ median 66.5 years	9606	Homo sapiens (human)	4401	pass	median 66.5 years	pass	med
 32-87 years	9606	Homo sapiens (human)	4405	pass	32-87 years	pass	32-87 year
 20 to 59 years	9606	Homo sapiens (human)	4406	pass	20 to 59 years	pass	20 to 59 year
 6 weeks	10000653	Mus musculus Swiss	4407	pass	6 weeks	pass	6 week
-Mean age of 32.2 years with a range from 18 to 49 years	9606	Homo sapiens (human)	4408	pass	mean age of 32.2 years with a range from 18 to 49 years	fail	! Invalid words: {'range', 'from', 'with', 'of', 'a'} !
+Mean age of 32.2 years with a range from 18 to 49 years	9606	Homo sapiens (human)	4408	pass	mean age of 32.2 years with a range from 18 to 49 years	fail	! Invalid words: {'with', 'a', 'of', 'from', 'range'} !
 46-73 years	9606	Homo sapiens (human)	4409	pass	46-73 years	pass	46-73 year
 46-48 months	9544	Macaca mulatta (rhesus macaque)	4410	pass	46-48 months	pass	46-48 month
 6-10 weeks	10000651	Mus musculus SMARTA TCR Tg	4411	pass	6-10 weeks	pass	6-10 week
@@ -4830,7 +4830,7 @@ NULL	10002847	Mus musculus HLA-DPA1*01:03/DPB1*04:01 Tg	4820	pass	null	pass	null
 6-8 week-old	10000047	Mus musculus C57BL/10	4828	pass	6-8 week-old	pass	6-8 week
 NULL	10000207	Oryctolagus cuniculus Sandy Half-Lop	4829	pass	null	pass	null
 1-5 years old	9606	Homo sapiens (human)	4830	pass	1-5 years old	pass	1-5 year
-average age 54	9606	Homo sapiens (human)	4831	pass	average age 54	pass	mean 54
+average age 54	9606	Homo sapiens (human)	4831	pass	average age 54	fail	! Invalid words: {'aver'} !
 16-Feb	9606	Homo sapiens (human)	4832	pass	16-feb	fail	! Invalid words: {'feb'} !
 7-9 wks	10000649	Mus musculus SJL	4833	pass	7-9 wks	pass	7-9 week
 4-10 weeks	447135	Myodes glareolus (bank vole)	4834	pass	4-10 weeks	pass	4-10 week
@@ -5234,7 +5234,7 @@ birth - 5 years	9606	Homo sapiens (human)	5230	pass	birth - 5 years	fail	! Inval
 3-4 days	10000653	Mus musculus Swiss	5232	pass	3-4 days	pass	3-4 day
 23 to 89 years	9606	Homo sapiens (human)	5233	pass	23 to 89 years	pass	23 to 89 year
 4-8-week-old	10000047	Mus musculus C57BL/10	5234	pass	4-8-week-old	pass	4-8-week
-Neonates (infected mothers or PM)	9606	Homo sapiens (human)	5235	pass	neonates (infected mothers or pm)	fail	! Invalid words: {'infected', 'pm', 'mothers'} !
+Neonates (infected mothers or PM)	9606	Homo sapiens (human)	5235	pass	neonates (infected mothers or pm)	fail	! Invalid words: {'mothers', 'infected', 'pm'} !
 1-4 years	9606	Homo sapiens (human)	5236	pass	1-4 years	pass	1-4 year
 3-65 years-old	9606	Homo sapiens (human)	5237	pass	3-65 years-old	pass	3-65 year
 NULL	10000664	Rattus norvegicus LOU/C	5238	pass	null	pass	null
@@ -5328,7 +5328,7 @@ mean = 45 years	9606	Homo sapiens (human)	5312	pass	mean = 45 years	pass	mean = 
 Child (5-11)	9606	Homo sapiens (human)	5326	pass	child (5-11)	pass	child (5-11)
 18-27 years	9606	Homo sapiens (human)	5327	pass	18-27 years	pass	18-27 year
 6 months to 53 years	9606	Homo sapiens (human)	5328	pass	6 months to 53 years	pass	6 month to 53 year
-Average age of 37 years	9606	Homo sapiens (human)	5329	pass	average age of 37 years	fail	! Invalid words: {'of'} !
+Average age of 37 years	9606	Homo sapiens (human)	5329	pass	average age of 37 years	fail	! Invalid words: {'aver', 'of'} !
 6-8 weeks	10000232	Mus musculus CBA.M523	5330	pass	6-8 weeks	pass	6-8 week
 4- to 6-week-old	10001998	Mus musculus CD1	5331	pass	4- to 6-week-old	pass	4- to 6-week
 11 weeks	10000067	Mus musculus C57BL/6	5332	pass	11 weeks	pass	11 week
@@ -5931,7 +5931,7 @@ NULL	10001507	Rattus norvegicus BioBreeding	5911	pass	null	pass	null
 12 - 20 weeks	10001406	Mus musculus MLR/lpr	5929	pass	12 - 20 weeks	pass	12 - 20 week
 14-22 weeks	10001406	Mus musculus MLR/lpr	5930	pass	14-22 weeks	pass	14-22 week
 50 to 68	9606	Homo sapiens (human)	5931	pass	50 to 68	pass	50 to 68
-Within 1 week after birth	9606	Homo sapiens (human)	5932	pass	within 1 week after birth	fail	! Invalid words: {'within', 'birth', 'after'} !
+Within 1 week after birth	9606	Homo sapiens (human)	5932	pass	within 1 week after birth	fail	! Invalid words: {'birth', 'within', 'after'} !
 17-58 years	9606	Homo sapiens (human)	5933	pass	17-58 years	pass	17-58 year
 49-71 years	9606	Homo sapiens (human)	5934	pass	49-71 years	pass	49-71 year
 47-62 years	9606	Homo sapiens (human)	5935	pass	47-62 years	pass	47-62 year
@@ -6080,7 +6080,7 @@ NULL	10000639	Mus musculus NZB	6069	pass	null	pass	null
 30-63 years	9606	Homo sapiens (human)	6078	pass	30-63 years	pass	30-63 year
 8-9 weeks	10001427	Mus musculus viable motheaten	6079	pass	8-9 weeks	pass	8-9 week
 29-71 years	9606	Homo sapiens (human)	6080	pass	29-71 years	pass	29-71 year
-average age = 12.32 years	9606	Homo sapiens (human)	6081	pass	average age = 12.32 years	pass	mean = 12.32 year
+average age = 12.32 years	9606	Homo sapiens (human)	6081	pass	average age = 12.32 years	fail	! Invalid words: {'aver'} !
 7 month	9940	Ovis aries (domestic sheep)	6082	pass	7 month	pass	7 month
 35-70 years	9606	Homo sapiens (human)	6083	pass	35-70 years	pass	35-70 year
 5 to 6 weeks	10000655	Mus musculus Swiss Webster	6084	pass	5 to 6 weeks	pass	5 to 6 week
@@ -6773,7 +6773,7 @@ NULL	10002138	Mus musculus B10	6758	pass	null	pass	null
 30 to 51 years	9606	Homo sapiens (human)	6771	pass	30 to 51 years	pass	30 to 51 year
 at least 2 months	10000206	Oryctolagus cuniculus New Zealand White	6772	pass	at least 2 months	fail	! Invalid words: {'least', 'at'} !
 16 weeks	10000206	Oryctolagus cuniculus New Zealand White	6773	pass	16 weeks	pass	16 week
-18-38 years, with an average of 22 years	9606	Homo sapiens (human)	6774	pass	18-38 years, with an average of 22 years	fail	! Invalid words: {'with', 'of', 'an'} !
+18-38 years, with an average of 22 years	9606	Homo sapiens (human)	6774	pass	18-38 years, with an average of 22 years	fail	! Invalid words: {'with', 'an', 'of'} !
 6-8 weeks	10002278	Mus musculus Antibody Transgenic	6775	pass	6-8 weeks	pass	6-8 week
 26-51 years	9606	Homo sapiens (human)	6776	pass	26-51 years	pass	26-51 year
 29 to 71 years	9606	Homo sapiens (human)	6777	pass	29 to 71 years	pass	29 to 71 year
@@ -6845,7 +6845,7 @@ NULL	10002355	Bos taurus human immunoglobulin, bIGHMnull, bIGHML1 null, bIGL nul
 6 years	30538	Vicugna pacos (alpaca)	6843	pass	6 years	pass	6 year
 20 to 89 years	9606	Homo sapiens (human)	6844	pass	20 to 89 years	pass	20 to 89 year
 20-49 years	9606	Homo sapiens (human)	6845	pass	20-49 years	pass	20-49 year
-average age = 50 years	9606	Homo sapiens (human)	6846	pass	average age = 50 years	pass	mean = 50 year
+average age = 50 years	9606	Homo sapiens (human)	6846	pass	average age = 50 years	fail	! Invalid words: {'aver'} !
 5-9 weeks	10000619	Mus musculus ICR X Swiss	6847	pass	5-9 weeks	pass	5-9 week
 born before 1968	9606	Homo sapiens (human)	6848	pass	born before 1968	fail	! Invalid words: {'born', 'before'} !
 7 days	9823	Sus scrofa (pig)	6849	pass	7 days	pass	7 day
@@ -6989,8 +6989,8 @@ NULL	8128	Oreochromis niloticus (Nile tilapia)	6981	pass	null	pass	null
 15 to 76 years	9606	Homo sapiens (human)	6987	pass	15 to 76 years	pass	15 to 76 year
 31-65 years	9606	Homo sapiens (human)	6988	pass	31-65 years	pass	31-65 year
 2-3 months	10000206	Oryctolagus cuniculus New Zealand White	6989	pass	2-3 months	pass	2-3 month
-average age = 43.6 years	9606	Homo sapiens (human)	6990	pass	average age = 43.6 years	pass	mean = 43.6 year
-average age = 44.8 years	9606	Homo sapiens (human)	6991	pass	average age = 44.8 years	pass	mean = 44.8 year
+average age = 43.6 years	9606	Homo sapiens (human)	6990	pass	average age = 43.6 years	fail	! Invalid words: {'aver'} !
+average age = 44.8 years	9606	Homo sapiens (human)	6991	pass	average age = 44.8 years	fail	! Invalid words: {'aver'} !
 8 to 10 weeks	10001306	Mus musculus KRN TCR Tg	6992	pass	8 to 10 weeks	pass	8 to 10 week
 NULL	42716	Didelphis albiventris (white-eared opossum)	6993	pass	null	pass	null
 6 weeks	10002278	Mus musculus Antibody Transgenic	6994	pass	6 weeks	pass	6 week
