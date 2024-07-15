@@ -117,12 +117,9 @@ if __name__ == "__main__":
     review = os.path.join(style, "output_files", "word_review.tsv")
     reference = os.path.join(style, "output_files", "word_reference.tsv")
     approved_words = [
-        "and",
         "are",
         "is",
-        "or",
         "than",
-        "to",
         r"\d+"
     ]
     word_regex = build_regex_from_list(approved_words)

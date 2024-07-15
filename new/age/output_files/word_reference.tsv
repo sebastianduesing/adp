@@ -90,3 +90,6 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 88	4+/	'14.4+/-3.8 years', '33.4+/-6 years'	3		4 +/			
 89	average=	'average= 34.6 years', 'average= 53.4 years', 'average= 56.4 years'	3		average =			
 90	mean=8	'mean=8.4 +/- 4.3'	1		mean = 8			
+91	and	'child and adult', 'adult and child', '10 year and older', 'adult and child (ages 4.5-10.5 and 15-44)', '23 and 61 year', '2 month and 5 month', 'neonate and adult', 'calf and cows', '68 year, and 70 year', '6-8 week, and 4 month', '52 and 70 year', '6 and 8 week', '41 and 43 year', '26 and 54 year'	37	and				x
+92	to	'6 to 8 weeks', '35 to 40 days', '18 to 65 years', '6 to 8-week', '8 to 10 weeks', '6 to 10 weeks', '27 to 78 years', '12 to 55 year', '8 to 12 weeks', '7 to 8 weeks', '18 to 50 years', '5 to 19 weeks', '5- to 8- weeks ', '6 months to 2 years', '10 to 17 days', '6 to 10 wk', '22 to 80 years', '5 to 8 weeks'	1315	range_indicator				x
+93	or	'11 or 18 weeks', '5, 11 or 18 weeks', '8 weeks or older', '2 months or older', '5, 8, 11 or 18 weeks', '6 weeks or older', '5 or 6 weeks', '5 or 8 weeks', '9 or 20 weeks', '2, 3, or 4 months', '2 months or 2-10 months', '40 years or older', '30 or 35 years', '18-22 months or 4-6 months', '8 days or 4-6 months'	43	or				x

@@ -48,14 +48,14 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 46	an	'18-38 year, with an mean of 22 year', '18-38 year, with an average of 22 year', '18-38 years, with an average of 22 years', '18-38 years, with an mean of 22 years'	1					
 47	before	'born before 1968'	1					
 48	born	'born before 1968'	1					
-71	<24	'<24 hour'	1					
+71	<24	'<24 hour', '<24 hours'	1					
 72	>8	'>8 week', '>8 weeks'	2					
 73	<16	'<16 hours', '<16 years'	2					
 74	>50	'>50 years-old'	2					
 75	<55	'<55 years'	1					
-76	age=36	'mean age=36.5 years'	1					
+76	age=36	'mean age=36.5 years', 'average age=36.5 years'	1					
 77	18+	'18+ years', '4-18+ years'	2					
-78	age=32	'mean age=32 years', 'average age=32 year'	1					
+78	age=32	'mean age=32 years', 'average age=32 year', 'average age=32 years'	1					
 79	>=	'>= 18 years'	1					
 80	>60	'22 to >60 years'	1					
 81	>40	'>40 years'	1					
@@ -70,7 +70,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 93	58+/	'mean age = 58+/-12 years', 'mean = 58+/-12 years'	1					
 94	>24	'>24 week', '>24 weeks'	1					
 95	>22	'>22 week', '>22 weeks'	1					
-97	>32	'adult, >32 year', 'adults, >32 years'	2					
+97	>32	'adult, >32 year', 'adults, >32 years', 'adult, >32 years'	2					
 99	>69	'>69 years'	1					
 100	<6	'<6 months'	1					
 101	3+/	'72.3+/-6.7 years'	1					
