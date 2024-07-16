@@ -9,7 +9,7 @@ separator = r"[-,\():;\s]+"
 
 def find_category(word, word_review_dict, word_reference_dict):
     number_regex = r"\d+\.?\d*"
-    number = re.match(number_regex, word)
+    number = re.fullmatch(number_regex, word)
     if number:
         return "number"
     else:
@@ -100,6 +100,18 @@ def rearrange_phrase(cat_string, rowdict, phrase_dict):
     rowdict["phrase_normalized"] = phrase
 
 
+def create_phrase_type_sheet(path):
+    type_dict = {}
+    type_dict[0] = {
+        "index": 0,
+        "name": "",
+        "pattern": "",
+        "valid?": "",
+        "standard_form": ""
+    }
+    dict2TSV(type_dict, path)
+
+
 def normalize_phrase(style, data_file, original_column):
     target_column = f"word_normalized_{original_column}"
     data_dict = TSV2dict(data_file)
@@ -129,6 +141,8 @@ if __name__ == "__main__":
     word_review_file = os.path.join(style, "output_files", "word_review.tsv")
     word_reference_file = os.path.join(style, "output_files", "word_reference.tsv")
     type_file = os.path.join(style, "input_files", f"{style}_phrase_types.tsv")
+    if not os.path.isfile(type_file):
+        create_phrase_type_sheet(type_file)
     word_review_dict = TSV2dict(word_review_file)
     word_reference_dict = TSV2dict(word_reference_file)
     type_dict = TSV2dict(type_file)
