@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import data_loc_splitter as dls
 import toolkit as tk
 from converter import TSV2dict, dict2TSV
 
@@ -115,6 +116,16 @@ def create_phrase_type_sheet(path):
 def normalize_phrase(style, data_file, original_column):
     target_column = f"word_normalized_{original_column}"
     data_dict = TSV2dict(data_file)
+    if style == "data_loc":
+        for index, rowdict in data_dict.items():
+            data_item = rowdict[target_column]
+            invalid = re.match(r"!\s.*\s!", data_item)
+            if invalid:
+                rowdict[f"split_{target_column}"] = data_item
+            else:
+                rowdict[f"split_{target_column}"] = dls.split_data_loc(rowdict[target_column])
+        data_dict = dls.reindex_by_split(data_dict, f"split_{target_column}")
+        target_column = f"split_phrase"
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
         if rowdict["word_validation"] == "fail" or rowdict["word_validation"] == "stopped":
