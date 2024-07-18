@@ -73,18 +73,6 @@ def phrase_lookup(cat_string):
             return rowdict["name"], rowdict["valid?"], rowdict["standard_form"]
             matched = True
             break
-        elif "|" in pattern:
-            pattern = pattern.split("|")
-            standard_form = rowdict["standard_form"]
-            if standard_form != "":
-                standard_form = standard_form.split()
-            for i in range(len(pattern)):
-                if cat_string == pattern[i]:
-                    if standard_form != "":
-                        standard_form = standard_form[i]
-                    matched = True
-                    return rowdict["name"], rowdict["valid?"], standard_form
-                    break
     if not matched:
         return "unknown", "N", ""
 
