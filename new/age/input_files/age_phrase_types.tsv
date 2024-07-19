@@ -1,20 +1,21 @@
 name	index	pattern	valid?	standard_form
 null	1	[null(0)]	N	
-unitless_range	2	[number(0)][number(1)]|[number(0)][range_indicator(1)][number(2)]	N	
-range	3	[number(0)][number(1)][unit(2)]	Y	[0]-[1] [2]
-range	4	[number(0)][range_indicator(1)][number(2)][unit(3)]	Y	[0]-[2] [3]
-exact	5	[number(0)][unit(1)]	Y	[0] [1]
-mean	6	[mean(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
-mean	7	[number(0)][unit(1)][mean(2)]	Y	[2]: [0] [1]
-mean	8	[mean(0)][equals(1)][number(2)][unit(3)]	Y	[0]: [2] [3]
-median	9	[median(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
-unitless_exact	10	[number(0)]	N	
-categorical	11	[categorical(0)]	Y	[0]
-plus_minus	12	[number(0)][plus_slash(1)][number(2)][unit(3)]	Y	[0]+/-[2] [3]
-unitless_plus_minus	13	[number(0)][plus_slash(1)][number(2)]	N	
-single_bound_range	14	[less_than(0)][number(1)][unit(2)]	Y	<[1] [2]
-single_bound_range	15	[greater_than(0)][number(1)][unit(2)]	Y	>[1] [2]
-multi_unit_range	16	[number(0)][unit(1)][range_indicator(2)][number(3)][unit(4)]	N	
-multi_unit_range	17	[number(0)][unit(1)][number(2)][unit(3)]	N	
-x_and_y	18	[number(0)][and(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
-x_or_y	19	[number(0)][or(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
+unitless_range	2	[number(0)][range_indicator(1)][number(2)]	N	
+unitless_range	3	[number(0)][number(1)]	N	
+range	4	[number(0)][number(1)][unit(2)]	Y	[0]-[1] [2]
+range	5	[number(0)][range_indicator(1)][number(2)][unit(3)]	Y	[0]-[2] [3]
+exact	6	[number(0)][unit(1)]	Y	[0] [1]
+mean	7	[mean(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
+mean	8	[number(0)][unit(1)][mean(2)]	Y	[2]: [0] [1]
+mean	9	[mean(0)][equals(1)][number(2)][unit(3)]	Y	[0]: [2] [3]
+median	10	[median(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
+unitless_exact	11	[number(0)]	N	
+categorical	12	[categorical(0)]	Y	[0]
+plus_minus	13	[number(0)][plus_slash(1)][number(2)][unit(3)]	Y	[0]+/-[2] [3]
+unitless_plus_minus	14	[number(0)][plus_slash(1)][number(2)]	N	
+single_bound_range	15	[less_than(0)][number(1)][unit(2)]	Y	<[1] [2]
+single_bound_range	16	[greater_than(0)][number(1)][unit(2)]	Y	>[1] [2]
+multi_unit_range	17	[number(0)][unit(1)][range_indicator(2)][number(3)][unit(4)]	N	
+multi_unit_range	18	[number(0)][unit(1)][number(2)][unit(3)]	N	
+x_and_y	19	[number(0)][and(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
+x_or_y	20	[number(0)][or(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]

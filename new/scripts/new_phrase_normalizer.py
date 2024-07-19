@@ -9,6 +9,9 @@ separator = r"[-,\():;\s]+"
 
 
 def find_category(word, word_review_dict, word_reference_dict):
+    """
+    Identify the category of a word based on word_reference category column.
+    """
     number_regex = r"\d+\.?\d*"
     number = re.fullmatch(number_regex, word)
     if number:
@@ -28,6 +31,9 @@ def find_category(word, word_review_dict, word_reference_dict):
 
 
 def build_phrase_dict(string, separator):
+    """
+    Construct a dict of information about each word in a phrase.
+    """
     phrase_dict = {}
     url_regex = r"((http[s]?):\/)?\/?([^:\/\s]+)((\/\w+)*\/)(\S+)"
     url = re.fullmatch(url_regex, string)
@@ -58,6 +64,9 @@ def build_phrase_dict(string, separator):
 
 
 def make_categorization_string(phrase_dict):
+    """
+    Construct a string of the categories and locations of words in a phrase.
+    """
     cat_string = ""
     for index, word_dict in phrase_dict.items():
         category = word_dict["category"]
@@ -66,6 +75,9 @@ def make_categorization_string(phrase_dict):
 
 
 def phrase_lookup(cat_string):
+    """
+    Check cat_string against patterns specified in type sheet.
+    """
     matched = False
     for index, rowdict in type_dict.items():
         pattern = rowdict["pattern"]
@@ -78,6 +90,9 @@ def phrase_lookup(cat_string):
 
 
 def rearrange_phrase(cat_string, rowdict, phrase_dict):
+    """
+    Configure the words in cat_string according to the specified standard form.
+    """
     p_type, validity, standard_form = phrase_lookup(cat_string)
     rowdict["phrase_type"] = p_type
     rowdict["phrase_validation"] = "pass" if validity == "Y" else "fail"
@@ -90,6 +105,9 @@ def rearrange_phrase(cat_string, rowdict, phrase_dict):
 
 
 def create_phrase_type_sheet(path):
+    """
+    Initialize an phrase type sheet TSV.
+    """
     type_dict = {}
     type_dict[0] = {
         "index": 0,
@@ -102,6 +120,9 @@ def create_phrase_type_sheet(path):
 
 
 def normalize_phrase(style, data_file, original_column):
+    """
+    Apply phrase normalization to the word-normalized data column in data_file.
+    """
     target_column = f"word_normalized_{original_column}"
     data_dict = TSV2dict(data_file)
     if style == "data_loc":

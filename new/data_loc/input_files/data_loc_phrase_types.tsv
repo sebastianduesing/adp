@@ -1,5 +1,8 @@
 index	name	pattern	valid?	standard_form
-0	url	[url(0)]	Y	[0]
-1	pdb_id	[pdb(0)][pdb_id(1)]|[pdb(0)][number(1)]	Y	[0] [1]|[0] [1]
-2	loc_number	[location(0)][number(1)]	Y	[0] [1]
-3	number	[number(0)]	N	
+1	url	[url(0)]	Y	[0]
+2	pdb_id	[pdb(0)][number(1)]	Y	[0] [1]
+3	pdb_id	[pdb(0)][pdb_id(1)]	Y	[0] [1]
+4	loc_number	[location(0)][number(1)]	Y	[0] [1]
+5	number	[number(0)]	N	
+6	loc_number	[location(0)][alphanumeric_id(1)]	Y	[0] [1]
+7	section_location	[section(0)][location(1)][number(2)]	Y	[0] [1] [2]
