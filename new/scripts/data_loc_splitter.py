@@ -79,6 +79,7 @@ def split_data_loc(string):
 
     results = []
     current_type = None
+    base_number = None
 
     for segment in segments:
         original_segment = segment.strip()
@@ -124,15 +125,25 @@ def split_data_loc(string):
                     results.append(f"{current_type} {base_number}{part}" if i != 0 else f"{current_type} {part}")
             elif current_type:
                 results.append(f"{current_type} {number}")
+                base_number = re.match(r"s?\d+", number).group(0)
             else:
                 results.append(number)
+                base_number = re.match(r"s?\d+", number).group(0)
+
+        # Look for individual letters for cases like "figure 1a, b, c"
+        individual_letters = re.findall(r"\b[a-zA-Z]\b", segment)
+        for letter in individual_letters:
+            if base_number and current_type:
+                results.append(f"{current_type} {base_number}{letter}")
+            elif base_number:
+                results.append(f"{base_number}{letter}")
 
         # If no numbers are found but a type is defined in the segment, treat as type element
-        if not numbers and type_match:
+        if not numbers and not individual_letters and type_match:
             results.append(segment)
 
         # If no numbers are found and no type is defined in the segment, treat as non-type element
-        if not numbers and not type_match:
+        if not numbers and not individual_letters and not type_match:
             # TODO: Decide if we want to keep the "UNNORMALIZED" tag
             # if original_segment == segment:
             #    segment = f"UNNORMALIZED: {segment}"
