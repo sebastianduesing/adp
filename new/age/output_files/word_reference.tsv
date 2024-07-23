@@ -13,7 +13,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 11	children	'children and adults', 'adults and children', 'children (mean age 7.2 years)', 'adults and children (ages 4.5-10.5 and 15-44)', 'children (avg. age = 9.5 years)', 'children <5 years old'	7		child			
 12	adult	'adult', 'young adult', 'adult (within 24 hours of parturition)', 'adult (avg. age = 30.8 years)', 'neonate and adult', 'adult (>18 years)', 'adult (6 weeks)', '1 day, 7-8 days or adult', 'adult (pregnant)', 'adult (18-49)', 'adult, >32 years'	59	categorical				x
 13	days	'35 to 40 days', '10 to 17 days-old', '10 days', '10-17 days', '13 days', '50 days', '60-90 days', '23 days', '6-9 days', '80 days', '10-13 days', '65 days', '27-29 days', '33-36 days', '16 +/- 11 days', '42 to 100 days', '42 to 116 days', '30 to 40 days', '< 42 days', '27 days', '8 days or 4-6 months'	93		day			
-14	mean	'mean 54 years (range 19-68)', 'mean: 29 years', 'mean age 30 years', 'mean age 46.5 years', 'children (mean age 7.2 years)', 'mean age = 30.7 years', 'mean age 54 years', 'mean: 30 years', 'mean=28.5 +/- 15.0', 'mean age 26.5 years', '38.6 years (mean age)', 'mean age 31 years', 'mean age 65 years'	108	mean				x
+14	mean	'mean 54 years (range 19-68)', 'mean: 29 years', 'mean age 30 years', 'mean age 46.5 years', 'children (mean age 7.2 years)', 'mean age = 30.7 years', 'mean age 54 years', 'mean: 30 years', 'mean=28.5 +/- 15.0', 'mean age 26.5 years', '38.6 years (mean age)', 'mean age 31 years', 'mean age 65 years'	108	statistical				x
 15	mo	'2-18 mo', '4 wk - 3 mo', '6-24 mo of age', '6 - 8 mo', '2 mo', '8 mo to 35 years'	7		month			
 16	wks	'8-12 wks', '6-8 wks', '8-10 wks', '8-10 wks.', '6-10 wks', '4-6 wks', '7-9 wks', '6-7 wks'	15		week			
 17	yr	'8-yr-old', '10.1 +/- 3.6 yr', '8 yr', '10-66 yr'	4		year			
@@ -29,7 +29,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 27	day	'2-day old', '7 day old', '1 day', '24-day-old', '15 day', 'embryonic day 15', '1 day, 7-8 days or adult', '1 day to 40 years', '2 day old', '1 day old', '2-day to 6-week old', '45 day', '21 day old', '40-day-old', '100 day fetus', '1 day to 103 years', '1 day to 6 months'	20	unit				x
 28	over	'10 to over 90 years', 'over 18 years old', '18-40 years, 65 years and over.', 'over 5 weeks', 'over 12 weeks', 'over 50 years'	7		>			
 29	hours	'adult (within 24 hours of parturition)', 'within 12 hours of birth', '<18 hours', '24 hours after birth', '< 12 hours', 'less than 24 hours', '<24 hours', '<16 hours', '48 hours'	14		hour			
-30	median	'median age 11.3 years', 'median age 6.3 years', 'median age 28 years', 'median age 5.5 years', 'median age = 27 years', 'median 41.7 years', 'median 66.5 years', 'median 58 years', 'median 4 years', 'median age 33 years', 'median age 21 years', '0.7 to 20.9 years (median = 11.0)', 'median age 63 years'	21	median				x
+30	median	'median age 11.3 years', 'median age 6.3 years', 'median age 28 years', 'median age 5.5 years', 'median age = 27 years', 'median 41.7 years', 'median 66.5 years', 'median 58 years', 'median 4 years', 'median age 33 years', 'median age 21 years', '0.7 to 20.9 years (median = 11.0)', 'median age 63 years'	21	statistical				x
 31	neonatal	'neonatal'	4		neonate			
 32	/	'mean=28.5 +/- 15.0', '10.1 +/- 3.6 yr', '50 +/- 15 years', '40 +/- 12 years', '16 +/- 11 days', '41+/-13 years', '54+/-10 years', 'mean age 30 +/- 7 years', '56.6 +/- 19.3 years', '37 +/- 12 years', '36 +/- 13 years', '26.7 +/- 1.0 years', 'mean = 32.17+/-13.32 years', 'mean = 73+/-8.53 years', '38.1 +/- 14.8 years'	117					x
 33	neonate	'neonate', 'neonate and adult'	4	categorical				x
@@ -63,14 +63,14 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 61	yeas	'46.7 yeas (mean)'	1		year			
 62	9weeks	'7-9weeks'	1		9 week			
 63	yesrs	'24 to 65 yesrs'	1		year			
-64	>	'> 18 years', '> 8 wk', '> 6 months', '> 24 weeks', '> 8 weeks', '> 6 weeks', '6 to 8 weeks or > 18 months', '> 2 months', '> 14 weeks', '> 50 years', '> 9 weeks', '> 3 years', '> 20 weeks', '> 20 years', '> 65 years', '> 18 years old', 'elderly > 70 years', '> 12 weeks', '> 1.5 years', '> 4 years', '> 12 years old'	38	greater_than				x
+64	>	'> 18 years', '> 8 wk', '> 6 months', '> 24 weeks', '> 8 weeks', '> 6 weeks', '6 to 8 weeks or > 18 months', '> 2 months', '> 14 weeks', '> 50 years', '> 9 weeks', '> 3 years', '> 20 weeks', '> 20 years', '> 65 years', '> 18 years old', 'elderly > 70 years', '> 12 weeks', '> 1.5 years', '> 4 years', '> 12 years old'	38	comparative				x
 65	>6	'>6 wk', '>6 weeks'	3		> 6			
 66	=	'mean = 30.7 years', 'aver = 19.2 years', 'adult (mean. = 30.8 year)', 'child (mean. = 9.5 year)', 'mean = 30 years', 'mean = 27 years', 'mean = 49.2 years', 'aver = 60.5 years', 'aver = 36.9 years', 'aver = 54.7 years', 'aver = 59.4', 'mean = 32.17+/-13.32 year', 'mean = 73+/-8.53 years', 'mean = 13.8 years'	55	equals				x
 67	>9	'>9 years'	1		> 9			
 68	>10	'>10 years', '>10 weeks'	2		> 10			
-69	<	'< 11 years', '< 12 hour', '< 42 day', '< 6 week', '< 10 week', '< 5 week', '< 45 years', '< 40 years', '< 30 years', '< 3 years', '< 5 years'	11	less_than				x
+69	<	'< 11 years', '< 12 hour', '< 42 day', '< 6 week', '< 10 week', '< 5 week', '< 45 years', '< 40 years', '< 30 years', '< 3 years', '< 5 years'	11	comparative				x
 70	mean=28	'mean=28.5 +/- 15.0'	1		mean = 28			
-71	+/	'mean=28.5 +/- 15.0', '10.1 +/- 3.6 year', '50 +/- 15 year', '40 +/- 12 year', '16 +/- 11 day', 'mean 30 +/- 7 year', '56.6 +/- 19.3 year', '37 +/- 12 year', '36 +/- 13 year', '26.7 +/- 1.0 year', '38.1 +/- 14.8 year', '29 year +/- 6.5', '39.8 +/- 10.6 year', '27 +/- 6 year', '17 +/- 6 year', '55.2 +/- 20.1 year'	95	plus_slash				x
+71	+/	'mean=28.5 +/- 15.0', '10.1 +/- 3.6 year', '50 +/- 15 year', '40 +/- 12 year', '16 +/- 11 day', 'mean 30 +/- 7 year', '56.6 +/- 19.3 year', '37 +/- 12 year', '36 +/- 13 year', '26.7 +/- 1.0 year', '38.1 +/- 14.8 year', '29 year +/- 6.5', '39.8 +/- 10.6 year', '27 +/- 6 year', '17 +/- 6 year', '55.2 +/- 20.1 year'	95	plus_minus				x
 72	>16	'>16 week', '>16 years'	2		> 16			
 73	<18	'<18 hour'	1		< 18			
 74	>27	'>27 week'	1		> 27			
@@ -90,6 +90,6 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 88	4+/	'14.4+/-3.8 years', '33.4+/-6 years'	3		4 +/			
 89	average=	'average= 34.6 years', 'average= 53.4 years', 'average= 56.4 years'	3		average =			
 90	mean=8	'mean=8.4 +/- 4.3'	1		mean = 8			
-91	and	'child and adult', 'adult and child', '10 year and older', 'adult and child (ages 4.5-10.5 and 15-44)', '23 and 61 year', '2 month and 5 month', 'neonate and adult', 'calf and cows', '68 year, and 70 year', '6-8 week, and 4 month', '52 and 70 year', '6 and 8 week', '41 and 43 year', '26 and 54 year'	37	and				x
+91	and	'child and adult', 'adult and child', '10 year and older', 'adult and child (ages 4.5-10.5 and 15-44)', '23 and 61 year', '2 month and 5 month', 'neonate and adult', 'calf and cows', '68 year, and 70 year', '6-8 week, and 4 month', '52 and 70 year', '6 and 8 week', '41 and 43 year', '26 and 54 year'	37	conjunction				x
 92	to	'6 to 8 weeks', '35 to 40 days', '18 to 65 years', '6 to 8-week', '8 to 10 weeks', '6 to 10 weeks', '27 to 78 years', '12 to 55 year', '8 to 12 weeks', '7 to 8 weeks', '18 to 50 years', '5 to 19 weeks', '5- to 8- weeks ', '6 months to 2 years', '10 to 17 days', '6 to 10 wk', '22 to 80 years', '5 to 8 weeks'	1315	range_indicator				x
-93	or	'11 or 18 weeks', '5, 11 or 18 weeks', '8 weeks or older', '2 months or older', '5, 8, 11 or 18 weeks', '6 weeks or older', '5 or 6 weeks', '5 or 8 weeks', '9 or 20 weeks', '2, 3, or 4 months', '2 months or 2-10 months', '40 years or older', '30 or 35 years', '18-22 months or 4-6 months', '8 days or 4-6 months'	43	or				x
+93	or	'11 or 18 weeks', '5, 11 or 18 weeks', '8 weeks or older', '2 months or older', '5, 8, 11 or 18 weeks', '6 weeks or older', '5 or 6 weeks', '5 or 8 weeks', '9 or 20 weeks', '2, 3, or 4 months', '2 months or 2-10 months', '40 years or older', '30 or 35 years', '18-22 months or 4-6 months', '8 days or 4-6 months'	43	conjunction				x

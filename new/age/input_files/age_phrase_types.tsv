@@ -5,17 +5,13 @@ unitless_range	3	[number(0)][number(1)]	N
 range	4	[number(0)][number(1)][unit(2)]	Y	[0]-[1] [2]
 range	5	[number(0)][range_indicator(1)][number(2)][unit(3)]	Y	[0]-[2] [3]
 exact	6	[number(0)][unit(1)]	Y	[0] [1]
-mean	7	[mean(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
-mean	8	[number(0)][unit(1)][mean(2)]	Y	[2]: [0] [1]
-mean	9	[mean(0)][equals(1)][number(2)][unit(3)]	Y	[0]: [2] [3]
-median	10	[median(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
-unitless_exact	11	[number(0)]	N	
-categorical	12	[categorical(0)]	Y	[0]
-plus_minus	13	[number(0)][plus_slash(1)][number(2)][unit(3)]	Y	[0]+/-[2] [3]
-unitless_plus_minus	14	[number(0)][plus_slash(1)][number(2)]	N	
-single_bound_range	15	[less_than(0)][number(1)][unit(2)]	Y	<[1] [2]
-single_bound_range	16	[greater_than(0)][number(1)][unit(2)]	Y	>[1] [2]
-multi_unit_range	17	[number(0)][unit(1)][range_indicator(2)][number(3)][unit(4)]	N	
-multi_unit_range	18	[number(0)][unit(1)][number(2)][unit(3)]	N	
-x_and_y	19	[number(0)][and(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
-x_or_y	20	[number(0)][or(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
+statistical	7	[statistical(0)][number(1)][unit(2)]	Y	[0]: [1] [2]
+statistical	8	[statistical(0)][equals(1)][number(2)][unit(3)]	Y	[0]: [2] [3]
+unitless_exact	9	[number(0)]	N	
+categorical	10	[categorical(0)]	Y	[0]
+plus_minus	11	[number(0)][plus_minus(1)][number(2)][unit(3)]	Y	[0]+/-[2] [3]
+unitless_plus_minus	12	[number(0)][plus_minus(1)][number(2)]	N	
+comparative	13	[comparative(0)][number(1)][unit(2)]	Y	[0][1] [2]
+multi_unit_range	14	[number(0)][unit(1)][range_indicator(2)][number(3)][unit(4)]	N	
+multi_unit_range	15	[number(0)][unit(1)][number(2)][unit(3)]	N	
+list_like	16	[number(0)][conjunction(1)][number(2)][unit(3)]	Y	[0] [1] [2] [3]
