@@ -6,3 +6,8 @@ index	name	pattern	valid?	standard_form
 5	number	[number(0)]	N	
 6	loc_number	[location(0)][alphanumeric_id(1)]	Y	[0] [1]
 7	section_location	[section(0)][location(1)][number(2)]	Y	[0] [1] [2]
+8	format_number	[data_format(0)][number(1)]	Y	[0] [1]
+9	format_number	[data_format(0)][alphanumeric_id(1)]	Y	[0] [1]
+10	format_number	[additive_qualifier(0)][data_format(1)][number(2)]	Y	[0] [1] [2]
+11	format_number	[additive_qualifier(0)][data_format(1)][alphanumeric_id(2)]	Y	[0] [1] [2]
+12	loc_format_number	[additive_qualifier(0)][location(1)][data_format(2)][number(3)]	Y	[0] [1] [2] [3]
