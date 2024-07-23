@@ -116,9 +116,9 @@ def split_data_loc(string):
             current_type = f"{prefix}{type}".strip()
 
         # After identifying the type, extract all numbers from the segment
-        numbers = re.findall(r"\bs?\d+[a-zA-Z]?(?:&[a-zA-Z])*\b", segment)
+        numbers = re.findall(r"\bs?\d+[a-zA-Z]?(?:[\s&]*[a-zA-Z])*\b", segment)
         for number in numbers:
-            if "&" in number:
+            if r"&" in number:
                 base_number = re.match(r"s?\d+", number).group(0)
                 parts = re.split(r"&", number)
                 for i, part in enumerate(parts):
