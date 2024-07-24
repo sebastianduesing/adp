@@ -152,9 +152,9 @@ def take_action(reference_dict, invalid_item, data_item, index):
     """
     if reference_dict[index]["replace_with"] != "":
         replacement = reference_dict[index]["replace_with"]
-        data_item = re.sub(invalid_item, replacement, data_item)
+        data_item = re.sub(re.escape(invalid_item), replacement, data_item)
     elif reference_dict[index]["remove"] != "":
-        data_item = re.sub(invalid_item, "", data_item)
+        data_item = re.sub(re.escape(invalid_item), "", data_item)
     return data_item
 
 def update_reference(review_dict, reference_dict, allowed_items):
