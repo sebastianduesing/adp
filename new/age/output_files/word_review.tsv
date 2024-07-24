@@ -25,7 +25,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 23	infant	'infant'	1					
 24	pediatric	'pediatric'	1					
 25	with	'mean of 32.2 year with a range from 18 to 49 year', '18-38 year, with an average of 22 year', '18-38 year, with an mean of 22 year', 'mean age of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years'	2					
-26	from	'mean of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year'	1					
+26	from	'mean of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year', 'mean age of 32.2 years with a range from 18 to 49 years'	1					
 27	a	'mean of 32.2 year with a range from 18 to 49 year', 'mean age of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 years with a range from 18 to 49 years'	1					
 28	ponies	'ponies'	1					
 29	more	'more than 15 years'	1					
@@ -51,7 +51,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 71	<24	'<24 hour', '<24 hours'	1					
 72	>8	'>8 week', '>8 weeks'	2					
 73	<16	'<16 hours', '<16 years'	2					
-74	>50	'>50 years-old'	2					
+74	>50	'>50 years-old', '>50 year-old'	2					
 75	<55	'<55 years'	1					
 76	age=36	'mean age=36.5 years', 'average age=36.5 years'	1					
 77	18+	'18+ years', '4-18+ years'	2					
