@@ -62,7 +62,7 @@ def split_data_loc(string):
                 "supporting",
                 "additional",
                 "extended"]
-    types = ["data", "file", "figure", "table", "information", "page"]
+    types = ["data", "file", "figure", "table", "information", "page", "pdb"]
     prefixes_pattern = r"(?:" + "|".join(re.escape(prefix) for prefix in prefixes) + r")\s+"
     types_pattern = "|".join(re.escape(type) for type in types)
 
@@ -71,6 +71,8 @@ def split_data_loc(string):
 
     # Removes punctuation at the end of a string
     string = re.sub(r"(\.|,)+$", r"", string)
+
+    string = re.sub(r"\b([0-9]+)\.?\s([a-z])\b", r"\1\2", string)
 
     # Normalizing the text by replacing all delimiters with ";"
     text = re.sub(r",|;| and ", ";", string)
