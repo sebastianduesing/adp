@@ -102,6 +102,11 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
                 rowdict[new_column] = data_item
             else:
                 rowdict[new_column] = f"! Invalid words: {invalid_words} !"
+        rowdict = tk.evaluate_ld(rowdict,
+                                 "word",
+                                 target_column,
+                                 new_column)
+
     output_path = os.path.join(style, "output_files", f"w_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
     if len(review_dict.keys()) != 0:

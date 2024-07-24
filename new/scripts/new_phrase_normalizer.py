@@ -150,6 +150,10 @@ def normalize_phrase(style, data_file, original_column):
             if rowdict["phrase_validation"] == "fail":
                 phrase_type = rowdict["phrase_type"]
                 rowdict["phrase_normalized"] = f"! Invalid phrase type: {phrase_type} !"
+        rowdict = tk.evaluate_ld(rowdict,
+                                 "phrase",
+                                 target_column,
+                                 "phrase_normalized")
     output_path = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
 

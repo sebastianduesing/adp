@@ -1,4 +1,5 @@
 import re
+import editdistance as ed
 
 
 def normalize_whitespace(string):
@@ -48,6 +49,17 @@ def clean_occurrences(review_dict):
         for index, rowdict in review_dict.items():
             rowdict["occurrences"] = 0
     return review_dict
+
+
+def evaluate_ld(rowdict, stage, target_column, output_column):
+    score_column = f"{stage}_distance_score"
+    invalid = re.fullmatch(r"! .+ !", rowdict[output_column])
+    if invalid:
+        rowdict[score_column] = ""
+    else:
+        score = ed.eval(rowdict[target_column], rowdict[output_column])
+        rowdict[score_column] = score
+    return rowdict
 
 
 def create_new_review_entry(review_dict, style, stage, id, invalid_item, data_item):

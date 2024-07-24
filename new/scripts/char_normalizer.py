@@ -92,6 +92,10 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                 rowdict[f"char_normalized_{target_column}"] = data_item
             else:
                 rowdict[f"char_normalized_{target_column}"] = f"! Invalid characters: {invalid_chars} !"
+        rowdict = tk.evaluate_ld(rowdict,
+                                 "char",
+                                 target_column,
+                                 f"char_normalized_{target_column}")
     output_path = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
     if len(review_dict.keys()) != 0:
