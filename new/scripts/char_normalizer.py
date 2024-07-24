@@ -53,6 +53,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
     review file for manual review.
     """
     data_dict = TSV2dict(data_file)
+    output_column = f"char_normalized_{target_column}"
     char_change_dict = {}
     allowed_chars = set()
     if os.path.isfile(review_file):
@@ -72,7 +73,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
         invalid_chars = identify_invalid_chars(data_item)
         rowdict["char_validation"] = tk.validate(invalid_chars, "string")
         if tk.validate(invalid_chars, "boolean"):
-            rowdict[f"char_normalized_{target_column}"] = data_item
+            rowdict[output_column] = data_item
         else:
             review_dict, reference_dict, data_item, allowed_chars = tk.handle_invalid_items(
                 style,
@@ -89,13 +90,13 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                     invalid_chars.remove(char)
             rowdict["char_validation"] = tk.validate(invalid_chars, "string")
             if tk.validate(invalid_chars, "boolean"):
-                rowdict[f"char_normalized_{target_column}"] = data_item
+                rowdict[output_column] = data_item
             else:
-                rowdict[f"char_normalized_{target_column}"] = f"! Invalid characters: {invalid_chars} !"
+                rowdict[output_column] = f"! Invalid characters: {invalid_chars} !"
         rowdict = tk.evaluate_ld(rowdict,
                                  "char",
                                  target_column,
-                                 f"char_normalized_{target_column}")
+                                 output_column)
     output_path = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
     if len(review_dict.keys()) != 0:

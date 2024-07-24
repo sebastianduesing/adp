@@ -1,4 +1,4 @@
-h_age	h_organism_id	h_organism_name	index	char_validation	char_normalized_h_age	char_distance_score	word_validation	word_normalized_h_age	word_distance_score	phrase_type_string	phrase_type	phrase_validation	phrase_normalized	phrase_distance_score
+h_age	h_organism_id	h_organism_name	index	char_validation	char_normalized_h_age	char_distance_score	word_validation	word_normalized_h_age	word_distance_score	phrase_type_string	phrase_type	phrase_validation	phrase_normalized_h_age	phrase_distance_score
 6-8 weeks old	10000067	Mus musculus C57BL/6	0	pass	6-8 weeks old	0	pass	6-8 week	5	[number(0)][number(1)][unit(2)]	range	pass	6-8 week	0
 NULL	9606	Homo sapiens (human)	1	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !	
 6-8 weeks old	10000000	Mus musculus BALB/c	2	pass	6-8 weeks old	0	pass	6-8 week	5	[number(0)][number(1)][unit(2)]	range	pass	6-8 week	0

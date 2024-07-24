@@ -89,7 +89,7 @@ def phrase_lookup(cat_string):
         return "unknown", "N", ""
 
 
-def rearrange_phrase(cat_string, rowdict, phrase_dict):
+def rearrange_phrase(cat_string, rowdict, phrase_dict, output_column):
     """
     Configure the words in cat_string according to the specified standard form.
     """
@@ -101,7 +101,7 @@ def rearrange_phrase(cat_string, rowdict, phrase_dict):
     for match in match_list:
         referent = phrase_dict[int(match)]["word"]
         phrase = re.sub(fr"\[{match}\]", referent, phrase)
-    rowdict["phrase_normalized"] = phrase
+    rowdict[output_column] = phrase
 
 
 def create_phrase_type_sheet(path):
@@ -124,6 +124,7 @@ def normalize_phrase(style, data_file, original_column):
     Apply phrase normalization to the word-normalized data column in data_file.
     """
     target_column = f"word_normalized_{original_column}"
+    output_column = f"phrase_normalized_{original_column}"
     data_dict = TSV2dict(data_file)
     if style == "data_loc":
         for index, rowdict in data_dict.items():
@@ -141,19 +142,19 @@ def normalize_phrase(style, data_file, original_column):
             rowdict["phrase_type_string"] = "stopped"
             rowdict["phrase_type"] = "stopped"
             rowdict["phrase_validation"] = "stopped"
-            rowdict["phrase_normalized"] = data_item
+            rowdict[output_column] = data_item
         else:
             phrase_dict = build_phrase_dict(data_item, separator)
             cat_string = make_categorization_string(phrase_dict)
             rowdict["phrase_type_string"] = cat_string
-            rearrange_phrase(cat_string, rowdict, phrase_dict)
+            rearrange_phrase(cat_string, rowdict, phrase_dict, output_column)
             if rowdict["phrase_validation"] == "fail":
                 phrase_type = rowdict["phrase_type"]
-                rowdict["phrase_normalized"] = f"! Invalid phrase type: {phrase_type} !"
+                rowdict[output_column] = f"! Invalid phrase type: {phrase_type} !"
         rowdict = tk.evaluate_ld(rowdict,
                                  "phrase",
                                  target_column,
-                                 "phrase_normalized")
+                                 output_column)
     output_path = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
 
