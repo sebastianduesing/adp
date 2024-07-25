@@ -155,6 +155,10 @@ def normalize_phrase(style, data_file, original_column):
                                  "phrase",
                                  target_column,
                                  output_column)
+        rowdict = tk.evaluate_ld(rowdict,
+                                 "overall",
+                                 original_column,
+                                 output_column)
     output_path = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
 
