@@ -151,6 +151,8 @@ def normalize_phrase(style, data_file, original_column):
             if rowdict["phrase_validation"] == "fail":
                 phrase_type = rowdict["phrase_type"]
                 rowdict[output_column] = f"! Invalid phrase type: {phrase_type} !"
+    if style == "data_loc":
+        dls.validity_score(data_dict)
     output_path = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     dict2TSV(data_dict, output_path)
 

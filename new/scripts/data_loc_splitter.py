@@ -1,6 +1,42 @@
 import re
 
 
+def validity_score(data_dict):
+    index_mappings = {}
+    for index, rowdict in data_dict.items():
+        og_id = rowdict["original_index"]
+        split_id = rowdict["index"]
+        if og_id not in index_mappings.keys():
+            index_mappings[og_id] = {}
+            index_mappings[og_id]["id_list"] = []
+        index_mappings[og_id]["id_list"].append(int(split_id))
+    for og_id, index_data in index_mappings.items():
+        stopped = False
+        total_items = 0
+        valid_items = 0
+        for i in index_data["id_list"]:
+            total_items += 1
+            if data_dict[i]["phrase_validation"] == "stopped":
+                stopped = True
+                break
+            elif data_dict[i]["phrase_validation"] == "pass":
+                valid_items += 1
+        if not stopped:
+            index_data["phrase_validity_rate"] = round(valid_items/total_items, 2)
+        else:
+            index_data["phrase_validity_rate"] = ""
+    og_ids = []
+    for index, rowdict in data_dict.items():
+        lookup_index = rowdict["original_index"]
+        if lookup_index not in og_ids:
+            score = index_mappings[lookup_index]["phrase_validity_rate"]
+            rowdict["phrase_validity_rate"] = score
+            og_ids.append(lookup_index)
+        else:
+            rowdict["phrase_validity_rate"] = ""
+
+
+
 def reindex_by_split(data_dict, target_column):
     split_index = 0
     new_data_dict = {}
