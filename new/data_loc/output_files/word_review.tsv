@@ -46,7 +46,7 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 70	ama1_007	N	'ama1_007'	1					
 71	animals	N	'animals and methods'	1					
 72	another	N	'another 10/1/23 test'	1					
-73	test	N	'another 10/1/23 test', 'june30 2023 test', 'structure test', 'test 10/1/2023', 'test p e881', 'test page 121', 'test spliced bcell'	8					
+73	test	N	'another 10/1/23 test', 'june30 2023 test', 'structure test', 'test 10/1/2023', 'test p e881', 'test page 121', 'test spliced bcell', 'test page e881'	8					
 74	10/1/23	N	'another 10/1/23 test'	1					
 75	appendix	N	'appendix 1', 'appendix a', 'appendix a and figure 4, appendix a', 'appendix b', 'appendix figure s2', 'appendix figure s2, figure 5, 2, table ev1', 'appendix table s1', 'figure 1 and appendix figure s1', 'figure 2 and appendix figure s1', 'figure 2 and appendix figures s1 and s7', 'figure 2, appendix figures s1 and s7'	23					
 79	ev1	N	'appendix figure s2, figure 5, 2, table ev1', 'dataset ev1', 'figure 1 and dataset ev1', 'figure 1 and ev1', 'figure 1, ev1 and dataset ev1', 'figure 1, ev1 and datsaset ev1', 'figure 4 and dataset ev1', 'figure ev1', 'figure ev5 and dataset ev1', 'figures 1 and ev1', 'figures 1, 2 and ev1, ev3', 'figures 1, 2 and ev1, ev3, ev4'	12					
@@ -593,7 +593,7 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 4698	figures3	N	'figures3, 4, 5, and 6'	1					
 4699	figures4	N	'figures4 and 5'	1					
 4700	figures5	N	'figures5, 6, 7, and s6'	1					
-4701	figuress	N	'figuress 3, 4, 5, tables iii, iv, v', 'figuress 3, 4, 5, tables 3, iv, v', 'figuress 3, 4, 5, tables iii, i5, 5', 'figuress 3, 4, 5, table iii, iv, v', 'figuress 3, 4, 5, tables 3, i5, 5', 'figuress 3, 4, 5, table iii, i5, 5', 'figuress 3, 4, 5, table 3, 4, 5'	1					
+4701	figuress	N	'figuress 3, 4, 5, tables iii, iv, v', 'figuress 3, 4, 5, tables 3, iv, v', 'figuress 3, 4, 5, tables iii, i5, 5', 'figuress 3, 4, 5, table iii, iv, v', 'figuress 3, 4, 5, tables 3, i5, 5', 'figuress 3, 4, 5, table iii, i5, 5', 'figuress 3, 4, 5, table 3, 4, 5', 'figuress 3, 4, 5, table iii, 4, v'	1					
 4702	figurs	N	'figurs 1, 2, 3 and table 2', 'figurs 2, 4 and table 2', 'figurs 2a and 4', 'figurs s3 and s5'	4					
 4703	figuure	N	'figuure 1a'	1					
 4704	fiigure	N	'fiigure 6'	1					
@@ -1010,8 +1010,8 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 6630	fo4	N	'tables 1, 4, figures 3, 4, 5 and pdb fo4', 'tables 1, 4, figure 3, 4, 5 and pdb fo4', 'table 1, 4, figure 3, 4, 5 and pdb fo4', 'table 1, 4, figures 3, 4, 5 and pdb fo4'	1					
 6667	jrh	N	'tables 2, 3, 4 and figures 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'tables 2, 3, 4 and figure 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'table 2, 3, 4 and figures 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'table 2, 3, 4 and figure 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh'	1					
 6709	pag	N	'tables i and ii, text pag 1373', 'table 1 and 11, text pag 1373', 'table i and ii, text pag 1373', 'tables 1 and 11, text pag 1373', 'table 1 and 2, text pag 1373', 'tables i and 2, text pag 1373'	1					
-6759	jpk	N	'tables s4, s5, s6, figures s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'table s4, s5, s6, figure s7, s8, s9, s10, s11, s12 and pdb 4 jpk'	1					
-6760	tablse	N	'tablse i, ii, figures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse i, ii, figure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gures 1, 2, 3, 4 and pdb 1mwa'	1					
+6759	jpk	N	'tables s4, s5, s6, figures s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'table s4, s5, s6, figure s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'tables s4, s5, s6, figure s7, s8, s9, s10, s11, s12 and pdb 4 jpk'	1					
+6760	tablse	N	'tablse i, ii, figures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse i, ii, figure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gure 1, 2, 3, 4 and pdb 1mwa'	1					
 6761	tanle	N	'tanle i', 'tanle 1'	1					
 6762	tbls	N	'tbls 1-2, text p. 17, figs 2-3', 'tbls 1-3, text p. 17, figs 1-3', 'tbls 1-2, text page. 17, figs 2-3', 'tbls 1-3, text page. 17, figs 1-3'	2					
 6763	10/1/2023	N	'test 10/1/2023'	1					
