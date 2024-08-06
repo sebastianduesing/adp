@@ -1,0 +1,22 @@
+index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
+0	U	'NULL'	573	u			
+1	N	'NULL', 'Newborn', 'Not available', 'Neonates', 'Neonatal', 'Neonate and adult', 'Newborns', 'Neonates (3 or 7 days)', 'Neonates (3 days)', 'Neonates (infected mothers or PM)'	585	n			
+2	L	'NULL', 'Less than 20 years'	574	l			
+3	A	'Adults (pregnant)', 'Adults (40 year-old average)', 'Children and Adults', 'Adults and children', 'At least 8 weeks old', '37 yrs. Average', 'Adults and children (ages 4.5-10.5 and 15-44)', 'At birth', 'Adult (within 24 hours of parturition)', '35.4 yrs. Average', 'Adult (avg. age = 30.8 years)', 'Adults (15-44)'	46	a			
+4	C	'Children and Adults', 'Children (mean age 7.2 years)', 'Children (avg. age = 9.5 years)', 'Calves', 'Calf', 'Calves and cows', 'Children <5 years old', 'Child (5-11)', 'College age'	10	c			
+5	M	'Mean: 29 years', 'Mean age = 30.7 years', 'Mean: 30 years', 'Median age 11.3 years', 'Median age 6.3 years', 'Mean=28.5 ± 15.0', 'Mean age 65 years', 'Median age 5.5 years', 'Mean age 10.6 years', 'Mean age of 32.2 years with a range from 18 to 49 years', 'Mean age = 68 years', 'More than 15 years'	22	m			
+6	–	'18–64 years)', '20–67 years', '8–12 weeks', '2–25 years', '37–62 years', '41–64 years', '23–52 years', '19–67 years', '23–63 years', '24–62 years', '25–87 years', '24–88 years', '24–87 years', '25–88 years', '5–10 weeks old', '50–81', '54–77', '40–74 years', '26–71 years', '31–83 years', '22–59 years'	31	-			
+7	=	'Mean age = 30.7 years', 'Mean=28.5 ± 15.0', 'average age = 19.2 years', 'Adult (avg. age = 30.8 years)', 'Children (avg. age = 9.5 years)', 'mean age = 30 years', 'mean age = 27 years', 'mean age = 49.2 years', 'Average age = 60.5 years', 'Average age = 36.9 years', 'average age = 54.7 years', 'Average age = 59.4'	65				x
+8	S	'Sucking', 'Six week old', 'Steer'	3	s			
+9	Y	'Young', 'Young adults', '35-73 Years', 'Younger than 35 years'	13	y			
+10	±	'Mean=28.5 ± 15.0', '10.1 ± 3.6 yr', '50 ± 15 years', '40 ± 12 years', '16 ± 11 days', '41±13 years', '54±10 years', '56.6 ± 19.3 years', '37 ± 12 years', '36 ± 13 years', 'mean = 32.17±13.32 years', 'mean = 73±8.53 years', '38.1 ± 14.8 years', '42.8±11.9 years', '48.1±12.7 years', '29 years ± 6.5', '6 ± 2 weeks'	44	+/-			
+11	W	'8 Week', '6-12 Weeks', '6-8 Weeks', 'Within 1 week after birth'	4	w			
+12	F	'Fetal', '16-Feb', 'Four-weeks-old', 'Foals', 'Four-week-old', 'Fetus'	6	f			
+13	≥	'≥ 18 years'	1	>=			
+14	I	'Infant', 'Infants', 'Infants and adults'	3	i			
+15	P	'Pediatric', 'Ponies', 'Neonates (infected mothers or PM)'	3	p			
+16	O	'One week', 'Over 50 years'	2	o			
+17	T	'Three-month-old'	1	t			
+18	J	'Juvenile'	1	j			
+19	E	'Elderly'	1	e			
+20		'58.4 +/- 14.3 years'	1		x		
