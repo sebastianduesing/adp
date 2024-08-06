@@ -23,16 +23,19 @@ def validity_score(data_dict):
                 valid_items += 1
         if not stopped:
             index_data["phrase_validity_rate"] = round(valid_items/total_items, 2)
+            index_data["split_phrase_count"] = total_items
         else:
             index_data["phrase_validity_rate"] = ""
+            index_data["split_phrase_count"] = ""
     og_ids = []
     for index, rowdict in data_dict.items():
         lookup_index = rowdict["original_index"]
         if lookup_index not in og_ids:
-            score = index_mappings[lookup_index]["phrase_validity_rate"]
-            rowdict["phrase_validity_rate"] = score
+            rowdict["split_phrase_count"] = index_mappings[lookup_index]["split_phrase_count"]
+            rowdict["phrase_validity_rate"] = index_mappings[lookup_index]["phrase_validity_rate"]
             og_ids.append(lookup_index)
         else:
+            rowdict["split_phrase_count"] = ""
             rowdict["phrase_validity_rate"] = ""
 
 
