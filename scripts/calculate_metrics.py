@@ -145,12 +145,12 @@ def calculate_metrics(input_file, data, original_col):
         data = data[~data[phrase_normalized_col].apply(lambda x: 'N/A' in x)].copy()
         
         # Define the normalized location column name
-        norm_loc_col = f'normalized_{original_col}'
+        norm_loc_col = f'phrase_normalized_{original_col}'
         
         # Find the strings that appear only once in the norm_loc_col column...
         is_unique_in_loc_norm_strings = data[norm_loc_col].map(data[norm_loc_col].value_counts()) == 1
-        # ...'N' for normalized...
-        is_N_in_norm = data['normalized'] == 'N'
+        # ...'fail' for normalized...
+        is_N_in_norm = data['phrase_validation'] == 'fail'
         # ...is not numeric...
         not_numeric = ~(data[norm_loc_col].astype(str).str.isnumeric().fillna(False))
         # ...and combine the conditions to get the unique strings that are unnormalized
@@ -313,14 +313,14 @@ def generate_normalization_phase_figure(df, style, output_file):
     Returns:
         None
     """
-    # Counting occurrences of 'Y' and 'N' for each normalization step
-    count_char = df['char_normalized'].value_counts()
-    count_word = df['word_normalized'].value_counts()
-    count_phrase = df['phrase_normalized'].value_counts()
+    # Counting occurrences of 'pass' and 'fail' for each normalization step
+    count_char = df['char_validation'].value_counts()
+    count_word = df['word_validation'].value_counts()
+    count_phrase = df['phrase_validation'].value_counts()
     
     # Prepare counts for the chart
-    altered_counts = [count_char.get('Y', 0), count_word.get('Y', 0), count_phrase.get('Y', 0)]
-    unaltered_counts = [count_char.get('N', 0), count_word.get('N', 0), count_phrase.get('N', 0)]
+    altered_counts = [count_char.get('pass', 0), count_word.get('pass', 0), count_phrase.get('pass', 0)]
+    unaltered_counts = [count_char.get('fail', 0), count_word.get('fail', 0), count_phrase.get('fail', 0)]
     max_counts = [max(altered_counts), max(unaltered_counts)]
     offset = round_to_nearest_sig(int(max(max_counts) * 0.25))
     
@@ -381,7 +381,7 @@ def plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=False):
     plt.xlabel('Split Phrase Count')
     plt.ylabel('Phrase Validity Rate')
     plt.grid(True)
-    plt.savefig(f'output_data/{style}/scatter_count_vs_validity{"_no_urls" if exclude_urls else ""}.png')
+    plt.savefig(f'{style}/output_files/scatter_count_vs_validity{"_no_urls" if exclude_urls else ""}.png')
     plt.close()
 
 def plot_validation_pie_charts(data, style):
@@ -395,7 +395,7 @@ def plot_validation_pie_charts(data, style):
         plt.figure(figsize=(6, 6))
         plt.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90)
         plt.title(f'Validation Results - {label} - {style}')
-        plt.savefig(f'output_data/{style}/validation_pie_{stage}.png')
+        plt.savefig(f'{style}/output_files/validation_pie_{stage}.png')
         plt.close()
 
 def plot_levenshtein_histogram(data, style):
@@ -411,7 +411,7 @@ def plot_levenshtein_histogram(data, style):
         plt.xlabel('Levenshtein Distance')
         plt.ylabel('Frequency')
         plt.grid(True)
-        plt.savefig(f'output_data/{style}/levenshtein_hist_{stage}.png')
+        plt.savefig(f'{style}/output_files/levenshtein_hist_{stage}.png')
         plt.close()
 
 def generate_additional_figures(input_file, style):
@@ -420,9 +420,10 @@ def generate_additional_figures(input_file, style):
     '''
     data = pd.read_csv(input_file, sep='\\t')
 
-    # Generate scatter plots
-    plot_scatter_phrase_count_vs_validity(data, style)
-    plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=True)
+    # Generate scatter plots for data location datasets "split_phrase_count" vs. "phrase_validity_rate"
+    if style == 'data_loc':
+        plot_scatter_phrase_count_vs_validity(data, style)
+        plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=True)
 
     # Generate validation pie charts
     plot_validation_pie_charts(data, style)
