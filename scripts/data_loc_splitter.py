@@ -55,15 +55,24 @@ def reindex_by_split(data_dict, target_column):
             new_data_dict[split_index]["split_phrase"] = data_item
             split_index += 1
         elif type(data_item) is list:
+            iterator = 0
             for item in data_item:
                 new_data_dict[split_index] = {}
                 new_data_dict[split_index]["index"] = split_index
                 new_data_dict[split_index]["original_index"] = unsplit_index
                 for key, value in rowdict.items():
                     if key != "index":
-                        new_data_dict[split_index][key] = value
+                        if iterator != 0 and key in [
+                                    "char_validation",
+                                    "word_validation",
+                                    "char_distance_score",
+                                    "word_distance_score"]:
+                            new_data_dict[split_index][key] = ""
+                        else:
+                            new_data_dict[split_index][key] = value
                 new_data_dict[split_index]["split_phrase"] = item
                 split_index += 1
+                iterator += 1
     return new_data_dict
 
 
