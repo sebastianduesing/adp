@@ -375,9 +375,23 @@ def plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=False):
     if exclude_urls:
         data = data[(data['split_phrase_count'] != 1) | (data['phrase_validity_rate'] != 1)]
     
+    # Group data to count occurrences of each (split_phrase_count, phrase_validity_rate) pair
+    data_grouped = data.groupby(['split_phrase_count', 'phrase_validity_rate']).size().reset_index(name='count')
+
+    # Adjust point sizes based on the count
     plt.figure(figsize=(10, 6))
-    sns.scatterplot(x='split_phrase_count', y='phrase_validity_rate', data=data)
-    plt.title(f'Split Phrase Count vs. Validity Rate - {style}{" (Excl. URLs)" if exclude_urls else ""}')
+    sns.scatterplot(
+        x='split_phrase_count', 
+        y='phrase_validity_rate', 
+        size='count', 
+        sizes=(20, 2000),  # Adjust the min and max size to fit the plot well
+        data=data_grouped, 
+        legend=False
+    )
+    
+    printable_style = {'age': 'Age Dataset', 'data_loc': 'Data Location Dataset'}
+    
+    plt.title(f'Split Phrase Count vs. Validity Rate - {printable_style[style]}{" (Excl. URLs)" if exclude_urls else ""}')
     plt.xlabel('Split Phrase Count')
     plt.ylabel('Phrase Validity Rate')
     plt.grid(True)
@@ -390,11 +404,23 @@ def plot_validation_pie_charts(data, style):
     '''
     stages = ['char_validation', 'word_validation', 'phrase_validation']
     stage_labels = ['Character Stage', 'Word Stage', 'Phrase Stage']
-    for stage, label in zip(stages, stage_labels):
+    stage_percents = [data[stage].value_counts(normalize=True) * 100 for stage in stages]
+    printable_style = {'age': 'Age Dataset', 'data_loc': 'Data Location Dataset'}
+
+    # Create pie charts for each stage
+    for stage, label, stage_percent in zip(stages, stage_labels, stage_percents):
         counts = data[stage].value_counts()
+        # Create formatted labels for the current stage
+        labels = [f'{label} - {value}: {percent:.2f}%' for value, percent in stage_percent.items()]
+        
         plt.figure(figsize=(6, 6))
-        plt.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90)
-        plt.title(f'Validation Results - {label} - {style}')
+        wedges, texts = plt.pie(counts,
+                                startangle=90,
+                                wedgeprops = {"edgecolor" : "black", 'linewidth': 0.2, 'antialiased': True})
+        
+        plt.title(f'Validation Results - {label} - {printable_style[style]}')
+        plt.legend(wedges, labels, loc='lower center', bbox_to_anchor=(0.5, -0.05), fontsize=8)
+        
         plt.savefig(f'{style}/output_files/validation_pie_{stage}.png')
         plt.close()
 
@@ -404,10 +430,11 @@ def plot_levenshtein_histogram(data, style):
     '''
     stages = ['char_distance_score', 'word_distance_score']
     labels = ['Character Stage', 'Word Stage']
+    printable_style = {'age': 'Age Dataset', 'data_loc': 'Data Location Dataset'}
     for stage, label in zip(stages, labels):
         plt.figure(figsize=(10, 6))
-        sns.histplot(data[stage], bins=30, kde=True)
-        plt.title(f'Levenshtein Distance Frequency - {label} - {style}')
+        sns.histplot(data[stage], binwidth=1, kde=True, edgecolor='black', linewidth=0.5)
+        plt.title(f'Levenshtein Distance Frequency - {label} - {printable_style[style]}')
         plt.xlabel('Levenshtein Distance')
         plt.ylabel('Frequency')
         plt.grid(True)
@@ -418,7 +445,7 @@ def generate_additional_figures(input_file, style):
     '''
     Generates additional figures based on the dataset style.
     '''
-    data = pd.read_csv(input_file, sep='\\t')
+    data = pd.read_csv(input_file, sep='\t')
 
     # Generate scatter plots for data location datasets "split_phrase_count" vs. "phrase_validity_rate"
     if style == 'data_loc':
