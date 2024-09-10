@@ -101,7 +101,7 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
             if tk.validate(invalid_words, "boolean"):
                 rowdict[new_column] = data_item
             else:
-                rowdict[new_column] = f"! Invalid words: {invalid_words} !"
+                rowdict[new_column] = f"! Invalid words: {sorted(invalid_words)} !"
         rowdict = tk.evaluate_ld(rowdict,
                                  "word",
                                  target_column,
