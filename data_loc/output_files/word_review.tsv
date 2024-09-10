@@ -248,7 +248,7 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 369	figuire	N	'figuire 4'	1					
 370	figur	N	'figur 7b', 'figur s5', 'figures 1 and 3 and figur s4', 'supplemental table 3 and figur 6', 'supplementary figur 5', 'figure 1 and 3 and figur s4'	5					
 375	s1f	N	'figure s1f', 'figure 5d and s1f', 'figures 6, 7 and tables s1d, s1e, s1f', 'figure 6, 7 and table s1d, s1e, s1f', 'figure 6, 7 and tables s1d, s1e, s1f'	3					
-377	an	N	'figure 1 an text p. 901', 'figures 2, s2 an table ii', 'figures 3b an 6c', 'figures 5 an 6, table ii', 'figure 5 an 6, table ii', 'figure 3b an 6c', 'figure 2, s2 an table ii', 'figure 5 an 6, table 2', 'figure 1 an text page. 901', 'figure 2, s2 an table 2'	4					
+377	an	N	'figure 1 an text p. 901', 'figures 2, s2 an table ii', 'figures 3b an 6c', 'figures 5 an 6, table ii', 'figure 5 an 6, table ii', 'figure 3b an 6c', 'figure 2, s2 an table ii', 'figure 5 an 6, table 2', 'figure 1 an text page. 901', 'figure 2, s2 an table 2', 'figures 2, s2 an table 2'	4					
 379	aad46493	N	'figure 1 and aad46493'	1					
 380	code	N	'figure 1 and accession code provided'	1					
 381	correspondance	N	'figure 1 and author correspondance'	1					
@@ -516,7 +516,7 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 3067	aditional	N	'figures 1, 6, aditional file 1, table 1', 'figure 1, 6, aditional file 1, table 1'	1					
 3070	s6b	N	'figures 1, 6, s6, tables s2, s6b and pdb 4ydj', 'pdb 4ydj and table s6b', 'figure 1, 6, s6, tables s2, s6b and pdb 4ydj', 'figure 1, 6, s6, table s2, s6b and pdb 4ydj'	2					
 3071	s6c	N	'figures 1, 6, s6, tables s2, s6c and pdb 4ydk', 'pdb 4ydk and table s6c', 'figure 1, 6, s6, tables s2, s6c and pdb 4ydk', 'figure 1, 6, s6, table s2, s6c and pdb 4ydk', 'figures 1, 6, s6, table s2, s6c and pdb 4ydk'	2					
-3077	s6h	N	'figures 1, 6, s6, tables s2, s6h and pdb 4rx4', 'figures s6h and s6i', 'pdb 4rx4 and table s6h', 'figure 1, 6, s6, table s2, s6h and pdb 4rx4', 'figure s6h and s6i'	3					
+3077	s6h	N	'figures 1, 6, s6, tables s2, s6h and pdb 4rx4', 'figures s6h and s6i', 'pdb 4rx4 and table s6h', 'figure 1, 6, s6, table s2, s6h and pdb 4rx4', 'figure s6h and s6i', 'figure 1, 6, s6, tables s2, s6h and pdb 4rx4'	3					
 3207	10f	N	'figures 10b, 10d and 10f', 'figures 10e and 10f', 'figure 10e and 10f', 'figure 10b, 10d and 10f'	2					
 3208	adn	N	'figures 1b adn 4c', 'figures 3b adn 4a', 'table 3 adn figure 7', 'figure 1b adn 4c', 'figure 3b adn 4a'	3					
 3209	supportin	N	'figures 1b, 1c, 2b, 5a, 6a and supportin information figure 2', 'figures 1d, 5b and supportin information figure 2', 'figure 1b, 1c, 2b, 5a, 6a and supportin information figure 2', 'figure 1d, 5b and supportin information figure 2'	2					
@@ -919,7 +919,7 @@ index	invalid_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 5697	appedix	N	'supplementary appedix'	1					
 5698	11e	N	'supplementary dataset 11d, 11e', 'supplementary dataset 11e'	2					
 5699	b2	N	'supplementary fig s2 a2,a3,b2,c2', 'supplementary figure s2 a2,a3,b2,c2'	1					
-5700	c2	N	'supplementary fig s2 a2,a3,b2,c2'	1					
+5700	c2	N	'supplementary fig s2 a2,a3,b2,c2', 'supplementary figure s2 a2,a3,b2,c2'	1					
 5727	figures1a	N	'supplementary figures1a, 2, figure 1a,b,d, 2a-e, 3'	1					
 5728	sdata	N	'supplementary file sdata'	1					
 5729	histograms	N	'supplementary information histograms and pdb 4utb', 'supplementary information table and histograms and pdb 4ut6', 'supplementary information table and histograms and pdb 4ut9', 'supplementary information table and histograms and pdb 4uta'	4					
