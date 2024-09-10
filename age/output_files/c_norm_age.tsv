@@ -919,7 +919,7 @@ NULL	10000251	Mus musculus A.BY	913	pass	null	4
 45-72 years	9606	Homo sapiens (human)	917	pass	45-72 years	0
 6-10 weeks	10000233	Mus musculus CBA/Ca	918	pass	6-10 weeks	0
 8-20 weeks-old	10000047	Mus musculus C57BL/10	919	pass	8-20 weeks-old	0
-~ 33 to 55 years	9606	Homo sapiens (human)	920	fail	! Invalid characters: {'~'} !	
+~ 33 to 55 years	9606	Homo sapiens (human)	920	fail	! Invalid characters: ['~'] !	
 42-67 years	9606	Homo sapiens (human)	921	pass	42-67 years	0
 50 yrs	9606	Homo sapiens (human)	922	pass	50 yrs	0
 NULL	10000007	Mus musculus 6.5 TCR Tg	923	pass	null	4
@@ -1731,7 +1731,7 @@ NULL	10001313	Mus musculus GAD65 p206 TCR Tg	1703	pass	null	4
 8 to 10 weeks	10001166	Mus musculus HLA-A24 Tg	1729	pass	8 to 10 weeks	0
 NULL	10000002	Mus musculus BALB/c beta2m null	1730	pass	null	4
 25-55 years	9606	Homo sapiens (human)	1731	pass	25-55 years	0
-~ 31 to 55 years	9606	Homo sapiens (human)	1732	fail	! Invalid characters: {'~'} !	
+~ 31 to 55 years	9606	Homo sapiens (human)	1732	fail	! Invalid characters: ['~'] !	
 15 weeks	10000632	Mus musculus NOD	1733	pass	15 weeks	0
 8-12 wk	10000038	Mus musculus C3H/He	1734	pass	8-12 wk	0
 NULL	9521	Saimiri sciureus (South American squirrel monkey)	1735	pass	null	4
