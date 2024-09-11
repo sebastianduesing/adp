@@ -103,7 +103,14 @@ def add_to_review_entry(review_dict, location, data_item):
     return review_dict
 
 
-def handle_invalid_items(style, invalid_items, review_dict, reference_dict, stage, data_item, allowed_items):
+def handle_invalid_items(style,
+                         invalid_items,
+                         review_dict,
+                         reference_dict,
+                         stage,
+                         data_item,
+                         allowed_items,
+                         delimiters):
     for item in invalid_items:
         source, location = lookup(item, review_dict, reference_dict, stage)
         if source == "reference":
@@ -111,7 +118,8 @@ def handle_invalid_items(style, invalid_items, review_dict, reference_dict, stag
                 reference_dict,
                 item,
                 data_item,
-                location
+                location,
+                delimiters
             )
             data_item = normalize_whitespace(data_item)
             if reference_dict[location]["allow"] != "":
@@ -158,15 +166,27 @@ def lookup(invalid_item, review_dict, reference_dict, mode):
     return source, location
 
 
-def take_action(reference_dict, invalid_item, data_item, index):
+def take_action(reference_dict, invalid_item, data_item, index, delimiters):
     """
-    Alteres data_item as specified in reference_dict.
+    Alter data_item as specified in reference_dict.
     """
     if reference_dict[index]["replace_with"] != "":
         replacement = reference_dict[index]["replace_with"]
-        data_item = re.sub(re.escape(invalid_item), replacement, data_item)
+        if delimiters is None:
+            target_regex = re.escape(invalid_item)
+            data_item = re.sub(target_regex, replacement, data_item)
+        else:
+            delimiters = r"|".join(re.escape(delimiter) for delimiter in delimiters)
+            target_regex = fr"(^|{delimiters}){re.escape(invalid_item)}({delimiters}|$)"
+            data_item = re.sub(target_regex, fr"\g<1>{replacement}\g<2>", data_item)
     elif reference_dict[index]["remove"] != "":
-        data_item = re.sub(re.escape(invalid_item), "", data_item)
+        if delimiters is None:
+            target_regex = re.escape(invalid_item)
+            data_item = re.sub(target_regex, "", data_item)
+        else:
+            delimiters = r"|".join(re.escape(delimiter) for delimiter in delimiters)
+            target_regex = fr"(^|{delimiters}){re.escape(invalid_item)}({delimiters}|$)"
+            data_item = re.sub(target_regex, r"\1\2", data_item)
     return data_item
 
 def update_reference(review_dict, reference_dict, allowed_items):

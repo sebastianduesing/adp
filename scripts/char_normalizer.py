@@ -82,7 +82,8 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                 reference_dict,
                 "char",
                 data_item,
-                allowed_chars
+                allowed_chars,
+                None
             )
             invalid_chars = identify_invalid_chars(data_item)
             for char in invalid_chars.copy():
