@@ -1,31 +1,31 @@
 Metric	Value
 Number of Unique Strings	251803
-Number of Unique Strings After Phrase Normalization	230177
-Change in Number of Unique Strings	-8.59%
-Ratio of Total Strings to Unique Strings	1.22 : 1
-Mean String Frequency	1.22
-Standard Deviation of String Frequency	0.9
-Ratio of Total Strings to Unique Strings Phrase Normalized	1.34 : 1
-Mean String Frequency After Phrase Normalization	1.34
-Standard Deviation of String Frequency After Phrase Normalization	31.1
-Change in Ratio of Unique Strings to Total Strings	9.4%
-Number of Single Use Strings	230566
-Single Use Strings as a Percentage of All Strings	74.9%
-Single Use Strings as a Percentage of Unique Strings	91.57%
-Number of Single Use Strings Phrase Normalized	225691
-Single Use Strings as a Percentage of All Strings After Phrase Normalization	73.32%
-Single Use Strings as a Percentage of Unique Strings After Phrase Normalization	98.05%
-Change in Number of Single Use Strings	-2.11%
-Change in Ratio of Single Use Strings to Total Strings	7.08%
-Low Frequency Strings	6740
-Low Frequency Strings as a Percentage of All Strings	2.19%
-Low Frequency Strings After Phrase Normalization	4361
-Low Frequency Strings as a Percentage of All Strings After Phrase Normalization	1.42%
-Mid Frequency Strings	5565
-Mid Frequency Strings as a Percentage of All Strings	1.81%
-Mid Frequency Strings After Phrase Normalization	56
+Number of Unique Strings After Phrase Normalization	230214
+Change in Number of Unique Strings	-8.57%
+Ratio of Total Strings to Unique Strings	1.23 : 1
+Mean String Frequency	1.23
+Standard Deviation of String Frequency	0.92
+Ratio of Total Strings to Unique Strings Phrase Normalized	1.35 : 1
+Mean String Frequency After Phrase Normalization	1.35
+Standard Deviation of String Frequency After Phrase Normalization	32.82
+Change in Ratio of Unique Strings to Total Strings	9.38%
+Number of Single Use Strings	229837
+Single Use Strings as a Percentage of All Strings	74.08%
+Single Use Strings as a Percentage of Unique Strings	91.28%
+Number of Single Use Strings Phrase Normalized	225660
+Single Use Strings as a Percentage of All Strings After Phrase Normalization	72.74%
+Single Use Strings as a Percentage of Unique Strings After Phrase Normalization	98.02%
+Change in Number of Single Use Strings	-1.82%
+Change in Ratio of Single Use Strings to Total Strings	7.39%
+Low Frequency Strings	6829
+Low Frequency Strings as a Percentage of All Strings	2.2%
+Low Frequency Strings After Phrase Normalization	4434
+Low Frequency Strings as a Percentage of All Strings After Phrase Normalization	1.43%
+Mid Frequency Strings	5787
+Mid Frequency Strings as a Percentage of All Strings	1.87%
+Mid Frequency Strings After Phrase Normalization	54
 Mid Frequency Strings as a Percentage of All Strings After Phrase Normalization	0.02%
-High Frequency Strings	8932
-High Frequency Strings as a Percentage of All Strings	2.9%
-High Frequency Strings After Phrase Normalization	69
+High Frequency Strings	9350
+High Frequency Strings as a Percentage of All Strings	3.01%
+High Frequency Strings After Phrase Normalization	66
 High Frequency Strings as a Percentage of All Strings After Phrase Normalization	0.02%
