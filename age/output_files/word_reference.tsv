@@ -1,4 +1,4 @@
-index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	allow
+index	unknown_word	context	occurrences	category	replace_with	remove	invalidate	allow
 0	old	'6-8 weeks old', '49 years old', '51 years old', '6-10 weeks old', '4-16 years old', '6-12 weeks-old', '12-65 years old', '26-72 years-old', '4-6 weeks old', '2-4 months old', '33-52 years-old', '7-74 years old', '21-45 years old', '8-24 weeks old', '30-52 years-old', '32-74 years old', '6-10 weeks-old'	710			x		
 1	weeks	'6-8 weeks old', '8-16 weeks', '6-10 weeks old', '6-12 weeks-old', '8-10 weeks', '10-15 weeks', '4-6 weeks old', '8-24 weeks old', '6-10 weeks-old', '8-12 weeks', '7-8 weeks', '8-12 weeks-old', '6 to 8 weeks', '6 weeks-old', '6-9 weeks', '5-6 weeks', '12-16 weeks', '5-7 weeks', '7-10 weeks-old', '4-16 weeks'	2303		week			
 2	null	'null'	573	null				x

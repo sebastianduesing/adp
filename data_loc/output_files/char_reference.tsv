@@ -1,4 +1,4 @@
-index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
+index	unknown_character	context	occurrences	replace_with	remove	invalidate	allow
 0	B	'Figure 1B', 'Figure 2B', '6LPB', '6PDB FAX', '7BEI', '7BEL', '7LAB', 'Abstract and PDB 3GJF and 3HAE', 'Appendix B', 'Author cited (Biozol)', 'Author cited (Immudex, cat# WB2132-APC)', 'Author cited GenBank ID', 'Author provided GenBank accession GU372973', 'Author provided GenBank ID JX112656.1', 'Background'	9821	b			
 1	F	'Figure 1B', 'Figure 2B', 'Table 1 and Figure 1', '1MFD', '3210Figure 4', '5U1F', '6CUF and 6CUE', '6PDB FAX', '8DF5', 'Abstract and PDB 3GJF and 3HAE', 'Additional File 3', 'Additional File 4, Tables 1 and 2', 'Additional File 4, Tables 1 and 2 and Figure 3', 'Additional Files 2 and 9', 'Appendix A and Figure 4, Appendix A'	125632	f			
 2	T	'Table 1 and Figure 1', '2022_MSresults_AUT1533.mzid (download from PRIDEdb: PXD035499)', '2022_MSresults_AUT1533.mzid (download from PRIDEdb: PXD035499), Table 2', 'Abstract and Table 2', 'Abstract and Table I', 'Abstract and Table II', 'Abstract and Text p. 52', 'Abstract, Table 1', 'Abstract, Table 2'	127918	t			

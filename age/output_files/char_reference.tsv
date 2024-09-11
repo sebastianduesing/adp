@@ -1,4 +1,4 @@
-index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
+index	unknown_character	context	occurrences	replace_with	remove	invalidate	allow
 0	U	'NULL'	573	u			
 1	N	'NULL', 'Newborn', 'Not available', 'Neonates', 'Neonatal', 'Neonate and adult', 'Newborns', 'Neonates (3 or 7 days)', 'Neonates (3 days)', 'Neonates (infected mothers or PM)'	585	n			
 2	L	'NULL', 'Less than 20 years'	574	l			

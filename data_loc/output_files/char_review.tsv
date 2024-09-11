@@ -1,4 +1,4 @@
-index	invalid_character	context	occurrences	replace_with	remove	invalidate	allow
+index	unknown_character	context	occurrences	replace_with	remove	invalidate	allow
 29	'	'Aurhors' communication', 'Authors' communication', 'Author's communication', 'Author's personal communication', 'Authors' publication', 'authors' published sequence', 'Cited reference and author's communication', 'Enzo Manufacturer's Product Sheet', 'Figure 1, author's communication.', 'Figure 4, Author's communication'	13				
 30	#	'Author cited (Immudex, cat# A2160-APC)', 'Author cited (Immudex, cat# WB2132-APC)', 'author cited (immudex, cat# a2160-apC)', 'author cited (immudex, cat# wb2132-apC)', 'author cited (immudex, cat# a2160-aPc)', 'author cited (immudex, cat# wb2132-aPc)', 'author cited (Immudex, cat# a2160-apc)', 'author cited (Immudex, cat# Wb2132-apc)'	2				
 34	 	'Extended Data TableÂ 1 and Extended Data Figure 6', 'Extended Data TableÂ 1 and Extended Data Figures 3, 5, and 8', 'Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 3 and PDB 6W4S', 'Figure 1, Extended Data TableÂ 1, Extended Data FigureÂ 4 and PDB 6WBV', 'Figure 3 and Extended Data TableÂ 1'	8				

@@ -70,7 +70,7 @@ def create_new_review_entry(review_dict, style, stage, id, invalid_item, data_it
     if stage == "char":
         stage = "character"
     entry_dict["index"] = id
-    entry_dict[f"invalid_{stage}"] = invalid_item
+    entry_dict[f"unknown_{stage}"] = invalid_item
     if style == "data_loc" and stage == "word":
         pdb = re.fullmatch(r"[0-9][0-9a-z]{3}", invalid_item)
         if pdb:
@@ -155,12 +155,12 @@ def lookup(invalid_item, review_dict, reference_dict, mode):
         mode = "character"
     source, location = None, None
     for index, rowdict in reference_dict.items():
-        if invalid_item == rowdict[f"invalid_{mode}"]:
+        if invalid_item == rowdict[f"unknown_{mode}"]:
             source, location = "reference", index
             break
     if source is None:
         for index, rowdict in review_dict.items():
-            if invalid_item == rowdict[f"invalid_{mode}"]:
+            if invalid_item == rowdict[f"unknown_{mode}"]:
                 source, location = "review", index
                 break
     return source, location
@@ -207,10 +207,10 @@ def update_reference(review_dict, reference_dict, allowed_items):
     if len(reference_dict.keys()) != 0:
         for index, rowdict in reference_dict.items():
             if rowdict["allow"] != "":
-                if "invalid_char" in rowdict.keys():
-                    allowed_items.add(rowdict["invalid_char"])
-                elif "invalid_word" in rowdict.keys():
-                    allowed_items.add(rowdict["invalid_word"])
+                if "unknown_char" in rowdict.keys():
+                    allowed_items.add(rowdict["unknown_char"])
+                elif "unknown_word" in rowdict.keys():
+                    allowed_items.add(rowdict["unknown_word"])
     return review_dict, reference_dict, allowed_items
 
 

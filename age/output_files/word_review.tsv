@@ -1,4 +1,4 @@
-index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	allow
+index	unknown_word	context	occurrences	category	replace_with	remove	invalidate	allow
 0	pregnant	'adult (pregnant)', 'adults (pregnant)'	2					
 1	range	'mean 54 year (range 19-68)', 'mean age of 32.2 years with a range from 18 to 49 years', 'mean 54 years (range 19-68)', 'mean of 32.2 year with a range from 18 to 49 year', 'mean of 32.2 years with a range from 18 to 49 years', 'mean age of 32.2 year with a range from 18 to 49 year'	2					
 2	at	'at least 8 week', 'at birth', 'at least 8 weeks', 'at least 7 weeks', 'at least 2 months', 'at least 8 week old', 'at least 8 weeks old'	7					
