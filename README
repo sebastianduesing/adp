@@ -5,9 +5,9 @@ normalization rules used by ADP are designed to be easily adapted to the needs o
 dataset to be normalized. Included in this repository are two datasets containing age and
 data-location free-text data from the Immune Epitope Database (IEDB).
 
-The script normalize.py performs the core normalization functions in ADP, but the scripts/
-directory contains several other scripts that provide accessory functions and perform data
-collection and analysis on the outputs of the normalization process.
+The scripts char_normalizer.py, word_normalizer.py, and phrase_normalizer.py perform the
+core normalization functions in ADP, but the scripts/ directory contains several other
+scripts that provide accessory functions and perform data collection and analysis on the
+outputs of the normalization process.
 
-Using the makefile to run ADP code is recommended, as most scripts involved take several
-arguments.
+More coming soon.
