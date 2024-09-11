@@ -349,7 +349,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 996	previous	N	'figure 2, previous reference', 'figure 4, previous references', 'previous author publication', 'previous publication, pdb 2osl', 'previous reference.', 'text, previous reference'	8					
 998	s3d	N	'figure 2, s1, s2, table s3d and pdb 6utk', 'figure 2, table s3d and pdb 6utk', 'figure s3d', 'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 1j, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, s2j, 3e, and s3d', 'figures s1c, 1a, 1b, 2a, 2b, 2c, s2d, s2e, s2f, s2g, s2h, s2i, 3e, s3d, 6a, 6b, and 6c'	7					
 1010	s14	N	'figure 2, s4, s14 and table s1', 'figure 4, table s7, figures s13, s14 and pdb 5m63', 'figure 5 and s14', 'figure 6, supplementary figures s2, s3, s4, s5, s11, s13, s14, s15', 'figure s14', 'figure s14, table s2 and pdb 7si2', 'figure s4-p,table s14', 'figures 1, 3 and s14', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23'	46					
-1018	sup	N	'figure 2, sup figures iv, v', 'figure 2, sup figure i5, 5', 'figure 2, sup figure iv, v', 'figure 2, sup figure 4, 5', 'figure 2, sup figure iv, 5'	1					
+1018	sup	N	'figure 2, sup figures iv, v', 'figure 2, sup figure i5, 5', 'figure 2, sup figure iv, v', 'figure 2, sup figure 4, 5', 'figure 2, sup figure iv, 5', 'figure 2, sup figures 4, 5'	1					
 1019	supl	N	'figure 2, supl fig 2', 'figure 2, supl fig 6', 'figure 3, supl fig 1', 'supl fig 3', 'supl table 1', 'figureure 2, supl figure 2', 'figureure 2, supl figure 6', 'figureure 3, supl figure 1', 'supl figure 3', 'figure 2, supl figure 2', 'figure 2, supl figure 6', 'figure 3, supl figure 1'	6					
 1113	cs	N	'figure 2, supplementary table 1, cs supplemental table 1 and pdb 6cyf'	1					
 1183	v2	N	'figure 2, table s1 and pdb 5vcj (v2.0)'	1					
@@ -423,7 +423,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 1774	s21	N	'figure 4, s5, s21, table s1 and pdb 6um7', 'figure s21', 'figures 1, 4, 5, s1, s13, s14, s15, s21 and s23', 'figures 2, 3, 4, s8, s15, s18, s21 and table s4', 'figures 2, 3, s8, s10, s15, s18, s21 and table s4', 'figures 2, s8, s9, s10, s18, s21 and table s4', 'figures 4, s21 and s22', 'figures 6, s21'	11					
 1777	s22	N	'figure 4, s5, s22, table s1 and pdb 6um6', 'figure 5, figure s22', 'figures 2, 5 and s22', 'figures 2, s16, s22 and table s3', 'figures 3, 4, 5, s12 and s22', 'figures 3, 5, s12 and s22', 'figures 3, s17, s18, s22 and table s2', 'figures 4, s21 and s22', 'figures s15, s19, s20, s21, s22 and table s1'	15					
 1807	n1f	N	'figure 4, supplementary figure 5, supplementary table 4 and pdb 7 n1f'	1					
-1832	cug	N	'figure 4, supplementary figures 9, 10, 11, supplementary tables 1, 2 and pdb cug', 'figure 4, supplementary figure 9, 10, 11, supplementary table 1, 2 and pdb cug', 'figure 4, supplementary figure 9, 10, 11, supplementary tables 1, 2 and pdb cug'	1					
+1832	cug	N	'figure 4, supplementary figures 9, 10, 11, supplementary tables 1, 2 and pdb cug', 'figure 4, supplementary figure 9, 10, 11, supplementary table 1, 2 and pdb cug', 'figure 4, supplementary figure 9, 10, 11, supplementary tables 1, 2 and pdb cug', 'figure 4, supplementary figures 9, 10, 11, supplementary table 1, 2 and pdb cug'	1					
 1894	supptemental	N	'figure 4, table 2, supptemental figures 3, 4, 5', 'figure 4, table 2, supptemental figure 3, 4, 5'	1					
 1964	andpdb	N	'figure 4, tables s4, s5 andpdb 7s5q', 'figures 2, 3, 4, supplementary figures 3, 4, supplementary tables 3, 5 andpdb 5ocx', 'figures 2, 3, supplementary figure s6, supplementary tables 2, 3 andpdb 3ns6', 'figures 2, 4, supplementary figure 4, table 2 andpdb 6wez', 'figure 4, table s4, s5 andpdb 7s5q'	4					
 1968	4/materials	N	'figure 4/materials and methods'	1					
@@ -447,7 +447,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 2304	frame	N	'figure 6a, frame d', 'figure 6a, frame h', 'figure 6b, frame d', 'figure 6b, frame h'	4					
 2305	frames	N	'figure 6a, frames b and c', 'figure 6a, frames e and g', 'figure 6a, frames f and g', 'figure 6b, frames b and c', 'figure 6b, frames e and g', 'figure 6b, frames f and g'	6					
 2308	s6e	N	'figure 6h, supplementary figure s6e', 'figures 1, 6, s6, tables s2, s6e and pdb 4ydi', 'pdb 4ydi and table s6e', 'figure 1, 6, s6, table s2, s6e and pdb 4ydi', 'figure 1, 6, s6, tables s2, s6e and pdb 4ydi', 'figures 1, 6, s6, table s2, s6e and pdb 4ydi'	5					
-2314	s6g	N	'figure 6m, s6g', 'figure s6g', 'figures 1, 6, s6, tables s2, s6g and pdb 4rwy', 'pdb 4rwy and table s6g', 'figure 1, 6, s6, table s2, s6g and pdb 4rwy', 'figure 1, 6, s6, tables s2, s6g and pdb 4rwy'	4					
+2314	s6g	N	'figure 6m, s6g', 'figure s6g', 'figures 1, 6, s6, tables s2, s6g and pdb 4rwy', 'pdb 4rwy and table s6g', 'figure 1, 6, s6, table s2, s6g and pdb 4rwy', 'figure 1, 6, s6, tables s2, s6g and pdb 4rwy', 'figures 1, 6, s6, table s2, s6g and pdb 4rwy'	4					
 2318	anf	N	'figure 7 anf table s1'	1					
 2338	figure1	N	'figure 7, supplementary figure1, and supplementary table 2', 'figure1 and table 1', 'figure1, 2, table 1 and pdb 2dbl', 'figure1, 2a and table 1', 'figure1, table 1', 'figure1, table 1 and pdb 1dbj', 'figure1,table3', 'supplementary table 1 and figure1', 'tables 1, 2 and figure1', 'table 1, 2 and figure1'	11					
 2380	sypplementary	N	'figure 8 and sypplementary figure s6'	1					
@@ -514,7 +514,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 3048	s3f	N	'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figure 1, 4, table 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 1, 4, table 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figure 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f'	1					
 3065	suuplementary	N	'figures 1, 6 and suuplementary figure 1', 'figure 1, 6 and suuplementary figure 1'	1					
 3067	aditional	N	'figures 1, 6, aditional file 1, table 1', 'figure 1, 6, aditional file 1, table 1'	1					
-3070	s6b	N	'figures 1, 6, s6, tables s2, s6b and pdb 4ydj', 'pdb 4ydj and table s6b', 'figure 1, 6, s6, tables s2, s6b and pdb 4ydj', 'figure 1, 6, s6, table s2, s6b and pdb 4ydj'	2					
+3070	s6b	N	'figures 1, 6, s6, tables s2, s6b and pdb 4ydj', 'pdb 4ydj and table s6b', 'figure 1, 6, s6, tables s2, s6b and pdb 4ydj', 'figure 1, 6, s6, table s2, s6b and pdb 4ydj', 'figures 1, 6, s6, table s2, s6b and pdb 4ydj'	2					
 3071	s6c	N	'figures 1, 6, s6, tables s2, s6c and pdb 4ydk', 'pdb 4ydk and table s6c', 'figure 1, 6, s6, tables s2, s6c and pdb 4ydk', 'figure 1, 6, s6, table s2, s6c and pdb 4ydk', 'figures 1, 6, s6, table s2, s6c and pdb 4ydk'	2					
 3077	s6h	N	'figures 1, 6, s6, tables s2, s6h and pdb 4rx4', 'figures s6h and s6i', 'pdb 4rx4 and table s6h', 'figure 1, 6, s6, table s2, s6h and pdb 4rx4', 'figure s6h and s6i', 'figure 1, 6, s6, tables s2, s6h and pdb 4rx4', 'figures 1, 6, s6, table s2, s6h and pdb 4rx4'	3					
 3207	10f	N	'figures 10b, 10d and 10f', 'figures 10e and 10f', 'figure 10e and 10f', 'figure 10b, 10d and 10f'	2					
@@ -532,7 +532,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 3287	sf1	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10'	1					
 3288	sf5	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 3, sf5, sf6', 'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figure 3, sf5, sf6', 'figure 3, sf5, sf6, sf7, sf8, sf9, sf10'	3					
 3289	st7d	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10'	1					
-3290	st6	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10'	1					
+3290	st6	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10'	1					
 3291	sf4	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10'	1					
 3292	sf2	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'tables 1, 2 , s1, figure 2a, 3, sf2', 'tables 1, 2 , s1, figure 3, sf2', 'tables 2 , s1, figure 3, sf2', 'table 1, 2 , s1, figure 2a, 3, sf2', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and table 3, st5, st6, st7d, st8, st10'	4					
 3293	sf6	N	'figures 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figures 3, sf5, sf6', 'figures 3, sf5, sf6, sf7, sf8, sf9, sf10', 'figure 2, 3, 4, 5, sf1, sf2,sf3, sf4, sf5, sf6, and tables 3, st5, st6, st7d, st8, st10', 'figure 3, sf5, sf6', 'figure 3, sf5, sf6, sf7, sf8, sf9, sf10'	3					
@@ -969,10 +969,10 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 6242	and/or	N	'table 3 and/or supplementary data 1'	1					
 6274	3ab	N	'table 3ab'	1					
 6283	groups	N	'table i (group a), table ii (groups a and c), table iii (group c)', 'table 1 (group a), table 11 (groups a and c), table 111 (group c)', 'table i (group a), table ii (groups a and c), table 3 (group c)', 'table 1 (group a), table 2 (groups a and c), table 21 (group c)', 'table i (group a), table 2 (groups a and c), table 2i (group c)'	1					
-6285	eiv	N	'table i figure 3, tables eiii, eiv', 'table i figure 3, table eiii, eiv', 'table 1 f1gure 3, tables e111, e1v', 'table 1 f1gure 3, table e111, e1v'	1					
-6286	eiii	N	'table i figure 3, tables eiii, eiv', 'table 1 f1gure 3, table e111, e1v', 'table i figure 3, table eiii, eiv', 'table 1 f1gure 3, tables e111, e1v'	1					
+6285	eiv	N	'table i figure 3, tables eiii, eiv', 'table i figure 3, table eiii, eiv', 'table 1 f1gure 3, tables e111, e1v', 'table 1 f1gure 3, table e111, e1v', 'table 1 figure 3, table eiii, eiv'	1					
+6286	eiii	N	'table i figure 3, tables eiii, eiv', 'table 1 f1gure 3, table e111, e1v', 'table i figure 3, table eiii, eiv', 'table 1 f1gure 3, tables e111, e1v', 'table 1 figure 3, tables eiii, eiv', 'table 1 figure 3, table eiii, eiv'	1					
 6289	column	N	'table i, column 4', 'table i, column 5', 'table 1, column 4', 'table 1, column 5'	2					
-6300	2bn	N	'table i, figure 1, 2, 3 and pdb 2bn', 'table 1, f1gure 1, 2, 3 and pdb 2bn'	1					
+6300	2bn	N	'table i, figure 1, 2, 3 and pdb 2bn', 'table 1, f1gure 1, 2, 3 and pdb 2bn', 'table 1, figure 1, 2, 3 and pdb 2bn'	1					
 6328	figuere	N	'table ii and figuere 2', 'table 2 and figuere 2'	1					
 6333	accessions	N	'table ii, accessions provided', 'text, accessions provided', 'table 2, accessions provided'	2					
 6359	eey	N	'table ii, figures 2, 3 and pdb eey', 'table ii, figure 2, 3 and pdb eey', 'table 2, figure 2, 3 and pdb eey', 'table 2, figures 2, 3 and pdb eey'	1					
@@ -1009,9 +1009,9 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 6595	nby	N	'tables 1, 2, figures 2, 3, 4, 5 and pdb 1 nby', 'table 1, 2, figures 2, 3, 4, 5 and pdb 1 nby', 'table 1, 2, figure 2, 3, 4, 5 and pdb 1 nby', 'tables 1, 2, figure 2, 3, 4, 5 and pdb 1 nby'	1					
 6630	fo4	N	'tables 1, 4, figures 3, 4, 5 and pdb fo4', 'tables 1, 4, figure 3, 4, 5 and pdb fo4', 'table 1, 4, figure 3, 4, 5 and pdb fo4', 'table 1, 4, figures 3, 4, 5 and pdb fo4'	1					
 6667	jrh	N	'tables 2, 3, 4 and figures 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'tables 2, 3, 4 and figure 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'table 2, 3, 4 and figures 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh', 'table 2, 3, 4 and figure 4, 5, 6, 7, 8, 9, 10 and pdb 1 jrh'	1					
-6709	pag	N	'tables i and ii, text pag 1373', 'table 1 and 11, text pag 1373', 'table i and ii, text pag 1373', 'tables 1 and 11, text pag 1373', 'table 1 and 2, text pag 1373', 'tables i and 2, text pag 1373', 'table i and 2, text pag 1373'	1					
+6709	pag	N	'tables i and ii, text pag 1373', 'table 1 and 11, text pag 1373', 'table i and ii, text pag 1373', 'tables 1 and 11, text pag 1373', 'table 1 and 2, text pag 1373', 'tables i and 2, text pag 1373', 'table i and 2, text pag 1373', 'table 1 and ii, text pag 1373'	1					
 6759	jpk	N	'tables s4, s5, s6, figures s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'table s4, s5, s6, figure s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'tables s4, s5, s6, figure s7, s8, s9, s10, s11, s12 and pdb 4 jpk', 'table s4, s5, s6, figures s7, s8, s9, s10, s11, s12 and pdb 4 jpk'	1					
-6760	tablse	N	'tablse i, ii, figures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse i, ii, figure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gure 1, 2, 3, 4 and pdb 1mwa'	1					
+6760	tablse	N	'tablse i, ii, figures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse i, ii, figure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, f1gures 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 11, f1gure 1, 2, 3, 4 and pdb 1mwa', 'tablse 1, 2, figure 1, 2, 3, 4 and pdb 1mwa'	1					
 6761	tanle	N	'tanle i', 'tanle 1'	1					
 6762	tbls	N	'tbls 1-2, text p. 17, figs 2-3', 'tbls 1-3, text p. 17, figs 1-3', 'tbls 1-2, text page. 17, figs 2-3', 'tbls 1-3, text page. 17, figs 1-3'	2					
 6763	10/1/2023	N	'test 10/1/2023'	1					
@@ -1020,7 +1020,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 6766	spliced	N	'test spliced bcell'	1					
 6767	texat	N	'texat page 161, figures 4 and 5', 'texat page 161, figure 4 and 5'	1					
 6768	m194	N	'text p m194', 'text page m194'	1					
-6769	info	N	'text p. 1057, supplemental info., fig. 1', 'text p. 1057, supplemental info., figure. 1', 'text page. 1057, supagepagelemental info., fig. 1', 'text page. 1057, supplemental info., figure. 1'	1					
+6769	info	N	'text p. 1057, supplemental info., fig. 1', 'text p. 1057, supplemental info., figure. 1', 'text page. 1057, supagepagelemental info., fig. 1', 'text page. 1057, supplemental info., figure. 1', 'text page. 1057, supplemental info., fig. 1'	1					
 6770	5809fgb	N	'text p. 5809fgb', 'text page. 5809fgb'	1					
 6771	doel	N	'text p. 99 and doel et al. (1990) j virol 64:2260', 'text page. 99 and doel et al. (1990) j virol 64:2260'	1					
 6772	e2006	N	'text p. e2006 figure 1', 'text page. e2006 figure 1'	1					

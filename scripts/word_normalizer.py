@@ -77,6 +77,10 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
             if m:
                 rowdict["word_validation"] = "pass"
                 rowdict[new_column] = data_item
+                rowdict = tk.evaluate_ld(rowdict,
+                                         "word",
+                                         target_column,
+                                         new_column)
                 continue
         invalid_words = identify_invalid_words(data_item)
         rowdict["word_validation"] = tk.validate(invalid_words, "string")
