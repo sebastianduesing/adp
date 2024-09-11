@@ -82,7 +82,8 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                 reference_dict,
                 "char",
                 data_item,
-                allowed_chars
+                allowed_chars,
+                None
             )
             invalid_chars = identify_invalid_chars(data_item)
             for char in invalid_chars.copy():
@@ -92,7 +93,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
             if tk.validate(invalid_chars, "boolean"):
                 rowdict[output_column] = data_item
             else:
-                rowdict[output_column] = f"! Invalid characters: {invalid_chars} !"
+                rowdict[output_column] = f"! Invalid characters: {sorted(invalid_chars)} !"
         rowdict = tk.evaluate_ld(rowdict,
                                  "char",
                                  target_column,

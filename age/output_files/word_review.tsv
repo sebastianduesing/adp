@@ -44,7 +44,7 @@ index	invalid_word	context	occurrences	category	replace_with	remove	invalidate	a
 42	middle	'middle aged', 'middle-aged'	2					
 43	fetus	'100 day fetus'	2					
 44	piglet	'piglet'	1					
-45	on	'52 years on average', '52 year on mean', '52 year on average', '52 year old on mean', '52 year old on average', '52 years old on average', '52 years old on mean'	1					
+45	on	'52 years on average', '52 year on mean', '52 year on average', '52 year old on mean', '52 year old on average', '52 years old on average', '52 years old on mean', '52 years on mean'	1					
 46	an	'18-38 year, with an mean of 22 year', '18-38 year, with an average of 22 year', '18-38 years, with an average of 22 years', '18-38 years, with an mean of 22 years'	1					
 47	before	'born before 1968'	1					
 48	born	'born before 1968'	1					

@@ -21,7 +21,7 @@ def identify_invalid_words(string):
     Return a set of invalid words found a string.
     """
     invalid_words = set()
-    word_set = make_word_set(string)
+    word_set = make_word_set(string, delimiters)
     for word in word_set:
         m = re.fullmatch(word_regex, word)
         if not m:
@@ -29,11 +29,10 @@ def identify_invalid_words(string):
     return invalid_words
 
 
-def make_word_set(string):
+def make_word_set(string, delimiters):
     """
     Return a set of all words in a string.
     """
-    delimiters = [",", ".", "-", " ", "(", ")", ":", ";"]
     string_stripped = string
     for delimiter in delimiters:
         string_stripped = " ".join(string_stripped.split(delimiter))
@@ -91,7 +90,8 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
                 reference_dict,
                 "word",
                 data_item,
-                allowed_words
+                allowed_words,
+                delimiters
             )
             invalid_words = identify_invalid_words(data_item)
             for word in invalid_words.copy():
@@ -101,7 +101,7 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
             if tk.validate(invalid_words, "boolean"):
                 rowdict[new_column] = data_item
             else:
-                rowdict[new_column] = f"! Invalid words: {invalid_words} !"
+                rowdict[new_column] = f"! Invalid words: {sorted(invalid_words)} !"
         rowdict = tk.evaluate_ld(rowdict,
                                  "word",
                                  target_column,
@@ -127,5 +127,6 @@ if __name__ == "__main__":
         "than",
         r"\d+"
     ]
+    delimiters = [",", ".", "-", " ", "(", ")", ":", ";"]
     word_regex = build_regex_from_list(approved_words)
     normalize_words(style, input_file, original_column, review, reference)
