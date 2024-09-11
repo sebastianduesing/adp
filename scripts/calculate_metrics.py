@@ -395,7 +395,7 @@ def plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=False):
     plt.xlabel('Split Phrase Count')
     plt.ylabel('Phrase Validity Rate')
     plt.grid(True)
-    plt.savefig(f'{style}/output_files/scatter_count_vs_validity{"_no_urls" if exclude_urls else ""}.png')
+    plt.savefig(f'{style}/analysis/figures/scatter_count_vs_validity{"_no_urls" if exclude_urls else ""}.png')
     plt.close()
 
 def plot_validation_pie_charts(data, style):
@@ -421,7 +421,7 @@ def plot_validation_pie_charts(data, style):
         plt.title(f'Validation Results - {label} - {printable_style[style]}')
         plt.legend(wedges, labels, loc='lower center', bbox_to_anchor=(0.5, -0.05), fontsize=8)
         
-        plt.savefig(f'{style}/output_files/validation_pie_{stage}.png')
+        plt.savefig(f'{style}/analysis/figures/validation_pie_{stage}.png')
         plt.close()
 
 def plot_levenshtein_histogram(data, style):
@@ -438,7 +438,7 @@ def plot_levenshtein_histogram(data, style):
         plt.xlabel('Levenshtein Distance')
         plt.ylabel('Frequency')
         plt.grid(True)
-        plt.savefig(f'{style}/output_files/levenshtein_hist_{stage}.png')
+        plt.savefig(f'{style}/analysis/figures/levenshtein_hist_{stage}.png')
         plt.close()
 
 def generate_additional_figures(input_file, style):
@@ -477,21 +477,23 @@ def main():
     # Write final reporting result
     output_file = os.path.join(output_dir, f'{original_col}_final_results.tsv')
     write_results_to_tsv(final_results, output_file)
+
+# Commented out some function calls for figures we don't use currently
     
     # Generate frequency distribution figures
     # TODO: Discuss the "Rows" with Sebastian
-    for type in ["Data Items"]:#, "Rows"]:
-        type_str = type.lower().replace(' ', '_')
-        output_fig = os.path.join(output_dir, f'{style}_frequency_distribution_{type_str}.png')
-        generate_freq_distribution_figures(final_results, output_fig, type)
+#    for type in ["Data Items"]:#, "Rows"]:
+#        type_str = type.lower().replace(' ', '_')
+#        output_fig = os.path.join(output_dir, f'{style}_frequency_distribution_{type_str}.png')
+#        generate_freq_distribution_figures(final_results, output_fig, type)
     
     # Generate normalization phase figure
-    output_file = os.path.join(output_dir, f'{style}_normalization_phase.png')
-    generate_normalization_phase_figure(data, style, output_file)
+#    output_file = os.path.join(output_dir, f'{style}_normalization_phase.png')
+#    generate_normalization_phase_figure(data, style, output_file)
 
     # Generate unique string figures
-    output_file = os.path.join(output_dir, f"{style}_unique_strings.png")
-    generate_unique_string_figures(final_results, output_file, style)
+#    output_file = os.path.join(output_dir, f"{style}_unique_strings.png")
+#    generate_unique_string_figures(final_results, output_file, style)
     
     # Generate the three additional figures: scatter plots, validation pie charts, and Levenshtein histograms
     generate_additional_figures(input_file, style)
