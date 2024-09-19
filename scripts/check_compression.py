@@ -23,14 +23,31 @@ def find_minimal_file(directory):
 
 def bytes_to_mb(size_in_bytes):
     """Converts bytes to megabytes."""
-    b_in_MB = 1000000
-    return size_in_bytes / b_in_MB
+    return size_in_bytes / (1024 * 1024)
+
+def format_number(value, size_units):
+    """Formats numbers with commas, and no decimals for bytes, but with two decimals for MB."""
+    if size_units == 'mb':
+        return f"{value:,.2f}"  # Two decimal places for MB
+    else:
+        return f"{int(value):,}"  # No decimal places for bytes
 
 def calculate_percentage_difference(value1, value2):
     """Calculates the percentage difference between two values."""
     return ((value1 - value2) / value1) * 100
 
-def main(base_directory):
+def display_sizes(raw_size, compressed_size, size_units):
+    """Displays raw and compressed sizes in the specified units."""
+    if size_units == 'mb':
+        raw_size_display = bytes_to_mb(raw_size)
+        compressed_size_display = bytes_to_mb(compressed_size)
+    else:
+        raw_size_display = raw_size
+        compressed_size_display = compressed_size
+    
+    return format_number(raw_size_display, size_units), format_number(compressed_size_display, size_units)
+
+def main(base_directory, size_units):
     # Define input and output directories
     input_dir = os.path.join(base_directory, 'input_files')
     output_dir = os.path.join(base_directory, 'output_files')
@@ -56,39 +73,42 @@ def main(base_directory):
     size_input_compressed = get_file_size(compressed_input_file)
     size_output_compressed = get_file_size(compressed_output_file)
 
-    # Convert file sizes to MB
-    size_input_raw_mb = bytes_to_mb(size_input_raw)
-    size_output_raw_mb = bytes_to_mb(size_output_raw)
-    size_input_compressed_mb = bytes_to_mb(size_input_compressed)
-    size_output_compressed_mb = bytes_to_mb(size_output_compressed)
+    # Display file sizes based on the unit specified
+    raw_size_input_display, compressed_size_input_display = display_sizes(size_input_raw, size_input_compressed, size_units)
+    raw_size_output_display, compressed_size_output_display = display_sizes(size_output_raw, size_output_compressed, size_units)
 
-    # Print results
+    # Print results for input file
     print(f"Input File: {input_file}")
-    print(f"  Raw size: {size_input_raw_mb:.2f} MB")
-    print(f"  Compressed size: {size_input_compressed_mb:.2f} MB")
-    print(f"  Difference (raw vs compressed): {size_input_raw_mb - size_input_compressed_mb:.2f} MB")
-    print(f"  Compression saved: {calculate_percentage_difference(size_input_raw, size_input_compressed):.2f}%")
+    print(f"  Raw size: {raw_size_input_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Compressed size: {compressed_size_input_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Difference (raw vs compressed): {format_number(abs(size_input_raw - size_input_compressed) if size_units == 'b' else abs(bytes_to_mb(size_input_raw) - bytes_to_mb(size_input_compressed)), size_units)} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Compression saved: {format_number(calculate_percentage_difference(size_input_raw, size_input_compressed), 'mb')}%")
     
+    # Print results for output file
     print(f"Output File: {output_file}")
-    print(f"  Raw size: {size_output_raw_mb:.2f} MB")
-    print(f"  Compressed size: {size_output_compressed_mb:.2f} MB")
-    print(f"  Difference (raw vs compressed): {size_output_raw_mb - size_output_compressed_mb:.2f} MB")
-    print(f"  Compression saved: {calculate_percentage_difference(size_output_raw, size_output_compressed):.2f}%")
+    print(f"  Raw size: {raw_size_output_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Compressed size: {compressed_size_output_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Difference (raw vs compressed): {format_number(abs(size_output_raw - size_output_compressed) if size_units == 'b' else abs(bytes_to_mb(size_output_raw) - bytes_to_mb(size_output_compressed)), size_units)} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Compression saved: {format_number(calculate_percentage_difference(size_output_raw, size_output_compressed), 'mb')}%")
     
-    # Difference between raw file sizes
-    raw_difference_mb = size_input_raw_mb - size_output_raw_mb
-    compressed_difference_mb = size_input_compressed_mb - size_output_compressed_mb
-
+    # Difference between raw file sizes and compressed file sizes
+    raw_difference = abs(size_input_raw - size_output_raw)
+    compressed_difference = abs(size_input_compressed - size_output_compressed)
+    
+    raw_difference_display = format_number(bytes_to_mb(raw_difference) if size_units == 'mb' else raw_difference, size_units)
+    compressed_difference_display = format_number(bytes_to_mb(compressed_difference) if size_units == 'mb' else compressed_difference, size_units)
+    
     print("\nDifferences between the input and output files:")
-    print(f"  Difference in raw sizes: {raw_difference_mb:.2f} MB")
-    print(f"  Percentage difference (output vs input): {calculate_percentage_difference(size_input_raw, size_output_raw):.2f}%")
+    print(f"  Difference in raw sizes: {raw_difference_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Percentage difference (output vs input): {format_number(calculate_percentage_difference(size_input_raw, size_output_raw), 'mb')}%")
     
-    print(f"  Difference in compressed sizes: {compressed_difference_mb:.2f} MB")
-    print(f"  Percentage difference (output compressed vs input compressed): {calculate_percentage_difference(size_input_compressed, size_output_compressed):.2f}%")
+    print(f"  Difference in compressed sizes: {compressed_difference_display} {'MB' if size_units == 'mb' else 'bytes'}")
+    print(f"  Percentage difference (output compressed vs input compressed): {format_number(calculate_percentage_difference(size_input_compressed, size_output_compressed), 'mb')}%")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Compress two TSV files and report file sizes.')
     parser.add_argument('base_directory', type=str, help='Base directory containing the input_files and output_files subdirectories')
+    parser.add_argument('--size_units', type=str, choices=['b', 'mb'], default='b', help='Display sizes in bytes (b) or megabytes (mb)')
 
     args = parser.parse_args()
-    main(args.base_directory)
+    main(args.base_directory, args.size_units)
