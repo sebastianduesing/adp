@@ -10,6 +10,9 @@ import seaborn as sns
 # Removing deprecation warning
 warnings.filterwarnings("ignore", category=Warning, module="pandas")
 
+# Define some printable values
+printable_style = {'age': 'Age Dataset', 'data_loc': 'Data Location Dataset'}
+
 def round_to_nearest_sig(x):
     """
     Rounds a number to the nearest significant figure.
@@ -424,22 +427,83 @@ def plot_validation_pie_charts(data, style):
         plt.savefig(f'{style}/analysis/figures/validation_pie_{stage}.png')
         plt.close()
 
+# Updated function to create two versions of histograms: one with log-scaled y-axis and one without
 def plot_levenshtein_histogram(data, style):
     '''
     Histogram of Levenshtein distance scores at character and word stages.
     '''
     stages = ['char_distance_score', 'word_distance_score']
     labels = ['Character Stage', 'Word Stage']
-    printable_style = {'age': 'Age Dataset', 'data_loc': 'Data Location Dataset'}
+    output_file_normal = f'{style}/analysis/figures/levenshtein_hist_{{}}.png'
+    output_file_log = f'{style}/analysis/figures/levenshtein_hist_{{}}_log.png'
+
     for stage, label in zip(stages, labels):
+        # Plot histogram with normal y-axis
         plt.figure(figsize=(10, 6))
-        sns.histplot(data[stage], binwidth=1, kde=True, edgecolor='black', linewidth=0.5)
-        plt.title(f'Levenshtein Distance Frequency - {label} - {printable_style[style]}')
+        sns.histplot(data[stage], binwidth=1, kde=False, edgecolor='black', linewidth=0.5)
+        plt.title(f'Levenshtein Distance Frequency - {label} - {printable_style[style]} (Normal Scale)')
         plt.xlabel('Levenshtein Distance')
         plt.ylabel('Frequency')
         plt.grid(True)
-        plt.savefig(f'{style}/analysis/figures/levenshtein_hist_{stage}.png')
+        plt.xticks(range(int(data[stage].min()), int(data[stage].max()) + 1))
+        plt.savefig(output_file_normal.format(stage), bbox_inches='tight')
         plt.close()
+
+        # Plot histogram with log-scaled y-axis
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data[stage], binwidth=1, kde=False, edgecolor='black', linewidth=0.5)
+        plt.title(f'Levenshtein Distance Frequency - {label} - {printable_style[style]} (Log Scale)')
+        plt.xlabel('Levenshtein Distance')
+        plt.ylabel('Frequency (Log Scale)')
+        plt.yscale('log')
+        plt.grid(True, which="both", linestyle='--', linewidth=0.5)
+        plt.xticks(range(int(data[stage].min()), int(data[stage].max()) + 1))
+        plt.savefig(output_file_log.format(stage), bbox_inches='tight')
+        plt.close()
+
+    print(f"Levenshtein distance histograms saved to {output_file_normal.format('char')}, {output_file_log.format('char')}, "
+          f"{output_file_normal.format('word')}, and {output_file_log.format('word')}")
+
+# Updated function to adjust spacing and reformat subplot labels
+def plot_combined_validation_pie_charts(data, style):
+    """
+    Create a single figure with three pie charts for character, word, and phrase validation results.
+    """
+    validations = {
+        "Character Validation": "char_validation",
+        "Word Validation": "word_validation",
+        "Phrase Validation": "phrase_validation"
+    }
+
+    # Create a figure with three subplots (1 row, 3 columns)
+    fig, axes = plt.subplots(1, 3, figsize=(20, 8))  # Increased figure size to prevent cropping
+
+    labels = ['a', 'b', 'c']
+
+    for ax, (label, (title, column)) in zip(axes, zip(labels, validations.items())):
+        # Get counts for "pass" and "fail" (combine "stopped" and "fail" as "fail")
+        counts = data[column].replace({"stopped": "fail", "fail": "fail"}).value_counts()
+
+        # Reindex to ensure both "pass" and "fail" are present, fill missing with 0
+        counts = counts.reindex(["pass", "fail"], fill_value=0)
+
+        # Plot pie chart
+        ax.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90, colors=['#4CAF50', '#F44336'])
+        ax.set_title(title, fontsize=14, pad=10)  # Keep subtitle centered and add padding
+
+        # Add subplot label in the top left corner
+        ax.text(-1.6, 1.5, f"{label})", fontsize=16, fontweight='bold', va='top', ha='left')
+
+    # Adjust layout to reduce space between the main title and the individual subplots
+    plt.subplots_adjust(top=0.85, wspace=0.3, hspace=0.1)
+    plt.suptitle(f"Validation Results - {printable_style[style]}", fontsize=18, y=0.92)
+
+    # Save the combined figure in the output directory
+    output_file = f"{style}/analysis/figures/{style}_combined_validation_pie_charts.png"
+    plt.savefig(output_file, bbox_inches='tight')
+    plt.close()
+
+    print(f"Combined validation pie charts saved to {output_file}")
 
 def generate_additional_figures(input_file, style):
     '''
@@ -452,8 +516,8 @@ def generate_additional_figures(input_file, style):
         plot_scatter_phrase_count_vs_validity(data, style)
         plot_scatter_phrase_count_vs_validity(data, style, exclude_urls=True)
 
-    # Generate validation pie charts
-    plot_validation_pie_charts(data, style)
+    # Generate validation pie chart
+    plot_combined_validation_pie_charts(data, style)
 
     # Generate Levenshtein distance histograms
     plot_levenshtein_histogram(data, style)
