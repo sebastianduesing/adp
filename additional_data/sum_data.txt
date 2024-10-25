@@ -1,0 +1,2 @@
+Total age values: 18422303
+Total data-location values: 21945741
