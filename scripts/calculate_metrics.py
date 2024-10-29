@@ -488,15 +488,15 @@ def plot_combined_validation_pie_charts(data, style):
         counts = counts.reindex(["pass", "fail"], fill_value=0)
 
         # Plot pie chart
-        ax.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90, colors=['#4CAF50', '#F44336'])
-        ax.set_title(title, fontsize=14, pad=10)  # Keep subtitle centered and add padding
+        ax.pie(counts, labels=counts.index, autopct='%1.1f%%', startangle=90, colors=['#4CAF50', '#F44336'], textprops={'fontsize': 18})
+        ax.set_title(title, fontsize=24, pad=10)  # Keep subtitle centered and add padding
 
         # Add subplot label in the top left corner
-        ax.text(-1.6, 1.5, f"{label})", fontsize=16, fontweight='bold', va='top', ha='left')
+        ax.text(-1.6, 1.5, f"{label})", fontsize=24, fontweight='bold', va='top', ha='left')
 
     # Adjust layout to reduce space between the main title and the individual subplots
     plt.subplots_adjust(top=0.85, wspace=0.3, hspace=0.1)
-    plt.suptitle(f"Validation Results - {printable_style[style]}", fontsize=18, y=0.92)
+    plt.suptitle(f"Validation Results - {printable_style[style]}", fontsize=28, y=0.92)
 
     # Save the combined figure in the output directory
     output_file = f"{style}/analysis/figures/{style}_combined_validation_pie_charts.png"
