@@ -1,8 +1,5 @@
 bcell_id	h_age
-1338083	Adults and children
-1352075	average age 54
 1280466	16-Feb
-1336974	Adults and children
 1279748	14 and younger
 1279767	14 and younger
 1279777	14 and younger
@@ -12,9 +9,7 @@ bcell_id	h_age
 1336714	More than 15 years
 1343567	Adutls
 1384777	10 years and older
-1341093	2-day to 6-week old
 1466040	Ponies
-1212538	18-72
 1345388	Adutls
 1279762	14 and younger
 1319778	6-24 mo of age
@@ -28,79 +23,40 @@ bcell_id	h_age
 1279420	14 and younger
 1336935	More than 15 years
 1336716	More than 15 years
-1339467	Adults and children
-1339474	Adults and children
 1279619	14 and younger
 1330820	Children and adults
 1279497	14 and younger
 1280006	14 and younger
-1352106	average age 54
-1351998	average age 54
 1279920	14 and younger
-1341796	2 to >20 years
-1336966	Adults and children
 1466105	Ponies
 1466115	Ponies
 1280027	14 and younger
-6513714	15-72
 1505074	≥ 18 years
 1504551	≥ 18 years
 1336986	Children and adults
-1341087	2-day to 6-week old
-1341091	2-day to 6-week old
-1336957	Adults and children
-1336965	Adults and children
-1476779	3 months to 7 years
-1476781	3 months to 7 years
 1336943	More than 15 years
-1476787	3 months to 7 years
-1476784	3 months to 7 years
 1342679	up to 12 weeks old
-1354456	36-55
 1479019	Younger than 35 years
 1479020	Younger than 35 years
 1279375	14 and younger
 1280035	14 and younger
 1279476	14 and younger
 1319835	6-24 mo of age
-1491772	Adults and children
-1491773	Adults and children
 1493923	Infant
 1493925	Infant
-1489288	Children <5 years old
-1489289	Children <5 years old
-1489254	Children <5 years old
 1330947	Children and adults
 1493262	Infant
 1493058	Infant
 1493060	Infant
-1489290	Children <5 years old
-1489291	Children <5 years old
-1489292	Children <5 years old
-1489293	Children <5 years old
-1489255	Children <5 years old
-1491774	Adults and children
-1491775	Adults and children
-1491770	Adults and children
-1491771	Adults and children
-1489256	Children <5 years old
-1489257	Children <5 years old
-1489258	Children <5 years old
-1489259	Children <5 years old
-1489294	Children <5 years old
 1493011	Infant
 1493012	Infant
 1493013	Infant
-1489285	Children <5 years old
-1489286	Children <5 years old
-1489287	Children <5 years old
 1493014	Infant
 1493015	Infant
 1493056	Infant
 1493884	Infant
 1493886	Infant
 1493889	Infant
-1491900	8 weeks or 12 months
 1493295	Infant
 1493009	Infant
 1493010	Infant
@@ -111,7 +67,6 @@ bcell_id	h_age
 1493008	Infant
 1493927	Infant
 1493930	Infant
-1491896	8 weeks or 12 months
 22792463	16-20 years
 22792465	16-20 years
 1485377	Infants
@@ -120,7 +75,6 @@ bcell_id	h_age
 1485366	Infants
 1336745	More than 15 years
 1485376	Infants
-1494638	16 weeks-40 years
 1493016	Infant
 1493017	Infant
 1492982	Infant
@@ -198,8 +152,6 @@ bcell_id	h_age
 1492995	Infant
 1492996	Infant
 1493031	Infant
-1489260	Children <5 years old
-1489261	Children <5 years old
 1485360	Infants
 1485438	Infants
 1485436	Infants
@@ -246,9 +198,6 @@ bcell_id	h_age
 1485513	Infants
 1485514	Infants
 1485392	Infants
-1489262	Children <5 years old
-1489263	Children <5 years old
-1338211	Children and Adults
 1485493	Infants
 1485494	Infants
 1485386	Infants
@@ -281,11 +230,6 @@ bcell_id	h_age
 1485399	Infants
 1485405	Infants
 1485406	Infants
-1489264	Children <5 years old
-1489295	Children <5 years old
-1489296	Children <5 years old
-1489297	Children <5 years old
-1489298	Children <5 years old
 1485524	Infants
 1485525	Infants
 1485526	Infants
@@ -307,29 +251,20 @@ bcell_id	h_age
 1485522	Infants
 1279465	14 and younger
 1279470	14 and younger
-1352021	average age 54
 1319769	6-24 mo of age
-1351999	average age 54
-1351989	average age 54
-1352015	average age 54
 1335485	children and adults
-1352069	average age 54
 1336706	More than 15 years
 1336720	More than 15 years
 1336934	More than 15 years
-1341801	2 to >20 years
-8304	37 average
 1279422	14 and younger
 1279781	14 and younger
 1279761	14 and younger
-1341099	2-day to 6-week old
 1279877	14 and younger
 1279861	14 and younger
 1279809	14 and younger
 1279976	14 and younger
 1280004	14 and younger
 1279482	14 and younger
-1341094	2-day to 6-week old
 1279613	14 and younger
 1279869	14 and younger
 1279718	14 and younger
@@ -347,17 +282,14 @@ bcell_id	h_age
 1279603	14 and younger
 1279889	14 and younger
 1319840	6-24 mo of age
-1352094	average age 54
 1279595	14 and younger
 1280019	14 and younger
 1280026	14 and younger
 1279580	14 and younger
-1347306	Adults and children
 1279361	14 and younger
 1279355	14 and younger
 1279625	14 and younger
 1330948	Children and adults
-1338212	Children and Adults
 1279504	14 and younger
 1279509	14 and younger
 1279793	14 and younger
@@ -367,9 +299,6 @@ bcell_id	h_age
 1279443	14 and younger
 1279518	14 and younger
 1279816	14 and younger
-1352073	average age 54
-1352083	average age 54
-1352096	average age 54
 1279921	14 and younger
 1279970	14 and younger
 1280074	14 and younger
@@ -377,13 +306,11 @@ bcell_id	h_age
 1279556	14 and younger
 1342697	up to 12 weeks old
 1342703	up to 12 weeks old
-1351991	average age 54
 1279930	14 and younger
 1279412	14 and younger
 1279501	14 and younger
 1279608	14 and younger
 1280047	14 and younger
-1343305	Adults and children
 1280053	14 and younger
 1280058	14 and younger
 1279726	14 and younger
@@ -398,27 +325,16 @@ bcell_id	h_age
 1466073	Ponies
 1279881	14 and younger
 22792478	26-30 years
-22792918	48
 1384780	10 years and older
-22792920	48
-22792919	49
-1412605	4 months- 4 years
-1412610	4 months- 4 years
 1279383	14 and younger
 1279389	14 and younger
-1379508	2 months to 14 years
 1279744	14 and younger
 1279435	14 and younger
 1279823	14 and younger
 1279965	14 and younger
 1279992	14 and younger
 1466121	Ponies
-1099228	18-72
 1466110	Ponies
-1212514	18-72
-1212515	18-72
-1212518	18-72
-1212532	18-72
 1466126	Ponies
 1212840	25-30 grams
 22792565	36-40 years
@@ -426,25 +342,15 @@ bcell_id	h_age
 22792567	36-40 years
 22792534	26-30 years
 22792540	26-30 years
-1212530	18-72
 22792533	26-30 years
-1099226	18-72
-1212529	18-72
 22792532	26-30 years
 1356043	Children and adults
 22792543	26-30 years
-1212536	18-72
-1212539	18-72
 22792546	26-30 years
 22792547	26-30 years
-1212540	18-72
-1212534	18-72
-1212535	18-72
 22792552	26-30 years
 22792550	26-30 years
 22792551	26-30 years
-1099229	18-72
-1656843	23-80
 22792541	26-30 years
 22792539	26-30 years
 22792544	26-30 years
@@ -452,79 +358,20 @@ bcell_id	h_age
 22792563	36-40 years
 22792564	36-40 years
 1280014	14 and younger
-1352028	average age 54
-1352029	average age 54
-1352024	average age 54
-1352107	average age 54
-1352004	average age 54
-1352025	average age 54
-1352047	average age 54
-1352052	average age 54
-1352053	average age 54
-1352060	average age 54
 1279475	14 and younger
 1279481	14 and younger
 1338919	Adult (pregnant)
-1352080	average age 54
-1352082	average age 54
-1352084	average age 54
-1351995	average age 54
-1351996	average age 54
-1352102	average age 54
-1352044	average age 54
-1352076	average age 54
-1352077	average age 54
 1382668	<20 years
-1352063	average age 54
-1352064	average age 54
-1352065	average age 54
-1352070	average age 54
 1279814	14 and younger
-1352104	average age 54
-1352086	average age 54
-1336960	Adults and children
-1336961	Adults and children
 1279820	14 and younger
-1379503	2 months to 14 years
-1379507	2 months to 14 years
-1379509	2 months to 14 years
-1352089	average age 54
 1279450	14 and younger
 1279399	14 and younger
-1352045	average age 54
-1352018	average age 54
-1352019	average age 54
-1352022	average age 54
-1352072	average age 54
-1352023	average age 54
-1352105	average age 54
-1352017	average age 54
-1336958	Adults and children
-1336959	Adults and children
-1352005	average age 54
-1352013	average age 54
-1352014	average age 54
-1352090	average age 54
 1381837	>15 years
-1352007	average age 54
-1352010	average age 54
-1352091	average age 54
 1381838	>15 years
-1472685	60
 1279519	14 and younger
 1279769	14 and younger
-1352100	average age 54
-1336968	Adults and children
-1352011	average age 54
 1279531	14 and younger
-1352092	average age 54
-1352095	average age 54
-1352097	average age 54
-1352099	average age 54
-1352079	average age 54
 1279393	14 and younger
-1351993	average age 54
-1351994	average age 54
 1279536	14 and younger
 1279552	14 and younger
 1279558	14 and younger
@@ -533,9 +380,6 @@ bcell_id	h_age
 1280007	14 and younger
 1280069	14 and younger
 22790734	36-45 years
-1960364	6 months to 3 years
-1960365	6 months to 3 years
-1379671	Adults and children
 1341986	Children and adults
 1280024	14 and younger
 1336947	More than 15 years
@@ -554,14 +398,11 @@ bcell_id	h_age
 1341982	Children and adults
 1341994	Children and adults
 1280072	14 and younger
-1281794	60
 1335486	children and adults
 1335490	children and adults
 1335491	children and adults
 1280036	14 and younger
 1280037	14 and younger
-1341081	2-day to 6-week old
-1341085	2-day to 6-week old
 1280041	14 and younger
 22792473	16-20 years
 1335492	children and adults
@@ -579,22 +420,17 @@ bcell_id	h_age
 1335482	children and adults
 1335496	children and adults
 1336941	More than 15 years
-1338207	Children and Adults
 1336937	More than 15 years
 1341997	Children and adults
 1336748	More than 15 years
 22792470	16-20 years
 22792508	16-30 years
 22792469	16-20 years
-1281837	24
 1280057	14 and younger
 1280060	14 and younger
 1280062	14 and younger
-1339459	Adults and children
 1349536	Neonates (infected mothers or PM)
 1280063	14 and younger
-1336844	average age 29.8
-1336846	average age 29.8
 1349535	Neonates (infected mothers or PM)
 1279913	14 and younger
 1279914	14 and younger
@@ -613,19 +449,15 @@ bcell_id	h_age
 1279527	14 and younger
 1280043	14 and younger
 1280045	14 and younger
-1338213	Children and Adults
 1280046	14 and younger
 1280049	14 and younger
 1280052	14 and younger
-1338217	Children and Adults
-1338220	Children and Adults
 1330748	infants
 1330756	infants
 1279517	14 and younger
 1279520	14 and younger
 1280054	14 and younger
 1280055	14 and younger
-1336230	18-21
 1280056	14 and younger
 1336753	More than 15 years
 1336712	More than 15 years
@@ -637,7 +469,6 @@ bcell_id	h_age
 1279546	14 and younger
 1336718	More than 15 years
 1336710	More than 15 years
-1212525	18-72
 1279927	14 and younger
 1279931	14 and younger
 1279585	14 and younger
@@ -648,9 +479,6 @@ bcell_id	h_age
 1279963	14 and younger
 1279401	14 and younger
 1330939	Children and adults
-1341097	2-day to 6-week old
-1341098	2-day to 6-week old
-1343266	Adults and children
 1279534	14 and younger
 1279535	14 and younger
 1279538	14 and younger
@@ -659,18 +487,12 @@ bcell_id	h_age
 1279868	14 and younger
 1279904	14 and younger
 1279905	14 and younger
-1354453	32-70
-1354454	32-70
-1343309	Adults and children
-1343310	Adults and children
-1343140	Adults and children
 1279363	14 and younger
 1279364	14 and younger
 1279539	14 and younger
 1279862	14 and younger
 1279896	14 and younger
 1279907	14 and younger
-1339351	Adults and children
 1279968	14 and younger
 1279971	14 and younger
 1279972	14 and younger
@@ -685,8 +507,6 @@ bcell_id	h_age
 1279508	14 and younger
 1279515	14 and younger
 1279516	14 and younger
-1341121	Adults and children
-1354455	36-55
 1279510	14 and younger
 1279512	14 and younger
 1279863	14 and younger
@@ -695,13 +515,8 @@ bcell_id	h_age
 1279945	14 and younger
 1279949	14 and younger
 1279362	14 and younger
-1341149	Adults and children
-1341151	Adults and children
-1339471	Adults and children
 1279687	14 and younger
 1279689	14 and younger
-1343268	Adults and children
-1343294	Adults and children
 1279944	14 and younger
 1279950	14 and younger
 1279951	14 and younger
@@ -713,11 +528,6 @@ bcell_id	h_age
 1279388	14 and younger
 1279391	14 and younger
 1279392	14 and younger
-1341086	2-day to 6-week old
-1341088	2-day to 6-week old
-1341090	2-day to 6-week old
-1341092	2-day to 6-week old
-1341177	Adult (18-49)
 1342701	up to 12 weeks old
 1342702	up to 12 weeks old
 1342681	up to 12 weeks old
@@ -734,7 +544,6 @@ bcell_id	h_age
 1279697	14 and younger
 1279698	14 and younger
 1279937	14 and younger
-1341095	2-day to 6-week old
 1279984	14 and younger
 1279985	14 and younger
 1279988	14 and younger
@@ -793,11 +602,6 @@ bcell_id	h_age
 1279607	14 and younger
 1279610	14 and younger
 1279611	14 and younger
-1341792	2 to >20 years
-1341794	2 to >20 years
-1341795	2 to >20 years
-1341797	2 to >20 years
-1341799	2 to >20 years
 1279703	14 and younger
 1279704	14 and younger
 1279599	14 and younger
@@ -813,7 +617,6 @@ bcell_id	h_age
 1280011	14 and younger
 1341929	Adutls
 1279549	14 and younger
-1341800	2 to >20 years
 1279419	14 and younger
 1279421	14 and younger
 1279424	14 and younger
@@ -857,7 +660,6 @@ bcell_id	h_age
 1466069	Ponies
 1279594	14 and younger
 1279596	14 and younger
-1347301	Adults and children
 1279807	14 and younger
 1279810	14 and younger
 1279812	14 and younger
@@ -869,8 +671,6 @@ bcell_id	h_age
 1466127	Ponies
 1347163	Adult (pregnant)
 22792287	59-67 years
-1382096	Adults and children
-1382094	Adults and children
 1279438	14 and younger
 1279479	14 and younger
 1279480	14 and younger
@@ -891,7 +691,6 @@ bcell_id	h_age
 1279801	14 and younger
 1279484	14 and younger
 1465129	6-24 mo of age
-1347298	Adults and children
 1347165	Adult (pregnant)
 1347166	Adult (pregnant)
 22792288	59-67 years
@@ -952,15 +751,12 @@ bcell_id	h_age
 1279433	14 and younger
 1279436	14 and younger
 1279746	14 and younger
-1347300	Adults and children
 1279836	14 and younger
 1279837	14 and younger
 1279838	14 and younger
 1279819	14 and younger
 1279821	14 and younger
 1279829	14 and younger
-1412612	4 months- 4 years
-1412613	4 months- 4 years
 1279747	14 and younger
 1279830	14 and younger
 1279831	14 and younger
@@ -986,68 +782,35 @@ bcell_id	h_age
 1384810	>13 years
 1279770	14 and younger
 1279771	14 and younger
-1412604	4 months- 4 years
 1281727	16-Feb
 1279765	14 and younger
 1279766	14 and younger
 1279835	14 and younger
-1412606	4 months- 4 years
-1412608	4 months- 4 years
-1412609	4 months- 4 years
-1412611	4 months- 4 years
 1281719	16-Feb
 1281721	16-Feb
-1412602	4 months- 4 years
 1279822	14 and younger
-1412622	4 months- 4 years
 1280465	16-Feb
-1412603	4 months- 4 years
 1280463	16-Feb
 1466072	Ponies
 1466075	Ponies
-1412620	4 months- 4 years
-1412621	4 months- 4 years
 1281723	16-Feb
 1281728	16-Feb
 1466077	Ponies
 1466082	Ponies
-8305	37 average
-1352051	average age 54
-1352016	average age 54
-1352068	average age 54
-1352088	average age 54
-1352098	average age 54
-1352008	average age 54
 1474314	children and adults
-1471712	60
-1336964	Adults and children
 1330941	Children and adults
 1330946	Children and adults
 1474312	children and adults
-1471717	60
-1471718	60
-1352012	average age 54
-1352046	average age 54
-1352048	average age 54
-1352054	average age 54
 1336754	More than 15 years
 1280061	14 and younger
-1471721	60
-1352027	average age 54
-1471878	60
-1471879	60
-1351997	average age 54
-1471701	60
 1279418	14 and younger
 1279423	14 and younger
-1382095	Adults and children
 1336946	More than 15 years
 1279449	14 and younger
 1279466	14 and younger
 1279885	14 and younger
 1279902	14 and younger
 1279493	14 and younger
-8289	37 average
 1279939	14 and younger
 1340232	birth - 5 years
 1279503	14 and younger
@@ -1071,13 +834,11 @@ bcell_id	h_age
 1341972	Children and adults
 1280000	14 and younger
 1280001	14 and younger
-1343267	Adults and children
 1279690	14 and younger
 1279700	14 and younger
 1280008	14 and younger
 1280020	14 and younger
 1280021	14 and younger
-1379510	2 months to 14 years
 1279382	14 and younger
 1279390	14 and younger
 1279947	14 and younger
@@ -1105,7 +866,6 @@ bcell_id	h_age
 1279925	14 and younger
 1338990	Adult (pregnant)
 1338917	Adult (pregnant)
-1412618	4 months- 4 years
 1342689	up to 12 weeks old
 1279860	14 and younger
 1279866	14 and younger
@@ -1114,7 +874,6 @@ bcell_id	h_age
 1279486	14 and younger
 1279491	14 and younger
 1279366	14 and younger
-1341096	2-day to 6-week old
 1279935	14 and younger
 1279381	14 and younger
 1279524	14 and younger
@@ -1124,43 +883,25 @@ bcell_id	h_age
 22792953	26-30 years
 22792955	26-30 years
 1345384	Adutls
-1471720	60
 1330755	infants
 22792954	26-30 years
 1466079	Ponies
 1493528	Infant
 1417749	children
-1341082	2-day to 6-week old
-1212522	18-72
 1466030	Ponies
-1212537	18-72
-1212524	18-72
 1349537	Neonates (infected mothers or PM)
-1341178	Child (5-11)
-1341172	Child (5-11)
-1471702	60
-1471709	60
-1471722	60
-1983949	6 months to 53 years
-1212517	18-72
-1212519	18-72
-1212528	18-72
-1212531	18-72
 1787789	Average age of 37 years
 1280467	16-Feb
 1279946	14 and younger
 1279974	14 and younger
 1279983	14 and younger
 1279929	14 and younger
-1352087	average age 54
-1352050	average age 54
 1336942	More than 15 years
 1279714	14 and younger
 1279986	14 and younger
 1279994	14 and younger
 1279776	14 and younger
 1279790	14 and younger
-1352085	average age 54
 1342692	up to 12 weeks old
 1279727	14 and younger
 1279434	14 and younger
@@ -1173,16 +914,12 @@ bcell_id	h_age
 1279614	14 and younger
 1279588	14 and younger
 22790736	36-40 years
-1338154	Children and Adults
-1379691	Adults and children
 1336711	More than 15 years
 1336719	More than 15 years
-1336845	average age 29.8
 1335493	children and adults
 1279738	14 and younger
 1280012	14 and younger
 1279796	14 and younger
-1352026	average age 54
 1279684	14 and younger
 1347164	Adult (pregnant)
 1280059	14 and younger
@@ -1193,9 +930,6 @@ bcell_id	h_age
 1279755	14 and younger
 1279910	14 and younger
 1279916	14 and younger
-1352062	average age 54
-1352093	average age 54
-1352108	average age 54
 1341862	Children and adults
 1279898	14 and younger
 1279906	14 and younger
@@ -1210,13 +944,8 @@ bcell_id	h_age
 1279828	14 and younger
 1280050	14 and younger
 1280051	14 and younger
-1412607	4 months- 4 years
-1412619	4 months- 4 years
 1279957	14 and younger
-1412615	4 months- 4 years
 1336951	More than 15 years
-1352101	average age 54
-1352103	average age 54
 1279734	14 and younger
 1279917	14 and younger
 1279764	14 and younger
@@ -1224,7 +953,6 @@ bcell_id	h_age
 1341633	Children and adults
 1341636	Children and adults
 1371171	children
-1352020	average age 54
 1279685	14 and younger
 1279694	14 and younger
 1279699	14 and younger
@@ -1235,8 +963,6 @@ bcell_id	h_age
 1342691	up to 12 weeks old
 1279408	14 and younger
 1279773	14 and younger
-1412623	4 months- 4 years
-1338214	Children and Adults
 1341988	Children and adults
 1279478	14 and younger
 1279489	14 and younger
@@ -1251,16 +977,11 @@ bcell_id	h_age
 1336691	More than 15 years
 1330753	infants
 1330752	infants
-1343139	Adults and children
-1343265	Adults and children
 1279540	14 and younger
 1279547	14 and younger
 1279550	14 and younger
-1382098	Adults and children
 1279448	14 and younger
 1279554	14 and younger
-1352074	average age 54
-1382097	Adults and children
 1279586	14 and younger
 1279461	14 and younger
 1279469	14 and younger
@@ -1271,33 +992,20 @@ bcell_id	h_age
 1279446	14 and younger
 1330944	Children and adults
 1380982	Children and adults
-1212541	18-72
-1099227	18-72
-1352071	average age 54
-1352081	average age 54
 1279357	14 and younger
 1279867	14 and younger
 1279876	14 and younger
 1279936	14 and younger
 1279943	14 and younger
-1352078	average age 54
 1279952	14 and younger
 1279953	14 and younger
 1474281	children and adults
 1330759	infants
-1212533	18-72
-1336962	Adults and children
-1379506	2 months to 14 years
 1319839	6-24 mo of age
 1330749	infants
-1336724	15-71
 1279410	14 and younger
-1212526	18-72
 1319774	6-24 mo of age
 1342688	up to 12 weeks old
-1351992	average age 54
-1212516	18-72
-1336967	Adults and children
 1474316	children and adults
 1279372	14 and younger
 1279888	14 and younger
@@ -1312,7 +1020,6 @@ bcell_id	h_age
 1280016	14 and younger
 1279695	14 and younger
 1280039	14 and younger
-1339449	Adults and children
 1341834	Children and adults
 1336699	More than 15 years
 1336721	More than 15 years
@@ -1324,14 +1031,9 @@ bcell_id	h_age
 1279720	14 and younger
 1279548	14 and younger
 1319772	6-24 mo of age
-1352009	average age 54
 1279415	14 and younger
-1339481	Adults and children
-1341798	2 to >20 years
 1342684	up to 12 weeks old
-1471719	60
 1343565	Adutls
-1347299	Adults and children
 1280033	14 and younger
 1279997	14 and younger
 1280064	14 and younger
@@ -1339,13 +1041,11 @@ bcell_id	h_age
 1279544	14 and younger
 1279884	14 and younger
 1279528	14 and younger
-1352006	average age 54
 1279798	14 and younger
 1384804	>13 years
 1319836	6-24 mo of age
 22703875	45-60 years
 1279901	14 and younger
-8282	37 average
 1279368	14 and younger
 1384799	>13 years
 1280048	14 and younger
@@ -1391,93 +1091,32 @@ bcell_id	h_age
 1279875	14 and younger
 1787786	Average age of 37 years
 1787432	40.0±13.7 years
-1786858	39.88 ± 10.13
-1785431	25 to 77
-1785432	25 to 77
-1786809	39.18 ± 6.77
 1786756	Mean age = 34.8 years
 1786757	Mean age = 34.8 years
-1785419	25 to 77
-1771632	77
-1771639	77
-1771652	77
-1771659	77
-1771620	77
 1812210	24 hours
-2116285	8 mo to 35 years
 1811612	24 hours
 1811613	24 hours
-1496106	7 months to 14 years
-2116286	8 mo to 35 years
-2116287	8 mo to 35 years
-1812012	64
-1812013	64
-1812014	64
-1812015	64
 1811168	24 hours
-1812009	64
-1812016	64
-1812017	64
-1812018	64
-2116226	8 mo to 35 years
-2116227	8 mo to 35 years
-2116280	8 mo to 35 years
 21210969	>/= 18 years
-2116283	8 mo to 35 years
-2116284	8 mo to 35 years
-1816954	67
-1816957	67
-1786587	2 months-12 years
-1786588	2 months-12 years
-1786589	2 months-12 years
-1786473	35 years mean age
-1786477	35 years mean age
-1786813	38.15 ± 6.5
-1786814	38.15 ± 6.5
-1786815	38.15 ± 6.5
 1787410	40.0±13.7 years
 1787882	Mean age = 30 years
-1786798	39.88 ± 10.13
-1786812	38.15 ± 6.5
-1786801	39.88 ± 10.13
-1785877	52
 1787408	40.0±13.7 years
 1787412	40.0±13.7 years
 1787418	40.0±13.7 years
 1787420	40.0±13.7 years
-1785941	22-41
-1785942	22-41
-1785943	22-41
-1785944	22-41
-1786802	39 ± 15
-1786800	39.88 ± 10.13
 1787414	40.0±13.7 years
 1787416	40.0±13.7 years
 1787427	40.0±13.7 years
-1788684	Mean age = 41.7 ± 15.1 years
-1785945	22-41
-1785948	22-41
-1785949	22-41
 1787262	<16 years
 1787422	40.0±13.7 years
 1787430	40.0±13.7 years
-1788688	Mean age = 41.7 ± 15.1 years
-1788689	Mean age = 41.7 ± 15.1 years
-1788690	Mean age = 39.8 ± 13.3 years
-1788691	Mean age = 39.8 ± 13.3 years
 2423447	subadult
 1786941	33.7±4.6 years
 1786943	33.7±4.6 years
-1786804	39 ± 15
-1786805	39 ± 15
-1786806	39.18 ± 6.77
-1786807	39.18 ± 6.77
-1786808	39.18 ± 6.77
 1787258	<16 years
 1786945	33.7±4.6 years
 1786946	33.7±4.6 years
 1786944	33.7±4.6 years
-1785950	22-41
 1786956	33.7±4.6 years
 1786957	33.7±4.6 years
 1786958	33.7±4.6 years
@@ -1488,45 +1127,30 @@ bcell_id	h_age
 1786754	Mean age = 34.8 years
 1786947	33.7±4.6 years
 1786950	33.7±4.6 years
-1786803	39 ± 15
-1787291	6 months - 47 years
-1787293	6 months - 47 years
 1786974	35.5±8.1 years
 1786980	35.5±8.1 years
 1786981	35.5±8.1 years
 1786982	35.5±8.1 years
 1786983	35.5±8.1 years
-1786799	39.88 ± 10.13
-1787285	6 months - 47 years
-1787294	6 months - 47 years
-1787297	6 months - 47 years
 1786977	35.5±8.1 years
 1786978	35.5±8.1 years
 1786979	35.5±8.1 years
 1786984	35.5±8.1 years
 1786985	35.5±8.1 years
-1788676	Mean age = 41.7 ± 15.1 years
 1786986	35.5±8.1 years
 1786987	35.5±8.1 years
 1787340	mean age of 39.9 years
 22703876	45-60 years
 1799296	48 hours
 1799297	48 hours
-2116310	8 mo to 35 years
-1796612	2.8 to 4.2
 1789773	Mean age = 58±12 years
 1789784	Mean age = 58±12 years
 1795169	Infant
 1795163	Infant
-1790360	24-49
 1795177	Infant
-2116311	8 mo to 35 years
 1811606	24 hours
-2468231	6 months - 47 years
 22703877	45-60 years
 22703878	45-60 years
-1808048	newborns - 29 years
-1809662	1 year 5 months to 15 years 8 months
 1808020	>24 weeks
 1808762	>22 weeks
 1808022	>24 weeks
@@ -1534,16 +1158,10 @@ bcell_id	h_age
 1808024	>22 weeks
 1808037	>24 weeks
 1808763	>22 weeks
-2116312	8 mo to 35 years
 1811166	24 hours
 1808042	>24 weeks
-1808044	newborns - 29 years
-1786110	62
-1778704	6 days to 7  months
 1495053	infants
 1494401	College age
-1496102	7 months to 14 years
-1496104	7 months to 14 years
 1493522	Infant
 1493282	Infant
 1493525	Infant
@@ -1554,7 +1172,6 @@ bcell_id	h_age
 1493778	Infant
 1493780	Infant
 1493280	Infant
-1513319	14-57
 1493272	Infant
 1493274	Infant
 1493276	Infant
@@ -1562,7 +1179,6 @@ bcell_id	h_age
 1493516	Infant
 1493518	Infant
 1493520	Infant
-1496105	7 months to 14 years
 1493809	Infant
 1495066	infants
 1495067	infants
@@ -1573,7 +1189,6 @@ bcell_id	h_age
 1495054	infants
 1495063	infants
 1495064	infants
-1494360	3 weeks - 6 months
 1493268	Infant
 1493270	Infant
 1493305	Infant
@@ -1589,26 +1204,12 @@ bcell_id	h_age
 1493301	Infant
 1493303	Infant
 1493297	Infant
-1584134	3 months to 11 years
-1584140	3 months to 11 years
-1494640	16 weeks-40 years
-1584141	3 months to 11 years
-1584139	3 months to 11 years
-1582545	22–59
 1602533	adults
-2117082	8 mo to 35 years
-2117079	8 mo to 35 years
-1513252	14-57
-1513289	14-57
-1513306	14-57
-1513288	14-57
-1513326	14-57
 1619995	Foals
 1619996	Foals
 1619997	Foals
 1607323	children
 1607324	children
-1637727	5 to 26
 1619998	Foals
 1619999	Foals
 1620000	Foals
@@ -1623,8 +1224,6 @@ bcell_id	h_age
 1619979	Foals
 1619991	Foals
 1619992	Foals
-1621359	14
-1621360	14
 1619985	Foals
 1619986	Foals
 1619987	Foals
@@ -1632,8 +1231,6 @@ bcell_id	h_age
 1619989	Foals
 1619990	Foals
 1620003	Foals
-1621361	14
-1621365	14
 1620004	Foals
 1620005	Foals
 1620006	Foals
@@ -1643,44 +1240,16 @@ bcell_id	h_age
 1620010	Foals
 1620012	Foals
 1620013	Foals
-1621358	14
-1621367	14
-1621368	14
-1621369	14
-1621370	14
 1620014	Foals
 1620015	Foals
 1620016	Foals
 1620017	Foals
 1620018	Foals
-1621366	14
-1621376	14
-1621377	14
-1621378	14
-1621379	14
-1621380	14
-1621382	14
-1621383	14
-1621384	14
 1620011	Foals
-1621385	14
-1621392	14
-1621399	14
-1621400	14
-1621401	14
-1621402	14
 1620019	Foals
 1620020	Foals
 1620021	Foals
-1621349	14
-1621393	14
-1621394	14
-1621395	14
-1621396	14
-1621397	14
-1621398	14
 1620098	newborns
-1621403	14
 1619970	Foals
 1619993	Foals
 1619994	Foals
@@ -1689,603 +1258,62 @@ bcell_id	h_age
 1619974	Foals
 1619975	Foals
 1619976	Foals
-1907646	3 weeks-15 years
-1907647	3 weeks-15 years
-1639058	Mean=8.4 ± 4.3
-1645212	69
-1640244	5 to 26
-1600818	6 months - 9 years
-1600819	6 months - 9 years
-1600820	6 months - 9 years
-1600731	6 months - 9 years
-1600732	6 months - 9 years
-1600733	6 months - 9 years
-1640287	6 to 84
-1600728	6 months - 9 years
-1600824	6 months - 9 years
-1600825	6 months - 9 years
-1600826	6 months - 9 years
-1600832	6 months - 9 years
-1600833	6 months - 9 years
-1600834	6 months - 9 years
-1640288	32 to 78
-1600729	6 months - 9 years
-1600730	6 months - 9 years
-1600736	6 months - 9 years
-1600737	6 months - 9 years
-1600738	6 months - 9 years
-1600739	6 months - 9 years
-1600835	6 months - 9 years
-1600830	6 months - 9 years
-1600831	6 months - 9 years
-1600837	6 months - 9 years
-1600838	6 months - 9 years
-1600839	6 months - 9 years
-1600840	6 months - 9 years
-1641466	6-22.8
 1634723	>69 years
 1634726	>69 years
 1634728	>69 years
-1600841	6 months - 9 years
-1600847	6 months - 9 years
-1600821	6 months - 9 years
-1600822	6 months - 9 years
-1600823	6 months - 9 years
-1600827	6 months - 9 years
-1600828	6 months - 9 years
-1600829	6 months - 9 years
-1600740	6 months - 9 years
-1600746	6 months - 9 years
-1600747	6 months - 9 years
-1600748	6 months - 9 years
-1600749	6 months - 9 years
-1600843	6 months - 9 years
-1600844	6 months - 9 years
-1600845	6 months - 9 years
-1600846	6 months - 9 years
-1600851	6 months - 9 years
-1600852	6 months - 9 years
-1600812	6 months - 9 years
-1600813	6 months - 9 years
-1600750	6 months - 9 years
-1600755	6 months - 9 years
-1600756	6 months - 9 years
-1600757	6 months - 9 years
-1600848	6 months - 9 years
-1600849	6 months - 9 years
-1600853	6 months - 9 years
-1600752	6 months - 9 years
-1600753	6 months - 9 years
-1600754	6 months - 9 years
-1600850	6 months - 9 years
-1600856	6 months - 9 years
-1600857	6 months - 9 years
-1600858	6 months - 9 years
-1600859	6 months - 9 years
 1602535	adults, >32 years
-1600760	6 months - 9 years
-1600761	6 months - 9 years
-1600762	6 months - 9 years
-1600763	6 months - 9 years
-1600854	6 months - 9 years
-1600855	6 months - 9 years
 1620118	newborns
 1606232	children
-1600758	6 months - 9 years
-1600759	6 months - 9 years
-1600765	6 months - 9 years
-1600766	6 months - 9 years
-1600767	6 months - 9 years
-1600861	6 months - 9 years
-1600862	6 months - 9 years
-1600863	6 months - 9 years
-1600864	6 months - 9 years
-1600865	6 months - 9 years
 1620117	newborns
-1600768	6 months - 9 years
-1600769	6 months - 9 years
-1600860	6 months - 9 years
-1660355	19.8 to 38.8
-1660354	19.8 to 38.8
 1649608	elderly > 70 years
 1649609	elderly > 70 years
-1600770	6 months - 9 years
-1600771	6 months - 9 years
-1600764	6 months - 9 years
-1650923	3 months to 64 years
-1650927	3 months to 64 years
-1650928	3 months to 64 years
 1649621	elderly > 70 years
-1600772	6 months - 9 years
-1600773	6 months - 9 years
-1600774	6 months - 9 years
-1600775	6 months - 9 years
-1600779	6 months - 9 years
-1600780	6 months - 9 years
 1620143	newborns
 1620142	newborns
-1600776	6 months - 9 years
-1600777	6 months - 9 years
-1600778	6 months - 9 years
-1600781	6 months - 9 years
-1600787	6 months - 9 years
-1650932	3 months to 64 years
-1650933	3 months to 64 years
-1650954	3 months to 64 years
-1650955	3 months to 64 years
-1650962	3 months to 64 years
-1650963	3 months to 64 years
-1600782	6 months - 9 years
-1600783	6 months - 9 years
-1600784	6 months - 9 years
-1600785	6 months - 9 years
-1600786	6 months - 9 years
-1600789	6 months - 9 years
-1600790	6 months - 9 years
-1600791	6 months - 9 years
-1600792	6 months - 9 years
-1600793	6 months - 9 years
 1620072	newborns
-1600788	6 months - 9 years
-1600798	6 months - 9 years
-1600799	6 months - 9 years
 1649597	elderly > 70 years
 1649635	elderly > 70 years
 1649620	elderly > 70 years
-1600794	6 months - 9 years
-1600795	6 months - 9 years
-1600796	6 months - 9 years
-1600797	6 months - 9 years
-1600800	6 months - 9 years
 1649627	elderly > 70 years
 1649628	elderly > 70 years
-1600801	6 months - 9 years
-1600802	6 months - 9 years
-1600803	6 months - 9 years
-1600804	6 months - 9 years
-1600805	6 months - 9 years
-1600808	6 months - 9 years
-1600734	6 months - 9 years
-1600735	6 months - 9 years
-1600741	6 months - 9 years
-1600742	6 months - 9 years
-1600809	6 months - 9 years
-1600810	6 months - 9 years
-1600811	6 months - 9 years
-1600814	6 months - 9 years
-1600743	6 months - 9 years
-1600744	6 months - 9 years
-1600745	6 months - 9 years
-1600836	6 months - 9 years
-1600751	6 months - 9 years
-1600842	6 months - 9 years
-1600806	6 months - 9 years
-1600807	6 months - 9 years
-1600815	6 months - 9 years
-1600816	7 months - 9 years
-1600817	7 months - 9 years
-1654844	3 months to 2 years
-1655084	19-49
-1655089	18-53
-1655091	17-81
-1656850	23-80
-1657107	20-82
-1657113	20-82
-1657114	20-82
-1650929	3 months to 64 years
-1657103	20-82
-1657104	20-82
-1657105	20-82
-1657106	20-82
-1650930	3 months to 64 years
-1650925	3 months to 64 years
-1650956	3 months to 64 years
-1650957	3 months to 64 years
-1650961	3 months to 64 years
-1657108	20-82
-1657109	20-82
-1657110	20-82
-1657111	20-82
-1657112	20-82
-1650959	3 months to 64 years
-1650960	3 months to 64 years
 1336749	More than 15 years
-1656570	19-43
 1417758	children
-1656569	19-43
-1656848	23-80
-1656849	23-80
-1656851	23-80
 1279756	14 and younger
-1656852	23-80
-1656853	23-80
-1656858	23-80
 1330943	Children and adults
-1656846	23-80
-1656847	23-80
-1655090	17-81
-1656854	23-80
-1656855	23-80
-1656856	23-80
-1656857	23-80
-1677614	4 months-30 years
 1279966	14 and younger
 1280003	14 and younger
-1660877	19.8 to 38.8
-1660876	19.8 to 38.8
-1676509	4 months-15 years
-1677635	4 months-30 years
-1677636	4 months-30 years
-1677637	4 months-30 years
-1677634	4 months-30 years
-1664321	32-60
-1662184	25
-1663037	32-60
-1661332	25
-1661335	25
-1661336	25
-1662183	25
-1661337	25
-1661338	25
-1661339	25
-1661340	25
-1683212	38
-1683213	38
-1683214	38
-1683215	38
-1683211	38
-1683216	38
-1690950	21, 27 and 36 weeks
-1695692	50 to 68
-1695702	50 to 68
 1693608	Within 1 week after birth
 1693609	Within 1 week after birth
-1695694	50 to 68
-1695696	50 to 68
-1695698	50 to 68
-1695700	50 to 68
-1695708	50 to 68
-1695710	50 to 68
-1695704	50 to 68
-1695726	50 to 68
-1695706	50 to 68
-1695712	50 to 68
-1695714	50 to 68
-1695716	50 to 68
-1695730	50 to 68
-1695718	50 to 68
-1695728	50 to 68
-1696504	48-51
-1696505	48-51
-1696506	48-51
-1696507	48-51
-1696508	48-51
-1696509	48-51
-1696510	48-51
-1492301	Young adult
-1690947	21, 27 and 36 weeks
-1690949	21, 27 and 36 weeks
-1690951	21, 27 and 36 weeks
-1690952	21, 27 and 36 weeks
-1692974	13-68
-1692975	13-68
-1692970	13-68
-1692976	13-68
-1692977	13-68
-1692978	13-68
-1692979	13-68
-1692958	13-68
-1692968	13-68
-1695720	50 to 68
-1695207	50 to 68
-1695242	23.6-53.8
-1695247	23.6-53.8
-1676506	4 months-15 years
-1676507	4 months-15 years
-1676508	4 months-15 years
-1677644	4 months-30 years
-1677617	4 months-30 years
-1677621	4 months-30 years
-1677618	4 months-30 years
-1677622	4 months-30 years
-1677619	4 months-30 years
-1677620	4 months-30 years
-1677638	4 months-30 years
-1677639	4 months-30 years
-1677643	4 months-30 years
-1677641	4 months-30 years
-1677642	4 months-30 years
-1677645	4 months-30 years
-1677646	4 months-30 years
-1677647	4 months-30 years
-1701617	14 to 45
-1701624	14 to 45
-1700761	14 to 45
 1702485	less than 24 hours
 1703320	Steer
-1700796	14 to 45
-1700797	14 to 45
 1703428	Steer
-1700800	14 to 45
-1700798	14 to 45
-1700799	14 to 45
 1712025	Elderly
 1712028	Elderly
 1712030	Elderly
 1712032	Elderly
 1702483	less than 24 hours
-1763156	11 to 82
-1763176	11 to 82
-1763184	11 to 82
-1763194	11 to 82
-1763214	11 to 82
-1763216	11 to 82
-1763218	11 to 82
-1763220	11 to 82
-1763222	11 to 82
-1763235	11 to 82
-1763178	11 to 82
-1763186	11 to 82
-1763188	11 to 82
-1763196	11 to 82
-1763198	11 to 82
-1763204	11 to 82
-1763224	11 to 82
-1763226	11 to 82
-1763228	11 to 82
-1763230	11 to 82
-1763234	11 to 82
-1763236	11 to 82
-1763237	11 to 82
-1763238	11 to 82
-1763239	11 to 82
-1763956	17 to 84
-1763971	17 to 84
-1763995	20 to 75
-1763997	17 to 84
-1763999	17 to 84
-1763992	20 to 75
-1763994	20 to 75
 1764620	Less than 20 years
-1771638	77
-1771640	77
-1771641	77
-1771642	77
-1771643	77
-1771644	77
 1764610	Less than 20 years
 1764607	Less than 20 years
-1771645	77
-1763180	11 to 82
-1763182	11 to 82
-1763190	11 to 82
-1763192	11 to 82
-1763200	11 to 82
-1763202	11 to 82
-1763206	11 to 82
-1763208	11 to 82
-1763210	11 to 82
-1763212	11 to 82
-1771636	77
-1771637	77
-1768943	18–73
 1770894	middle aged
-1771519	38-73
-1771520	38-73
-1771676	77
-1771522	38-73
-1771523	38-73
-1771524	38-73
-1771526	38-73
-1771527	38-73
-1771689	77
-1771690	77
-1771691	77
-1771692	77
-1771693	77
-1771694	77
-1771695	77
-1771538	38-73
-1771539	38-73
-1771701	77
-1771702	77
-1771703	77
-1768940	18–73
-1768946	18–73
 1770895	middle aged
 1770896	middle aged
-1771528	38-73
-1771529	38-73
-1771531	38-73
-1771533	38-73
-1771540	38-73
-1771541	38-73
-1771696	77
-1771697	77
-1771698	77
-1771699	77
-1771550	38-73
-1771551	38-73
-1771705	77
 1764616	Less than 20 years
 1764615	Less than 20 years
 1764618	Less than 20 years
 1764617	Less than 20 years
 1764619	Less than 20 years
-1771534	38-73
-1771535	38-73
-1771536	38-73
-1771544	38-73
-1771545	38-73
-1771546	38-73
-1771552	38-73
-1771557	38-73
-1771559	38-73
-1771547	38-73
-1771549	38-73
-1771554	38-73
-1771560	38-73
-1771561	38-73
-1771562	38-73
-1771555	38-73
-1771556	38-73
-1771569	38-73
-1771571	38-73
-1771572	38-73
-1771573	38-73
-1771574	38-73
-1771566	38-73
-1771567	38-73
-1771568	38-73
-1771578	38-73
-1771579	38-73
-1771580	38-73
-1771582	38-73
-1771583	38-73
-1771584	38-73
-1771585	38-73
-1771577	38-73
-1771588	38-73
-1771589	38-73
-1771590	38-73
-1771591	38-73
-1771593	38-73
-1771594	38-73
-1771595	38-73
-1771596	38-73
-1771602	38-73
-1771604	38-73
-1771605	38-73
-1771606	38-73
-1771607	38-73
-1771599	38-73
-1771600	38-73
-1771601	38-73
-1771609	38-73
-1771610	38-73
-1771611	77
-1771614	77
-1771615	77
-1771624	77
-1771564	38-73
-1771616	77
-1771617	77
-1771618	77
-1771625	77
-1771628	77
-1771629	77
-1771619	77
-1771621	77
-1771622	77
-1771623	77
-1771630	77
-1771631	77
-1771633	77
-1771634	77
-1771635	77
-1768860	21 months-45 years
-1768861	21 months-45 years
-1768862	21 months-45 years
-1768863	21 months-45 years
-1771626	77
-1771627	77
-1768597	21 months-45 years
-1768598	21 months-45 years
-1768601	21 months-45 years
-1771647	77
-1771648	77
-1771649	77
-1771650	77
-1771651	77
-1771662	77
-1771663	77
-1768602	21 months-45 years
-1768603	21 months-45 years
-1768604	21 months-45 years
-1768864	21 months-45 years
-1768931	18–73
-1771646	77
-1771653	77
-1771654	77
-1771655	77
-1771656	77
-1771664	77
-1771665	77
-1771672	77
-1771673	77
-1768928	18–73
-1768937	18–73
-1771657	77
-1771658	77
-1771660	77
-1771661	77
-1771666	77
-1771667	77
-1771674	77
-1771677	77
-1771679	77
 1770500	middle aged
 1770501	middle aged
 1770502	middle aged
-1768934	18–73
-1771668	77
-1771669	77
-1771670	77
-1771671	77
-1771680	77
-1771681	77
-1771682	77
-1771683	77
-1771684	77
-1771685	77
-1771687	77
-1771688	77
-1771525	38-73
-1771530	38-73
-1771532	38-73
-1771537	38-73
-1771542	38-73
-1771543	38-73
-1771548	38-73
-1771570	38-73
-1771575	38-73
-1771553	38-73
-1771558	38-73
-1771563	38-73
-1771565	38-73
-1771576	38-73
-1771581	38-73
-1771586	38-73
-1771587	38-73
-1771592	38-73
-1771597	38-73
-1771598	38-73
-1771521	38-73
-1771518	38-73
-1771700	77
-1771704	77
-1771603	38-73
-1771608	38-73
-1771686	77
-1771675	77
-1771678	77
-1768858	21 months-45 years
-1768859	21 months-45 years
-1761276	18-35
-1761275	18-35
-1761277	18-35
 22703874	45-60 years
-1510594	14-57
 1504364	≥ 18 years
-1510486	14-57
 1504374	≥ 18 years
 1504375	≥ 18 years
 1504376	≥ 18 years
 1504377	≥ 18 years
 1504378	≥ 18 years
 1504379	≥ 18 years
-1510597	14-57
-1510396	14-57
 1504380	≥ 18 years
 1504381	≥ 18 years
 1504382	≥ 18 years
@@ -2299,12 +1327,9 @@ bcell_id	h_age
 1504392	≥ 18 years
 1504389	≥ 18 years
 1504390	≥ 18 years
-1510516	14-57
 1504343	≥ 18 years
 1504344	≥ 18 years
 1504333	≥ 18 years
-1510398	14-57
-1510399	14-57
 1504346	≥ 18 years
 1504347	≥ 18 years
 1504348	≥ 18 years
@@ -2321,49 +1346,16 @@ bcell_id	h_age
 1504365	≥ 18 years
 1504366	≥ 18 years
 1504369	≥ 18 years
-1509526	23-53
-1509530	23-53
 1504358	≥ 18 years
-1510397	14-57
 1504368	≥ 18 years
 1504373	≥ 18 years
 1504371	≥ 18 years
 1504372	≥ 18 years
-2116319	8 mo to 35 years
-2116320	8 mo to 35 years
-2116321	8 mo to 35 years
-2116322	8 mo to 35 years
-2116323	8 mo to 35 years
-2116324	8 mo to 35 years
-2116326	8 mo to 35 years
-2117075	8 mo to 35 years
-2116327	8 mo to 35 years
-2116328	8 mo to 35 years
-2116329	8 mo to 35 years
-2116330	8 mo to 35 years
-2116315	8 mo to 35 years
-2116314	8 mo to 35 years
-2116316	8 mo to 35 years
-2116317	8 mo to 35 years
-2116318	8 mo to 35 years
-2103807	2 years 8 months to 3 years 9 months
-2103808	2 years 8 months to 3 years 9 months
-2103805	2 years 8 months to 3 years 9 months
-2117085	8 mo to 35 years
-2117086	8 mo to 35 years
-2117087	8 mo to 35 years
-2117088	8 mo to 35 years
-2117089	8 mo to 35 years
-2117090	8 mo to 35 years
-2117091	8 mo to 35 years
 2116228	children
 2116229	children
 2116230	children
 2116231	children
 2116232	children
-2103685	2 years 8 months to 3 years 9 months
-2103686	2 years 8 months to 3 years 9 months
-2103687	2 years 8 months to 3 years 9 months
 2116233	children
 2116234	children
 2116235	children
@@ -2371,296 +1363,34 @@ bcell_id	h_age
 2116237	children
 2116238	children
 2116239	children
-2116240	8 mo to 35 years
-2116241	8 mo to 35 years
-2116242	8 mo to 35 years
-2116270	8 mo to 35 years
-2116273	8 mo to 35 years
-2116274	8 mo to 35 years
-2116275	8 mo to 35 years
-2116288	8 mo to 35 years
-2116271	8 mo to 35 years
-2116272	8 mo to 35 years
-2116276	8 mo to 35 years
-2116277	8 mo to 35 years
-2116278	8 mo to 35 years
-2116279	8 mo to 35 years
-2116281	8 mo to 35 years
-2116282	8 mo to 35 years
-2116289	8 mo to 35 years
-2116290	8 mo to 35 years
-1820153	36.1 years (mean)
-1820088	36.1 years (mean)
-1820096	36.1 years (mean)
-1820097	36.1 years (mean)
-1820098	36.1 years (mean)
-1820151	36.1 years (mean)
-1820152	36.1 years (mean)
-1821247	24.92 +/- 0.84
-1820160	36.1 years (mean)
 1835643	Child
-1821241	24.92 +/- 0.84
-1820154	36.1 years (mean)
-1820155	36.1 years (mean)
-1820156	36.1 years (mean)
-1820157	36.1 years (mean)
-1820158	36.1 years (mean)
-1820159	36.1 years (mean)
-1821253	24.92 +/- 0.84
 1835645	Child
-1820140	36.1 years (mean)
-1821244	24.92 +/- 0.84
-1820141	36.1 years (mean)
-1820142	36.1 years (mean)
-1820143	36.1 years (mean)
-1820144	36.1 years (mean)
-1820147	36.1 years (mean)
-1821250	24.92 +/- 0.84
-1821257	24.92 +/- 0.84
-1821260	24.92 +/- 0.84
 1833711	<6 months
 1833716	<6 months
 1833719	<6 months
-1820145	36.1 years (mean)
-1820146	36.1 years (mean)
-1820148	36.1 years (mean)
-1820149	36.1 years (mean)
-1820150	36.1 years (mean)
-1821263	24.92 +/- 0.84
 1833712	<6 months
 1833713	<6 months
 1833714	<6 months
-1821266	24.92 +/- 0.84
 1833715	<6 months
 1833720	<6 months
 1833721	<6 months
 1822314	100 day fetus
-1819880	24.92 +/- 0.84
-1821205	24.92 +/- 0.84
-1821215	24.92 +/- 0.84
-1821217	24.92 +/- 0.84
 1822315	100 day fetus
-1821208	24.92 +/- 0.84
-1821211	24.92 +/- 0.84
-1821219	24.92 +/- 0.84
-1821226	24.92 +/- 0.84
-1821229	24.92 +/- 0.84
-1821213	24.92 +/- 0.84
-1821221	24.92 +/- 0.84
 1838435	Child
 1833717	<6 months
 1833718	<6 months
-1818977	67
-1818978	67
-1818979	67
-1818975	67
-1818976	67
 1842073	Mean age of 54. 04
 1842071	Mean age of 54. 04
-1818973	67
-1818974	67
 1841649	72.5±5.2 years
-1818972	67
 1841648	72.3±6.7 years
 1816839	>55 years
-1821238	24.92 +/- 0.84
-1960341	6 months to 3 years
-1960342	6 months to 3 years
-1960340	6 months to 3 years
-1821232	24.92 +/- 0.84
 1816843	>55 years
-1960357	6 months to 3 years
-1816956	67
-1816959	67
-1816958	67
-1816961	67
-1816960	67
-1960348	6 months to 3 years
-1816964	67
-1960343	6 months to 3 years
-1816963	67
-1960336	6 months to 3 years
-1960337	6 months to 3 years
-1960338	6 months to 3 years
-2116313	8 mo to 35 years
-1960339	6 months to 3 years
-1960352	6 months to 3 years
-1960353	6 months to 3 years
-1960354	6 months to 3 years
-1960355	6 months to 3 years
-1960356	6 months to 3 years
-1960349	6 months to 3 years
-1960350	6 months to 3 years
-1960351	6 months to 3 years
-1960362	6 months to 3 years
-1960363	6 months to 3 years
-1816952	67
-1960358	6 months to 3 years
-1960359	6 months to 3 years
-1960360	6 months to 3 years
-1960361	6 months to 3 years
-1960345	6 months to 3 years
-1960346	6 months to 3 years
-1960347	6 months to 3 years
-1960344	6 months to 3 years
-1821235	24.92 +/- 0.84
 1862850	Infants and adults
 1862797	Infants and adults
 1862837	Infants and adults
 1862824	Infant
 1884353	mean age=53.7 years
 1884354	mean age=53.7 years
-1902999	57-59
-1902957	23-66
-1902958	23-66
-1902959	26-48
-1902960	26-48
-1902961	26-48
-1902962	19-66
-1902965	40-42
-1902971	57-59
-1902972	57-59
-1902973	57-59
-1902974	57-59
-1902975	57-59
-1902979	63-64
-1902980	63-64
-1902981	63-64
-1902982	31-32
-1902983	31-32
-1902984	31-32
-1902985	31-32
-1902986	31-32
-1902987	31-32
-1902989	31-32
-1902990	31-32
-1902991	40-42
-1902992	40-42
-1902993	40-42
-1902994	57-59
-1902995	57-59
-1902969	44-47
-1902967	40-42
-1902978	57-59
-1902988	31-32
-1902996	40-42
-1902997	40-42
-1902998	57-59
-1903640	40
-1903641	40
-1903642	40
-1903643	44
-1903644	44
-1903645	44
-1903646	44
-1907649	3 weeks-15 years
-1903876	57
-1903882	57
-1903883	57
-1903884	57
-1903885	57
-1903886	57
-1944779	25 years mean age
-1903941	57
-1903942	57
-1903943	57
-1903944	57
-1903945	57
-1903908	57
-1903909	57
-1903910	57
-1903911	57
-1903912	57
-1903913	57
-1903914	57
-1903915	57
-1903916	57
-1903935	57
-1903936	57
-1903937	57
-1903938	57
-1903939	57
-1903940	57
-1903946	57
-1903894	38
-1903895	38
-1903896	38
-1903897	38
-1903887	57
-1903888	57
-1903889	57
-1903890	38
-1903891	38
-1903898	38
-1903892	38
-1903893	38
-1907686	3 weeks-15 years
-1907693	3 weeks-15 years
-1907694	3 weeks-15 years
-1907687	3 weeks-15 years
-1907688	3 weeks-15 years
-1907689	3 weeks-15 years
-1907690	3 weeks-15 years
-1907691	3 weeks-15 years
-1907692	3 weeks-15 years
-1907695	3 weeks-15 years
-1930717	Young adult
-1930720	Young adult
-1930721	Young adult
-1930722	Young adult
-1930723	Young adult
-1930724	Young adult
-1930725	Young adult
-1930727	Young adult
-1930726	Young adult
-1930735	Young adult
-1930739	Young adult
-1930752	Young adult
-1930753	Young adult
-1930756	Young adult
-1907331	35
-1907330	35
-1907663	3 weeks-15 years
-1907664	3 weeks-15 years
-1907675	3 weeks-15 years
-1907682	3 weeks-15 years
-1907684	3 weeks-15 years
-1907683	3 weeks-15 years
-1907685	3 weeks-15 years
-1930719	Young adult
-1931125	Adult (6 weeks)
-1931126	Adult (6 weeks)
-1931128	Adult (6 weeks)
-1960261	6 months to 3 years
-1960262	6 months to 3 years
-1960263	6 months to 3 years
-1960264	6 months to 3 years
-1960265	6 months to 3 years
-1960266	6 months to 3 years
-1960267	6 months to 3 years
-1960274	6 months to 3 years
-1960275	6 months to 3 years
-1960276	6 months to 3 years
-1960283	6 months to 3 years
-1960284	6 months to 3 years
-1960268	6 months to 3 years
-1960269	6 months to 3 years
-1960270	6 months to 3 years
-1960271	6 months to 3 years
-1960272	6 months to 3 years
-1960273	6 months to 3 years
-1960277	6 months to 3 years
-1960278	6 months to 3 years
-1960279	6 months to 3 years
-1960280	6 months to 3 years
-1960281	6 months to 3 years
-1960282	6 months to 3 years
-1960285	6 months to 3 years
-1960286	6 months to 3 years
-1960287	6 months to 3 years
-1960288	6 months to 3 years
-1960289	6 months to 3 years
-1960290	6 months to 3 years
 1966474	31.7+/-4.5
 1966475	31.7+/-4.5
 1966454	31.6+/-5.4
@@ -2675,8 +1405,6 @@ bcell_id	h_age
 6513276	6 Weeks
 1972971	38+/- 11 years
 1972974	38+/- 11 years
-1981813	1 year 8 months to 68 years
-1981815	1 year 8 months to 68 years
 1977810	Foals
 1976255	Foals
 1980110	children
@@ -2740,9 +1468,6 @@ bcell_id	h_age
 1972441	38+/- 11 years
 1972442	38+/- 11 years
 1977212	Foals
-2117076	8 mo to 35 years
-2117074	8 mo to 35 years
-2117073	8 mo to 35 years
 1976413	Foals
 1976414	Foals
 1973671	38+/- 11 years
@@ -2750,7 +1475,6 @@ bcell_id	h_age
 1972416	38+/- 11 years
 1972421	38+/- 11 years
 1972424	38+/- 11 years
-1981300	0.7 to 20.9 years (median = 11.0)
 1972389	38+/- 11 years
 1972445	38+/- 11 years
 1972446	38+/- 11 years
@@ -2762,33 +1486,8 @@ bcell_id	h_age
 1972410	38+/- 11 years
 1972449	38+/- 11 years
 1972413	38+/- 11 years
-1983951	6 months to 53 years
 1972427	38+/- 11 years
 2071737	<42-79 years
-2024079	1 month - 13 years
-2024081	1 month - 13 years
-2024083	1 month - 13 years
-2024022	1 month - 13 years
-2024076	1 month - 13 years
-2024027	1 month - 13 years
-1988933	young adult
-2024085	1 month - 13 years
-2024087	1 month - 13 years
-2024093	1 month - 13 years
-2024095	1 month - 13 years
-2024101	1 month - 13 years
-2024103	1 month - 13 years
-2024089	1 month - 13 years
-2024091	1 month - 13 years
-2024097	1 month - 13 years
-2024099	1 month - 13 years
-2024105	1 month - 13 years
-2024107	1 month - 13 years
-1988961	young adult
-1988937	young adult
-1988946	young adult
-1988947	young adult
-1988957	young adult
 2475597	42.18+/-13.23
 2475598	44.94+/-15.65
 2475599	42.18+/-13.23
@@ -2796,10 +1495,6 @@ bcell_id	h_age
 2475601	42.18+/-13.23
 2475596	44.94+/-15.65
 2475602	44.94+/-15.65
-2103688	2 years 8 months to 3 years 9 months
-2103824	2 years 8 months to 3 years 9 months
-2117077	8 mo to 35 years
-2117083	8 mo to 35 years
 1795111	Infant
 1795117	Infant
 1795125	Infant
@@ -2815,10 +1510,7 @@ bcell_id	h_age
 1795203	Infant
 1795065	Infant
 1795211	Infant
-1796049	28-82
 1795223	Infant
-1796615	2.8 to 4.2
-1796620	2.8 to 4.2
 1795079	Infant
 1795217	Infant
 1795085	Infant
@@ -2831,222 +1523,15 @@ bcell_id	h_age
 1795249	Infant
 22703862	45-60 years
 1795105	Infant
-2683500	1 day to 103 years
-2683501	1 day to 103 years
-2683502	1 day to 103 years
-2683503	1 day to 103 years
-2683493	1 day to 103 years
-2683494	1 day to 103 years
-2683495	1 day to 103 years
-2683496	1 day to 103 years
-2683492	1 day to 103 years
-2487670	12-30
-2830625	1 to 5 years or > 15 years
-2830626	1 to 5 years or > 15 years
-2830627	1 to 5 years or > 15 years
-2830628	1 to 5 years or > 15 years
-2660045	mean age 3-4 years
-2660118	mean age 3-4 years
-2660119	mean age 3-4 years
-2660121	mean age 3-4 years
-2660122	mean age 3-4 years
-2660124	mean age 3-4 years
-2660125	mean age 3-4 years
-2660096	mean age 3-4 years
-2683497	1 day to 103 years
-2683498	1 day to 103 years
-2683499	1 day to 103 years
 2423448	subadult
 2423449	subadult
-2451389	50.3 years median age
-2451390	50.3 years median age
-2451391	50.3 years median age
-2451394	50.3 years median age
-2451395	50.3 years median age
 2377421	>15 years
-2451387	50.3 years median age
-2451392	50.3 years median age
-2451393	50.3 years median age
-2451396	50.3 years median age
-2451397	56.5 years median age
-2451399	56.5 years median age
-2451400	56.5 years median age
-2451401	56.5 years median age
-2451402	56.5 years median age
-2451403	56.5 years median age
-2451404	56.5 years median age
-2451405	56.5 years median age
-2451406	56.5 years median age
 2377419	>15 years
 2372091	piglet
 2366591	piglet
 2366593	piglet
-2373861	6 months to 14 years
-2373862	6 months to 14 years
-2373863	6 months to 14 years
-2373864	6 months to 14 years
-2373865	6 months to 14 years
-2373867	6 months to 14 years
-2373868	6 months to 14 years
-2373869	6 months to 14 years
-2373870	6 months to 14 years
-2373871	6 months to 14 years
-2373894	6 months to 14 years
-2373895	6 months to 14 years
-2373896	6 months to 14 years
-2373897	6 months to 14 years
-2373866	6 months to 14 years
-2373892	6 months to 14 years
-2373893	6 months to 14 years
-2373898	6 months to 14 years
-2373899	6 months to 14 years
-2373900	6 months to 14 years
-2373901	6 months to 14 years
-2373902	6 months to 14 years
-2373903	6 months to 14 years
-2373904	6 months to 14 years
-2373905	6 months to 14 years
-2373906	6 months to 14 years
-2373907	6 months to 14 years
-2373908	6 months to 14 years
-2373909	6 months to 14 years
-2373910	6 months to 14 years
-2373911	6 months to 14 years
-2373912	6 months to 14 years
-2373913	6 months to 14 years
-2373914	6 months to 14 years
 2368064	piglet
 2372087	piglet
-2373915	6 months to 14 years
-2373916	6 months to 14 years
-2373917	6 months to 14 years
-2373918	6 months to 14 years
-2373919	6 months to 14 years
-2373920	6 months to 14 years
-2373922	6 months to 14 years
-2373923	6 months to 14 years
-2373925	6 months to 14 years
-2373926	6 months to 14 years
-2373927	6 months to 14 years
-2373928	6 months to 14 years
-2373930	6 months to 14 years
-2373934	6 months to 14 years
-2373941	6 months to 14 years
-2373942	6 months to 14 years
-2373943	6 months to 14 years
-2373944	6 months to 14 years
-2373946	6 months to 14 years
-2373921	6 months to 14 years
-2373929	6 months to 14 years
-2373931	6 months to 14 years
-2373932	6 months to 14 years
-2373933	6 months to 14 years
-2373935	6 months to 14 years
-2373937	6 months to 14 years
-2373938	6 months to 14 years
-2373939	6 months to 14 years
-2373940	6 months to 14 years
-2373947	6 months to 14 years
-2373948	6 months to 14 years
-2373949	6 months to 14 years
-2373950	6 months to 14 years
-2373951	6 months to 14 years
-2373952	6 months to 14 years
-2373953	6 months to 14 years
-2373954	6 months to 14 years
-2373955	6 months to 14 years
-2373956	6 months to 14 years
-2373957	6 months to 14 years
-2373958	6 months to 14 years
-2373813	6 months to 14 years
-2373959	6 months to 14 years
-2373960	6 months to 14 years
-2373961	6 months to 14 years
-2373962	6 months to 14 years
-2373815	6 months to 14 years
-2373816	6 months to 14 years
-2373817	6 months to 14 years
-2373963	6 months to 14 years
-2373964	6 months to 14 years
-2373965	6 months to 14 years
-2373818	6 months to 14 years
-2373819	6 months to 14 years
-2373820	6 months to 14 years
-2373821	6 months to 14 years
-2373822	6 months to 14 years
-2373824	6 months to 14 years
-2373825	6 months to 14 years
-2373826	6 months to 14 years
-2373827	6 months to 14 years
-2373828	6 months to 14 years
-2373854	6 months to 14 years
-2373966	6 months to 14 years
-2373967	6 months to 14 years
-2373968	6 months to 14 years
-2373969	6 months to 14 years
-2373823	6 months to 14 years
-2373970	6 months to 14 years
-2373971	6 months to 14 years
-2373972	6 months to 14 years
-2373973	6 months to 14 years
-2373974	6 months to 14 years
-2373975	6 months to 14 years
-2373977	6 months to 14 years
-2373978	6 months to 14 years
-2373979	6 months to 14 years
-2373980	6 months to 14 years
-2373981	6 months to 14 years
-2373982	6 months to 14 years
-2373983	6 months to 14 years
-2373976	6 months to 14 years
-2373855	6 months to 14 years
-2373856	6 months to 14 years
-2373857	6 months to 14 years
-2373858	6 months to 14 years
-2373859	6 months to 14 years
-2373860	6 months to 14 years
-2373984	6 months to 14 years
-2422958	20-85
-2855372	6 weeks and 18 months
-2855373	6 weeks and 18 months
-2855374	6 weeks and 18 months
-2469089	53.7 +/- 11.2
-2469090	58.8 +/- 8.7
-2469091	53.7 +/- 11.2
-2469092	58.8 +/- 8.7
-2469093	53.7 +/- 11.2
-2469094	58.8 +/- 8.7
-2469095	53.7 +/- 11.2
-2469096	58.8 +/- 8.7
-2469097	53.7 +/- 11.2
-2469098	58.8 +/- 8.7
-2469099	53.7 +/- 11.2
-2469100	58.8 +/- 8.7
-2469101	53.7 +/- 11.2
-2469102	58.8 +/- 8.7
-2469103	53.7 +/- 11.2
-2469104	58.8 +/- 8.7
-2469111	53.7 +/- 11.2
-2469112	58.8 +/- 8.7
-2469113	53.7 +/- 11.2
-2469114	58.8 +/- 8.7
-2469115	53.7 +/- 11.2
-2469116	58.8 +/- 8.7
-2469117	53.7 +/- 11.2
-2469105	53.7 +/- 11.2
-2384443	49
-2384444	49
-2384445	49
-2456231	50.3 years median age
-2456232	56.5 years median age
-2469106	58.8 +/- 8.7
-2469107	53.7 +/- 11.2
-2469108	58.8 +/- 8.7
-2469109	53.7 +/- 11.2
-2469110	58.8 +/- 8.7
-2469118	55.7 +/- 5.7
-2469119	49.5 +/- 7.5
-2384439	49
 2423453	subadult
 2423454	subadult
 2423452	subadult
@@ -3054,638 +1539,16 @@ bcell_id	h_age
 22790745	36-40 years
 6480462	6 Weeks
 6480463	6 Weeks
-2882960	6 months to 3 years
-2882961	6 months to 3 years
-2882962	6 months to 3 years
-2882963	6 months to 3 years
-2882964	6 months to 3 years
-2882965	6 months to 3 years
-2882966	6 months to 3 years
-2882967	6 months to 3 years
-2882968	6 months to 3 years
-2882969	6 months to 3 years
-2882970	6 months to 3 years
-2882971	6 months to 3 years
-2882972	6 months to 3 years
-2882973	6 months to 3 years
-2882974	6 months to 3 years
-2882975	6 months to 3 years
-2882976	6 months to 3 years
-2882977	6 months to 3 years
-2882978	6 months to 3 years
-2882979	6 months to 3 years
-2882789	6 months to 3 years
-2882790	6 months to 3 years
-2882791	6 months to 3 years
-2882792	6 months to 3 years
-2882998	6 months to 3 years
-2882999	6 months to 3 years
-2883000	6 months to 3 years
-2883001	6 months to 3 years
-2883002	6 months to 3 years
-2883003	6 months to 3 years
-2883004	6 months to 3 years
-2883005	6 months to 3 years
-2883006	6 months to 3 years
-2882793	6 months to 3 years
-2882794	6 months to 3 years
-2882795	6 months to 3 years
-2882796	6 months to 3 years
-2882797	6 months to 3 years
-2882798	6 months to 3 years
-2882799	6 months to 3 years
-2882800	6 months to 3 years
-2883007	6 months to 3 years
-2883008	6 months to 3 years
-2883009	6 months to 3 years
-2883010	6 months to 3 years
-2883011	6 months to 3 years
 2857869	children
 2857870	children
-3806767	46.7 yeas (mean)
-3806768	46.7 yeas (mean)
-3806769	46.7 yeas (mean)
-3806770	46.7 yeas (mean)
-3806771	46.7 yeas (mean)
-3806772	46.7 yeas (mean)
-3806773	46.7 yeas (mean)
-3806757	46.7 yeas (mean)
-3806759	46.7 yeas (mean)
-3806760	46.7 yeas (mean)
-3806761	46.7 yeas (mean)
-3806762	46.7 yeas (mean)
-3806763	46.7 yeas (mean)
-3806764	46.7 yeas (mean)
-3806765	46.7 yeas (mean)
-3806766	46.7 yeas (mean)
-3817636	46.7 yeas (mean)
-3817637	46.7 yeas (mean)
 5044920	Infant
 5044922	Infant
 5044924	Infant
 5044926	Infant
 5044928	Infant
 5044930	Infant
-3838411	1 day to 6 months
-3830326	1 day to 6 months
-3830327	1 day to 6 months
-3830328	1 day to 6 months
-3830329	1 day to 6 months
-3830330	1 day to 6 months
-4140198	2 months - 12 years
-4140202	2 months - 12 years
-3830331	1 day to 6 months
 4828473	52 years old on average
-3313572	6 months to 14 years
-3313573	6 months to 14 years
-3313576	6 months to 14 years
-3313577	6 months to 14 years
-3313578	6 months to 14 years
-3313579	6 months to 14 years
-3313580	6 months to 14 years
-3313581	6 months to 14 years
-3313584	6 months to 14 years
-3313590	6 months to 14 years
-3313591	6 months to 14 years
-3313596	6 months to 14 years
-3313597	6 months to 14 years
-3338819	6 months to 14 years
-3338822	6 months to 14 years
-3338824	6 months to 14 years
-3338823	6 months to 14 years
-3338825	6 months to 14 years
-3338826	6 months to 14 years
-3338827	6 months to 14 years
-3338828	6 months to 14 years
-3338829	6 months to 14 years
-3338830	6 months to 14 years
-3806826	36.8 years (mean)
-3806834	36.8 years (mean)
-3806831	36.8 years (mean)
-3806832	36.8 years (mean)
-3806833	36.8 years (mean)
-3806835	36.8 years (mean)
-3806836	36.8 years (mean)
-3806837	36.8 years (mean)
-3806838	36.8 years (mean)
-3806839	36.8 years (mean)
-4140221	2 months - 12 years
-4140222	2 months - 12 years
-4140223	2 months - 12 years
-4140224	2 months - 12 years
-4140225	2 months - 12 years
-4140226	2 months - 12 years
-4140227	2 months - 12 years
-4140333	2 months - 12 years
-4140334	2 months - 12 years
-4140335	2 months - 12 years
-4140336	2 months - 12 years
-4140337	2 months - 12 years
-4140338	2 months - 12 years
-4140339	2 months - 12 years
-4140445	2 months - 12 years
-4140446	2 months - 12 years
-4140447	2 months - 12 years
-4140448	2 months - 12 years
-4140449	2 months - 12 years
-4140450	2 months - 12 years
-4140451	2 months - 12 years
-4140557	2 months - 12 years
-4140558	2 months - 12 years
-4140559	2 months - 12 years
-4140560	2 months - 12 years
-4140561	2 months - 12 years
-4140562	2 months - 12 years
-4140563	2 months - 12 years
-4140678	2 months - 12 years
-4140679	2 months - 12 years
-4140680	2 months - 12 years
-4140681	2 months - 12 years
-4140682	2 months - 12 years
-4140683	2 months - 12 years
-4140684	2 months - 12 years
-4140685	2 months - 12 years
-4140686	2 months - 12 years
-4140228	2 months - 12 years
-4140229	2 months - 12 years
-4140230	2 months - 12 years
-4140231	2 months - 12 years
-4140232	2 months - 12 years
-4140233	2 months - 12 years
-4140234	2 months - 12 years
-4140340	2 months - 12 years
-4140341	2 months - 12 years
-4140342	2 months - 12 years
-4140343	2 months - 12 years
-4140344	2 months - 12 years
-4140345	2 months - 12 years
-4140346	2 months - 12 years
-4140452	2 months - 12 years
-4140453	2 months - 12 years
-4140454	2 months - 12 years
-4140455	2 months - 12 years
-4140456	2 months - 12 years
-4140457	2 months - 12 years
-4140458	2 months - 12 years
-4140564	2 months - 12 years
-4140565	2 months - 12 years
-4140566	2 months - 12 years
-4140567	2 months - 12 years
-4140568	2 months - 12 years
-4140569	2 months - 12 years
-4140570	2 months - 12 years
-4140687	2 months - 12 years
-4140688	2 months - 12 years
-4140689	2 months - 12 years
-4140690	2 months - 12 years
-4140691	2 months - 12 years
-4140235	2 months - 12 years
-4140236	2 months - 12 years
-4140237	2 months - 12 years
-4140238	2 months - 12 years
-4140239	2 months - 12 years
-4140240	2 months - 12 years
-4140241	2 months - 12 years
-4140347	2 months - 12 years
-4140348	2 months - 12 years
-4140349	2 months - 12 years
-4140350	2 months - 12 years
-4140351	2 months - 12 years
-4140352	2 months - 12 years
-4140353	2 months - 12 years
-4140459	2 months - 12 years
-4140460	2 months - 12 years
-4140461	2 months - 12 years
-4140462	2 months - 12 years
-4140463	2 months - 12 years
-4140464	2 months - 12 years
-4140465	2 months - 12 years
-4140571	2 months - 12 years
-4140572	2 months - 12 years
-4140573	2 months - 12 years
-4140574	2 months - 12 years
-4140575	2 months - 12 years
-4140576	2 months - 12 years
-4140577	2 months - 12 years
-4140242	2 months - 12 years
-4140243	2 months - 12 years
-4140244	2 months - 12 years
-4140245	2 months - 12 years
-4140246	2 months - 12 years
-4140247	2 months - 12 years
-4140248	2 months - 12 years
-4140354	2 months - 12 years
-4140355	2 months - 12 years
-4140356	2 months - 12 years
-4140357	2 months - 12 years
-4140358	2 months - 12 years
-4140359	2 months - 12 years
-4140360	2 months - 12 years
-4140466	2 months - 12 years
-4140467	2 months - 12 years
-4140468	2 months - 12 years
-4140469	2 months - 12 years
-4140470	2 months - 12 years
-4140471	2 months - 12 years
-4140472	2 months - 12 years
-4140578	2 months - 12 years
-4140579	2 months - 12 years
-4140580	2 months - 12 years
-4140581	2 months - 12 years
-4140582	2 months - 12 years
-4140583	2 months - 12 years
-4140584	2 months - 12 years
-4140249	2 months - 12 years
-4140250	2 months - 12 years
-4140251	2 months - 12 years
-4140252	2 months - 12 years
-4140253	2 months - 12 years
-4140254	2 months - 12 years
-4140255	2 months - 12 years
-4140361	2 months - 12 years
-4140362	2 months - 12 years
-4140363	2 months - 12 years
-4140364	2 months - 12 years
-4140365	2 months - 12 years
-4140366	2 months - 12 years
-4140367	2 months - 12 years
-4140473	2 months - 12 years
-4140474	2 months - 12 years
-4140475	2 months - 12 years
-4140476	2 months - 12 years
-4140477	2 months - 12 years
-4140478	2 months - 12 years
-4140479	2 months - 12 years
-4140585	2 months - 12 years
-4140586	2 months - 12 years
-4140587	2 months - 12 years
-4140588	2 months - 12 years
-4140589	2 months - 12 years
-4140590	2 months - 12 years
-4140591	2 months - 12 years
-4140256	2 months - 12 years
-4140257	2 months - 12 years
-4140258	2 months - 12 years
-4140259	2 months - 12 years
-4140260	2 months - 12 years
-4140261	2 months - 12 years
-4140262	2 months - 12 years
-4140368	2 months - 12 years
-4140369	2 months - 12 years
-4140370	2 months - 12 years
-4140371	2 months - 12 years
-4140372	2 months - 12 years
-4140373	2 months - 12 years
-4140374	2 months - 12 years
-4140480	2 months - 12 years
-4140481	2 months - 12 years
-4140482	2 months - 12 years
-4140483	2 months - 12 years
-4140484	2 months - 12 years
-4140485	2 months - 12 years
-4140486	2 months - 12 years
-4140592	2 months - 12 years
-4140593	2 months - 12 years
-4140594	2 months - 12 years
-4140595	2 months - 12 years
-4140596	2 months - 12 years
-4140597	2 months - 12 years
-4140598	2 months - 12 years
-4140263	2 months - 12 years
-4140264	2 months - 12 years
-4140265	2 months - 12 years
-4140266	2 months - 12 years
-4140267	2 months - 12 years
-4140268	2 months - 12 years
-4140269	2 months - 12 years
-4140375	2 months - 12 years
-4140376	2 months - 12 years
-4140377	2 months - 12 years
-4140378	2 months - 12 years
-4140379	2 months - 12 years
-4140380	2 months - 12 years
-4140381	2 months - 12 years
-4140487	2 months - 12 years
-4140488	2 months - 12 years
-4140489	2 months - 12 years
-4140490	2 months - 12 years
-4140491	2 months - 12 years
-4140492	2 months - 12 years
-4140493	2 months - 12 years
-4140599	2 months - 12 years
-4140600	2 months - 12 years
-4140601	2 months - 12 years
-4140602	2 months - 12 years
-4140603	2 months - 12 years
-4140604	2 months - 12 years
-4140605	2 months - 12 years
-4140270	2 months - 12 years
-4140271	2 months - 12 years
-4140272	2 months - 12 years
-4140273	2 months - 12 years
-4140274	2 months - 12 years
-4140275	2 months - 12 years
-4140276	2 months - 12 years
-4140382	2 months - 12 years
-4140383	2 months - 12 years
-4140384	2 months - 12 years
-4140385	2 months - 12 years
-4140386	2 months - 12 years
-4140387	2 months - 12 years
-4140388	2 months - 12 years
-4140494	2 months - 12 years
-4140495	2 months - 12 years
-4140496	2 months - 12 years
-4140497	2 months - 12 years
-4140498	2 months - 12 years
-4140499	2 months - 12 years
-4140500	2 months - 12 years
-4140606	2 months - 12 years
-4140607	2 months - 12 years
-4140608	2 months - 12 years
-4140609	2 months - 12 years
-4140610	2 months - 12 years
-4140611	2 months - 12 years
-4140612	2 months - 12 years
-4140277	2 months - 12 years
-4140278	2 months - 12 years
-4140279	2 months - 12 years
-4140280	2 months - 12 years
-4140281	2 months - 12 years
-4140282	2 months - 12 years
-4140283	2 months - 12 years
-4140389	2 months - 12 years
-4140390	2 months - 12 years
-4140391	2 months - 12 years
-4140392	2 months - 12 years
-4140393	2 months - 12 years
-4140394	2 months - 12 years
-4140395	2 months - 12 years
-4140501	2 months - 12 years
-4140502	2 months - 12 years
-4140503	2 months - 12 years
-4140504	2 months - 12 years
-4140505	2 months - 12 years
-4140506	2 months - 12 years
-4140507	2 months - 12 years
-4140613	2 months - 12 years
-4140614	2 months - 12 years
-4140615	2 months - 12 years
-4140616	2 months - 12 years
-4140617	2 months - 12 years
-4140618	2 months - 12 years
-4140619	2 months - 12 years
-4140284	2 months - 12 years
-4140285	2 months - 12 years
-4140286	2 months - 12 years
-4140287	2 months - 12 years
-4140288	2 months - 12 years
-4140289	2 months - 12 years
-4140290	2 months - 12 years
-4140396	2 months - 12 years
-4140397	2 months - 12 years
-4140398	2 months - 12 years
-4140399	2 months - 12 years
-4140400	2 months - 12 years
-4140401	2 months - 12 years
-4140402	2 months - 12 years
-4140508	2 months - 12 years
-4140509	2 months - 12 years
-4140510	2 months - 12 years
-4140511	2 months - 12 years
-4140512	2 months - 12 years
-4140513	2 months - 12 years
-4140514	2 months - 12 years
-4140620	2 months - 12 years
-4140621	2 months - 12 years
-4140622	2 months - 12 years
-4140623	2 months - 12 years
-4140624	2 months - 12 years
-4140625	2 months - 12 years
-4140626	2 months - 12 years
-4140291	2 months - 12 years
-4140292	2 months - 12 years
-4140293	2 months - 12 years
-4140294	2 months - 12 years
-4140295	2 months - 12 years
-4140296	2 months - 12 years
-4140297	2 months - 12 years
-4140403	2 months - 12 years
-4140404	2 months - 12 years
-4140405	2 months - 12 years
-4140406	2 months - 12 years
-4140407	2 months - 12 years
-4140408	2 months - 12 years
-4140409	2 months - 12 years
-4140515	2 months - 12 years
-4140516	2 months - 12 years
-4140517	2 months - 12 years
-4140518	2 months - 12 years
-4140519	2 months - 12 years
-4140520	2 months - 12 years
-4140521	2 months - 12 years
-4140627	2 months - 12 years
-4140628	2 months - 12 years
-4140629	2 months - 12 years
-4140630	2 months - 12 years
-4140631	2 months - 12 years
-4140632	2 months - 12 years
-4140633	2 months - 12 years
-4140298	2 months - 12 years
-4140299	2 months - 12 years
-4140300	2 months - 12 years
-4140301	2 months - 12 years
-4140302	2 months - 12 years
-4140303	2 months - 12 years
-4140304	2 months - 12 years
-4140410	2 months - 12 years
-4140411	2 months - 12 years
-4140412	2 months - 12 years
-4140413	2 months - 12 years
-4140414	2 months - 12 years
-4140415	2 months - 12 years
-4140416	2 months - 12 years
-4140522	2 months - 12 years
-4140523	2 months - 12 years
-4140524	2 months - 12 years
-4140525	2 months - 12 years
-4140526	2 months - 12 years
-4140527	2 months - 12 years
-4140528	2 months - 12 years
-4140634	2 months - 12 years
-4140635	2 months - 12 years
-4140636	2 months - 12 years
-4140637	2 months - 12 years
-4140638	2 months - 12 years
-4140639	2 months - 12 years
-4140640	2 months - 12 years
-4140305	2 months - 12 years
-4140306	2 months - 12 years
-4140307	2 months - 12 years
-4140308	2 months - 12 years
-4140309	2 months - 12 years
-4140310	2 months - 12 years
-4140311	2 months - 12 years
-4140417	2 months - 12 years
-4140418	2 months - 12 years
-4140419	2 months - 12 years
-4140420	2 months - 12 years
-4140421	2 months - 12 years
-4140422	2 months - 12 years
-4140423	2 months - 12 years
-4140529	2 months - 12 years
-4140530	2 months - 12 years
-4140531	2 months - 12 years
-4140532	2 months - 12 years
-4140533	2 months - 12 years
-4140534	2 months - 12 years
-4140535	2 months - 12 years
-4140641	2 months - 12 years
-4140642	2 months - 12 years
-4140643	2 months - 12 years
-4140645	2 months - 12 years
-4140646	2 months - 12 years
-4140648	2 months - 12 years
-4140649	2 months - 12 years
-4140650	2 months - 12 years
-4140312	2 months - 12 years
-4140313	2 months - 12 years
-4140314	2 months - 12 years
-4140315	2 months - 12 years
-4140316	2 months - 12 years
-4140317	2 months - 12 years
-4140318	2 months - 12 years
-4140424	2 months - 12 years
-4140425	2 months - 12 years
-4140426	2 months - 12 years
-4140427	2 months - 12 years
-4140428	2 months - 12 years
-4140429	2 months - 12 years
-4140430	2 months - 12 years
-4140536	2 months - 12 years
-4140537	2 months - 12 years
-4140538	2 months - 12 years
-4140539	2 months - 12 years
-4140540	2 months - 12 years
-4140541	2 months - 12 years
-4140542	2 months - 12 years
-4140651	2 months - 12 years
-4140652	2 months - 12 years
-4140653	2 months - 12 years
-4140654	2 months - 12 years
-4140655	2 months - 12 years
-4140656	2 months - 12 years
-4140657	2 months - 12 years
-4140658	2 months - 12 years
-4140659	2 months - 12 years
-4140211	2 months - 12 years
-4140212	2 months - 12 years
-4140213	2 months - 12 years
-4140319	2 months - 12 years
-4140320	2 months - 12 years
-4140321	2 months - 12 years
-4140322	2 months - 12 years
-4140323	2 months - 12 years
-4140324	2 months - 12 years
-4140325	2 months - 12 years
-4140431	2 months - 12 years
-4140432	2 months - 12 years
-4140433	2 months - 12 years
-4140434	2 months - 12 years
-4140435	2 months - 12 years
-4140436	2 months - 12 years
-4140437	2 months - 12 years
-4140543	2 months - 12 years
-4140544	2 months - 12 years
-4140545	2 months - 12 years
-4140546	2 months - 12 years
-4140547	2 months - 12 years
-4140548	2 months - 12 years
-4140549	2 months - 12 years
-4140660	2 months - 12 years
-4140661	2 months - 12 years
-4140662	2 months - 12 years
-4140663	2 months - 12 years
-4140664	2 months - 12 years
-4140665	2 months - 12 years
-4140666	2 months - 12 years
-4140667	2 months - 12 years
-4140668	2 months - 12 years
-4140214	2 months - 12 years
-4140215	2 months - 12 years
-4140216	2 months - 12 years
-4140217	2 months - 12 years
-4140218	2 months - 12 years
-4140219	2 months - 12 years
-4140220	2 months - 12 years
-4140326	2 months - 12 years
-4140327	2 months - 12 years
-4140328	2 months - 12 years
-4140329	2 months - 12 years
-4140330	2 months - 12 years
-4140331	2 months - 12 years
-4140332	2 months - 12 years
-4140438	2 months - 12 years
-4140439	2 months - 12 years
-4140440	2 months - 12 years
-4140441	2 months - 12 years
-4140442	2 months - 12 years
-4140443	2 months - 12 years
-4140444	2 months - 12 years
-4140550	2 months - 12 years
-4140551	2 months - 12 years
-4140552	2 months - 12 years
-4140553	2 months - 12 years
-4140554	2 months - 12 years
-4140555	2 months - 12 years
-4140556	2 months - 12 years
-4140669	2 months - 12 years
-4140670	2 months - 12 years
-4140671	2 months - 12 years
-4140672	2 months - 12 years
-4140673	2 months - 12 years
-4140674	2 months - 12 years
-4140675	2 months - 12 years
-4140676	2 months - 12 years
-4140677	2 months - 12 years
 4563297	children
-5571335	8 months to 54 years
-6354359	11 months - 55 years
-6354361	11 months - 55 years
-6354363	11 months - 55 years
-6354367	11 months - 55 years
-6354369	11 months - 55 years
-6354371	11 months - 55 years
-6354373	11 months - 55 years
-6354375	11 months - 55 years
-6354365	11 months - 55 years
-6354377	11 months - 55 years
-6354379	11 months - 55 years
-6354381	11 months - 55 years
-6354383	11 months - 55 years
-6354387	11 months - 55 years
-6354389	11 months - 55 years
-6354391	11 months - 55 years
-6354393	11 months - 55 years
-6354395	11 months - 55 years
-6354385	11 months - 55 years
-6354397	11 months - 55 years
-6354301	11 months - 55 years
-6354303	11 months - 55 years
-6354305	11 months - 55 years
-6354307	11 months - 55 years
-6354309	11 months - 55 years
-6354299	11 months - 55 years
-6354311	11 months - 55 years
-6354313	11 months - 55 years
-6354315	11 months - 55 years
-6354317	11 months - 55 years
-6354321	11 months - 55 years
-6354325	11 months - 55 years
-6354327	11 months - 55 years
-6354329	11 months - 55 years
-6354331	11 months - 55 years
-6354323	11 months - 55 years
 6250857	6 Weeks
 6250859	6 Weeks
 6250860	6 Weeks
@@ -3696,27 +1559,7 @@ bcell_id	h_age
 6250976	6 Weeks
 6011510	6 Weeks
 6011767	4 Weeks
-6354267	11 months - 55 years
-6354269	11 months - 55 years
-6354271	11 months - 55 years
-6354274	11 months - 55 years
-6354276	11 months - 55 years
-6354278	11 months - 55 years
-6354280	11 months - 55 years
-6354282	11 months - 55 years
-6354284	11 months - 55 years
-6354286	11 months - 55 years
-6354288	11 months - 55 years
-6354290	11 months - 55 years
-6354292	11 months - 55 years
-6354253	11 months - 55 years
-6354255	11 months - 55 years
-6354257	11 months - 55 years
-6354259	11 months - 55 years
-6354261	11 months - 55 years
-6354263	11 months - 55 years
 6124940	6 Weeks
-6354265	11 months - 55 years
 6353869	at least 2 months
 6353870	at least 2 months
 6353871	at least 2 months
@@ -3735,60 +1578,6 @@ bcell_id	h_age
 6353844	at least 2 months
 6353845	at least 2 months
 6353846	at least 2 months
-5570632	8 months to 54 years
-5570633	8 months to 54 years
-5570634	8 months to 54 years
-5570635	8 months to 54 years
-5570636	8 months to 54 years
-5570637	8 months to 54 years
-5570638	8 months to 54 years
-5570640	8 months to 54 years
-5570641	8 months to 54 years
-5570788	8 months to 54 years
-5570790	8 months to 54 years
-5570791	8 months to 54 years
-5570792	8 months to 54 years
-5570793	8 months to 54 years
-5570794	8 months to 54 years
-5570795	8 months to 54 years
-5570796	8 months to 54 years
-5570797	8 months to 54 years
-5570948	8 months to 54 years
-5570949	8 months to 54 years
-5570950	8 months to 54 years
-5570951	8 months to 54 years
-5570952	8 months to 54 years
-5570953	8 months to 54 years
-5570954	8 months to 54 years
-5570956	8 months to 54 years
-5570957	8 months to 54 years
-5571108	8 months to 54 years
-5571109	8 months to 54 years
-5571110	8 months to 54 years
-5571111	8 months to 54 years
-5571113	8 months to 54 years
-5571114	8 months to 54 years
-5571115	8 months to 54 years
-5571116	8 months to 54 years
-5571117	8 months to 54 years
-5571268	8 months to 54 years
-5571269	8 months to 54 years
-5571270	8 months to 54 years
-5571271	8 months to 54 years
-5571272	8 months to 54 years
-5571273	8 months to 54 years
-5571274	8 months to 54 years
-5571275	8 months to 54 years
-5571276	8 months to 54 years
-5571428	8 months to 54 years
-5571429	8 months to 54 years
-5571430	8 months to 54 years
-5571431	8 months to 54 years
-5571432	8 months to 54 years
-5571433	8 months to 54 years
-5571434	8 months to 54 years
-5571435	8 months to 54 years
-5571436	8 months to 54 years
 6353192	18-38 years, with an average of 22 years
 6353194	18-38 years, with an average of 22 years
 6353197	18-38 years, with an average of 22 years
@@ -3799,52 +1588,6 @@ bcell_id	h_age
 6353851	at least 2 months
 6353852	at least 2 months
 6126310	6 Weeks
-5570642	8 months to 54 years
-5570643	8 months to 54 years
-5570644	8 months to 54 years
-5570645	8 months to 54 years
-5570646	8 months to 54 years
-5570647	8 months to 54 years
-5570648	8 months to 54 years
-5570649	8 months to 54 years
-5570650	8 months to 54 years
-5570651	8 months to 54 years
-5570798	8 months to 54 years
-5570799	8 months to 54 years
-5570800	8 months to 54 years
-5570801	8 months to 54 years
-5570803	8 months to 54 years
-5570804	8 months to 54 years
-5570805	8 months to 54 years
-5570806	8 months to 54 years
-5570807	8 months to 54 years
-5570958	8 months to 54 years
-5570960	8 months to 54 years
-5570961	8 months to 54 years
-5570962	8 months to 54 years
-5570963	8 months to 54 years
-5570964	8 months to 54 years
-5570965	8 months to 54 years
-5570966	8 months to 54 years
-5570967	8 months to 54 years
-5571118	8 months to 54 years
-5571119	8 months to 54 years
-5571120	8 months to 54 years
-5571121	8 months to 54 years
-5571122	8 months to 54 years
-5571123	8 months to 54 years
-5571125	8 months to 54 years
-5571126	8 months to 54 years
-5571127	8 months to 54 years
-5571278	8 months to 54 years
-5571279	8 months to 54 years
-5571280	8 months to 54 years
-5571281	8 months to 54 years
-5571282	8 months to 54 years
-5571283	8 months to 54 years
-5571285	8 months to 54 years
-5571286	8 months to 54 years
-5571287	8 months to 54 years
 6353201	18-38 years, with an average of 22 years
 6353203	18-38 years, with an average of 22 years
 6353205	18-38 years, with an average of 22 years
@@ -3856,51 +1599,6 @@ bcell_id	h_age
 6353865	at least 2 months
 6353866	at least 2 months
 6126325	6 Weeks
-5570652	8 months to 54 years
-5570653	8 months to 54 years
-5570654	8 months to 54 years
-5570655	8 months to 54 years
-5570656	8 months to 54 years
-5570657	8 months to 54 years
-5570659	8 months to 54 years
-5570660	8 months to 54 years
-5570661	8 months to 54 years
-5570808	8 months to 54 years
-5570810	8 months to 54 years
-5570811	8 months to 54 years
-5570812	8 months to 54 years
-5570813	8 months to 54 years
-5570814	8 months to 54 years
-5570815	8 months to 54 years
-5570816	8 months to 54 years
-5570817	8 months to 54 years
-5570968	8 months to 54 years
-5570969	8 months to 54 years
-5570970	8 months to 54 years
-5570971	8 months to 54 years
-5570973	8 months to 54 years
-5570974	8 months to 54 years
-5570975	8 months to 54 years
-5570976	8 months to 54 years
-5570977	8 months to 54 years
-5571129	8 months to 54 years
-5571130	8 months to 54 years
-5571131	8 months to 54 years
-5571132	8 months to 54 years
-5571133	8 months to 54 years
-5571134	8 months to 54 years
-5571135	8 months to 54 years
-5571136	8 months to 54 years
-5571137	8 months to 54 years
-5571288	8 months to 54 years
-5571290	8 months to 54 years
-5571291	8 months to 54 years
-5571292	8 months to 54 years
-5571293	8 months to 54 years
-5571294	8 months to 54 years
-5571295	8 months to 54 years
-5571296	8 months to 54 years
-5571297	8 months to 54 years
 6353209	18-38 years, with an average of 22 years
 6353211	18-38 years, with an average of 22 years
 6353215	18-38 years, with an average of 22 years
@@ -3909,171 +1607,15 @@ bcell_id	h_age
 6353873	at least 2 months
 6353874	at least 2 months
 6353875	at least 2 months
-5570508	8 months to 54 years
-5570509	8 months to 54 years
-5570510	8 months to 54 years
-5570511	8 months to 54 years
-5570662	8 months to 54 years
-5570663	8 months to 54 years
-5570664	8 months to 54 years
-5570665	8 months to 54 years
-5570666	8 months to 54 years
-5570667	8 months to 54 years
-5570818	8 months to 54 years
-5570819	8 months to 54 years
-5570820	8 months to 54 years
-5570821	8 months to 54 years
-5570823	8 months to 54 years
-5570824	8 months to 54 years
-5570825	8 months to 54 years
-5570826	8 months to 54 years
-5570827	8 months to 54 years
-5570978	8 months to 54 years
-5570979	8 months to 54 years
-5570980	8 months to 54 years
-5570981	8 months to 54 years
-5570982	8 months to 54 years
-5570983	8 months to 54 years
-5570984	8 months to 54 years
-5570986	8 months to 54 years
-5570987	8 months to 54 years
-5571138	8 months to 54 years
-5571139	8 months to 54 years
-5571140	8 months to 54 years
-5571141	8 months to 54 years
-5571143	8 months to 54 years
-5571144	8 months to 54 years
-5571145	8 months to 54 years
-5571146	8 months to 54 years
-5571147	8 months to 54 years
-5571298	8 months to 54 years
-5571299	8 months to 54 years
-5571300	8 months to 54 years
-5571301	8 months to 54 years
-5571302	8 months to 54 years
-5571303	8 months to 54 years
-5571305	8 months to 54 years
-5571306	8 months to 54 years
-5571307	8 months to 54 years
 6353217	18-38 years, with an average of 22 years
 6353219	18-38 years, with an average of 22 years
 6353221	18-38 years, with an average of 22 years
 6353223	18-38 years, with an average of 22 years
 6353876	at least 2 months
-5570512	8 months to 54 years
-5570513	8 months to 54 years
-5570514	8 months to 54 years
-5570515	8 months to 54 years
-5570516	8 months to 54 years
-5570517	8 months to 54 years
-5570518	8 months to 54 years
-5570519	8 months to 54 years
-5570521	8 months to 54 years
-5570668	8 months to 54 years
-5570669	8 months to 54 years
-5570670	8 months to 54 years
-5570671	8 months to 54 years
-5570672	8 months to 54 years
-5570673	8 months to 54 years
-5570674	8 months to 54 years
-5570675	8 months to 54 years
-5570676	8 months to 54 years
-5570677	8 months to 54 years
-5570828	8 months to 54 years
-5570829	8 months to 54 years
-5570830	8 months to 54 years
-5570831	8 months to 54 years
-5570832	8 months to 54 years
-5570833	8 months to 54 years
-5570834	8 months to 54 years
-5570835	8 months to 54 years
-5570836	8 months to 54 years
-5570837	8 months to 54 years
-5570988	8 months to 54 years
-5570989	8 months to 54 years
-5570990	8 months to 54 years
-5570991	8 months to 54 years
-5570992	8 months to 54 years
-5570994	8 months to 54 years
-5570995	8 months to 54 years
-5570996	8 months to 54 years
-5570997	8 months to 54 years
-5571148	8 months to 54 years
-5571149	8 months to 54 years
-5571150	8 months to 54 years
-5571151	8 months to 54 years
-5571152	8 months to 54 years
-5571154	8 months to 54 years
-5571155	8 months to 54 years
-5571156	8 months to 54 years
-5571157	8 months to 54 years
-5571308	8 months to 54 years
-5571309	8 months to 54 years
-5571310	8 months to 54 years
-5571311	8 months to 54 years
-5571313	8 months to 54 years
-5571314	8 months to 54 years
-5571315	8 months to 54 years
-5571316	8 months to 54 years
-5571317	8 months to 54 years
 6353225	18-38 years, with an average of 22 years
 6353227	18-38 years, with an average of 22 years
 6353229	18-38 years, with an average of 22 years
 6353231	18-38 years, with an average of 22 years
-5570522	8 months to 54 years
-5570523	8 months to 54 years
-5570524	8 months to 54 years
-5570525	8 months to 54 years
-5570527	8 months to 54 years
-5570528	8 months to 54 years
-5570529	8 months to 54 years
-5570530	8 months to 54 years
-5570531	8 months to 54 years
-5570678	8 months to 54 years
-5570679	8 months to 54 years
-5570680	8 months to 54 years
-5570681	8 months to 54 years
-5570682	8 months to 54 years
-5570683	8 months to 54 years
-5570684	8 months to 54 years
-5570686	8 months to 54 years
-5570687	8 months to 54 years
-5570838	8 months to 54 years
-5570839	8 months to 54 years
-5570840	8 months to 54 years
-5570841	8 months to 54 years
-5570842	8 months to 54 years
-5570843	8 months to 54 years
-5570844	8 months to 54 years
-5570846	8 months to 54 years
-5570847	8 months to 54 years
-5570998	8 months to 54 years
-5570999	8 months to 54 years
-5571001	8 months to 54 years
-5571002	8 months to 54 years
-5571003	8 months to 54 years
-5571004	8 months to 54 years
-5571005	8 months to 54 years
-5571006	8 months to 54 years
-5571007	8 months to 54 years
-5571158	8 months to 54 years
-5571159	8 months to 54 years
-5571160	8 months to 54 years
-5571162	8 months to 54 years
-5571163	8 months to 54 years
-5571164	8 months to 54 years
-5571165	8 months to 54 years
-5571166	8 months to 54 years
-5571167	8 months to 54 years
-5571318	8 months to 54 years
-5571319	8 months to 54 years
-5571320	8 months to 54 years
-5571321	8 months to 54 years
-5571322	8 months to 54 years
-5571323	8 months to 54 years
-5571324	8 months to 54 years
-5571326	8 months to 54 years
-5571327	8 months to 54 years
 6126334	6 Weeks
 6126335	6 Weeks
 6126336	6 Weeks
@@ -4081,180 +1623,15 @@ bcell_id	h_age
 6353235	18-38 years, with an average of 22 years
 6353237	18-38 years, with an average of 22 years
 6353239	18-38 years, with an average of 22 years
-5571016	8 months to 54 years
-5570532	8 months to 54 years
-5570533	8 months to 54 years
-5570534	8 months to 54 years
-5570535	8 months to 54 years
-5570536	8 months to 54 years
-5570537	8 months to 54 years
-5570538	8 months to 54 years
-5570539	8 months to 54 years
-5570540	8 months to 54 years
-5570541	8 months to 54 years
-5570688	8 months to 54 years
-5570689	8 months to 54 years
-5570690	8 months to 54 years
-5570691	8 months to 54 years
-5570692	8 months to 54 years
-5570693	8 months to 54 years
-5570694	8 months to 54 years
-5570696	8 months to 54 years
-5570697	8 months to 54 years
-5570848	8 months to 54 years
-5570850	8 months to 54 years
-5570851	8 months to 54 years
-5570852	8 months to 54 years
-5570853	8 months to 54 years
-5570854	8 months to 54 years
-5570855	8 months to 54 years
-5570856	8 months to 54 years
-5570857	8 months to 54 years
-5571008	8 months to 54 years
-5571009	8 months to 54 years
-5571010	8 months to 54 years
-5571011	8 months to 54 years
-5571012	8 months to 54 years
-5571013	8 months to 54 years
-5571014	8 months to 54 years
-5571015	8 months to 54 years
-5571017	8 months to 54 years
-5571168	8 months to 54 years
-5571169	8 months to 54 years
-5571170	8 months to 54 years
-5571171	8 months to 54 years
-5571172	8 months to 54 years
-5571173	8 months to 54 years
-5571174	8 months to 54 years
-5571175	8 months to 54 years
-5571177	8 months to 54 years
-5571328	8 months to 54 years
-5571329	8 months to 54 years
-5571330	8 months to 54 years
-5571331	8 months to 54 years
-5571332	8 months to 54 years
-5571333	8 months to 54 years
-5571334	8 months to 54 years
-5571336	8 months to 54 years
-5571337	8 months to 54 years
 6126372	6 Weeks
 6353241	18-38 years, with an average of 22 years
 6353243	18-38 years, with an average of 22 years
 6353245	18-38 years, with an average of 22 years
 6353247	18-38 years, with an average of 22 years
-5570542	8 months to 54 years
-5570543	8 months to 54 years
-5570544	8 months to 54 years
-5570545	8 months to 54 years
-5570546	8 months to 54 years
-5570547	8 months to 54 years
-5570548	8 months to 54 years
-5570549	8 months to 54 years
-5570550	8 months to 54 years
-5570698	8 months to 54 years
-5570699	8 months to 54 years
-5570700	8 months to 54 years
-5570701	8 months to 54 years
-5570702	8 months to 54 years
-5570703	8 months to 54 years
-5570704	8 months to 54 years
-5570705	8 months to 54 years
-5570706	8 months to 54 years
-5570707	8 months to 54 years
-5570858	8 months to 54 years
-5570859	8 months to 54 years
-5570860	8 months to 54 years
-5570861	8 months to 54 years
-5570862	8 months to 54 years
-5570863	8 months to 54 years
-5570865	8 months to 54 years
-5570866	8 months to 54 years
-5570867	8 months to 54 years
-5571018	8 months to 54 years
-5571019	8 months to 54 years
-5571020	8 months to 54 years
-5571021	8 months to 54 years
-5571022	8 months to 54 years
-5571023	8 months to 54 years
-5571024	8 months to 54 years
-5571025	8 months to 54 years
-5571026	8 months to 54 years
-5571178	8 months to 54 years
-5571180	8 months to 54 years
-5571181	8 months to 54 years
-5571182	8 months to 54 years
-5571183	8 months to 54 years
-5571184	8 months to 54 years
-5571185	8 months to 54 years
-5571186	8 months to 54 years
-5571187	8 months to 54 years
-5571338	8 months to 54 years
-5571339	8 months to 54 years
-5571340	8 months to 54 years
-5571342	8 months to 54 years
-5571343	8 months to 54 years
-5571344	8 months to 54 years
-5571345	8 months to 54 years
-5571346	8 months to 54 years
-5571347	8 months to 54 years
 6126377	6 Weeks
 6353249	18-38 years, with an average of 22 years
 6353251	18-38 years, with an average of 22 years
 6353253	18-38 years, with an average of 22 years
-5570552	8 months to 54 years
-5570553	8 months to 54 years
-5570554	8 months to 54 years
-5570555	8 months to 54 years
-5570556	8 months to 54 years
-5570557	8 months to 54 years
-5570558	8 months to 54 years
-5570559	8 months to 54 years
-5570561	8 months to 54 years
-5570708	8 months to 54 years
-5570709	8 months to 54 years
-5570710	8 months to 54 years
-5570711	8 months to 54 years
-5570713	8 months to 54 years
-5570714	8 months to 54 years
-5570715	8 months to 54 years
-5570716	8 months to 54 years
-5570717	8 months to 54 years
-5570868	8 months to 54 years
-5570869	8 months to 54 years
-5570870	8 months to 54 years
-5570872	8 months to 54 years
-5570873	8 months to 54 years
-5570874	8 months to 54 years
-5570875	8 months to 54 years
-5570876	8 months to 54 years
-5570877	8 months to 54 years
-5571029	8 months to 54 years
-5571030	8 months to 54 years
-5571031	8 months to 54 years
-5571032	8 months to 54 years
-5571033	8 months to 54 years
-5571034	8 months to 54 years
-5571035	8 months to 54 years
-5571036	8 months to 54 years
-5571037	8 months to 54 years
-5571189	8 months to 54 years
-5571190	8 months to 54 years
-5571191	8 months to 54 years
-5571192	8 months to 54 years
-5571193	8 months to 54 years
-5571194	8 months to 54 years
-5571195	8 months to 54 years
-5571196	8 months to 54 years
-5571197	8 months to 54 years
-5571348	8 months to 54 years
-5571349	8 months to 54 years
-5571350	8 months to 54 years
-5571351	8 months to 54 years
-5571352	8 months to 54 years
-5571353	8 months to 54 years
-5571354	8 months to 54 years
-5571355	8 months to 54 years
-5571357	8 months to 54 years
 6353767	at least 2 months
 6353769	at least 2 months
 6353770	at least 2 months
@@ -4263,61 +1640,6 @@ bcell_id	h_age
 6353773	at least 2 months
 6353774	at least 2 months
 6353775	at least 2 months
-5570562	8 months to 54 years
-5570563	8 months to 54 years
-5570564	8 months to 54 years
-5570565	8 months to 54 years
-5570566	8 months to 54 years
-5570567	8 months to 54 years
-5570568	8 months to 54 years
-5570569	8 months to 54 years
-5570570	8 months to 54 years
-5570571	8 months to 54 years
-5570718	8 months to 54 years
-5570719	8 months to 54 years
-5570720	8 months to 54 years
-5570721	8 months to 54 years
-5570722	8 months to 54 years
-5570724	8 months to 54 years
-5570725	8 months to 54 years
-5570726	8 months to 54 years
-5570727	8 months to 54 years
-5570878	8 months to 54 years
-5570879	8 months to 54 years
-5570880	8 months to 54 years
-5570881	8 months to 54 years
-5570882	8 months to 54 years
-5570884	8 months to 54 years
-5570885	8 months to 54 years
-5570886	8 months to 54 years
-5570887	8 months to 54 years
-5571038	8 months to 54 years
-5571039	8 months to 54 years
-5571040	8 months to 54 years
-5571041	8 months to 54 years
-5571042	8 months to 54 years
-5571043	8 months to 54 years
-5571044	8 months to 54 years
-5571045	8 months to 54 years
-5571046	8 months to 54 years
-5571198	8 months to 54 years
-5571199	8 months to 54 years
-5571200	8 months to 54 years
-5571201	8 months to 54 years
-5571202	8 months to 54 years
-5571204	8 months to 54 years
-5571205	8 months to 54 years
-5571206	8 months to 54 years
-5571207	8 months to 54 years
-5571358	8 months to 54 years
-5571359	8 months to 54 years
-5571360	8 months to 54 years
-5571361	8 months to 54 years
-5571362	8 months to 54 years
-5571363	8 months to 54 years
-5571364	8 months to 54 years
-5571366	8 months to 54 years
-5571367	8 months to 54 years
 6353776	at least 2 months
 6353777	at least 2 months
 6353778	at least 2 months
@@ -4328,60 +1650,6 @@ bcell_id	h_age
 6353783	at least 2 months
 6353784	at least 2 months
 6353785	at least 2 months
-5570572	8 months to 54 years
-5570573	8 months to 54 years
-5570574	8 months to 54 years
-5570575	8 months to 54 years
-5570576	8 months to 54 years
-5570577	8 months to 54 years
-5570578	8 months to 54 years
-5570579	8 months to 54 years
-5570581	8 months to 54 years
-5570728	8 months to 54 years
-5570729	8 months to 54 years
-5570730	8 months to 54 years
-5570731	8 months to 54 years
-5570732	8 months to 54 years
-5570733	8 months to 54 years
-5570734	8 months to 54 years
-5570736	8 months to 54 years
-5570737	8 months to 54 years
-5570888	8 months to 54 years
-5570889	8 months to 54 years
-5570890	8 months to 54 years
-5570891	8 months to 54 years
-5570892	8 months to 54 years
-5570893	8 months to 54 years
-5570894	8 months to 54 years
-5570895	8 months to 54 years
-5570896	8 months to 54 years
-5571048	8 months to 54 years
-5571049	8 months to 54 years
-5571051	8 months to 54 years
-5571052	8 months to 54 years
-5571053	8 months to 54 years
-5571054	8 months to 54 years
-5571055	8 months to 54 years
-5571056	8 months to 54 years
-5571057	8 months to 54 years
-5571208	8 months to 54 years
-5571210	8 months to 54 years
-5571211	8 months to 54 years
-5571212	8 months to 54 years
-5571213	8 months to 54 years
-5571214	8 months to 54 years
-5571215	8 months to 54 years
-5571216	8 months to 54 years
-5571217	8 months to 54 years
-5571368	8 months to 54 years
-5571369	8 months to 54 years
-5571370	8 months to 54 years
-5571371	8 months to 54 years
-5571372	8 months to 54 years
-5571373	8 months to 54 years
-5571374	8 months to 54 years
-5571375	8 months to 54 years
-5571377	8 months to 54 years
 6252895	6 Weeks
 6252896	6 Weeks
 6286857	children
@@ -4397,60 +1665,6 @@ bcell_id	h_age
 6353795	at least 2 months
 6011512	6 Weeks
 6011513	6 Weeks
-5570582	8 months to 54 years
-5570583	8 months to 54 years
-5570584	8 months to 54 years
-5570585	8 months to 54 years
-5570586	8 months to 54 years
-5570587	8 months to 54 years
-5570588	8 months to 54 years
-5570589	8 months to 54 years
-5570591	8 months to 54 years
-5570738	8 months to 54 years
-5570739	8 months to 54 years
-5570740	8 months to 54 years
-5570741	8 months to 54 years
-5570743	8 months to 54 years
-5570744	8 months to 54 years
-5570745	8 months to 54 years
-5570746	8 months to 54 years
-5570747	8 months to 54 years
-5570898	8 months to 54 years
-5570900	8 months to 54 years
-5570901	8 months to 54 years
-5570902	8 months to 54 years
-5570903	8 months to 54 years
-5570904	8 months to 54 years
-5570905	8 months to 54 years
-5570906	8 months to 54 years
-5570907	8 months to 54 years
-5571058	8 months to 54 years
-5571059	8 months to 54 years
-5571060	8 months to 54 years
-5571061	8 months to 54 years
-5571062	8 months to 54 years
-5571063	8 months to 54 years
-5571064	8 months to 54 years
-5571066	8 months to 54 years
-5571067	8 months to 54 years
-5571218	8 months to 54 years
-5571219	8 months to 54 years
-5571221	8 months to 54 years
-5571222	8 months to 54 years
-5571223	8 months to 54 years
-5571224	8 months to 54 years
-5571225	8 months to 54 years
-5571226	8 months to 54 years
-5571227	8 months to 54 years
-5571378	8 months to 54 years
-5571379	8 months to 54 years
-5571380	8 months to 54 years
-5571381	8 months to 54 years
-5571382	8 months to 54 years
-5571383	8 months to 54 years
-5571384	8 months to 54 years
-5571386	8 months to 54 years
-5571387	8 months to 54 years
 6353155	18-38 years, with an average of 22 years
 6353157	18-38 years, with an average of 22 years
 6353159	18-38 years, with an average of 22 years
@@ -4464,61 +1678,6 @@ bcell_id	h_age
 6353803	at least 2 months
 6353804	at least 2 months
 6353805	at least 2 months
-5570592	8 months to 54 years
-5570593	8 months to 54 years
-5570594	8 months to 54 years
-5570595	8 months to 54 years
-5570596	8 months to 54 years
-5570597	8 months to 54 years
-5570598	8 months to 54 years
-5570599	8 months to 54 years
-5570600	8 months to 54 years
-5570601	8 months to 54 years
-5570748	8 months to 54 years
-5570749	8 months to 54 years
-5570750	8 months to 54 years
-5570751	8 months to 54 years
-5570752	8 months to 54 years
-5570753	8 months to 54 years
-5570754	8 months to 54 years
-5570755	8 months to 54 years
-5570757	8 months to 54 years
-5570908	8 months to 54 years
-5570909	8 months to 54 years
-5570910	8 months to 54 years
-5570911	8 months to 54 years
-5570912	8 months to 54 years
-5570913	8 months to 54 years
-5570914	8 months to 54 years
-5570915	8 months to 54 years
-5570916	8 months to 54 years
-5571068	8 months to 54 years
-5571069	8 months to 54 years
-5571070	8 months to 54 years
-5571071	8 months to 54 years
-5571072	8 months to 54 years
-5571074	8 months to 54 years
-5571075	8 months to 54 years
-5571076	8 months to 54 years
-5571077	8 months to 54 years
-5571228	8 months to 54 years
-5571229	8 months to 54 years
-5571230	8 months to 54 years
-5571231	8 months to 54 years
-5571233	8 months to 54 years
-5571234	8 months to 54 years
-5571235	8 months to 54 years
-5571236	8 months to 54 years
-5571237	8 months to 54 years
-5571388	8 months to 54 years
-5571389	8 months to 54 years
-5571390	8 months to 54 years
-5571391	8 months to 54 years
-5571392	8 months to 54 years
-5571393	8 months to 54 years
-5571394	8 months to 54 years
-5571395	8 months to 54 years
-5571396	8 months to 54 years
 6353161	18-38 years, with an average of 22 years
 6353163	18-38 years, with an average of 22 years
 6353165	18-38 years, with an average of 22 years
@@ -4532,61 +1691,6 @@ bcell_id	h_age
 6353813	at least 2 months
 6353814	at least 2 months
 6353815	at least 2 months
-5570602	8 months to 54 years
-5570603	8 months to 54 years
-5570604	8 months to 54 years
-5570605	8 months to 54 years
-5570606	8 months to 54 years
-5570607	8 months to 54 years
-5570608	8 months to 54 years
-5570609	8 months to 54 years
-5570610	8 months to 54 years
-5570611	8 months to 54 years
-5570758	8 months to 54 years
-5570759	8 months to 54 years
-5570760	8 months to 54 years
-5570761	8 months to 54 years
-5570762	8 months to 54 years
-5570763	8 months to 54 years
-5570764	8 months to 54 years
-5570765	8 months to 54 years
-5570766	8 months to 54 years
-5570918	8 months to 54 years
-5570919	8 months to 54 years
-5570920	8 months to 54 years
-5570921	8 months to 54 years
-5570922	8 months to 54 years
-5570923	8 months to 54 years
-5570924	8 months to 54 years
-5570926	8 months to 54 years
-5570927	8 months to 54 years
-5571078	8 months to 54 years
-5571079	8 months to 54 years
-5571080	8 months to 54 years
-5571081	8 months to 54 years
-5571083	8 months to 54 years
-5571084	8 months to 54 years
-5571085	8 months to 54 years
-5571086	8 months to 54 years
-5571087	8 months to 54 years
-5571238	8 months to 54 years
-5571239	8 months to 54 years
-5571240	8 months to 54 years
-5571241	8 months to 54 years
-5571242	8 months to 54 years
-5571244	8 months to 54 years
-5571245	8 months to 54 years
-5571246	8 months to 54 years
-5571247	8 months to 54 years
-5571398	8 months to 54 years
-5571399	8 months to 54 years
-5571400	8 months to 54 years
-5571401	8 months to 54 years
-5571402	8 months to 54 years
-5571404	8 months to 54 years
-5571405	8 months to 54 years
-5571406	8 months to 54 years
-5571407	8 months to 54 years
 6353168	18-38 years, with an average of 22 years
 6353170	18-38 years, with an average of 22 years
 6353172	18-38 years, with an average of 22 years
@@ -4596,60 +1700,6 @@ bcell_id	h_age
 6353823	at least 2 months
 6353824	at least 2 months
 6353825	at least 2 months
-5570612	8 months to 54 years
-5570613	8 months to 54 years
-5570614	8 months to 54 years
-5570615	8 months to 54 years
-5570616	8 months to 54 years
-5570617	8 months to 54 years
-5570619	8 months to 54 years
-5570620	8 months to 54 years
-5570621	8 months to 54 years
-5570768	8 months to 54 years
-5570769	8 months to 54 years
-5570770	8 months to 54 years
-5570771	8 months to 54 years
-5570772	8 months to 54 years
-5570773	8 months to 54 years
-5570774	8 months to 54 years
-5570776	8 months to 54 years
-5570777	8 months to 54 years
-5570928	8 months to 54 years
-5570929	8 months to 54 years
-5570930	8 months to 54 years
-5570931	8 months to 54 years
-5570933	8 months to 54 years
-5570934	8 months to 54 years
-5570935	8 months to 54 years
-5570936	8 months to 54 years
-5570937	8 months to 54 years
-5571088	8 months to 54 years
-5571089	8 months to 54 years
-5571090	8 months to 54 years
-5571091	8 months to 54 years
-5571092	8 months to 54 years
-5571093	8 months to 54 years
-5571095	8 months to 54 years
-5571096	8 months to 54 years
-5571097	8 months to 54 years
-5571248	8 months to 54 years
-5571249	8 months to 54 years
-5571251	8 months to 54 years
-5571252	8 months to 54 years
-5571253	8 months to 54 years
-5571254	8 months to 54 years
-5571255	8 months to 54 years
-5571256	8 months to 54 years
-5571257	8 months to 54 years
-5571408	8 months to 54 years
-5571409	8 months to 54 years
-5571410	8 months to 54 years
-5571411	8 months to 54 years
-5571412	8 months to 54 years
-5571413	8 months to 54 years
-5571414	8 months to 54 years
-5571415	8 months to 54 years
-5571416	8 months to 54 years
 6353176	18-38 years, with an average of 22 years
 6353178	18-38 years, with an average of 22 years
 6353180	18-38 years, with an average of 22 years
@@ -4664,94 +1714,6 @@ bcell_id	h_age
 6353834	at least 2 months
 6353835	at least 2 months
 6353836	at least 2 months
-5570622	8 months to 54 years
-5570623	8 months to 54 years
-5570624	8 months to 54 years
-5570625	8 months to 54 years
-5570626	8 months to 54 years
-5570627	8 months to 54 years
-5570628	8 months to 54 years
-5570629	8 months to 54 years
-5570630	8 months to 54 years
-5570631	8 months to 54 years
-5570778	8 months to 54 years
-5570779	8 months to 54 years
-5570780	8 months to 54 years
-5570781	8 months to 54 years
-5570782	8 months to 54 years
-5570783	8 months to 54 years
-5570785	8 months to 54 years
-5570786	8 months to 54 years
-5570787	8 months to 54 years
-5570938	8 months to 54 years
-5570939	8 months to 54 years
-5570940	8 months to 54 years
-5570941	8 months to 54 years
-5570942	8 months to 54 years
-5570943	8 months to 54 years
-5570944	8 months to 54 years
-5570945	8 months to 54 years
-5570946	8 months to 54 years
-5571098	8 months to 54 years
-5571099	8 months to 54 years
-5571100	8 months to 54 years
-5571101	8 months to 54 years
-5571102	8 months to 54 years
-5571103	8 months to 54 years
-5571105	8 months to 54 years
-5571106	8 months to 54 years
-5571107	8 months to 54 years
-5571258	8 months to 54 years
-5571259	8 months to 54 years
-5571260	8 months to 54 years
-5571261	8 months to 54 years
-5571262	8 months to 54 years
-5571263	8 months to 54 years
-5571264	8 months to 54 years
-5571265	8 months to 54 years
-5571267	8 months to 54 years
-5571418	8 months to 54 years
-5571420	8 months to 54 years
-5571421	8 months to 54 years
-5571422	8 months to 54 years
-5571423	8 months to 54 years
-5571424	8 months to 54 years
-5571425	8 months to 54 years
-5571426	8 months to 54 years
-5571427	8 months to 54 years
-6362386	11 months - 55 years
-6362387	11 months - 55 years
-6362388	11 months - 55 years
-6362389	11 months - 55 years
-6362390	11 months - 55 years
-6362391	11 months - 55 years
-6362348	11 months - 55 years
-6362350	11 months - 55 years
-6353888	11 months - 55 years
-6362352	11 months - 55 years
-6517687	15-72
-6517689	15-72
-6517690	15-72
-6354158	11 months - 55 years
-6354160	11 months - 55 years
-6354218	11 months - 55 years
-6354220	11 months - 55 years
-6354222	11 months - 55 years
-6354224	11 months - 55 years
-6354226	11 months - 55 years
-6354228	11 months - 55 years
-6354230	11 months - 55 years
-6354234	11 months - 55 years
-6354232	11 months - 55 years
-6354236	11 months - 55 years
-6354162	11 months - 55 years
-6354164	11 months - 55 years
-6354166	11 months - 55 years
-6354168	11 months - 55 years
-6354170	11 months - 55 years
-6354172	11 months - 55 years
-6354174	11 months - 55 years
-6354176	11 months - 55 years
 6011551	6 Weeks
 6011553	6 Weeks
 6011554	6 Weeks
@@ -4765,36 +1727,18 @@ bcell_id	h_age
 6284842	6 Weeks
 6284843	6 Weeks
 6480441	6 Weeks
-6362367	11 months - 55 years
-6362368	11 months - 55 years
-6362369	11 months - 55 years
-6362370	11 months - 55 years
-6362371	11 months - 55 years
-6362372	11 months - 55 years
-6362373	11 months - 55 years
 6250865	6 Weeks
 6286858	children
 6126429	4 Weeks
 6250855	6 Weeks
 6250856	6 Weeks
 6250866	6 Weeks
-6362325	11 months - 55 years
-6362327	11 months - 55 years
-6362329	11 months - 55 years
-6362331	11 months - 55 years
-6362333	11 months - 55 years
-6362335	11 months - 55 years
-6362337	11 months - 55 years
-6362339	11 months - 55 years
-6362341	11 months - 55 years
-6362343	11 months - 55 years
 6513277	6 Weeks
 16524163	born before 1968
 16524164	born before 1968
 16524162	born before 1968
 1279730	14 and younger
 16524161	born before 1968
-1621381	14
 6353848	at least 2 months
 12952941	>56 years
 16158330	6 Weeks
@@ -4812,20 +1756,9 @@ bcell_id	h_age
 7687885	6 Weeks
 7687893	6 Weeks
 7687902	6 Weeks
-5570756	8 months to 54 years
-5571161	8 months to 54 years
 8158775	6 Weeks
 8158776	6 Weeks
-8119213	1.5 months to 40 years
-8125591	1.5 months to 40 years
-8125606	1.5 months to 40 years
-8125609	1.5 months to 40 years
-8159044	17 months - 4 years
 8326923	6 Weeks
-8116195	17 months - 4 years
-8116220	3 months to 15 years
-8116222	7 months to 10 years
-12155721	Young adult
 21210970	>/= 18 years
 21210975	>/= 18 years
 21210976	>/= 18 years
@@ -4837,90 +1770,8 @@ bcell_id	h_age
 21210984	>/= 18 years
 21210985	>/= 18 years
 21210986	>/= 18 years
-5570560	8 months to 54 years
-5570712	8 months to 54 years
-5570871	8 months to 54 years
-5571028	8 months to 54 years
-5571188	8 months to 54 years
-5570723	8 months to 54 years
-5570883	8 months to 54 years
-5571047	8 months to 54 years
-5570580	8 months to 54 years
-5571050	8 months to 54 years
-5570590	8 months to 54 years
-5570899	8 months to 54 years
-5570917	8 months to 54 years
-5571073	8 months to 54 years
-5571232	8 months to 54 years
-5571082	8 months to 54 years
-5570618	8 months to 54 years
-5570775	8 months to 54 years
-5570932	8 months to 54 years
-5571094	8 months to 54 years
-5571250	8 months to 54 years
-5571104	8 months to 54 years
-5571419	8 months to 54 years
-5570955	8 months to 54 years
-5571112	8 months to 54 years
-5571277	8 months to 54 years
-5571284	8 months to 54 years
-5570822	8 months to 54 years
-5571142	8 months to 54 years
-5571304	8 months to 54 years
-5570520	8 months to 54 years
-5571153	8 months to 54 years
-5571312	8 months to 54 years
-5571325	8 months to 54 years
-5570864	8 months to 54 years
-5571027	8 months to 54 years
-5571341	8 months to 54 years
-5571356	8 months to 54 years
-5571203	8 months to 54 years
-3313585	6 months to 14 years
-5571365	8 months to 54 years
-5570735	8 months to 54 years
-5570897	8 months to 54 years
-5571209	8 months to 54 years
-5571376	8 months to 54 years
-5570742	8 months to 54 years
-5571065	8 months to 54 years
-5571220	8 months to 54 years
-5571385	8 months to 54 years
-5571397	8 months to 54 years
-5570767	8 months to 54 years
-5570925	8 months to 54 years
-4140644	2 months - 12 years
-5571243	8 months to 54 years
-5571403	8 months to 54 years
 6353821	at least 2 months
-5571417	8 months to 54 years
-5570784	8 months to 54 years
-5570947	8 months to 54 years
-5571266	8 months to 54 years
-1341089	2-day to 6-week old
 1655103	embryo
-2373936	6 months to 14 years
-5570639	8 months to 54 years
-5570789	8 months to 54 years
-5570802	8 months to 54 years
-5570959	8 months to 54 years
-5571124	8 months to 54 years
-5570658	8 months to 54 years
-5570809	8 months to 54 years
-5570972	8 months to 54 years
-5571128	8 months to 54 years
-5571289	8 months to 54 years
-5570985	8 months to 54 years
-5570993	8 months to 54 years
-5570526	8 months to 54 years
-5570685	8 months to 54 years
-5570845	8 months to 54 years
-5571000	8 months to 54 years
-5570695	8 months to 54 years
-5570849	8 months to 54 years
-5571176	8 months to 54 years
-5570551	8 months to 54 years
-5571179	8 months to 54 years
 21211041	>/= 18 years
 21210989	>/= 18 years
 21210990	>/= 18 years
@@ -4953,42 +1804,9 @@ bcell_id	h_age
 21211039	>/= 18 years
 21211040	>/= 18 years
 21211042	>/= 18 years
-21513961	mean 13. 8 years
-21513962	mean 13. 8 years
-21513963	mean 13. 8 years
-21513965	mean 13. 8 years
-21513967	mean 13. 8 years
-21513969	mean 13. 8 years
-18069969	60-74
-18069970	66-73
-18069968	66-73
-18069971	60-74
-18069972	66-73
-18069973	60-74
-18069974	66-73
-18069975	60-74
-18069976	66-73
-18069977	60-74
-18069978	66-73
-18069979	60-74
-18069980	66-73
-18069981	60-74
-18069982	66-73
-18069983	60-74
-18069986	66-73
-18069987	60-74
-18069984	66-73
-18069985	60-74
-18069988	66-73
-18069989	60-74
-18069990	66-73
-18069991	60-74
 16158331	6 Weeks
 16367289	6 Weeks
 16367290	6 Weeks
-21514446	mean 13. 8 years
-21514448	mean 13. 8 years
-21514450	mean 13. 8 years
 22703863	45-60 years
 22703864	45-60 years
 22703865	45-60 years
@@ -5026,12 +1844,6 @@ bcell_id	h_age
 22790829	16-20 years
 22790830	16-20 years
 22790831	16-20 years
-21792918	1 month - 4 years
-21792919	1 month - 4 years
-21792920	1 month - 4 years
-21792921	1 month - 4 years
-21792922	1 month - 4 years
-21792923	1 month - 4 years
 22778989	26-30 years
 22778990	26-30 years
 22778991	26-30 years
@@ -5046,16 +1858,6 @@ bcell_id	h_age
 22779170	26-30 years
 22779171	26-30 years
 22779180	26-30 years
-21792924	1 month - 4 years
-21792925	1 month - 4 years
-21792926	1 month - 4 years
-21792927	1 month - 4 years
-21792928	1 month - 4 years
-21792929	1 month - 4 years
-21792930	1 month - 4 years
-21792931	1 month - 4 years
-21792932	1 month - 4 years
-21792933	1 month - 4 years
 22780659	16-20 years
 22790804	16-20 years
 22790815	16-20 years
@@ -5096,7 +1898,6 @@ bcell_id	h_age
 16583147	<21 years
 13707306	6 Weeks
 13707315	6 Weeks
-13708167	3 months to 25 years
 13913583	6 Weeks
 13913581	6 Weeks
 13913584	6 Weeks
@@ -5161,8 +1962,6 @@ bcell_id	h_age
 16583143	<21 years
 16583145	<21 years
 16583146	<21 years
-13708335	3 months to 25 years
-13708336	3 months to 25 years
 13913571	6 Weeks
 16523993	<21 years
 16523994	<21 years
@@ -5941,12 +2740,6 @@ bcell_id	h_age
 22927784	27- 54 years
 22927785	27- 54 years
 22927786	27- 54 years
-22791050	48
-22791051	48
-22791052	48
-22791053	48
-22791054	48
-22791055	48
 22791346	16-20 years
 22791342	16-20 years
 22791344	16-20 years

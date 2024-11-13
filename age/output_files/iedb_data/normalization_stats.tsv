@@ -1,5 +1,5 @@
-group	input_rows	rows_normalized	normalized_%	rows_accepted	accepted_%	rows_remaining	remaining_%
-bcell	344751	103762	0.3	234907	0.68	6082	0.02
-tcell	285340	106204	0.37	165422	0.58	13714	0.05
-mhc_elution	918734	199630	0.22	496840	0.54	222264	0.24
-total	1548825	409596	0.26	897169	0.58	242060	0.16
+group	input_rows	rows_normalized	normalized_%	rows_invalid	invalid_%	rows_accepted	accepted_%	rows_remaining	remaining_%
+bcell	344751	103762	0.301	3207	0.009	234907	0.681	2875	0.008
+tcell	285340	106204	0.372	7107	0.025	165422	0.58	6607	0.023
+mhc_elution	918734	199630	0.217	213327	0.232	496840	0.541	8937	0.01
+total	1548825	409596	0.264	223641	0.144	897169	0.579	18419	0.012
