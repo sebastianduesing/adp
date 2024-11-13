@@ -4,7 +4,7 @@ index	unknown_word	context	occurrences	category	replace_with	remove	invalidate	a
 2	at	'at least 8 week', 'at birth', 'at least 8 weeks', 'at least 7 weeks', 'at least 2 months', 'at least 8 week old', 'at least 8 weeks old'	7					
 3	least	'at least 8 week', 'at least 7 week', 'at least 2 month', 'at least 8 week old', 'at least 2 months', 'at least 8 weeks', 'at least 7 weeks', 'at least 8 weeks old'	6					
 4	older	'8 week or older', '2 month or older', '10 year and older', '6 week or older', 'older than 8 week', '40 year or older', '18 year or older', '10 week or older', '2 months or older', '10 years and older', '40 years or older', '18 years or older', '8 weeks or older', '6 weeks or older', 'older than 8 weeks'	11					
-5	yo	'21 - 85 yo', '7 yo 8 weeks', '6 yo 8 weeks'	4					
+5	yo	'21 - 85 yo', '7 yo 8 weeks', '6 yo 8 weeks'	3					
 6	not	'not available'	1					
 7	available	'not available'	1					
 8	sucking	'sucking'	1					
@@ -70,7 +70,7 @@ index	unknown_word	context	occurrences	category	replace_with	remove	invalidate	a
 93	58+/	'mean age = 58+/-12 years', 'mean = 58+/-12 years'	1					
 94	>24	'>24 week', '>24 weeks'	1					
 95	>22	'>22 week', '>22 weeks'	1					
-97	>32	'adult, >32 year', 'adults, >32 years', 'adult, >32 years'	2					
+97	>32	'adult, >32 year', 'adults, >32 years', 'adult, >32 years'	1					
 99	>69	'>69 years'	1					
 100	<6	'<6 months'	1					
 101	3+/	'72.3+/-6.7 years'	1					
@@ -83,3 +83,4 @@ index	unknown_word	context	occurrences	category	replace_with	remove	invalidate	a
 108	94+/	'44.94+/-15.65'	1					
 109	>56	'>56 years'	1					
 110	<21	'<21 years'	1					
+49	20years	'16-20years'	1					
