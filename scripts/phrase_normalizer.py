@@ -89,7 +89,7 @@ def phrase_lookup(cat_string):
         return "unknown", "N", ""
 
 
-def rearrange_phrase(cat_string, rowdict, phrase_dict, output_column):
+def rearrange_phrase(cat_string, rowdict, phrase_dict, output_column, style):
     """
     Configure the words in cat_string according to the specified standard form.
     """
@@ -101,6 +101,8 @@ def rearrange_phrase(cat_string, rowdict, phrase_dict, output_column):
     for match in match_list:
         referent = phrase_dict[int(match)]["word"]
         phrase = re.sub(fr"\[{match}\]", referent, phrase)
+    if style == "age":
+        phrase = tk.pluralize_unit(phrase, p_type)
     rowdict[output_column] = phrase
 
 
@@ -147,7 +149,7 @@ def normalize_phrase(style, data_file, original_column):
             phrase_dict = build_phrase_dict(data_item, separator)
             cat_string = make_categorization_string(phrase_dict)
             rowdict["phrase_type_string"] = cat_string
-            rearrange_phrase(cat_string, rowdict, phrase_dict, output_column)
+            rearrange_phrase(cat_string, rowdict, phrase_dict, output_column, style)
             if rowdict["phrase_validation"] == "fail":
                 phrase_type = rowdict["phrase_type"]
                 rowdict[output_column] = f"! Invalid phrase type: {phrase_type} !"
