@@ -989,8 +989,12 @@ tcell_id	h_age	new_h_age
 15784	6-10 wk	6-10 weeks
 1417837	6 weeks old	6 weeks
 1462121	38 years-old	38 years
+1270755	5- to 8- weeks -old	5-8 weeks
+1270747	5- to 8- weeks -old	5-8 weeks
+22701010	mean 44 years	mean: 44 years
 18669	6-10 weeks-old	6-10 weeks
 18607	6-10 weeks-old	6-10 weeks
+22701014	mean 44 years	mean: 44 years
 1403699	Mean age = 30.7 years	mean: 30.7 years
 1403719	Mean age = 30.7 years	mean: 30.7 years
 1403728	Mean age = 30.7 years	mean: 30.7 years
@@ -1007,6 +1011,7 @@ tcell_id	h_age	new_h_age
 1069052	7-10 weeks-old	7-10 weeks
 1069017	7-10 weeks-old	7-10 weeks
 1370462	6-9 months-old	6-9 months
+22701008	mean 44 years	mean: 44 years
 1469657	6-8 weeks old	6-8 weeks
 1469666	6-8 weeks old	6-8 weeks
 1469674	6-8 weeks old	6-8 weeks
@@ -1017,13 +1022,19 @@ tcell_id	h_age	new_h_age
 1417639	8-10 weeks old	8-10 weeks
 10491	8-12 wk	8-12 weeks
 21718	4-8 weeks-old	4-8 weeks
+22701011	mean 44 years	mean: 44 years
 1417725	6 weeks old	6 weeks
 1417713	6 weeks old	6 weeks
+22701006	mean 44 years	mean: 44 years
+22701009	mean 44 years	mean: 44 years
 1383773	6-10 week old	6-10 weeks
 14488	6-10 wk	6-10 weeks
 14490	6-10 wk	6-10 weeks
+22701012	mean 44 years	mean: 44 years
 1383867	6-10 week old	6-10 weeks
 1383789	6-10 week old	6-10 weeks
+22701007	mean 44 years	mean: 44 years
+22701013	mean 44 years	mean: 44 years
 1403293	28-60 yrs	28-60 years
 1419052	Adults	adult
 1419057	Adults	adult
@@ -1078,6 +1089,7 @@ tcell_id	h_age	new_h_age
 1342738	6-8 weeks old	6-8 weeks
 1322293	49 years old	49 years
 1322485	49 years old	49 years
+22701019	mean 44 years	mean: 44 years
 1316979	4-16 years old	4-16 years
 1340314	12 to 55 year-old	12-55 years
 1321180	49 years old	49 years
@@ -1108,13 +1120,20 @@ tcell_id	h_age	new_h_age
 1322650	49 years old	49 years
 1321083	49 years old	49 years
 1383657	8-20 weeks-old	8-20 weeks
+22701030	mean 44 years	mean: 44 years
 1316930	4-16 years old	4-16 years
+22701031	mean 44 years	mean: 44 years
 1377688	5-6 weeks old	5-6 weeks
+22701015	mean 44 years	mean: 44 years
 1317292	4-16 years old	4-16 years
 1186294	15-73 years-old	15-73 years
 1321923	49 years old	49 years
+22701025	mean 44 years	mean: 44 years
+22701026	mean 44 years	mean: 44 years
+22701027	mean 44 years	mean: 44 years
 1320864	51 years old	51 years
 1320870	49 years old	49 years
+22701028	mean 44 years	mean: 44 years
 1336423	6 weeks-old	6 weeks
 1322643	51 years old	51 years
 1322662	49 years old	49 years
@@ -1126,6 +1145,7 @@ tcell_id	h_age	new_h_age
 1322651	51 years old	51 years
 1322600	51 years old	51 years
 1898700	4-6 weeks-old	4-6 weeks
+22701016	mean 44 years	mean: 44 years
 11188745	5 to 19 weeks	5-19 weeks
 1320914	49 years old	49 years
 1321668	49 years old	49 years
@@ -1163,6 +1183,7 @@ tcell_id	h_age	new_h_age
 1345478	Adults	adult
 1373680	6-8 weeks old	6-8 weeks
 1275563	8-10 weeks-old	8-10 weeks
+22701022	mean 44 years	mean: 44 years
 1339056	Adults	adult
 1339246	Adults	adult
 1469661	6-8 weeks old	6-8 weeks
@@ -1210,6 +1231,8 @@ tcell_id	h_age	new_h_age
 1321053	51 years old	51 years
 1317275	4-16 years old	4-16 years
 1322759	51 years old	51 years
+22701021	mean 44 years	mean: 44 years
+22701020	mean 44 years	mean: 44 years
 1338438	Adults	adult
 1338440	Adults	adult
 1339435	6-8 weeks old	6-8 weeks
@@ -1228,6 +1251,8 @@ tcell_id	h_age	new_h_age
 1321632	49 years old	49 years
 1321515	49 years old	49 years
 1317237	4-16 years old	4-16 years
+22701023	mean 44 years	mean: 44 years
+22701024	mean 44 years	mean: 44 years
 1342867	6-8 weeks old	6-8 weeks
 1321853	51 years old	51 years
 1322001	51 years old	51 years
@@ -1304,10 +1329,13 @@ tcell_id	h_age	new_h_age
 1341503	2-4 months old	2-4 months
 1342856	6-8 weeks old	6-8 weeks
 1342802	6-8 weeks old	6-8 weeks
+22701029	mean 44 years	mean: 44 years
 1317272	4-16 years old	4-16 years
 1317158	4-16 years old	4-16 years
 1320649	51 years old	51 years
 1320650	49 years old	49 years
+22701017	mean 44 years	mean: 44 years
+22701018	mean 44 years	mean: 44 years
 1323312	49 years old	49 years
 1317222	4-16 years old	4-16 years
 1321712	49 years old	49 years
@@ -1322,16 +1350,20 @@ tcell_id	h_age	new_h_age
 1347668	17-86 years old	17-86 years
 1322605	49 years old	49 years
 1322583	51 years old	51 years
+22701032	mean 44 years	mean: 44 years
+22701033	mean 44 years	mean: 44 years
 18470	2-18 mo	2-18 months
 1417667	6 weeks old	6 weeks
 21215	6-16 wk	6-16 weeks
 21231	6-16 wk	6-16 weeks
 1434921	8-14 weeks old	8-14 weeks
+22701053	mean 44 years	mean: 44 years
 1459542	8 weeks old	8 weeks
 2114975	average 48 years	mean: 48 years
 1380834	4-6 weeks old	4-6 weeks
 1419093	6-8 weeks old	6-8 weeks
 1419101	6-8 weeks old	6-8 weeks
+22701056	mean 44 years	mean: 44 years
 14471	6-10 wk	6-10 weeks
 1370540	12 months-old	12 months
 1370590	12 months-old	12 months
@@ -1352,6 +1384,8 @@ tcell_id	h_age	new_h_age
 1469754	8 to 10 weeks	8-10 weeks
 20700	6-12 weeks-old	6-12 weeks
 15716	8-12 wks	8-12 weeks
+22701041	mean 44 years	mean: 44 years
+22701040	mean 44 years	mean: 44 years
 8005	6 to 10 wk	6-10 weeks
 7948	6 to 10 wk	6-10 weeks
 22581	6 weeks-old	6 weeks
@@ -1360,19 +1394,24 @@ tcell_id	h_age	new_h_age
 6506	6-8 weeks old	6-8 weeks
 13824	6-10 weeks-old	6-10 weeks
 13832	6-10 weeks-old	6-10 weeks
+22701037	mean 44 years	mean: 44 years
+22701038	mean 44 years	mean: 44 years
 14433	8-12 weeks-old	8-12 weeks
 14417	8-12 weeks-old	8-12 weeks
 1417672	6 weeks old	6 weeks
 1419446	8-12 weeks old	8-12 weeks
 2469175	6 to 8 weeks	6-8 weeks
 11188746	5 to 19 weeks	5-19 weeks
+22701036	mean 44 years	mean: 44 years
 16262	4-6 weeks-old	4-6 weeks
 8486	8-12 wk	8-12 weeks
 14421	8-12 weeks-old	8-12 weeks
 1434912	8-14 weeks old	8-14 weeks
 1417674	6 weeks old	6 weeks
 1417687	6 weeks old	6 weeks
+22701051	mean 44 years	mean: 44 years
 1004191	3-4 months-old	3-4 months
+22701050	mean 44 years	mean: 44 years
 2469176	6 to 8 weeks	6-8 weeks
 1246466	6-8 weeks-old	6-8 weeks
 1468485	3-10 years old	3-10 years
@@ -1380,6 +1419,9 @@ tcell_id	h_age	new_h_age
 21306	6-16 wk	6-16 weeks
 1469786	8 to 10 weeks	8-10 weeks
 1321290	51 years old	51 years
+1275115	5- to 8- weeks -old	5-8 weeks
+1270863	5- to 8- weeks -old	5-8 weeks
+22701055	mean 44 years	mean: 44 years
 1383072	12-16 weeks old	12-16 weeks
 1371060	8-week-old	8 weeks
 13890	6-10 weeks-old	6-10 weeks
@@ -1391,6 +1433,7 @@ tcell_id	h_age	new_h_age
 1471563	25-58 years old	25-58 years
 1471572	25-58 years old	25-58 years
 1469742	8 to 10 weeks	8-10 weeks
+22701049	mean 44 years	mean: 44 years
 1269958	6-8 weeks-old	6-8 weeks
 16383	4-6 wk	4-6 weeks
 1471547	8 to 10 weeks	8-10 weeks
@@ -1403,6 +1446,7 @@ tcell_id	h_age	new_h_age
 9689	8-10wk	8-10 weeks
 16267	4-6 weeks-old	4-6 weeks
 2469173	6 to 8 weeks	6-8 weeks
+22701054	mean 44 years	mean: 44 years
 2469174	6 to 8 weeks	6-8 weeks
 1468487	3-10 years old	3-10 years
 1466647	8-10 weeks old	8-10 weeks
@@ -1427,6 +1471,7 @@ tcell_id	h_age	new_h_age
 1469791	8 to 10 weeks	8-10 weeks
 1472444	21-45 years old	21-45 years
 1472454	21-45 years old	21-45 years
+22701042	mean 44 years	mean: 44 years
 13934	6-10 weeks-old	6-10 weeks
 1471528	8 to 10 weeks	8-10 weeks
 1471537	8 to 10 weeks	8-10 weeks
@@ -1448,24 +1493,33 @@ tcell_id	h_age	new_h_age
 9681	8-10wk	8-10 weeks
 9685	8-10wk	8-10 weeks
 1031833	4-12 weeks-old	4-12 weeks
+22701046	mean 44 years	mean: 44 years
+22701047	mean 44 years	mean: 44 years
 1420957	23-55 years old	23-55 years
 7989	6 to 10 wk	6-10 weeks
 1471810	Adult	adult
 4558	10-16 weeks old	10-16 weeks
 1346879	8-12 weeks old	8-12 weeks
 1466664	8-10 weeks old	8-10 weeks
+22701043	mean 44 years	mean: 44 years
+22701044	mean 44 years	mean: 44 years
+22701048	mean 44 years	mean: 44 years
 1980028	4-10 weeks-old	4-10 weeks
 9845	6-7 wk	6-7 weeks
 1474219	12-65 years old	12-65 years
 10211	6-8 wk.	6-8 weeks
 10242	6-8 wk.	6-8 weeks
+22701035	mean 44 years	mean: 44 years
 13910	6-10 weeks-old	6-10 weeks
+22701039	mean 44 years	mean: 44 years
 16177	8-11 wk	8-11 weeks
+22701045	mean 44 years	mean: 44 years
 13799	6-10 weeks-old	6-10 weeks
 13802	6-10 weeks-old	6-10 weeks
 11188747	5 to 19 weeks	5-19 weeks
 13947	6-10 weeks-old	6-10 weeks
 7937	6 to 10 wk	6-10 weeks
+22701034	mean 44 years	mean: 44 years
 1332989	Adults	adult
 13921	6-10 weeks-old	6-10 weeks
 15820	6-10 wk	6-10 weeks
@@ -1481,6 +1535,7 @@ tcell_id	h_age	new_h_age
 15157	6-10 weeks-old	6-10 weeks
 13718	6-10 weeks-old	6-10 weeks
 9984	6-8 wk	6-8 weeks
+22701052	mean 44 years	mean: 44 years
 2097768	23-54 years-old	23-54 years
 2465848	8 to 10 weeks	8-10 weeks
 15825	6-10 wk	6-10 weeks
@@ -1498,6 +1553,7 @@ tcell_id	h_age	new_h_age
 1007183	8-10 weeks-old	8-10 weeks
 14619	8-12 wk	8-12 weeks
 15626	8-12 wk	8-12 weeks
+22701069	mean 44 years	mean: 44 years
 1346043	Adults	adult
 1346055	Adults	adult
 1370239	6-8 weeks old	6-8 weeks
@@ -1526,8 +1582,10 @@ tcell_id	h_age	new_h_age
 5362	21-55 years old	21-55 years
 5392	17-81 years old	17-81 years
 1332942	Adults	adult
+22701059	mean 44 years	mean: 44 years
 1346672	4-8 weeks old	4-8 weeks
 1378082	6-10 weeks-old	6-10 weeks
+22701065	mean 44 years	mean: 44 years
 14457	6-10 wk	6-10 weeks
 15796	6-10 wk	6-10 weeks
 15818	6-10 wk	6-10 weeks
@@ -1535,6 +1593,7 @@ tcell_id	h_age	new_h_age
 15788	6-10 wk	6-10 weeks
 1369022	6-8 weeks old	6-8 weeks
 1417727	6 weeks old	6 weeks
+22701077	mean 44 years	mean: 44 years
 4469	10-16 weeks old	10-16 weeks
 4578	10-16 weeks old	10-16 weeks
 4589	10-16 weeks old	10-16 weeks
@@ -1562,10 +1621,13 @@ tcell_id	h_age	new_h_age
 1022937	8-12 week	8-12 weeks
 1471534	8 to 10 weeks	8-10 weeks
 1471548	8 to 10 weeks	8-10 weeks
+22701072	mean 44 years	mean: 44 years
 1469763	8 to 10 weeks	8-10 weeks
 1469770	8 to 10 weeks	8-10 weeks
 1469788	8 to 10 weeks	8-10 weeks
 1469832	8 to 10 weeks	8-10 weeks
+22701058	mean 44 years	mean: 44 years
+22701060	mean 44 years	mean: 44 years
 1275549	8-10 weeks-old	8-10 weeks
 1471520	8 to 10 weeks	8-10 weeks
 13871	6-10 weeks-old	6-10 weeks
@@ -1573,12 +1635,17 @@ tcell_id	h_age	new_h_age
 13885	6-10 weeks-old	6-10 weeks
 13931	6-10 weeks-old	6-10 weeks
 1464967	4 weeks old	4 weeks
+22701074	mean 44 years	mean: 44 years
+22701073	mean 44 years	mean: 44 years
 15493	6-10 wk	6-10 weeks
 8557	40-73 years old	40-73 years
 2467852	4 to 6 weeks	4-6 weeks
 2467853	4 to 6 weeks	4-6 weeks
 1368999	6-8 weeks old	6-8 weeks
 11188748	5 to 19 weeks	5-19 weeks
+22701066	mean 44 years	mean: 44 years
+22701067	mean 44 years	mean: 44 years
+22701068	mean 44 years	mean: 44 years
 13676	6-10 weeks-old	6-10 weeks
 13936	6-10 weeks-old	6-10 weeks
 1266980	6-10 weeks-old	6-10 weeks
@@ -1586,6 +1653,7 @@ tcell_id	h_age	new_h_age
 1321932	49 years old	49 years
 1320672	51 years old	51 years
 15948	6-8 wk	6-8 weeks
+22701057	mean 44 years	mean: 44 years
 2467855	4 to 6 weeks	4-6 weeks
 18676	6-10 weeks-old	6-10 weeks
 18605	6-10 weeks-old	6-10 weeks
@@ -1595,7 +1663,10 @@ tcell_id	h_age	new_h_age
 1369010	6-8 weeks old	6-8 weeks
 1369015	6-8 weeks old	6-8 weeks
 1469837	8 to 10 weeks	8-10 weeks
+22701071	mean 44 years	mean: 44 years
+22701070	mean 44 years	mean: 44 years
 1419443	8-12 weeks old	8-12 weeks
+22905262	29 to 39 weeks	29-39 weeks
 14545	8-10 wk	8-10 weeks
 1346880	8-12 weeks old	8-12 weeks
 9628	8-10wk	8-10 weeks
@@ -1607,6 +1678,10 @@ tcell_id	h_age	new_h_age
 14439	6-8 wk	6-8 weeks
 9125	8-10wk	8-10 weeks
 1069025	7-10 weeks-old	7-10 weeks
+22701061	mean 44 years	mean: 44 years
+22701063	mean 44 years	mean: 44 years
+22701062	mean 44 years	mean: 44 years
+22701064	mean 44 years	mean: 44 years
 13889	6-10 weeks-old	6-10 weeks
 13775	6-10 weeks-old	6-10 weeks
 13913	6-10 weeks-old	6-10 weeks
@@ -1615,6 +1690,8 @@ tcell_id	h_age	new_h_age
 6507	6-8 weeks old	6-8 weeks
 7949	6 to 10 wk	6-10 weeks
 7957	6 to 10 wk	6-10 weeks
+22701078	mean 44 years	mean: 44 years
+22701076	mean 44 years	mean: 44 years
 20685	6-12 weeks-old	6-12 weeks
 8992	10-16 weeks old	10-16 weeks
 1469697	6-8 weeks old	6-8 weeks
@@ -1628,6 +1705,7 @@ tcell_id	h_age	new_h_age
 4557	10-16 weeks old	10-16 weeks
 22463427	22 to 64 years	22-64 years
 1369019	6-8 weeks old	6-8 weeks
+22701075	mean 44 years	mean: 44 years
 9734	8-10wk	8-10 weeks
 1321817	51 years old	51 years
 15857	8-12 wks	8-12 weeks
@@ -1636,6 +1714,7 @@ tcell_id	h_age	new_h_age
 1369029	6-8 weeks old	6-8 weeks
 1369031	6-8 weeks old	6-8 weeks
 2130608	9 to 12 weeks	9-12 weeks
+22701100	mean 44 years	mean: 44 years
 1369027	6-8 weeks old	6-8 weeks
 1368960	6-8 weeks old	6-8 weeks
 1273297	6-10 weeks old	6-10 weeks
@@ -1656,6 +1735,7 @@ tcell_id	h_age	new_h_age
 1368966	6-8 weeks old	6-8 weeks
 1368968	6-8 weeks old	6-8 weeks
 1368975	6-8 weeks old	6-8 weeks
+22701083	mean 44 years	mean: 44 years
 1275539	8-10 weeks-old	8-10 weeks
 1320637	51 years old	51 years
 1847905	mean age 54 years	mean: 54 years
@@ -1664,17 +1744,25 @@ tcell_id	h_age	new_h_age
 15326	8-16 wk	8-16 weeks
 1320690	49 years old	49 years
 1322354	49 years old	49 years
+22701103	mean 44 years	mean: 44 years
 1321663	49 years old	49 years
 15307	8-12 wk	8-12 weeks
 11908	3 months-old	3 months
 1321148	49 years old	49 years
 1317311	4-16 years old	4-16 years
+22701084	mean 44 years	mean: 44 years
+22701085	mean 44 years	mean: 44 years
 1320642	49 years old	49 years
+22701086	mean 44 years	mean: 44 years
+22701087	mean 44 years	mean: 44 years
 1179907	6-8 weeks-old	6-8 weeks
+22701092	mean 44 years	mean: 44 years
+22701093	mean 44 years	mean: 44 years
 1403747	Mean age = 30.7 years	mean: 30.7 years
 1403751	Mean age = 30.7 years	mean: 30.7 years
 1403712	Mean age = 30.7 years	mean: 30.7 years
 14479	6-10 wk	6-10 weeks
+22701097	mean 44 years	mean: 44 years
 1323631	49 years old	49 years
 15266	8-12 wk	8-12 weeks
 1180875	6-8 weeks-old	6-8 weeks
@@ -1686,14 +1774,17 @@ tcell_id	h_age	new_h_age
 14472	6-10 wk	6-10 weeks
 1383091	12-16 weeks old	12-16 weeks
 14480	6-10 wk	6-10 weeks
+22701098	mean 44 years	mean: 44 years
 1317155	4-16 years old	4-16 years
 1332890	21-50 years old	21-50 years
+22701099	mean 44 years	mean: 44 years
 1317238	4-16 years old	4-16 years
 1321113	51 years old	51 years
 1323215	49 years old	49 years
 1321177	51 years old	51 years
 15803	6-10 wk	6-10 weeks
 15804	6-10 wk	6-10 weeks
+22701096	mean 44 years	mean: 44 years
 1320868	51 years old	51 years
 1321394	51 years old	51 years
 1317243	4-16 years old	4-16 years
@@ -1701,6 +1792,8 @@ tcell_id	h_age	new_h_age
 15922	6-10 wk	6-10 weeks
 1321675	49 years old	49 years
 1317313	4-16 years old	4-16 years
+22701079	mean 44 years	mean: 44 years
+22701080	mean 44 years	mean: 44 years
 1472317	21-45 years old	21-45 years
 1472331	21-45 years old	21-45 years
 1472336	21-45 years old	21-45 years
@@ -1708,6 +1801,8 @@ tcell_id	h_age	new_h_age
 8408	8-12 wk	8-12 weeks
 15806	6-10 wk	6-10 weeks
 15807	6-10 wk	6-10 weeks
+22701094	mean 44 years	mean: 44 years
+22701095	mean 44 years	mean: 44 years
 15795	6-10 wk	6-10 weeks
 15798	6-10 wk	6-10 weeks
 15800	6-10 wk	6-10 weeks
@@ -1717,6 +1812,7 @@ tcell_id	h_age	new_h_age
 1356800	8 weeks-old	8 weeks
 1322503	51 years old	51 years
 11921	3 months-old	3 months
+22701101	mean 44 years	mean: 44 years
 15925	6-10 wk	6-10 weeks
 15754	6-10 wk	6-10 weeks
 15755	6-10 wk	6-10 weeks
@@ -1780,6 +1876,8 @@ tcell_id	h_age	new_h_age
 1369052	6-8 weeks old	6-8 weeks
 15765	6-10 wk	6-10 weeks
 1337613	Adults	adult
+22701081	mean 44 years	mean: 44 years
+22701082	mean 44 years	mean: 44 years
 1472309	21-45 years old	21-45 years
 9500	6-12 wk	6-12 weeks
 2465149	6 to 12 weeks	6-12 weeks
@@ -1790,6 +1888,7 @@ tcell_id	h_age	new_h_age
 15245	8-12 wk	8-12 weeks
 1322921	49 years old	49 years
 1323358	51 years old	51 years
+22701091	mean 44 years	mean: 44 years
 1333722	Adults	adult
 1333726	Adults	adult
 1316775	4-16 years old	4-16 years
@@ -1801,8 +1900,11 @@ tcell_id	h_age	new_h_age
 1322099	49 years old	49 years
 1321402	51 years old	51 years
 15829	6-10 wk	6-10 weeks
+22701104	mean 44 years	mean: 44 years
+22701105	mean 44 years	mean: 44 years
 1322871	51 years old	51 years
 1338200	Adults	adult
+22701106	mean 44 years	mean: 44 years
 1350927	1 year-old	1 year
 1466734	8-10 weeks old	8-10 weeks
 22781	6 weeks-old	6 weeks
@@ -1823,6 +1925,7 @@ tcell_id	h_age	new_h_age
 1342874	6-8 weeks old	6-8 weeks
 1368971	6-8 weeks old	6-8 weeks
 1368974	6-8 weeks old	6-8 weeks
+22701089	mean 44 years	mean: 44 years
 14453	6-10 wk	6-10 weeks
 15921	6-10 wk	6-10 weeks
 1973689	25 to 61 years	25-61 years
@@ -1831,6 +1934,8 @@ tcell_id	h_age	new_h_age
 1322785	49 years old	49 years
 1369727	6-8 wks	6-8 weeks
 1368956	6-8 weeks old	6-8 weeks
+22701088	mean 44 years	mean: 44 years
+22701090	mean 44 years	mean: 44 years
 22695	6 weeks-old	6 weeks
 17938	8-10 wk	8-10 weeks
 15822	6-10 wk	6-10 weeks
@@ -1844,6 +1949,7 @@ tcell_id	h_age	new_h_age
 1383075	12-16 weeks old	12-16 weeks
 15766	6-10 wk	6-10 weeks
 15767	6-10 wk	6-10 weeks
+22701102	mean 44 years	mean: 44 years
 1369061	6-8 weeks old	6-8 weeks
 22768	6 weeks-old	6 weeks
 22547	6 weeks-old	6 weeks
@@ -1890,6 +1996,7 @@ tcell_id	h_age	new_h_age
 1327281	7-74 years old	7-74 years
 1327286	7-74 years old	7-74 years
 1340890	Adults	adult
+22701137	mean 44 years	mean: 44 years
 1325909	51 years old	51 years
 13972	6-10 weeks-old	6-10 weeks
 15159	6-10 weeks-old	6-10 weeks
@@ -1909,6 +2016,9 @@ tcell_id	h_age	new_h_age
 1339961	Adults	adult
 1339789	Adults	adult
 1342466	Adult	adult
+22701115	mean 44 years	mean: 44 years
+22701125	mean 44 years	mean: 44 years
+22701126	mean 44 years	mean: 44 years
 21206	6-16 wk	6-16 weeks
 21233	6-16 wk	6-16 weeks
 21236	6-16 wk	6-16 weeks
@@ -1925,8 +2035,10 @@ tcell_id	h_age	new_h_age
 1321225	51 years old	51 years
 1474420	8-24 weeks old	8-24 weeks
 1322083	49 years old	49 years
+22701131	mean 44 years	mean: 44 years
 1337779	33-52 years-old	33-52 years
 1342915	6-8 weeks old	6-8 weeks
+22701132	mean 44 years	mean: 44 years
 1323272	49 years old	49 years
 1321638	51 years old	51 years
 1330124	6-8 weeks-old	6-8 weeks
@@ -1946,6 +2058,7 @@ tcell_id	h_age	new_h_age
 1322291	51 years old	51 years
 1338443	Adults	adult
 1320820	51 years old	51 years
+22701133	mean 44 years	mean: 44 years
 1329992	8-12 weeks old	8-12 weeks
 1320718	49 years old	49 years
 1323121	51 years old	51 years
@@ -1962,6 +2075,7 @@ tcell_id	h_age	new_h_age
 1321612	49 years old	49 years
 1346185	Adults	adult
 1346199	Adults	adult
+22701127	mean 44 years	mean: 44 years
 17804	6-8 weeks-old	6-8 weeks
 17822	6-8 weeks-old	6-8 weeks
 1321532	49 years old	49 years
@@ -1979,6 +2093,7 @@ tcell_id	h_age	new_h_age
 1349951	6-8 weeks old	6-8 weeks
 1349649	6-8 weeks old	6-8 weeks
 1349673	6-8 weeks old	6-8 weeks
+22701128	mean 44 years	mean: 44 years
 2468000	4 to 6 weeks	4-6 weeks
 18057467	6-10 weeks old	6-10 weeks
 1321741	51 years old	51 years
@@ -1995,6 +2110,7 @@ tcell_id	h_age	new_h_age
 14413	8-12 weeks-old	8-12 weeks
 14414	8-12 weeks-old	8-12 weeks
 14423	8-12 weeks-old	8-12 weeks
+22701129	mean 44 years	mean: 44 years
 1321231	49 years old	49 years
 1321236	49 years old	49 years
 1322814	49 years old	49 years
@@ -2007,6 +2123,8 @@ tcell_id	h_age	new_h_age
 1466605	8-10 weeks old	8-10 weeks
 1316960	4-16 years old	4-16 years
 1384081	7-10 weeks-old	7-10 weeks
+22701107	mean 44 years	mean: 44 years
+22701108	mean 44 years	mean: 44 years
 1320967	49 years old	49 years
 1321284	49 years old	49 years
 1322382	49 years old	49 years
@@ -2017,12 +2135,16 @@ tcell_id	h_age	new_h_age
 1320708	51 years old	51 years
 1321082	51 years old	51 years
 1323159	49 years old	49 years
+22701135	mean 44 years	mean: 44 years
 1316999	4-16 years old	4-16 years
 1317003	4-16 years old	4-16 years
+22701134	mean 44 years	mean: 44 years
 1323131	49 years old	49 years
 1323137	51 years old	51 years
 1466674	8-10 weeks old	8-10 weeks
+22701109	mean 44 years	mean: 44 years
 1316881	4-16 years old	4-16 years
+22701110	mean 44 years	mean: 44 years
 1341341	Adults	adult
 1337602	Adults	adult
 1335472	8-10 weeks-old	8-10 weeks
@@ -2043,13 +2165,16 @@ tcell_id	h_age	new_h_age
 1322059	49 years old	49 years
 1321193	51 years old	51 years
 1321748	49 years old	49 years
+22701136	mean 44 years	mean: 44 years
 1334095	Adults	adult
 13944	6-10 weeks-old	6-10 weeks
 13587	6-10 weeks-old	6-10 weeks
 1342880	Adults	adult
 1419278	6-8 weeks old	6-8 weeks
 1421052	8-12 week	8-12 weeks
+22701120	mean 44 years	mean: 44 years
 1322723	51 years old	51 years
+22701121	mean 44 years	mean: 44 years
 14424	8-12 weeks-old	8-12 weeks
 4592	10-16 weeks old	10-16 weeks
 4593	10-16 weeks old	10-16 weeks
@@ -2091,13 +2216,18 @@ tcell_id	h_age	new_h_age
 1321371	49 years old	49 years
 1321383	49 years old	49 years
 1322132	49 years old	49 years
+22701116	mean 44 years	mean: 44 years
 1321791	49 years old	49 years
+22701117	mean 44 years	mean: 44 years
 1321680	49 years old	49 years
 1321686	51 years old	51 years
 1384083	7-10 weeks-old	7-10 weeks
 1384092	7-10 weeks-old	7-10 weeks
+22701122	mean 44 years	mean: 44 years
 1322157	51 years old	51 years
+22701123	mean 44 years	mean: 44 years
 1472403	21-45 years old	21-45 years
+22701130	mean 44 years	mean: 44 years
 1342715	6-8 weeks old	6-8 weeks
 1323332	49 years old	49 years
 1321982	51 years old	51 years
@@ -2113,13 +2243,18 @@ tcell_id	h_age	new_h_age
 13967	6-10 weeks-old	6-10 weeks
 1420888	23-55 years old	23-55 years
 1337671	Adults	adult
+22701112	mean 44 years	mean: 44 years
 1384030	7-10 weeks-old	7-10 weeks
+22701113	mean 44 years	mean: 44 years
+22701111	mean 44 years	mean: 44 years
+22701114	mean 44 years	mean: 44 years
 1321699	49 years old	49 years
 1322041	51 years old	51 years
 1320977	51 years old	51 years
 1384036	7-10 weeks-old	7-10 weeks
 1384037	7-10 weeks-old	7-10 weeks
 1384038	7-10 weeks-old	7-10 weeks
+22701124	mean 44 years	mean: 44 years
 1419103	6-8 weeks old	6-8 weeks
 1419226	6-8 weeks old	6-8 weeks
 21210	6-16 wk	6-16 weeks
@@ -2145,6 +2280,8 @@ tcell_id	h_age	new_h_age
 1321156	49 years old	49 years
 1321161	51 years old	51 years
 1318081	6-8 weeks-old	6-8 weeks
+22701118	mean 44 years	mean: 44 years
+22701119	mean 44 years	mean: 44 years
 1384044	7-10 weeks-old	7-10 weeks
 1384040	7-10 weeks-old	7-10 weeks
 1325932	4 week	4 weeks
@@ -2211,7 +2348,9 @@ tcell_id	h_age	new_h_age
 1244242	6 to 10 weeks	6-10 weeks
 1244237	6 to 10 weeks	6-10 weeks
 13755	6-10 weeks-old	6-10 weeks
+22701140	mean 44 years	mean: 44 years
 9169	>6 wk	>6 weeks
+22701144	mean 44 years	mean: 44 years
 1322425	49 years old	49 years
 1343010	6-8 weeks old	6-8 weeks
 17831	6-8 wk	6-8 weeks
@@ -2276,6 +2415,7 @@ tcell_id	h_age	new_h_age
 13841	6-10 weeks-old	6-10 weeks
 13850	6-10 weeks-old	6-10 weeks
 13853	6-10 weeks-old	6-10 weeks
+22701141	mean 44 years	mean: 44 years
 2934	6-8 weeks old	6-8 weeks
 9170	>6 wk	>6 weeks
 13873	6-10 weeks-old	6-10 weeks
@@ -2301,6 +2441,7 @@ tcell_id	h_age	new_h_age
 1434925	8-14 weeks old	8-14 weeks
 9414	20–67 years	20-67 years
 10009	8-10 wk	8-10 weeks
+22701142	mean 44 years	mean: 44 years
 1322945	49 years old	49 years
 13908	6-10 weeks-old	6-10 weeks
 13909	6-10 weeks-old	6-10 weeks
@@ -2344,6 +2485,7 @@ tcell_id	h_age	new_h_age
 13935	6-10 weeks-old	6-10 weeks
 13937	6-10 weeks-old	6-10 weeks
 1349160	26-72 years-old	26-72 years
+22701139	mean 44 years	mean: 44 years
 1341497	2-4 months old	2-4 months
 1336851	4 to 8 weeks	4-8 weeks
 1335846	6-8 weeks old	6-8 weeks
@@ -2358,6 +2500,7 @@ tcell_id	h_age	new_h_age
 13758	6-10 weeks-old	6-10 weeks
 13759	6-10 weeks-old	6-10 weeks
 13761	6-10 weeks-old	6-10 weeks
+22701143	mean 44 years	mean: 44 years
 1345482	Adults	adult
 1345491	Adults	adult
 1323532	49 years old	49 years
@@ -2424,6 +2567,7 @@ tcell_id	h_age	new_h_age
 9362	8-12 wk.	8-12 weeks
 9364	8-12 wk.	8-12 weeks
 9366	8-12 wk.	8-12 weeks
+22701138	mean 44 years	mean: 44 years
 1323401	51 years old	51 years
 1322669	49 years old	49 years
 1322673	49 years old	49 years
@@ -2475,6 +2619,7 @@ tcell_id	h_age	new_h_age
 1434905	8-14 weeks old	8-14 weeks
 1468425	3-10 years old	3-10 years
 1468451	3-10 years old	3-10 years
+22701145	mean 44 years	mean: 44 years
 1373684	6-8 weeks old	6-8 weeks
 7591	6-8 weeks old	6-8 weeks
 1471610	24-75 years old	24-75 years
@@ -2493,9 +2638,11 @@ tcell_id	h_age	new_h_age
 1369045	6-8 weeks old	6-8 weeks
 15491	6-10 wk	6-10 weeks
 14437	8-12 weeks-old	8-12 weeks
+22701152	mean 44 years	mean: 44 years
 1353523	16-50 years-old	16-50 years
 12389744	19 to 91 years	19-91 years
 1346695	Adults	adult
+22701146	mean 44 years	mean: 44 years
 21786	> 8 wk.	>8 weeks
 1382791	6-8 weeks old	6-8 weeks
 1471565	25-58 years old	25-58 years
@@ -2524,6 +2671,7 @@ tcell_id	h_age	new_h_age
 1471801	Adult	adult
 1370465	6-9 months-old	6-9 months
 1435759	1-2 months-old	1-2 months
+22701153	mean 44 years	mean: 44 years
 12329	8-10 wks.	8-10 weeks
 2467669	22 to 80 years	22-80 years
 1369049	6-8 weeks old	6-8 weeks
@@ -2535,7 +2683,9 @@ tcell_id	h_age	new_h_age
 1361082	6-8 weeks old	6-8 weeks
 1361155	6-8 weeks old	6-8 weeks
 5359	17-81 years old	17-81 years
+22701151	mean 44 years	mean: 44 years
 2467670	22 to 80 years	22-80 years
+22701150	mean 44 years	mean: 44 years
 1353163	6-10 weeks old	6-10 weeks
 1852829	8–12 weeks	8-12 weeks
 7961	6 to 10 wk	6-10 weeks
@@ -2548,6 +2698,8 @@ tcell_id	h_age	new_h_age
 7992	6 to 10 wk	6-10 weeks
 1420183	Adults	adult
 2377469	18 to 50 years	18-50 years
+22701149	mean 44 years	mean: 44 years
+22701148	mean 44 years	mean: 44 years
 1003290	3 months-old	3 months
 1003295	3 months-old	3 months
 1355528	6-8 weeks old	6-8 weeks
@@ -2559,6 +2711,7 @@ tcell_id	h_age	new_h_age
 14429	8-12 weeks-old	8-12 weeks
 14431	8-12 weeks-old	8-12 weeks
 8007	6 to 10 wk	6-10 weeks
+22701147	mean 44 years	mean: 44 years
 1243567	6-8 weeks-old	6-8 weeks
 1243570	6-8 weeks-old	6-8 weeks
 22176	4-5 weeks-old	4-5 weeks
@@ -2612,8 +2765,14 @@ tcell_id	h_age	new_h_age
 15494	6-10 wk	6-10 weeks
 15497	6-10 wk	6-10 weeks
 9594	8-10 wk	8-10 weeks
+22701161	mean 44 years	mean: 44 years
+22701162	mean 44 years	mean: 44 years
+22701163	mean 44 years	mean: 44 years
 22638630	32- 53.5 years	32-53.5 years
 1005991	3 months-old	3 months
+22701169	mean 44 years	mean: 44 years
+22701170	mean 44 years	mean: 44 years
+22701171	mean 44 years	mean: 44 years
 1700814	8 to 12 weeks	8-12 weeks
 15478	6-10 wk	6-10 weeks
 15480	6-10 wk	6-10 weeks
@@ -2625,6 +2784,7 @@ tcell_id	h_age	new_h_age
 22549	6 weeks-old	6 weeks
 22566	6 weeks-old	6 weeks
 22576	6 weeks-old	6 weeks
+22701157	mean 44 years	mean: 44 years
 16169	8-12 wk	8-12 weeks
 21782	> 8 wk.	>8 weeks
 22727	6 weeks-old	6 weeks
@@ -2633,7 +2793,9 @@ tcell_id	h_age	new_h_age
 22789	6 weeks-old	6 weeks
 9686	8-10wk	8-10 weeks
 5033392	Mean: 30 years	mean: 30 years
+22701155	mean 44 years	mean: 44 years
 1370854	6-week-old	6 weeks
+22701154	mean 44 years	mean: 44 years
 1349818	6-8 weeks old	6-8 weeks
 1349835	6-8 weeks old	6-8 weeks
 22590	6 weeks-old	6 weeks
@@ -2646,6 +2808,7 @@ tcell_id	h_age	new_h_age
 8015	6-10 wk	6-10 weeks
 12389251	19 to 91 years	19-91 years
 1031840	4-12 weeks-old	4-12 weeks
+22701165	mean 44 years	mean: 44 years
 5384	21-55 years old	21-55 years
 5387	21-55 years old	21-55 years
 8828	8-10 wks.	8-10 weeks
@@ -2654,6 +2817,8 @@ tcell_id	h_age	new_h_age
 12328	8-10 wks.	8-10 weeks
 1275554	8-10 weeks-old	8-10 weeks
 22558	6 weeks-old	6 weeks
+22701159	mean 44 years	mean: 44 years
+22701158	mean 44 years	mean: 44 years
 22769	6 weeks-old	6 weeks
 22772	6 weeks-old	6 weeks
 22778	6 weeks-old	6 weeks
@@ -2678,6 +2843,9 @@ tcell_id	h_age	new_h_age
 6500	6-8 weeks old	6-8 weeks
 2130106	29 to 53 years	29-53 years
 9623	8-10wk	8-10 weeks
+22701166	mean 44 years	mean: 44 years
+22701167	mean 44 years	mean: 44 years
+22701168	mean 44 years	mean: 44 years
 1275545	8-10 weeks-old	8-10 weeks
 1275550	8-10 weeks-old	8-10 weeks
 1275551	8-10 weeks-old	8-10 weeks
@@ -2706,6 +2874,7 @@ tcell_id	h_age	new_h_age
 22658	6 weeks-old	6 weeks
 22532	6 weeks-old	6 weeks
 22542	6 weeks-old	6 weeks
+22701160	mean 44 years	mean: 44 years
 1275555	8-10 weeks-old	8-10 weeks
 1370199	6-8 weeks old	6-8 weeks
 1370212	6-8 weeks old	6-8 weeks
@@ -2737,9 +2906,11 @@ tcell_id	h_age	new_h_age
 1275561	8-10 weeks-old	8-10 weeks
 1275603	8-10 weeks-old	8-10 weeks
 16240	6-8 wk	6-8 weeks
+22701164	mean 44 years	mean: 44 years
 9565	6-8 weeks-old	6-8 weeks
 1885555	6 to 10 weeks	6-10 weeks
 1885553	6 to 10 weeks	6-10 weeks
+22701156	mean 44 years	mean: 44 years
 1898696	8 week-old	8 weeks
 22664	6 weeks-old	6 weeks
 22683	6 weeks-old	6 weeks
@@ -2927,9 +3098,11 @@ tcell_id	h_age	new_h_age
 1341498	2-4 months old	2-4 months
 1338137	7-17 years old	7-17 years
 1338138	7-17 years old	7-17 years
+22701177	mean 44 years	mean: 44 years
 1186283	15-73 years-old	15-73 years
 12390116	19 to 91 years	19-91 years
 1340458	4-6 weeks old	4-6 weeks
+22701176	mean 44 years	mean: 44 years
 12389188	19 to 91 years	19-91 years
 14729	6-10 wk	6-10 weeks
 14687	6-10 wk	6-10 weeks
@@ -2953,6 +3126,7 @@ tcell_id	h_age	new_h_age
 1004313	4-5 weeks old	4-5 weeks
 1004681	4-5 weeks old	4-5 weeks
 1004298	4-5 weeks old	4-5 weeks
+22701172	mean 44 years	mean: 44 years
 1273298	6-10 weeks old	6-10 weeks
 12389204	19 to 91 years	19-91 years
 1343427	Adults	adult
@@ -2962,6 +3136,7 @@ tcell_id	h_age	new_h_age
 17813	6-12 wk	6-12 weeks
 1343459	Adults	adult
 1343460	Adults	adult
+22701173	mean 44 years	mean: 44 years
 1356772	8 weeks-old	8 weeks
 1337654	Adults	adult
 1378005	6-10 weeks-old	6-10 weeks
@@ -2970,6 +3145,8 @@ tcell_id	h_age	new_h_age
 1004679	4-5 weeks old	4-5 weeks
 22638640	32- 53.5 years	32-53.5 years
 1180877	6-8 weeks-old	6-8 weeks
+22701174	mean 44 years	mean: 44 years
+22701175	mean 44 years	mean: 44 years
 1186270	15-73 years-old	15-73 years
 1186266	15-73 years-old	15-73 years
 1337655	Adults	adult
@@ -2979,6 +3156,7 @@ tcell_id	h_age	new_h_age
 1341488	2-4 months old	2-4 months
 1273030	36-51 years old	36-51 years
 1273033	36-51 years old	36-51 years
+22701186	mean 44 years	mean: 44 years
 1357096	21-66 years old	21-66 years
 1281844	42-70 years-old	42-70 years
 1281857	42-70 years-old	42-70 years
@@ -2988,6 +3166,7 @@ tcell_id	h_age	new_h_age
 1383076	12-16 weeks old	12-16 weeks
 1383077	12-16 weeks old	12-16 weeks
 1370645	6-10 weeks-old	6-10 weeks
+22701187	mean 44 years	mean: 44 years
 1380741	8-10 weeks-old	8-10 weeks
 1281860	42-70 years-old	42-70 years
 1340474	4-6 weeks old	4-6 weeks
@@ -3000,9 +3179,15 @@ tcell_id	h_age	new_h_age
 1378111	6-10 weeks-old	6-10 weeks
 1378013	6-10 weeks-old	6-10 weeks
 1380740	8-10 weeks-old	8-10 weeks
+22701184	mean 44 years	mean: 44 years
 1342011	2-4 months old	2-4 months
 1342014	2-4 months old	2-4 months
+22701194	mean 44 years	mean: 44 years
+22701193	mean 44 years	mean: 44 years
+22701178	mean 44 years	mean: 44 years
 1382671	6-12 weeks-old	6-12 weeks
+22701179	mean 44 years	mean: 44 years
+22701180	mean 44 years	mean: 44 years
 1343455	Adults	adult
 1183494	6-8 weeks-old	6-8 weeks
 1383079	12-16 weeks old	12-16 weeks
@@ -3019,6 +3204,7 @@ tcell_id	h_age	new_h_age
 1356759	8 weeks-old	8 weeks
 1356782	8 weeks-old	8 weeks
 1383664	8-20 weeks-old	8-20 weeks
+22701188	mean 44 years	mean: 44 years
 1356787	8 weeks-old	8 weeks
 1341505	2-4 months old	2-4 months
 1341506	2-4 months old	2-4 months
@@ -3033,6 +3219,8 @@ tcell_id	h_age	new_h_age
 1369098	6-8 weeks old	6-8 weeks
 1369164	6-8 weeks old	6-8 weeks
 1357102	21-66 years old	21-66 years
+22701189	mean 44 years	mean: 44 years
+22701190	mean 44 years	mean: 44 years
 1469744	8 to 10 weeks	8-10 weeks
 1469746	8 to 10 weeks	8-10 weeks
 1383081	12-16 weeks old	12-16 weeks
@@ -3052,6 +3240,7 @@ tcell_id	h_age	new_h_age
 1273027	36-51 years old	36-51 years
 1273029	36-51 years old	36-51 years
 1318181	30-52 years-old	30-52 years
+22701181	mean 44 years	mean: 44 years
 1340451	4-6 weeks old	4-6 weeks
 1340445	4-6 weeks old	4-6 weeks
 1375658	6-8 weeks old	6-8 weeks
@@ -3061,6 +3250,7 @@ tcell_id	h_age	new_h_age
 1357086	21-66 years old	21-66 years
 1329570	4-6 wk	4-6 weeks
 1357098	21-66 years old	21-66 years
+22701191	mean 44 years	mean: 44 years
 1329576	4-6 wk	4-6 weeks
 1329606	4-6 wk	4-6 weeks
 1383083	12-16 weeks old	12-16 weeks
@@ -3073,6 +3263,7 @@ tcell_id	h_age	new_h_age
 1357087	21-66 years old	21-66 years
 1357090	21-66 years old	21-66 years
 1357091	21-66 years old	21-66 years
+22701182	mean 44 years	mean: 44 years
 1343430	Adults	adult
 1382790	6-8 weeks old	6-8 weeks
 1383090	12-16 weeks old	12-16 weeks
@@ -3082,6 +3273,9 @@ tcell_id	h_age	new_h_age
 1341516	2-4 months old	2-4 months
 1341517	2-4 months old	2-4 months
 1341518	2-4 months old	2-4 months
+22701192	mean 44 years	mean: 44 years
+22701183	mean 44 years	mean: 44 years
+22701185	mean 44 years	mean: 44 years
 1382074	60-95 yrs	60-95 years
 1469843	8 to 10 weeks	8-10 weeks
 1469847	8 to 10 weeks	8-10 weeks
@@ -3096,11 +3290,16 @@ tcell_id	h_age	new_h_age
 1384033	7-10 weeks-old	7-10 weeks
 1382680	6-12 weeks-old	6-12 weeks
 1382683	6-12 weeks-old	6-12 weeks
+22701201	mean 44 years	mean: 44 years
+22701205	mean 44 years	mean: 44 years
 1383959	7-10 weeks-old	7-10 weeks
 12389612	19 to 91 years	19-91 years
 1318178	30-52 years-old	30-52 years
 1469849	8 to 10 weeks	8-10 weeks
 1384070	7-10 weeks-old	7-10 weeks
+22701197	mean 44 years	mean: 44 years
+22701198	mean 44 years	mean: 44 years
+22701199	mean 44 years	mean: 44 years
 1378098	6-10 weeks-old	6-10 weeks
 1378123	6-10 weeks-old	6-10 weeks
 1327284	7-74 years old	7-74 years
@@ -3115,6 +3314,7 @@ tcell_id	h_age	new_h_age
 1337672	Adults	adult
 1337673	Adults	adult
 1377997	6-10 weeks-old	6-10 weeks
+22701196	mean 44 years	mean: 44 years
 22638641	32- 53.5 years	32-53.5 years
 1383647	8-20 weeks-old	8-20 weeks
 1378060	6-10 weeks-old	6-10 weeks
@@ -3124,6 +3324,7 @@ tcell_id	h_age	new_h_age
 1383501	1.5 - 10 years	1.5-10 years
 1383459	8-12 weeks old	8-12 weeks
 1383480	8-12 weeks old	8-12 weeks
+22701195	mean 44 years	mean: 44 years
 1357161	21-66 years old	21-66 years
 12389604	19 to 91 years	19-91 years
 1346040	Adults	adult
@@ -3133,6 +3334,7 @@ tcell_id	h_age	new_h_age
 1346053	Adults	adult
 1383658	8-20 weeks-old	8-20 weeks
 1383742	8-20 weeks-old	8-20 weeks
+22701206	mean 44 years	mean: 44 years
 1378055	6-10 weeks-old	6-10 weeks
 12389642	19 to 91 years	19-91 years
 1318166	30-52 years-old	30-52 years
@@ -3147,15 +3349,19 @@ tcell_id	h_age	new_h_age
 1382667	6-12 weeks-old	6-12 weeks
 1469696	6-8 weeks old	6-8 weeks
 1356962	21-66 years old	21-66 years
+22701202	mean 44 years	mean: 44 years
 1318162	30-52 years-old	30-52 years
 1356964	21-66 years old	21-66 years
 1356967	19-38 years old	19-38 years
 1356969	21-66 years old	21-66 years
 1356981	19-38 years old	19-38 years
+22701204	mean 44 years	mean: 44 years
 1244384	8-12 weeks-old	8-12 weeks
 1244396	8-12 weeks-old	8-12 weeks
 1244382	8-12 weeks-old	8-12 weeks
 1383508	50 yrs	50 years
+22701200	mean 44 years	mean: 44 years
+22701203	mean 44 years	mean: 44 years
 1346070	Adults	adult
 1383578	6-10 weeks old	6-10 weeks
 1383570	6-10 weeks old	6-10 weeks
@@ -3369,6 +3575,7 @@ tcell_id	h_age	new_h_age
 1322423	51 years old	51 years
 1322426	49 years old	49 years
 1322427	51 years old	51 years
+22701207	mean 44 years	mean: 44 years
 1322705	49 years old	49 years
 1322707	51 years old	51 years
 1469671	6-8 weeks old	6-8 weeks
@@ -5538,6 +5745,7 @@ tcell_id	h_age	new_h_age
 1434915	8-14 weeks old	8-14 weeks
 1474415	8-24 weeks old	8-24 weeks
 1459206	8 weeks old	8 weeks
+1275128	5- to 8- weeks -old	5-8 weeks
 1346118	Adults	adult
 1468444	3-10 years old	3-10 years
 1323588	49 years old	49 years
@@ -5660,7 +5868,9 @@ tcell_id	h_age	new_h_age
 1472433	21-45 years old	21-45 years
 1321692	49 years old	49 years
 1472494	21-45 years old	21-45 years
+1270754	5- to 8- weeks -old	5-8 weeks
 1885593	6 to 10 weeks	6-10 weeks
+1270744	5- to 8- weeks -old	5-8 weeks
 1346589	Adults	adult
 1338120	19-74 years-old	19-74 years
 1336912	Adults	adult
@@ -5679,6 +5889,7 @@ tcell_id	h_age	new_h_age
 2133575	6 to 8 weeks	6-8 weeks
 1471834	Adult	adult
 1186286	15-73 years-old	15-73 years
+1270916	5- to 8- weeks -old	5-8 weeks
 1469700	6-8 weeks old	6-8 weeks
 1471805	Adult	adult
 1471799	Adult	adult
@@ -5708,6 +5919,7 @@ tcell_id	h_age	new_h_age
 1321525	51 years old	51 years
 1472498	21-45 years old	21-45 years
 1459203	8 weeks old	8 weeks
+1270743	5- to 8- weeks -old	5-8 weeks
 1471827	Adult	adult
 1471832	Adult	adult
 1474203	12-65 years old	12-65 years
@@ -6204,6 +6416,7 @@ tcell_id	h_age	new_h_age
 1369047	6-8 weeks old	6-8 weeks
 1368785	6-8 weeks old	6-8 weeks
 1369100	6-8 weeks old	6-8 weeks
+1270918	5- to 8- weeks -old	5-8 weeks
 15785	6-10 wk	6-10 weeks
 1369953	6-8 wks	6-8 weeks
 1370584	12 months-old	12 months
@@ -6674,6 +6887,7 @@ tcell_id	h_age	new_h_age
 1665064	6 to 7 weeks	6-7 weeks
 1884204	4-6 weeks-old	4-6 weeks
 1665310	6 to 12 weeks	6-12 weeks
+22905369	29 to 39 weeks	29-39 weeks
 1665762	6 to 8 weeks	6-8 weeks
 2145572	6 to 10 weeks	6-10 weeks
 1665859	6 to 12 weeks	6-12 weeks
@@ -6697,6 +6911,9 @@ tcell_id	h_age	new_h_age
 1665312	6 to 12 weeks	6-12 weeks
 1665313	6 to 12 weeks	6-12 weeks
 1664766	3 to 4 months	3-4 months
+22905386	29 to 39 weeks	29-39 weeks
+22905387	29 to 39 weeks	29-39 weeks
+22905388	29 to 39 weeks	29-39 weeks
 1665863	6 to 12 weeks	6-12 weeks
 1666301	8 to 12 weeks	8-12 weeks
 1666526	33 to 57 years	33-57 years
@@ -6710,6 +6927,7 @@ tcell_id	h_age	new_h_age
 1666956	8 to 12 weeks	8-12 weeks
 1666947	8 to 12 weeks	8-12 weeks
 18920968	12- 14 weeks	12-14 weeks
+22907344	39 to 82 years	39-82 years
 1884202	4-6 weeks-old	4-6 weeks
 1884203	4-6 weeks-old	4-6 weeks
 1664762	4 to 6 weeks	4-6 weeks
@@ -8887,6 +9105,7 @@ tcell_id	h_age	new_h_age
 1369127	Adult	adult
 1384031	7-10 weeks-old	7-10 weeks
 1384039	7-10 weeks-old	7-10 weeks
+22704880	42 to 82 years	42-82 years
 1369112	Adult	adult
 1369121	Adult	adult
 1313372	20 years old	20 years
@@ -9262,6 +9481,7 @@ tcell_id	h_age	new_h_age
 1336440	25-50 years-old	25-50 years
 1323504	49 years old	49 years
 1323508	49 years old	49 years
+22704891	42 to 82 years	42-82 years
 1346086	Adults	adult
 1346236	Adults	adult
 1332931	Adults	adult
@@ -9678,6 +9898,10 @@ tcell_id	h_age	new_h_age
 1335208	Adults	adult
 1332903	Adults	adult
 1332907	Adults	adult
+22745693	9 week old	9 weeks
+22745694	9 week old	9 weeks
+22745695	9 week old	9 weeks
+22745692	9 week old	9 weeks
 1370539	12 months-old	12 months
 1322025	51 years old	51 years
 1322029	51 years old	51 years
@@ -9736,6 +9960,7 @@ tcell_id	h_age	new_h_age
 1322770	49 years old	49 years
 6977	4-6 weeks old	4-6 weeks
 1336509	18-60 years old	18-60 years
+1275114	5- to 8- weeks -old	5-8 weeks
 1321696	49 years old	49 years
 1320993	51 years old	51 years
 1320999	49 years old	49 years
@@ -9849,10 +10074,13 @@ tcell_id	h_age	new_h_age
 1322659	51 years old	51 years
 1322678	49 years old	49 years
 1322715	51 years old	51 years
+1270753	5- to 8- weeks -old	5-8 weeks
 1343352	Adults	adult
 1336676	18-30 years old	18-30 years
 1337653	Adults	adult
 1342458	Adult	adult
+1270741	5- to 8- weeks -old	5-8 weeks
+1270745	5- to 8- weeks -old	5-8 weeks
 1321229	51 years old	51 years
 1321247	49 years old	49 years
 1321254	51 years old	51 years
@@ -10210,6 +10438,7 @@ tcell_id	h_age	new_h_age
 1477018	18-63 years old	18-63 years
 1322301	49 years old	49 years
 1342851	6-8 weeks old	6-8 weeks
+1270742	5- to 8- weeks -old	5-8 weeks
 1471558	25-58 years old	25-58 years
 1321006	51 years old	51 years
 1471583	25-58 years old	25-58 years
@@ -10226,6 +10455,7 @@ tcell_id	h_age	new_h_age
 1332943	Adults	adult
 1466638	8-10 weeks old	8-10 weeks
 1339162	Adults	adult
+1270746	5- to 8- weeks -old	5-8 weeks
 1356971	19-38 years old	19-38 years
 1356986	21-66 years old	21-66 years
 1313242	20 years old	20 years
@@ -16435,6 +16665,8 @@ tcell_id	h_age	new_h_age
 1688867	5 to 8 weeks	5-8 weeks
 1688868	5 to 8 weeks	5-8 weeks
 1688869	5 to 8 weeks	5-8 weeks
+22907340	39 to 82 years	39-82 years
+22907348	39 to 82 years	39-82 years
 1684934	neonatal	neonate
 1687772	15 to 70 years	15-70 years
 1687773	15 to 70 years	15-70 years
@@ -16461,6 +16693,7 @@ tcell_id	h_age	new_h_age
 1884434	20-65 years-old	20-65 years
 1688754	5 to 8 weeks	5-8 weeks
 1688607	6 to 8 weeks	6-8 weeks
+22907341	39 to 82 years	39-82 years
 1690600	8 -12 weeks old	8-12 weeks
 1684138	Adults	adult
 22906827	6 to 8 weeks	6-8 weeks
@@ -16504,6 +16737,7 @@ tcell_id	h_age	new_h_age
 1683308	6 to 9 weeks	6-9 weeks
 1683377	10 to 14 weeks	10-14 weeks
 1884401	20-65 years-old	20-65 years
+22907345	39 to 82 years	39-82 years
 1688491	4 to 6 weeks	4-6 weeks
 1688493	4 to 6 weeks	4-6 weeks
 1682246	6 to 83 years	6-83 years
@@ -16992,6 +17226,7 @@ tcell_id	h_age	new_h_age
 1687030	24 to 48 years	24-48 years
 1687031	24 to 48 years	24-48 years
 1687168	28 to 64 years	28-64 years
+22907365	39 to 82 years	39-82 years
 1690601	8 -12 weeks old	8-12 weeks
 1690602	8 -12 weeks old	8-12 weeks
 1698229	Children	child
@@ -17157,6 +17392,8 @@ tcell_id	h_age	new_h_age
 1689137	5 to 8 weeks	5-8 weeks
 1687398	24 to 48 years	24-48 years
 1686889	22 to 59 years	22-59 years
+22907361	39 to 82 years	39-82 years
+22907349	39 to 82 years	39-82 years
 1687054	24 to 68 years	24-68 years
 1687055	24 to 68 years	24-68 years
 1884419	20-65 years-old	20-65 years
@@ -17175,6 +17412,8 @@ tcell_id	h_age	new_h_age
 1687067	24 to 68 years	24-68 years
 1884421	20-65 years-old	20-65 years
 1686750	22 to 59 years	22-59 years
+22907356	39 to 82 years	39-82 years
+22907360	39 to 82 years	39-82 years
 1687756	15 to 61 years	15-61 years
 1687755	15 to 70 years	15-70 years
 1690546	5 to 6 weeks	5-6 weeks
@@ -17215,6 +17454,7 @@ tcell_id	h_age	new_h_age
 1690640	8 -12 weeks old	8-12 weeks
 1690641	8 -12 weeks old	8-12 weeks
 1690642	8 -12 weeks old	8-12 weeks
+22907364	39 to 82 years	39-82 years
 1686901	22 to 59 years	22-59 years
 1686910	22 to 59 years	22-59 years
 1686913	24 to 48 years	24-48 years
@@ -17234,6 +17474,7 @@ tcell_id	h_age	new_h_age
 1686932	24 to 48 years	24-48 years
 1687085	8 to 10 weeks	8-10 weeks
 1687086	8 to 10 weeks	8-10 weeks
+22907357	39 to 82 years	39-82 years
 1687760	15 to 70 years	15-70 years
 1687762	15 to 70 years	15-70 years
 1687763	15 to 61 years	15-61 years
@@ -17329,6 +17570,8 @@ tcell_id	h_age	new_h_age
 1689158	5 to 8 weeks	5-8 weeks
 1689159	5 to 8 weeks	5-8 weeks
 1689160	5 to 8 weeks	5-8 weeks
+22907352	39 to 82 years	39-82 years
+22907353	39 to 82 years	39-82 years
 1686840	22 to 59 years	22-59 years
 1686843	24 to 48 years	24-48 years
 1686837	22 to 59 years	22-59 years
@@ -17939,6 +18182,7 @@ tcell_id	h_age	new_h_age
 1680633	6 to 8 weeks	6-8 weeks
 1680634	6 to 8 weeks	6-8 weeks
 1680659	8 to 10 weels	8-10 weeks
+22791696	52 to 77 years	52-77 years
 1705641	10 to 14 weeks	10-14 weeks
 1705642	10 to 14 weeks	10-14 weeks
 1705653	10 to 14 weeks	10-14 weeks
@@ -20841,6 +21085,9 @@ tcell_id	h_age	new_h_age
 1778589	6 to 8 weeks	6-8 weeks
 1778593	6 to 8 weeks	6-8 weeks
 1778597	6 to 8 weeks	6-8 weeks
+22791730	52 to 77 years	52-77 years
+22791731	52 to 77 years	52-77 years
+22791732	52 to 77 years	52-77 years
 1784734	39 years old	39 years
 1784733	39 years old	39 years
 1784735	39 years old	39 years
@@ -20861,6 +21108,7 @@ tcell_id	h_age	new_h_age
 1777025	4 to 21 years	4-21 years
 1777028	4 to 21 years	4-21 years
 1777029	4 to 21 years	4-21 years
+22791734	52 to 77 years	52-77 years
 1779571	4 to 57 years	4-57 years
 1779572	4 to 57 years	4-57 years
 1784739	52 years-old	52 years
@@ -21283,6 +21531,7 @@ tcell_id	h_age	new_h_age
 1778595	6 to 8 weeks	6-8 weeks
 1778596	6 to 8 weeks	6-8 weeks
 1778598	6 to 8 weeks	6-8 weeks
+22791728	52 to 77 years	52-77 years
 1774606	28 to 52 years	28-52 years
 2145477	6 to 8 weeks	6-8 weeks
 1767637	mean age  40.1 years	mean: 40.1 years
@@ -22437,6 +22686,7 @@ tcell_id	h_age	new_h_age
 1819441	28 to 76 years	28-76 years
 1819442	28 to 76 years	28-76 years
 1819443	28 to 76 years	28-76 years
+22907372	39 to 82 years	39-82 years
 1818351	1 to 5 years	1-5 years
 1818353	1 to 5 years	1-5 years
 1818355	1 to 5 years	1-5 years
@@ -22710,6 +22960,12 @@ tcell_id	h_age	new_h_age
 1959264	8-10 weeks old	8-10 weeks
 1816882	17 to 78 years	17-78 years
 1816883	17 to 78 years	17-78 years
+22791736	52 to 77 years	52-77 years
+22791737	52 to 77 years	52-77 years
+22791739	52 to 77 years	52-77 years
+22791738	52 to 77 years	52-77 years
+22791758	52 to 77 years	52-77 years
+22791747	52 to 77 years	52-77 years
 1818336	1 to 5 years	1-5 years
 1816847	17 to 74 years	17-74 years
 1816849	17 to 74 years	17-74 years
@@ -22735,6 +22991,7 @@ tcell_id	h_age	new_h_age
 1816891	17 to 78 years	17-78 years
 1816892	17 to 78 years	17-78 years
 2145519	6 to 8 weeks	6-8 weeks
+22791761	52 to 77 years	52-77 years
 2456212	8 to 45 years	8-45 years
 1822032	4 to 6 weeks	4-6 weeks
 1816865	17 to 74 years	17-74 years
@@ -22753,11 +23010,17 @@ tcell_id	h_age	new_h_age
 1816898	17 to 78 years	17-78 years
 1816899	17 to 78 years	17-78 years
 1816900	17 to 78 years	17-78 years
+22791750	52 to 77 years	52-77 years
+22791751	52 to 77 years	52-77 years
+22791752	52 to 77 years	52-77 years
+22791753	52 to 77 years	52-77 years
+22791756	52 to 77 years	52-77 years
 1822019	4 to 6 weeks	4-6 weeks
 1822020	4 to 6 weeks	4-6 weeks
 1822021	4 to 6 weeks	4-6 weeks
 1822022	4 to 6 weeks	4-6 weeks
 1822031	4 to 6 weeks	4-6 weeks
+22791749	52 to 77 years	52-77 years
 1822033	4 to 6 weeks	4-6 weeks
 1822040	4 to 6 weeks	4-6 weeks
 1822041	4 to 6 weeks	4-6 weeks
@@ -22770,6 +23033,7 @@ tcell_id	h_age	new_h_age
 1816896	17 to 78 years	17-78 years
 1816901	17 to 78 years	17-78 years
 1816902	17 to 78 years	17-78 years
+22791757	52 to 77 years	52-77 years
 2397769	6 to 8 weeks	6-8 weeks
 1822034	4 to 6 weeks	4-6 weeks
 1822035	4 to 6 weeks	4-6 weeks
@@ -22780,6 +23044,9 @@ tcell_id	h_age	new_h_age
 1822044	4 to 6 weeks	4-6 weeks
 1819323	mean age = 37.7 years	mean: 37.7 years
 1817110	5 to 6 weeks	5-6 weeks
+22791743	52 to 77 years	52-77 years
+22791744	52 to 77 years	52-77 years
+22791741	52 to 77 years	52-77 years
 2396642	40-50 years-old	40-50 years
 1822050	4 to 6 weeks	4-6 weeks
 1822051	4 to 6 weeks	4-6 weeks
@@ -36460,6 +36727,8 @@ tcell_id	h_age	new_h_age
 22638945	32- 53.5 years	32-53.5 years
 22638946	32- 53.5 years	32-53.5 years
 22638927	32- 53.5 years	32-53.5 years
+22907373	39 to 82 years	39-82 years
+22907376	39 to 82 years	39-82 years
 22638967	32- 53.5 years	32-53.5 years
 22638928	32- 53.5 years	32-53.5 years
 1937363	8 to 10 weeks	8-10 weeks
@@ -38194,6 +38463,8 @@ tcell_id	h_age	new_h_age
 1966940	25 to 52 years	25-52 years
 1966941	25 to 52 years	25-52 years
 1966950	25 to 52 years	25-52 years
+22907380	39 to 82 years	39-82 years
+22907377	39 to 82 years	39-82 years
 1966890	25 to 52 years	25-52 years
 1966926	25 to 52 years	25-52 years
 1966935	25 to 52 years	25-52 years
@@ -38236,6 +38507,7 @@ tcell_id	h_age	new_h_age
 1966970	25 to 52 years	25-52 years
 1961225	6 to 12 weeks	6-12 weeks
 1961226	6 to 12 weeks	6-12 weeks
+22907381	39 to 82 years	39-82 years
 1966917	25 to 52 years	25-52 years
 1966949	25 to 52 years	25-52 years
 1967410	6 to 12 weeks	6-12 weeks
@@ -38328,6 +38600,7 @@ tcell_id	h_age	new_h_age
 22639036	32- 53.5 years	32-53.5 years
 1957305	average 44.3 years	mean: 44.3 years
 1957306	average 44.3 years	mean: 44.3 years
+22907385	39 to 82 years	39-82 years
 1957214	average 44.3 years	mean: 44.3 years
 1957215	average 44.3 years	mean: 44.3 years
 1957216	average 44.3 years	mean: 44.3 years
@@ -38946,6 +39219,7 @@ tcell_id	h_age	new_h_age
 1977288	6 - 10 weeks	6-10 weeks
 1977289	6 - 10 weeks	6-10 weeks
 1977290	6 - 10 weeks	6-10 weeks
+22907390	39 to 82 years	39-82 years
 1970465	20-65 years-old	20-65 years
 1970472	20-65 years-old	20-65 years
 1970473	20-65 years-old	20-65 years
@@ -39335,6 +39609,8 @@ tcell_id	h_age	new_h_age
 1983729	Adult	adult
 1983730	Adult	adult
 22906852	3 to 4 weeks	3-4 weeks
+22907386	39 to 82 years	39-82 years
+22907389	39 to 82 years	39-82 years
 1983488	Adult	adult
 22906851	3 to 4 weeks	3-4 weeks
 1974676	6 - 8 weeks	6-8 weeks
@@ -39603,6 +39879,7 @@ tcell_id	h_age	new_h_age
 1981333	12 to 16 weeks	12-16 weeks
 2096431	23-55 years-old	23-55 years
 2096421	23-43 years-old	23-43 years
+22907393	39 to 82 years	39-82 years
 1981459	6 to 8 weeks	6-8 weeks
 1985322	6 - 8 weeks	6-8 weeks
 1985323	6 - 8 weeks	6-8 weeks
@@ -41484,6 +41761,9 @@ tcell_id	h_age	new_h_age
 1999561	25 years old	25 years
 1998340	21 years old	21 years
 1999566	25 years old	25 years
+22754497	57- 81 years	57-81 years
+22754498	57- 81 years	57-81 years
+22754499	57- 81 years	57-81 years
 1997194	43 years old	43 years
 1993365	30 years old	30 years
 1997288	37 years old	37 years
@@ -41512,12 +41792,16 @@ tcell_id	h_age	new_h_age
 1997313	28 years old	28 years
 1997314	28 years old	28 years
 1989827	8 -12 weeks	8-12 weeks
+22754515	57- 81 years	57-81 years
+22754516	57- 81 years	57-81 years
 1999999	33 years old	33 years
 2000004	33 years old	33 years
 1999867	28 years old	28 years
 2009544	5 to 6 weeks	5-6 weeks
 2000141	35 years old	35 years
 2000005	33 years old	33 years
+22754860	50- 74 years	50-74 years
+22754851	50- 74 years	50-74 years
 1997739	40 years old	40 years
 1997743	40 years old	40 years
 22756402	8-12 weeks old	8-12 weeks
@@ -41541,15 +41825,25 @@ tcell_id	h_age	new_h_age
 1993635	55 years old	55 years
 1993639	47 years old	47 years
 1993642	48 years old	48 years
+22754477	57- 81 years	57-81 years
+22754478	57- 81 years	57-81 years
 2006935	17 to 26 weeks	17-26 weeks
 1992890	53 years old	53 years
 1993669	32 years old	32 years
+22791805	52 to 77 years	52-77 years
+22791806	52 to 77 years	52-77 years
 1993679	49 years old	49 years
 1993681	49 years old	49 years
 1993682	49 years old	49 years
 1993683	49 years old	49 years
 1993684	49 years old	49 years
 1993685	49 years old	49 years
+22791981	6 yrs	6 years
+22791982	6 yrs	6 years
+22791809	52 to 77 years	52-77 years
+22791983	6 yrs	6 years
+22791984	6 yrs	6 years
+22791985	6 yrs	6 years
 1993687	49 years old	49 years
 1993690	49 years old	49 years
 1993691	49 years old	49 years
@@ -41562,6 +41856,10 @@ tcell_id	h_age	new_h_age
 1993568	53 years old	53 years
 1993708	49 years old	49 years
 1993709	49 years old	49 years
+22791987	6 yrs	6 years
+22791811	52 to 77 years	52-77 years
+22791812	52 to 77 years	52-77 years
+22791988	6 yrs	6 years
 1993704	49 years old	49 years
 1993705	49 years old	49 years
 1993707	49 years old	49 years
@@ -41571,7 +41869,17 @@ tcell_id	h_age	new_h_age
 1993716	41 years old	41 years
 1993717	41 years old	41 years
 1993718	41 years old	41 years
+22791813	52 to 77 years	52-77 years
+22791814	52 to 77 years	52-77 years
+22791815	52 to 77 years	52-77 years
+22793126	55 to 81 years	55-81 years
+22793127	55 to 81 years	55-81 years
 1998395	35 years old	35 years
+22791989	6 yrs	6 years
+22791818	52 to 77 years	52-77 years
+22793129	55 to 81 years	55-81 years
+22793132	55 to 81 years	55-81 years
+22793134	55 to 81 years	55-81 years
 22904004	8 weeks old	8 weeks
 1991433	55 years old	55 years
 1991438	55 years old	55 years
@@ -41585,6 +41893,7 @@ tcell_id	h_age	new_h_age
 1998543	25 years old	25 years
 22904005	8 weeks old	8 weeks
 1998432	40 years old	40 years
+22791819	52 to 77 years	52-77 years
 22791827	Adults	adult
 22791828	Adults	adult
 1997141	35 years old	35 years
@@ -41596,10 +41905,17 @@ tcell_id	h_age	new_h_age
 1997241	27 years old	27 years
 1997245	58 years old	58 years
 1997254	28 years old	28 years
+22907394	39 to 82 years	39-82 years
+22791792	52 to 77 years	52-77 years
+22791793	52 to 77 years	52-77 years
+22791794	52 to 77 years	52-77 years
 1997253	28 years old	28 years
 1997258	33 years old	33 years
 1997260	33 years old	33 years
 1997184	30 years old	30 years
+22791976	6 yrs	6 years
+22791796	52 to 77 years	52-77 years
+22791975	6 yrs	6 years
 1997414	28 years old	28 years
 1997278	31 years old	31 years
 1997279	31 years old	31 years
@@ -41610,9 +41926,15 @@ tcell_id	h_age	new_h_age
 1997816	25 years old	25 years
 1997820	25 years old	25 years
 1997822	25 years old	25 years
+22907397	39 to 82 years	39-82 years
 1992585	40 years old	40 years
 1992183	35 years old	35 years
+22791798	52 to 77 years	52-77 years
+22791799	52 to 77 years	52-77 years
+22791800	52 to 77 years	52-77 years
 1997824	25 years old	25 years
+22793106	55 to 81 years	55-81 years
+22793125	55 to 81 years	55-81 years
 1992580	40 years old	40 years
 1992581	40 years old	40 years
 1992587	40 years old	40 years
@@ -41621,8 +41943,10 @@ tcell_id	h_age	new_h_age
 1992451	54 years old	54 years
 1993368	30 years old	30 years
 1993370	30 years old	30 years
+22791801	52 to 77 years	52-77 years
 1993244	53 years old	53 years
 1993384	28 years old	28 years
+22793088	55 to 81 years	55-81 years
 1992338	42 years old	42 years
 1993372	30 years old	30 years
 1993380	29 years old	29 years
@@ -41632,6 +41956,8 @@ tcell_id	h_age	new_h_age
 1993396	28 years old	28 years
 1993397	28 years old	28 years
 1993656	32 years old	32 years
+22791803	52 to 77 years	52-77 years
+22791980	6 yrs	6 years
 1993401	28 years old	28 years
 1993404	28 years old	28 years
 1993408	28 years old	28 years
@@ -43757,6 +44083,7 @@ tcell_id	h_age	new_h_age
 12577423	6 to 8 weeks	6-8 weeks
 2751187	8 to 10 weeks	8-10 weeks
 12577404	6 to 8 weeks	6-8 weeks
+22925384	9 week old	9 weeks
 2659959	> 6 weeks	>6 weeks
 12577413	6 to 8 weeks	6-8 weeks
 12577421	6 to 8 weeks	6-8 weeks
@@ -43778,6 +44105,7 @@ tcell_id	h_age	new_h_age
 2659838	30 to 70 years	30-70 years
 2659839	30 to 70 years	30-70 years
 2659840	30 to 70 years	30-70 years
+22925383	9 week old	9 weeks
 2659951	> 6 weeks	>6 weeks
 2659952	> 6 weeks	>6 weeks
 2659953	> 6 weeks	>6 weeks
@@ -62238,7 +62566,9 @@ tcell_id	h_age	new_h_age
 5033925	Mean: 29 years	mean: 29 years
 5033927	Mean: 29 years	mean: 29 years
 5033928	Mean: 30 years	mean: 30 years
+22741035	9 week old	9 weeks
 22741036	8 week old	8 weeks
+22741034	9 week old	9 weeks
 5033503	Mean: 29 years	mean: 29 years
 5033504	Mean: 30 years	mean: 30 years
 5033505	Mean: 29 years	mean: 29 years
@@ -71789,9 +72119,15 @@ tcell_id	h_age	new_h_age
 7698923	21 to 66 years	21-66 years
 7698934	21 to 66 years	21-66 years
 7698943	21 to 66 years	21-66 years
+22907454	39 to 82 years	39-82 years
+22907457	39 to 82 years	39-82 years
+22907458	39 to 82 years	39-82 years
+22907461	39 to 82 years	39-82 years
+22907453	39 to 82 years	39-82 years
 8114635	> 50 years	>50 years
 8114652	> 50 years	>50 years
 22905317	8 to 13 weeks	8-13 weeks
+22907462	39 to 82 years	39-82 years
 8114710	> 50 years	>50 years
 8114718	> 50 years	>50 years
 8114759	> 50 years	>50 years
@@ -71802,9 +72138,20 @@ tcell_id	h_age	new_h_age
 22905321	8 to 13 weeks	8-13 weeks
 22905322	8 to 13 weeks	8-13 weeks
 22905323	8 to 13 weeks	8-13 weeks
+22907425	39 to 82 years	39-82 years
+22907426	39 to 82 years	39-82 years
+22907429	39 to 82 years	39-82 years
+22907430	39 to 82 years	39-82 years
+22907433	39 to 82 years	39-82 years
+22907437	39 to 82 years	39-82 years
+22907438	39 to 82 years	39-82 years
+22907441	39 to 82 years	39-82 years
 12166852	6 to 8 weeks	6-8 weeks
 12166853	6 to 8 weeks	6-8 weeks
 12157052	6 to 8 weeks	6-8 weeks
+22907398	39 to 82 years	39-82 years
+22907401	39 to 82 years	39-82 years
+22907402	39 to 82 years	39-82 years
 12167183	27 to 49 years	27-49 years
 12167184	27 to 39 years	27-39 years
 12167185	27 to 39 years	27-39 years
@@ -71858,17 +72205,43 @@ tcell_id	h_age	new_h_age
 8269726	6 to 8 weeks	6-8 weeks
 8269727	6 to 8 weeks	6-8 weeks
 22905267	Newborn	newborn
+22905279	29 to 39 weeks	29-39 weeks
+22907405	39 to 82 years	39-82 years
+22907409	39 to 82 years	39-82 years
 8269728	6 to 8 weeks	6-8 weeks
 8269729	6 to 8 weeks	6-8 weeks
 8269730	6 to 8 weeks	6-8 weeks
+22905280	29 to 39 weeks	29-39 weeks
+22907410	39 to 82 years	39-82 years
+22907413	39 to 82 years	39-82 years
 8269815	6 to 8 weeks	6-8 weeks
 8269816	6 to 8 weeks	6-8 weeks
 8269817	6 to 8 weeks	6-8 weeks
+22905278	29 to 39 weeks	29-39 weeks
+22905281	29 to 39 weeks	29-39 weeks
+22905282	29 to 39 weeks	29-39 weeks
+22905283	29 to 39 weeks	29-39 weeks
+22905284	29 to 39 weeks	29-39 weeks
+22907417	39 to 82 years	39-82 years
 8269818	6 to 8 weeks	6-8 weeks
 8269819	6 to 8 weeks	6-8 weeks
 8114530	> 50 years	>50 years
+22905285	29 to 39 weeks	29-39 weeks
+22905286	29 to 39 weeks	29-39 weeks
+22905287	29 to 39 weeks	29-39 weeks
+22905288	29 to 39 weeks	29-39 weeks
+22907445	39 to 82 years	39-82 years
 8114555	> 50 years	>50 years
 8114597	> 50 years	>50 years
+22905289	29 to 39 weeks	29-39 weeks
+22905290	29 to 39 weeks	29-39 weeks
+22905291	29 to 39 weeks	29-39 weeks
+22905292	29 to 39 weeks	29-39 weeks
+22905293	29 to 39 weeks	29-39 weeks
+22905294	29 to 39 weeks	29-39 weeks
+22907446	39 to 82 years	39-82 years
+22907449	39 to 82 years	39-82 years
+22907450	39 to 82 years	39-82 years
 12436160	20 to 69 years	20-69 years
 12387676	6 to 8 weeks	6-8 weeks
 12436150	20 to 69 years	20-69 years
@@ -74251,6 +74624,8 @@ tcell_id	h_age	new_h_age
 12482622	6 to 8 weeks	6-8 weeks
 12482623	6 to 8 weeks	6-8 weeks
 12482624	6 to 8 weeks	6-8 weeks
+22925385	9 week old	9 weeks
+22925388	9 week old	9 weeks
 12482625	6 to 8 weeks	6-8 weeks
 12482626	6 to 8 weeks	6-8 weeks
 12482627	6 to 8 weeks	6-8 weeks
@@ -74259,6 +74634,7 @@ tcell_id	h_age	new_h_age
 12482630	6 to 8 weeks	6-8 weeks
 12482631	6 to 8 weeks	6-8 weeks
 12482632	6 to 8 weeks	6-8 weeks
+22925389	9 week old	9 weeks
 12482633	6 to 8 weeks	6-8 weeks
 12482634	6 to 8 weeks	6-8 weeks
 12482635	6 to 8 weeks	6-8 weeks
@@ -74269,6 +74645,7 @@ tcell_id	h_age	new_h_age
 12482640	6 to 8 weeks	6-8 weeks
 12482641	6 to 8 weeks	6-8 weeks
 12482642	6 to 8 weeks	6-8 weeks
+22925390	9 week old	9 weeks
 12482643	6 to 8 weeks	6-8 weeks
 12482644	6 to 8 weeks	6-8 weeks
 12482645	6 to 8 weeks	6-8 weeks
@@ -74318,6 +74695,8 @@ tcell_id	h_age	new_h_age
 12384084	68 years old	68 years
 12384085	68 years old	68 years
 12384086	68 years old	68 years
+22925391	9 week old	9 weeks
+22925392	9 week old	9 weeks
 17679406	57 to 75 years	57-75 years
 12591087	8 to 12 weeks	8-12 weeks
 22754866	12 weeks old	12 weeks
@@ -104207,6 +104586,13 @@ tcell_id	h_age	new_h_age
 22514236	mean 56 years	mean: 56 years
 22514237	mean 56 years	mean: 56 years
 22514238	mean 56 years	mean: 56 years
+22792239	9 week old	9 weeks
+22792240	9 week old	9 weeks
+22792241	9 week old	9 weeks
+22792242	9 week old	9 weeks
+22792243	9 week old	9 weeks
+22792244	9 week old	9 weeks
+22792245	9 week old	9 weeks
 22514160	mean 56 years	mean: 56 years
 22514161	mean 56 years	mean: 56 years
 22514162	mean 56 years	mean: 56 years
@@ -104216,6 +104602,9 @@ tcell_id	h_age	new_h_age
 22514240	mean 56 years	mean: 56 years
 22514241	mean 56 years	mean: 56 years
 22514242	mean 56 years	mean: 56 years
+22792246	9 week old	9 weeks
+22792247	9 week old	9 weeks
+22795481	55 to 81 years	55-81 years
 2397963	6 to 8 weeks	6-8 weeks
 22514165	mean 56 years	mean: 56 years
 22514170	mean 56 years	mean: 56 years
@@ -105605,6 +105994,8 @@ tcell_id	h_age	new_h_age
 22907747	7 to 8 weeks	7-8 weeks
 22907748	7 to 8 weeks	7-8 weeks
 22907749	7 to 8 weeks	7-8 weeks
+22920500	13 to 20 weeks	13-20 weeks
+22920501	13 to 20 weeks	13-20 weeks
 1317067	4-16 years old	4-16 years
 14411	8-12 weeks-old	8-12 weeks
 15265	8-12 wk	8-12 weeks
@@ -105745,6 +106136,7 @@ tcell_id	h_age	new_h_age
 2018849	37 years old	37 years
 2021096	41 years old	41 years
 2021063	35 years old	35 years
+22700125	49 to 71 years	49-71 years
 1317290	4-16 years old	4-16 years
 1991952	25 years old	25 years
 1992584	40 years old	40 years
@@ -105893,8 +106285,35 @@ tcell_id	h_age	new_h_age
 2017390	23 years old	23 years
 2018859	23 years old	23 years
 2018862	23 years old	23 years
+22924980	36 to 78 years	36-78 years
+22924981	36 to 78 years	36-78 years
+22925174	21 to 35 years	21-35 years
+22925175	21 to 35 years	21-35 years
+22925176	21 to 35 years	21-35 years
+22925177	21 to 35 years	21-35 years
+22925178	21 to 35 years	21-35 years
 1317259	4-16 years old	4-16 years
+22925179	21 to 35 years	21-35 years
+22925180	21 to 35 years	21-35 years
+22925181	21 to 35 years	21-35 years
+22925182	21 to 35 years	21-35 years
+22925183	21 to 35 years	21-35 years
+22925184	21 to 35 years	21-35 years
 1993395	28 years old	28 years
+22912518	35- 75 years	35-75 years
+22912521	35- 75 years	35-75 years
+22912522	35- 75 years	35-75 years
+22912523	35- 75 years	35-75 years
+22912524	35- 75 years	35-75 years
+22912525	35- 75 years	35-75 years
+22925185	21 to 35 years	21-35 years
+22925186	21 to 35 years	21-35 years
+22925187	21 to 35 years	21-35 years
+22925188	21 to 35 years	21-35 years
+22925339	21 to 35 years	21-35 years
+22925340	21 to 35 years	21-35 years
+22925341	21 to 35 years	21-35 years
+22912526	35- 75 years	35-75 years
 12436214	20 to 69 years	20-69 years
 13689785	20 to 59 years	20-59 years
 22906701	6 to 8 weeks	6-8 weeks
@@ -105928,12 +106347,38 @@ tcell_id	h_age	new_h_age
 22905239	5 to 6 weeks	5-6 weeks
 22905240	5 to 6 weeks	5-6 weeks
 21792758	22- 66 years	22-66 years
+22905358	29 to 39 weeks	29-39 weeks
+22905359	29 to 39 weeks	29-39 weeks
+22905399	29 to 39 weeks	29-39 weeks
+22905400	29 to 39 weeks	29-39 weeks
+22905401	29 to 39 weeks	29-39 weeks
+22905402	29 to 39 weeks	29-39 weeks
+22905403	29 to 39 weeks	29-39 weeks
+22905404	29 to 39 weeks	29-39 weeks
+22905405	29 to 39 weeks	29-39 weeks
+22905406	29 to 39 weeks	29-39 weeks
+22905407	29 to 39 weeks	29-39 weeks
+22905409	29 to 39 weeks	29-39 weeks
+22905416	29 to 39 weeks	29-39 weeks
+22905411	29 to 39 weeks	29-39 weeks
+22905419	29 to 39 weeks	29-39 weeks
+22905418	29 to 39 weeks	29-39 weeks
+22905417	29 to 39 weeks	29-39 weeks
 22923554	2-day old	2 days
 22923555	2-day old	2 days
+22924262	36 to 78 years	36-78 years
+22924265	36 to 78 years	36-78 years
+22924266	36 to 78 years	36-78 years
+22924267	36 to 78 years	36-78 years
+22924268	36 to 78 years	36-78 years
+22924269	36 to 78 years	36-78 years
 22905191	8-12 weeks.	8-12 weeks
+22905361	29 to 39 weeks	29-39 weeks
 22905193	4 to 8 weeks	4-8 weeks
 22905194	4 to 8 weeks	4-8 weeks
 22638357	51 to 84 years	51-84 years
+22905362	29 to 39 weeks	29-39 weeks
+22905363	29 to 39 weeks	29-39 weeks
 22905364	6 to 7 weeks	6-7 weeks
 22905365	6 to 7 weeks	6-7 weeks
 22905366	6 to 7 weeks	6-7 weeks
@@ -105941,6 +106386,7 @@ tcell_id	h_age	new_h_age
 22905368	6 to 7 weeks	6-7 weeks
 22638363	55 to 87 years	55-87 years
 22638364	31 to 83 years	31-83 years
+22924270	36 to 78 years	36-78 years
 22905370	6 to 7 weeks	6-7 weeks
 22905371	6 to 7 weeks	6-7 weeks
 22905372	6 to 7 weeks	6-7 weeks
@@ -105953,17 +106399,112 @@ tcell_id	h_age	new_h_age
 22638389	51 to 84 years	51-84 years
 22638390	51 to 84 years	51-84 years
 22638391	51 to 84 years	51-84 years
+22924271	36 to 78 years	36-78 years
+22905385	29 to 39 weeks	29-39 weeks
 22638380	51 to 84 years	51-84 years
+22924272	36 to 78 years	36-78 years
+22924273	36 to 78 years	36-78 years
+22924274	36 to 78 years	36-78 years
+22924275	36 to 78 years	36-78 years
+22924276	36 to 78 years	36-78 years
+22924277	36 to 78 years	36-78 years
+22924278	36 to 78 years	36-78 years
+22924279	36 to 78 years	36-78 years
+22924280	36 to 78 years	36-78 years
+22924281	36 to 78 years	36-78 years
+22924282	36 to 78 years	36-78 years
+22924283	36 to 78 years	36-78 years
+22924284	36 to 78 years	36-78 years
+22924285	36 to 78 years	36-78 years
+22924286	36 to 78 years	36-78 years
+22924963	21 to 35 years	21-35 years
+22924964	21 to 35 years	21-35 years
+22924965	21 to 35 years	21-35 years
+22924970	21 to 35 years	21-35 years
+22924971	21 to 35 years	21-35 years
+22924972	21 to 35 years	21-35 years
+22924973	21 to 35 years	21-35 years
+22924974	21 to 35 years	21-35 years
+22924975	21 to 35 years	21-35 years
+22924976	21 to 35 years	21-35 years
+22924977	21 to 35 years	21-35 years
+22924978	21 to 35 years	21-35 years
 22908757	6 to 12 weeks	6-12 weeks
 22908758	6 to 12 weeks	6-12 weeks
 22908759	6 to 12 weeks	6-12 weeks
 22908760	6 to 12 weeks	6-12 weeks
 22908761	6 to 12 weeks	6-12 weeks
 22908762	6 to 12 weeks	6-12 weeks
+22925333	21 to 35 years	21-35 years
 22908763	6 to 12 weeks	6-12 weeks
 22908764	6 to 12 weeks	6-12 weeks
 22908765	6 to 12 weeks	6-12 weeks
 22908766	6 to 12 weeks	6-12 weeks
+22925162	21 to 35 years	21-35 years
+22925194	21 to 35 years	21-35 years
+22925195	21 to 35 years	21-35 years
+22925198	21 to 35 years	21-35 years
+22925219	21 to 35 years	21-35 years
+22925220	21 to 35 years	21-35 years
+22925239	21 to 35 years	21-35 years
+22925233	21 to 35 years	21-35 years
+22925240	21 to 35 years	21-35 years
+22925241	21 to 35 years	21-35 years
+22925225	21 to 35 years	21-35 years
+22925226	21 to 35 years	21-35 years
+22925227	21 to 35 years	21-35 years
+22925228	21 to 35 years	21-35 years
+22925229	21 to 35 years	21-35 years
+22925230	21 to 35 years	21-35 years
+22925231	21 to 35 years	21-35 years
+22925232	21 to 35 years	21-35 years
+22925242	21 to 35 years	21-35 years
+22925243	21 to 35 years	21-35 years
+22925244	21 to 35 years	21-35 years
+22925245	21 to 35 years	21-35 years
+22925246	21 to 35 years	21-35 years
+22925247	21 to 35 years	21-35 years
+22925248	21 to 35 years	21-35 years
+22925254	21 to 35 years	21-35 years
+22925255	21 to 35 years	21-35 years
+22925256	21 to 35 years	21-35 years
+22925278	21 to 35 years	21-35 years
+22925279	21 to 35 years	21-35 years
+22925280	21 to 35 years	21-35 years
+22925281	21 to 35 years	21-35 years
+22925283	21 to 35 years	21-35 years
+22925284	21 to 35 years	21-35 years
+22925285	21 to 35 years	21-35 years
+22925286	21 to 35 years	21-35 years
+22925287	21 to 35 years	21-35 years
+22925288	21 to 35 years	21-35 years
+22925290	21 to 35 years	21-35 years
+22925292	21 to 35 years	21-35 years
+22925289	21 to 35 years	21-35 years
+22925291	21 to 35 years	21-35 years
+22925293	21 to 35 years	21-35 years
+22925294	21 to 35 years	21-35 years
+22925295	21 to 35 years	21-35 years
+22925296	21 to 35 years	21-35 years
+22925298	21 to 35 years	21-35 years
+22925320	21 to 35 years	21-35 years
+22925321	21 to 35 years	21-35 years
+22925322	21 to 35 years	21-35 years
+22925323	21 to 35 years	21-35 years
+22925324	21 to 35 years	21-35 years
+22925325	21 to 35 years	21-35 years
+22925327	21 to 35 years	21-35 years
+22925326	21 to 35 years	21-35 years
+22925328	21 to 35 years	21-35 years
+22925329	21 to 35 years	21-35 years
+22925330	21 to 35 years	21-35 years
+22925331	21 to 35 years	21-35 years
+22925332	21 to 35 years	21-35 years
+22925334	21 to 35 years	21-35 years
+22925335	21 to 35 years	21-35 years
+22925336	21 to 35 years	21-35 years
+22925337	21 to 35 years	21-35 years
+22925338	21 to 35 years	21-35 years
 22645642	8 to 12 weeks	8-12 weeks
 22645644	8 to 12 weeks	8-12 weeks
 22645645	8 to 12 weeks	8-12 weeks
@@ -105984,11 +106525,19 @@ tcell_id	h_age	new_h_age
 22645668	8 to 12 weeks	8-12 weeks
 22645669	8 to 12 weeks	8-12 weeks
 22645670	8 to 12 weeks	8-12 weeks
+22912462	27 - 62 years	27-62 years
+22912459	27 - 62 years	27-62 years
 22645646	8 to 12 weeks	8-12 weeks
+22912460	27 - 62 years	27-62 years
+22912461	27 - 62 years	27-62 years
 22645658	8 to 12 weeks	8-12 weeks
 22645653	8 to 12 weeks	8-12 weeks
 22645643	8 to 12 weeks	8-12 weeks
 22645662	8 to 12 weeks	8-12 weeks
+22912419	27 - 62 years	27-62 years
+22912422	27 - 62 years	27-62 years
+22912423	27 - 62 years	27-62 years
+22912426	27 - 62 years	27-62 years
 22666653	8 to 12 weeks	8-12 weeks
 22666654	8 to 12 weeks	8-12 weeks
 22645716	8 to 12 weeks	8-12 weeks
@@ -106003,6 +106552,20 @@ tcell_id	h_age	new_h_age
 22645729	8 to 12 weeks	8-12 weeks
 22645730	8 to 12 weeks	8-12 weeks
 22645731	8 to 12 weeks	8-12 weeks
+22912457	27 - 62 years	27-62 years
+22912458	27 - 62 years	27-62 years
+22912463	27 - 62 years	27-62 years
+22912464	27 - 62 years	27-62 years
+22925135	21 to 35 years	21-35 years
+22925145	21 to 35 years	21-35 years
+22925141	21 to 35 years	21-35 years
+22925149	21 to 35 years	21-35 years
+22925153	21 to 35 years	21-35 years
+22925157	21 to 35 years	21-35 years
+22925158	21 to 35 years	21-35 years
+22925159	21 to 35 years	21-35 years
+22925160	21 to 35 years	21-35 years
+22925161	21 to 35 years	21-35 years
 22921290	6 to 8 weeks	6-8 weeks
 22921291	6 to 8 weeks	6-8 weeks
 22921085	6 to 8 weeks	6-8 weeks
@@ -106010,6 +106573,10 @@ tcell_id	h_age	new_h_age
 22921087	6 to 8 weeks	6-8 weeks
 22921088	6 to 8 weeks	6-8 weeks
 22641353	44 to 66 years	44-66 years
+22925396	9 week old	9 weeks
+22925397	9 week old	9 weeks
+22925395	9 week old	9 weeks
+22925398	9 week old	9 weeks
 22641347	44 to 66 years	44-66 years
 22921089	6 to 8 weeks	6-8 weeks
 22921090	6 to 8 weeks	6-8 weeks
@@ -106018,6 +106585,8 @@ tcell_id	h_age	new_h_age
 22921093	6 to 8 weeks	6-8 weeks
 22921094	6 to 8 weeks	6-8 weeks
 22921095	6 to 8 weeks	6-8 weeks
+22925399	9 week old	9 weeks
+22925400	9 week old	9 weeks
 22921097	6 to 8 weeks	6-8 weeks
 22912773	45 to 82 years	45-82 years
 22912774	45 to 82 years	45-82 years
@@ -106046,16 +106615,32 @@ tcell_id	h_age	new_h_age
 22912789	45 to 82 years	45-82 years
 22912790	45 to 82 years	45-82 years
 22922873	2-day old	2 days
+22924288	36 to 78 years	36-78 years
+22924289	36 to 78 years	36-78 years
+22924290	36 to 78 years	36-78 years
+22924291	36 to 78 years	36-78 years
+22924292	36 to 78 years	36-78 years
 22912791	45 to 82 years	45-82 years
 22912792	45 to 82 years	45-82 years
 22912793	45 to 82 years	45-82 years
 22912794	45 to 82 years	45-82 years
 22912795	45 to 82 years	45-82 years
+22924293	36 to 78 years	36-78 years
+22924294	36 to 78 years	36-78 years
+22924295	36 to 78 years	36-78 years
+22924296	36 to 78 years	36-78 years
+22924297	36 to 78 years	36-78 years
+22925402	9 week old	9 weeks
 22912796	45 to 82 years	45-82 years
 22912797	45 to 82 years	45-82 years
 22912798	45 to 82 years	45-82 years
 22912799	45 to 82 years	45-82 years
 22912800	45 to 82 years	45-82 years
+22925403	9 week old	9 weeks
+22925404	9 week old	9 weeks
+22925416	9 week old	9 weeks
+22925417	9 week old	9 weeks
+22925418	9 week old	9 weeks
 22912801	45 to 82 years	45-82 years
 22912802	45 to 82 years	45-82 years
 22912803	45 to 82 years	45-82 years
@@ -106066,6 +106651,9 @@ tcell_id	h_age	new_h_age
 22912808	45 to 82 years	45-82 years
 22912809	45 to 82 years	45-82 years
 22912810	45 to 82 years	45-82 years
+22926938	9 week old	9 weeks
+22926939	9 week old	9 weeks
+22926940	9 week old	9 weeks
 22912811	45 to 82 years	45-82 years
 22921269	6 to 8 weeks	6-8 weeks
 22921270	6 to 8 weeks	6-8 weeks
@@ -106089,6 +106677,14 @@ tcell_id	h_age	new_h_age
 22921287	6 to 8 weeks	6-8 weeks
 22921288	6 to 8 weeks	6-8 weeks
 22921289	6 to 8 weeks	6-8 weeks
+22926915	9 week old	9 weeks
+22926916	9 week old	9 weeks
+22926917	9 week old	9 weeks
+22926918	9 week old	9 weeks
+22926919	9 week old	9 weeks
+22926920	9 week old	9 weeks
+22926921	9 week old	9 weeks
+22926922	9 week old	9 weeks
 22907484	42 to 100 days	42-100 days
 22907485	42 to 100 days	42-100 days
 22907486	42 to 100 days	42-100 days
@@ -106096,6 +106692,11 @@ tcell_id	h_age	new_h_age
 22907488	42 to 116 days	42-116 days
 22907489	42 to 116 days	42-116 days
 22907490	42 to 116 days	42-116 days
+22926923	9 week old	9 weeks
+22926924	9 week old	9 weeks
+22926925	9 week old	9 weeks
+22926926	9 week old	9 weeks
+22926927	9 week old	9 weeks
 22907491	42 to 116 days	42-116 days
 22907492	42 to 116 days	42-116 days
 22907493	30 to 40 days	30-40 days
@@ -106105,17 +106706,33 @@ tcell_id	h_age	new_h_age
 22907497	< 42 days	<42 days
 22907498	< 42 days	<42 days
 22907499	< 42 days	<42 days
+22925637	9 week old	9 weeks
+22925638	9 week old	9 weeks
+22925639	9 week old	9 weeks
+22925640	9 week old	9 weeks
+22924860	67 to 76 years	67-76 years
+22924861	67 to 76 years	67-76 years
+22924979	21 to 35 years	21-35 years
 22682538	8 to 12 weeks	8-12 weeks
 22682641	8 to 12 weeks	8-12 weeks
 22682642	8 to 12 weeks	8-12 weeks
 22682643	8 to 12 weeks	8-12 weeks
 22682644	8 to 12 weeks	8-12 weeks
+22926455	9 to 87 years	9-87 years
+22926462	9 to 87 years	9-87 years
+22926463	9 to 87 years	9-87 years
+22926464	9 to 87 years	9-87 years
+22926912	9 week old	9 weeks
+22926913	9 week old	9 weeks
+22926914	9 week old	9 weeks
 22697648	6 to 10 weeks	6-10 weeks
 22697653	6 to 10 weeks	6-10 weeks
 22697657	6 to 10 weeks	6-10 weeks
 22697658	6 to 10 weeks	6-10 weeks
 22697659	6 to 10 weeks	6-10 weeks
 22682629	8 to 12 weeks	8-12 weeks
+22697767	49 to 71 years	49-71 years
+22697769	49 to 71 years	49-71 years
 22682503	8 to 12 weeks	8-12 weeks
 22682491	8 to 12 weeks	8-12 weeks
 22682492	8 to 12 weeks	8-12 weeks
@@ -106137,6 +106754,60 @@ tcell_id	h_age	new_h_age
 22682509	8 to 12 weeks	8-12 weeks
 22682510	8 to 12 weeks	8-12 weeks
 22682511	8 to 12 weeks	8-12 weeks
+22924933	67 to 76 years	67-76 years
+22924934	67 to 76 years	67-76 years
+22924935	67 to 76 years	67-76 years
+22924936	67 to 76 years	67-76 years
+22924937	36 to 78 years	36-78 years
+22924938	67 to 76 years	67-76 years
+22924920	67 to 76 years	67-76 years
+22924921	67 to 76 years	67-76 years
+22924922	67 to 76 years	67-76 years
+22924923	67 to 76 years	67-76 years
+22924924	67 to 76 years	67-76 years
+22924925	67 to 76 years	67-76 years
+22924926	67 to 76 years	67-76 years
+22924927	67 to 76 years	67-76 years
+22924928	67 to 76 years	67-76 years
+22924929	67 to 76 years	67-76 years
+22924930	67 to 76 years	67-76 years
+22924931	67 to 76 years	67-76 years
+22924932	67 to 76 years	67-76 years
+22921024	9 to 87 years	9-87 years
+22921025	9 to 87 years	9-87 years
+22912435	27 - 62 years	27-62 years
+22912436	27 - 62 years	27-62 years
+22912438	27 - 62 years	27-62 years
+22912437	27 - 62 years	27-62 years
+22912449	27 - 62 years	27-62 years
+22912450	27 - 62 years	27-62 years
+22912452	27 - 62 years	27-62 years
+22912451	27 - 62 years	27-62 years
+22912453	27 - 62 years	27-62 years
+22912454	27 - 62 years	27-62 years
+22912455	27 - 62 years	27-62 years
+22912456	27 - 62 years	27-62 years
+22921004	9 to 87 years	9-87 years
+22921026	9 to 87 years	9-87 years
+22921009	9 to 87 years	9-87 years
+22921027	9 to 87 years	9-87 years
+22921015	9 to 87 years	9-87 years
+22921029	9 to 87 years	9-87 years
+22921016	9 to 87 years	9-87 years
+22921017	9 to 87 years	9-87 years
+22921018	9 to 87 years	9-87 years
+22921019	9 to 87 years	9-87 years
+22921020	9 to 87 years	9-87 years
+22921021	9 to 87 years	9-87 years
+22921022	9 to 87 years	9-87 years
+22921023	9 to 87 years	9-87 years
+22920449	13 to 20 weeks	13-20 weeks
+22920453	13 to 20 weeks	13-20 weeks
+22920442	13 to 20 weeks	13-20 weeks
+22920443	13 to 20 weeks	13-20 weeks
+22920461	13 to 20 weeks	13-20 weeks
+22920462	13 to 20 weeks	13-20 weeks
+22920463	13 to 20 weeks	13-20 weeks
 22912813	45 to 82 years	45-82 years
 22912814	45 to 82 years	45-82 years
 22912825	45 to 82 years	45-82 years
@@ -106148,9 +106819,11 @@ tcell_id	h_age	new_h_age
 22912829	45 to 82 years	45-82 years
 22912830	45 to 82 years	45-82 years
 22912831	45 to 82 years	45-82 years
+22920435	13 to 20 weeks	13-20 weeks
 22912832	45 to 82 years	45-82 years
 22912833	45 to 82 years	45-82 years
 22912834	45 to 82 years	45-82 years
+22920437	13 to 20 weeks	13-20 weeks
 22921292	6 to 8 weeks	6-8 weeks
 22921293	6 to 8 weeks	6-8 weeks
 22921294	6 to 8 weeks	6-8 weeks
