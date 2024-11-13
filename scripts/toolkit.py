@@ -166,6 +166,20 @@ def lookup(invalid_item, review_dict, reference_dict, mode):
     return source, location
 
 
+def pluralize_unit(string, phrase_type):
+    """
+    Render a time unit as a plural if the number before it is not 1.
+    """
+    units = ["hour", "day", "week", "month", "year"]
+    for unit in units:
+        if unit in string:
+            singular_pattern = fr"(^|[-\s])1(\.0)? {unit}"
+            m = re.match(singular_pattern, string)
+            if not m:
+                string = re.sub(f"{unit}", f"{unit}s", string)
+    return string
+
+
 def take_action(reference_dict, invalid_item, data_item, index, delimiters):
     """
     Alter data_item as specified in reference_dict.
