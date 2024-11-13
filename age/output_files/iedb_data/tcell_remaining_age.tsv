@@ -277,30 +277,7 @@ tcell_id	h_age
 1795990	24 hours
 1337965	Adults (pregnant)
 1806425	<24 hours
-1790923	>8 weeks
 1684665	at least 8 weeks
-1790911	>8 weeks
-1790907	>8 weeks
-1790908	>8 weeks
-1790909	>8 weeks
-1790912	>8 weeks
-1790913	>8 weeks
-1790914	>8 weeks
-1790915	>8 weeks
-1790910	>8 weeks
-1790916	>8 weeks
-1790917	>8 weeks
-1790918	>8 weeks
-1790925	>8 weeks
-1790926	>8 weeks
-1790927	>8 weeks
-1790931	>8 weeks
-1790928	>8 weeks
-1790929	>8 weeks
-1790930	>8 weeks
-1790932	>8 weeks
-1790933	>8 weeks
-1790934	>8 weeks
 1368075	At birth
 2071740	mean of 12.2 years
 2071741	mean of 37.0 years
@@ -327,11 +304,7 @@ tcell_id	h_age
 2071765	mean of 37.0 years
 2071766	mean of 37.0 years
 2071767	mean of 37.0 years
-2489074	>50 years-old
-2489011	>50 years-old
-2488997	>50 years-old
 2071739	mean of 37.0 years
-2489081	>50 years-old
 1885315	Child
 1885313	Child
 1906527	mean age of 49 years
@@ -340,26 +313,7 @@ tcell_id	h_age
 1906530	mean age of 57 years
 1906531	mean age of 49 years
 1906532	mean age of 57 years
-1940939	>8 weeks
 1931491	fetal
-1940940	>8 weeks
-1940941	>8 weeks
-1940942	>8 weeks
-1940943	>8 weeks
-1940944	>8 weeks
-1940945	>8 weeks
-1940946	>8 weeks
-1940948	>8 weeks
-1940949	>8 weeks
-1940950	>8 weeks
-1940951	>8 weeks
-1940952	>8 weeks
-1940953	>8 weeks
-1940954	>8 weeks
-1940955	>8 weeks
-1940956	>8 weeks
-1940957	>8 weeks
-1940958	>8 weeks
 2369229	30 years or younger
 2021467	Child
 1979430	<16 hours
@@ -404,12 +358,6 @@ tcell_id	h_age
 2655001	at least 7 weeks
 2655003	at least 7 weeks
 2659792	at least 7 weeks
-2738348	>50 years-old
-2738349	>50 years-old
-2738350	>50 years-old
-2738304	>50 years-old
-2738305	>50 years-old
-2738351	>50 years-old
 2659323	at least 7 weeks
 2659324	at least 7 weeks
 2659326	at least 7 weeks
@@ -417,26 +365,6 @@ tcell_id	h_age
 2659328	at least 7 weeks
 2751197	~ 33 to 55 years
 2751198	~ 33 to 55 years
-2738437	>50 years-old
-2738394	>50 years-old
-2738395	>50 years-old
-2738396	>50 years-old
-2738397	>50 years-old
-2738399	>50 years-old
-2738400	>50 years-old
-2738402	>50 years-old
-2738344	>50 years-old
-2738357	>50 years-old
-2738358	>50 years-old
-2738345	>50 years-old
-2738346	>50 years-old
-2738347	>50 years-old
-2738363	>50 years-old
-2738364	>50 years-old
-2738365	>50 years-old
-2738352	>50 years-old
-2738353	>50 years-old
-2738366	>50 years-old
 2659330	at least 7 weeks
 2659331	at least 7 weeks
 2659332	at least 7 weeks
@@ -452,22 +380,6 @@ tcell_id	h_age
 2751209	~ 33 to 55 years
 2751210	~ 33 to 55 years
 2751211	~ 33 to 55 years
-2738398	>50 years-old
-2738401	>50 years-old
-2738403	>50 years-old
-2738404	>50 years-old
-2738359	>50 years-old
-2738405	>50 years-old
-2738406	>50 years-old
-2738360	>50 years-old
-2738361	>50 years-old
-2738362	>50 years-old
-2738411	>50 years-old
-2738412	>50 years-old
-2738413	>50 years-old
-2738367	>50 years-old
-2738368	>50 years-old
-2738414	>50 years-old
 2659780	at least 7 weeks
 2659781	at least 7 weeks
 2659782	at least 7 weeks
@@ -483,12 +395,6 @@ tcell_id	h_age
 2751203	~ 33 to 55 years
 2751224	~ 31 to 55 years
 2751225	~ 31 to 55 years
-2738407	>50 years-old
-2738408	>50 years-old
-2738409	>50 years-old
-2738410	>50 years-old
-2738415	>50 years-old
-2738416	>50 years-old
 2751213	~ 33 to 55 years
 2751226	~ 31 to 55 years
 2751228	~ 31 to 55 years
@@ -546,66 +452,12 @@ tcell_id	h_age
 2659788	at least 7 weeks
 2751205	~ 33 to 55 years
 2751214	~ 33 to 55 years
-2738323	>50 years-old
-2738324	>50 years-old
-2738325	>50 years-old
-2738326	>50 years-old
-2738327	>50 years-old
-2738328	>50 years-old
-2738329	>50 years-old
-2738291	>50 years-old
-2738276	>50 years-old
-2738275	>50 years-old
-2738284	>50 years-old
-2738387	>50 years-old
-2738388	>50 years-old
-2738330	>50 years-old
-2738331	>50 years-old
-2738332	>50 years-old
-2738333	>50 years-old
-2738334	>50 years-old
-2738290	>50 years-old
-2738336	>50 years-old
-2738337	>50 years-old
-2738292	>50 years-old
-2738293	>50 years-old
-2738339	>50 years-old
-2738277	>50 years-old
-2738294	>50 years-old
-2738295	>50 years-old
-2738278	>50 years-old
-2738279	>50 years-old
-2738280	>50 years-old
-2738281	>50 years-old
-2738282	>50 years-old
-2738283	>50 years-old
-2738285	>50 years-old
-2738286	>50 years-old
-2738303	>50 years-old
 2659315	at least 7 weeks
 2659317	at least 7 weeks
 2659318	at least 7 weeks
 2659319	at least 7 weeks
 2659321	at least 7 weeks
 2659322	at least 7 weeks
-2738389	>50 years-old
-2738390	>50 years-old
-2738391	>50 years-old
-2738392	>50 years-old
-2738393	>50 years-old
-2738335	>50 years-old
-2738338	>50 years-old
-2738340	>50 years-old
-2738341	>50 years-old
-2738296	>50 years-old
-2738342	>50 years-old
-2738343	>50 years-old
-2738297	>50 years-old
-2738298	>50 years-old
-2738299	>50 years-old
-2738300	>50 years-old
-2738301	>50 years-old
-2738302	>50 years-old
 2659789	at least 7 weeks
 2659790	at least 7 weeks
 2659793	at least 7 weeks
@@ -637,70 +489,9 @@ tcell_id	h_age
 2659824	at least 7 weeks
 2751191	~ 33 to 55 years
 2751193	~ 33 to 55 years
-2738321	>50 years-old
-2738322	>50 years-old
-2738384	>50 years-old
-2738385	>50 years-old
-2738386	>50 years-old
-2738434	>50 years-old
-2738435	>50 years-old
-2738436	>50 years-old
-2738320	>50 years-old
-2738287	>50 years-old
-2738288	>50 years-old
 2751194	~ 33 to 55 years
 2751195	~ 33 to 55 years
 2751196	~ 33 to 55 years
-2738289	>50 years-old
-2738306	>50 years-old
-2738307	>50 years-old
-2738308	>50 years-old
-2738354	>50 years-old
-2738355	>50 years-old
-2738309	>50 years-old
-2738310	>50 years-old
-2738311	>50 years-old
-2738312	>50 years-old
-2738417	>50 years-old
-2738356	>50 years-old
-2738369	>50 years-old
-2738370	>50 years-old
-2738313	>50 years-old
-2738314	>50 years-old
-2738315	>50 years-old
-2738316	>50 years-old
-2738317	>50 years-old
-2738318	>50 years-old
-2738418	>50 years-old
-2738419	>50 years-old
-2738371	>50 years-old
-2738420	>50 years-old
-2738421	>50 years-old
-2738372	>50 years-old
-2738373	>50 years-old
-2738375	>50 years-old
-2738319	>50 years-old
-2738422	>50 years-old
-2738374	>50 years-old
-2738423	>50 years-old
-2738376	>50 years-old
-2738377	>50 years-old
-2738425	>50 years-old
-2738378	>50 years-old
-2738379	>50 years-old
-2738380	>50 years-old
-2738381	>50 years-old
-2738382	>50 years-old
-2738424	>50 years-old
-2738426	>50 years-old
-2738427	>50 years-old
-2738428	>50 years-old
-2738429	>50 years-old
-2738430	>50 years-old
-2738383	>50 years-old
-2738431	>50 years-old
-2738432	>50 years-old
-2738433	>50 years-old
 2113229	< 12 hours
 2113228	< 12 hours
 2113230	< 12 hours
@@ -709,40 +500,14 @@ tcell_id	h_age
 2113233	< 12 hours
 2113234	< 12 hours
 2113235	< 12 hours
-2103980	<55 years
-2103981	<55 years
-2103982	<55 years
-2103988	<55 years
 2113242	< 12 hours
 2113243	< 12 hours
 2117523	prenatal
 2117507	prenatal
 2117528	prenatal
 2383123	embryonic day 15
-2394901	>50 years-old
-2394902	>50 years-old
 2749043	7 yo 8 weeks
-2394903	>50 years-old
-2394904	>50 years-old
-2394905	>50 years-old
-2394906	>50 years-old
-2394907	>50 years-old
-2394908	>50 years-old
-2394909	>50 years-old
-2394910	>50 years-old
-2394912	>50 years-old
-2394911	>50 years-old
-2394913	>50 years-old
-2394914	>50 years-old
-2394915	>50 years-old
-2394917	>50 years-old
-2394918	>50 years-old
-2394895	>50 years-old
-2394896	>50 years-old
-2370837	>50 years-old
-2394919	>50 years-old
 2369233	30 years or younger
-2394894	>50 years-old
 2369230	30 years or younger
 2369231	30 years or younger
 2369232	30 years or younger
@@ -751,127 +516,11 @@ tcell_id	h_age
 2369236	30 years or younger
 2369237	30 years or younger
 2369238	30 years or younger
-2394897	>50 years-old
-2394898	>50 years-old
-2394899	>50 years-old
-2394900	>50 years-old
-2488951	>50 years-old
 2369485	30 years or younger
-2370853	>50 years-old
-2370854	>50 years-old
-2370855	>50 years-old
-2370856	>50 years-old
-2370835	>50 years-old
-2370836	>50 years-old
-2370838	>50 years-old
-2370839	>50 years-old
-2370840	>50 years-old
-2370841	>50 years-old
-2370842	>50 years-old
-2370843	>50 years-old
-2370844	>50 years-old
-2370845	>50 years-old
-2370846	>50 years-old
-2370847	>50 years-old
-2370848	>50 years-old
-2370849	>50 years-old
-2370850	>50 years-old
-2370851	>50 years-old
-2370852	>50 years-old
-2488990	>50 years-old
-2489148	>50 years-old
-2489032	>50 years-old
-2489025	>50 years-old
-2488955	>50 years-old
-2488962	>50 years-old
-2488969	>50 years-old
-2489102	>50 years-old
-2489067	>50 years-old
-2489039	>50 years-old
-2489046	>50 years-old
-2488976	>50 years-old
-2489018	>50 years-old
-2488983	>50 years-old
-2489109	>50 years-old
-2489116	>50 years-old
-2489119	>50 years-old
-2489123	>50 years-old
-2489053	>50 years-old
-2489060	>50 years-old
-2489130	>50 years-old
 2369488	30 years or younger
 2369489	30 years or younger
 2369486	30 years or younger
-2489144	>50 years-old
-2489137	>50 years-old
-2489158	>50 years-old
-2489088	>50 years-old
-2489165	>50 years-old
-2489095	>50 years-old
-2489172	>50 years-old
 2520393	average age=36.5 years
-2489151	>50 years-old
-2489004	>50 years-old
-2488206	>50 years-old
-2488213	>50 years-old
-2488227	>50 years-old
-2488283	>50 years-old
-2488150	>50 years-old
-2488304	>50 years-old
-2488192	>50 years-old
-2488276	>50 years-old
-2488346	>50 years-old
-2488293	>50 years-old
-2488353	>50 years-old
-2488296	>50 years-old
-2488297	>50 years-old
-2488752	>50 years-old
-2488269	>50 years-old
-2488295	>50 years-old
-2488843	>50 years-old
-2488348	>50 years-old
-2488360	>50 years-old
-2488367	>50 years-old
-2488437	>50 years-old
-2488458	>50 years-old
-2488381	>50 years-old
-2488374	>50 years-old
-2488444	>50 years-old
-2488668	>50 years-old
-2488450	>50 years-old
-2488451	>50 years-old
-2488465	>50 years-old
-2488794	>50 years-old
-2488913	>50 years-old
-2488425	>50 years-old
-2488426	>50 years-old
-2488429	>50 years-old
-2488430	>50 years-old
-2488443	>50 years-old
-2488514	>50 years-old
-2488535	>50 years-old
-2488577	>50 years-old
-2488528	>50 years-old
-2488815	>50 years-old
-2488115	>50 years-old
-2488507	>50 years-old
-2488521	>50 years-old
-2488598	>50 years-old
-2488605	>50 years-old
-2488675	>50 years-old
-2488612	>50 years-old
-2488584	>50 years-old
-2488591	>50 years-old
-2488619	>50 years-old
-2488745	>50 years-old
-2488682	>50 years-old
-2488689	>50 years-old
-2488829	>50 years-old
-2488661	>50 years-old
-2488666	>50 years-old
-2488696	>50 years-old
-2488290	>50 years-old
-2488738	>50 years-old
 2484039	18+ years
 2484040	18+ years
 2484041	18+ years
@@ -879,93 +528,7 @@ tcell_id	h_age
 2484043	18+ years
 2484044	18+ years
 2484045	18+ years
-2488388	>50 years-old
-2488822	>50 years-old
-2488878	>50 years-old
-2488906	>50 years-old
-2488899	>50 years-old
-2488836	>50 years-old
-2488892	>50 years-old
-2488885	>50 years-old
-2488041	>50 years-old
-2488066	>50 years-old
-2488052	>50 years-old
-2488059	>50 years-old
-2488073	>50 years-old
-2488948	>50 years-old
-2488038	>50 years-old
-2488045	>50 years-old
-2488122	>50 years-old
-2488050	>50 years-old
-2488199	>50 years-old
-2488220	>50 years-old
-2488136	>50 years-old
-2488143	>50 years-old
-2488129	>50 years-old
-2488108	>50 years-old
-2488241	>50 years-old
-2488248	>50 years-old
-2488262	>50 years-old
-2488325	>50 years-old
-2488185	>50 years-old
-2488234	>50 years-old
-2488318	>50 years-old
-2488409	>50 years-old
-2488416	>50 years-old
-2488255	>50 years-old
-2488332	>50 years-old
-2488395	>50 years-old
-2488402	>50 years-old
-2488472	>50 years-old
-2488500	>50 years-old
-2488556	>50 years-old
-2488479	>50 years-old
-2488486	>50 years-old
-2488703	>50 years-old
-2488423	>50 years-old
-2488542	>50 years-old
-2488548	>50 years-old
-2488549	>50 years-old
-2488563	>50 years-old
-2488654	>50 years-old
-2488493	>50 years-old
-2488545	>50 years-old
-2488647	>50 years-old
-2488633	>50 years-old
-2488640	>50 years-old
-2488570	>50 years-old
-2488626	>50 years-old
-2488710	>50 years-old
-2488759	>50 years-old
-2488717	>50 years-old
-2488724	>50 years-old
-2488731	>50 years-old
-2488766	>50 years-old
-2488780	>50 years-old
-2488773	>50 years-old
 2484038	18+ years
-2488769	>50 years-old
-2488934	>50 years-old
-2488801	>50 years-old
-2488787	>50 years-old
-2488808	>50 years-old
-2488850	>50 years-old
-2488857	>50 years-old
-2488920	>50 years-old
-2488864	>50 years-old
-2488927	>50 years-old
-2488871	>50 years-old
-2488941	>50 years-old
-2488080	>50 years-old
-2488094	>50 years-old
-2488087	>50 years-old
-2488101	>50 years-old
-2488157	>50 years-old
-2488164	>50 years-old
-2488178	>50 years-old
-2488171	>50 years-old
-2488311	>50 years-old
-2488339	>50 years-old
 2643042	at least 7 weeks
 2643043	at least 7 weeks
 2643046	at least 7 weeks
@@ -974,12 +537,8 @@ tcell_id	h_age
 2643049	at least 7 weeks
 2643040	at least 7 weeks
 2643041	at least 7 weeks
-2394916	>50 years-old
 2645942	at least 7 weeks
 2645944	at least 7 weeks
-2605470	>50 years-old
-2605471	>50 years-old
-2605472	>50 years-old
 2520395	average age=36.5 years
 2520396	average age=32 years
 2520397	average age=32 years
@@ -987,71 +546,6 @@ tcell_id	h_age
 2520399	average age=32 years
 2520400	average age=32 years
 2520401	average age=36.5 years
-2605503	>50 years-old
-2605504	>50 years-old
-2605505	>50 years-old
-2605506	>50 years-old
-2605507	>50 years-old
-2605508	>50 years-old
-2605510	>50 years-old
-2605511	>50 years-old
-2605512	>50 years-old
-2605455	>50 years-old
-2605456	>50 years-old
-2605509	>50 years-old
-2605513	>50 years-old
-2605514	>50 years-old
-2605515	>50 years-old
-2605516	>50 years-old
-2605457	>50 years-old
-2605458	>50 years-old
-2605459	>50 years-old
-2605517	>50 years-old
-2605518	>50 years-old
-2605519	>50 years-old
-2605460	>50 years-old
-2605461	>50 years-old
-2605462	>50 years-old
-2605464	>50 years-old
-2605520	>50 years-old
-2605463	>50 years-old
-2605521	>50 years-old
-2605522	>50 years-old
-2605465	>50 years-old
-2605466	>50 years-old
-2605467	>50 years-old
-2605468	>50 years-old
-2605469	>50 years-old
-2605479	>50 years-old
-2605480	>50 years-old
-2605481	>50 years-old
-2605482	>50 years-old
-2605483	>50 years-old
-2605484	>50 years-old
-2605485	>50 years-old
-2605486	>50 years-old
-2605487	>50 years-old
-2605488	>50 years-old
-2605489	>50 years-old
-2605490	>50 years-old
-2605491	>50 years-old
-2605492	>50 years-old
-2605493	>50 years-old
-2605494	>50 years-old
-2605495	>50 years-old
-2605496	>50 years-old
-2605497	>50 years-old
-2605498	>50 years-old
-2605499	>50 years-old
-2605500	>50 years-old
-2605501	>50 years-old
-2605502	>50 years-old
-2605473	>50 years-old
-2605474	>50 years-old
-2605475	>50 years-old
-2605476	>50 years-old
-2605477	>50 years-old
-2605478	>50 years-old
 2883750	children
 2883751	children
 2883763	children
@@ -1059,12 +553,6 @@ tcell_id	h_age
 2883764	children
 3114091	≥ 18 years
 3114092	≥ 18 years
-3799190	Infant
-3799191	Infant
-3799192	Infant
-3799193	Infant
-3799195	Infant
-3799194	Infant
 3806488	6 yo 8 weeks
 3806489	6 yo 8 weeks
 3806490	6 yo 8 weeks
@@ -1124,20 +612,9 @@ tcell_id	h_age
 3806509	6 yo 8 weeks
 3806510	6 yo 8 weeks
 3806511	6 yo 8 weeks
-4048063	22 to >60 years
 3806512	6 yo 8 weeks
 3806513	6 yo 8 weeks
 4990437	children
-3930098	>40 years
-3930101	>40 years
-3930100	>40 years
-3930102	>40 years
-3930104	>40 years
-3930105	>40 years
-3930106	>40 years
-3930107	>40 years
-3930108	>40 years
-3930097	>40 years
 5036413	18 years or older
 5036416	18 years or older
 5036418	18 years or older
@@ -1153,7 +630,6 @@ tcell_id	h_age
 6513387	19-72 Years
 5561884	10 weeks or older
 3806514	6 yo 8 weeks
-3930103	>40 years
 2883752	children
 11198342	Pediatric
 11189998	Pediatric
@@ -1727,33 +1203,12 @@ tcell_id	h_age
 17677300	children
 17677301	children
 1474276	At least 8 weeks old
-1940947	>8 weeks
 7110052	19-72 Years
-22343742	>50 years
-22343727	>50 years
-22343744	>50 years
-22343745	>50 years
-22343746	>50 years
-22343747	>50 years
-22343750	>50 years
-22343751	>50 years
-22343757	>50 years
-22343758	>50 years
-22343732	>50 years
-22343734	>50 years
-22343733	>50 years
 22405231	4-18+ years
 22405232	4-18+ years
 22405235	4-18+ years
 22405238	4-18+ years
 22405239	4-18+ years
-22343759	>50 years
-22343762	>50 years
-22343761	>50 years
-22343763	>50 years
-22343764	>50 years
-22343765	>50 years
-22343766	>50 years
 22405176	4-18+ years
 22405177	4-18+ years
 6362678	Mean age of 32.2 years with a range from 18 to 49 years

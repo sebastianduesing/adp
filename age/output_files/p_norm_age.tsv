@@ -3055,8 +3055,8 @@ newborn	10141	Cavia porcellus (guinea pig)	3050	pass	newborn	0	pass	newborn	0	[c
 6-10 weeks	10002848	Mus musculus HLA-DPw4 Tg	3053	pass	6-10 weeks	0	pass	6-10 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-10 weeks
 4-6 weeks	35658	Mastomys coucha (southern multimammate mouse)	3054	pass	4-6 weeks	0	pass	4-6 week	1	[number(0)][number(1)][unit(2)]	range	pass	4-6 weeks
 3-8 months	10000263	Mus musculus B10.BR	3055	pass	3-8 months	0	pass	3-8 month	1	[number(0)][number(1)][unit(2)]	range	pass	3-8 months
-<24 hours	10000063	Mus musculus B10.A	3056	pass	<24 hours	0	fail	! Invalid words: ['<24', 'hour'] !		stopped	stopped	stopped	! Invalid words: ['<24', 'hour'] !
->8 weeks	10000067	Mus musculus C57BL/6	3057	pass	>8 weeks	0	fail	! Invalid words: ['>8'] !		stopped	stopped	stopped	! Invalid words: ['>8'] !
+<24 hours	10000063	Mus musculus B10.A	3056	pass	<24 hours	0	fail	! Invalid words: ['hour'] !		stopped	stopped	stopped	! Invalid words: ['hour'] !
+>8 weeks	10000067	Mus musculus C57BL/6	3057	pass	>8 weeks	0	pass	> 8 week	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>8 weeks
 6 to 8 weeks	10000271	Mus musculus B10.M	3058	pass	6 to 8 weeks	0	pass	6 to 8 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	6-8 weeks
 3 to 5 weeks	10000067	Mus musculus C57BL/6	3059	pass	3 to 5 weeks	0	pass	3 to 5 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	3-5 weeks
 NULL	10000050	Mus musculus C57BL/10 X C3H/HeJ	3060	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
@@ -3212,7 +3212,7 @@ mean of 37.0 years	9606	Homo sapiens (human)	3209	pass	mean of 37.0 years	0	fail
 24-76 years	9606	Homo sapiens (human)	3210	pass	24-76 years	0	pass	24-76 year	1	[number(0)][number(1)][unit(2)]	range	pass	24-76 years
 20 weeks	10090	Mus musculus (mouse)	3211	pass	20 weeks	0	pass	20 week	1	[number(0)][unit(1)]	exact	pass	20 weeks
 5 weeks	10001271	Mus musculus NOD-PI/NOD8.3	3212	pass	5 weeks	0	pass	5 week	1	[number(0)][unit(1)]	exact	pass	5 weeks
->50 years-old	9606	Homo sapiens (human)	3213	pass	>50 years-old	0	fail	! Invalid words: ['>50'] !		stopped	stopped	stopped	! Invalid words: ['>50'] !
+>50 years-old	9606	Homo sapiens (human)	3213	pass	>50 years-old	0	pass	> 50 year	6	[comparative(0)][number(1)][unit(2)]	comparative	pass	>50 years
 27- 60 years	9606	Homo sapiens (human)	3214	pass	27- 60 years	0	pass	27- 60 year	1	[number(0)][number(1)][unit(2)]	range	pass	27-60 years
 23-47 years-old	9606	Homo sapiens (human)	3215	pass	23-47 years-old	0	pass	23-47 year	5	[number(0)][number(1)][unit(2)]	range	pass	23-47 years
 6 months	10000187	Sus scrofa Landrace X Large White	3216	pass	6 months	0	pass	6 month	1	[number(0)][unit(1)]	exact	pass	6 months
@@ -3301,7 +3301,7 @@ fetal	10000227	Mus musculus OT-1 TCR Tg	3283	pass	fetal	0	fail	! Invalid words: 
 6-9 weeks old	10000038	Mus musculus C3H/He	3299	pass	6-9 weeks old	0	pass	6-9 week	5	[number(0)][number(1)][unit(2)]	range	pass	6-9 weeks
 58-75	9606	Homo sapiens (human)	3300	pass	58-75	0	pass	58-75	0	[number(0)][number(1)]	unitless_range	fail	! Invalid phrase type: unitless_range !
 56-63	9606	Homo sapiens (human)	3301	pass	56-63	0	pass	56-63	0	[number(0)][number(1)]	unitless_range	fail	! Invalid phrase type: unitless_range !
->8 weeks	10000227	Mus musculus OT-1 TCR Tg	3302	pass	>8 weeks	0	fail	! Invalid words: ['>8'] !		stopped	stopped	stopped	! Invalid words: ['>8'] !
+>8 weeks	10000227	Mus musculus OT-1 TCR Tg	3302	pass	>8 weeks	0	pass	> 8 week	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>8 weeks
 16-24 weeks	10000000	Mus musculus BALB/c	3303	pass	16-24 weeks	0	pass	16-24 week	1	[number(0)][number(1)][unit(2)]	range	pass	16-24 weeks
 16-24 weeks	10000067	Mus musculus C57BL/6	3304	pass	16-24 weeks	0	pass	16-24 week	1	[number(0)][number(1)][unit(2)]	range	pass	16-24 weeks
 10 weeks	10002213	Mus musculus 1C6 TCR Tg	3305	pass	10 weeks	0	pass	10 week	1	[number(0)][unit(1)]	exact	pass	10 weeks
@@ -3507,7 +3507,7 @@ NULL	10002220	Mus musculus P25 TCR Tg	3494	pass	null	4	pass	null	0	[null(0)]	nul
 NULL	10001438	Mus musculus BALB/cAnN	3505	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 20 - 57 years	9606	Homo sapiens (human)	3506	pass	20 - 57 years	0	pass	20 - 57 year	1	[number(0)][number(1)][unit(2)]	range	pass	20-57 years
 10-14 weeks	10000000	Mus musculus BALB/c	3507	pass	10-14 weeks	0	pass	10-14 week	1	[number(0)][number(1)][unit(2)]	range	pass	10-14 weeks
-<16 hours	10001165	Mus musculus C57BR/cdJ	3508	pass	<16 hours	0	fail	! Invalid words: ['<16', 'hour'] !		stopped	stopped	stopped	! Invalid words: ['<16', 'hour'] !
+<16 hours	10001165	Mus musculus C57BR/cdJ	3508	pass	<16 hours	0	fail	! Invalid words: ['hour'] !		stopped	stopped	stopped	! Invalid words: ['hour'] !
 3 months	10000662	Rattus norvegicus Lewis	3509	pass	3 months	0	pass	3 month	1	[number(0)][unit(1)]	exact	pass	3 months
 NULL	10000064	Mus musculus C57BL/10.Q	3510	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 6 - 12 weeks	10000000	Mus musculus BALB/c	3511	pass	6 - 12 weeks	0	pass	6 - 12 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-12 weeks
@@ -3672,7 +3672,7 @@ median age = 27 years	9606	Homo sapiens (human)	3618	pass	median age = 27 years	
 22-59 years-old	9606	Homo sapiens (human)	3670	pass	22-59 years-old	0	pass	22-59 year	5	[number(0)][number(1)][unit(2)]	range	pass	22-59 years
 23-59 years-old	9606	Homo sapiens (human)	3671	pass	23-59 years-old	0	pass	23-59 year	5	[number(0)][number(1)][unit(2)]	range	pass	23-59 years
 2 years 8 months to 3 years 9 months	9544	Macaca mulatta (rhesus macaque)	3672	pass	2 years 8 months to 3 years 9 months	0	pass	2 year 8 month to 3 year 9 month	4	[number(0)][unit(1)][number(2)][unit(3)][range_indicator(4)][number(5)][unit(6)][number(7)][unit(8)]	unknown	fail	! Invalid phrase type: unknown !
-<55 years	9606	Homo sapiens (human)	3673	pass	<55 years	0	fail	! Invalid words: ['<55'] !		stopped	stopped	stopped	! Invalid words: ['<55'] !
+<55 years	9606	Homo sapiens (human)	3673	pass	<55 years	0	pass	< 55 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	<55 years
 58.5 +/- 18.2 years	9606	Homo sapiens (human)	3674	pass	58.5 +/- 18.2 years	0	pass	58.5 +/- 18.2 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	58.5 ± 18.2 years
 8-44 years	9606	Homo sapiens (human)	3675	pass	8-44 years	0	pass	8-44 year	1	[number(0)][number(1)][unit(2)]	range	pass	8-44 years
 22-25 years	9606	Homo sapiens (human)	3676	pass	22-25 years	0	pass	22-25 year	1	[number(0)][number(1)][unit(2)]	range	pass	22-25 years
@@ -3885,7 +3885,7 @@ NULL	10001487	Mus musculus Apolipoprotein E null	3864	pass	null	4	pass	null	0	[n
 39-65 years	9606	Homo sapiens (human)	3883	pass	39-65 years	0	pass	39-65 year	1	[number(0)][number(1)][unit(2)]	range	pass	39-65 years
 > 14 weeks	10000047	Mus musculus C57BL/10	3884	pass	> 14 weeks	0	pass	> 14 week	1	[comparative(0)][number(1)][unit(2)]	comparative	pass	>14 weeks
 64 yeras	9606	Homo sapiens (human)	3885	pass	64 yeras	0	pass	64 year	2	[number(0)][unit(1)]	exact	pass	64 years
-average age=36.5 years	9606	Homo sapiens (human)	3886	pass	average age=36.5 years	0	fail	! Invalid words: ['age=36'] !		stopped	stopped	stopped	! Invalid words: ['age=36'] !
+average age=36.5 years	9606	Homo sapiens (human)	3886	pass	average age=36.5 years	0	fail	! Invalid words: ['age'] !		stopped	stopped	stopped	! Invalid words: ['age'] !
 6-27 weeks	10000028	Mus musculus C3H	3887	pass	6-27 weeks	0	pass	6-27 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-27 weeks
 22 to 76 years	9606	Homo sapiens (human)	3888	pass	22 to 76 years	0	pass	22 to 76 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	22-76 years
 NULL	10002223	Mus musculus RSV-M187 TCR Tg	3889	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
@@ -3927,7 +3927,7 @@ median 41.7 years	9606	Homo sapiens (human)	3920	pass	median 41.7 years	0	pass	m
 21 to 60 years	9606	Homo sapiens (human)	3925	pass	21 to 60 years	0	pass	21 to 60 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	21-60 years
 21 to 44 years	9606	Homo sapiens (human)	3926	pass	21 to 44 years	0	pass	21 to 44 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	21-44 years
 6 to 8 months	10002166	Bos taurus Japanese Black	3927	pass	6 to 8 months	0	pass	6 to 8 month	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	6-8 months
-average age=32 years	9606	Homo sapiens (human)	3928	pass	average age=32 years	0	fail	! Invalid words: ['age=32'] !		stopped	stopped	stopped	! Invalid words: ['age=32'] !
+average age=32 years	9606	Homo sapiens (human)	3928	pass	average age=32 years	0	fail	! Invalid words: ['age'] !		stopped	stopped	stopped	! Invalid words: ['age'] !
 2 months	10000200	Oryctolagus cuniculus Chinchilla	3929	pass	2 months	0	pass	2 month	1	[number(0)][unit(1)]	exact	pass	2 months
 19 weeks	10000632	Mus musculus NOD	3930	pass	19 weeks	0	pass	19 week	1	[number(0)][unit(1)]	exact	pass	19 weeks
 8 weeks	10000227	Mus musculus OT-1 TCR Tg	3931	pass	8 weeks	0	pass	8 week	1	[number(0)][unit(1)]	exact	pass	8 weeks
@@ -4090,7 +4090,7 @@ adult	10000227	Mus musculus OT-1 TCR Tg	4086	pass	adult	0	pass	adult	0	[categori
 6-11 weeks	10001363	Mus musculus 2D2 TCR Tg	4088	pass	6-11 weeks	0	pass	6-11 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-11 weeks
 8 to 12 weeks	10002220	Mus musculus P25 TCR Tg	4089	pass	8 to 12 weeks	0	pass	8 to 12 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	8-12 weeks
 6-8 weeks	10001979	Mus musculus class II null	4090	pass	6-8 weeks	0	pass	6-8 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
-Infant	9606	Homo sapiens (human)	4091	pass	infant	1	fail	! Invalid words: ['infant'] !		stopped	stopped	stopped	! Invalid words: ['infant'] !
+Infant	9606	Homo sapiens (human)	4091	pass	infant	1	pass	infant	0	[categorical(0)]	categorical	pass	infant
 4 week	10000635	Mus musculus NOD/Lt	4092	pass	4 week	0	pass	4 week	0	[number(0)][unit(1)]	exact	pass	4 weeks
 8-9 weeks	10000649	Mus musculus SJL	4093	pass	8-9 weeks	0	pass	8-9 week	1	[number(0)][number(1)][unit(2)]	range	pass	8-9 weeks
 5 to 6 weeks	10000253	Mus musculus A/J	4094	pass	5 to 6 weeks	0	pass	5 to 6 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	5-6 weeks
@@ -4136,7 +4136,7 @@ Pediatric	9606	Homo sapiens (human)	4121	pass	pediatric	1	fail	! Invalid words: 
 10 to 14 weeks	10002763	Mus musculus HLA-A*11:01 Tg	4134	pass	10 to 14 weeks	0	pass	10 to 14 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	10-14 weeks
 62 years	9606	Homo sapiens (human)	4135	pass	62 years	0	pass	62 year	1	[number(0)][unit(1)]	exact	pass	62 years
 8-12 weeks	10002274	Mus musculus CD1a	4136	pass	8-12 weeks	0	pass	8-12 week	1	[number(0)][number(1)][unit(2)]	range	pass	8-12 weeks
-22 to >60 years	9606	Homo sapiens (human)	4137	pass	22 to >60 years	0	fail	! Invalid words: ['>60'] !		stopped	stopped	stopped	! Invalid words: ['>60'] !
+22 to >60 years	9606	Homo sapiens (human)	4137	pass	22 to >60 years	0	pass	22 to > 60 year	2	[number(0)][range_indicator(1)][comparative(2)][number(3)][unit(4)]	unknown	fail	! Invalid phrase type: unknown !
 65-78 years	9606	Homo sapiens (human)	4138	pass	65-78 years	0	pass	65-78 year	1	[number(0)][number(1)][unit(2)]	range	pass	65-78 years
 28 to 69 years	9606	Homo sapiens (human)	4139	pass	28 to 69 years	0	pass	28 to 69 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	28-69 years
 77 years	9606	Homo sapiens (human)	4140	pass	77 years	0	pass	77 year	1	[number(0)][unit(1)]	exact	pass	77 years
@@ -4144,7 +4144,7 @@ Pediatric	9606	Homo sapiens (human)	4121	pass	pediatric	1	fail	! Invalid words: 
 65-72 years	9606	Homo sapiens (human)	4142	pass	65-72 years	0	pass	65-72 year	1	[number(0)][number(1)][unit(2)]	range	pass	65-72 years
 5 weeks	10001487	Mus musculus Apolipoprotein E null	4143	pass	5 weeks	0	pass	5 week	1	[number(0)][unit(1)]	exact	pass	5 weeks
 6 months	10000191	Bos taurus Hereford	4144	pass	6 months	0	pass	6 month	1	[number(0)][unit(1)]	exact	pass	6 months
->40 years	9606	Homo sapiens (human)	4145	pass	>40 years	0	fail	! Invalid words: ['>40'] !		stopped	stopped	stopped	! Invalid words: ['>40'] !
+>40 years	9606	Homo sapiens (human)	4145	pass	>40 years	0	pass	> 40 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>40 years
 9-64 years	9606	Homo sapiens (human)	4146	pass	9-64 years	0	pass	9-64 year	1	[number(0)][number(1)][unit(2)]	range	pass	9-64 years
 Adult	9615	Canis lupus familiaris (dogs)	4147	pass	adult	1	pass	adult	0	[categorical(0)]	categorical	pass	adult
 7-14 weeks	10000067	Mus musculus C57BL/6	4148	pass	7-14 weeks	0	pass	7-14 week	1	[number(0)][number(1)][unit(2)]	range	pass	7-14 weeks
@@ -4747,7 +4747,7 @@ NULL	9825	Sus scrofa domesticus (domestic pig)	4742	pass	null	4	pass	null	0	[nul
 4-5  weeks	10000576	Mus musculus HLA-A*02:01 Tg	4745	pass	4-5 weeks	1	pass	4-5 week	1	[number(0)][number(1)][unit(2)]	range	pass	4-5 weeks
 1 day old	10000632	Mus musculus NOD	4746	pass	1 day old	0	pass	1 day	4	[number(0)][unit(1)]	exact	pass	1 day
 32-82 years	9606	Homo sapiens (human)	4747	pass	32-82 years	0	pass	32-82 year	1	[number(0)][number(1)][unit(2)]	range	pass	32-82 years
->50 years	9606	Homo sapiens (human)	4748	pass	>50 years	0	fail	! Invalid words: ['>50'] !		stopped	stopped	stopped	! Invalid words: ['>50'] !
+>50 years	9606	Homo sapiens (human)	4748	pass	>50 years	0	pass	> 50 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>50 years
 33 to 55 years	9606	Homo sapiens (human)	4749	pass	33 to 55 years	0	pass	33 to 55 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	33-55 years
 40 to 55 years	9606	Homo sapiens (human)	4750	pass	40 to 55 years	0	pass	40 to 55 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	40-55 years
 21-82 years	9606	Homo sapiens (human)	4751	pass	21-82 years	0	pass	21-82 year	1	[number(0)][number(1)][unit(2)]	range	pass	21-82 years
@@ -5060,7 +5060,7 @@ NULL	9838	Camelus dromedarius (camel)	5048	pass	null	4	pass	null	0	[null(0)]	nul
 8 weeks old	10000662	Rattus norvegicus Lewis	5058	pass	8 weeks old	0	pass	8 week	5	[number(0)][unit(1)]	exact	pass	8 weeks
 10 weeks	10000206	Oryctolagus cuniculus New Zealand White	5059	pass	10 weeks	0	pass	10 week	1	[number(0)][unit(1)]	exact	pass	10 weeks
 6-7 months	10000194	Bos taurus Holstein-Friesian	5060	pass	6-7 months	0	pass	6-7 month	1	[number(0)][number(1)][unit(2)]	range	pass	6-7 months
-Infants	9606	Homo sapiens (human)	5061	pass	infants	1	fail	! Invalid words: ['infants'] !		stopped	stopped	stopped	! Invalid words: ['infants'] !
+Infants	9606	Homo sapiens (human)	5061	pass	infants	1	pass	infant	1	[categorical(0)]	categorical	pass	infant
 6-8 weeks-old	10000228	Mus musculus CBA	5062	pass	6-8 weeks-old	0	pass	6-8 week	5	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
 42 days	10000667	Rattus norvegicus Sprague-Dawley	5063	pass	42 days	0	pass	42 day	1	[number(0)][unit(1)]	exact	pass	42 days
 14 weeks old	9825	Sus scrofa domesticus (domestic pig)	5064	pass	14 weeks old	0	pass	14 week	5	[number(0)][unit(1)]	exact	pass	14 weeks
@@ -5249,11 +5249,11 @@ Adult (pregnant)	9606	Homo sapiens (human)	5245	pass	adult (pregnant)	1	fail	! I
 6-8 weeks	3122392	Nothocricetulus migratorius (gray dwarf hamster)	5247	pass	6-8 weeks	0	pass	6-8 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
 8-16 week	10000263	Mus musculus B10.BR	5248	pass	8-16 week	0	pass	8-16 week	0	[number(0)][number(1)][unit(2)]	range	pass	8-16 weeks
 8 weeks	10000202	Oryctolagus cuniculus Flemish Giant	5249	pass	8 weeks	0	pass	8 week	1	[number(0)][unit(1)]	exact	pass	8 weeks
-<20 years	9606	Homo sapiens (human)	5250	pass	<20 years	0	fail	! Invalid words: ['<20'] !		stopped	stopped	stopped	! Invalid words: ['<20'] !
+<20 years	9606	Homo sapiens (human)	5250	pass	<20 years	0	pass	< 20 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	<20 years
 9-10 weeks	10001597	Mus musculus alpha-galactosyl transferase null	5251	pass	9-10 weeks	0	pass	9-10 week	1	[number(0)][number(1)][unit(2)]	range	pass	9-10 weeks
 NULL	10000249	Mus musculus 129/Ola Prp null	5252	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 8-16 week	10000038	Mus musculus C3H/He	5253	pass	8-16 week	0	pass	8-16 week	0	[number(0)][number(1)][unit(2)]	range	pass	8-16 weeks
->15 years	9606	Homo sapiens (human)	5254	pass	>15 years	0	fail	! Invalid words: ['>15'] !		stopped	stopped	stopped	! Invalid words: ['>15'] !
+>15 years	9606	Homo sapiens (human)	5254	pass	>15 years	0	pass	> 15 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>15 years
 8-16 week	10000000	Mus musculus BALB/c	5255	pass	8-16 week	0	pass	8-16 week	0	[number(0)][number(1)][unit(2)]	range	pass	8-16 weeks
 6 mos	10000206	Oryctolagus cuniculus New Zealand White	5256	pass	6 mos	0	fail	! Invalid words: ['mos'] !		stopped	stopped	stopped	! Invalid words: ['mos'] !
 6-8 weeks	10000006	Mus musculus BALB/c GalNAc Transferase null	5257	pass	6-8 weeks	0	pass	6-8 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
@@ -5337,7 +5337,7 @@ NULL	10000652	Mus musculus STU	5325	pass	null	4	pass	null	0	[null(0)]	null	fail	
 6 weeks	10000102	Mus musculus C57BL/6 Prp null	5335	pass	6 weeks	0	pass	6 week	1	[number(0)][unit(1)]	exact	pass	6 weeks
 NULL	78354	Saguinus midas midas	5336	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 6 weeks old	10000653	Mus musculus Swiss	5337	pass	6 weeks old	0	pass	6 week	5	[number(0)][unit(1)]	exact	pass	6 weeks
->13 years	9606	Homo sapiens (human)	5338	pass	>13 years	0	fail	! Invalid words: ['>13'] !		stopped	stopped	stopped	! Invalid words: ['>13'] !
+>13 years	9606	Homo sapiens (human)	5338	pass	>13 years	0	pass	> 13 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>13 years
 1.25-19 years	9606	Homo sapiens (human)	5339	pass	1.25-19 years	0	pass	1.25-19 year	1	[number(0)][number(1)][unit(2)]	range	pass	1.25-19 years
 7 - 79 years	9606	Homo sapiens (human)	5340	pass	7 - 79 years	0	pass	7 - 79 year	1	[number(0)][number(1)][unit(2)]	range	pass	7-79 years
 4-6 weeks	10000055	Mus musculus DBA/2	5341	pass	4-6 weeks	0	pass	4-6 week	1	[number(0)][number(1)][unit(2)]	range	pass	4-6 weeks
@@ -5421,7 +5421,7 @@ adult	9838	Camelus dromedarius (camel)	5404	pass	adult	0	pass	adult	0	[categoric
 10-67 years	9606	Homo sapiens (human)	5419	pass	10-67 years	0	pass	10-67 year	1	[number(0)][number(1)][unit(2)]	range	pass	10-67 years
 13 to 82 years	9606	Homo sapiens (human)	5420	pass	13 to 82 years	0	pass	13 to 82 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	13-82 years
 16 to 20 weeks	10000625	Mus musculus MRL	5421	pass	16 to 20 weeks	0	pass	16 to 20 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	16-20 weeks
-40.0±13.7 years	9606	Homo sapiens (human)	5422	pass	40.0+/-13.7 years	3	fail	! Invalid words: ['0+/'] !		stopped	stopped	stopped	! Invalid words: ['0+/'] !
+40.0±13.7 years	9606	Homo sapiens (human)	5422	pass	40.0+/-13.7 years	3	pass	40.0 +/-13.7 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	40.0 ± 13.7 years
 14.4±3.8  years	9606	Homo sapiens (human)	5423	pass	14.4+/-3.8 years	4	pass	14.4 +/-3.8 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	14.4 ± 3.8 years
 29 to 47 years	9606	Homo sapiens (human)	5424	pass	29 to 47 years	0	pass	29 to 47 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	29-47 years
 6.1-36.4 years	9606	Homo sapiens (human)	5425	pass	6.1-36.4 years	0	pass	6.1-36.4 year	1	[number(0)][number(1)][unit(2)]	range	pass	6.1-36.4 years
@@ -5563,13 +5563,13 @@ mean = 72.4 years	9606	Homo sapiens (human)	5533	pass	mean = 72.4 years	0	pass	m
 Mean age = 41.7 ± 15.1 years	9606	Homo sapiens (human)	5561	pass	mean age = 41.7 +/- 15.1 years	4	pass	mean = 41.7 +/- 15.1 year	5	[statistical(0)][equals(1)][number(2)][plus_minus(3)][number(4)][unit(5)]	unknown	fail	! Invalid phrase type: unknown !
 5 to 10 weeks	10000000	Mus musculus BALB/c	5562	pass	5 to 10 weeks	0	pass	5 to 10 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	5-10 weeks
 17-19 years	9606	Homo sapiens (human)	5563	pass	17-19 years	0	pass	17-19 year	1	[number(0)][number(1)][unit(2)]	range	pass	17-19 years
-<16 years	9606	Homo sapiens (human)	5564	pass	<16 years	0	fail	! Invalid words: ['<16'] !		stopped	stopped	stopped	! Invalid words: ['<16'] !
+<16 years	9606	Homo sapiens (human)	5564	pass	<16 years	0	pass	< 16 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	<16 years
 12 to 16 weeks	10001406	Mus musculus MLR/lpr	5565	pass	12 to 16 weeks	0	pass	12 to 16 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	12-16 weeks
 19-52 years	9606	Homo sapiens (human)	5566	pass	19-52 years	0	pass	19-52 year	1	[number(0)][number(1)][unit(2)]	range	pass	19-52 years
 5 to 8 weeks	10001405	Mus musculus NZB X NZW	5567	pass	5 to 8 weeks	0	pass	5 to 8 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	5-8 weeks
 Mean age = 39.8 ± 13.3 years	9606	Homo sapiens (human)	5568	pass	mean age = 39.8 +/- 13.3 years	4	pass	mean = 39.8 +/- 13.3 year	5	[statistical(0)][equals(1)][number(2)][plus_minus(3)][number(4)][unit(5)]	unknown	fail	! Invalid phrase type: unknown !
 subadult	10000193	Bos taurus Holstein	5569	pass	subadult	0	fail	! Invalid words: ['subadult'] !		stopped	stopped	stopped	! Invalid words: ['subadult'] !
-33.7±4.6 years	9606	Homo sapiens (human)	5570	pass	33.7+/-4.6 years	3	fail	! Invalid words: ['7+/'] !		stopped	stopped	stopped	! Invalid words: ['7+/'] !
+33.7±4.6 years	9606	Homo sapiens (human)	5570	pass	33.7+/-4.6 years	3	pass	33.7 +/-4.6 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	33.7 ± 4.6 years
 39 to 51 years	9606	Homo sapiens (human)	5571	pass	39 to 51 years	0	pass	39 to 51 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	39-51 years
 19-45 years	9606	Homo sapiens (human)	5572	pass	19-45 years	0	pass	19-45 year	1	[number(0)][number(1)][unit(2)]	range	pass	19-45 years
 12-68 years	9606	Homo sapiens (human)	5573	pass	12-68 years	0	pass	12-68 year	1	[number(0)][number(1)][unit(2)]	range	pass	12-68 years
@@ -5583,7 +5583,7 @@ subadult	10000193	Bos taurus Holstein	5569	pass	subadult	0	fail	! Invalid words:
 8-79 years	9606	Homo sapiens (human)	5581	pass	8-79 years	0	pass	8-79 year	1	[number(0)][number(1)][unit(2)]	range	pass	8-79 years
 18-39 years	9606	Homo sapiens (human)	5582	pass	18-39 years	0	pass	18-39 year	1	[number(0)][number(1)][unit(2)]	range	pass	18-39 years
 39-67 years	9606	Homo sapiens (human)	5583	pass	39-67 years	0	pass	39-67 year	1	[number(0)][number(1)][unit(2)]	range	pass	39-67 years
-35.5±8.1 years	9606	Homo sapiens (human)	5584	pass	35.5+/-8.1 years	3	fail	! Invalid words: ['5+/'] !		stopped	stopped	stopped	! Invalid words: ['5+/'] !
+35.5±8.1 years	9606	Homo sapiens (human)	5584	pass	35.5+/-8.1 years	3	pass	35.5 +/-8.1 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	35.5 ± 8.1 years
 15-82 years	9606	Homo sapiens (human)	5585	pass	15-82 years	0	pass	15-82 year	1	[number(0)][number(1)][unit(2)]	range	pass	15-82 years
 13-69 years	9606	Homo sapiens (human)	5586	pass	13-69 years	0	pass	13-69 year	1	[number(0)][number(1)][unit(2)]	range	pass	13-69 years
 37-44 years	9606	Homo sapiens (human)	5587	pass	37-44 years	0	pass	37-44 year	1	[number(0)][number(1)][unit(2)]	range	pass	37-44 years
@@ -5661,7 +5661,7 @@ NULL	3122392	Nothocricetulus migratorius (gray dwarf hamster)	5639	pass	null	4	p
 22 weeks	10000639	Mus musculus NZB	5659	pass	22 weeks	0	pass	22 week	1	[number(0)][unit(1)]	exact	pass	22 weeks
 24 to 87 years	9606	Homo sapiens (human)	5660	pass	24 to 87 years	0	pass	24 to 87 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	24-87 years
 12-66 years	9606	Homo sapiens (human)	5661	pass	12-66 years	0	pass	12-66 year	1	[number(0)][number(1)][unit(2)]	range	pass	12-66 years
-Mean age = 58±12 years	9606	Homo sapiens (human)	5662	pass	mean age = 58+/-12 years	4	fail	! Invalid words: ['58+/'] !		stopped	stopped	stopped	! Invalid words: ['58+/'] !
+Mean age = 58±12 years	9606	Homo sapiens (human)	5662	pass	mean age = 58+/-12 years	4	pass	mean = 58 +/-12 year	6	[statistical(0)][equals(1)][number(2)][plus_minus(3)][number(4)][unit(5)]	unknown	fail	! Invalid phrase type: unknown !
 17-56 years	9606	Homo sapiens (human)	5663	pass	17-56 years	0	pass	17-56 year	1	[number(0)][number(1)][unit(2)]	range	pass	17-56 years
 31 to 67 years	9606	Homo sapiens (human)	5664	pass	31 to 67 years	0	pass	31 to 67 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	31-67 years
 6 to 8 weeks	10001099	Mus musculus CF-1	5665	pass	6 to 8 weeks	0	pass	6 to 8 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	6-8 weeks
@@ -5689,8 +5689,8 @@ newborns - 29 years	9606	Homo sapiens (human)	5686	pass	newborns - 29 years	0	pa
 23 to 82 years	10000119	Homo sapiens Caucasian	5687	pass	23 to 82 years	0	pass	23 to 82 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	23-82 years
 1 year 5 months to 15 years 8 months	9606	Homo sapiens (human)	5688	pass	1 year 5 months to 15 years 8 months	0	pass	1 year 5 month to 15 year 8 month	3	[number(0)][unit(1)][number(2)][unit(3)][range_indicator(4)][number(5)][unit(6)][number(7)][unit(8)]	unknown	fail	! Invalid phrase type: unknown !
 6-8 weeks	10001575	Mus musculus C57BL/6 alpha1,3GT null	5689	pass	6-8 weeks	0	pass	6-8 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
->24 weeks	10001575	Mus musculus C57BL/6 alpha1,3GT null	5690	pass	>24 weeks	0	fail	! Invalid words: ['>24'] !		stopped	stopped	stopped	! Invalid words: ['>24'] !
->22 weeks	10001575	Mus musculus C57BL/6 alpha1,3GT null	5691	pass	>22 weeks	0	fail	! Invalid words: ['>22'] !		stopped	stopped	stopped	! Invalid words: ['>22'] !
+>24 weeks	10001575	Mus musculus C57BL/6 alpha1,3GT null	5690	pass	>24 weeks	0	pass	> 24 week	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>24 weeks
+>22 weeks	10001575	Mus musculus C57BL/6 alpha1,3GT null	5691	pass	>22 weeks	0	pass	> 22 week	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>22 weeks
 8-20 weeks	10000228	Mus musculus CBA	5692	pass	8-20 weeks	0	pass	8-20 week	1	[number(0)][number(1)][unit(2)]	range	pass	8-20 weeks
 NULL	10001661	Mus musculus alphaGal IgM H Tg	5693	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 33 to 60 years	9606	Homo sapiens (human)	5694	pass	33 to 60 years	0	pass	33 to 60 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	33-60 years
@@ -5770,7 +5770,7 @@ Young	9823	Sus scrofa (pig)	5763	pass	young	1	pass	young	0	[categorical(0)]	cate
 8-14 weeks	10001597	Mus musculus alpha-galactosyl transferase null	5768	pass	8-14 weeks	0	pass	8-14 week	1	[number(0)][number(1)][unit(2)]	range	pass	8-14 weeks
 0.1-11 years	9606	Homo sapiens (human)	5769	pass	0.1-11 years	0	pass	0.1-11 year	1	[number(0)][number(1)][unit(2)]	range	pass	0.1-11 years
 8.9-13.8 years	9615	Canis lupus familiaris (dogs)	5770	pass	8.9-13.8 years	0	pass	8.9-13.8 year	1	[number(0)][number(1)][unit(2)]	range	pass	8.9-13.8 years
-Foals	9796	Equus caballus (domestic horse)	5771	pass	foals	1	fail	! Invalid words: ['foals'] !		stopped	stopped	stopped	! Invalid words: ['foals'] !
+Foals	9796	Equus caballus (domestic horse)	5771	pass	foals	1	fail	! Invalid words: ['foal'] !		stopped	stopped	stopped	! Invalid words: ['foal'] !
 40-75 years	9606	Homo sapiens (human)	5772	pass	40-75 years	0	pass	40-75 year	1	[number(0)][number(1)][unit(2)]	range	pass	40-75 years
 5 to 26	9606	Homo sapiens (human)	5773	pass	5 to 26	0	pass	5 to 26	0	[number(0)][range_indicator(1)][number(2)]	unitless_range	fail	! Invalid phrase type: unitless_range !
 9-81 years	9606	Homo sapiens (human)	5774	pass	9-81 years	0	pass	9-81 year	1	[number(0)][number(1)][unit(2)]	range	pass	9-81 years
@@ -5828,7 +5828,7 @@ NULL	135760	Maccullochella macquariensis (trout cod)	5815	pass	null	4	pass	null	
 6-22.8 years	9606	Homo sapiens (human)	5826	pass	6-22.8 years	0	pass	6-22.8 year	1	[number(0)][number(1)][unit(2)]	range	pass	6-22.8 years
 2-50 years	9606	Homo sapiens (human)	5827	pass	2-50 years	0	pass	2-50 year	1	[number(0)][number(1)][unit(2)]	range	pass	2-50 years
 6-22.8	9606	Homo sapiens (human)	5828	pass	6-22.8	0	pass	6-22.8	0	[number(0)][number(1)]	unitless_range	fail	! Invalid phrase type: unitless_range !
->69 years	9606	Homo sapiens (human)	5829	pass	>69 years	0	fail	! Invalid words: ['>69'] !		stopped	stopped	stopped	! Invalid words: ['>69'] !
+>69 years	9606	Homo sapiens (human)	5829	pass	>69 years	0	pass	> 69 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>69 years
 33-88 years	9606	Homo sapiens (human)	5830	pass	33-88 years	0	pass	33-88 year	1	[number(0)][number(1)][unit(2)]	range	pass	33-88 years
 8.6-22.8 years	9606	Homo sapiens (human)	5831	pass	8.6-22.8 years	0	pass	8.6-22.8 year	1	[number(0)][number(1)][unit(2)]	range	pass	8.6-22.8 years
 18 months	10001268	Mus musculus 3xTg-AD	5832	pass	18 months	0	pass	18 month	1	[number(0)][unit(1)]	exact	pass	18 months
@@ -5837,7 +5837,7 @@ NULL	135760	Maccullochella macquariensis (trout cod)	5815	pass	null	4	pass	null	
 9-10 months	10001278	Mus musculus APP751	5835	pass	9-10 months	0	pass	9-10 month	1	[number(0)][number(1)][unit(2)]	range	pass	9-10 months
 4.5-26 years	9606	Homo sapiens (human)	5836	pass	4.5-26 years	0	pass	4.5-26 year	1	[number(0)][number(1)][unit(2)]	range	pass	4.5-26 years
 8-16 weeks	10001309	Mus musculus hTNF Tg	5837	pass	8-16 weeks	0	pass	8-16 week	1	[number(0)][number(1)][unit(2)]	range	pass	8-16 weeks
-adults, >32 years	9606	Homo sapiens (human)	5838	pass	adults, >32 years	0	fail	! Invalid words: ['>32'] !		stopped	stopped	stopped	! Invalid words: ['>32'] !
+adults, >32 years	9606	Homo sapiens (human)	5838	pass	adults, >32 years	0	pass	adult, > 32 year	3	[categorical(0)][comparative(1)][number(2)][unit(3)]	unknown	fail	! Invalid phrase type: unknown !
 19.8 to 38.8	9606	Homo sapiens (human)	5839	pass	19.8 to 38.8	0	pass	19.8 to 38.8	0	[number(0)][range_indicator(1)][number(2)]	unitless_range	fail	! Invalid phrase type: unitless_range !
 15-77 years	9606	Homo sapiens (human)	5840	pass	15-77 years	0	pass	15-77 year	1	[number(0)][number(1)][unit(2)]	range	pass	15-77 years
 elderly > 70 years	9606	Homo sapiens (human)	5841	pass	elderly > 70 years	0	fail	! Invalid words: ['elderly'] !		stopped	stopped	stopped	! Invalid words: ['elderly'] !
@@ -6170,13 +6170,13 @@ mean age = 30.4 years	9606	Homo sapiens (human)	6135	pass	mean age = 30.4 years	
 NULL	10001717	Mus musculus A.TH	6168	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 8- to 10-week-old	10000000	Mus musculus BALB/c	6169	pass	8- to 10-week-old	0	pass	8- to 10-week	4	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	8-10 weeks
 3 years	9606	Homo sapiens (human)	6170	pass	3 years	0	pass	3 year	1	[number(0)][unit(1)]	exact	pass	3 years
-<6 months	10000000	Mus musculus BALB/c	6171	pass	<6 months	0	fail	! Invalid words: ['<6'] !		stopped	stopped	stopped	! Invalid words: ['<6'] !
+<6 months	10000000	Mus musculus BALB/c	6171	pass	<6 months	0	pass	< 6 month	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	<6 months
 NULL	10001719	Mesocricetus auratus LVG	6172	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 5 weeks.	10090	Mus musculus (mouse)	6173	pass	5 weeks	1	pass	5 week	1	[number(0)][unit(1)]	exact	pass	5 weeks
 mean age = 46 years	9606	Homo sapiens (human)	6174	pass	mean age = 46 years	0	pass	mean = 46 year	5	[statistical(0)][equals(1)][number(2)][unit(3)]	statistical	pass	mean: 46 years
 43.62 +/- 1.07 years	9606	Homo sapiens (human)	6175	pass	43.62 +/- 1.07 years	0	pass	43.62 +/- 1.07 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	43.62 ± 1.07 years
 young	10000000	Mus musculus BALB/c	6176	pass	young	0	pass	young	0	[categorical(0)]	categorical	pass	young
-100 day fetus	10001726	Sus scrofa Miniature Minnesota	6177	pass	100 day fetus	0	fail	! Invalid words: ['fetus'] !		stopped	stopped	stopped	! Invalid words: ['fetus'] !
+100 day fetus	10001726	Sus scrofa Miniature Minnesota	6177	pass	100 day fetus	0	pass	100 day fetus	0	[number(0)][unit(1)][categorical(2)]	unknown	fail	! Invalid phrase type: unknown !
 4-6 weeks	10000915	Mus musculus Kunming	6178	pass	4-6 weeks	0	pass	4-6 week	1	[number(0)][number(1)][unit(2)]	range	pass	4-6 weeks
 23 to 27 weeks	10001728	Mus musculus PBL-SCID-bo	6179	pass	23 to 27 weeks	0	pass	23 to 27 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	23-27 weeks
 23 to 27 weeks	10001029	Mus musculus SCID (NOD.CB17-Prkdc<sup>scid</sup>)	6180	pass	23 to 27 weeks	0	pass	23 to 27 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	23-27 weeks
@@ -6212,20 +6212,20 @@ Mean age of 54. 04	9606	Homo sapiens (human)	6206	pass	mean age of 54. 04	1	fail
 10-15 years	9544	Macaca mulatta (rhesus macaque)	6210	pass	10-15 years	0	pass	10-15 year	1	[number(0)][number(1)][unit(2)]	range	pass	10-15 years
 6-7 weeks	10000019	Mus musculus BALB/cByJ	6211	pass	6-7 weeks	0	pass	6-7 week	1	[number(0)][number(1)][unit(2)]	range	pass	6-7 weeks
 > 2 months	9823	Sus scrofa (pig)	6212	pass	> 2 months	0	pass	> 2 month	1	[comparative(0)][number(1)][unit(2)]	comparative	pass	>2 months
-72.5±5.2 years	9606	Homo sapiens (human)	6213	pass	72.5+/-5.2 years	3	fail	! Invalid words: ['5+/'] !		stopped	stopped	stopped	! Invalid words: ['5+/'] !
-72.3±6.7 years	9606	Homo sapiens (human)	6214	pass	72.3+/-6.7 years	3	fail	! Invalid words: ['3+/'] !		stopped	stopped	stopped	! Invalid words: ['3+/'] !
+72.5±5.2 years	9606	Homo sapiens (human)	6213	pass	72.5+/-5.2 years	3	pass	72.5 +/-5.2 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	72.5 ± 5.2 years
+72.3±6.7 years	9606	Homo sapiens (human)	6214	pass	72.3+/-6.7 years	3	pass	72.3 +/-6.7 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	72.3 ± 6.7 years
 mean age = 38.6 years	9606	Homo sapiens (human)	6215	pass	mean age = 38.6 years	0	pass	mean = 38.6 year	5	[statistical(0)][equals(1)][number(2)][unit(3)]	statistical	pass	mean: 38.6 years
 5-59 years old	9606	Homo sapiens (human)	6216	pass	5-59 years old	0	pass	5-59 year	5	[number(0)][number(1)][unit(2)]	range	pass	5-59 years
 6–8weeks old	10000000	Mus musculus BALB/c	6217	pass	6-8weeks old	1	pass	6-8 week	6	[number(0)][number(1)][unit(2)]	range	pass	6-8 weeks
 10 weeks	10000667	Rattus norvegicus Sprague-Dawley	6218	pass	10 weeks	0	pass	10 week	1	[number(0)][unit(1)]	exact	pass	10 weeks
 32-68 years old	9606	Homo sapiens (human)	6219	pass	32-68 years old	0	pass	32-68 year	5	[number(0)][number(1)][unit(2)]	range	pass	32-68 years
->55 years	9606	Homo sapiens (human)	6220	pass	>55 years	0	fail	! Invalid words: ['>55'] !		stopped	stopped	stopped	! Invalid words: ['>55'] !
+>55 years	9606	Homo sapiens (human)	6220	pass	>55 years	0	pass	> 55 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>55 years
 5-6 weeks old	10000654	Mus musculus Swiss albino	6221	pass	5-6 weeks old	0	pass	5-6 week	5	[number(0)][number(1)][unit(2)]	range	pass	5-6 weeks
 NULL	100937	Papio papio (baboon)	6222	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 4 weeks	10000017	Mus musculus BALB/c X DBA/2	6223	pass	4 weeks	0	pass	4 week	1	[number(0)][unit(1)]	exact	pass	4 weeks
 36.47 +/- 12.46 years	9606	Homo sapiens (human)	6224	pass	36.47 +/- 12.46 years	0	pass	36.47 +/- 12.46 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	36.47 ± 12.46 years
 40.15 +/- 8.8 years	9606	Homo sapiens (human)	6225	pass	40.15 +/- 8.8 years	0	pass	40.15 +/- 8.8 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	40.15 ± 8.8 years
-Infants and adults	9606	Homo sapiens (human)	6226	pass	infants and adults	1	fail	! Invalid words: ['infants'] !		stopped	stopped	stopped	! Invalid words: ['infants'] !
+Infants and adults	9606	Homo sapiens (human)	6226	pass	infants and adults	1	pass	infant and adult	2	[categorical(0)][conjunction(1)][categorical(2)]	unknown	fail	! Invalid phrase type: unknown !
 2 weeks	9103	Meleagris gallopavo (common turkey)	6227	pass	2 weeks	0	pass	2 week	1	[number(0)][unit(1)]	exact	pass	2 weeks
 5 weeks	9103	Meleagris gallopavo (common turkey)	6228	pass	5 weeks	0	pass	5 week	1	[number(0)][unit(1)]	exact	pass	5 weeks
 4 months	9925	Capra hircus (domestic goat)	6229	pass	4 months	0	pass	4 month	1	[number(0)][unit(1)]	exact	pass	4 months
@@ -6233,7 +6233,7 @@ Infants and adults	9606	Homo sapiens (human)	6226	pass	infants and adults	1	fail
 4 to 6 weeks	10000655	Mus musculus Swiss Webster	6231	pass	4 to 6 weeks	0	pass	4 to 6 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	4-6 weeks
 53 +/- 11 years	9606	Homo sapiens (human)	6232	pass	53 +/- 11 years	0	pass	53 +/- 11 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	53 ± 11 years
 21-85 years	9606	Homo sapiens (human)	6233	pass	21-85 years	0	pass	21-85 year	1	[number(0)][number(1)][unit(2)]	range	pass	21-85 years
-mean age=53.7 years	9606	Homo sapiens (human)	6234	pass	mean age=53.7 years	0	fail	! Invalid words: ['age=53'] !		stopped	stopped	stopped	! Invalid words: ['age=53'] !
+mean age=53.7 years	9606	Homo sapiens (human)	6234	pass	mean age=53.7 years	0	fail	! Invalid words: ['age'] !		stopped	stopped	stopped	! Invalid words: ['age'] !
 16-22 years	9534	Chlorocebus aethiops (African green monkey)	6235	pass	16-22 years	0	pass	16-22 year	1	[number(0)][number(1)][unit(2)]	range	pass	16-22 years
 5-10 weeks	10000038	Mus musculus C3H/He	6236	pass	5-10 weeks	0	pass	5-10 week	1	[number(0)][number(1)][unit(2)]	range	pass	5-10 weeks
 2 weeks	10000668	Cavia porcellus Duncan-Hartley	6237	pass	2 weeks	0	pass	2 week	1	[number(0)][unit(1)]	exact	pass	2 weeks
@@ -6317,10 +6317,10 @@ NULL	7962	Cyprinus carpio (carp)	6309	pass	null	4	pass	null	0	[null(0)]	null	fai
 2 weeks	10001436	Gallus gallus P2a	6315	pass	2 weeks	0	pass	2 week	1	[number(0)][unit(1)]	exact	pass	2 weeks
 44.1 +/- 13.2 years	9606	Homo sapiens (human)	6316	pass	44.1 +/- 13.2 years	0	pass	44.1 +/- 13.2 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	44.1 ± 13.2 years
 41.5 +/- 9.8 years	9606	Homo sapiens (human)	6317	pass	41.5 +/- 9.8 years	0	pass	41.5 +/- 9.8 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	41.5 ± 9.8 years
-31.7+/-4.5	9606	Homo sapiens (human)	6318	pass	31.7+/-4.5	0	fail	! Invalid words: ['7+/'] !		stopped	stopped	stopped	! Invalid words: ['7+/'] !
+31.7+/-4.5	9606	Homo sapiens (human)	6318	pass	31.7+/-4.5	0	pass	31.7 +/-4.5	1	[number(0)][plus_minus(1)][number(2)]	unitless_plus_minus	fail	! Invalid phrase type: unitless_plus_minus !
 7.5 to 16.5 years	9606	Homo sapiens (human)	6319	pass	7.5 to 16.5 years	0	pass	7.5 to 16.5 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	7.5-16.5 years
 37.0 +/- 12.6 years	9606	Homo sapiens (human)	6320	pass	37.0 +/- 12.6 years	0	pass	37.0 +/- 12.6 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	37.0 ± 12.6 years
-31.6+/-5.4	9606	Homo sapiens (human)	6321	pass	31.6+/-5.4	0	fail	! Invalid words: ['6+/'] !		stopped	stopped	stopped	! Invalid words: ['6+/'] !
+31.6+/-5.4	9606	Homo sapiens (human)	6321	pass	31.6+/-5.4	0	pass	31.6 +/-5.4	1	[number(0)][plus_minus(1)][number(2)]	unitless_plus_minus	fail	! Invalid phrase type: unitless_plus_minus !
 22-85 years	9606	Homo sapiens (human)	6322	pass	22-85 years	0	pass	22-85 year	1	[number(0)][number(1)][unit(2)]	range	pass	22-85 years
 3 months	10001240	Mus musculus APPsw	6323	pass	3 months	0	pass	3 month	1	[number(0)][unit(1)]	exact	pass	3 months
 4-6 weeks old	10000645	Mus musculus PrP null	6324	pass	4-6 weeks old	0	pass	4-6 week	5	[number(0)][number(1)][unit(2)]	range	pass	4-6 weeks
@@ -6334,7 +6334,7 @@ NULL	7962	Cyprinus carpio (carp)	6309	pass	null	4	pass	null	0	[null(0)]	null	fai
 27 to 37 years	9606	Homo sapiens (human)	6332	pass	27 to 37 years	0	pass	27 to 37 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	27-37 years
 28 to 39 years	9606	Homo sapiens (human)	6333	pass	28 to 39 years	0	pass	28 to 39 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	28-39 years
 8 to 10 weeks	10000668	Cavia porcellus Duncan-Hartley	6334	pass	8 to 10 weeks	0	pass	8 to 10 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	8-10 weeks
-38+/- 11 years	9606	Homo sapiens (human)	6335	pass	38+/- 11 years	0	fail	! Invalid words: ['38+/'] !		stopped	stopped	stopped	! Invalid words: ['38+/'] !
+38+/- 11 years	9606	Homo sapiens (human)	6335	pass	38+/- 11 years	0	pass	38 +/- 11 year	2	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	38 ± 11 years
 3 years	9541	Macaca fascicularis (crab eating macaque)	6336	pass	3 years	0	pass	3 year	1	[number(0)][unit(1)]	exact	pass	3 years
 2 to 73 years	9606	Homo sapiens (human)	6337	pass	2 to 73 years	0	pass	2 to 73 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	2-73 years
 median age 21 years	9606	Homo sapiens (human)	6338	pass	median age 21 years	0	pass	median 21 year	5	[statistical(0)][number(1)][unit(2)]	statistical	pass	median: 21 years
@@ -6405,7 +6405,7 @@ NULL	8847	Anser sp. (goose)	6402	pass	null	4	pass	null	0	[null(0)]	null	fail	! I
 NULL	8835	Anas (ducks)	6403	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
 58.4 +/- 14.3 years	9606	Homo sapiens (human)	6404	pass	58.4 +/- 14.3 years	2	pass	58.4 +/- 14.3 year	1	[number(0)][plus_minus(1)][number(2)][unit(3)]	plus_minus	pass	58.4 ± 14.3 years
 NULL	40674	Mammal	6405	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phrase type: null !
-<42-79 years	9606	Homo sapiens (human)	6406	pass	<42-79 years	0	fail	! Invalid words: ['<42'] !		stopped	stopped	stopped	! Invalid words: ['<42'] !
+<42-79 years	9606	Homo sapiens (human)	6406	pass	<42-79 years	0	pass	< 42-79 year	2	[comparative(0)][number(1)][number(2)][unit(3)]	unknown	fail	! Invalid phrase type: unknown !
 24-61 years	9606	Homo sapiens (human)	6407	pass	24-61 years	0	pass	24-61 year	1	[number(0)][number(1)][unit(2)]	range	pass	24-61 years
 2 to 4 weeks	10000067	Mus musculus C57BL/6	6408	pass	2 to 4 weeks	0	pass	2 to 4 week	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	2-4 weeks
 1 month - 13 years	9606	Homo sapiens (human)	6409	pass	1 month - 13 years	0	pass	1 month - 13 year	1	[number(0)][unit(1)][number(2)][unit(3)]	multi_unit_range	fail	! Invalid phrase type: multi_unit_range !
@@ -6429,8 +6429,8 @@ NULL	40674	Mammal	6405	pass	null	4	pass	null	0	[null(0)]	null	fail	! Invalid phr
 3 to 5 years	9541	Macaca fascicularis (crab eating macaque)	6427	pass	3 to 5 years	0	pass	3 to 5 year	1	[number(0)][range_indicator(1)][number(2)][unit(3)]	range	pass	3-5 years
 51-74 years	9606	Homo sapiens (human)	6428	pass	51-74 years	0	pass	51-74 year	1	[number(0)][number(1)][unit(2)]	range	pass	51-74 years
 27 weeks	10001406	Mus musculus MLR/lpr	6429	pass	27 weeks	0	pass	27 week	1	[number(0)][unit(1)]	exact	pass	27 weeks
-42.18+/-13.23	9606	Homo sapiens (human)	6430	pass	42.18+/-13.23	0	fail	! Invalid words: ['18+/'] !		stopped	stopped	stopped	! Invalid words: ['18+/'] !
-44.94+/-15.65	9606	Homo sapiens (human)	6431	pass	44.94+/-15.65	0	fail	! Invalid words: ['94+/'] !		stopped	stopped	stopped	! Invalid words: ['94+/'] !
+42.18+/-13.23	9606	Homo sapiens (human)	6430	pass	42.18+/-13.23	0	pass	42.18 +/-13.23	1	[number(0)][plus_minus(1)][number(2)]	unitless_plus_minus	fail	! Invalid phrase type: unitless_plus_minus !
+44.94+/-15.65	9606	Homo sapiens (human)	6431	pass	44.94+/-15.65	0	pass	44.94 +/-15.65	1	[number(0)][plus_minus(1)][number(2)]	unitless_plus_minus	fail	! Invalid phrase type: unitless_plus_minus !
 20 weeks	10001406	Mus musculus MLR/lpr	6432	pass	20 weeks	0	pass	20 week	1	[number(0)][unit(1)]	exact	pass	20 weeks
 > 2 months	10000067	Mus musculus C57BL/6	6433	pass	> 2 months	0	pass	> 2 month	1	[comparative(0)][number(1)][unit(2)]	comparative	pass	>2 months
 4 years	9544	Macaca mulatta (rhesus macaque)	6434	pass	4 years	0	pass	4 year	1	[number(0)][unit(1)]	exact	pass	4 years
@@ -6912,7 +6912,7 @@ mean age = 60.1 years	9606	Homo sapiens (human)	6904	pass	mean age = 60.1 years	
 4-49 years	9606	Homo sapiens (human)	6910	pass	4-49 years	0	pass	4-49 year	1	[number(0)][number(1)][unit(2)]	range	pass	4-49 years
 50-71 years	9606	Homo sapiens (human)	6911	pass	50-71 years	0	pass	50-71 year	1	[number(0)][number(1)][unit(2)]	range	pass	50-71 years
 26-54 years	9606	Homo sapiens (human)	6912	pass	26-54 years	0	pass	26-54 year	1	[number(0)][number(1)][unit(2)]	range	pass	26-54 years
->56 years	9606	Homo sapiens (human)	6913	pass	>56 years	0	fail	! Invalid words: ['>56'] !		stopped	stopped	stopped	! Invalid words: ['>56'] !
+>56 years	9606	Homo sapiens (human)	6913	pass	>56 years	0	pass	> 56 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	>56 years
 10 weeks	10001998	Mus musculus CD1	6914	pass	10 weeks	0	pass	10 week	1	[number(0)][unit(1)]	exact	pass	10 weeks
 7-9 weeks	10001998	Mus musculus CD1	6915	pass	7-9 weeks	0	pass	7-9 week	1	[number(0)][number(1)][unit(2)]	range	pass	7-9 weeks
 28-91 years	9606	Homo sapiens (human)	6916	pass	28-91 years	0	pass	28-91 year	1	[number(0)][number(1)][unit(2)]	range	pass	28-91 years
@@ -7046,7 +7046,7 @@ NULL	10041	Peromyscus leucopus (white-footed mouse)	7035	pass	null	4	pass	null	0
 1 month - 4 years	9606	Homo sapiens (human)	7044	pass	1 month - 4 years	0	pass	1 month - 4 year	1	[number(0)][unit(1)][number(2)][unit(3)]	multi_unit_range	fail	! Invalid phrase type: multi_unit_range !
 15 weeks	10000000	Mus musculus BALB/c	7045	pass	15 weeks	0	pass	15 week	1	[number(0)][unit(1)]	exact	pass	15 weeks
 20-89 years	9606	Homo sapiens (human)	7046	pass	20-89 years	0	pass	20-89 year	1	[number(0)][number(1)][unit(2)]	range	pass	20-89 years
-<21 years	9606	Homo sapiens (human)	7047	pass	<21 years	0	fail	! Invalid words: ['<21'] !		stopped	stopped	stopped	! Invalid words: ['<21'] !
+<21 years	9606	Homo sapiens (human)	7047	pass	<21 years	0	pass	< 21 year	2	[comparative(0)][number(1)][unit(2)]	comparative	pass	<21 years
 median 54 years	9606	Homo sapiens (human)	7048	pass	median 54 years	0	pass	median 54 year	1	[statistical(0)][number(1)][unit(2)]	statistical	pass	median: 54 years
 median 55 years	9606	Homo sapiens (human)	7049	pass	median 55 years	0	pass	median 55 year	1	[statistical(0)][number(1)][unit(2)]	statistical	pass	median: 55 years
 6-17 years	9606	Homo sapiens (human)	7050	pass	6-17 years	0	pass	6-17 year	1	[number(0)][number(1)][unit(2)]	range	pass	6-17 years
@@ -7199,7 +7199,7 @@ NULL	10000213	Mus musculus (C57BL/6 X BALB/c) H2bm8	7192	pass	null	4	pass	null	0
 51 years old	9606	Homo sapiens (human)	7197	pass	51 years old	0	pass	51 year	5	[number(0)][unit(1)]	exact	pass	51 years
 64 years old	9606	Homo sapiens (human)	7198	pass	64 years old	0	pass	64 year	5	[number(0)][unit(1)]	exact	pass	64 years
 60 years old	9606	Homo sapiens (human)	7199	pass	60 years old	0	pass	60 year	5	[number(0)][unit(1)]	exact	pass	60 years
-Fetus	9606	Homo sapiens (human)	7200	pass	fetus	1	fail	! Invalid words: ['fetus'] !		stopped	stopped	stopped	! Invalid words: ['fetus'] !
+Fetus	9606	Homo sapiens (human)	7200	pass	fetus	1	pass	fetus	0	[categorical(0)]	categorical	pass	fetus
 75	9606	Homo sapiens (human)	7201	pass	75	0	pass	75	0	[number(0)]	unitless_exact	fail	! Invalid phrase type: unitless_exact !
 76	9606	Homo sapiens (human)	7202	pass	76	0	pass	76	0	[number(0)]	unitless_exact	fail	! Invalid phrase type: unitless_exact !
 78	9606	Homo sapiens (human)	7203	pass	78	0	pass	78	0	[number(0)]	unitless_exact	fail	! Invalid phrase type: unitless_exact !
