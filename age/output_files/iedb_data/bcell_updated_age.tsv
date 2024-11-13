@@ -4688,6 +4688,8 @@ bcell_id	h_age	new_h_age
 1784999	20 to 60 years	20-60 years
 1786272	12 to 78 years	12-78 years
 1786755	62 to 87 years	62-87 years
+1786756	Mean age = 34.8 years	mean: 34.8 years
+1786757	Mean age = 34.8 years	mean: 34.8 years
 1784957	6 to 8 weeks	6-8 weeks
 1785096	38 to 66 years	38-66 years
 1784965	6 to 8 weeks	6-8 weeks
@@ -4929,6 +4931,7 @@ bcell_id	h_age	new_h_age
 1787410	40.0±13.7 years	40.0 ± 13.7 years
 1787880	19 to 66 years	19-66 years
 1787881	19 to 66 years	19-66 years
+1787882	Mean age = 30 years	mean: 30 years
 1789280	34 to 37 years	34-37 years
 1788331	16 to 20 weeks	16-20 weeks
 1788962	32 to 72 years	32-72 years
@@ -4993,6 +4996,9 @@ bcell_id	h_age	new_h_age
 1786069	21 to 59 years	21-59 years
 1786736	18 to 41 years	18-41 years
 1786750	62 to 87 years	62-87 years
+1786752	Mean age = 34.8 years	mean: 34.8 years
+1786753	Mean age = 34.8 years	mean: 34.8 years
+1786754	Mean age = 34.8 years	mean: 34.8 years
 1788730	3 to 4 months	3-4 months
 1786947	33.7±4.6 years	33.7 ± 4.6 years
 1786948	39 to 51 years	39-51 years

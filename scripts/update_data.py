@@ -32,9 +32,14 @@ def update_data(input, source, target_column):
         data_item = rowdict[target_column]
         if data_item in source.keys() and source[data_item] == "INVALID":
             copy_to_dict(index, rowdict, invalid_data)
+        elif data_item.lower() in source.keys() and source[data_item.lower()] == "INVALID":
+            copy_to_dict(index, rowdict, invalid_data)
         elif data_item in source.keys() and data_item != source[data_item]:
             copy_to_dict(index, rowdict, updated_data)
             updated_data[index][f"new_{target_column}"] = source[data_item]
+        elif data_item.lower() in source.keys() and data_item.lower() != source[data_item.lower()]:
+            copy_to_dict(index, rowdict, updated_data)
+            updated_data[index][f"new_{target_column}"] = source[data_item.lower()]
         elif data_item in source.keys():
             copy_to_dict(index, rowdict, accepted_data)
         else:
@@ -57,7 +62,7 @@ def main():
                                                           input,
                                                           source,
                                                           target_column)
-        dict2TSV(updated, os.path.join(output_dir, f"{group}_invalid_{style}.tsv"))
+        dict2TSV(invalid, os.path.join(output_dir, f"{group}_invalid_{style}.tsv"))
         dict2TSV(updated, os.path.join(output_dir, f"{group}_updated_{style}.tsv"))
         dict2TSV(accepted, os.path.join(output_dir, f"{group}_accepted_{style}.tsv"))
         dict2TSV(remaining, os.path.join(output_dir, f"{group}_remaining_{style}.tsv"))
