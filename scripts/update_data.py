@@ -13,7 +13,7 @@ def make_source(normalized_data_path, target_column):
         invalid = re.match(r"!\s.*\s!", normalized_string)
         if not invalid:
             source[starting_string] = normalized_string
-        elif "Invalid phrase type" in normalized_string:
+        elif "Invalid phrase type" in normalized_string and "unknown" not in normalized_string:
             source[starting_string] = "INVALID"
     return source
 

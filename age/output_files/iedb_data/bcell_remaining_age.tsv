@@ -1,5 +1,8 @@
 bcell_id	h_age
+1338083	Adults and children
+1352075	average age 54
 1280466	16-Feb
+1336974	Adults and children
 1279748	14 and younger
 1279767	14 and younger
 1279777	14 and younger
@@ -23,17 +26,25 @@ bcell_id	h_age
 1279420	14 and younger
 1336935	More than 15 years
 1336716	More than 15 years
+1339467	Adults and children
+1339474	Adults and children
 1279619	14 and younger
 1330820	Children and adults
 1279497	14 and younger
 1280006	14 and younger
+1352106	average age 54
+1351998	average age 54
 1279920	14 and younger
+1341796	2 to >20 years
+1336966	Adults and children
 1466105	Ponies
 1466115	Ponies
 1280027	14 and younger
 1505074	≥ 18 years
 1504551	≥ 18 years
 1336986	Children and adults
+1336957	Adults and children
+1336965	Adults and children
 1336943	More than 15 years
 1342679	up to 12 weeks old
 1479019	Younger than 35 years
@@ -42,17 +53,58 @@ bcell_id	h_age
 1280035	14 and younger
 1279476	14 and younger
 1319835	6-24 mo of age
+1491772	Adults and children
+1491773	Adults and children
+1489288	Children <5 years old
+1489289	Children <5 years old
+1489254	Children <5 years old
 1330947	Children and adults
+1489290	Children <5 years old
+1489291	Children <5 years old
+1489292	Children <5 years old
+1489293	Children <5 years old
+1489255	Children <5 years old
+1491774	Adults and children
+1491775	Adults and children
+1491770	Adults and children
+1491771	Adults and children
+1489256	Children <5 years old
+1489257	Children <5 years old
+1489258	Children <5 years old
+1489259	Children <5 years old
+1489294	Children <5 years old
+1489285	Children <5 years old
+1489286	Children <5 years old
+1489287	Children <5 years old
+1491900	8 weeks or 12 months
+1491896	8 weeks or 12 months
 1336745	More than 15 years
+1489260	Children <5 years old
+1489261	Children <5 years old
+1489262	Children <5 years old
+1489263	Children <5 years old
+1338211	Children and Adults
 1341991	Children and adults
+1489264	Children <5 years old
+1489295	Children <5 years old
+1489296	Children <5 years old
+1489297	Children <5 years old
+1489298	Children <5 years old
 22792459	16-20years
 1279465	14 and younger
 1279470	14 and younger
+1352021	average age 54
 1319769	6-24 mo of age
+1351999	average age 54
+1351989	average age 54
+1352015	average age 54
 1335485	children and adults
+1352069	average age 54
 1336706	More than 15 years
 1336720	More than 15 years
 1336934	More than 15 years
+1341801	2 to >20 years
+8304	37 average
 1279422	14 and younger
 1279781	14 and younger
 1279761	14 and younger
@@ -79,14 +131,17 @@ bcell_id	h_age
 1279603	14 and younger
 1279889	14 and younger
 1319840	6-24 mo of age
+1352094	average age 54
 1279595	14 and younger
 1280019	14 and younger
 1280026	14 and younger
 1279580	14 and younger
+1347306	Adults and children
 1279361	14 and younger
 1279355	14 and younger
 1279625	14 and younger
 1330948	Children and adults
+1338212	Children and Adults
 1279504	14 and younger
 1279509	14 and younger
 1279793	14 and younger
@@ -96,6 +151,9 @@ bcell_id	h_age
 1279443	14 and younger
 1279518	14 and younger
 1279816	14 and younger
+1352073	average age 54
+1352083	average age 54
+1352096	average age 54
 1279921	14 and younger
 1279970	14 and younger
 1280074	14 and younger
@@ -103,11 +161,13 @@ bcell_id	h_age
 1279556	14 and younger
 1342697	up to 12 weeks old
 1342703	up to 12 weeks old
+1351991	average age 54
 1279930	14 and younger
 1279412	14 and younger
 1279501	14 and younger
 1279608	14 and younger
 1280047	14 and younger
+1343305	Adults and children
 1280053	14 and younger
 1280058	14 and younger
 1279726	14 and younger
@@ -135,17 +195,72 @@ bcell_id	h_age
 1212840	25-30 grams
 1356043	Children and adults
 1280014	14 and younger
+1352028	average age 54
+1352029	average age 54
+1352024	average age 54
+1352107	average age 54
+1352004	average age 54
+1352025	average age 54
+1352047	average age 54
+1352052	average age 54
+1352053	average age 54
+1352060	average age 54
 1279475	14 and younger
 1279481	14 and younger
 1338919	Adult (pregnant)
+1352080	average age 54
+1352082	average age 54
+1352084	average age 54
+1351995	average age 54
+1351996	average age 54
+1352102	average age 54
+1352044	average age 54
+1352076	average age 54
+1352077	average age 54
+1352063	average age 54
+1352064	average age 54
+1352065	average age 54
+1352070	average age 54
 1279814	14 and younger
+1352104	average age 54
+1352086	average age 54
+1336960	Adults and children
+1336961	Adults and children
 1279820	14 and younger
+1352089	average age 54
 1279450	14 and younger
 1279399	14 and younger
+1352045	average age 54
+1352018	average age 54
+1352019	average age 54
+1352022	average age 54
+1352072	average age 54
+1352023	average age 54
+1352105	average age 54
+1352017	average age 54
+1336958	Adults and children
+1336959	Adults and children
+1352005	average age 54
+1352013	average age 54
+1352014	average age 54
+1352090	average age 54
+1352007	average age 54
+1352010	average age 54
+1352091	average age 54
 1279519	14 and younger
 1279769	14 and younger
+1352100	average age 54
+1336968	Adults and children
+1352011	average age 54
 1279531	14 and younger
+1352092	average age 54
+1352095	average age 54
+1352097	average age 54
+1352099	average age 54
+1352079	average age 54
 1279393	14 and younger
+1351993	average age 54
+1351994	average age 54
 1279536	14 and younger
 1279552	14 and younger
 1279558	14 and younger
@@ -153,6 +268,7 @@ bcell_id	h_age
 1288874	6 mos
 1280007	14 and younger
 1280069	14 and younger
+1379671	Adults and children
 1341986	Children and adults
 1280024	14 and younger
 1336947	More than 15 years
@@ -186,14 +302,18 @@ bcell_id	h_age
 1335482	children and adults
 1335496	children and adults
 1336941	More than 15 years
+1338207	Children and Adults
 1336937	More than 15 years
 1341997	Children and adults
 1336748	More than 15 years
 1280057	14 and younger
 1280060	14 and younger
 1280062	14 and younger
+1339459	Adults and children
 1349536	Neonates (infected mothers or PM)
 1280063	14 and younger
+1336844	average age 29.8
+1336846	average age 29.8
 1349535	Neonates (infected mothers or PM)
 1279913	14 and younger
 1279914	14 and younger
@@ -212,9 +332,12 @@ bcell_id	h_age
 1279527	14 and younger
 1280043	14 and younger
 1280045	14 and younger
+1338213	Children and Adults
 1280046	14 and younger
 1280049	14 and younger
 1280052	14 and younger
+1338217	Children and Adults
+1338220	Children and Adults
 1330748	infants
 1330756	infants
 1279517	14 and younger
@@ -242,6 +365,7 @@ bcell_id	h_age
 1279963	14 and younger
 1279401	14 and younger
 1330939	Children and adults
+1343266	Adults and children
 1279534	14 and younger
 1279535	14 and younger
 1279538	14 and younger
@@ -250,12 +374,16 @@ bcell_id	h_age
 1279868	14 and younger
 1279904	14 and younger
 1279905	14 and younger
+1343309	Adults and children
+1343310	Adults and children
+1343140	Adults and children
 1279363	14 and younger
 1279364	14 and younger
 1279539	14 and younger
 1279862	14 and younger
 1279896	14 and younger
 1279907	14 and younger
+1339351	Adults and children
 1279968	14 and younger
 1279971	14 and younger
 1279972	14 and younger
@@ -270,6 +398,7 @@ bcell_id	h_age
 1279508	14 and younger
 1279515	14 and younger
 1279516	14 and younger
+1341121	Adults and children
 1279510	14 and younger
 1279512	14 and younger
 1279863	14 and younger
@@ -278,8 +407,13 @@ bcell_id	h_age
 1279945	14 and younger
 1279949	14 and younger
 1279362	14 and younger
+1341149	Adults and children
+1341151	Adults and children
+1339471	Adults and children
 1279687	14 and younger
 1279689	14 and younger
+1343268	Adults and children
+1343294	Adults and children
 1279944	14 and younger
 1279950	14 and younger
 1279951	14 and younger
@@ -291,6 +425,7 @@ bcell_id	h_age
 1279388	14 and younger
 1279391	14 and younger
 1279392	14 and younger
+1341177	Adult (18-49)
 1342701	up to 12 weeks old
 1342702	up to 12 weeks old
 1342681	up to 12 weeks old
@@ -365,6 +500,11 @@ bcell_id	h_age
 1279607	14 and younger
 1279610	14 and younger
 1279611	14 and younger
+1341792	2 to >20 years
+1341794	2 to >20 years
+1341795	2 to >20 years
+1341797	2 to >20 years
+1341799	2 to >20 years
 1279703	14 and younger
 1279704	14 and younger
 1279599	14 and younger
@@ -380,6 +520,7 @@ bcell_id	h_age
 1280011	14 and younger
 1341929	Adutls
 1279549	14 and younger
+1341800	2 to >20 years
 1279419	14 and younger
 1279421	14 and younger
 1279424	14 and younger
@@ -423,6 +564,7 @@ bcell_id	h_age
 1466069	Ponies
 1279594	14 and younger
 1279596	14 and younger
+1347301	Adults and children
 1279807	14 and younger
 1279810	14 and younger
 1279812	14 and younger
@@ -433,6 +575,8 @@ bcell_id	h_age
 1466124	Ponies
 1466127	Ponies
 1347163	Adult (pregnant)
+1382096	Adults and children
+1382094	Adults and children
 1279438	14 and younger
 1279479	14 and younger
 1279480	14 and younger
@@ -453,6 +597,7 @@ bcell_id	h_age
 1279801	14 and younger
 1279484	14 and younger
 1465129	6-24 mo of age
+1347298	Adults and children
 1347165	Adult (pregnant)
 1347166	Adult (pregnant)
 1279454	14 and younger
@@ -510,6 +655,7 @@ bcell_id	h_age
 1279433	14 and younger
 1279436	14 and younger
 1279746	14 and younger
+1347300	Adults and children
 1279836	14 and younger
 1279837	14 and younger
 1279838	14 and younger
@@ -553,20 +699,36 @@ bcell_id	h_age
 1281728	16-Feb
 1466077	Ponies
 1466082	Ponies
+8305	37 average
+1352051	average age 54
+1352016	average age 54
+1352068	average age 54
+1352088	average age 54
+1352098	average age 54
+1352008	average age 54
 1474314	children and adults
+1336964	Adults and children
 1330941	Children and adults
 1330946	Children and adults
 1474312	children and adults
+1352012	average age 54
+1352046	average age 54
+1352048	average age 54
+1352054	average age 54
 1336754	More than 15 years
 1280061	14 and younger
+1352027	average age 54
+1351997	average age 54
 1279418	14 and younger
 1279423	14 and younger
+1382095	Adults and children
 1336946	More than 15 years
 1279449	14 and younger
 1279466	14 and younger
 1279885	14 and younger
 1279902	14 and younger
 1279493	14 and younger
+8289	37 average
 1279939	14 and younger
 1340232	birth - 5 years
 1279503	14 and younger
@@ -588,6 +750,7 @@ bcell_id	h_age
 1341972	Children and adults
 1280000	14 and younger
 1280001	14 and younger
+1343267	Adults and children
 1279690	14 and younger
 1279700	14 and younger
 1280008	14 and younger
@@ -632,18 +795,23 @@ bcell_id	h_age
 1417749	children
 1466030	Ponies
 1349537	Neonates (infected mothers or PM)
+1341178	Child (5-11)
+1341172	Child (5-11)
 1787789	Average age of 37 years
 1280467	16-Feb
 1279946	14 and younger
 1279974	14 and younger
 1279983	14 and younger
 1279929	14 and younger
+1352087	average age 54
+1352050	average age 54
 1336942	More than 15 years
 1279714	14 and younger
 1279986	14 and younger
 1279994	14 and younger
 1279776	14 and younger
 1279790	14 and younger
+1352085	average age 54
 1342692	up to 12 weeks old
 1279727	14 and younger
 1279434	14 and younger
@@ -655,12 +823,16 @@ bcell_id	h_age
 1279471	14 and younger
 1279614	14 and younger
 1279588	14 and younger
+1338154	Children and Adults
+1379691	Adults and children
 1336711	More than 15 years
 1336719	More than 15 years
+1336845	average age 29.8
 1335493	children and adults
 1279738	14 and younger
 1280012	14 and younger
 1279796	14 and younger
+1352026	average age 54
 1279684	14 and younger
 1347164	Adult (pregnant)
 1280059	14 and younger
@@ -671,6 +843,9 @@ bcell_id	h_age
 1279755	14 and younger
 1279910	14 and younger
 1279916	14 and younger
+1352062	average age 54
+1352093	average age 54
+1352108	average age 54
 1341862	Children and adults
 1279898	14 and younger
 1279906	14 and younger
@@ -687,6 +862,8 @@ bcell_id	h_age
 1280051	14 and younger
 1279957	14 and younger
 1336951	More than 15 years
+1352101	average age 54
+1352103	average age 54
 1279734	14 and younger
 1279917	14 and younger
 1279764	14 and younger
@@ -694,6 +871,7 @@ bcell_id	h_age
 1341633	Children and adults
 1341636	Children and adults
 1371171	children
+1352020	average age 54
 1279685	14 and younger
 1279694	14 and younger
 1279699	14 and younger
@@ -704,6 +882,7 @@ bcell_id	h_age
 1342691	up to 12 weeks old
 1279408	14 and younger
 1279773	14 and younger
+1338214	Children and Adults
 1341988	Children and adults
 1279478	14 and younger
 1279489	14 and younger
@@ -718,11 +897,16 @@ bcell_id	h_age
 1336691	More than 15 years
 1330753	infants
 1330752	infants
+1343139	Adults and children
+1343265	Adults and children
 1279540	14 and younger
 1279547	14 and younger
 1279550	14 and younger
+1382098	Adults and children
 1279448	14 and younger
 1279554	14 and younger
+1352074	average age 54
+1382097	Adults and children
 1279586	14 and younger
 1279461	14 and younger
 1279469	14 and younger
@@ -733,20 +917,26 @@ bcell_id	h_age
 1279446	14 and younger
 1330944	Children and adults
 1380982	Children and adults
+1352071	average age 54
+1352081	average age 54
 1279357	14 and younger
 1279867	14 and younger
 1279876	14 and younger
 1279936	14 and younger
 1279943	14 and younger
+1352078	average age 54
 1279952	14 and younger
 1279953	14 and younger
 1474281	children and adults
 1330759	infants
+1336962	Adults and children
 1319839	6-24 mo of age
 1330749	infants
 1279410	14 and younger
 1319774	6-24 mo of age
 1342688	up to 12 weeks old
+1351992	average age 54
+1336967	Adults and children
 1474316	children and adults
 1279372	14 and younger
 1279888	14 and younger
@@ -761,6 +951,7 @@ bcell_id	h_age
 1280016	14 and younger
 1279695	14 and younger
 1280039	14 and younger
+1339449	Adults and children
 1341834	Children and adults
 1336699	More than 15 years
 1336721	More than 15 years
@@ -772,9 +963,13 @@ bcell_id	h_age
 1279720	14 and younger
 1279548	14 and younger
 1319772	6-24 mo of age
+1352009	average age 54
 1279415	14 and younger
+1339481	Adults and children
+1341798	2 to >20 years
 1342684	up to 12 weeks old
 1343565	Adutls
+1347299	Adults and children
 1280033	14 and younger
 1279997	14 and younger
 1280064	14 and younger
@@ -782,9 +977,11 @@ bcell_id	h_age
 1279544	14 and younger
 1279884	14 and younger
 1279528	14 and younger
+1352006	average age 54
 1279798	14 and younger
 1319836	6-24 mo of age
 1279901	14 and younger
+8282	37 average
 1279368	14 and younger
 1280048	14 and younger
 1279758	14 and younger
@@ -833,12 +1030,25 @@ bcell_id	h_age
 1811613	24 hours
 1811168	24 hours
 21210969	>/= 18 years
+1786473	35 years mean age
+1786477	35 years mean age
+1788684	Mean age = 41.7 ± 15.1 years
+1788688	Mean age = 41.7 ± 15.1 years
+1788689	Mean age = 41.7 ± 15.1 years
+1788690	Mean age = 39.8 ± 13.3 years
+1788691	Mean age = 39.8 ± 13.3 years
 2423447	subadult
+1788676	Mean age = 41.7 ± 15.1 years
 1787340	mean age of 39.9 years
 1799296	48 hours
 1799297	48 hours
+1789773	Mean age = 58±12 years
+1789784	Mean age = 58±12 years
 1811606	24 hours
+1808048	newborns - 29 years
+1809662	1 year 5 months to 15 years 8 months
 1811166	24 hours
+1808044	newborns - 29 years
 1495053	infants
 1494401	College age
 1495066	infants
@@ -904,6 +1114,8 @@ bcell_id	h_age
 1619974	Foals
 1619975	Foals
 1619976	Foals
+1639058	Mean=8.4 ± 4.3
+1602535	adults, >32 years
 1620118	newborns
 1606232	children
 1620117	newborns
@@ -924,8 +1136,14 @@ bcell_id	h_age
 1330943	Children and adults
 1279966	14 and younger
 1280003	14 and younger
+1690950	21, 27 and 36 weeks
 1693608	Within 1 week after birth
 1693609	Within 1 week after birth
+1492301	Young adult
+1690947	21, 27 and 36 weeks
+1690949	21, 27 and 36 weeks
+1690951	21, 27 and 36 weeks
+1690952	21, 27 and 36 weeks
 1702485	less than 24 hours
 1703320	Steer
 1703428	Steer
@@ -992,11 +1210,17 @@ bcell_id	h_age
 1504373	≥ 18 years
 1504371	≥ 18 years
 1504372	≥ 18 years
+2103807	2 years 8 months to 3 years 9 months
+2103808	2 years 8 months to 3 years 9 months
+2103805	2 years 8 months to 3 years 9 months
 2116228	children
 2116229	children
 2116230	children
 2116231	children
 2116232	children
+2103685	2 years 8 months to 3 years 9 months
+2103686	2 years 8 months to 3 years 9 months
+2103687	2 years 8 months to 3 years 9 months
 2116233	children
 2116234	children
 2116235	children
@@ -1004,17 +1228,68 @@ bcell_id	h_age
 2116237	children
 2116238	children
 2116239	children
+1820153	36.1 years (mean)
+1820088	36.1 years (mean)
+1820096	36.1 years (mean)
+1820097	36.1 years (mean)
+1820098	36.1 years (mean)
+1820151	36.1 years (mean)
+1820152	36.1 years (mean)
+1820160	36.1 years (mean)
 1835643	Child
+1820154	36.1 years (mean)
+1820155	36.1 years (mean)
+1820156	36.1 years (mean)
+1820157	36.1 years (mean)
+1820158	36.1 years (mean)
+1820159	36.1 years (mean)
 1835645	Child
+1820140	36.1 years (mean)
+1820141	36.1 years (mean)
+1820142	36.1 years (mean)
+1820143	36.1 years (mean)
+1820144	36.1 years (mean)
+1820147	36.1 years (mean)
+1820145	36.1 years (mean)
+1820146	36.1 years (mean)
+1820148	36.1 years (mean)
+1820149	36.1 years (mean)
+1820150	36.1 years (mean)
+1822314	100 day fetus
+1822315	100 day fetus
 1838435	Child
 1842073	Mean age of 54. 04
 1842071	Mean age of 54. 04
+1862850	Infants and adults
+1862797	Infants and adults
+1862837	Infants and adults
 1884353	mean age=53.7 years
 1884354	mean age=53.7 years
+1944779	25 years mean age
+1930717	Young adult
+1930720	Young adult
+1930721	Young adult
+1930722	Young adult
+1930723	Young adult
+1930724	Young adult
+1930725	Young adult
+1930727	Young adult
+1930726	Young adult
+1930735	Young adult
+1930739	Young adult
+1930752	Young adult
+1930753	Young adult
+1930756	Young adult
+1930719	Young adult
+1931125	Adult (6 weeks)
+1931126	Adult (6 weeks)
+1931128	Adult (6 weeks)
 1976253	Foals
 1977809	Foals
 6513275	6 Weeks
 6513276	6 Weeks
+1981813	1 year 8 months to 68 years
+1981815	1 year 8 months to 68 years
 1977810	Foals
 1976255	Foals
 1980110	children
@@ -1077,13 +1352,58 @@ bcell_id	h_age
 1977212	Foals
 1976413	Foals
 1976414	Foals
+1981300	0.7 to 20.9 years (median = 11.0)
+2071737	<42-79 years
+1988933	young adult
+1988961	young adult
+1988937	young adult
+1988946	young adult
+1988947	young adult
+1988957	young adult
+2103688	2 years 8 months to 3 years 9 months
+2103824	2 years 8 months to 3 years 9 months
+2830625	1 to 5 years or > 15 years
+2830626	1 to 5 years or > 15 years
+2830627	1 to 5 years or > 15 years
+2830628	1 to 5 years or > 15 years
+2660045	mean age 3-4 years
+2660118	mean age 3-4 years
+2660119	mean age 3-4 years
+2660121	mean age 3-4 years
+2660122	mean age 3-4 years
+2660124	mean age 3-4 years
+2660125	mean age 3-4 years
+2660096	mean age 3-4 years
 2423448	subadult
 2423449	subadult
+2451389	50.3 years median age
+2451390	50.3 years median age
+2451391	50.3 years median age
+2451394	50.3 years median age
+2451395	50.3 years median age
+2451387	50.3 years median age
+2451392	50.3 years median age
+2451393	50.3 years median age
+2451396	50.3 years median age
+2451397	56.5 years median age
+2451399	56.5 years median age
+2451400	56.5 years median age
+2451401	56.5 years median age
+2451402	56.5 years median age
+2451403	56.5 years median age
+2451404	56.5 years median age
+2451405	56.5 years median age
+2451406	56.5 years median age
 2372091	piglet
 2366591	piglet
 2366593	piglet
 2368064	piglet
 2372087	piglet
+2855372	6 weeks and 18 months
+2855373	6 weeks and 18 months
+2855374	6 weeks and 18 months
+2456231	50.3 years median age
+2456232	56.5 years median age
 2423453	subadult
 2423454	subadult
 2423452	subadult
@@ -1091,7 +1411,35 @@ bcell_id	h_age
 6480463	6 Weeks
 2857869	children
 2857870	children
+3806767	46.7 yeas (mean)
+3806768	46.7 yeas (mean)
+3806769	46.7 yeas (mean)
+3806770	46.7 yeas (mean)
+3806771	46.7 yeas (mean)
+3806772	46.7 yeas (mean)
+3806773	46.7 yeas (mean)
+3806757	46.7 yeas (mean)
+3806759	46.7 yeas (mean)
+3806760	46.7 yeas (mean)
+3806761	46.7 yeas (mean)
+3806762	46.7 yeas (mean)
+3806763	46.7 yeas (mean)
+3806764	46.7 yeas (mean)
+3806765	46.7 yeas (mean)
+3806766	46.7 yeas (mean)
+3817636	46.7 yeas (mean)
+3817637	46.7 yeas (mean)
 4828473	52 years old on average
+3806826	36.8 years (mean)
+3806834	36.8 years (mean)
+3806831	36.8 years (mean)
+3806832	36.8 years (mean)
+3806833	36.8 years (mean)
+3806835	36.8 years (mean)
+3806836	36.8 years (mean)
+3806837	36.8 years (mean)
+3806838	36.8 years (mean)
+3806839	36.8 years (mean)
 4563297	children
 6250857	6 Weeks
 6250859	6 Weeks
@@ -1302,6 +1650,7 @@ bcell_id	h_age
 8158775	6 Weeks
 8158776	6 Weeks
 8326923	6 Weeks
+12155721	Young adult
 21210970	>/= 18 years
 21210975	>/= 18 years
 21210976	>/= 18 years
@@ -1347,9 +1696,18 @@ bcell_id	h_age
 21211039	>/= 18 years
 21211040	>/= 18 years
 21211042	>/= 18 years
+21513961	mean 13. 8 years
+21513962	mean 13. 8 years
+21513963	mean 13. 8 years
+21513965	mean 13. 8 years
+21513967	mean 13. 8 years
+21513969	mean 13. 8 years
 16158331	6 Weeks
 16367289	6 Weeks
 16367290	6 Weeks
+21514446	mean 13. 8 years
+21514448	mean 13. 8 years
+21514450	mean 13. 8 years
 22790814	16-20years
 22790819	16-20years
 22790807	16-20years

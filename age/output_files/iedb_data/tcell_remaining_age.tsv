@@ -1,19 +1,49 @@
 tcell_id	h_age
 1337958	Adults (pregnant)
+1345858	Adults (40 year-old average)
+1347282	Children and Adults
+1341150	Adults and children
+1355262	5, 11 or 18 weeks
+1345864	Adults (40 year-old average)
 1288882	mean 54 years (range 19-68)
+1336787	average age 29.8
+1336792	average age 29.8
+1349356	Adults and children
+1349357	Adults and children
+1336803	average age 29.8
+1336808	average age 29.8
+1953951	10.5 years avg.
+1349349	Adults and children
+9378	18–64 years)
+9432	18–64 years)
 1474279	At least 8 weeks old
 1003834	2 months or older
 1003864	2 months or older
 1003891	2 months or older
+8419	35.4 yrs average
+8425	35.4 yrs average
+1355238	5, 8, 11 or 18 weeks
 1384795	10 years and older
 1384816	10 years and older
+1349348	Adults and children
 1003875	2 months or older
+1355256	5, 11 or 18 weeks
+1473441	Children (mean age 7.2 years)
 1468346	adults
+1409377	average age 35.1
+1409402	average age 35.1
+1353803	young adult
+1368172	young adult
 1384773	10 years and older
 1412669	children
 1412672	children
 1412678	children
+9442	18–64 years)
+1345861	Adults (40 year-old average)
+1342946	Adults and children
+1342947	Adults and children
 1373445	Not available
+1345873	Adults (40 year-old average)
 1384772	10 years and older
 1473643	Sucking
 1041023	6 weeks or older
@@ -21,24 +51,60 @@ tcell_id	h_age
 21035	8 weeks or older
 1022894	6 weeks or older
 1022895	6 weeks or older
+7907	37 yrs average
+7909	37 yrs average
+7926	37 yrs average
+1349358	Adults and children
+7903	37 yrs average
+7914	37 yrs average
+1368174	young adult
+1368175	young adult
+1353793	young adult
+1353805	young adult
+7920	37 yrs. Average
+8426	35.4 yrs average
+1349345	Adults and children
+7916	37 yrs average
+7918	37 yrs average
+8422	35.4 yrs average
+8423	35.4 yrs average
+8427	35.4 yrs average
+7924	37 yrs average
+8418	35.4 yrs average
+8421	35.4 yrs average
 1883831	Child
+9383	18–64 years)
+9451	18–64 years)
 1041036	6 weeks or older
+9430	18–64 years)
 1332884	Adults and children (ages 4.5-10.5 and 15-44)
 1412674	children
 1474278	At least 8 weeks old
 1368101	At birth
+1345868	Adults (40 year-old average)
+1336795	average age 29.8
+1345886	Adults (40 year-old average)
+1347287	Children and Adults
+9422	18–64 years)
+9425	18–64 years)
 1373458	Not available
+317946	average age 35.1
 1337963	Adults (pregnant)
+1342948	Adults and children
 1337957	Adults (pregnant)
+1345881	Adults (40 year-old average)
 1337970	Adults (pregnant)
 1373456	Not available
 1031808	Child
+9454	18–64 years)
+9435	18–64 years)
 1384779	10 years and older
 1468371	adults
 1384781	10 years and older
 1468368	adults
 1468343	adults
 1468344	adults
+9381	18–64 years)
 1468345	adults
 1468351	adults
 1468372	adults
@@ -51,10 +117,15 @@ tcell_id	h_age
 1003881	2 months or older
 1003883	2 months or older
 1022896	6 weeks or older
+1368176	young adult
 1041024	6 weeks or older
 1003863	2 months or older
 1003869	2 months or older
+1409391	average age 35.1
 1368109	At birth
+1353776	young adult
+1368170	young adult
+1885471	5, 8, 11 or 18 weeks
 1368097	At birth
 1368048	At birth
 1368089	At birth
@@ -75,68 +146,212 @@ tcell_id	h_age
 1412673	children
 1412667	children
 1412670	children
+1345854	Adults (40 year-old average)
+1345879	Adults (40 year-old average)
+1345862	Adults (40 year-old average)
+1345863	Adults (40 year-old average)
+1345887	Adults (40 year-old average)
 1337962	Adults (pregnant)
+1345880	Adults (40 year-old average)
+1345882	Adults (40 year-old average)
+1336784	average age 29.8
+1336785	average age 29.8
+1336791	average age 29.8
+1345884	Adults (40 year-old average)
+1336793	average age 29.8
+1336797	average age 29.8
+1336798	average age 29.8
 1337964	Adults (pregnant)
 1337969	Adults (pregnant)
+1336799	average age 29.8
+1336810	average age 29.8
 1337960	Adults (pregnant)
+1383003	10 to over 90 years
+1345866	Adults (40 year-old average)
+1345867	Adults (40 year-old average)
 1337949	Adults (pregnant)
 1337955	Adults (pregnant)
 1347028	Adult (within 24 hours of parturition)
+1345871	Adults (40 year-old average)
+1345875	Adults (40 year-old average)
+1347288	Children and Adults
+1347294	Children and Adults
 1337972	Adults (pregnant)
 1337975	Adults (pregnant)
+1347295	Children and Adults
+1341120	Adults and children
 2007153	children
+1336783	average age 29.8
 21034	8 weeks or older
 21065	8 weeks or older
 21030	8 weeks or older
+1409379	average age 35.1
+1409853	2 months and 5 months
+1409388	average age 35.1
+1409390	average age 35.1
+1409393	average age 35.1
+1409404	average age 35.1
 1384819	10 years and older
 1384803	10 years and older
 1384805	10 years and older
 1384806	10 years and older
 1384811	10 years and older
 1384794	10 years and older
+1409399	average age 35.1
 1384800	10 years and older
 1384784	10 years and older
 1384785	10 years and older
+1409372	average age 35.1
+1409378	average age 35.1
 1474275	At least 8 weeks old
 1335359	6 weeks or older
 1003867	2 months or older
+9445	18–64 years)
+1473440	Children (mean age 7.2 years)
+1349350	Adults and children
+1349283	Adults and children
+1349342	Adults and children
+1349346	Adults and children
+1349351	Adults and children
 1041038	6 weeks or older
+1336804	average age 29.8
 1384817	10 years and older
 1473659	Sucking
+1354061	young adult
+1336786	average age 29.8
 1468342	adults
 1468350	adults
 1468365	adults
 1468348	adults
+1345855	Adults (40 year-old average)
+1345865	Adults (40 year-old average)
+1345860	Adults (40 year-old average)
 1368085	At birth
 1031214	7 yo 8 weeks
 7291	average of 30.2 years
+1409406	average age 35.1
 1384771	10 years and older
 1384782	10 years and older
 1337974	Adults (pregnant)
 1337959	Adults (pregnant)
 1368104	At birth
+1336789	average age 29.8
 1384796	10 years and older
+1345876	Adults (40 year-old average)
+9382	18–64 years)
+7912	37 yrs average
 1022898	6 weeks or older
+1355250	5, 11 or 18 weeks
+8424	35.4 yrs. Average
 1883829	Child
 1417745	children
 1003873	2 months or older
+1345857	Adults (40 year-old average)
 1368069	At birth
 1041022	6 weeks or older
 1468341	adults
+7905	37 yrs average
+1345870	Adults (40 year-old average)
+1368164	young adult
 1003876	2 months or older
+1638092	Mean=28.5 ± 15.0
+1638086	Mean=28.5 ± 15.0
+1638094	Mean=28.5 ± 15.0
+1638096	Mean=28.5 ± 15.0
+1642379	Mean=28.5 ± 15.0
+1642380	Mean=28.5 ± 15.0
+1638098	Mean=28.5 ± 15.0
+1638100	Mean=28.5 ± 15.0
+1638102	Mean=28.5 ± 15.0
+1638104	Mean=28.5 ± 15.0
+1638106	Mean=28.5 ± 15.0
+1638108	Mean=28.5 ± 15.0
+1638110	Mean=28.5 ± 15.0
+1642378	Mean=28.5 ± 15.0
+1638113	Mean=28.5 ± 15.0
+1639792	2, 3, or 4 months
+1638115	Mean=28.5 ± 15.0
+1664103	Young adults
+1685374	Young adult
+1664102	Young adults
+1664109	Young adults
+1480431	38.6 years (mean age)
+1685423	2 months or 2-10 months
 1652610	within 12 hours of birth
 1595726	older than 8 weeks
 1595721	older than 8 weeks
+1664105	Young adults
+1643063	Adult (avg. age = 30.8 years)
 1656036	<18 hours
 1658844	24 hours after birth
 1658853	24 hours after birth
 1658903	24 hours after birth
+1643060	Adult (avg. age = 30.8 years)
+1643061	Children (avg. age = 9.5 years)
+1643058	Adult (avg. age = 30.8 years)
 1658742	24 hours after birth
 1658747	24 hours after birth
+1643066	Adult (avg. age = 30.8 years)
+1643067	Children (avg. age = 9.5 years)
 1658750	24 hours after birth
 1648091	8 weeks or older
 1651668	within 12 hours of birth
 1652609	within 12 hours of birth
+1642377	Mean=28.5 ± 15.0
+1642382	Mean=28.5 ± 15.0
+1642383	Mean=28.5 ± 15.0
+1642384	Mean=28.5 ± 15.0
+1642385	Mean=28.5 ± 15.0
+1642386	Mean=28.5 ± 15.0
+1642387	Mean=28.5 ± 15.0
+1642388	Mean=28.5 ± 15.0
+1642397	Mean=28.5 ± 15.0
+1642398	Mean=28.5 ± 15.0
+1642381	Mean=28.5 ± 15.0
+1642389	Mean=28.5 ± 15.0
+1642390	Mean=28.5 ± 15.0
+1642391	Mean=28.5 ± 15.0
+1642392	Mean=28.5 ± 15.0
+1642393	Mean=28.5 ± 15.0
+1642394	Mean=28.5 ± 15.0
+1642395	Mean=28.5 ± 15.0
+1642396	Mean=28.5 ± 15.0
+1642403	Mean=28.5 ± 15.0
+1642404	Mean=28.5 ± 15.0
+1642405	Mean=28.5 ± 15.0
+1642406	Mean=28.5 ± 15.0
+1639488	2, 3, or 4 months
+1642399	Mean=28.5 ± 15.0
+1642400	Mean=28.5 ± 15.0
+1642401	Mean=28.5 ± 15.0
+1642402	Mean=28.5 ± 15.0
+1642407	Mean=28.5 ± 15.0
+1642408	Mean=28.5 ± 15.0
+1642413	Mean=28.5 ± 15.0
+1642414	Mean=28.5 ± 15.0
+1642415	Mean=28.5 ± 15.0
+1642416	Mean=28.5 ± 15.0
+1642409	Mean=28.5 ± 15.0
+1642410	Mean=28.5 ± 15.0
+1642411	Mean=28.5 ± 15.0
+1642412	Mean=28.5 ± 15.0
+1642417	Mean=28.5 ± 15.0
+1642418	Mean=28.5 ± 15.0
+1642425	Mean=28.5 ± 15.0
+1642426	Mean=28.5 ± 15.0
+1642427	Mean=28.5 ± 15.0
+1642428	Mean=28.5 ± 15.0
+1643056	Children (avg. age = 9.5 years)
+1643064	Children (avg. age = 9.5 years)
+1642419	Mean=28.5 ± 15.0
+1642420	Mean=28.5 ± 15.0
+1642421	Mean=28.5 ± 15.0
+1642422	Mean=28.5 ± 15.0
+1642424	Mean=28.5 ± 15.0
+1642429	Mean=28.5 ± 15.0
+1643070	Adult (avg. age = 30.8 years)
+1643071	Children (avg. age = 9.5 years)
+1647326	Neonate and adult
 1648100	8 weeks or older
 1655100	embryo
 1654405	<18 hours
@@ -145,6 +360,7 @@ tcell_id	h_age
 1041025	6 weeks or older
 1041018	6 weeks or older
 1384801	10 years and older
+1409400	average age 35.1
 1384809	10 years and older
 2751245	~ 31 to 55 years
 1368082	At birth
@@ -152,6 +368,7 @@ tcell_id	h_age
 1368053	At birth
 1373457	Not available
 1412666	children
+8416	35.4 yrs average
 1368113	At birth
 1368106	At birth
 1412676	children
@@ -159,36 +376,82 @@ tcell_id	h_age
 1368094	At birth
 1384807	10 years and older
 1384808	10 years and older
+1354064	young adult
+1368173	young adult
+1368181	young adult
+1353792	young adult
 1417746	children
 1332882	Adults and children (ages 4.5-10.5 and 15-44)
 1335357	6 weeks or older
 1347026	Adult (within 24 hours of parturition)
+1345888	Adults (40 year-old average)
+1345859	Adults (40 year-old average)
+1345872	Adults (40 year-old average)
+1355244	5, 8, 11 or 18 weeks
+1345883	Adults (40 year-old average)
 1337952	Adults (pregnant)
 1337953	Adults (pregnant)
 1337950	Adults (pregnant)
+1347291	Children and Adults
 1337967	Adults (pregnant)
 1368049	At birth
 2113240	< 12 hours
+1349347	Adults and children
+1349352	Adults and children
 1384786	10 years and older
+9427	18–64 years)
+9448	18–64 years)
+1336800	average age 29.8
+1336806	average age 29.8
+1336782	average age 29.8
+1336794	average age 29.8
+1342949	Adults and children
+1336807	average age 29.8
+1336780	average age 29.8
+8417	35.4 yrs average
 1368080	At birth
+1336811	average age 29.8
 1337947	Adults (pregnant)
+1409380	average age 35.1
 1468349	adults
 1468367	adults
+1336802	average age 29.8
 1412668	children
+8420	35.4 yrs average
+1336805	average age 29.8
 1003877	2 months or older
+1409374	average age 35.1
+1342950	Adults and children
+1349355	Adults and children
 1003887	2 months or older
+1342945	Adults and children
+1345885	Adults (40 year-old average)
+1345878	Adults (40 year-old average)
 1373460	Not available
+1332881	Adults (15-44)
+1345856	Adults (40 year-old average)
+1336788	average age 29.8
 1412671	children
 1417744	children
+1336801	average age 29.8
 1003879	2 months or older
+9440	18–64 years)
 1337968	Adults (pregnant)
+1345874	Adults (40 year-old average)
 1337973	Adults (pregnant)
 1337954	Adults (pregnant)
 1003866	2 months or older
 1474277	At least 8 weeks old
 1474280	At least 8 weeks old
+1355247	5, 8, 11 or 18 weeks
 1337948	Adults (pregnant)
+1491873	Adults and children
+1491875	Adults and children
+1491876	Adults and children
 2113241	< 12 hours
+1491886	Adults and children
+1491887	Adults and children
+1491888	Adults and children
 1478307	40 years or older
 1478324	40 years or older
 1478313	40 years or older
@@ -206,6 +469,11 @@ tcell_id	h_age
 1590007	Calves and cows
 1590008	Calves and cows
 1595550	older than 8 weeks
+2443333	68 years, and 70 years
+2443331	68 years, and 70 years
+2445360	young adult
+2443332	68 years, and 70 years
+2443334	68 years, and 70 years
 1595569	older than 8 weeks
 1595716	older than 8 weeks
 1595714	older than 8 weeks
@@ -217,13 +485,22 @@ tcell_id	h_age
 1635711	less than 30 years
 1635713	less than 30 years
 1635712	less than 30 years
+1409373	average age 35.1
+1409384	average age 35.1
+1409405	average age 35.1
+1409403	average age 35.1
+1409375	average age 35.1
 2751236	~ 31 to 55 years
 1008692	6 weeks or older
 1008034	6 weeks or older
+7922	37 yrs average
 2751227	~ 31 to 55 years
+1882616	6-8 weeks, and 4 months
 1865654	average of 30.2 years
 1865655	average of 30.2 years
 1865656	average of 30.2 years
+1882622	6-8 weeks, and 4 months
+1865858	Young adult
 1883833	Child
 1883828	Child
 1883830	Child
@@ -233,8 +510,16 @@ tcell_id	h_age
 1883837	Child
 1883838	Child
 1885316	Child
+1685377	Young adult
+1803434	20 - >65 years
+1685376	Young adult
 1685593	24 hours
+1661082	adult (>18 years)
 1685592	24 hours
+1664201	18-75 years (mean 39.1)
+1664202	18-75 years (mean 46)
+1664199	18-75 years (mean 46)
+1664195	18-75 years (mean 39.1)
 1684661	at least 8 weeks
 1684667	at least 8 weeks
 1684664	at least 8 weeks
@@ -242,6 +527,8 @@ tcell_id	h_age
 1684663	at least 8 weeks
 1684684	at least 8 weeks
 1684685	at least 8 weeks
+1682948	Young adult
+1682949	Young adult
 1689333	Fetal
 1689323	Fetal
 1689341	Fetal
@@ -252,33 +539,80 @@ tcell_id	h_age
 1685029	24 hours
 1700009	less than 24 hours
 1700008	less than 24 hours
+1694898	18-22 months or 4-6 months
+1694899	18-22 months or 4-6 months
+1694900	18-22 months or 4-6 months
+1694901	18-22 months or 4-6 months
+1694902	8 days or 4-6 months
+1694903	8 days or 4-6 months
+1694904	8 days or 4-6 months
 1685027	24 hours
 1685028	24 hours
+1685375	Young adult
 1702477	less than 24 hours
 1702479	less than 24 hours
 1702487	less than 24 hours
 1702488	less than 24 hours
+3001803	6 to 7 days or 8 to 12 weeks
+2381430	mean age 30 +/- 7 years
+2381429	mean age 30 +/- 7 years
+2381428	mean age 30 +/- 7 years
+2381432	mean age 30 +/- 7 years
+2381431	mean age 30 +/- 7 years
 1700936	24 hours
 1700934	24 hours
 1700954	24 hours
 1702486	less than 24 hours
+2381433	mean age 30 +/- 7 years
+1763748	Average age = 59.4
+1763749	Average age = 59.4
+1763750	Average age = 59.4
+1763751	Average age = 59.4
+1763752	Average age = 59.4
+1763753	Average age = 59.4
 1772264	newborns
 1772266	newborns
 1772267	adults
 1772269	adults
+2381427	mean age 30 +/- 7 years
 1780289	children
 1780873	children
+2445365	young adult
+2445366	young adult
 1780872	children
 1780849	children
 1780850	children
 1780871	children
+1781185	2, 12, or 20 months
+1781186	2, 12, or 20 months
+1781946	2, 12, or 20 months
 1795985	24 hours
 1795995	24 hours
 1795990	24 hours
+1803442	mean = 32.17±13.32 years
+1803443	mean = 32.17±13.32 years
+1803444	mean = 73±8.53 years
+1803445	mean = 73±8.53 years
+1803446	mean = 73±8.53 years
+1803447	mean = 73±8.53 years
+1803431	20 - >65 years
+1803432	20 - >65 years
+1803433	20 - >65 years
+1803435	20 - >65 years
+1803439	mean = 32.17±13.32 years
+1803440	mean = 32.17±13.32 years
+1803441	mean = 32.17±13.32 years
+1803448	mean = 73±8.53 years
+1336796	average age 29.8
 1337965	Adults (pregnant)
+1354055	young adult
 1806425	<24 hours
 1684665	at least 8 weeks
+1345869	Adults (40 year-old average)
 1368075	At birth
+1341179	Adults and children
+1345877	Adults (40 year-old average)
+1409376	average age 35.1
 2071740	mean of 12.2 years
 2071741	mean of 37.0 years
 2071742	mean of 12.2 years
@@ -305,6 +639,7 @@ tcell_id	h_age
 2071766	mean of 37.0 years
 2071767	mean of 37.0 years
 2071739	mean of 37.0 years
+2119187	6 to 8 weeks or 20 to 22 months
 1885315	Child
 1885313	Child
 1906527	mean age of 49 years
@@ -313,14 +648,56 @@ tcell_id	h_age
 1906530	mean age of 57 years
 1906531	mean age of 49 years
 1906532	mean age of 57 years
+1929389	7 days or 8-10 weeks
+1929388	7 days or 8-10 weeks
+1929390	7 days or 8-10 weeks
+1929391	7 days or 8-10 weeks
+1929392	7 days or 8-10 weeks
+1929393	7 days or 8-10 weeks
+1929386	7 days or 8-10 weeks
+1929394	7 days or 8-10 weeks
+1931131	Adult (6 weeks)
+1931129	Adult (6 weeks)
+1931130	Adult (6 weeks)
 1931491	fetal
+1967094	29 years ± 6.5
+1953947	10.5 years avg.
+1953950	10.5 years avg.
+1953956	10.5 years avg.
 2369229	30 years or younger
+1975586	32-66 years (mean = 50.3 year)
+1975591	32-66 years (mean = 50.3 year)
+1975592	32-66 years (mean = 50.3 year)
+1980285	8 to 10 weeks or 21 months
+1980287	8 to 10 weeks or 21 months
+1980280	8 to 10 weeks or 21 months
+1980283	8 to 10 weeks or 21 months
+1980284	8 to 10 weeks or 21 months
+1986245	2-3 months and 18-22 months
+1986246	2-3 months and 18-22 months
+1986247	2-3 months and 18-22 months
+1986248	2-3 months and 18-22 months
+1986249	2-3 months and 18-22 months
+1975588	32-66 years (mean = 50.3 year)
+1975589	32-66 years (mean = 50.3 year)
+1975590	32-66 years (mean = 50.3 year)
+1989395	2-3 months or 18-20 months
+1989396	2-3 months or 18-20 months
+1980250	8 to 10 weeks or 21 months
 2021467	Child
+2012491	6 to 8 weeks or 20 to 22 months
+2012242	6 to 8 weeks or > 18 months
+2012230	6 to 8 weeks or > 18 months
 1979430	<16 hours
 1979432	<16 hours
 1979433	<16 hours
 1979434	<16 hours
+2012250	6 to 8 weeks or > 18 months
+2012253	6 to 8 weeks or > 18 months
+2012265	6 to 8 weeks or > 18 months
+2012268	6 to 8 weeks or > 18 months
 2007154	children
+2012386	6 to 8 weeks or 20 to 22 months
 2007054	children
 2007055	children
 2007056	children
@@ -331,6 +708,7 @@ tcell_id	h_age
 2007062	children
 2007063	children
 2007073	children
+2012498	6 to 8 weeks or 20 to 22 months
 2007064	children
 2007075	children
 2007076	children
@@ -340,10 +718,18 @@ tcell_id	h_age
 2007080	children
 2007083	children
 2007085	children
+22731451	55 years (mean)
+2019207	18 to 35, or 65 to 95 years.
+2019208	18 to 35, or 65 to 95 years.
+2019209	18 to 35, or 65 to 95 years.
+2019210	18 to 35, or 65 to 95 years.
 2021473	Child
 2021470	Child
 2021471	Child
 2021472	Child
+2021747	6 to 8 weeks or 18 to 24 months
+2021748	6 to 8 weeks or 18 to 24 months
+2021773	6 to 8 weeks or 18 to 24 months
 2021827	Child
 2094943	1-8 mos
 2021474	Child
@@ -500,13 +886,43 @@ tcell_id	h_age
 2113233	< 12 hours
 2113234	< 12 hours
 2113235	< 12 hours
+2103693	2 years 8 months to 3 years 9 months
 2113242	< 12 hours
 2113243	< 12 hours
 2117523	prenatal
 2117507	prenatal
 2117528	prenatal
+2119188	6 to 8 weeks or 20 to 22 months
+2119759	10 weeks or 23 weeks
+2119760	10 weeks or 23 weeks
+2119761	10 weeks or 23 weeks
+2119762	10 weeks or 23 weeks
+2119763	10 weeks or 23 weeks
+2119764	10 weeks or 23 weeks
+2119765	10 weeks or 23 weeks
+2116073	8-10 weeks or 18-22 months
+2116074	8-10 weeks or 18-22 months
+2116075	8-10 weeks or 18-22 months
+2116076	8-10 weeks or 18-22 months
+2119189	6 to 8 weeks or 20 to 22 months
+2119190	6 to 8 weeks or 20 to 22 months
+2119191	6 to 8 weeks or 20 to 22 months
+2119192	6 to 8 weeks or 20 to 22 months
+2119193	6 to 8 weeks or 20 to 22 months
+2119194	6 to 8 weeks or 20 to 22 months
+2119195	6 to 8 weeks or 20 to 22 months
+2119196	6 to 8 weeks or 20 to 22 months
+2119197	6 to 8 weeks or 20 to 22 months
+2119198	6 to 8 weeks or 20 to 22 months
+2119199	6 to 8 weeks or 20 to 22 months
+2119200	6 to 8 weeks or 20 to 22 months
+2119201	6 to 8 weeks or 20 to 22 months
 2383123	embryonic day 15
 2749043	7 yo 8 weeks
+2396618	18-40 years, 65 years and over.
+2396619	18-40 years, 65 years and over.
+2396620	18-40 years, 65 years and over.
+2396621	18-40 years, 65 years and over.
 2369233	30 years or younger
 2369230	30 years or younger
 2369231	30 years or younger
@@ -516,7 +932,36 @@ tcell_id	h_age
 2369236	30 years or younger
 2369237	30 years or younger
 2369238	30 years or younger
+2484821	1 day, 7-8 days or adult
+2377657	mean age 35 +/- 11 years
 2369485	30 years or younger
+2377652	mean age 35 +/- 11 years
+2377653	mean age 35 +/- 11 years
+2377654	mean age 35 +/- 11 years
+2377655	mean age 35 +/- 11 years
+2377656	mean age 35 +/- 11 years
+2377658	mean age 35 +/- 11 years
+2445333	young adult
+2445339	young adult
+2445348	young adult
+2445336	young adult
+2445337	young adult
+2445340	young adult
+2445341	young adult
+2445342	young adult
+2445343	young adult
+2445344	young adult
+2445345	young adult
+2445346	young adult
+2445349	young adult
+2445351	young adult
+2445352	young adult
+2445353	young adult
+2445354	young adult
+2445356	young adult
+2445357	young adult
+2445355	young adult
+2445358	young adult
 2369488	30 years or younger
 2369489	30 years or younger
 2369486	30 years or younger
@@ -546,13 +991,68 @@ tcell_id	h_age
 2520399	average age=32 years
 2520400	average age=32 years
 2520401	average age=36.5 years
+3001805	6 to 7 days or 8 to 12 weeks
 2883750	children
 2883751	children
 2883763	children
 2883762	children
 2883764	children
+2851665	young adults
+2851666	young adults
+2851667	young adults
+2851668	young adults
+2851669	young adults
+2851670	young adults
+2851671	young adults
+2851672	young adults
+2851673	young adults
+2832946	young adults
+2851629	young adults
+2851630	young adults
+2851631	young adults
+2851632	young adults
+2851674	young adults
+2851675	young adults
+2851676	young adults
+2851677	young adults
+2851679	young adults
+2851680	young adults
+2832912	young adults
+2832913	young adults
+2832914	young adults
+2832915	young adults
+2832916	young adults
+2851633	young adults
+2851634	young adults
+2851635	young adults
+2832947	young adults
+2832948	young adults
+2832949	young adults
+2832950	young adults
+2832909	young adults
+2832910	young adults
+2832911	young adults
+2832951	young adults
+2832952	young adults
+2851636	young adults
+2851637	young adults
+2851638	young adults
+2851639	young adults
+2851640	young adults
+2851661	young adults
+2851662	young adults
+2851663	young adults
+2851664	young adults
+2832917	young adults
+2832918	young adults
+2832920	young adults
+2832921	young adults
 3114091	≥ 18 years
 3114092	≥ 18 years
+3786839	Neonates (3 or 7 days)
+3786840	Neonates (3 days)
+3786842	Neonates (3 days)
+3786843	Neonates (3 days)
 3806488	6 yo 8 weeks
 3806489	6 yo 8 weeks
 3806490	6 yo 8 weeks
@@ -612,25 +1112,48 @@ tcell_id	h_age
 3806509	6 yo 8 weeks
 3806510	6 yo 8 weeks
 3806511	6 yo 8 weeks
+4048063	22 to >60 years
 3806512	6 yo 8 weeks
 3806513	6 yo 8 weeks
 4990437	children
+3633522	12-16 weeks or 18-22 months
+3633523	12-16 weeks or 18-22 months
+3633524	12-16 weeks or 18-22 months
+3633525	12-16 weeks or 18-22 months
 5036413	18 years or older
 5036416	18 years or older
 5036418	18 years or older
 5036417	18 years or older
 3338660	≥ 18 years
 3338661	≥ 18 years
+3633504	12-16 weeks or 18-22 months
 3338662	≥ 18 years
 3338663	≥ 18 years
 3338664	≥ 18 years
 3338665	≥ 18 years
 4990400	children
+5566220	58.8 (average)
+5566222	58.8 (average)
+5566223	58.8 (average)
+5566224	58.8 (average)
+5566226	58.8 (average)
+5566227	58.8 (average)
+5566228	58.8 (average)
+5566229	58.8 (average)
+5566231	58.8 (average)
 6513383	19-72 Years
 6513387	19-72 Years
 5561884	10 weeks or older
+5566230	58.8 (average)
+5650285	Young adult
+5650287	Young adult
+5566969	58.8 (average)
 3806514	6 yo 8 weeks
+5566225	58.8 (average)
 2883752	children
+5566686	58.8 (average)
+5566702	58.8 (average)
+5566768	58.8 (average)
 11198342	Pediatric
 11189998	Pediatric
 11189999	Pediatric
@@ -638,6 +1161,7 @@ tcell_id	h_age
 11190001	Pediatric
 11190002	Pediatric
 11198343	Pediatric
+6286909	21, 25 and 44 years
 8270699	8 Weeks
 11198482	Pediatric
 6513412	19-72 Years
@@ -679,6 +1203,56 @@ tcell_id	h_age
 6362675	Mean age of 32.2 years with a range from 18 to 49 years
 6362676	Mean age of 32.2 years with a range from 18 to 49 years
 6362677	Mean age of 32.2 years with a range from 18 to 49 years
+5566751	58.8 (average)
+5566752	58.8 (average)
+5566753	58.8 (average)
+5566754	58.8 (average)
+5566761	58.8 (average)
+5566762	58.8 (average)
+5566763	58.8 (average)
+5566764	58.8 (average)
+5566765	58.8 (average)
+5566766	58.8 (average)
+5566767	58.8 (average)
+5566769	58.8 (average)
+5566770	58.8 (average)
+5566775	58.8 (average)
+5566776	58.8 (average)
+5566777	58.8 (average)
+5566778	58.8 (average)
+5566675	58.8 (average)
+5566676	58.8 (average)
+5566677	58.8 (average)
+5566678	58.8 (average)
+5566679	58.8 (average)
+5566680	58.8 (average)
+5566681	58.8 (average)
+5566682	58.8 (average)
+5566683	58.8 (average)
+5566684	58.8 (average)
+5566685	58.8 (average)
+5566687	58.8 (average)
+5566688	58.8 (average)
+5566689	58.8 (average)
+5566690	58.8 (average)
+5566692	58.8 (average)
+5566693	58.8 (average)
+5566694	58.8 (average)
+5566696	58.8 (average)
+5566697	58.8 (average)
+5566698	58.8 (average)
+5566699	58.8 (average)
+5566700	58.8 (average)
+5566701	58.8 (average)
+5566703	58.8 (average)
+5566704	58.8 (average)
+5566705	58.8 (average)
+5566970	58.8 (average)
+5566971	58.8 (average)
+5566972	58.8 (average)
+5566973	58.8 (average)
+5566974	58.8 (average)
+5566691	58.8 (average)
 6362612	Mean age of 32.2 years with a range from 18 to 49 years
 6362613	Mean age of 32.2 years with a range from 18 to 49 years
 6362614	Mean age of 32.2 years with a range from 18 to 49 years
@@ -952,6 +1526,10 @@ tcell_id	h_age
 11198304	Pediatric
 11198306	Pediatric
 11198309	Pediatric
+22905274	7 weeks or newborn
+22905275	7 weeks or newborn
+22905276	7 weeks or newborn
+22905277	7 weeks or newborn
 16888931	6 Weeks
 7110030	19-72 Years
 11190005	Pediatric
@@ -1203,7 +1781,11 @@ tcell_id	h_age
 17677300	children
 17677301	children
 1474276	At least 8 weeks old
+2851678	young adults
+1354063	young adult
+2832919	young adults
 7110052	19-72 Years
+1336790	average age 29.8
 22405231	4-18+ years
 22405232	4-18+ years
 22405235	4-18+ years
@@ -1211,5 +1793,20 @@ tcell_id	h_age
 22405239	4-18+ years
 22405176	4-18+ years
 22405177	4-18+ years
+22505570	55 years (mean)
+22505573	55 years (mean)
 6362678	Mean age of 32.2 years with a range from 18 to 49 years
 2021469	Child
+22505577	55 years (mean)
+22505579	55 years (mean)
+22505588	55 years (mean)
+22505589	55 years (mean)
+22511194	55 years (mean)
+22922830	2-day or 8-week
+22922835	2-day or 8-week
+22922829	2-day or 8-week
+22922836	2-day or 8-week
+22922837	2-day or 8-week
+22922838	2-day or 8-week
+22922824	2-day or 8-week
+22922826	2-day or 8-week
