@@ -13,6 +13,8 @@ def get_data_from_file(filename, data_dict, target_column):
         else:
             data_dict[rowdict[target_column]] = {}
             data_dict[rowdict[target_column]][target_column] = rowdict[target_column]
+            if "updated" in filename:
+                data_dict[rowdict[target_column]][f"new_{target_column}"] = rowdict[f"new_{target_column}"]
             data_dict[rowdict[target_column]]["occurrences"] = 1
     return data_dict
 
