@@ -1,0 +1,201 @@
+index	input_age	output_age
+21	12-65 years old	12-65 years
+105	8-12 weeks	8-12 weeks
+151	6-8 weeks	6-8 weeks
+161	6-8 weeks	6-8 eeksw
+165	18 to 65 years	18-65 years
+173	6-12 weeks	6-12 weeks
+218	6-12 weeks	6-12 weeks
+226	4-6 weeks	4-6 weeks
+250	8-10 weeks	8-10 weeks
+299	6-8 weeks old	6-8 weeks
+337	15-50 years old	38-305 years
+366	4-10 weeks	4-10 weeks
+393	18-30 years	18-30 years
+402	8 weeks-old	8 weeks
+413	19-59 years	19-59 years
+431	6-10 wk	6-10 weeks
+457	1 year	5 year
+482	5-6 weeks	5-6 weeks
+529	23-42 years	23-42 years
+535	35-55 years	35-55 years
+561	34-45 years	34-45 years
+617	6-10 weeks old	6-10 weeks
+622	8-10 weeks	8-10 weeks
+657	36 years	36 years
+663	21-39 years	21-39 years
+781	21-84 years	21-84 years
+797	34-35 years	34-35 years
+832	53 years	53 years
+846	6-7 weeks	6-7 weeks
+847	8 week-old	8 weeks
+880	18-65  years	18-65 years
+960	20-52 years	20-52 years
+1048	3-6 weeks	3-6 weeks
+1069	6 to 8 weeks	6-8 weeks
+1117	9.4 months	9.4 months
+1248	7-9 weeks	40-70 weeks
+1259	27-41 years	27-41 years
+1290	5 to 6 weeks	5-6 weeks
+1345	6 to 8 weeks old	6-8 weeks
+1462	adult	adult
+1560	8-12 weeks	8-12 weeks
+1564	6-12 weeks	6-12 weeks
+1612	8 to 12 weeks old	8-12 weeks
+1636	8-12 weeks	8-12 weeks
+1661	28-39 years	28-39 years
+1663	25-60 years	25-60 years
+1673	2-3 months	2-3 months
+1765	8-15 weeks	8-15 weeks
+1785	8 to 12 weeks	8-12 weeks
+1797	7-8 weeks	7-8 weeks
+1835	18-50 years old	18-50 years
+1847	4.1-15.2 years	4.1-15.2 years
+1854	5 weeks	5 weeks
+1884	6 weeks	6 weeks
+1896	3 weeks	3 weeks
+1903	5-8 weeks	5-8 weeks
+1946	24 to 46 years	24-46 years
+1974	55-60 years	55-60 years
+2123	2-62 years	2-62 years
+2145	>6 weeks	>6 weeks
+2217	8 to 10 weeks	8-10 weeks
+2369	8-12 weeks	8-12 weeks
+2371	2 to 3 months	2-3 months
+2422	8 to 13 weeks	8-13 weeks
+2441	8-12 weeks	8-12 weeks
+2443	10 to 14 weeks	10-14 weeks
+2450	2 to 4 months	2-4 months
+2452	22 to 59 years	22-59 years
+2453	24 to 48 years	24-48 years
+2470	39-43 years	39-43 years
+2510	5.4-16.4 years	5.4-16.4 years
+2530	5-20 weeks	5-20 weeks
+2576	26-50 years	26-50 years
+2636	23-78 years	23-78 years
+2686	13 to 67 months	13-67 months
+2767	12 to 26 weeks	12-26 weeks
+2803	8 to 12 weeks	8-12 weeks
+2808	6 to 7 weeks	6-7 weeks
+2816	31 to 62 years	31-62 years
+2885	27-87 years	27-87 years
+2913	9-11 weeks	9-11 weeks
+3026	2 to 4 monts	2-4 months
+3029	8-10 weeks	8-10 weeks
+3128	1-85 years	1-85 years
+3139	6-10 weeks	6-10 weeks
+3144	55-66 years	55-66 years
+3248	22-57 years	22-57 years
+3259	39-50 years	39-50 years
+3262	4-15 months	4-15 months
+3334	8-10 weeks old	8-10 weeks
+3421	8 weeks	8 kswee
+3429	22 - 53 years	22-53 years
+3500	22 to 26 months	48-177 months
+3542	9.5 months	9.5 months
+3546	8 months	8 months
+3640	20-58 years-old	20-58 years
+3755	22-43 years-old	22-43 years
+3824	5-8 weeks	5-8 weeks
+3896	average age = 48 years	mean: 48 years
+3902	30-48 years old	30-48 years
+3905	23 to 57 years	23-57 years
+3906	4 weeks	4 weeks
+3918	12 to 14 weeks	12-14 weeks
+3923	9 to 65 years	9-65 years
+3966	8-12 weeks	8-12 weeks
+4000	14-38 years	14-38 years
+4071	8-16 weeks	8-16 weeks
+4101	12 to 62 years	12-62 years
+4224	14-28 years	14-28 years
+4237	46-86 years	46-86 years
+4272	6-12 weeks	6-12 weeks
+4303	6 to 10 weeks	6-10 weeks
+4315	4-8 years	4-8 years
+4322	18-69 years	18-69 years
+4396	6-33 years	28-102 years
+4405	24 weeks	24 weeks
+4429	22 to 71 years	22-71 years
+4453	46.6 to 63.4 years	46.6-63.4 years
+4466	51-58 years	51-58 years
+4479	12 to 14 weeks	12-14 weeks
+4549	38-75 years	38-75 years
+4560	34-60 years	34-60 years
+4580	86 years	86 years
+4593	10 to 18 weeks	10-18 weeks
+4704	63-68 years	63-68 years
+4783	23 to 39 years	230-35 years
+4865	72-76 years	72-76 years
+4883	1-84 years old	1-84 years
+4922	3 month old	3 months
+4973	608 weeks	608 weeks
+4977	17-42 years-old	17-42 years
+4984	6 week-old	6 weeks
+5006	18 to 66 years	18-66 years
+5039	1-6 months	1-6 months
+5067	2 months	2 months
+5131	7 to 77 years	7-77 years
+5171	18 to 73 years	18-73 syear
+5201	19-60 years	19-60 years
+5217	8 weeks	8 weeks
+5241	37-75 years	37-75 years
+5262	6 - 8 wo	6-8 weeks
+5275	59-67 years	59-67 years
+5304	3-5 weeks old	3-5 weeks
+5306	3 weeks	3 weeks
+5322	4 months old	4 months
+5366	6-8 weeks old	6-8 weeks
+5415	5-80 years	5-80 years
+5450	24-83 years	24-83 years
+5460	6 to 69 years	6-69 years
+5474	24 to 61 years	24-61 years
+5489	6 to 28 years	6-28 years
+5528	17-84 years	17-84 years
+5572	19-45 years	19-45 years
+5573	12-68 years	12-68 years
+5604	17-49 years	17-49 years
+5656	4 months	4 months
+5666	Adult	adult
+5786	10-39 years	10-39 years
+5843	14 days	14 days
+5877	8-12 weeks	8-12 weeks
+5924	6-8 weeks	6-8 weeks
+5950	15-83 years	15-83 years
+5965	5 months	5 months
+5990	15-73 years	15-73 years
+5991	26-47 years	26-47 years
+5997	23-66 years old	23-66 years
+6053	5 to 6 weeks	5-6 weeks
+6058	26-61 years	26-61 years
+6060	75.9 +/- 7.5 years	75.9 ± 7.5 years
+6109	63 years	63 years
+6124	30-63 years	30-63 years
+6144	48 +/- 12 years	48 ± 12 years
+6210	10-15 years	10-15 years
+6240	6 weeks	6 weeks
+6323	3 months	3 months
+6326	37-57 years	37-57 years
+6352	mean age = 40.3 years	mean: 40.3 years
+6377	2 to 53 years	2-53 years
+6434	4 years	4 years
+6513	1 to 66 years	1-66 years
+6565	19-66 years	19-66 years
+6683	8 to 9 weeks	8-9 weeks
+6707	23 to 59 years	23-59 years
+6724	6 weeks	6 weeks
+6736	2-7 years	2-7 years
+6846	28-56 years	28-56 years
+6875	8-15 weeks	8-15 weeks
+6903	mean age = 66.3 years	mean: 66.3 years
+6933	6 weeks	6 weeks
+6964	39-77 years	39-77 years
+6968	50 to 71 years	50-71 years
+6984	4-11 months	4-11 months
+7002	24 to 65 yesrs	24-65 years
+7006	7 - 8 weeks	7-8 weeks
+7084	3-5 years	3-5 years
+7110	mean 59 years	mean: 59 years
+7113	21-40 years	21-40 years
+7126	4-week-old	4 weeks
+7165	8-20 weeks	8-20 weeks
+7191	25 to 87 years	25-87 years

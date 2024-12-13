@@ -1,0 +1,9 @@
+index	true_input	true_output	errored_output
+11308	FIGURE 3, FIGURE 5, FIGURE 6	['figure 3', 'figure 5', 'figure 6']	['figure 28', 'figure 10', 'figure 34']
+13320	Figure 4 and Data File S2	['figure 4', 'data s2']	['figure 153', 'data s15']
+28669	Figures 1, 2, Supplementary Figures 2 and 5	['figure 1', 'figure 2', 'figure 2', 'figure 5']	['iguref 1', 'iguref 2', 'iguref 2', 'iguref 5']
+42974	Figures 2, 5, Supplementary Table S6	['figure 2', 'figure 5', 'table s6']	['figure 13', 'figure 137', 'table s37']
+49784	Figures 3, 7, Supplementary Figures 2, 3 and 2	['figure 3', 'figure 7', 'figure 2', 'figure 3', 'figure 2']	['iguref 3', 'iguref 7', 'iguref 2', 'iguref 3', 'iguref 2']
+54660	Figures 5 and 9	['figure 5', 'figure 9']	['figure 24', 'figure 82']
+58071	Figures S1 and S9	['figure s1', 'figure s9']	['figure s2', 'figure s51']
+306870	Tables II, III IV and V, Figures 1, 2	['table 2', 'table 3', 'table 4', 'table 5', 'figure 1', 'figure 2']	['table 11', 'table 19', 'table 4', 'table 4', 'figure 1', 'figure 11']
