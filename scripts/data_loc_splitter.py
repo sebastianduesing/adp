@@ -107,6 +107,7 @@ def split_data_loc(string):
     # Convert lists of prefixes and types into regex patterns, escaping each entry properly
     prefixes = ["extended data",
                 "supplemental",
+                "supplementary",
                 "supporting",
                 "additional",
                 "extended"]
