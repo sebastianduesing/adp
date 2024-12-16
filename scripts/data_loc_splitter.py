@@ -167,13 +167,24 @@ def split_data_loc(string):
             current_type = f"{prefix}{type}".strip()
 
         # After identifying the type, extract all numbers from the segment
-        numbers = re.findall(r"\bs?\d+[a-zA-Z]?(?:[\s&]*[a-zA-Z])*\b", segment)
+        numbers = re.findall(r"\bs?\d+[a-zA-Z]?(?:[\s&-]*[a-zA-Z0-9])*\b", segment)
         for number in numbers:
             if r"&" in number:
                 base_number = re.match(r"s?\d+", number).group(0)
                 parts = re.split(r"&", number)
                 for i, part in enumerate(parts):
                     results.append(f"{current_type} {base_number}{part}" if i != 0 else f"{current_type} {part}")
+            elif re.match(r"\d-\d", number):
+                range_ends = re.findall(r"\d+", number)
+                for i in range(int(range_ends[0]), int(range_ends[1])+1):
+                    results.append(f"{current_type} {i}")
+            elif re.match(r"\d+[a-z]-[a-z]", number):
+                alphanumeric_range = re.match(r"(\d+)([a-z])-([a-z])", number)
+                base_number = alphanumeric_range.group(1)
+                start_letter = alphanumeric_range.group(2)
+                end_letter = alphanumeric_range.group(3)
+                for i in range(ord(start_letter), ord(end_letter) + 1):
+                    results.append(f"{current_type} {base_number}{chr(i)}")
             elif current_type:
                 results.append(f"{current_type} {number}")
                 base_number = re.match(r"s?\d+", number).group(0)
