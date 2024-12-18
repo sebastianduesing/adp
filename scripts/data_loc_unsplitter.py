@@ -20,9 +20,9 @@ def make_clean_output(output_dict):
     output_list = []
     for category, contents in output_dict.items():
         if len(contents) > 1:
-            category_string = f"{category}s: "
+            category_string = f"{category}s "
         else:
-            category_string = f"{category}: "
+            category_string = f"{category} "
         content_string = ", ".join(contents)
         full_string = category_string + content_string
         output_list.append(full_string)
@@ -39,13 +39,16 @@ def write_clean_output_col(data_dict, clean_outputs, original_column):
         f"word_normalized_{original_column}",
         "word_distance_score",
     ]
+    working_id = None
     for index, rowdict in data_dict.items():
         for column in unused_cols:
             del rowdict[column]
-        if rowdict["original_index"] in clean_outputs.keys():
-            rowdict["clean_output"] = clean_outputs[rowdict["original_index"]]
+        og_id = rowdict["original_index"]
+        if og_id in clean_outputs.keys() and og_id != working_id:
+            rowdict["clean_output"] = clean_outputs[og_id]
         else:
             rowdict["clean_output"] = ""
+        working_id = og_id
     return data_dict
 
 
