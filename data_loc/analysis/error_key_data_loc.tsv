@@ -1,8 +1,4 @@
 index	true_input	true_output	errored_output
-17042	Figure 5, Table 2 and PDB 3K3Q	['figure 5', 'table 2', 'pdb 3k3q']	['figure 4', 'table 4', 'pdb 12k12q']
-35541	Figures 1E, 3, 4D and 4F	['figure 1e', 'figure 3', 'figure 4d', 'figure 4f']	['figure 5e', 'figure 18', 'figure 233d', 'figure 233f']
-38219	Figures 2, 3, 4, and 5 and Tables 2, 3, 4, and 5	['figure 2', 'figure 3', 'figure 4', 'figure 5', 'table 2', 'table 3', 'table 4', 'table 5']	['figure 2', 'figure 3', 'figure 4', 'figure 5', 'bleta 2', 'bleta 3', 'bleta 4', 'bleta 5']
-42190	Figures 2, 4, S6 and S7	['figure 2', 'figure 4', 'figure s6', 'figure s7']	['figure 9', 'figure 12', 'figure s150', 'figure s50']
-43555	Figures 2, S1, Tables S1, S2, S3, and PDB 6PLK	['figure 2', 'figure s1', 'table s1', 'table s2', 'table s3', 'pdb 6plk']	['efigur 2', 'efigur s1', 'table s1', 'table s2', 'table s3', 'pdb 6plk']
-52324	Figures 4, 5, 7, Supplementary Figures S1, Table 1, Supplementary Tables S1, S4 and PDB 4JFD	['figure 4', 'figure 5', 'figure 7', 'supplementary figure s1', 'table 1', 'supplementary table s1', 'supplementary table s4', 'pdb 4jfd']	['figure 4', 'figure 5', 'figure 7', 'supplementary figure s1', 'bleta 1', 'supplementary bleta s1', 'supplementary bleta s4', 'pdb 4jfd']
-309153	Text page 199	['page 199']	['agep 199']
+19069	Figure 8 and Text P. 1864	figure 8; page 1864	figure 8; agep 1864
+43512	Figures 2, S1, Table S1, and PDB 7AHV	figures 2, s1; table s1; PDB ID 7ahv	figures 20, s4; table s4; PDB ID 50ahv
+296240	Table 3, 10	tables 3, 10	tables 27, 8
