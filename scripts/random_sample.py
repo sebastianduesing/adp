@@ -33,6 +33,8 @@ def get_selectable_data(data, style, target_column):
         if "split_phrase_count" in rowdict.keys():
             if rowdict["split_phrase_count"] == "":
                 selectable_line = False
+            if rowdict["phrase_validity_rate"] != "1.0":
+                selectable_line = False
         if rowdict["phrase_type"] == "url":
             selectable_line = False
         if selectable_line:
