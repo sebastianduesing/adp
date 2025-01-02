@@ -16,6 +16,9 @@ def get_error_count(line_count):
 
 
 def get_selectable_data(data, style, target_column):
+    """
+    Get a dict of index-row pairs for the random line selector to pick from.
+    """
     selectable_data = {}
     if target_column == "location":
         output_column = "clean_output"
@@ -45,6 +48,9 @@ def get_selectable_data(data, style, target_column):
 
 
 def pick_random_sample(selectable_data, line_count):
+    """
+    Select desired number of lines randomly from dict of viable lines.
+    """
     index_list = [i for i in selectable_data.keys()]
     sampled_indices = random.sample(index_list, line_count)
     selected_data = {}
@@ -55,6 +61,9 @@ def pick_random_sample(selectable_data, line_count):
 
 
 def generate_error(data_item):
+    """
+    Create an intentional error in a data item string.
+    """
     numbers = re.findall(r"\d+\.?\d*", data_item)
     seed = random.randint(0, 9)
     if numbers and seed > 4:
@@ -73,6 +82,9 @@ def generate_error(data_item):
 
 
 def insert_errors(selected_data, error_count, style):
+    """
+    Randomly place intentional errors in the output.
+    """
     index_list = [i for i in selected_data.keys()]
     error_indices = random.sample(index_list, error_count)
     error_info = {}
@@ -94,6 +106,9 @@ def insert_errors(selected_data, error_count, style):
 
 
 def main():
+    """
+    Randomly select a sample of lines and insert some random intentional errors.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--style", "-s", type=str,
                         help="Data style, e.g., age or data_loc")
