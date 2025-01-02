@@ -26,7 +26,7 @@ def make_clean_output(output_dict):
         content_string = ", ".join(contents)
         full_string = category_string + content_string
         output_list.append(full_string)
-    output_string = "; ".join(sorted(output_list))
+    output_string = "; ".join(output_list)
     return output_string
 
 
