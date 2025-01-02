@@ -18,7 +18,7 @@ def get_error_count(line_count):
 def get_selectable_data(data, style, target_column):
     selectable_data = {}
     if target_column == "location":
-        output_column = "split_word_normalized_location"
+        output_column = "clean_output"
     else:
         output_column = f"phrase_normalized_{target_column}"
     selected_columns = {
@@ -109,7 +109,10 @@ def main():
         error_count = args.errors
     else:
         error_count = get_error_count(line_count)
-    infile = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
+    if style == "data_loc":
+        infile = os.path.join(style, "output_files", f"p_norm_{style}_clean.tsv")
+    else:
+        infile = os.path.join(style, "output_files", f"p_norm_{style}.tsv")
     outfile = os.path.join(style, "analysis", f"random_sample_{style}.tsv")
     outdata = os.path.join(style, "analysis", f"error_key_{style}.tsv")
     data = TSV2dict(infile)
