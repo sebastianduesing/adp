@@ -1,4 +1,4 @@
 index	true_input	true_output	errored_output
-19069	Figure 8 and Text P. 1864	figure 8; page 1864	figure 8; agep 1864
-43512	Figures 2, S1, Table S1, and PDB 7AHV	figures 2, s1; table s1; PDB ID 7ahv	figures 20, s4; table s4; PDB ID 50ahv
-296240	Table 3, 10	tables 3, 10	tables 27, 8
+2211	Figure 1,  Supplemental Table S1 and S2	figure 1; supplemental tables s1, s2	figure 1; ementalsuppl tables s1, s2
+55437	Figures 5, 6, S6, Table S5 and PDB 6P65	figures 5, 6, s6; table s5; PDB ID 6p65	figures 12, 44, s44; table s12; PDB ID 44p4412
+287753	Supplementary Table 1-2 and PDB 4XPT	supplementary tables 1, 2; PDB ID 4xpt	supplementary tables 5, 8; PDB ID 3xpt
