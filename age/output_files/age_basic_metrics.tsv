@@ -1,0 +1,10 @@
+metric	value
+Character stage validation pass rate	0.9997
+Word stage validation pass rate	0.986
+Phrase stage validation pass rate	0.8428
+Character stage Levenshtein distance score median	0.0
+Character stage Levenshtein distance score mean	0.3669
+Character stage Levenshtein distance score standard deviation	1.1145
+Word stage Levenshtein distance score median	1
+Word stage Levenshtein distance score mean	1.3672
+Word stage Levenshtein distance score standard deviation	1.443
