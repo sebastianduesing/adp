@@ -165,7 +165,7 @@ if __name__ == "__main__":
     input_file = os.path.join(style, "output_files", f"w_norm_{style}.tsv")
     word_review_file = os.path.join(style, "output_files", "word_review.tsv")
     word_reference_file = os.path.join(style, "output_files", "word_reference.tsv")
-    type_file = os.path.join(style, "input_files", f"{style}_phrase_types.tsv")
+    type_file = os.path.join(style, "output_files", f"{style}_phrase_types.tsv")
     if not os.path.isfile(type_file):
         create_phrase_type_sheet(type_file)
     word_review_dict = TSV2dict(word_review_file)
