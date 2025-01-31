@@ -85,7 +85,7 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
         invalid_words = identify_invalid_words(data_item)
         rowdict["word_validation"] = tk.validate(invalid_words, "string")
         if tk.validate(invalid_words, "boolean"):
-            rowdict[new_column] = data_item
+            rowdict[new_column] = data_item.strip()
         else:
             review_dict, reference_dict, data_item, allowed_words = tk.handle_invalid_items(
                 style,
@@ -103,7 +103,7 @@ def normalize_words(style, data_file, original_column, review_file, reference_fi
                     invalid_words.remove(word)
             rowdict["word_validation"] = tk.validate(invalid_words, "string")
             if tk.validate(invalid_words, "boolean"):
-                rowdict[new_column] = data_item
+                rowdict[new_column] = data_item.strip()
             else:
                 rowdict[new_column] = f"! Invalid words: {sorted(invalid_words)} !"
         rowdict = tk.evaluate_ld(rowdict,
