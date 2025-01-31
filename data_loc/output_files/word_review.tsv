@@ -510,7 +510,7 @@ index	unknown_word	pdb_plausible?	context	occurrences	category	replace_with	remo
 2677	a2	N	'figures 1, 2, 3, a2, a3', 'figures 1, 4, and a2', 'supplementary fig s2 a2,a3,b2,c2', 'figure 1, 2, 3, a2, a3', 'figure 1, 4, and a2', 'supplementary figure s2 a2,a3,b2,c2'	3					
 2799	suplementary	N	'figures 1, 2, and 3, tables 1, 2, and 3, supplementary figure 2, and suplementary tables 2 and 3', 'figures 2, 3, 4, and 5 and suplementary figures s5 and s6', 'figures 2a, 3a and suplementary figure 3', 'suplementary figure s1', 'table 1 and suplementary figure 2', 'table 1 and suplementary figure 4'	8					
 2962	ngw	N	'figures 1, 3, 4, table 1 and pdb 1 ngw', 'figure 1, 3, 4, table 1 and pdb 1 ngw'	1					
-2976	5wm	N	'figures 1, 3, s1, s2, s3, s6, tables s1, s2 and pdb 5wm', 'figure 1, 3, s1, s2, s3, s6, table s1, s2 and pdb 5wm', 'figures 1, 3, s1, s2, s3, s6, table s1, s2 and pdb 5wm'	1					
+2976	5wm	N	'figures 1, 3, s1, s2, s3, s6, tables s1, s2 and pdb 5wm', 'figure 1, 3, s1, s2, s3, s6, table s1, s2 and pdb 5wm', 'figures 1, 3, s1, s2, s3, s6, table s1, s2 and pdb 5wm', 'figure 1, 3, s1, s2, s3, s6, tables s1, s2 and pdb 5wm'	1					
 3048	s3f	N	'figures 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figure 1, 4, table 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figures 1, 4, table 2, s3a, s3b, s3c, s3d, s3e, s3f', 'figure 1, 4, tables 2, s3a, s3b, s3c, s3d, s3e, s3f'	1					
 3065	suuplementary	N	'figures 1, 6 and suuplementary figure 1', 'figure 1, 6 and suuplementary figure 1'	1					
 3067	aditional	N	'figures 1, 6, aditional file 1, table 1', 'figure 1, 6, aditional file 1, table 1'	1					
