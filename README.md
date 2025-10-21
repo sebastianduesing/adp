@@ -73,3 +73,30 @@ For example, consider the following row from the age dataset's phrase type sheet
 | range | `[number(0)][range_indicator(1)][number(2)][unit(3)]` | Y | `[0]-[2] [3]` |
 
 The string "6 to 8 weeks" matches the pattern specified in this row. The `standard_form` column indicates how those elements of the pattern should be rearranged into the final string; in this case, elements 0 and 2 are the numbers "6" and "8", while element 3 is the unit "weeks". So "6 to 8 weeks" is standardized into "6-8 weeks", adopting the hyphen and spacing from the string in the `standard_form` column.
+
+### Programmatic usage and Excel export
+
+The normalization stages can also be orchestrated in-memory without producing intermediate TSV files. The helper module [`scripts/normalization_pipeline.py`](scripts/normalization_pipeline.py) exposes a dataframe-first workflow with utilities to:
+
+- Share a single set of review & reference files across multiple tables.
+- Run character, word, and phrase normalization in sequence for each table.
+- Aggregate results (including partially-normalized values) and export just the rows whose normalized locations differ from the originals.
+
+See the `normalize_csv_to_stream` helper inside that module for an end-to-end example. It accepts Pandas dataframes (or CSV chunks), optional asset locations, and streams only changed rows to per-table CSVs.
+
+To normalize CSV exports from the SQL database:
+
+1. Export each table as `<table>.csv` (e.g., `epitope.csv`, `mhc_bind.csv`) and place the files in `data_loc/input_files/sql_exports/`.
+2. Each CSV must include the required identifier and location columns:
+   - `epitope`: `reference_id`, `epitope_id`, `e_location`
+   - `mhc_bind`: `reference_id`, `mhc_bind_id`, `as_location`
+   - `mhc_elution`: `reference_id`, `mhc_elution_id`, `as_location`
+   - `tcell`: `reference_id`, `tcell_id`, `as_location`
+   - `bcell`: `reference_id`, `bcell_id`, `as_location`
+   You can override the location column per table via the `table:column` syntax if needed.
+3. Run:
+   ```
+   python3 scripts/normalize_csv_tables.py --chunk-size 50000 --persist-assets
+   ```
+   Adjust flags as needed; the script writes per-table outputs to `data_loc/analysis/normalized_exports/<table>-normalized.csv` and records a summary in `normalized_exports/normalized_summary.csv`.
+   Each output file contains only the rows where a non-empty normalized value differs from the source value, with an added `new e_location` / `new as_location` column as appropriate. The `--chunk-size` option controls how many input rows are processed at a time so very large tables can be normalized without exhausting system memory.

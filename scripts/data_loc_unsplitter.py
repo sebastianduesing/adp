@@ -30,7 +30,7 @@ def make_clean_output(output_dict):
     return output_string
 
 
-def write_clean_output_col(data_dict, clean_outputs, original_column):
+def write_clean_output_col(data_dict, clean_outputs, original_column, drop_intermediate=True):
     unused_cols = [
         "char_validation",
         f"char_normalized_{original_column}",
@@ -41,30 +41,37 @@ def write_clean_output_col(data_dict, clean_outputs, original_column):
     ]
     working_id = None
     for index, rowdict in data_dict.items():
-        for column in unused_cols:
-            del rowdict[column]
+        if drop_intermediate:
+            for column in unused_cols:
+                if column in rowdict:
+                    del rowdict[column]
         og_id = rowdict["original_index"]
         if og_id in clean_outputs.keys() and og_id != working_id:
-            rowdict["clean_output"] = clean_outputs[og_id]
+            meta = clean_outputs[og_id]
+            rowdict["clean_output"] = meta.get("clean_output", "")
+            rowdict["clean_output_status"] = meta.get("clean_output_status", "")
+            rowdict["clean_output_notes"] = meta.get("clean_output_notes", "")
         else:
             rowdict["clean_output"] = ""
+            rowdict["clean_output_status"] = ""
+            rowdict["clean_output_notes"] = ""
         working_id = og_id
     return data_dict
 
 
-def unsplit(data_dict, original_column):
+def unsplit(data_dict, original_column, include_partial=True, drop_intermediate=True):
     clean_outputs = {}
     index_lookup = make_part_index(data_dict)
     for og_id, line_ids in index_lookup.items():
         output = {}
         rows = {}
         starter_row = line_ids[0]
-        if data_dict[starter_row]["phrase_validity_rate"] != "1.0":
-            continue
         for line_id in line_ids:
             rows[line_id] = data_dict[line_id]
         for line_id, row in rows.items():
             phrase = row[f"phrase_normalized_{original_column}"]
+            if row["phrase_validation"] != "pass":
+                continue
             if row["phrase_type"] == "url":
                 output["URL"] = [phrase,]
             if row["phrase_type"] in ["format_number", "loc_number", "loc_format_number"]:
@@ -87,9 +94,32 @@ def unsplit(data_dict, original_column):
                     value_list = output[category]
                     value_list.append(number)
                     output[category] = value_list
-        output_string = make_clean_output(output)
-        clean_outputs[og_id] = output_string
-    data_dict = write_clean_output_col(data_dict, clean_outputs, original_column)
+
+        validation_states = {rows[line_id]["phrase_validation"] for line_id in line_ids}
+        if output:
+            output_string = make_clean_output(output)
+        else:
+            output_string = ""
+        if validation_states == {"pass"}:
+            status = "full"
+        elif "pass" in validation_states and include_partial:
+            status = "partial"
+        elif "fail" in validation_states:
+            status = "fail"
+        elif "stopped" in validation_states:
+            status = "stopped"
+        else:
+            status = "unknown"
+        notes = ", ".join(sorted(validation_states))
+        clean_outputs[og_id] = {
+            "clean_output": output_string,
+            "clean_output_status": status,
+            "clean_output_notes": notes
+        }
+    data_dict = write_clean_output_col(data_dict,
+                                       clean_outputs,
+                                       original_column,
+                                       drop_intermediate=drop_intermediate)
     return data_dict
 
 

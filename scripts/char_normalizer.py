@@ -1,21 +1,35 @@
 import os
 import re
 import sys
+from dataclasses import dataclass
+from typing import Dict, Optional, Tuple
+
 import toolkit as tk
 from converter import TSV2dict, dict2TSV
+from normalization_utils import (
+    dataframe_to_indexed_dict,
+    dict_to_dataframe,
+    ensure_dict,
+)
+
+DEFAULT_APPROVED_CHARS = r"[a-z\d ,.+/<>()\-:_]"
 
 
-approved_chars = r"[a-z\d ,.+/<>()-:]"
+@dataclass
+class CharNormalizationResult:
+    data: Dict[int, Dict[str, str]]
+    review: Dict[int, Dict[str, str]]
+    reference: Dict[int, Dict[str, str]]
+    changes: Dict[int, Dict[str, str]]
 
 
-def identify_invalid_chars(string):
+def identify_invalid_chars(string: str, allowed_pattern: str) -> set:
     """
     Return a set of invalid characters found in input string.
     """
     invalid_chars = set()
     for char in string:
-        m = re.fullmatch(approved_chars, char)
-        if not m:
+        if not re.fullmatch(allowed_pattern, char):
             invalid_chars.add(char)
     return invalid_chars
 
@@ -43,7 +57,13 @@ def track_basic_normalization(data_item, index):
     return data_stripped, item_change_dict
 
 
-def normalize_chars(style, data_file, target_column, review_file, reference_file):
+def normalize_chars_dict(style: str,
+                         data_dict: Dict[int, Dict[str, str]],
+                         target_column: str,
+                         review_dict: Optional[Dict[int, Dict[str, str]]] = None,
+                         reference_dict: Optional[Dict[int, Dict[str, str]]] = None,
+                         approved_chars_pattern: str = DEFAULT_APPROVED_CHARS
+                         ) -> CharNormalizationResult:
     """
     Performs character normalization on target_column in data_file.
 
@@ -52,25 +72,18 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
     items if possible, and if no replacement has been specified, adds them to
     review file for manual review.
     """
-    data_dict = TSV2dict(data_file)
     output_column = f"char_normalized_{target_column}"
     char_change_dict = {}
+    review_dict = ensure_dict(review_dict)
+    reference_dict = ensure_dict(reference_dict)
     allowed_chars = set()
-    if os.path.isfile(review_file):
-        review_dict = TSV2dict(review_file)
-    else:
-        review_dict = {}
-    if os.path.isfile(reference_file):
-        reference_dict = TSV2dict(reference_file)
-    else:
-        reference_dict = {}
     review_dict, reference_dict, allowed_chars = tk.update_reference(review_dict, reference_dict, allowed_chars)
     review_dict = tk.clean_occurrences(review_dict)
     for index, rowdict in data_dict.items():
         data_item = rowdict[target_column]
         data_item, changes = track_basic_normalization(data_item, index)
         char_change_dict[index] = changes
-        invalid_chars = identify_invalid_chars(data_item)
+        invalid_chars = identify_invalid_chars(data_item, approved_chars_pattern)
         rowdict["char_validation"] = tk.validate(invalid_chars, "string")
         if tk.validate(invalid_chars, "boolean"):
             rowdict[output_column] = data_item
@@ -85,7 +98,7 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                 allowed_chars,
                 None
             )
-            invalid_chars = identify_invalid_chars(data_item)
+            invalid_chars = identify_invalid_chars(data_item, approved_chars_pattern)
             for char in invalid_chars.copy():
                 if char in allowed_chars:
                     invalid_chars.remove(char)
@@ -98,12 +111,51 @@ def normalize_chars(style, data_file, target_column, review_file, reference_file
                                  "char",
                                  target_column,
                                  output_column)
+    return CharNormalizationResult(data_dict, review_dict, reference_dict, char_change_dict)
+
+
+def normalize_chars_dataframe(style: str,
+                              dataframe,
+                              target_column: str,
+                              review_df=None,
+                              reference_df=None,
+                              approved_chars_pattern: str = DEFAULT_APPROVED_CHARS) -> Tuple:
+    """
+    Convenience wrapper to run character normalization on pandas DataFrames.
+    """
+    data_dict = dataframe_to_indexed_dict(dataframe)
+    review_dict = dataframe_to_indexed_dict(review_df)
+    reference_dict = dataframe_to_indexed_dict(reference_df)
+    result = normalize_chars_dict(style,
+                                  data_dict,
+                                  target_column,
+                                  review_dict,
+                                  reference_dict,
+                                  approved_chars_pattern)
+    normalized_df = dict_to_dataframe(result.data)
+    review_out_df = dict_to_dataframe(result.review)
+    reference_out_df = dict_to_dataframe(result.reference)
+    changes_df = dict_to_dataframe(result.changes)
+    return normalized_df, review_out_df, reference_out_df, changes_df
+
+
+def normalize_chars(style, data_file, target_column, review_file, reference_file,
+                    approved_chars_pattern: str = DEFAULT_APPROVED_CHARS):
+    data_dict = TSV2dict(data_file)
+    review_dict = TSV2dict(review_file) if os.path.isfile(review_file) else {}
+    reference_dict = TSV2dict(reference_file) if os.path.isfile(reference_file) else {}
+    result = normalize_chars_dict(style,
+                                  data_dict,
+                                  target_column,
+                                  review_dict,
+                                  reference_dict,
+                                  approved_chars_pattern)
     output_path = os.path.join(style, "output_files", f"c_norm_{style}.tsv")
-    dict2TSV(data_dict, output_path)
-    if len(review_dict.keys()) != 0:
-        dict2TSV(review_dict, review_file)
-    if len(reference_dict.keys()) != 0:
-        dict2TSV(reference_dict, reference_file)
+    dict2TSV(result.data, output_path)
+    if len(result.review.keys()) != 0:
+        dict2TSV(result.review, review_file)
+    if len(result.reference.keys()) != 0:
+        dict2TSV(result.reference, reference_file)
 
 
 if __name__ == "__main__":

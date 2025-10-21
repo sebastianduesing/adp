@@ -9,6 +9,9 @@
 # Ignore personal scripts
 scripts/jb_funcs
 
+# Ignore data location sql dumps
+data_loc/input_files/sql_exports/*
+
 # Ignore .DS_Store
 .DS_Store
 
